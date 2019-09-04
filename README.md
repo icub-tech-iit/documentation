@@ -1,2 +1,2 @@
-# templates
-This repository contains our templates
+# mkdocs tests
+This repository contains tests for mkdocs
