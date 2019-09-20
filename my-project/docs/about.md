@@ -1,6 +1,19 @@
 # what about me?
 
+
+here is an image include w/ syntax: `![untitled2.mmd](img/untitled2.mmd.png)`
+It shows on typora and on `http://127.0.0.1:8000/about/`
+
+![untitled2.mmd](img/untitled2.mmd.png)
+
+
+
+here is an image include w/ syntax: `<img src="img/untitled2.mmd.png" alt="unt" height="420" width="420">`
+It shows on typora but not on `http://127.0.0.1:8000/about/`
+
 <img src="img/untitled2.mmd.png" alt="unt" height="420" width="420">
+
+
 
 ## Sive quae Cynthia habemus
 
