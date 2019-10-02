@@ -1,6 +1,8 @@
 # what about me?
 
 
+
+
 here is an image include w/ syntax: `![untitled2.mmd](img/untitled2.mmd.png)`
 It shows on typora and on `http://127.0.0.1:8000/about/`
 

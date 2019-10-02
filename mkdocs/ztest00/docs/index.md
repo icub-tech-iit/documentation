@@ -1,5 +1,6 @@
-# Welcome to my MkDocs
+# Welcome!
 
+This is a test site developed by the team fix of iCub Tech which uses mkdocs. 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
 ## Commands
@@ -17,6 +18,16 @@ For full documentation visit [mkdocs.org](https://mkdocs.org).
         ...       # Other markdown pages, images and other files.
 
 
+
+## Here are some examples of inclusions of **Font Awsome**
+
+from https://fontawesome.com/ 
+
+<i class="fa fa-book fa-2x"></i>
+
+<i class="fa fa-address-book fa-2x"></i>
+
+<i class="fa fa-book-open fa-2x"></i>
 
 <i class="fa fa-camera-retro fa-2x"></i> fa-2x
 
