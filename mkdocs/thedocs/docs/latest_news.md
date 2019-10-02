@@ -1,5 +1,13 @@
 # Latest news
 
+
+
+__October 2, 2019__ : now this site links the others !
+
+See `Docs` section: there are now links to the the other micro-sites
+
+
+
 __October 1, 2019__ : we are in charge !
 
 What's new?
