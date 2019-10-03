@@ -6,9 +6,9 @@
 
 |  Pieces | Component  |
 |   ---   |    ---     |
-|    4    | RC_TLR_003_P_060 (Support)|
+|    4    |  RC_TLR_003_P_060 (Support)|
 |    4    |  screws ISO 7046 M2x5 |
-|    4    |      Cables ties  |
+|    4    |  Cables ties  |
 
 
 
