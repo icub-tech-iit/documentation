@@ -51,7 +51,7 @@ nav:
     - Home: 'index.md'
     - Body parts:
         - Overall: 'introduction.md'
-        - Neck: 'neck.md'
+        - Neck: '_neck.md'
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
     - License: 'license.md'
