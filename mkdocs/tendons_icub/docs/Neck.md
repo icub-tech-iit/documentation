@@ -11,9 +11,10 @@ The second release of the head has 2 tendons and a differential joint to actuate
 ## 1.1       Mechanical assembly of the 2 tendons:
 
 
-````diff
-!!! If you already have a spare tendon from your maintenance kit please jump to 1.2 !!!
-````
+
+!!! tip
+    If you already have a spare tendon from your maintenance kit please jump to 1.2
+
 
 
 Prepare 2 cables with the components and specifics described below: 
@@ -65,7 +66,9 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 >Make sure that all tensioners are fully opened
 
 
- **<u>TIP to block the cable with Cable Block #1 :</u>**
+!!! tip
+    To block the cable with Cable Block V1 do the following
+
 
 > Insert the little plate by the front of the neck and push it with any little tool in order to put it in the middle of the throat. Use a magnet to lift it up in the excavation in the middle of the throat. In this way the throat is free to receive the cable.
 >

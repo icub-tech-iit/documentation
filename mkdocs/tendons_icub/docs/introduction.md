@@ -1,4 +1,4 @@
-#Scope of document
+# Scope of document
 
 The purpose of this manual is to describe how to mount/repair the tendons of iCub.
 
@@ -24,14 +24,4 @@ Here is a table showing the visual differences of iCub from version 1 to 2.5.
 | WAIST                     | YES             |                      |||
 | FOREARM | V1 | V1 |V2|V2|
 
-
-
-## Project layout
-
-
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
 

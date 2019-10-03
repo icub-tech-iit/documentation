@@ -1,6 +1,5 @@
 
-
-# Waist & Hip
+# **Waist & Hip**
 
 # 1. WAIST
 
