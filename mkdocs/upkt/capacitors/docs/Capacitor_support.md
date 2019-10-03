@@ -1,6 +1,8 @@
-#<center> ** Update of capacitor support (front and rear) iCub2.5 with battery backpack **</center>
 
-** Content material ** :
+
+# Update of capacitor support (front and rear) iCub2.5 with battery backpack
+
+## Content material
 
 |  Pieces | Component  |
 |   ---   |    ---     |
@@ -11,7 +13,7 @@
 
 
 
-** Assembly instruction **<br>
+## Assembly instruction
 
 Make sure the 4 capacitors (front and back) are accessible (has a view). For the removal and subsequent reassembly of the parts that obstruct (backpack unit), refer to the specific manual .<br>
 <center> ![imagine view](img/8.JPG) </center>

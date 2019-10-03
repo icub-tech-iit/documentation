@@ -55,6 +55,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-    - Home: 'Capacitor_support.md'
+    - Home: 'index.md' 
+    - Instructions: 'Capacitor_support.md'
     - License: 'license.md'
 
