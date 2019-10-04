@@ -51,7 +51,7 @@ nav:
     - Home: 'index.md'
     - Body parts:
         - Overall: 'introduction.md'
-        - Neck: '_neck.md'
+        - Neck: 'Neck.md'
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
         - types of lower arms: 'Lower_Arm.md'
