@@ -1,4 +1,4 @@
-site_name: 'iCub tendons'
+site_name: 'iCub Tendons Repair Manual'
 site_description: 'tbd'
 site_author: 'We, the People of the iCub Tech'
 
@@ -55,5 +55,5 @@ nav:
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
         - types of lower arms: 'Lower_Arm.md'
-        - lower arm version 1: 'Hand_V1.md'
+        - Lower Arm Version 1: 'LowerArmV1.md'
     - License: 'license.md'

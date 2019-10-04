@@ -6,9 +6,9 @@
 
 | Left Forearm V1                                 | Right Forearm V1                                |
 | ----------------------------------------------- | ----------------------------------------------- |
-| <img src ="../img/l-4RM-V1.gif" height = 600px> | <img src ="../img/r-4RM-V1.gif" height = 600px> |
+| <img src ="../GIF/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/R-4RM-V1.gif" height = 600px> |
 
-Please follow this link to reach the HOWTO page to repair this version of the Lower Arm
+Please follow this [ **link**](LowerArmV1.md) to reach the HOWTO page to repair this version of the Lower Arm
 
 
 
@@ -22,5 +22,5 @@ Please follow this link to reach the HOWTO page to repair this version of the Lo
 
 | Left Forearm V2                                 | Right Forearm V2                                |
 | ----------------------------------------------- | ----------------------------------------------- |
-| <img src ="../img/L-4RM-V2.gif" height = 600px> | <img src ="../img/r-4RM-V2.gif" height = 600px> |
+| <img src ="../GIF/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/R-4RM-V2.gif" height = 600px> |
 
