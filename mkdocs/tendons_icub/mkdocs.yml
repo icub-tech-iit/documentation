@@ -54,4 +54,6 @@ nav:
         - Neck: '_neck.md'
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
+        - types of lower arms: 'Lower_Arm.md'
+        - lower arm version 1: 'Hand_V1.md'
     - License: 'license.md'
