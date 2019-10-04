@@ -18,8 +18,6 @@
 <center> 13  : length 630 mm - Diam. 1.5/1.75 </center>
 <center> 14  : length 729 mm -  Diam. 1.5/1.75 </center> 
 <center> 29  : length &nbsp;23mm - &nbsp;Diam. 1.5/1.75 </center>
-
-
 | IITCODE | Alias            | Description                                                  |
 | ------- | ---------------- | ------------------------------------------------------------ |
 | 2390    | U7191517         | Stainless, cable construction 7x19mm, Polyamide coated - CARL STAHL GMBH |
@@ -66,8 +64,6 @@
 
 <center>![waist](img\Waist_Front1.PNG)</center>
 
-
-
  **1.3.1. Procedure:**
 
 Take the cable and draw with a marker the middle of it. Place it in the slot on the piece RC_TLR_001_P_247 (Photo 12)
@@ -107,7 +103,6 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 ## 1.4. WAIST TOP – Cable 13
 
 <center>![waist](img\Waist_top.PNG)</center>
-
 **1.4.1. Procedure:**
 
 >Take the cable and draw with a marker the middle of it. Place it in the slot on the piece RC_TLR_001_P_243 (Photo 18).Put the plate RC_USAL_001_P_219 on the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 19).
@@ -131,13 +126,11 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 
 
 <center>![waist](img\Waist_top22_23.PNG)</center>​
-
 ​     
 ​							
 ## 1.5. WIRING LEG – Cable 14
 
 <center>![waist](img\Wiring-LEG_Cable_14.PNG)</center>
-
 **1.5.1 Preparation:**
 >The cable has to be previously peeled off, at a distance of 435 mm from crimp, for a total of 50 mm. (see below)
 >[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position027)
@@ -145,7 +138,6 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 
 
 <center>![waist](img\Wiring-LEG_Cable_14_built.PNG)</center>
-
 **1.5.2 Procedure:**
 
 >Take the cable and place the part stripped in the slot on the piece RC_IIT_001_P_314, then center and block it with the help of the plate RC_IIT_001_P_328 (Photo 24). The shortest part of the cable is the one going outside of the robot.
@@ -155,15 +147,12 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 
 
 <center>![waist](img\Wiring-LEG_24_25.PNG)</center>
-
 >Take the inner part of the cable (the right one so to speak – or the longest) and make a tour around the pulley RC_IIT_001_P_314 (Photo 25). At this point proceed with making a turn in the opposite direction around the pulley of the leg or the RC_USAL_001_P_186 piece, by inserting the crimp in the appropriate tensioning pieces RC_USAL_001_P_131 (Photo 27).
 >[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position028)
 
 
 
 <center>![waist](img\Wiring-LEG_26_27_28.PNG)</center>
-
-
 # 2. STAND – FAST ROBOT LOCKER 
 
 
@@ -189,7 +178,6 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 
 
 <center>![waist](img\Stand_Cable_29_foto29_30.PNG)</center>
-
 >Attach the hook, or the piece PKWS4SLIDER with two screws 3x5 TSV, to RC_IIT_090_P_009 piece (Photo 31).Place on the part of the cable RC_IIT_090_P_007 piece and then the adjustment mechanism for proper closure piece RC_IIT_090_P_007 (Photo 31-32)
 >[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position032)
 
@@ -198,7 +186,6 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 
 
 <center>![waist](img\Stand_Cable_29_foto31_32.PNG)</center>
-
 >At this point, proceed by entering what has been previously mounted into the slot of the support RC_IIT_090_P_005 (Photo 33).Complete the installation by screwing the threaded part of the piece RC_IIT_090_P_006 with the piece  RC_IIT_090_P_008 (Photo 34)
 >[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position033)
 >
@@ -207,8 +194,6 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 
 
 <center>![waist](img\Stand_Cable_29_foto33_34.PNG)</center>
-
-
 
 
 # 3. version
@@ -221,9 +206,7 @@ Take the cable and draw with a marker the middle of it. Place it in the slot on 
 | 0.4     | 20 Feb 2019  | J. Jenvrin                 | Modification cabling N14 |
 | 0.5     | 26 Sep 2019  | M. Borgagni                | Work on MD               |
 
-<div style="position:fixed;top:80px;left:85%;">
-    <video width="85%"  height="85%" autoplay loop>
-    <source src="../video/icubrotate.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div style="position:fixed;top:140px;left:85%;">
+    <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>
+
