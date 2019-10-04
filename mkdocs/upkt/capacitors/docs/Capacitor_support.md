@@ -25,12 +25,8 @@ Make sure the 4 capacitors (front and back) are accessible (has a view). For the
 
 <center> ![imagine view](img/16.JPG) ![imagine view](img/17.JPG)  </center>
 
-<div style="position:fixed;top:80px;left:85%;">
-    <video width="85%" height="85%" autoplay loop>
-        <source src="../video/ICUB_FBBBBDBA .mp4" type="video/mp4">  
-        Your browser does not support the video tag.
-    </video>
+<div style="position:fixed;top:140px;left:85%;">
+    <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>
 
 <center> **REAR** **FRONT** </center>
-
