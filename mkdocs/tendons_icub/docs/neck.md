@@ -54,6 +54,7 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 
 ### 1.2.2      Rules of Thumb (RoT) for a Perfect START:[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position009b)
 **Blocking**
+
 >Always block the cable in its portion on which we peeled off the coating.
 
 
@@ -65,9 +66,7 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 **Releasing**
 >Make sure that all tensioners are fully opened
 
-
-!!! tip
-    To block the cable with Cable Block V1 do the following
+**<u>!!!Tip!!!</u>  To block the cable with Cable Block V1 do the following:**
 
 
 > Insert the little plate by the front of the neck and push it with any little tool in order to put it in the middle of the throat. Use a magnet to lift it up in the excavation in the middle of the throat. In this way the throat is free to receive the cable.
@@ -125,15 +124,4 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
 | 0.4     |	20 Feb 2019 | J. Jenvrin         |Modification cabling N14|
 | 0.5       | Sept 2019 | M. Borgagni                     | word to md|
 | 0.6    | Oct. 2019 | J. Jenvrin |add the 2 versions of block cables |
-
-
-
-
-
-<div style="position:fixed;top:80px;left:85%;">
-    <video width="85%"  height="85%" autoplay loop>
-    <source src="../video/icubrotate.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</div>
 

@@ -50,10 +50,8 @@ markdown_extensions:
 nav:
     - Home: 'index.md'
     - Body Parts:
-        - Neck: 'Neck.md'
+        - Neck: 'neck.md'
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
-        - Lower Arm Definition: 'Lower_Arm.md'
-        - HOWTO repair for Lower Arm V1: 'LowerArm_V1.md'
-        - HOWTO repair for Lower Arm V2: 'LowerArm_V2.md'
+        - Lower Arm Definition: 'lower_arm.md'
     - License: 'license.md'
