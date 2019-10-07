@@ -1,4 +1,4 @@
-site_name: 'iCub Tendons Repair Manual'
+site_name: 'iCub Cabling Manual'
 site_description: 'tbd'
 site_author: 'We, the People of the iCub Tech'
 
@@ -49,11 +49,11 @@ markdown_extensions:
 # Page tree
 nav:
     - Home: 'index.md'
-    - Body parts:
-        - Overall: 'introduction.md'
+    - Body Parts:
         - Neck: 'Neck.md'
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
-        - types of lower arms: 'Lower_Arm.md'
-        - Lower Arm Version 1: 'LowerArmV1.md'
+        - Lower Arm Definition: 'Lower_Arm.md'
+        - HOWTO repair for Lower Arm V1: 'LowerArm_V1.md'
+        - HOWTO repair for Lower Arm V2: 'LowerArm_V2.md'
     - License: 'license.md'
