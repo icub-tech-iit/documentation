@@ -1,8 +1,8 @@
 # NECK V2
 
-| <center> Neck V1 - First 2 DOFs </center> | <center> Neck V2 - First 2 DOFs </center> |
-|:-------------------------:| :------------------:|
-|<img src ="../img/neck_V1.png" height = 300px> | <img src ="../img/NECK_V2.png" height = 300px>|
+|      <center> Neck V1 - First 2 DOFs </center>      |      <center> Neck V2 - First 2 DOFs </center>      |
+| :-------------------------------------------------: | :-------------------------------------------------: |
+| <img src ="../img/neck/neck_V1.png" height = 300px> | <img src ="../img/neck/neck_V2.png" height = 300px> |
 
 The second release of the head has 2 tendons and a differential joint to actuate the first 2 DoFs of the neck compared to the 2 serial joints from the one of the previous version V1 make it more robust, powerful and reliable.
 [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position009a)
@@ -28,13 +28,13 @@ Prepare 2 cables with the components and specifics described below:
 
 **Head CABLE “A”**: IITCODE: 5965 -- Alias: RC_IIT_019_G_018.
 
-![testa icubV2](img/ICUB_HEAD_Cable_A.png)                                                                                           
+![testa icubV2](img/neck/ICUB_HEAD_Cable_A.png)                                                                                           
 
  
 
 **Head CABLE “B”**: IITCODE: 5964 -- Alias : RC_IIT_019_G_017.
 
-  ![testa icubV2](img/ICUB_HEAD_Cable_B.png)                
+  ![testa icubV2](img/neck/ICUB_HEAD_Cable_B.png)                
 
 
 
@@ -49,7 +49,7 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 ### 1.2.1      Block version identification
 | Where yields the difference  | Cable Block V1 | Cable Block V2 |
 |: --------: | :--------------: | :-----------------------------: |
-| <img src ="../img/NECK_V2_block.jpg" width = 300px> |<img src ="../img/NECKV2_BlockV1.png" width = 300px> | <img src ="../img/NECKV2_BlockV2.png" width = 300px> |
+| <img src ="../img/neck/NECK_V2_block.jpg" width = 300px> |<img src ="../img/neck/NECK_V2_BlockV1.png" width = 300px> | <img src ="../img/neck/NECK_V2_BlockV2.png" width = 300px> |
 | **Tightening System**   | 2 nut screws M2.5x2.5 + Plate  | 2 screws M2x3            |
 
 ### 1.2.2      Rules of Thumb (RoT) for a Perfect START:[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position009b)
@@ -80,11 +80,11 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
     5- Check that the cable firmly remains in position even if pulling the cable out.
 
 
-![plate_trick](img/magnet_plate.png)
+![plate_trick](img/neck/magnet_plate.png)
 
 ### 1.2.3        Route Cable ”A”
 
- ![testa icubV2](img/ICUB_HEAD_Wiring_front_rear_view.png)
+ ![testa icubV2](img/neck/ICUB_HEAD_Wiring_front_rear_view.png)
 
 > Start with the longest part of the cable which rolls around the main pulley and turn around the pulley (2) to finally rolls around pulley (3). Use pulley **Y** to both tense and give more slack to the cable to put the crimp the head of the crimp into the lower tensioner. once tense on side of the cable simply turn around pulley (1) the other side of the cable for a ¾ turn and finally insert the crimp onto the lower tensioner of the pulley (4). 
 [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position010)
@@ -96,7 +96,7 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
 
 ### 1.2.4        Route Cable “B”
 
-![ICUB_HEAD_Wiring_B](img\ICUB_HEAD_Wiring_B.png)
+![ICUB_HEAD_Wiring_B](img/neck/ICUB_HEAD_Wiring_B.png)
 
 
 
@@ -110,7 +110,7 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
 
 ### 1.2.5        Final Tensioning
 
-![ICUB_HEAD_wiring_tension](img\ICUB_HEAD_wiring_tension.png)                                  
+![ICUB_HEAD_wiring_tension](img/neck/ICUB_HEAD_wiring_tension.png)                                  
 > Adjust the tension of both cables with the 4 tensioners. 1 and 2 for **Cable A**,    3 and 4 for **Cable B**
 [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position012)
 
