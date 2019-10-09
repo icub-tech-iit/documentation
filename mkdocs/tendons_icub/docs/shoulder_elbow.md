@@ -1,7 +1,7 @@
 
 # SHOULDER & ELBOW
 
-# 1. Shoulder & Elbow [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position001)  
+## Shoulder & Elbow [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position001)  
 
 
 
@@ -29,8 +29,6 @@ Il presente Capitolo descrive la procedura di cablaggio dei cavi delle spalle e 
 
 
 
-
-
 |IITCODE   |Alias   |Description      |
 |---|---|---|
 |2390   |U7191517 |Stainless, cable construction 7x19mm, Polyamide coated - CARL STAHL GMBH   |
@@ -40,7 +38,7 @@ Il presente Capitolo descrive la procedura di cablaggio dei cavi delle spalle e 
 |13738|RC_IIT_019_G_031 |U7191215/SE000094 - 110mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
 |13739|	RC_IIT_019_G_032|U7191215/SE000094 - 154mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
 
->Cables from 1 to 6 are RC_IIT_019_G_00X - X from 1 to 6 - each made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492).  [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position002)
+>Cables from 1 to 6 are RC_IIT_019_G_00X - X from 1 to 6 - each made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492).  [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position002)
 
 
 
@@ -48,7 +46,7 @@ Il presente Capitolo descrive la procedura di cablaggio dei cavi delle spalle e 
 Gli IITCODE dei cavi da 1 a 6 sono da 4758 a 4763. Vengono realizzati mediante cavo di acciaio U7191517 codice IIT 2390 e n. 2 crimp codice IIT 3492. Le misure sono presenti nella lista
 -->
 
->For Cable 7-8-9-10 measures see above (respectively IITCODE 13736-7-8-9) [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position003)
+>For Cable 7-8-9-10 measures see above (respectively IITCODE from 13736 to 13739) [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position003)
 
 
 
@@ -59,9 +57,9 @@ Per i cavi 7-8-9-10 fare riferimento a descrizione in IITCODE 13736-7-8-9
 
 ## 1.2. Procedure
 
-**Tip** [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position004)
+**Tip** [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position004)
 
->The sequence for   cabling the shoulder is the following:   cable  (1-2) - (3-4) - (8-7) - (6-5)[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position005)
+>The sequence for cabling the shoulder is the following:   cable  (1-2) - (3-4) - (8-7) - (6-5)[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position005)
 
 
 
@@ -81,7 +79,7 @@ La sequenza del   cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3
 
  ![ICUB_SHOULDER_LEFT_3](img\ICUB_SHOULDER_LEFT_Cable_1.png)
 
->After wiring the   cable, in the passage of the cable around the small pulley (RC_TLR_003_P_037)   place the cover in ABS (plastic bit - IIT_003_P_006_00 – IIT CODE: 1895) [<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position006)
+>After wiring the   cable, in the passage of the cable around the small pulley (RC_TLR_003_P_037)   place the cover in ABS (plastic bit - IIT_003_P_006_00 – IIT CODE: 1895) [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 
 
@@ -97,7 +95,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 <center>![ICUB-SHOUULDER](img\ICUB_SHOULDER_LEFT_Cable_3.png)</center>
 >After wiring the   cable, in the passage of the cable around the small pulley (RC_TLR_003_P_037)   place the cover in ABS (plastic bit - IIT_003_P_006_00 – IIT CODE: 1895)
-[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position006)
+[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 
 <!--
@@ -112,7 +110,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 
 >To mount the cables 5   - 6 - 7 – 8, it is important to start with all of them already disconnected. You   first need to replace the broken cable(s) by starting to enter the head crimp   (4mm size – smaller one) of the cable 7 and 8 inside their respective   tensioner. You will need later to start wiring cable 7 and 8 in their future   path BUT to do so it is necessary to give SPACE FOR THE CRIMPS TO PASS. There are 2 designs for the   shoulder so it is necessary to see the difference in between both of them:   In V1, you need first   to remove the pulley (beige) to reach the 2 screws and loose them.   For V2, the 2 screws   to loose are right here, loose them and the block of 2 pulley can move to   give space for the crimps.   When crimps passed,   retightened the screws to set in position the cable 7 and 8.
-[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position007)
+[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position007)
 
 
 
@@ -127,13 +125,11 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
  <center>![ICUB-SHOULDER](img\ICUB_SHOULDER_LEFT_Cable_7.png)</center>
  <center>![ICUB-SHOULDER](img\ICUB_SHOULDER_LEFT_Cable_6.png)</center>             
 <center>![ICUB-SHOULDER](img\ICUB_SHOULDER_LEFT_Cable_5.png)</center>
-
 ## 1.4. Left Elbow cabling 
 
  ![ICUB_SHOULDER_LEFT_2](img\ICUB_SHOULDER_LEFT_2.png) 
 
  <center>![ICUB_ELBOW](img\ICUB_Elbow_LEFT_Cable_9-10.png)</center> 
-
 ## 1.5. Right Shoulder
 
 
@@ -142,18 +138,18 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 <center>![ICUB_SHOULDER_RIGHT](img\ICUB_SHOULDER_Right_1.png)</center>
 <center>![ICUB_SHOULDER_RIGHT](img\ICUB_SHOULDER_Right_Cable_1.png)</center> 
 >After wiring the cable, along the path of the cable around the small pulley (RC_TLR_003_P_036) place the cover in ABS (plastic bit - IIT_003_P_007_00 – IIT CODE: 1896)
-[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position008)
+[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position008)
 
 <center>![ICUB_SHOULDER_RIGHT](img\ICUB_SHOULDER_Right_Cable_2.png)</center> 
 <center>![ICUB_SHOULDER_RIGHT](img\ICUB_SHOULDER_Right_Cable_3.png)</center>
 >After wiring the cable, in the passage of the cable around the small pulley (RC_TLR_003_P_036) place the cover in ABS (plastic bit - IIT_003_P_007_00 – IIT CODE: 1896)
-[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position008)
+[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position008)
 
 
 
 <center>![ICUB_SHOULDER_RIGHT](img\ICUB_SHOULDER_Right_Cable_4.png)</center>
 >To mount the cables 5 - 6 - 7 – 8, it is important to start with all of them already disconnected. You first need to replace the broken cable(s) by starting to enter the head crimp (4mm size – smaller one) of the cable 7 and 8 inside their respective tensioner. You will need later to start wiring cable 7 and 8 in their future path BUT to do so it is necessary to give space for the crimps to pass. There are 2 designs for the shoulder so it is necessary to see the difference in between both of them:In V1, you need first to remove the pulley (beige) to reach the 2 screws and loose them.For V2, the 2 screws to loose are right here, loose them and the block of 2 pulley can move to give space for the crimps. When crimps passed, retightened the screws to set in position the cable 7 and 8.
-[<i class="fa fa-flag fa-1x"></i> **ITA**](Italiano.md#position009)
+[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position009)
 
 
 
@@ -170,8 +166,6 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 <center>![ICUB_SHOULDER_RIGHT](img\ICUB_Elbow_RIGHT_Cable_9-10.png)</center>
 
 
-
-
 | Version | Date         | Author                     | Comments                 |
 | ------- | ------------ | -------------------------- | ------------------------ |
 | 0.1     | 24 Jan 2017  | A. Spadoni                 | First emission           |
@@ -184,9 +178,6 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 
 
-<div style="position:fixed;top:80px;left:85%;">
-    <video width="85%"  height="85%" autoplay loop>
-    <source src="../video/icubrotate.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div style="position:fixed;top:140px;left:85%;">
+    <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>

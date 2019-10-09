@@ -38,7 +38,7 @@ Let's describe the overall functionality of those motors:
 | ----------------------------------------------- | ----------------------------------------------- |
 | <img src ="../GIF/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/R-4RM-V1.gif" height = 600px> |
 
-Please follow this [**link**](LowerArmV1.md) to reach the HOWTO page to repair the **Version 1** of the Lower Arm
+Please follow this [**link**](lower_arm_V1.md) to reach the HOWTO page to repair the **Version 1** of the Lower Arm
 
 
 
@@ -54,4 +54,4 @@ Please follow this [**link**](LowerArmV1.md) to reach the HOWTO page to repair t
 | ----------------------------------------------- | ----------------------------------------------- |
 | <img src ="../GIF/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/R-4RM-V2.gif" height = 600px> |
 
-Please follow this [**link**](LowerArmV2.md) to reach the HOWTO page to repair the **Version 2** of the Lower Arm
+Please follow this [**link**](lower_arm_V2.md) to reach the HOWTO page to repair the **Version 2** of the Lower Arm

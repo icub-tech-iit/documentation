@@ -12,7 +12,7 @@ The second release of the head has 2 tendons and a differential joint to actuate
 
 
 
-!!! tip
+!!! Fast_Forward
     If you already have a spare tendon from your maintenance kit please jump to 1.2
 
 
@@ -66,18 +66,21 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 **Releasing**
 >Make sure that all tensioners are fully opened
 
-**<u>!!!Tip!!!</u>  To block the cable with Cable Block V1 do the following:**
+!!! Tip
+    To block the cable with Cable Block V1 do the following:
+
+    1- Insert the little plate by the front of the neck and push it with any little tool in order to put it in the middle of the throat
+    
+    2- Make sure the nut screws are already placed in their hole for one turn in their thread.
+    
+    3- Use a magnet to lift it up in the excavation in the middle of the throat. (see picture below).In this way the throat is free to receive the cable.
+    
+    4- Insert the cable and use the 2 nut screws (M2.5x2.5) to press the metallic plate above the cable.
+    
+    5- Check that the cable firmly remains in position even if pulling the cable out.
 
 
-> Insert the little plate by the front of the neck and push it with any little tool in order to put it in the middle of the throat. Use a magnet to lift it up in the excavation in the middle of the throat. In this way the throat is free to receive the cable.
->
-> Insert the cable and use the 2 nut screws (M2.5x2.5) to press the metallic plate above the cable.
->
-> Check that the cable firmly remains in position even if pulling the cable out.
-
-
-
-
+![plate_trick](img/magnet_plate.png)
 
 ### 1.2.3        Route Cable ”A”
 
@@ -105,7 +108,7 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
  <!-- Eseguire   nello stesso modo le instruzioni del cavo “A” ma rispettando I disegni qui sopra, puleggia X-->
 
 
-### 1.2.4        Final Tensioning
+### 1.2.5        Final Tensioning
 
 ![ICUB_HEAD_wiring_tension](img\ICUB_HEAD_wiring_tension.png)                                  
 > Adjust the tension of both cables with the 4 tensioners. 1 and 2 for **Cable A**,    3 and 4 for **Cable B**
@@ -114,7 +117,7 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
 <!-- Per finire bisogna soltanto tirare i 4 tensionatori.   1   e 2 per **Cable A** , 3 e 4 per **Cable B** -->
 
 
-# Revision History
+## Revision History
 
 | Version | Date        | Author                    | Comments        |
 | ------- | ----------- | --------------------------|-----------------|
