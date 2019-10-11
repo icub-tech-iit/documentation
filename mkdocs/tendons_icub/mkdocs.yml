@@ -1,4 +1,4 @@
-site_name: 'iCub tendons'
+site_name: 'iCub Cabling Manual'
 site_description: 'tbd'
 site_author: 'We, the People of the iCub Tech'
 
@@ -12,8 +12,8 @@ theme:
         accent: amber
     feature:
         tabs: true
-    # favicon:
-    #     icon: dashboard
+    #favicon:
+    #   icon: dashboard
     logo:
         icon: dashboard
 
@@ -49,11 +49,10 @@ markdown_extensions:
 # Page tree
 nav:
     - Home: 'index.md'
-    - Body parts:
-        - Overall: 'introduction.md'
-        - Neck: '_neck.md'
+    - Body Parts:
+        - Neck: 'neck.md'
         - Shoulder & Elbow: 'shoulder_elbow.md'
         - Waist & Hip: 'waist_hip.md'
-        - types of lower arms: 'Lower_Arm.md'
-        - lower arm version 1: 'Hand_V1.md'
+        - Lower Arm Definition: 'lower_arm.md'
+        - Hand Cabling: 'hand_cabling.md'
     - License: 'license.md'
