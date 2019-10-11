@@ -2,40 +2,6 @@
 
 # **Hand cabling** 
 
-Contents
-
-[1.      Basic Principles. 3](#_Toc202756192)
-
-[2.      General  Rules to be Followed. 5](#_Toc202756193)
-
-[3.      General  Tips and Tricks. 6](#_Toc202756194)
-
-[4.      Finger  cables description. 7](#_Toc202756195)
-
-[4.1         thumb_oppose: SxThOp and DxThOp. 7](#_Toc202756196)
-
-[4.2         hand_finger: SxFAb and DxFAb. 12](#_Toc202756197)
-
-[4.3         thumb_proximal: SxThPrx and DxThPrx. 15](#_Toc202756198)
-
-[4.4         humb_distal: SxThDst and DxThDst. 18](#_Toc202756199)
-
-[4.5         index_proximal: SxIndPrx and DxIndPrx. 21](#_Toc202756200)
-
-[4.6         index_distal: SxIndDst and DxIndDst. 22](#_Toc202756201)
-
-[4.7         middle_proximal: SxMidPrx and DxMidPrx. 23](#_Toc202756202)
-
-[4.8         middle_distal: SxMidDst and DxMidDst. 24](#_Toc202756203)
-
-[4.9         pinky: SxRngLit and DxRngLit. 25](#_Toc202756204)
-
-[5       Table  of cables lengths. 29](#_Toc202756205)
-
- 
-
-
-
 
 
 
@@ -105,133 +71,18 @@ In the following document we describe how to connect the hand joints with the mo
 
 
 
+<img src ="../img/hand/1-2_Motor_case.PNG" height = 300px>
+<img src ="../img/hand/1-1_Finger_holes.PNG" height = 300px>
+<img src ="../img/hand/1-3_Motor_pulley.PNG" height = 300px>
+<img src ="../img/hand/1-4.PNG" height = 300px>
 
 
 
-![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg)  
+##  2.     General Rules to be Followed
 
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-| ---- | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      |                         | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image003.gif) |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif) |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image005.gif) |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif) |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         | Figure 1‑1     Finger holes                                  |                                                              |      |      |      |      |      |      |      |      |
-|      | Figure 1‑2 Motor case   |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      | Figure 1‑3 Motor pulley |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                         | Figure 1‑4                                                   |                                                              |      |      |      |      |      |      |      |      |
-|      |                         |                                                              |                                                              |      |      |      |      |      |      |      |      |
+<img src ="../img/hand/Fig_2-1.PNG" height = 300px> 
 
-![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image010.jpg)![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image012.jpg)
-
-![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image013.gif)  
-
-
-
-​                                       ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image014.gif)                                         P                                           
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-## 2.     General Rules to be Followed
-
-  
-
-|      |                                                              |            |      |
-| ---- | ------------------------------------------------------------ | ---------- | ---- |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image015.gif) |            |      |
-|      |                                                              |            |      |
-|      |                                                              | Figure 2‑1 |      |
-
-![prxMotor.jpg](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image017.jpg)
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-1. When mounting cables, pay attention to the fact that      rotating the motor in a clockwise direction should correspond to a closure      of the finger. The definition of clockwise rotation is given in the      picture. This rule is valid for all joints but distal joints; in the case      of distal joints the closure of joints depends on some issues that will be      discussed later on.
+When mounting cables, pay attention to the fact that      rotating the motor in a clockwise direction should correspond to a closure      of the finger. The definition of clockwise rotation is given in the      picture. This rule is valid for all joints but distal joints; in the case      of distal joints the closure of joints depends on some issues that will be      discussed later on.
 
 
 
@@ -264,8 +115,7 @@ In the following document we describe how to connect the hand joints with the mo
 | **SxThOp** |                                     | **Label** | **Notes**                                                    |
 | ---------- | ----------------------------------- | --------- | ------------------------------------------------------------ |
 | Motor      | 1B3M0   (SxThAb) and 2B3M0 (DxThAb) |           |                                                              |
-| Cable      | Carl   Stahl CG077063               |           |                                                              |
-|            |                                     |           |                                                              |
+| Cable      | Carl   Stahl CG077063               |         |         |
 | T1         | Total   length:   50[mm]            | S0        | Exits the   motor case from the hole near the motor (H2). Enters the finger in the hole which   is internal to the palm (H3) |
 | T2         |                                     |           |                                                              |
 | T3         | Total   length:   57[mm]            | S2        | Exits the   motor case from the hole near the bearing (H1). Enters the finger in the hole   which external to the palm (H4) |
@@ -287,186 +137,20 @@ In the following document we describe how to connect the hand joints with the mo
 
 
 
-
-
-
-
-
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image024.jpg) |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image025.gif) |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | Figure 4‑1 Motor side holes                                  |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑2                                                   |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image026.gif) |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image027.gif) |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image028.gif) |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image029.gif) |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image030.gif) |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑4                                                   |                                                              | Figure 4‑3 Finger side holes                                 |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image031.gif) |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image032.gif) |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image040.gif) |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image041.gif) |                                                              |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                                                              | Figure 4‑7                                                   |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      |                                                              | ![thOpCablePath1.jpg](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image042.jpg) |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image043.gif) |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      | Figure 4‑10                                                  |                                                              | Figure 4‑9                                                   |                                                              |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image044.jpg) |                                                              | ![thOpPulley2.jpg](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image045.jpg) |                                                              |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |
-|      | Figure 4‑12                                                  |                                                              | Figure 4‑11                                                  |                                                              |      |      |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-|      |             |                                                              |             |                                                              |      |      |      |
-| ---- | ----------- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ---- | ---- | ---- |
-|      |             | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image047.jpg) |             | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image048.gif) |      |      |      |
-|      |             |                                                              |             |                                                              |      |      |      |
-|      | Figure 4‑14 |                                                              | Figure 4‑13 |                                                              |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
+<img src ="../img/hand/Fig_4-2.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-1_Motor_side_holes.PNG" height = 300px> 
+<img src ="../img/hand/Fig_4-4.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-3_Finger_side_holes.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-6_Motor_side_holes.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-5_Finger_side_holes.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-8.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-7.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-10.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-9.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-12.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-11.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-14.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-13.PNG" height = 300px>
 
 
 ### 4.2       hand_finger: SxFAb and DxFAb
@@ -511,109 +195,22 @@ In the following document we describe how to connect the hand joints with the mo
 
  
 
-TIPS and TRICKS:
 
-−    Tensioning the cable is very important. Even when all the screws are not tight, it may results difficult to tension the cable in all its parts. This is due to the sharp edges of the pulley which do not allow a uniform distribution of the tension.
 
- 
+!!! TIP
+    
 
-  
-
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image050.gif) |
-
- 
+    Tensioning the cable is very important. Even when all the screws are not tight, it may results difficult to tension the cable in all its parts. This is due to the sharp edges of the pulley which do not allow a uniform distribution of the tension.
+    
+    <img src ="../img/hand/TIP_shard_edges.PNG" height = 300px>
 
 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-|      |                                                              |                                                              |                                                              |             |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image056.gif) |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image057.gif) |             |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |             |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image058.gif) |                                                              |             |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image059.gif) |                                                              |             |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |             |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image060.gif) |                                                              |             |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |             |      |      |      |      |      |      |
-|      |                                                              | Figure 4‑20                                                  |                                                              | Figure 4‑19 |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |             |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image061.jpg) |                                                              |             |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
+|   |   |
+|---|---|
+|<img src ="../img/hand/Fig_4-16.PNG" height = 300px>|<img src ="../img/hand/Fig_4-15.PNG" height = 300px>
+|<img src ="../img/hand/Fig_4-18.PNG" height = 300px>|<img src ="../img/hand/Fig_4-17.PNG" height = 300px>
+|<img src ="../img/hand/Fig_4-20.PNG" height = 300px>|<img src ="../img/hand/Fig_4-19.PNG" height = 300px> |
 
 
 ### 4.3       thumb_proximal: SxThPrx and DxThPrx
@@ -646,109 +243,14 @@ TIPS and TRICKS:
 13. Remove the external power supply.
 
 
-
-
-
-
-
-
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      | ![prxMotorCase0.jpg](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image066.jpg) |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image067.jpg) |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | Figure 4‑22                                                  |                                                              | Figure 4‑21                                                  |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image068.gif) |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image069.gif) |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑23                                                  |                                                              | Figure 4‑24                                                  |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image070.jpg) |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image071.jpg) |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |                                                              |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑26                                                  |                                                              | Figure 4‑25                                                  |                                                              |      |      |      |      |      |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-|      |                                                              |      |                                                              |      |      |      |
-| ---- | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | ---- | ---- | ---- |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image074.gif) |      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image075.jpg) |      |      |      |
-|      |                                                              |      |                                                              |      |      |      |
-|      | Figure 4‑27                                                  |      | Figure 4‑28                                                  |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
+<img src ="../img/hand/Fig_4-22.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-21.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-23.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-24.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-26.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-25.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-27.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-28.PNG" height = 300px>
 
 
 
@@ -779,157 +281,23 @@ Take a piece of coated cable (more or less 40cm).
 11. Tie in a knot at the extremity E1 as close as possible to      the hole H6.
 12. Rotate the motor and check that the finger extension works      correctly. Note: sometimes the finger      extension does not work properly because of the cable friction in      correspondence of the pulleys P1 and P2.
 
-TIPS and TRICKS:
-
-−    The knot of the finger proximal joint movement may increase the friction in correspondence of the cable at the position where the cable exits the hole H2. Always check that this is not the case.
-
-−    The joint can be moved by rotating the motor either in a clockwise or in a counter clock wise direction. However, only one of the two directions will correspond to a correct alignment of the cable with the hole H1. Always check that the cable is working properly (see pictures below: gray cable=correct, red cable= wrong) and that the motor rotates in the correct direction to close the finger(green=correct closure rotation, red = wrong closure rotation).
-
-−    The motor housing has two different holes (H1 and H1bis) which can be potentially used. Choose the one that will not be closed by the forearm support when the motor will be mounted.
-
-
-
-
-
-
-
-
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      |                                                              | P                                                            |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image082.jpg) |             |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image083.jpg) |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑30                                                  |                                                              | Figure 4‑29 |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image084.gif) |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image085.gif) |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑32                                                  |                                                              | Figure 4‑31 |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image086.jpg) |             | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image087.jpg) |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |                                                              |                                                              |      |      |      |      |      |      |      |      |      |
-|      |                                                              | Figure 4‑34                                                  |             | Figure 4‑33                                                  |                                                              |      |      |      |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-|      |                                                              |                                                              |      |                                                              |      |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image091.jpg) |      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image092.jpg) |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |      |                                                              |      |      |      |      |      |      |      |
-|      |                                                              | Figure 4‑36                                                  |      | Figure 4‑35                                                  |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |      |                                                              |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image093.gif) |      |                                                              |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |      |                                                              |      |      |      |      |      |      |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image094.jpg) |                                                              |      |                                                              |      |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image096.jpg)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
+!!! TIPS
+     The knot of the finger proximal joint movement may increase the friction in correspondence of the cable at the position where the cable exits the hole H2. Always check that this is not the case.
+    The joint can be moved by rotating the motor either in a clockwise or in a counter clock wise direction. However, only one of the two directions will correspond to a correct alignment of the cable with the hole H1. Always check that the cable is working properly (see pictures below: gray cable=correct, red cable= wrong) and that the motor rotates in the correct direction to close the finger(green=correct closure rotation, red = wrong closure rotation).
+    The motor housing has two different holes (H1 and H1bis) which can be potentially used. Choose the one that will not be closed by the forearm support when the motor will be mounted.
+
+
+
+<img src ="../img/hand/Fig_4-30.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-29.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-32.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-31.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-34.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-33.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-36.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-35.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-tav1.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-tav2.PNG" height = 300px>
 
 
 
@@ -946,57 +314,9 @@ TIPS and TRICKS:
 | T3    | 125(mm)                                 | 8+L       | Enters   the finger in the hole close to the palm side(H3)   |
 | T4    | 140(mm)                                 | 8-L       | Enters   the finger in the hole close to the back of the hand side(H4). |
 
- 
-
+<img src ="../img/hand/Fig_4-38.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-37.PNG" height = 300px>
   
-
-|      |                                                              |                                                              |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image097.jpg) |                                                              |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image098.gif) |      |      |      |      |
-|      |                                                              |                                                              |      |      |      |      |
-|      |                                                              |                                                              |      |      |      |      |
-|      | Figure 4‑38                                                  |                                                              |      |      |      |      |
-|      |                                                              | Figure 4‑37                                                  |      |      |      |      |
-|      |                                                              |                                                              |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
 ### 4.6       index_distal: SxIndDst and DxIndDst
 
  
@@ -1007,46 +327,7 @@ TIPS and TRICKS:
 |       |                                         |           |                                                              |
 | T1    | 140(mm)                                 | 5         | Exits the   motor case from the hole inside the forearm (H1). |
 
- 
-
-  
-
-|      |                                                              |
-| ---- | ------------------------------------------------------------ |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image100.gif) |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
+<img src ="../img/hand/Fig_4-tav3.PNG" height = 300px>
 
 ### 4.7       middle_proximal: SxMidPrx and DxMidPrx
 
@@ -1061,58 +342,11 @@ TIPS and TRICKS:
 | T3    | 125(mm)                                 | 7+L       | Enters the   finger in the hole close to the palm side(H3)   |
 | T4    | 143(mm)                                 | 7-L       | Enters the   finger in the hole close to the back of the hand side(H4). |
 
- 
-
-  
-
-|      |                                                              |                                                              |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- | ---- | ---- | ---- |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image101.jpg) |                                                              |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image102.gif) |      |      |      |      |
-|      |                                                              |                                                              |      |      |      |      |
-|      |                                                              |                                                              |      |      |      |      |
-|      | Figure 4‑40                                                  |                                                              |      |      |      |      |
-|      |                                                              | Figure 4‑39                                                  |      |      |      |      |
-|      |                                                              |                                                              |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
+<img src ="../img/hand/Fig_4-40.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-39.PNG" height = 300px> 
 
 ### 4.8       middle_distal: SxMidDst and DxMidDst
 
- 
 
 | Motor | 1B4M2   (SxMidDst) and 2B4M2 (DxMidDst) | **Label** | **Notes**                                                    |
 | ----- | --------------------------------------- | --------- | ------------------------------------------------------------ |
@@ -1120,39 +354,7 @@ TIPS and TRICKS:
 |       |                                         |           |                                                              |
 | T1    | 135(mm)                                 | 3         | Exits the   motor case from the hole inside the forearm (H1). |
 
-![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image104.jpg)  
-
-|      |                                                              |                                                              |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image105.gif) |      |
-|      |                                                              |                                                              |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image106.gif) |                                                              |      |
-
-
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
+<img src ="../img/hand/Fig_4-tav4.PNG" height = 300px>
 
  
 
@@ -1215,129 +417,14 @@ Let's now restrict to one of the two fingers (either pinky or ring). Similar ope
 10. Rotate the motor and check that the finger extension works      correctly.
 
 
-
-
-
-
-
-
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image112.gif) |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image113.gif) |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              | Figure 4‑41 |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image114.jpg) |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image115.gif) |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image116.gif) |                                                              | Figure 4‑43 |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image117.jpg) |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      |                                                              |                                                              |             |      |      |      |      |      |      |      |      |      |      |      |      |
-|      | Figure 4‑46                                                  |                                                              | Figure 4‑45 |      |      |      |      |      |      |      |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
-
-
-|      |             |                                                              |      |      |      |      |      |
-| ---- | ----------- | ------------------------------------------------------------ | ---- | ---- | ---- | ---- | ---- |
-|      |             | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image118.jpg) |      |      |      |      |      |
-|      |             |                                                              |      |      |      |      |      |
-|      |             | Figure 4‑47                                                  |      |      |      |      |      |
-|      |             |                                                              |      |      |      |      |      |
-|      |             | ![img](file:///C:/Users/MBORGA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image119.jpg) |      |      |      |      |      |
-|      |             |                                                              |      |      |      |      |      |
-|      | Figure 4‑48 |                                                              |      |      |      |      |      |
-
- 
-
-
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-
-
-
-
+<img src ="../img/hand/Fig_4-42.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-41.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-44.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-43.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-46.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-45.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-47.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-48.PNG" height = 300px>
 
 
 ## 5         Table of cables lengths
