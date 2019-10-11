@@ -12,8 +12,8 @@ theme:
         accent: amber
     feature:
         tabs: true
-    # favicon:
-    #     icon: dashboard
+    #favicon:
+    #   icon: dashboard
     logo:
         icon: dashboard
 

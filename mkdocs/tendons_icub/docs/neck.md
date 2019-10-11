@@ -12,7 +12,7 @@ The second release of the head has 2 tendons and a differential joint to actuate
 
 
 
-!!! Fast_Forward
+!!! note "Fast Forward"
     If you already have a spare tendon from your maintenance kit please jump to 1.2
 
 
