@@ -26,9 +26,9 @@ There are 2 types of distal Joint on this version of the forearm:
 
 | WHERE                                                        | JOINT            | POSITION                                                     |
 | ------------------------------------------------------------ | ---------------- | ------------------------------------------------------------ |
-| <img src ="../img/V1-distal-thumb.png" height = 300px>       | Thumb distal     | <u>easy to find:</u> no **slider** above or hiding it. It is also right next to the motor with the cage |
-| <img src ="../img/index_middle_V1.png" height=300 width=auto> | Index and Middle | they are located **<u>beneath</u>** the slider               |
-| <img src ="../img/R&P_V1.png" height = 300px>                | Ring and Pinky   | they are attached onto the moving part of the slider         |
+| <img src ="../img/lowerArm/V1-distal-thumb.png" height = 300px> | Thumb distal     | <u>easy to find:</u> no **slider** above or hiding it. It is also right next to the motor with the cage |
+| <img src ="../img/lowerArm/index_middle_V1.png" height=300 width=auto> | Index and Middle | they are located **<u>beneath</u>** the slider               |
+| <img src ="../img/lowerArm/R&P_V1.png" height = 300px>       | Ring and Pinky   | they are attached onto the moving part of the slider         |
 
 > <u>WATCH OUT:</u> for the Left forearm - the motor positions are "mirrored" compared to the Right one.
 
@@ -38,13 +38,13 @@ There are 2 types of distal Joint on this version of the forearm:
 
 The minimum requirement to start recabling:
 
-| IITCODE | Alias    | Provider        | Description                                                  |
-| ------- | -------- | --------------- | ------------------------------------------------------------ |
-| 2391    | U7194561 | CARL STAHL Gmbh | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 |
+| IITCODE | Alias    | Description                                                  |
+| ------- | -------- | ------------------------------------------------------------ |
+| 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
 What ever type of distal you need to recable  you need to start with cutting one piece of 50cm of the cable IITCODE 2391.
 
-> Make a knot by using 2 pliers at the extremity to firmly close the knot. 
+> Make a knot and use 2 pliers at the extremity to totally close it. 
 
 ##### VIDEO of the closing
 
