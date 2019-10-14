@@ -11,7 +11,7 @@
 |     1   |  RC_IIT_011_P_062 |  Right support for Mais |
 |     1   |  RC_IIT_011_G_016  |   Right support for FTC      |
 |     4   |  ISO 7046 M1.6x6 |  screws for right/left support FTC |
-
+|     4    | ISO 7045 M1.6x6 | screws for right/left support Mais |
 
 
 ## Assembly instruction
@@ -21,4 +21,11 @@ First of all you need to know that you will be in a situation where you will hav
 - Seguenza di montaggio 
 
 
+<center> ![imagine view](img/seguenza-1.JPG) ![imagine view](img/seguenza-2.JPG)  </center>
+
+<div style="position:fixed;top:140px;left:85%;">
+    <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
+</div>
+
+<center> ![imagine view](GIF/1.gif) </center>
 
