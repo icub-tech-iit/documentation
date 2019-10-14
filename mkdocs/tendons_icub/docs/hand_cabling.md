@@ -55,19 +55,19 @@ TOOLS TO BE USED
 
  
 
-In the following document we describe how to connect the hand joints with the motors positioned in the forearm. The basic scheme is very simple and based on the following ideas. 
+>In the following document we describe how to connect the hand joints with the motors positioned in the forearm. The basic scheme is very simple and based on the following ideas. 
 
-−    Each motor rotates a pulley (P)
+>−    Each motor rotates a pulley (P)
 
-−    A (optionally coated) cable is twined around the pulley. The cable is fixed to the pulley by passing through a hole in the pulley (H).
+>−    A (optionally coated) cable is twined around the pulley. The cable is fixed to the pulley by passing through a hole in the pulley (H).
 
-−    The cable exits the motor by passing trough holes H1 and H2.
+>−    The cable exits the motor by passing trough holes H1 and H2.
 
-−    The cable enters into a tube (T1, T2, T3, T4) which guides its path trough the wrist. All the tubes are positioned on suitable sockets in correspondence of the holes (H1, H2).
+>−    The cable enters into a tube (T1, T2, T3, T4) which guides its path trough the wrist. All the tubes are positioned on suitable sockets in correspondence of the holes (H1, H2).
 
-−    Optionally the cable passes trough tensioners (Te1 and Te2) in between T1/T2 and T3/T4. Again the tensioners are provided with suitable sockets.
+>−    Optionally the cable passes trough tensioners (Te1 and Te2) in between T1/T2 and T3/T4. Again the tensioners are provided with suitable sockets.
 
-−    The cable exits the tube by entering into holes H3 and H4 once more equipped with suitable sockets for the tubes.
+>−    The cable exits the tube by entering into holes H3 and H4 once more equipped with suitable sockets for the tubes.
 
 
 
@@ -82,7 +82,7 @@ In the following document we describe how to connect the hand joints with the mo
 
 <img src ="../img/hand/Fig_2-1.PNG" height = 300px> 
 
-When mounting cables, pay attention to the fact that      rotating the motor in a clockwise direction should correspond to a closure      of the finger. The definition of clockwise rotation is given in the      picture. This rule is valid for all joints but distal joints; in the case      of distal joints the closure of joints depends on some issues that will be      discussed later on.
+>When mounting cables, pay attention to the fact that      rotating the motor in a clockwise direction should correspond to a closure      of the finger. The definition of clockwise rotation is given in the      picture. This rule is valid for all joints but distal joints; in the case      of distal joints the closure of joints depends on some issues that will be      discussed later on.
 
 
 
@@ -93,13 +93,13 @@ When mounting cables, pay attention to the fact that      rotating the motor in 
 
  
 
-−    The uncoated cable is a bundle of smaller wires. When the cable is cut, this bundle may be corrupted (especially at the cable ending) by trying to pass the cable trough holes. A drop of glue on the cable ending may be useful.
+>−    The uncoated cable is a bundle of smaller wires. When the cable is cut, this bundle may be corrupted (especially at the cable ending) by trying to pass the cable trough holes. A drop of glue on the cable ending may be useful.
 
-−    Ideally the cable should be twined around the pulley P (see Figure 1‑3) exactly at the middle of it. In particular, when the joint is in the middle of its range of movements the cable should leave the pulley P exactly at the level of the holes H1 and H2 (see Figure 1‑2). If this is not the case, the friction of the cable at the level of H1 and H2 may break the cable after short usage.
+>−    Ideally the cable should be twined around the pulley P (see Figure 1‑3) exactly at the middle of it. In particular, when the joint is in the middle of its range of movements the cable should leave the pulley P exactly at the level of the holes H1 and H2 (see Figure 1‑2). If this is not the case, the friction of the cable at the level of H1 and H2 may break the cable after short usage.
 
-−    Always check that the tubes are inside their sockets. If this is not the case cables will break easily due to high friction in correspondence of the input and output holes.
+>−    Always check that the tubes are inside their sockets. If this is not the case cables will break easily due to high friction in correspondence of the input and output holes.
 
-−    The tension of the cable is fundamental for having fingers working correctly. Always consider the possibility of using tensioners for increasing the cable tension.
+>−    The tension of the cable is fundamental for having fingers working correctly. Always consider the possibility of using tensioners for increasing the cable tension.
 
 
 
@@ -121,7 +121,7 @@ When mounting cables, pay attention to the fact that      rotating the motor in 
 | T3         | Total   length:   57[mm]            | S2        | Exits the   motor case from the hole near the bearing (H1). Enters the finger in the hole   which external to the palm (H4) |
 | T4         |                                     |           |                                                              |
 
-1. Take a piece of non coated cable (more or less 40cm).
+>1. Take a piece of non coated cable (more or less 40cm).
 2. Pass the cable trough the hole (H) in the pulley.      Optionally you can block the cable on the pulley putting a drop of      cyanoacrylic glue into the hole.
 3. Twine the cable on the pulley. The number of turns around      the pulley has to be decided on the basis of the entrance and exit holes      (H1 and H2): the cable should enter the holes tangentially.
 4. Insert the cable extremities, E1 and E2, in holes H1 and      H2 respectively.
@@ -171,27 +171,26 @@ When mounting cables, pay attention to the fact that      rotating the motor in 
 
  
 
-1. Take a piece of non coated cable (more or less 40cm).
+>1. Take a piece of non coated cable (more or less 40cm).
 2. Pass the cable trough the hole (H) in the pulley.      Optionally you can block the cable on the pulley putting a drop of      cyanoacrylic glue into the hole.
-
-1. Twine the cable on the pulley. The number of turns around      the pulley has to be decided on the basis of the entrance and exit holes      (H1 and H2): the cable should enter the holes tangentially.
-2. Insert the cable extremities, E1 and E2, in holes H1 and      H2 respectively.
-3. Pass E1 trough the tube T1. Pass E2 trough T2. Position      the extremities of the tube on the sockets of the holes H1 and H2 in the      motor support. Note: the tube extremity should be inserted correctly in      its socket.
-4. Pass E1 trough the tensioner and insert the tube T1      extremity in one of the tensioner socket.
-5. Pass E1 trough the tube T3.
-6. Pass E1 trough H3. Position the extremity of T3 on the      sockets in correspondence of H3.
-7. Twine E1 around the pulley P1. Pass the cable ending E1      trough the hole H7 and exit from H8. Block the cable on the pulley with      the screw S9. Note: if passing trough H7      and H8 is complicated, unscrew S1 and S5 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin1.
-8. Pass E2 trough H4. Position the extremity of T2 on the      sockets in correspondence of H4.
-9. Twine E2 around the pulley P2. Pass the cable ending E2      trough the hole H9 and exit from H10. Block the cable on the pulley with      the screw S10. Note: if passing trough H9      and H10 is complicated, unscrew S4 and S8 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin2.
-10. Twine E2 around the pulley P3.
-11. Twine E2 around the pulley P4. Pass the cable ending E2      trough the hole H11 and exit from H12. Block the cable on the pulley with      the screw S11. Note: if passing trough H9      and H10 is complicated, unscrew S3 and S7 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin3.
-12. Pass E2 trough H5.
-13. Pass E2 trough the tube T4. Position the extremity of the      tube on the socket of the hole H5. Note: the tube extremity should be      inserted correctly in its socket.
-14. Pass E2 trough H6. Position the extremity of the tube on      the socket of the holes H6.
-15. Twine E2 around the pulley P1. Pass the cable ending E2      trough the hole H13 and exit from H14. Block the cable on the pulley with      the screw S12. Note: if passing trough H13      and H14 is complicated, unscrew S1 and S4 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin1.
-16. Unscrew all the screws blocking the cable on the pulleys      (S9, S10, S11 and S12). Note that this operation can be done only at a      specific configuration of the fingers At this configuration the screws are      accessible thanks to suitable holes on the palm.
-17. Tension the cable E1 by pulling the cable ending. Check      that the tube is inside its sockets at H1 and H3. Block the cable with the      screw S9. 
-18. Tension the cable E2 by pulling the cable ending. Check      that the tube is inside its sockets at H4, H5 and H6. Block the cable with      the screw S10, S11 and S12.
+3. Twine the cable on the pulley. The number of turns around      the pulley has to be decided on the basis of the entrance and exit holes      (H1 and H2): the cable should enter the holes tangentially.
+4. Insert the cable extremities, E1 and E2, in holes H1 and      H2 respectively.
+5. Pass E1 trough the tube T1. Pass E2 trough T2. Position      the extremities of the tube on the sockets of the holes H1 and H2 in the      motor support. Note: the tube extremity should be inserted correctly in      its socket.
+6. Pass E1 trough the tensioner and insert the tube T1      extremity in one of the tensioner socket.
+7. Pass E1 trough the tube T3.
+8. Pass E1 trough H3. Position the extremity of T3 on the      sockets in correspondence of H3.
+9. Twine E1 around the pulley P1. Pass the cable ending E1      trough the hole H7 and exit from H8. Block the cable on the pulley with      the screw S9. Note: if passing trough H7      and H8 is complicated, unscrew S1 and S5 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin1.
+10. Pass E2 trough H4. Position the extremity of T2 on the      sockets in correspondence of H4.
+11. Twine E2 around the pulley P2. Pass the cable ending E2      trough the hole H9 and exit from H10. Block the cable on the pulley with      the screw S10. Note: if passing trough H9      and H10 is complicated, unscrew S4 and S8 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin2.
+12. Twine E2 around the pulley P3.
+13. Twine E2 around the pulley P4. Pass the cable ending E2      trough the hole H11 and exit from H12. Block the cable on the pulley with      the screw S11. Note: if passing trough H9      and H10 is complicated, unscrew S3 and S7 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin3.
+14. Pass E2 trough H5.
+15. Pass E2 trough the tube T4. Position the extremity of the      tube on the socket of the hole H5. Note: the tube extremity should be      inserted correctly in its socket.
+16. Pass E2 trough H6. Position the extremity of the tube on      the socket of the holes H6.
+17. Twine E2 around the pulley P1. Pass the cable ending E2      trough the hole H13 and exit from H14. Block the cable on the pulley with      the screw S12. Note: if passing trough H13      and H14 is complicated, unscrew S1 and S4 so as to remove the finger from      the palm. After this operation the pulley can be made more accessible by      rotating it around the pin Pin1.
+18. Unscrew all the screws blocking the cable on the pulleys      (S9, S10, S11 and S12). Note that this operation can be done only at a      specific configuration of the fingers At this configuration the screws are      accessible thanks to suitable holes on the palm.
+19. Tension the cable E1 by pulling the cable ending. Check      that the tube is inside its sockets at H1 and H3. Block the cable with the      screw S9. 
+20. Tension the cable E2 by pulling the cable ending. Check      that the tube is inside its sockets at H4, H5 and H6. Block the cable with      the screw S10, S11 and S12.
 
  
 
@@ -228,7 +227,7 @@ When mounting cables, pay attention to the fact that      rotating the motor in 
 
  
 
-1. Take a piece of non coated cable (more or less 40cm).
+>1. Take a piece of non coated cable (more or less 40cm).
 2. Pass the cable trough the hole (H) in the pulley.      Optionally you can block the cable on the pulley putting a drop of      cyanoacrylic glue into the hole.
 3. Twine the cable on the pulley. The number of turns around      the pulley has to be decided on the basis of the entrance and exit holes      (H1 and H2): the cable should enter the holes tangentially.
 4. Insert the cable extremities, E1 and E2, in holes H1 and      H2 respectively.
@@ -268,7 +267,7 @@ When mounting cables, pay attention to the fact that      rotating the motor in 
 
 Take a piece of coated cable (more or less 40cm).
 
-1. Tie in a knot at the extremity E2 of the cable.
+>1. Tie in a knot at the extremity E2 of the cable.
 2. Pass the cable trough the hole (H) in the pulley (P). 
 3. Pass the cable trough the hole H1 of the motor support.      Position the knot at the extremity E2 on its socket S1 which is positioned      on the pulley P.
 4. Pass E1 trough the tube T1. Note: the tube extremity      should be inserted correctly in its socket.
@@ -316,7 +315,7 @@ Take a piece of coated cable (more or less 40cm).
 
 <img src ="../img/hand/Fig_4-38.PNG" height = 300px>
 <img src ="../img/hand/Fig_4-37.PNG" height = 300px>
-  
+
 ### 4.6       index_distal: SxIndDst and DxIndDst
 
  
@@ -372,13 +371,13 @@ Take a piece of coated cable (more or less 40cm).
 | T4    | 112(mm)                                                      | 2         | Exits   from the slider (H10) and enters the finger which is closer to the hole. |
 | T5    | 112(mm)                                                      | 9         | Exits   from the slider (H10) and enters the finger which is closer to the hole. |
 
-This join differs from the others since its movement is realized with a slider. The motor rotates so as to move the slider (clockwise rotations correspond to moving the slider proximally, i.e. closer to the elbow). The slider pulls a couple of wires so as to close the ring and little fingers. 
+>This join differs from the others since its movement is realized with a slider. The motor rotates so as to move the slider (clockwise rotations correspond to moving the slider proximally, i.e. closer to the elbow). The slider pulls a couple of wires so as to close the ring and little fingers. 
 
  
 
-Let's first describe how to mount the cables that will move the slider mounted on the forearm.
+>Let's first describe how to mount the cables that will move the slider mounted on the forearm.
 
-1. Take a piece of non coated cable (more or less 40cm).
+>1. Take a piece of non coated cable (more or less 40cm).
 2. Pass the cable trough the hole (H) in the pulley.      Optionally you can block the cable on the pulley putting a drop of      cyanoacrylic glue into the hole.
 3. Twine the cable on the pulley. The number of turns around      the pulley has to be decided on the basis of the entrance and exit holes      (H1 and H2): the cable should enter the holes tangentially.
 4. Insert the cable extremities, E1 and E2, in holes H1 and      H2 respectively.
@@ -393,19 +392,19 @@ Let's first describe how to mount the cables that will move the slider mounted o
 
  
 
-Let's now describe how to set up the cables that will pull the tendons that close the fingers thanks to the slider movements.
+>Let's now describe how to set up the cables that will pull the tendons that close the fingers thanks to the slider movements.
 
-1. Take a piece of coated cable (more or less 15cm). Tie in a      knot at one extremity. Pass the other extremity (E1) trough the hole H8.      and pull it so as to  move the knot      on H8. -- Take a second piece of coated cable. Tie in a knot at one      extremity. Pass the other extremity (E2) trough the hole H9. and pull it      so as to  move the knot on H9.
+>1. Take a piece of coated cable (more or less 15cm). Tie in a      knot at one extremity. Pass the other extremity (E1) trough the hole H8.      and pull it so as to  move the knot      on H8. -- Take a second piece of coated cable. Tie in a knot at one      extremity. Pass the other extremity (E2) trough the hole H9. and pull it      so as to  move the knot on H9.
 2. Pass E1 trough the hole H10. -- Pass E2 trough the hole      H11.
 3. Insert E1 trough the tube T4. Position the tube extremity      on the socket in H10. --Insert E2 trough the tube T5. Position the tube      extremity on the socket in H11.
 
  
 
-Let's now restrict to one of the two fingers (either pinky or ring). Similar operations should be repeated for the other finger.
+>Let's now restrict to one of the two fingers (either pinky or ring). Similar operations should be repeated for the other finger.
 
  
 
-1. Pass E1 trough the hole H12. Position the tube extremity      on its socket in H12.
+>1. Pass E1 trough the hole H12. Position the tube extremity      on its socket in H12.
 2. Perform a complete 360 deg turn around the pulley P1 (see      the detailed picture).
 3. Pass E1 trough the hole H13 and exit trough the hole H14.
 4. Perform a complete 360 deg turn around the pulley P2 (see      the detailed picture).
