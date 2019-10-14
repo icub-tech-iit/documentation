@@ -15,3 +15,10 @@
 
 
 ## Assembly instruction
+
+First of all you need to know that you will be in a situation where you will have to disassemble the components to replace and disconnect the Corn and FTC boards  in order to move them and leave the workspace free as much as possible:
+
+- Seguenza di montaggio 
+
+
+
