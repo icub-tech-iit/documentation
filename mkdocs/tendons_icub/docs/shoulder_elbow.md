@@ -22,30 +22,41 @@ Il presente Capitolo descrive la procedura di cablaggio dei cavi delle spalle e 
 <center> 10: length 154 mm - Diam. 1.2/1.50</center>
 
 
-|IITCODE   |Alias   |Description      |
-|---|---|---|
-|2390   |U7191517 |Stainless steel microcable, cable construction 7x19mm, nom. dia 1,5mm, outer dia 1,75mm, Polyamide coated, AISI 316 - CARL STAHL GMBH   |
-|3492   |RC_TLR_003_P_101   |Thimble for cable 1.75mm (Diam int/ext/L 1.6/4.6/6 mm) - material X5CrNiMo1712 - AISI 316   |
-|13736|RC_IIT_019_G_029|U7191215/SE000094 - 163mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
-|13737|	RC_IIT_019_G_030|U7191215/SE000094 - 121mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
-|13738|RC_IIT_019_G_031 |U7191215/SE000094 - 110mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
-|13739|	RC_IIT_019_G_032|U7191215/SE000094 - 154mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
-|2389| U7191215 |Stainless steel microcable, cable construction 7x19mm, nom. dia 1,2mm, outer dia 1,5mm, Polyamide coated, AISI 316 - CARL STAHL GMBH|
-|**3877**| **RC_TLR_005_P_101** |**Thimble for cable Dia 1.5mm (Inner dia 1.25mm)**|
-|1895|IIT_003_P_006_00 |LEFT PULLEY - CRIMP COVER|
-|1896|IIT_003_P_007_00 |RIGHT PULLEY - CRIMP COVER|
 
-> Cables from 1 to 6 are RC_IIT_019_G_00X - X from 1 to 6 - each made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492).  [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position002)
-
+> Cables from 1 to 6 are RC_IIT_019_G_00X - X from 1 to 6 - each made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492). The assembly resulting cable can be purchased from with IITCODE from 4758 to 4763.\  [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position002)
 <!-- 
 Gli IITCODE dei cavi da 1 a 6 sono da 4758 a 4763. Vengono realizzati mediante cavo di acciaio U7191517 codice IIT 2390 e n. 2 crimp codice IIT 3492. Le misure sono presenti nella lista
 -->
 
-> For Cable 7-8-9-10 measures see above (respectively IITCODE from 13736 to 13739). **Alternatively you could build your own, made from U7191215 (IITCODE 2389) and 2 crimps (IITCODE 3877) BUT note that it is really important to shrink down to 4mm the crimp thtat we will be inside the tensionner holder** \ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position003)
+|IITCODE   |Alias |Description      |
+|---|---|---|
+|4758|RC_IIT_019_G_001|SHOULDER ROTATION CABLE 1|
+|4759|RC_IIT_019_G_002|SHOULDER ROTATION CABLE 2|
+|4760|RC_IIT_019_G_003|SHOULDER ROTATION CABLE 3|
+|4761|RC_IIT_019_G_004|SHOULDER ROTATION CABLE 4|
+|4762|RC_IIT_019_G_005|SHOULDER ROTATION CABLE 5|
+|4763|RC_IIT_019_G_006|SHOULDER ROTATION CABLE 6|
+|2390   |U7191517|Stainless steel microcable, cable construction 7x19mm, nom. dia 1,5mm, outer dia 1,75mm, Polyamide coated, AISI 316 - CARL STAHL GMBH   |
+|3492   |RC_TLR_003_P_101  |Thimble for cable 1.75mm (Diam int/ext/L 1.6/4.6/6 mm) - material X5CrNiMo1712 - AISI 316   |
+|1895|IIT_003_P_006_00|LEFT PULLEY - CRIMP COVER|
+|1896|IIT_003_P_007_00 |RIGHT PULLEY - CRIMP COVER|
+
+
+> For Cable 7-8-9-10 measures see above (respectively IITCODE from 13736 to 13739). **Alternatively you could build your own, made from U7191215 (IITCODE 2389) and 2 crimps (IITCODE 3877) BUT note that it is really important to shrink down to 4mm the crimp that will be inside the tensionner holder** \ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position003)
 
 <!-- 
 Per i cavi 7-8-9-10 fare riferimento a descrizione in IITCODE 13736-7-8-9
 -->
+
+|IITCODE   |Alias|Description      |
+|---|---|---|
+|13736|RC_IIT_019_G_029|U7191215/SE000094 - 163mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
+|13737|	RC_IIT_019_G_030|U7191215/SE000094 - 121mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
+|13738|RC_IIT_019_G_031 |U7191215/SE000094 - 110mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
+|13739|	RC_IIT_019_G_032 |U7191215/SE000094 - 154mm - cyl. nipple AM420716/NI000007 - ball nipple KU000012 - CARL STAHL GMBH|
+|2389| U7191215 |Stainless steel microcable, cable construction 7x19mm, nom. dia 1,2mm, outer dia 1,5mm, Polyamide coated, AISI 316 - CARL STAHL GMBH|
+|3877| RC_TLR_005_P_101 |Thimble for cable Dia 1.5mm (Inner dia 1.25mm)|
+
 
 !!! danger "The cabling sequence for the shoulder is the following:"
     <h4><center>**(1 - 2) - (3 - 4) - (8 - 7) - (6 - 5)**</center></h4>
@@ -182,32 +193,11 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 4. Right Shoulder
+
+!!! advice
+    Take  look at the beginning of this web page to have all the information related to the dimensions of cables and how to get or build them.
+
 
 !!! danger "The cabling sequence for the shoulder is the following:"
     <h4><center>**(1 - 2) - (3 - 4) - (8 - 7) - (6 - 5)**</center></h4>
