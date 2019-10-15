@@ -16,9 +16,12 @@
 
 ## Assembly instruction
 
-First of all you need to know that you will be in a situation where you will have to disassemble the components to replace and disconnect the Corn and FTC boards  in order to move them and leave the workspace free as much as possible:
+First of all you need to know that you will be in a situation where you will have to disassemble the components to replace and disconnect the Corn and FTC boards  in order to move them and leave the workspace free as much as possible.
+Once this is done the first piece to be mounted will be the rc_IIT_011_g_016 or the rc_IIT_011_g_017 (right or left hand) as shown in the video. All this because you will find yourself in the condition in which you will have to pass the piece between the cables (tendons) that move the thumb.
 
-- Seguenza di montaggio 
+<center> ![imagine view](GIF/SUPPORT_RIGHT_TOP.gif) </center>
+
+Assembly sequence :
 
 
 <center> ![imagine view](img/seguenza-1.JPG) ![imagine view](img/seguenza-2.JPG)  </center>
@@ -27,5 +30,5 @@ First of all you need to know that you will be in a situation where you will hav
     <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>
 
-<center> ![imagine view](GIF/1.gif) </center>
+<center> ![imagine view](GIF/2.gif) </center>
 
