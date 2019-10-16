@@ -1,23 +1,24 @@
-# Update of Mais support (front and rear hand) for iCub 
+# **Update of Mais support (front and rear hand) for iCub**
 
 
 
 ## Content material
 
-|  Pieces |         Alias  |    Description  |  
-|   ---   |         ---    |      ---
-|     1   |  RC_IIT_011_P_063 |  Left support for Mais |
-|     1   | RC_IIT_011_G_017 |  Left support for FTC |
-|     1   |  RC_IIT_011_P_062 |  Right support for Mais |
-|     1   |  RC_IIT_011_G_016  |   Right support for FTC      |
-|     4   |  ISO 7046 M1.6x6 |  screws for right/left support FTC |
-|     4    | ISO 7045 M1.6x6 | screws for right/left support Mais |
+|  Pieces |         Alias  |    Description  |  Cod. Wgst |
+|   ---   |         ---    |      ---        |     ---    |
+|     1   |  RC_IIT_011_P_063 |  Left support for Mais | 14357 |
+|     1   | RC_IIT_011_G_017 |  Left support for FTC | 14354 | 
+|     1   |  RC_IIT_011_P_062 |  Right support for Mais | 14356 |
+|     1   |  RC_IIT_011_G_016  |   Right support for FTC      | 14355 |
+|     4   |  ISO 7046 M1.6x5 |  screws for right/left support FTC | 11229 |
+|     6   | ISO 7045 M1.6x6 | screws for right/left support Mais |  2399 |
 
 
 ## Assembly instruction
 
 First of all you need to know that you will be in a situation where you will have to disassemble the components to replace and disconnect the Corn and FTC boards  in order to move them and leave the workspace free as much as possible.
 Once this is done the first piece to be mounted will be the rc_IIT_011_g_016 or the rc_IIT_011_g_017 (right or left hand) as shown in the video. All this because you will find yourself in the condition in which you will have to pass the piece between the cables (tendons) that move the thumb.
+**This explanation is the same for both hands**
 
 <center> ![imagine view](GIF/SUPPORT_RIGHT_TOP.gif) </center>
 
