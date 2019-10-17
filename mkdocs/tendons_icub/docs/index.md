@@ -12,7 +12,7 @@ Here is a table showing the **visual** differences of iCub from version 1 to 2.5
 
 | iCub V1                     | iCub V2                     | iCub V2.5                       | iCub V2.5 - Backpack         |
 | --------------------------- | --------------------------- | ------------------------------- | ---------------------------- |
-| ![iCub V1](img/ICUB_V1.png) | ![iCub V2](img/ICUB_V2.png) | ![iCub V2.5](img/ICUB_V2_5.png) | ![iCub ](img/ICUB_V2_BP.png) |
+| <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> |
 
 
 
@@ -34,16 +34,16 @@ Here is a table showing the **visual** differences of iCub from version 1 to 2.5
 
 Please click on the iCub body Parts below to get to know how to re-cable them:
 
- [**NECK**](Neck.md)
+[**NECK**](neck.md)
 
-[**SHOULDER**](Shoulder&Elbow.md)
+[**SHOULDER**](shoulder_elbow.md)
 
-[**ELBOW**](Shoulder&Elbow.md)
+[**ELBOW**](shoulder_elbow.md)
 
-[**WAIST**](Waist_Hip.md)
+[**WAIST**](waist_hip.md)
 
-[**LOWER ARM (Forearm + Hand)**](Lower_Arm.md)
+[**LOWER ARM (Forearm + Hand)**](lower_arm.md)
 
-[**HIP**](Waist_Hip.md)
+[**HIP**](waist_hip.md)
 
-[**ANKLE**](Ankle.md)
+[**ANKLE**](ankle.md)
