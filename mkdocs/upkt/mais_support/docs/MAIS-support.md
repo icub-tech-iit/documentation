@@ -12,7 +12,7 @@
 |     1   |  RC_IIT_011_G_016  |   Right support for FTC      | 14355 |
 |     4   |  ISO 7046 M1.6x5 |  screws for right/left support FTC | 11229 |
 |     6   | ISO 7045 M1.6x6 | screws for right/left support Mais |  2399 |
-
+|     4  | ISO 1207 M1x5 | screws for right/left support and Mais board |  2406 |
 
 ## Assembly instruction
 
@@ -25,11 +25,11 @@ Once this is done the first piece to be mounted will be the rc_IIT_011_g_016 or 
 Assembly sequence :
 
 
-<center> ![imagine view](img/seguenza-1.JPG) ![imagine view](img/seguenza-2.JPG)  </center>
+<center> ![imagine view](img/ESPLOSO.JPG) ![imagine view](img/ESPLOSO2.JPG)  </center>
 
 <div style="position:fixed;top:140px;left:85%;">
     <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>
 
-<center> ![imagine view](GIF/2.gif) </center>
+<center> ![imagine view](GIF/3.gif) </center>
 
