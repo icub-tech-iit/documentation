@@ -57,6 +57,5 @@ markdown_extensions:
 nav:
     - Home: 'index.md' 
     - Instructions: 'Capacitor_support.md' 
-    - Instructions2: 'MAIS-support.md'
     - License: 'license.md'
 
