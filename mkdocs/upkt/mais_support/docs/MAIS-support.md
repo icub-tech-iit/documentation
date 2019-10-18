@@ -33,3 +33,7 @@ Assembly sequence :
 
 <center> ![imagine view](GIF/3.gif) </center>
 
+
+Assemble upgrade support Mais and FTC 
+
+<center> ![imagine view](img/Montaggio.JPG) </center>
