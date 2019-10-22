@@ -4,15 +4,15 @@
 
 ## Content material
 
-|  Pieces |         Alias  |    Description  |  Cod. Wgst |
-|   ---   |         ---    |      ---        |     ---    |
-|     1   |  RC_IIT_011_P_063 |  Left support for Mais | 14357 |
-|     1   | RC_IIT_011_G_017 |  Left support for FTC | 14354 | 
-|     1   |  RC_IIT_011_P_062 |  Right support for Mais | 14356 |
-|     1   |  RC_IIT_011_G_016  |   Right support for FTC      | 14355 |
-|     4   |  ISO 7046 M1.6x5 |  screws for right/left support FTC | 11229 |
-|     6   | ISO 7045 M1.6x6 | screws for right/left support Mais |  2399 |
-|     4  | ISO 1207 M1x5 | screws for right/left support and Mais board |  2406 |
+|  Pieces |     Alias           | Rev    |          Description                        |  Cod. Wgst |
+|   :---: |    :---:            |  :---: |     :---:                                   |   :---:   |
+|     1   |  RC_IIT_011_P_063   |        | Left support for Mais                       | 14357 |
+|     1   | RC_IIT_011_G_017    |        | Left support for FTC                        | 14354 | 
+|     1   |  RC_IIT_011_P_062   |        | Right support for Mais                      | 14356 |
+|     1   |  RC_IIT_011_G_016   |        | Right support for FTC                       | 14355 |
+|     4   |  ISO 7046 M1.6x5    |        | screws for right/left support FTC           | 11229 |
+|     6   | ISO 7045 M1.6x6     |        |screws for right/left support Mais           |  2399 |
+|     4   | ISO 1207 M1x5       |        |screws for right/left support and Mais board |  2406 |
 
 ## Assembly instruction
 
@@ -37,3 +37,4 @@ Assembly sequence :
 Assemble upgrade support Mais and FTC 
 
 <center> ![imagine view](img/Montaggio.JPG) </center>
+
