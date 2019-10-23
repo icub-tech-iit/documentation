@@ -56,4 +56,5 @@ nav:
         - Lower Arm Definition: 'lower_arm.md'
         - Hand Cabling: 'hand_cabling.md'
         - Wrist Cabling: 'wrist_cabling.md'
+        - Wrist Hand Cabling V2: wrist_hand_cabling_V2.md
     - License: 'license.md'
