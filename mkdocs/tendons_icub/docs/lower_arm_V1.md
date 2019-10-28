@@ -14,7 +14,7 @@
 
 There are 2 types of distal Joint on this version of the forearm:
 
-* The ones which go inside a motor shaft to get anchored and as soon as the motor is spinning the cable rolls around the pulley and close the joint. Those motors are <u>*perfectly*</u> identical - only the positions differ :
+* The ones which go inside a motor shaft to get anchored, and as soon as the motor is spinning the cable rolls around the pulley and close the joint. Those motors are <u>*perfectly*</u> identical - only the positions differ :
 
   > Thumb, Index & Middle distals
 
@@ -30,7 +30,8 @@ There are 2 types of distal Joint on this version of the forearm:
 | <img src ="../img/lowerArm/index_middle_V1.png" height=300 width=auto> | Index and Middle | they are located **<u>beneath</u>** the slider               |
 | <img src ="../img/lowerArm/R&P_V1.png" height = 300px>       | Ring and Pinky   | they are attached onto the moving part of the slider         |
 
-> <u>WATCH OUT:</u> for the Left forearm - the motor positions are "mirrored" compared to the Right one.
+!!! warning "WATCH OUT"
+    FOR the **Left forearm** : the motor positions are "mirrored" respect to the **right** ones.
 
 
 
@@ -42,9 +43,28 @@ The minimum requirement to start recabling:
 | ------- | -------- | ------------------------------------------------------------ |
 | 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
-What ever type of distal you need to recable  you need to start with cutting one piece of 50cm of the cable IITCODE 2391.
+!!! note "step by step guide for a good knot"
 
-> Make a knot and use 2 pliers at the extremity to totally close it. 
+> Start by cutting one piece of 40cm from the cable IITCODE 2391.
+
+> Make a knot at one extremity.
+
+<img src='../img/lowerArm/knot1.jpg' width =400>
+
+> use 2 pliers to close it hard.
+
+<img src="../GIF/lower_arm/knot_video.gif" width = 400>
+
+> drop a tear of glue on the knot and dry it, remove the excess with a tissue - double check that the knot is perfectly dry before to procede.
+
+<img src='../img/lowerArm/knot3.jpg' width = 400>
+
+> cut the excess of cable
+
+<img src='../img/lowerArm/knot4.jpg' width = 400>
+
+<img src='../img/lowerArm/knot5.jpg' width = 400>
+
 
 ##### VIDEO of the closing
 
@@ -62,11 +82,11 @@ What ever type of distal you need to recable  you need to start with cutting one
 
 #### <u>Thumb:</u>
 
-Just insert the cable inside the hole
+Just insert the cable inside the hole. Make sure that 
 
 #### <u>Index or Middle:</u>
 
-
+You must consider to move the slidder away that covers both motor to be able to see clearly the hole where the cable will go - for that unscrew the 4 screws identicated on the pictures below
 
 #### <u>Ring or Pinky finger:</u>
 
