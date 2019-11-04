@@ -1,5 +1,5 @@
 # mkdocs tests
-This repository contains tests for mkdocs
+This repository contains tests for mkdocs.
 
 see https://icub-tech-iit.github.io/fix-test-mkdocs/mkdocs/thedocs/site
 
