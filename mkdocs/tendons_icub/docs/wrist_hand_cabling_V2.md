@@ -17,8 +17,8 @@
 | 6 | 6415 | 113 mm | RC_IIT_019_G_024 |
 | 7 | 6416 | 112 mm | RC_IIT_019_G_025 |
 | 8 | 6417 | 107mm | RC_IIT_019_G_026 |
-| 9 | 6418 | 53mm | RC_IIT_019_G_027 |
-| 10 | 6419 | 45 mm | RC_IIT_019_G_028 |
+| 9 | 6418 | 51 mm | RC_IIT_019_G_027 |
+| 10 | 6419 | 43 mm | RC_IIT_019_G_028 |
 
 
 !!! Note
@@ -92,22 +92,31 @@ IITcode 3514 - alias RC_TLR_010_G014 - 15mm length - made by
 ##**2.Finger sheats**
 
 
-|Finger   |Prox/Dist   |Label   |Lenght   |IITCODE   |
+|Finger   |Prox/Dist   |Label   |Length   |IITCODE   |
 |---|---|---|---|---|
-|Thumb   |Proximal   |(6+S) (6+L)   |185 + 9      mm   |13724   |
-|Thumb   | Proximal  |(6-S)  (6-L)   |185 + 11 mm   |13724   |
-|Thumb	|Distal|	N°4|	  57 + 11.5 mm	|2375   |
-|Index|	Proximal|	(8+S)  (8+L)	|224 mm	|13724   |
-|Index|	Proximal|	(8-S)   (8-L)|	224 mm|	13724   |
+|Thumb   |Proximal   | 6+   |185      mm   |13724   |
+|Thumb|Short Prox|     |9 mm|2375|
+|Thumb   | Proximal  |6-   |185|13724   |
+|Thumb|Short Prox | |11 mm| 2375|
+|Thumb	|Distal|	N°4|	  57  mm	|2375   |
+|Thumb |Short Dist|  |11.5|2375|
+|Index|	Proximal|	8+	|224 mm	|13724   |
+|Index|	Proximal|	8-|	224 mm|	13724   |
 |Index|	Distal|	N°5|	105 mm|	2375   |
-|Middle|	Proximal|	(7+S)  (7+L)|	224 mm|	13724   |
-|Middle|	Proximal|	(7-S)   (7-L)|	224 mm|	13724   |
+|Middle|	Proximal|	7+|	224 mm|	13724   |
+|Middle|	Proximal|	7-|	224 mm|	13724   |
 |Middle|Distal	|N°3	|105 mm	|2375   |
 |Ring Finger|	|	N°2|	95   mm|	2375   |
-|Little Finger|	|	N°9|	95   mm|	2375   |
+|Pinkie|	|	N°9|	95   mm|	2375   |
+|Finger abduct| | T0| 90 mm (1)|2375|
+|Finger abduct| | T2| 27 mm|2375|
+|Finger abduct| | T4| 44 mm|2375|
 
 
-​				
+
+!!! NOTE
+    (1) the length 90 mm of T0 comes from previous version where there was: T0+T3+tensioner (38+38+14 mm)
+
 ​			   	
 
 
@@ -148,17 +157,23 @@ Left Thumb Abduction cable diam 0,63 mm
 
 ###**3.2  Thumb Metacarpus sheath positions**
 
-![Hand wrist tendon](img/HAND_WRIST_V2/Metacarpus.PNG)
+![ar](img/HAND_WRIST_V2/Metacarpus.PNG)
 
 From S2 make 1 turn around the pulley (see follow drawing) 
 
 From S0 go directly to the hole (see follow drawing)
 
 !!! Note
-    Proximal thumb sheaths are made from IIT-13724 - MAZZONI_0_3-  0_8_-250_SS_SHEATH rectangular 0,3x0,8 mm, L= 250 mm
+    Proximal thumb sheats are made from 
+    IIT-13724 - MAZZONI_0_3-  0_8_-250_SS_SHEATH rectangular 0,3x0,8 mm, L= 250 mm
     
-
-    Distal thumb sheaths are made from IIT-2375 – SHEATH - Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm – L = 500 mm
+    The following list of sheats are made from IIT-2375 – SHEATH - Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm – L = 500 mm:
+    
+    Distal Thumb
+    
+    Short Distal thumb
+    
+    Short Prox thumbs
 
 
 
