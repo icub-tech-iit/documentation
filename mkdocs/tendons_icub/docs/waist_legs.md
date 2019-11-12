@@ -1,30 +1,33 @@
 
-# **Waist & Hip**
-
-## WAIST
-
-**Waist cable**
-
-> This chapter describes the steps for the wiring of the cables 11 - 12 - 13 which allow the movement of the trunk of the robot, both during construction and in maintenance phase 
-> [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position013)
+# **Waist, Stand Locker and Legs Cabling Manual**
 
 ## Cable construction:
 
-<center>![waist](img\shoulder\ICUB_SHOULDER_cables_all.png)</center>
+<center>![waist](img\waist\cables_all.png)</center>
 <center> 11  : length 709 mm - Diam. 1.5/1.75</center>
 <center> 12  : length 488 mm - Diam. 1.5/1.75</center>
 <center> 13  : length 630 mm - Diam. 1.5/1.75 </center>
 <center> 14  : length 729 mm -  Diam. 1.5/1.75 </center> 
-<center> 29  : length &nbsp;23mm - &nbsp;Diam. 1.5/1.75 </center>
+<center> 15  : length 450 mm -  Diam. 1.5/1.75 </center> 
+<center> 16  : length 530 mm -  Diam. 1.5/1.75 </center> 
+<center> 29  : length &nbsp;&nbsp;23 mm - Diam. 1.5/1.75 </center>
+
 
 | IITCODE | Alias            | Description                                                  |
 | ------- | ---------------- | ------------------------------------------------------------ |
 | 2390    | U7191517         | Stainless, cable construction 7x19mm, Polyamide coated - CARL STAHL GMBH |
 | 3492    | RC_TLR_003_P_101 | Thimble for cable 1.75mm (Diam int/ext/L 1.6/4.6/6 mm) - material X5CrNiMo1712-AISI316 |
 
-> Cables from 11 to 14 are RC_IIT_019_G_0XX - XX from 11 to 14, Cable 29 is  RC_IIT_090_G_005. each is  made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492). For Cable 14 and 29 see further description on relative chapters
-> [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position014)     
-                                                
+> Cables from 11 to 16 have the aliases RC_IIT_019_G_0XX - where XX is number from 11 to 16, Cable 29 instead is  RC_IIT_090_G_005. Every cable are made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492). 
+> [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position014)    
+
+
+# WAIST
+
+**Waist cable**
+
+> This chapter describes the steps required for the wiring of the cables 11 - 12 - 13 which allow the movement of the trunk of the robot, both during construction and in maintenance phase.[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position013)
+
 ## WAIST BACK - Cable 11
 
 <center>![waist](img\waist\Waist_cable_11.png)</center>
@@ -91,25 +94,59 @@
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position026)
 
 <center>![waist](img\waist\Waist_top22_23.PNG)</center>
-## WIRING LEG – Cable 14
+
+# LEG CABLING
+
+> This chapter describes the steps required both during construction and in maintenance phase to route of the cables 14 of the hip of the robot and cables 15 or 16 of the ankle present on robot with lower body version 1.[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position013)
+
+
+## HIP FLEXION – Cable 14
 
 <center>![waist](img\waist\Wiring-LEG_Cable_14.PNG)</center>
+
 **Preparation:**
 
 > The cable has to be previously peeled off, at a distance of 435 mm from crimp, for a total of 50 mm. (see below)
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position027)
 
 <center>![waist](img\waist\Wiring-LEG_Cable_14_built.PNG)</center>
+
+!!! TIP
+    the latter version of iCub have a cover, you may need to remove it before proceeding(see picture below). To do that remove the 2 screws of the cover. To unscrew them it is important to see them, use a hexagonal screw driver 2mm and turn the motor shaft from the other side of the motor(see picture below).
+    <center>![waist](img\waist\hip-cover.png)</center>
+
 **Procedure:**
 
 > Take the cable and place the part stripped in the slot on the piece RC_IIT_001_P_314, then center and block it with the help of the plate RC_IIT_001_P_328 (Photo 24). The shortest part of the cable is the one going outside of the robot.
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position028)
 
 <center>![waist](img\waist\Wiring-LEG_24_25.PNG)</center>
-> Take the inner part of the cable (the right one so to speak – or the longest) and make a tour around the pulley RC_IIT_001_P_314 (Photo 25). At this point proceed with making a turn in the opposite direction around the pulley of the leg or the RC_USAL_001_P_186 piece, by inserting the crimp in the appropriate tensioning pieces RC_USAL_001_P_131 (Photo 27).
+> Take the inner part of the cable (the right one so to speak – or the longest) and make one turn around the pulley RC_IIT_001_P_314 (Photo 25). If done correcly you should have the 2 crimps reunited down below the hip (photo N.26).
+> At this point proceed route the cables by making an 8 shape, by crossing the cables and follow the wiring (photo N.28) (shortest part - yellow cable) and insert both crimp inside their respective tensionner -  piece RC_USAL_001_P_131 (Photo 27).
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position028)
 
 <center>![waist](img\waist\Wiring-LEG_26_27_28.PNG)</center>
+
+# ANKLE CABLING
+
+> Those 2 cables are only one some previous iCub design V1.
+
+## ANKLE FLEXION - Cable 15
+
+> Follow the following diagram in order to rewire correctly.
+
+|ANKLE FLEXION - cable 15 | ANKLE FLEXION - cable 16|
+| ---| --- |
+|<center>![waist](img\waist\15-wiring.png)</center>|<center>![waist](img\waist\16-wiring.png)</center>|
+
+!!! TIP
+    remove the blocker-cover to adjust the cable - when finally wired put it back and tighten firmly the screws holding it in place.
+    
+|ANKLE FLEXION - cable 15 | ANKLE FLEXION - cable 16|
+| ---| --- |
+|<center>![waist](img\waist\cover-15.png)</center>|<center>![waist](img\waist\cover-16.png)</center>|
+
+
 # STAND – FAST ROBOT LOCKER 
 
 > This chapter describes the construction of fast locker to connect the robot to the stand seat
@@ -131,6 +168,9 @@
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position033)
 
 <center>![waist](img\waist\Stand_Cable_29_foto33_34.PNG)</center>
+
+
+
 # Version
 
 | Version | Date         | Author                     | Comments       |
