@@ -1,4 +1,4 @@
-# **Update of Mais support (front and rear hand) for iCub**
+# **Update Support for Right and Left hand for iCub**
 
 
 
@@ -41,3 +41,10 @@ Assemble upgrade support Mais and FTC
 
 <center> ![imagine view](img/Montaggio.JPG) </center>
 
+Mounting the cover (hand back):
+pass the foot of the back of the hand (cover) between the steel cable (tendon) and the palm of the hand (cover).
+See video
+
+<video style="display: block;margin-left: auto;margin-right: auto;width:70%; border:solid 1px" controls autoplay>
+    <source src="../movie/video.mp4">
+</video>
