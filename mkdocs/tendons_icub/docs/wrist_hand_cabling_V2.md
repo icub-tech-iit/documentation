@@ -30,7 +30,6 @@ Each Tendon is made by a CARL STHAL code  CG077081 (Alias RC_IIT_019_P_0xx - whe
 
 
 
-
 ### **1.2. SHEAT Versions**
 
 
@@ -38,20 +37,25 @@ Each Tendon is made by a CARL STHAL code  CG077081 (Alias RC_IIT_019_P_0xx - whe
 |--|--|--|
 |2375	|SHEAT|	Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm
 |4545 |4545|	Flat Wire Coil OD1.6mm +/-0.03mm - ID 1.07mm - L = 300 mm|
-|13724	|MAZZONI_0_3-0_8_-250_SS_SHEATH|Rectangular section sheath 0.3x0.8, L = 250 mm|
+|13963	|MAZZONI_0_3-0_8_-250_SS_SHEATH|Rectangular section sheath 0.3x0.8, L = 250 mm|
 
 
 !!!note
-    IIT code  13724 is alternative to the 4545 and it was introduced only for cost efficiency 
+    IIT code  13963 is alternative to the 4545 and it was introduced only for cost efficiency
 
 
-
+!!!DANGER
+    inside sheath 13724 please DO NOT USE teflon sheath!!!
 
 
 
 ###**1.3.Tensioner LEFT/RIGHT**
 
-IITcode 3514 - alias RC_TLR_010_G014 - 15mm length - made by
+
+![Hand wrist tendon](img/HAND_WRIST_V2/Tensioner_descriprion.PNG)
+
+
+The assembly IITcode 3514 - alias RC_TLR_010_G014 is made by:
 
 |IIT Code |Alias |Description |Quantity|
 |--|--|--|--|
@@ -61,8 +65,6 @@ IITcode 3514 - alias RC_TLR_010_G014 - 15mm length - made by
 |3562 rev A1|          	RC_TLR_010_P_048|         	TENSIONER SCREW|             	1|
 |3563	|RC_TLR_010_P_047|          	LOCK NUT|                          	1|
 
-
-![Hand wrist tendon](img/HAND_WRIST_V2/Tensioner_descriprion.PNG)
 
 
 ### **1.4 Right Forearm/Wrist tendons** 
@@ -94,17 +96,17 @@ IITcode 3514 - alias RC_TLR_010_G014 - 15mm length - made by
 
 |Finger   |Prox/Dist   |Label   |Length   |IITCODE   |
 |---|---|---|---|---|
-|Thumb   |Proximal   | 6+   |185      mm   |13724   |
+|Thumb   |Proximal   | 6+   |185      mm   |13963   |
 |Thumb|Short Prox|     |9 mm|2375|
-|Thumb   | Proximal  |6-   |185|13724   |
+|Thumb   | Proximal  |6-   |185|13963   |
 |Thumb|Short Prox | |11 mm| 2375|
 |Thumb	|Distal|	N°4|	  57  mm	|2375   |
 |Thumb |Short Dist|  |11.5|2375|
-|Index|	Proximal|	8+	|224 mm	|13724   |
-|Index|	Proximal|	8-|	224 mm|	13724   |
+|Index|	Proximal|	8+	|224 mm	|13963   |
+|Index|	Proximal|	8-|	224 mm|	13963   |
 |Index|	Distal|	N°5|	105 mm|	2375   |
-|Middle|	Proximal|	7+|	224 mm|	13724   |
-|Middle|	Proximal|	7-|	224 mm|	13724   |
+|Middle|	Proximal|	7+|	224 mm|	13963   |
+|Middle|	Proximal|	7-|	224 mm|	13963   |
 |Middle|Distal	|N°3	|105 mm	|2375   |
 |Ring Finger|	|	N°2|	95   mm|	2375   |
 |Pinkie|	|	N°9|	95   mm|	2375   |
@@ -165,7 +167,7 @@ From S0 go directly to the hole (see follow drawing)
 
 !!! Note
     Proximal thumb sheats are made from 
-    IIT-13724 - MAZZONI_0_3-  0_8_-250_SS_SHEATH rectangular 0,3x0,8 mm, L= 250 mm
+    IIT-13963 - MAZZONI_0_3-  0_8_-250_SS_SHEATH rectangular 0,3x0,8 mm, L= 250 mm
     
     The following list of sheats are made from IIT-2375 – SHEATH - Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm – L = 500 mm:
     

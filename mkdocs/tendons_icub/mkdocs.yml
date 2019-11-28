@@ -50,12 +50,17 @@ markdown_extensions:
 nav:
     - Home: 'index.md'
     - Body Parts:
-        - Neck: 'neck.md'
-        - Shoulder & Elbow: 'shoulder_elbow.md'
-        - Waist & Legs: 'waist_legs.md'
-        - Lower Arm Definition: 'lower_arm.md'
-        - Hand Cabling: 'hand_cabling.md'
-        - Wrist Cabling: 'wrist_cabling.md'
-        - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
-        - Hand Cabling V1: 'hand_cabling_V1.md'
+        - NECK: 'neck.md'
+        - SHOULDER & ELBOW: 'shoulder_elbow.md'
+        - WAIST, LEG & ANKLE: 'waist_legs.md'
+        - LOWER ARM:
+              - Definition: 'lower_arm.md'
+              - Version 1 :
+                   - Hand Cabling V1 - Building Phase: 'hand_cabling_V1.md'
+                   - Wrist Cabling: 'wrist_cabling.md'
+                   - Lower Arm V1 - Repair Phase : 'lower_arm_V1.md'
+              - Version 2 :
+                   - Lower Arm V2: 'lower_arm_V2.md'
+                   - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
+
     - License: 'license.md'

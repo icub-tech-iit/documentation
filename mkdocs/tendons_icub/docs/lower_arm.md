@@ -12,13 +12,13 @@ Let's describe the overall functionality of those motors:
 
 > Pronosupination (1)
 >
-> <u>Wrist:</u> pan + tilt (2)
+> <u>Wrist:</u> (2) = pan + tilt
 >
-> <u>Thumb:</u>  proximal + distal (2)
+> <u>Thumb:</u>  (2) = proximal + distal
 >
-> <u>Index:</u> proximal + distal (2)
+> <u>Index:</u> (2) = proximal + distal
 >
-> <u>Middle:</u> proximal + distal (2)
+> <u>Middle:</u> (2) = proximal + distal
 >
 > pinky-ring fingers (1)
 

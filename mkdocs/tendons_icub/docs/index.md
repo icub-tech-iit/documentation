@@ -4,7 +4,7 @@ The purpose of this manual is to describe how to mount/repair the tendons of iCu
 
 The tendons are located in the:
 
-> Neck, Shoulder, Elbow, Waist, Leg and Ankle
+> Neck, Shoulder, Elbow, Lower Arm (Forearm + Hand),  Waist, Leg and Ankle
 
 ## iCub mechanical versions
 

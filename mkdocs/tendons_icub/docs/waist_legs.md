@@ -12,14 +12,26 @@
 <center> 16  : length 530 mm -  Diam. 1.5/1.75 </center> 
 <center> 29  : length &nbsp;&nbsp;23 mm - Diam. 1.5/1.75 </center>
 
+> Each cable from the list above is made of U7191517 (IITCODE 2390) with its belonging lengths and 2 crimps RC_TLR_003_P_101 (IITCODE 3492).
 
-| IITCODE | Alias            | Description                                                  |
-| ------- | ---------------- | ------------------------------------------------------------ |
-| 2390    | U7191517         | Stainless, cable construction 7x19mm, Polyamide coated - CARL STAHL GMBH |
-| 3492    | RC_TLR_003_P_101 | Thimble for cable 1.75mm (Diam int/ext/L 1.6/4.6/6 mm) - material X5CrNiMo1712-AISI316 |
 
-> Cables from 11 to 16 have the aliases RC_IIT_019_G_0XX - where XX is number from 11 to 16, Cable 29 instead is  RC_IIT_090_G_005. Every cable are made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492). 
-> [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position014)    
+| IITCODE | Alias |Version | Description  |
+| ---- | ------- | ------- | ---- |
+| 2390    | U7191517   |      | Stainless, cable construction 7x19mm, Polyamide coated - CARL STAHL GMBH |
+| 3492    | RC_TLR_003_P_101|  | Thimble for cable 1.75mm (Diam int/ext/L 1.6/4.6/6 mm) - material X5CrNiMo1712-AISI316 |
+
+> Alternatively, those cable can be seen as an assembly with their following IITCODE and respective aliases taken from CAD named RC_IIT_019_G_0XX - where XX is number from 11 to 16.
+
+| IITCODE | Alias |Version | Description  |
+| ---- | ------- | ------- | ---- |
+| 4768    | RC_IIT_019_G_011   |   1   | WAIST BACK CABLE 11 |
+| 4769    | RC_IIT_019_G_012   |   1   | WAIST FRONT CABLE 12 |
+| 4770    | RC_IIT_019_G_013   |   1   | WAIST TOP CABLE 13 |
+| 4771    | RC_IIT_019_G_014   |   1   | HIP FLEXION CABLE 14 |
+| 4772    | RC_IIT_019_G_015   |   1   | ANKLE FLEXION CABLE 15 |
+| 6377    | RC_IIT_019_G_016   |   1   | ANKLE FLEXION V2 CABLE 16 |
+
+> Cable 29 instead is  RC_IIT_090_G_005. At the moment this cable is home made.
 
 
 # WAIST
@@ -30,23 +42,29 @@
 
 ## WAIST BACK - Cable 11
 
+!!! WARNING
+    routing cable 11
 <center>![waist](img\waist\Waist_cable_11.png)</center>
 **Procedure:**
 
-> Take the cable and draw with a marker the middle of it. Place it in the slot on the piece RC_USAL_001_P_110 (Photo 1). Put the plate RC_USAL_001_P_118 on the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 2)
+> Take the cable and draw with a marker the middle of it. Place the cable onto the slot of the pulley (Photo 1). Put the squared plate above the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 2)
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position015)
 
 <center>![waist](img\waist\Waist_cable_11_foto.png)</center>
-> Turn the cable around the RC_USAL_001_P_110 piece taking care to cross it around the pulley, the opposite side to the plate (Photo 3 - 4).
+> Turn the cable around the pulley taking care to cross it at the opposite side of the plate (Photo 3 - 4).
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position016)
 
 <center>![waist](img\waist\Waist_cable_11_foto3_4.png)</center>
-> Route the cables around the pulleys RC_USAL_001_P_119 (Photo 5 - 6)
+> Each side of the cable go up and pass into the little side pulley (Photo 5 - 6)
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position017)
 
 <center>![waist](img\waist\Waist_cable_11_foto5_6.png)</center>
 > To finish the wiring, position the head of the crimps inside the tensioners found in pieces RC_TLR_001_P_235 on both side of the inside hip (Photo 7 - 8).
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position018)
+
+!!! Tip
+    Use a 2mm hexagonal screwdriver to spin the motor shaft (Photo N.9) in both hip of iCub which will allow you to put the pulley holding the tensionner in the right configuration.
+
 
 <center>![waist](img\waist\Waist_cable_11_foto7_8.png)</center>
 > To bring the joint properly ready in position to start wiring cable 12, please use the head screw inside the hips (Photo 9) simultaneously or one hip at a time by few degree every now and then. To arrive on the position (Photo 10)
@@ -58,15 +76,15 @@
 <center>![waist](img\waist\Waist_Front1.PNG)</center>
  **Procedure:**
 
-> Take the cable and draw with a marker the middle of it. Place it in the slot on the piece RC_TLR_001_P_247 (Photo 12)
+> Take the cable and draw with a marker the middle of it. Placethe cable into the slot of the pulley (Photo 12)
 [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position020)
 
 <center>![waist](img\waist\Waist_cable_11_foto11-12.png)</center>
-> Put the plate RC_USAL_001_P_219 on the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 13).Turn the cable around the piece RC_TLR_001_P_247 taking care to cross the cable above the pulley (Photo 14).
+> Put the rectangular plate above the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 13). Turn the cable around the pulley taking care to cross the cable above the pulley (Photo 14).
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position020)
 
 <center>![waist](img\waist\Waist_cable_11_foto13-14.png)</center>
-> To finish the wiring, put the crimps in the tensioners found in pieces RC_TLR_001_P_235 (Photo 15 - 16)
+> To finish the wiring, put the crimps into the tensioners found in pieces RC_TLR_001_P_235 (Photo 15 - 16)
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position021)
 
 <center>![waist](img\waist\Waist_cable_11_foto15-16.png)</center>
@@ -94,7 +112,6 @@
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position026)
 
 <center>![waist](img\waist\Waist_top22_23.PNG)</center>
-
 # LEG CABLING
 
 > This chapter describes the steps required both during construction and in maintenance phase to route of the cables 14 of the hip of the robot and cables 15 or 16 of the ankle present on robot with lower body version 1.[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position013)
@@ -103,14 +120,12 @@
 ## HIP FLEXION – Cable 14
 
 <center>![waist](img\waist\Wiring-LEG_Cable_14.PNG)</center>
-
 **Preparation:**
 
 > The cable has to be previously peeled off, at a distance of 435 mm from crimp, for a total of 50 mm. (see below)
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position027)
 
 <center>![waist](img\waist\Wiring-LEG_Cable_14_built.PNG)</center>
-
 !!! TIP
     the latter version of iCub have a cover, you may need to remove it before proceeding(see picture below). To do that remove the 2 screws of the cover. To unscrew them it is important to see them, use a hexagonal screw driver 2mm and turn the motor shaft from the other side of the motor(see picture below).
     <center>![waist](img\waist\hip-cover.png)</center>
@@ -126,7 +141,6 @@
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position028)
 
 <center>![waist](img\waist\Wiring-LEG_26_27_28.PNG)</center>
-
 # ANKLE CABLING
 
 > Those 2 cables are only one some previous iCub design V1.
@@ -168,8 +182,6 @@
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position033)
 
 <center>![waist](img\waist\Stand_Cable_29_foto33_34.PNG)</center>
-
-
 
 # Version
 
