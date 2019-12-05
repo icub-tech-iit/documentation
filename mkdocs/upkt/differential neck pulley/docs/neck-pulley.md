@@ -16,23 +16,43 @@
 
 ## Assembly instruction
 
-We are going to replace thepart in picture vith its new version A2, this is really similar to the previous one but the groove (red in picture) wich is now smaller.
+We are going to replace the part in the following picture with its new version A2, this is really similar to the previous one but the groove (red in picture) which is now smaller.
 
-<center> ![imagine view](img/groove.PNG)</center>
-there are two of it  in iCub's neck
-<center> ![imagine view](img/in_the_neck.PNG)</center>
 
-Remove the green highlighted assembly loosening the screws indicated by arrows
+| ![](img\groove.PNG) |
+|: -----------------------------------------------------------: |
+|  The pulley part to be changed |
 
-<center> ![imagine view](img/belt_ass.PNG) </center>
-Remove whole motor assembly 
-<center> ![imagine view](img/mot_ass_alone.PNG) </center>
 
-loosening this screw
-<center> ![imagine view](img/mot_ass.PNG) </center>
-Gently remove pulley's assembly
-<center> ![imagine view](img/pulley_ass.PNG) </center>
-Remove the flex apline from the pulley untightening this screw and mount it on new pulley.
-<center> ![imagine view](img/flex.PNG) </center>
-Assemble the whole neck back again doing the same operations.
-Repeat the procedure for the other side pulley.
+
+There are two of these parts  in iCub's neck. Here is a picture of the neck with the parts in red.
+
+| ![](img\in_the_neck.PNG) |
+| :-----------------------------------------------------------: |
+|  The neck with the pulleys in red |
+
+
+Here are the instructions for replacing the left pulley.
+
+- Remove the green highlighted assembly loosening the screws indicated by arrows
+
+    | <center> ![imagine view](img/belt_ass.PNG) </center> |
+    | :-----------------------------------------------------------: |
+    |  tbd |
+
+- Untight the screw shown in left picture to extract the whole motor assembly shown on the right.
+
+    | <center> ![imagine view](img/mot_ass.PNG) </center> |  <center> ![imagine view](img/mot_ass_alone.PNG) </center> |
+    | :----: | :----: |
+    | The whole neck | The motor assembly |
+
+- Gently remove pulley's assembly as on left picture and remove the flex spline from the pulley untightening the screw shown on rigth.
+
+
+    | <center> ![imagine view](img/pulley_ass.PNG) </center> |  <center> ![imagine view](img/flex.PNG) </center> |
+    | :----: | :----: |
+    | pulley assembly |  the screw to remove    |
+
+
+- Repeat the procedure above to extract  the rigth pulley.
+- When the two old pulleys are removed,  mount back the new ones by following instructions in reverse.
