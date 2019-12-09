@@ -34,7 +34,7 @@ Assembly sequence :
     <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>
 
-<center> ![imagine view](GIF/Hand_support.gif) </center>
+<center> ![imagine view](GIF/4.gif) </center>
 
 
 Assemble upgrade support Mais and FTC 
