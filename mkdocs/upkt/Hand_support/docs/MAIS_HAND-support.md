@@ -30,21 +30,24 @@ Assembly sequence :
 
 <center> ![imagine view](img/esploso3.JPG) ![imagine view](img/esploso4.JPG)  </center>
 
+<center> ![imagine view](GIF/4.gif) </center>
+
 <div style="position:fixed;top:140px;left:85%;">
     <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
 </div>
 
-<center> ![imagine view](GIF/4.gif) </center>
 
 
 Assemble upgrade support Mais and FTC 
 
-<center> ![imagine view](img/Montaggio.JPG) </center>
+<center> ![imagine view](img/Montaggio1.JPG) </center>
+
+<center> ![imagine view](img/Montaggio2.JPG) </center>
 
 Mounting the cover (hand back):
 pass the foot of the back of the hand (cover) between the steel cable (tendon) and the palm of the hand (cover).
 See video
 
-<video style="display: block;margin-left: auto;margin-right: auto;width:70%; border:solid 1px" controls autoplay>
+<video style="display: block;margin-left: auto;margin-right: auto;width:70%; border:solid 1px" controls autoplay muted>
     <source src="../movie/video.mp4">
 </video>
