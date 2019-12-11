@@ -1,6 +1,6 @@
 
 <div style="position:fixed;top:140px;left:85%;">
-    <img src="../GIF/icub-rotate.gif" width="85%" height="85%">
+    <img src="./gif/icub-rotate.gif" width="85%" height="85%">
 </div>
 
 
