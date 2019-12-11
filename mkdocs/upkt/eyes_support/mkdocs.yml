@@ -1,12 +1,12 @@
 # Project information
 site_name: 'iCub Tech Docs'
-site_description: 'upgrade kits: Mais support'
+site_description: 'upgrade kits: Eyes support'
 site_author: 'We, the People of the iCub Tech'
-#site_url: 'https://github.com/robotology/assistive-rehab'
+#site_url: 'https://github.com/icub-tech/documentation'
 
 # Repository
-#repo_name: robotology/assistive-rehab
-#repo_url: 'https://github.com/robotology/assistive-rehab'
+#repo_name: icub-tech/documentation
+#repo_url: 'https://github.com/icub-tech/documentation'
 #edit_uri: 'edit/master/doc/mkdocs/data'
 
 # Configuration
@@ -58,6 +58,6 @@ nav:
     - iCub Tech Docs: 
         - hhh: https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site/
     - Index: 'index.md' 
-    - Instructions: 'MAIS-support.md'
+    - Instructions: 'eyes_support.md'
     - License: 'license.md'
 

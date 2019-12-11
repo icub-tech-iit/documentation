@@ -1,5 +1,14 @@
+
+<div style="position:fixed;top:140px;left:85%;">
+    <img src="../gif/icub-rotate.gif" width="60%" height="60%">
+</div>
+
 # Latest news
 
+
+__December 11, 2019__ :  we are restiling this site
+
+On Dec 17 we shall present the results. It is still WIP, though.
 
 
 __October 2, 2019__ : now this site links the others !
@@ -21,7 +30,9 @@ What's new?
 
 
 !!! note
-    Remember Friday, october 4, 2019: it is demo day.
+    Remember Tuesday, December 17, 2019: it is demo day.
 
+<!-- rem it
 !!! tip
-    If you like to partecipate, please ask us.
+    If you like to partecipate, please contact us.
+-->

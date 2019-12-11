@@ -55,7 +55,9 @@ markdown_extensions:
 
 # Page tree
 nav:
-    - Home: 'index.md' 
+    - iCub Tech Docs: 
+        - hhh: https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site/
+    - Index: 'index.md' 
     - Instructions: 'MAIS_HAND-support.md'
     - License: 'license.md'
 
