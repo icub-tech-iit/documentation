@@ -25,17 +25,20 @@ An upgrade kit is a ... plastic bag with mechanical parts, hardware boards, scre
 
 Here are our first kits. 
 
-### iCub UPKT: torso capacitors 
-In [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/capacitors/site/ "upKt iCub capacitors") we have description of how to perform an upgrade to iCub so that the capacitors placed in its back don't get loose.
 
 ###  iCub UPKT: hand
 In  [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/hand_support/site/ "upKt iCub hands") we have description of how to perform an upgrade to the hands of iCub. The upgrade consists in replacing  the supports of the mais board and on a new cover..
 
+<!--
 ###  iCub UPKT: mais support 
 In  [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/mais_support/site/ "upKt iCub mais support") we have description of how to perform an upgrade to iCub so that the supports of the mais board placed in its hands don't easily break anymore.
+-->
 
 ###  iCub UPKT: eyes support 
 In  [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/eyes_support/site/ "upKt iCub eyes support") we have description of how to perform an upgrade to iCub so that the supports of the eyes make them more stable.
+
+### iCub UPKT: torso capacitors 
+In [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/capacitors/site/ "upKt iCub capacitors") we have description of how to perform an upgrade to iCub so that the capacitors placed in its back don't get loose.
 
 ###  iCub UPKT: differential neck pulley 
 In  [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/differential_neck_pulley/site/ "upKt iCub differentail neck pulley") we have description of how to perform an upgrade to the neck of  iCub so that the tendon does not easily slip away.
