@@ -27,7 +27,7 @@ Here are our first kits.
 
 
 ###  iCub UPKT: hand
-In  [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/hand_support/site/ "upKt iCub hands") we have description of how to perform an upgrade to the hands of iCub. The upgrade consists in replacing  the supports of the mais board and on a new cover..
+In  [here](https://icub-tech-iit.github.io/documentation/mkdocs/upkt/hand/site/ "upKt iCub hands") we have description of how to perform an upgrade to the hands of iCub. The upgrade consists in replacing  the supports of the mais board and on a new cover..
 
 <!--
 ###  iCub UPKT: mais support 
