@@ -48,12 +48,13 @@ markdown_extensions:
 
 # Page tree
 nav:
-    - Home: 'index.md'
-    - Body Parts:
-        - NECK: 'neck.md'
-        - SHOULDER & ELBOW: 'shoulder_elbow.md'
-        - WAIST, LEG & ANKLE: 'waist_legs.md'
-        - LOWER ARM:
+    - iCub Tech Docs: 
+        - hhh: https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site/
+    - The iCub cabling manual: 'index.md'
+    - The body parts:
+        - The neck: 'neck.md'
+        - The shoulder and elbow: 'shoulder_elbow.md'
+        - The lower arm:
               - Definition: 'lower_arm.md'
               - Version 1 :
                    - Hand Cabling V1 - Building Phase: 'hand_cabling_V1.md'
@@ -62,5 +63,6 @@ nav:
               - Version 2 :
                    - Lower Arm V2: 'lower_arm_V2.md'
                    - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
+        - The waist, leg and ankle: 'waist_legs.md'
 
     - License: 'license.md'

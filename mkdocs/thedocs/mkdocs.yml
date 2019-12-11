@@ -55,15 +55,16 @@ markdown_extensions:
 
 # Page tree
 nav:
-    - Home: 'index.md'
-    - News:
-        - Latest: 'latest_news.md'
+    - iCub Tech Docs: 'index.md'
+    - Docs:
+        - Our first ones: 'others.md'
     - Tutorials:
         - Getting started: 'tutorial_intro.md'
         - How to do one: 'tutorial_one.md'
         - How to do two: 'tutorial_two.md'
-    - Docs:
-        - First Sprint: 'others.md'
+    - News:
+        - The latest news: 'latest_news.md'    
     - About: 'about.md'
     - License: 'license.md'
+
 

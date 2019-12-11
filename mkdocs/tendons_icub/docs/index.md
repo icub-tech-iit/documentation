@@ -1,16 +1,28 @@
 # Scope of document
 
-The purpose of this manual is to describe how to mount/repair the tendons of iCub.
+The purpose of this manual is to describe how to mount the tendons of iCub.
 
-The tendons are located in the:
+## The body parts
 
-> Neck, Shoulder, Elbow, Lower Arm (Forearm + Hand),  Waist, Leg and Ankle
+Please click on the iCub body parts below to get instructions on how to re-cable them.
+
+[**The neck**](neck.md)
+
+[**The shoulder and elbow**](shoulder_elbow.md)
+
+[**The lower arm**](lower_arm.md)
+
+[**The waist and legs**](waist_hip.md)
+
+[**The ankle**](ankle.md)
+
+
 
 ## iCub mechanical versions
 
 Here is a table showing the **visual** differences of iCub from version 1 to 2.5.
 
-| iCub V1                     | iCub V2                     | iCub V2.5                       | iCub V2.5 - Backpack         |
+| iCub V1                     | iCub V2                     | iCub V2.5                       | iCub V2.5 (w/ backpack)         |
 | --------------------------- | --------------------------- | ------------------------------- | ---------------------------- |
 | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/tobedone.jpg" alt="iCub V1" style="zoom: 25%;" /> |
 
@@ -18,7 +30,7 @@ Here is a table showing the **visual** differences of iCub from version 1 to 2.5
 
 ## Cabling Differences
 
-| Part activated by tendons  | iCub V1  | iCub V2  | iCub V2.5 | iCub V2.5 - Backpack |
+| Part activated by tendons  | iCub V1  | iCub V2  | iCub V2.5 | iCub V2.5 (w/ backpack) |
 | -------------------------- | -------- | -------- | --------- | -------------------- |
 | NECK                       | NO       | YES      | YES       | YES                  |
 | SHOULDER                   | YES - V1 | YES - V2 | YES - V2  | YES - V2             |
@@ -30,20 +42,3 @@ Here is a table showing the **visual** differences of iCub from version 1 to 2.5
 
 
 
-## Body Parts
-
-Please click on the iCub body Parts below to get to know how to re-cable them:
-
-[**NECK**](neck.md)
-
-[**SHOULDER**](shoulder_elbow.md)
-
-[**ELBOW**](shoulder_elbow.md)
-
-[**WAIST**](waist_hip.md)
-
-[**LOWER ARM (Forearm + Hand)**](lower_arm.md)
-
-[**HIP**](waist_hip.md)
-
-[**ANKLE**](ankle.md)
