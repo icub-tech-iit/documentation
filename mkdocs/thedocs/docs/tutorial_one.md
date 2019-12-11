@@ -1,3 +1,7 @@
+<div style="position:fixed;top:140px;left:85%;">
+    <img src="./gif/icub-rotate.gif" width="60%" height="60%">
+</div>
+
 # How to do one
 
 This tutorial will explain you ....:
