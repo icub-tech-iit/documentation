@@ -4,18 +4,18 @@
 
 ## Content material
 
-|  Pieces |     Alias           | Rev    |          Description                        |  Cod. Wgst |
-|   :---: |    :---:            |  :---: |     :---:                                   |   :---:   |
-|     1   |  RC_IIT_011_P_063   |        | Left support for Mais                       | 14357 |
-|     1   | RC_IIT_011_G_017    |        | Left support for FTC                        | 14354 | 
-|     1   |  RC_IIT_011_P_062   |        | Right support for Mais                      | 14356 |
-|     1   |  RC_IIT_011_G_016   |        | Right support for FTC                       | 14355 |
-|     4   |  ISO 7046 M1.6x5    |        | screws for right/left support FTC           | 11229 |
-|     6   | ISO 7045 M1.6x6     |        |screws for right/left support Mais           |  2399 |
-|     4   | ISO 1207 M1x5       |        |screws for right/left support and Mais board |  2406 |
-|     2   | RC_IIT_017_P_031    |        | UPPERCOVER HAND RIGHT                       |  5448 |   
-|     2   | RC_IIT_017_P_030    |        | UPPERCOVER HAND LEFT                        |  5447 |      
-|     2   |  V2-6--_-_ISO7046-1_CH |     |     Screw for uppercover Hand               |  2440 |
+|  Pieces |     Alias           | Position | Rev |          Description                              |  Cod. Wgst |
+|   :---: |    :---:            |  :---:   |:---:|             :---:                                 |   :---:   |
+|     1   |  RC_IIT_011_P_063   |          |     |      Left support for Mais                        | 14357 |
+|     1   | RC_IIT_011_G_017    |          |     |      Left support for FTC                         | 14354 | 
+|     1   |  RC_IIT_011_P_062   |     3    |     |     Right support for Mais                        | 14356 |
+|     1   |  RC_IIT_011_G_016   |     1    |     |     Right support for FTC                         | 14355 |
+|     4   |  ISO 7046 M1.6x5    |     2    |     |     screws for right/left support FTC             | 11229 |
+|     6   | ISO 7045 M1.6x6     |  4 / 6   |     |     screws for right/left support Mais            |  2399 |
+|     4   | ISO 1207 M1x5       |     7    |     |     screws for right/left support and Mais board  |  2406 |
+|     2   | RC_IIT_017_P_031    |    10    |     |     UPPERCOVER HAND RIGHT                         |  5448 |   
+|     2   | RC_IIT_017_P_030    |          |     |     UPPERCOVER HAND LEFT                          |  5447 |      
+|     2   |  V2-6--_-_ISO7046-1_CH |   9   |     |    Screw for uppercover Hand                      |  2440 |
 
 ## Assembly instruction
 
@@ -25,7 +25,8 @@ Once this is done the first piece to be mounted will be the rc_IIT_011_g_016 or 
 
 <center> ![imagine view](GIF/SUPPORT_RIGHT_TOP.gif) </center>
 
-Assembly sequence :
+##Exploding: 
+Reference Right hand
 
 
 <center> ![imagine view](img/esploso3.JPG) ![imagine view](img/esploso4.JPG)  </center>
@@ -46,7 +47,7 @@ Assemble upgrade support Mais and FTC
 
 <center> ![imagine view](img/Montaggio2.JPG) </center>
 
-
+##Assembly sequence##
 <div width="100%">
     <img src="../GIF/4.gif" width="2000px" height="auto" >
 </div>
