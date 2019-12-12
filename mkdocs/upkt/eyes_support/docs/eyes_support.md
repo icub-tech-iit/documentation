@@ -11,8 +11,6 @@
 |     1   |  RC_IIT_010_P_048  | V2 eye tilt brace B | 2627 |
 |    2   |  2-10--_-_ISO7046-1_CH  | Screw -M 2 x 10  –  ISO7046 – SS A2 | 2596 |
 |     4   | S1_5-6--_-_I2338_B | Dowel pin 1.5 x 6 stainless steel A2, UNI1707 |   2354    |
-|     6   | XXXXXXXX     |XXXXXXXX            |  XXXXXXXX |
-|     4   | XXXXXXXX       |XXXXXXXX |  2XXXXXXXX |
 
 ## Assembly instruction
 
@@ -31,9 +29,15 @@ We are going to replace parts in the eyes tilt assembly, there are some prelimin
 
   
 
+
     We are going to replace the 4 parts here in picture.
     <center> ![](img\4thng.JPG) </center> 
+    
+    We need to remove eye's assembly from the head unlocking two cross recessed screws
 
+  | <center> ![imagine view](img/remove.JPG) </center> | <center> ![imagine view](img/eye_group.JPG) </center> |
+    | :--------------------------------------------------: | :--------------------------------------------------: |
+    |                    the screws to remove                   |                eye's group                 |
 
 There are two of these parts  in iCub's neck. Here is a picture of the neck with the parts in red.
 
