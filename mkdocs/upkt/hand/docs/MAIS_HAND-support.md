@@ -15,7 +15,7 @@
 |     4   | ISO 1207 M1x5       |        |screws for right/left support and Mais board |  2406 |
 |     2   | RC_IIT_017_P_031    |        | UPPERCOVER HAND RIGHT                       |  5448 |   
 |     2   | RC_IIT_017_P_030    |        | UPPERCOVER HAND LEFT                        |  5447 |      
-|     1   |  V2-6--_-_ISO7046-1_CH |     |     Screw for uppercover Hand               |  2440 |
+|     2   |  V2-6--_-_ISO7046-1_CH |     |     Screw for uppercover Hand               |  2440 |
 
 ## Assembly instruction
 
