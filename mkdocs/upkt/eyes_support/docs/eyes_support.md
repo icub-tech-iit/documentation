@@ -30,45 +30,41 @@ We are going to replace parts in the eyes tilt assembly, there are some prelimin
   
 
 
+
     We are going to replace the 4 parts here in picture.
-    <center> ![](img\4thng.JPG) </center> 
     
-    We need to remove eye's assembly from the head unlocking two cross recessed screws
-
-  | <center> ![imagine view](img/remove.JPG) </center> | <center> ![imagine view](img/eye_group.JPG) </center> |
-    | :--------------------------------------------------: | :--------------------------------------------------: |
-    |                    the screws to remove                   |                eye's group                 |
-
-There are two of these parts  in iCub's neck. Here is a picture of the neck with the parts in red.
-
-| ![](img\in_the_neck.PNG) |
+| <center> ![](img\4thng.JPG) </center> |
 | :-----------------------------------------------------------: |
-|  The neck with the pulleys in red |
+|  Brackets unmounting |
+    
+    
+  We need to remove eye's assembly from the head unlocking two cross recessed screws
+
+| <center> ![imagine view](img/remove.JPG) </center> | <center> ![imagine view](img/eye_group.JPG) </center> |
+| :--------------------------------------------------: | :--------------------------------------------------: |
+|                    the screws to remove                   |                eye's group                 |
+
+Unmount the groupand replace the old case with the new one
+
+| <center> ![imagine view](img/OLD.JPG) </center> | <center> ![imagine view](img/new.JPG) </center> |
+| :--------------------------------------------------: | :--------------------------------------------------: |
+|                    old one                   |                new one                 |
 
 
-Here are the instructions for replacing the left pulley.
+While mounting the motoreducer group checl if it moves at the correct amount of current, if not try to slightly release these screws
 
+ | <center> ![imagine view](img/screws.JPG) </center> |
+ | :-----------------------------------------------------------: |
+ |  motoreducer group |
 
+Before mounting back the eyes on the face we need to replace the brackets.
+Releasing the grub screws (blue arrows) we can remove the pins (yellow arrows) and later the brackets (red arrows) mounting back the new ones
 - First of all you need to remove tendons from the neck, 
 - Remove the green highlighted assembly loosening the screws indicated by arrows
 
-    | <center> ![imagine view](img/belt_ass.PNG) </center> |
-    | :-----------------------------------------------------------: |
-    |  tbd |
+| <center>  ![imagine view](img/brackets.JPG) </center> |
+| :-----------------------------------------------------------: |
+|  Brackets unmounting |
 
-- Untight the screw shown in left picture to extract the whole motor assembly shown on the right.
-
-    | <center> ![imagine view](img/mot_ass.PNG) </center> |  <center> ![imagine view](img/mot_ass_alone.PNG) </center> |
-    | :----: | :----: |
-    | The whole neck | The motor assembly |
-
-- Gently remove pulley's assembly as on left picture and remove the flex spline from the pulley untightening the screw shown on rigth.
-
-
-    | <center> ![imagine view](img/pulley_ass.PNG) </center> |  <center> ![imagine view](img/flex.PNG) </center> |
-    | :----: | :----: |
-    | pulley assembly |  the screw to remove    |
-
-
-- Repeat the procedure above to extract  the rigth pulley.
-- When the two old pulleys are removed,  mount back the new ones by following instructions in reverse.
+Mount the head back following the instruction in reverse
+Do not hesitate to contact [iCub support](https://github.com/robotology/icub-tech-support) for any doubt.
