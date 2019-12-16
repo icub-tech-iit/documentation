@@ -6,6 +6,11 @@
 # Latest news
 
 
+__December 17, 2019__ :  `iCub Tech Docs` is presented.
+
+Here is the site. let's begin with  the presentation of the [team fix](https://icub-tech-iit.github.io/documentation/mkdocs/PI01/site/ "team fix").
+
+
 __December 11, 2019__ :  we are restiling this site
 
 On Dec 17 we shall present the results. It is still WIP, though.
