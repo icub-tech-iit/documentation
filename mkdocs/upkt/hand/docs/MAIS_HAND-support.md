@@ -53,7 +53,7 @@ Assemble upgrade support Mais and FTC
 </div>
 
 
-Mounting the cover (hand back):
+Mounting the cover (back of the hand):
 pass the foot of the back of the hand (cover) between the steel cable (tendon) and the palm of the hand (cover).
 See video
 
