@@ -47,7 +47,7 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 ## 1.2       Mounting Procedure
 
 ### 1.2.1      Block version identification
-| Where yields the difference  | Cable Block V1 | Cable Block V2 |
+| Where yields the difference  | Cable Block 1 | Cable Block 2 |
 |: --------: | :--------------: | :-----------------------------: |
 | <img src ="../img/neck/NECK_V2_block.jpg" width = 300px> |<img src ="../img/neck/NECK_V2_BlockV1.png" width = 300px> | <img src ="../img/neck/NECK_V2_BlockV2.png" width = 300px> |
 | **Tightening System**   | 2 nut screws M2.5x2.5 + Plate  | 2 screws M2x3            |
@@ -67,7 +67,7 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 >Make sure that all tensioners are fully opened
 
 !!! Tip
-    To block the cable with Cable Block V1 do the following:
+    To block the cable with Cable Block 1 do the following:
 
     1- Insert the little plate by the front of the neck and push it with any little tool in order to put it in the middle of the throat
     

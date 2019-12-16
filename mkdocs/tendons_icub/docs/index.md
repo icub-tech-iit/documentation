@@ -12,9 +12,7 @@ Please click on the iCub body parts below to get instructions on how to re-cable
 
 [**The lower arm**](lower_arm.md)
 
-[**The waist and legs**](waist_hip.md)
-
-[**The ankle**](ankle.md)
+[**The waist, legs and ankle**](waist_legs.md)
 
 
 

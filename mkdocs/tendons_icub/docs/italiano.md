@@ -77,7 +77,7 @@ name="position009a"></a>
 
 **Regole pratiche**
 
-> La seconda revisione della testa ha due tendini e una giunzione differente per consentire i primi due DoFs del collo rispetto alle due giunzioni di quello della precedente versione, questo rende la versione V2 più robusta, potente e affidabile 
+> La seconda revisione della testa ha due tendini e un giunto differenziale per consentire i primi due DoFs del collo rispetto ai due giunti seriali di quello della versione  precedente, questo rende la versione V2 più robusta, potente e affidabile 
 
 
 
