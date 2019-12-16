@@ -54,7 +54,7 @@ Assemble upgrade support Mais and FTC
 
 
 Mounting the cover (back of the hand):
-pass the foot of the back of the hand (cover) between the steel cable (tendon) and the palm of the hand (cover).
+pass the hook of the dorsum cover between the steel cable (tendon) and the palm of the hand (cover).
 See video
 
 <video style="display: block;margin-left: auto;margin-right: auto;width:70%; border:solid 1px" controls autoplay muted>
