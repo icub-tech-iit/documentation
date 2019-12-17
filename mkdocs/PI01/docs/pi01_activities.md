@@ -1,4 +1,4 @@
-# attività del pi01
+# attività del team fix per per il pi01
 
 
 
@@ -60,8 +60,8 @@ abbiamo lavorato alle seguenti attività:
 
 abbiamo ripensato a come gestire le informazioni di diagnostica provenienti dalle schede `ETH` del robot e da `yarprobotinterface`. 
 
-ora esiste il `diagnostic daemon` che è sempre attivo e raccoglie informazioni di servizio direttamente dalle schede `ETH` nel robot ed anche da `yarprobotinrface`.  
+ora esiste il `diagnostic daemon`, un servizio di back-end sempre attivo che raccoglie informazioni da tutte le schede `ETH` nel robot dal momento del loro bootstrap e da `yarprobotinterface` quando viene lanciato.  
 
-il `diagnostic daemon` sarà il centro di smistamento per la diagnostica verso una GUI od un logger ad uso umano ed anche verso le app (vedi team DEV).
+il `diagnostic daemon` sarà il centro unico di raccolta della la diagnostica. smisterà le informazioni verso una GUI od un logger od anche verso le app (vedi lavoro del team DEV).
 
 
