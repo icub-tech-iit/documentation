@@ -6,10 +6,10 @@
 
 |  il team fix  |  in ordine alfabetico    |      |      |
 | ---- | ---- | ---- | ---- |
-| [<img src="https://github.com/marcoaccame.png" width="60">](https://github.com/marcoaccame) | Marco Accame (@marcoaccame) | [<img src="https://github.com/maurizbo.png" width="60">](https://github.com/maurizbo) | Maurizio Borgani (@maurizbo)  |
+| [<img src="https://github.com/marcoaccame.png" width="60">](https://github.com/marcoaccame) | Marco Accame (@marcoaccame) | [<img src="https://github.com/maurizbo.png" width="60">](https://github.com/maurizbo) | Maurizio Borgagni (@maurizbo) |
 | [<img src="https://github.com/Nicogene.png" width="60">](https://github.com/Nicogene) | Nicolò Genesio (@Nicogene) | [<img src="https://github.com/julijenv.png" width="60">](https://github.com/julijenv) | Julien Jenvrin (@julijenv)  |
 | [<img src=https://avatars3.githubusercontent.com/u/53298662?s=400&v=4" width="60">](https://github.com/Elio75) | Elio Massa (@Elio75) | [<img src="https://github.com/salvi-mattia.png" width="60">](https://github.com/salvi-mattia) | Mattia Salvi (@salvi-mattia)  |
-|[<img src=https://avatars3.githubusercontent.com/u/9121787?s=400&v=4" width="60">](https://github.com/triccyx) | Luca Tricerri (@triccyx)  |  |
+|[<img src=https://avatars3.githubusercontent.com/u/9121787?s=400&v=4" width="60">](https://github.com/triccyx) | Luca Tricerri (@triccyx)  |  ||
 
 
 
