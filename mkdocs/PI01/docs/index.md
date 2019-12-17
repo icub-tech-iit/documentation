@@ -15,24 +15,30 @@
 
 ##  la nostra mission
 
-miglioriamo `hms` (hardware, mechanics e software) dei nostri robot `iCub`, `R1`,`iTeen`.
+miglioriamo hardware, mechanics e software che sono già esistenti nei nostri robot `iCub`, `R1`,`iTeen`.
 
 
-## partiamo da
+## focus
 
--  richieste esterne (ad esempio: https://github.com/icub-tech-iit/tickets/issues/103 ovvero `iCub facial expressions`)
--  proseguo di attivitá della task force (ad esempio:  https://github.com/robotology/icub-tech-support/issues/854 ovvero `Left leg FT streams a constant value ...`).
--  esigenze interne (ad esempio: `uso di board RFE per acquisizione di dati IMU`, `diagnostica embedded`,   etc.)
+ci occupiamo di attività di piccola o media durata derivanti da:
+
+-  `necessità di miglioramenti architetturali` (ad esempio: *creazione di strumenti di documentazione*, *diagnostica embedded*,  *uso di board RFE per dati IMU*,  etc.)
+- `richieste esterne`  (ad esempio: https://github.com/icub-tech-iit/tickets/issues/103 ovvero *iCub facial expressions*)
+-  `consolidamento di azioni della task force` (ad esempio:  https://github.com/robotology/icub-tech-support/issues/854 ovvero *Left leg FT streams a constant value ...*).
 
 
 ## il ns metodo di lavoro
 
-il ns team multidisciplinare studia il problema ed apporta modifiche progettuali `hms` (hardware, mechanical, software) di cui verifica l'efficacia sui robot.
+il ns team  studia il problema in maniera trasversale e multidisciplinare,  apporta modifiche progettuali, ne verifica l'efficacia,  rende operative le soluzioni sui robot. 
 
 
-## come applichiamo le ns migliorie
 
--  le migliorie `software` sono incorporate nelle ns release software di cadenza trimestrale (https://github.com/robotology/QA/issues/377).
--  le migliorie `meccaniche` e `hardware` sono rese operative:
-    -  sui robot di futura costruzione meetiamo in BOM  le modifiche progettuali
-    -  sui robot giá costruiti utilizziamo i `kit di upgrade`.
+## beneficio sui robot
+
+portiamo le nostre soluzioni ai robot nel seguente modo
+
+-  le migliorie `software` sono sono  incorporate nelle ns release software di cadenza trimestrale (https://github.com/robotology/QA/issues/377) e si applicano tipicamente a tutti i robot. 
+-  le migliorie `meccaniche` e `hardware` sono applicabili:
+    -  ai robot `in futura costruzione`:  inserendole  in BOM;
+    -  sui robot `giá consegnati`:  per mezzo dei `kit di upgrade`.
+

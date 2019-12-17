@@ -1,26 +1,46 @@
 # diagnostica embedded
 
 
-
 ## scopo
 
-abbiamo pensato ad un modo semplice per permettere a tutti i ns progettisti di pubblicare sul ns sito [`iCub Tech Docs`](https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site/) le informazioni che via via produciamo con il ns lavoro.
-
-Abbiamo quindi progettato questo sito che ad ora contiene:
-
-- documentazione di `cablaggio dei tendini di iCub`.
-- gli `upgrade kit`.
+realizzare un'architettura di diagnostica piú snella e flessibile che possa anche scambiare infromazioni con le applicazioni di alto livello.
 
 
-## dettagli tecnici
 
-abbiamo effettuato svariate migliorie meccaniche su problemi segnalati dalle attività sul campo del ns iCub Doctor.
+## flusso dati di controllo
+
+questo è il flusso dei dati di controllo che dalle schede ETH viaggiano verso yarprobotinterface su canale dedicato ed ottimizzato per il real time e che poi vengono pubblicate sulle `yarp ports`.
+
+
+
+![](yri.jpg)
+
+
+## flusso dati di diagnostica 
+
+I messaggi di diagnostica viaggiano invece dalle schede ETH verso il `diagnostic daemon` su un canale differente. Anche `yarprobotinterface` pubblica messaggi di diagnostica verso il `diagnostic daemon`. 
+
+Il `diagnostic daemon` pubblica verso il `yarplogger`  e/o altra `GUI` ed anche verso altre destinazioni nei modi specificat dal `diagnostic controller`.  
+
+
+
+![](diag.jpg)
 
 
 ## interazioni con le applicazioni
 
-cecver cdecvw3qv rw
-cvrvr3
+Le `app`di alto livello sfruttano le informazioni pubblicate da `yarprobotinterface` sulle `yarp ports` ed interrogano il `diagnostic daemon` per scoprire eventuali malfunzionamenti.
+
+
+![](diag-app.jpg)
+
+
+
+
+
+
+
+
 
 
 

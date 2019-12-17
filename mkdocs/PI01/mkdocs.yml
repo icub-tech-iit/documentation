@@ -50,8 +50,9 @@ markdown_extensions:
 nav:
     - iCub Tech Docs: 
         - iTD home: https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site/
-    - il team fix: 'index.md'
+    - team fix: 'index.md'
     - il pi01:
+        - cos'è: 'pi01.md'
         - attività: 'pi01_activities.md'
     - approfondimenti:
         - gli upgrade kit: 'upgradekit.md'
