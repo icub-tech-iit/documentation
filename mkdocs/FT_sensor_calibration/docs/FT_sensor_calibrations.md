@@ -4,7 +4,6 @@
 
 # FT SENSOR CALIBRATION
 
-
 | **Rev.** |**Dep**|** Prepared  by **| **Date**|**Dep **                  |** Approved **  |** Date**         |
 | -------- | ---------- | ----|-----|-----|------|---- |
 | 0.0  | P&M          | Tome D.                | 15/04/2011 |              |             | 15/04/2011 |
@@ -17,7 +16,7 @@
 
 
 
-# Revision history
+##  Revision history
 
  
 
@@ -29,94 +28,40 @@
 | 1.0      | 05/03/2014 | Added section 2.1  Matlab replaced by Octave  New report template |
 | 2.0      | 26/01/2108 | Added picture of the STRAIN2 and wiring of STRAIN2  and other details. |
 | 2.1      | 17/4/19    | E.Barbieri modified wiring diagram (p.11) to fit  with both old and new mechanics |
-| 2.2.     | 15/07/2019 | Added image  that shows associations between pcb’s pads and analog channel numbers  (addendum 1) |
+| 2.2.     | 15/07/2019 | Added image  that shows associations between pcb’s pads and analog channel numbers  (add. 1) |
 |2.3	          | 11/02/2020           |New Calibration Procedure                                                            |
 
+
+
+## 1. TEST REQUIREMENTS
+
+### 1.1 Software Requirements
+
+- Create a **icub-tech** folder under C: (just to keep some files)
+- ESD CAN SDK (contains CanReal) : \\\storage05.icub.iit.local\repository\common\drivers_and_software\esd_can\can_sdk_v620.zip 
+-  Gulp (copy both files, install gulp and then wincap): `\\storage05.icub.iit.local\repository\mechatronics\electronics\Organization\GULP`
+- ORACLE VirtualBox(download also **VirtualBox Extension Pack**, install **virtual box** then **ext pack**):  https://www.virtualbox.org/wiki/Downloads  
+  
+- Tortoise SVN:
+https://tortoisesvn.net/downloads.html
  
+- GIT for Windows :
+https://git-scm.com/download/win
 
+- Tortoise GIT:
+https://tortoisegit.org/download/
+
+- ST-LINK Utility (for flashing updated bootloader and firmware) :
+`\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\ST-LINK Utility`
  
+- ESD CAN-USB Drivers (copy in **icub-tech**, to be used for driver installation of ESD CAN-USB 2066):  
+                        `\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\CAN_CD_V11`
+-  Ubuntu 18.04 LTS VM (ready to go with yarp, icub, ftSens repo etc.; copy in **icub-tech**):
+   `\\storage05.icub.iit.local\repository\production\TEST STUFF\VM\ubuntu 18.04.7z` 
+- FT Sensor Repository 
+https://svn.icub.iit.local/repos/mecha/ftSensCalib/trunk)`
 
- 
-
- 
-
-
-
-
-
-
-Contents
-
-[Revision history. 1](#_Toc14076537)
-
-[1    TEST REQUIREMENTS. 3](#_Toc14076538)
-
-[1.1   Software Requirements. 3](#_Toc14076539)
-
-[1.2   Hardware Requirements. 3](#_Toc14076540)
-
-[2    SENSOR ASSEMBLY.. 8](#_Toc14076541)
-
-[2.1   Strain Gauge Resistance check. 8](#_Toc14076542)
-
-[2.2   Short circuit Check. 13](#_Toc14076543)
-
-[2.3   Pre calibration Check. 13](#_Toc14076544)
-
-[3    CALIBRATION SETUP ASSEMBLY.. 17](#_Toc14076545)
-
-[4    SENSOR CALIBRATION PROCEDURE.. 19](#_Toc14076546)
-
-[4.1   Z+ pointing downwards 25kg traction. 20](#_Toc14076547)
-
-[4.2   Z+ pointing downwards 5kg torques. 21](#_Toc14076548)
-
-[4.3   Z+ pointing upwards 25kg compression. 22](#_Toc14076549)
-
-[4.4   X+ pointing upwards 25kg. 23](#_Toc14076550)
-
-[4.5   X- pointing upwards 25kg. 24](#_Toc14076551)
-
-[4.6   “1” pointing downwards 25kg. 25](#_Toc14076552)
-
-[4.7   “2” pointing downwards 25kg. 26](#_Toc14076553)
-
-[4.8   “3” pointing downwards 25kg. 27](#_Toc14076554)
-
-[4.9   “4” pointing downwards 25kg. 28](#_Toc14076555)
-
-[4.10     X+ pointing upwards 5kg laterals. 29](#_Toc14076556)
-
-[4.11     Y+ pointing upwards 5kg laterals. 30](#_Toc14076557)
-
-[4.12     X- pointing upwards 5kg laterals. 31](#_Toc14076558)
-
-[4.13     Y- pointing upwards 5kg laterals. 32](#_Toc14076559)
-
-[4.14     Generating Calibration Matrix. 33](#_Toc14076560)
-
-[4.15     Uploading calibration matrix. 35](#_Toc14076561)
-
-[4.16     Committing sensor calibration folder 37](#_Toc14076562)
-
-[5    SENSOR CALIBRATION REPORT.. 38](#_Toc14076563)
-
-[6    ADDENDUM... 40](#_Toc14076564)
-
-[6.1   STRAIN2 PCB PADS-CHANNEL RELATIONSHIP. 40](#_Toc14076565)
-
-
-
-# 1   TEST REQUIREMENTS
-
-## 1.1    Software Requirements
-- A PC with Windows 10
-- “Canreal” software (included in iCub)
-- “Gulp” software
-- Preconfigured  virtual machine **scrivere link alla virtual machine**
-- “SVN” subversion software **scrivere link alla repo sensori**
-
-## 1.2    Hardware Requirements
+### 1.2 Hardware Requirements
 - 1 strain gauge sensor “**GS**” (Figure 1)
 - 1 bottom cover for strain gauge     sensor “**BC**”(Figure 1)
 - 1 top cover for Strain Gauge     Sensor “**TC**”(Figure 1)
@@ -128,7 +73,7 @@ Contents
 
 Figure 1: Strain gauge sensor, strain pcb, cables and covers
 
-------------------------------------------
+**________________________________________________________________________________________________**
 
 **Serve nuova foto con strain2, meccanica nuova e i fili 3 per colore anziché 2** 
 
@@ -138,7 +83,7 @@ Figure 1: Strain gauge sensor, strain pcb, cables and covers
 
 Figure 2 STRAIN2_ProgramInterface
 
-------------------------------------
+**________________________________________________________________________________________________**
 
 - 6 6x12x2 mm screws “SC3” (Figure 3)
 - 6 6x8x2 mm screws “SC4” (Figure 3)
@@ -149,7 +94,7 @@ Figure 3: Screws
 
 **Serve nuovo set di viti e relative foto**
 
-------------------------------------------------------
+**________________________________________________________________________________________________**
 
 - 1 custom made cross “**CR1**” (Figure 4)
 - 1 custom made head “**H1**” (Figure 4)
@@ -164,12 +109,13 @@ Figure 3: Screws
 
 Figure 4: Custom made cross, heads and the nut
 
----------------------------
+**________________________________________________________________________________________________**
 
 <img src ="../img/Fig5_Custom_made_H_Bracket.JPG" height = 500px>
 
 Figure 5: Custom made H bracket
-- ------------------------------
+**________________________________________________________________________________________________**
+
 - 1 tightening knob “**K1**” (Figure 6)
 - 1 Set of spacers “**S1**” (Figure 6)
 - 1 Z axis extension “**EXT1**” (Figure 6)
@@ -178,7 +124,7 @@ Figure 5: Custom made H bracket
 
 Figure 6: Custom made spacer, Z axis extension and knob
 
-- --------------------
+**________________________________________________________________________________________________**
 
 - 1 Z axis extension “**EXT2**” (Figure 7)
 
@@ -186,7 +132,7 @@ Figure 6: Custom made spacer, Z axis extension and knob
 
 Figure 7: Custom made Z axis extension
 
-- --------------------------
+**________________________________________________________________________________________________**
 
 - 1 2mm torque screwdriver “**TS1**” (Figure 8)
 - 1 2mm hexagonal     screwdriver “**HS1**” (Figure 8)
@@ -197,7 +143,7 @@ Figure 7: Custom made Z axis extension
 
 Figure 8: Screwdrivers
 
-----------------------------------
+**________________________________________________________________________________________________**
 
 - Clamps to fix the structure “**CL1**” (Figure 9)
 
@@ -205,7 +151,7 @@ Figure 8: Screwdrivers
 
 Figure 9: Clamps
 
----------------
+**________________________________________________________________________________________________**
 
 - 1 CAN-USB with power and can     bus connection cables 3333.B (Figure 10)
 
@@ -214,19 +160,19 @@ Figure 9: Clamps
 
 Figure 10: CAN-USB with its cables and connection with the FT-SENSOR
 
-------------------
+**________________________________________________________________________________________________**
 
 -     1 25Kg load
 
 -     1 5Kg load
 
-# 2   SENSOR ASSEMBLY
+## 2   SENSOR ASSEMBLY
 
 
 !!! warning  
     **Handle the sensor taking care not to break thin wires**
 
-## 2.1    Strain Gauge Resistance check
+### 2.1    Strain Gauge Resistance check
 
 **TEST:** Take the sensor and measure the resistance of each couple of pads for each of three groups as shown below and fill in the respective test report field.
 
@@ -256,7 +202,7 @@ Fill in the table in the test reports with values of the resistive strain gauge.
 
 Figure 12: Sensor  wired
 
-|Pin	|Colour| 
+|Pin	|Colour|
 | ---- | ------ |
 | 1    | GREEN  |
 | 2    | RED    |
@@ -265,30 +211,32 @@ Figure 12: Sensor  wired
 | 5    | BLACK  |
 | 6    | WHITE  |
 
-______________________________________
+**________________________________________________________________________________________________**
 
 
 
 -    Pass the wires CAB1 (Figure 1) according images below
 
-    
+​    
 
-<img src ="../img/Fig13_Wirre_configuration.jpg" height = 500px>
+<img src ="../img/Fig13_Wirre_configuration.jpg" height = 400px>
 
 Figure 13: Wire configuration
+
+**________________________________________________________________________________________________**
 
 -    Solder the wires CAB1 (Figure 1) to the Strain PCB as shown below
 
 
 
-  
+<img src ="../img/Fig14_Sensor wired to the Strain-2 PCB.jpg" height = 550px>
+
 
 Figure 14: Sensor wired to the Strain PCB (the sequence of the wires is equal from STRAIN and STRAIN2)
 
- 
-
-| **1** | **BLUE** |
+|**Pin** |**Colour**
 | ----- | -------- |
+| 1     | BLUE     |
 | 2     | RED      |
 | 3     | YELLOW   |
 | 4     | GREEN    |
@@ -296,56 +244,57 @@ Figure 14: Sensor wired to the Strain PCB (the sequence of the wires is equal fr
 | 6     | WHITE    |
 
 
+**________________________________________________________________________________________________**
 
 
+-    Solder the wires CAB2 (Figure 1) to the Strain PCB as shown below
 
-
-·     Solder the wires CAB2 (Figure 1) to the Strain PCB as shown below
-
+<img src ="../img/FIG15B_Wiring_Strain2.jpg" height = 400px>
  
 
+
+Figure 15A Wiring of the STRAIN2
+
+**________________________________________________________________________________________________**
+
+<img src ="../img/FIG15A_strain2_connection.jpg" height = 500px>
+
+
+Fig 15B Capital scheme of the strain-2 connections
+**________________________________________________________________________________________________**
  
 
+-     Assembly the sensor with its covers TC and BC (Figure 1) using appropriate screws tightening them using the torque screwdriver TS1 (Figure 8) settled at 2N/m as described in the following **drawing link and extracted notes**
+
+[**Link to new mechanical drawing**](../img/ic_008_a_001_new_mec.pdf)
+
+!!! NOTES
+    Steps to be taken before assembling and calibrating the FT sensor. Contact technical office for any information about this procedure.
+
+- You need to pre-assemble the FT sensor with the top and bottom covers, central sensor and screws (as shown in Fig.Step1).
+
+- Align the holes for dowel pins before tightening the screws of the bottom and top covers.
  
+- Drill holes of n1.9mm for the dowel pins on &model_name:16 and &model_name:14 and increase them to &d59:1. Test the holes using a Dowel pin of size: ISO 2338B n3.
+ 
+- Drill holes of n1.9mm for the dowel pins on &model_name:0 and increase them to &d129:1. The pins will be interference fit on this component.
+  
+- **VERY IMPORTANT**: You have to engrave a" part number" -" serial number" on the three parts which were just assembled with the same denominations used in the production department of IIT before you can disassemble it.
+- The part number for this assembly is 12487 , about the S/N ask to IIT Production department. Typically, the format is the following: "00000 - S/N000" where the zeroes stand for a 5-digit and a 3-digit numerical code.
+  
+- Send the part IC_008_P_001 for gluing on the strain gauge. (Refer to Fig.STEP 2) 
+
+- Assemble the FT sensor (as shown in Fig.STEP 3) and calibrate it according to IIT specifications
 
   
 
-  
-
-Figure 15 Wiring of the STRAIN2
-
- 
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-·     Assembly the sensor with its covers TC and BC (Figure 1) using appropriate screws tightening them using the torque screwdriver TS1 (Figure 8) settled at 2N/m as described in the following page
-
-**Il disegno sotto è superato dalla meccanica nuova** 
-
-  
-
-## 2.2    Short circuit Check
+### 2.2   Short circuit Check
 
 ·     Test the wires black red green and white (molex connector) between them and read the resistive values. 
 
- 
-
-| RED - GREEN                      | Open Circuit |
+| Color wire connections| Result|
 | -------------------------------- | ------------ |
+| RED - GREEN                      | Open Circuit |
 | RED - WHITE                      | Open Circuit |
 | RED - BLACK                      | Open Circuit |
 | GREEN - WHITE                    | ± 70KΩ       |
@@ -360,10 +309,6 @@ Figure 15 Wiring of the STRAIN2
 | YELLOW - chassy of the sensor    | Open Circuit |
 | TURQUOISE - chassy of the sensor | Open Circuit |
 
- 
-
-**Cambiato da Mohm a OPEN circuit tutti** 
-
- 
-
-·     If you do not respect the values shown in the table  STOP CALIBRATION AND GIVE BACK TO IIT THE SENSOR FOR INVESTIGATION
+!!! warning
+    If you do not respect the values shown in the table **STOP CALIBRATION AND GIVE BACK TO IIT THE SENSOR FOR INVESTIGATION**
+    
