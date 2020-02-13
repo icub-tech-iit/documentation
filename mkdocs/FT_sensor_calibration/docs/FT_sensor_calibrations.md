@@ -44,7 +44,7 @@
   
 - Tortoise SVN:
 https://tortoisesvn.net/downloads.html
- 
+
 - GIT for Windows :
 https://git-scm.com/download/win
 
@@ -53,7 +53,7 @@ https://tortoisegit.org/download/
 
 - ST-LINK Utility (for flashing updated bootloader and firmware) :
 `\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\ST-LINK Utility`
- 
+
 - ESD CAN-USB Drivers (copy in **icub-tech**, to be used for driver installation of ESD CAN-USB 2066):  
                         `\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\CAN_CD_V11`
 -  Ubuntu 18.04 LTS VM (ready to go with yarp, icub, ftSens repo etc.; copy in **icub-tech**):
@@ -250,7 +250,7 @@ Figure 14: Sensor wired to the Strain PCB (the sequence of the wires is equal fr
 -    Solder the wires CAB2 (Figure 1) to the Strain PCB as shown below
 
 <img src ="../img/FIG15B_Wiring_Strain2.jpg" height = 400px>
- 
+
 
 
 Figure 15A Wiring of the STRAIN2
@@ -262,7 +262,7 @@ Figure 15A Wiring of the STRAIN2
 
 Fig 15B Capital scheme of the strain-2 connections
 **________________________________________________________________________________________________**
- 
+
 
 -     Assembly the sensor with its covers TC and BC (Figure 1) using appropriate screws tightening them using the torque screwdriver TS1 (Figure 8) settled at 2N/m as described in the following **drawing link and extracted notes**
 
@@ -274,9 +274,9 @@ Fig 15B Capital scheme of the strain-2 connections
 - You need to pre-assemble the FT sensor with the top and bottom covers, central sensor and screws (as shown in Fig.Step1).
 
 - Align the holes for dowel pins before tightening the screws of the bottom and top covers.
- 
+
 - Drill holes of n1.9mm for the dowel pins on &model_name:16 and &model_name:14 and increase them to &d59:1. Test the holes using a Dowel pin of size: ISO 2338B n3.
- 
+
 - Drill holes of n1.9mm for the dowel pins on &model_name:0 and increase them to &d129:1. The pins will be interference fit on this component.
   
 - **VERY IMPORTANT**: You have to engrave a" part number" -" serial number" on the three parts which were just assembled with the same denominations used in the production department of IIT before you can disassemble it.
@@ -312,3 +312,95 @@ Fig 15B Capital scheme of the strain-2 connections
 !!! warning
     If you do not respect the values shown in the table **STOP CALIBRATION AND GIVE BACK TO IIT THE SENSOR FOR INVESTIGATION**
     
+## 3	Pre calibration Check
+
+-	Connect the F/T sensor , CAN-USB, and ST-LINK2 to the STRAIN_PROGRAM_INT as per [**Fig10**](../img/Fig10-CAN-USB_with-its_cables_and_connection_with_FT_SENSOR.jpg)  (and them to the PC):
+
+-	Browse to “C:\icub-tech\icub-firmware-build\CAN\strain2\st-link” and run “st-link_STRAIN2.bat” (this will flash the bootloader/application)
+-	Open the Virtual Machine and check that the ESD USB-CAN is attached to it (see picture below)
+
+<img src ="../img/FIG17_Virtual_machine_check.jpg" height = 500px>
+Figure 17
+**________________________________________________________________________________________________**
+
+-	Open a terminal in the VM (CTRL+ALT+T) and run “setEsdCan.sh” (enables the ESD USB-CAN linux driver)
+**________________________________________________________________________________________________**
+-	Open a terminal in the VM (CTRL+ALT+T) and run “FirmwareUpdater -a” (opens the FirmwareUpdtaer GUI) then select “SOCKETCAN<0>” as device and click on Discover button
+
+<img src ="../img/Fig18_Frimware_Updater.jpg" height = 500px>
+Figure 18
+**________________________________________________________________________________________________**
+-	Select the strain2 (1) and click on Calibrate (2); in the new window fill SN filed (3), click on Change (4), click on Clear and Apply (5, 6); check that the ADC values (8) are close to 0. Finally Click on Close (8) and confirm saving data to Eeprom. 
+
+<img src ="../img/Fig19_Eeprom_Operations.jpg" height = 500px>
+Figure 19
+**________________________________________________________________________________________________**
+
+-	Power Off the VM (or disconnect the ESD USB-CAN)
+
+**________________________________________________________________________________________________**
+
+-	Open CanReal, Select Send->Load List” and browse to “C:\icub-tech\ftSensCalib\software\sensAquisitionArchive\calib_config_files” then load the “canreal_commands.cspsl” configuration  file  
+ 
+<img src ="../img/Fig20_CanReal.jpg" height = 700px>
+Figure 20
+**________________________________________________________________________________________________**
+
+-	Set Baud to 1000 (1), click on Start (2), then send the command (3); you will see the streaming of the sensor readings (4)
+
+<img src ="../img/Fig21_CanReal_operation.jpg" height = 700px>
+
+Figure 21
+
+**________________________________________________________________________________________________**
+
+-	Launch Gulp, then select File->Load Parameters, then browse the con file in C:\icub-tech\ftSensCalib\software\sensAquisitionArchive\calib_config_files
+
+**________________________________________________________________________________________________**
+
+-	Select Graph tab, click on “Start” button on the bottom right and you should see 6 colored lines
+
+**________________________________________________________________________________________________**
+
+-	Refer to the picture (Figure 22) place the sensor on the table , press near the three couple of screw holes (A,B,C ) and you should see lines moving DOWN in the gulp window (Figure 23)
+
+!!! warning
+    if you do not see lines moving down **DO NOT CONTINUE THE CALIBRATION PROCEDURE.** 
+
+
+<img src ="../img/Fig22_Gulp_presing_and_Point-Lines_association.jpg" height = 280px>
+
+Figure 22:Gulp Pressing  Point-Lines association
+
+
+
+<img src ="../img/Fig23_lines_moving_down.jpg" height = 500px>
+
+Figure 23
+**________________________________________________________________________________________________**
+
+- Refer to the picture (Figure 24) take the sensor in your hands  , and moving your hands as described in  the table you have to see lines moving (fig    )
+
+!!! Warning
+    if it did not happen **DO NOT CONTINUE THE CALIBRATION PROCEDURE.**
+
+ 
+<img src ="../img/Fig 24_Sensor in_hands_moving_directions.jpg" height = 700px> 
+
+Figure 24: Sensor in hands moving directions
+
+
+
+|Right Hand Moving Direction| Left Hand Moving Direction| Orange, Violet and Green GULP lines moving direction|
+|----|----|---|
+|clockwise|	counterclockwise	|DOWN|
+|counterclockwise|	clockwise|	UP|
+
+<img src ="../img/Fig25_Signal_Plot.jpg" height = 700px>
+
+
+
+ 
+-	Click on “Stop” button both in the “Gulp” and “CanReal” applications
+-	Close both the applications
+
