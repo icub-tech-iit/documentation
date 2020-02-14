@@ -38,8 +38,8 @@
 ### 1.1 Software Requirements
 
 - Create a **icub-tech** folder under C: (just to keep some files)
-- ESD CAN SDK (contains CanReal) : \\\storage05.icub.iit.local\repository\common\drivers_and_software\esd_can\can_sdk_v620.zip 
--  Gulp (copy both files, install gulp and then wincap): `\\storage05.icub.iit.local\repository\mechatronics\electronics\Organization\GULP`
+- ESD CAN SDK (contains CanReal) : \  `\\storage05.icub.iit.local\repository\common\drivers_and_software\esd_can\can_sdk_v620.zip` 
+-  GULP (copy both files, install **gulp** and then **wincap**): `\\storage05.icub.iit.local\repository\mechatronics\electronics\Organization\GULP`
 - ORACLE VirtualBox(download also **VirtualBox Extension Pack**, install **virtual box** then **ext pack**):  https://www.virtualbox.org/wiki/Downloads  
   
 - Tortoise SVN:
@@ -55,9 +55,13 @@ https://tortoisegit.org/download/
 `\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\ST-LINK Utility`
 
 - ESD CAN-USB Drivers (copy in **icub-tech**, to be used for driver installation of ESD CAN-USB 2066):  
-                        `\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\CAN_CD_V11`
+                       `\\storage05.icub.iit.local\repository\production\TEST STUFF\SoftwareToInstall\CAN_CD_V11`
 -  Ubuntu 18.04 LTS VM (ready to go with yarp, icub, ftSens repo etc.; copy in **icub-tech**):
-   `\\storage05.icub.iit.local\repository\production\TEST STUFF\VM\ubuntu 18.04.7z` 
+`\\storage05.icub.iit.local\repository\production\TEST STUFF\VM\ubuntu 18.04.7z`
+
+- iicub-firmware-build repository (checkout **devel** branch):
+https://github.com/robotology/icub-firmware-build.git
+
 - FT Sensor Repository 
 https://svn.icub.iit.local/repos/mecha/ftSensCalib/trunk)`
 
@@ -176,8 +180,7 @@ Figure 10: CAN-USB with its cables and connection with the FT-SENSOR
 
 **TEST:** Take the sensor and measure the resistance of each couple of pads for each of three groups as shown below and fill in the respective test report field.
 
-
-<img src ="../img/Fig11_Strain_gauge_sensor_resistance_check.jpg" height = 500px>
+<img src ="../img/Fig11_Strain_gauge_sensor_resistance_check.jpg" height = 500px width = 700>
 
 Figure 11: Strain gauge sensor resistance check
 
@@ -197,8 +200,7 @@ Fill in the table in the test reports with values of the resistive strain gauge.
 
 -     Solder the wires CAB1 ( Figure 1 )  to the sensor as shown below
 
-
-<img src ="../img/Fig12_Sensor_Wired.jpg" height = 500px>  
+<img src ="../img/Fig12_Sensor_Wired.jpg" height = 600px width = 800>  
 
 Figure 12: Sensor  wired
 
@@ -317,7 +319,7 @@ Fig 15B Capital scheme of the strain-2 connections
 -	Connect the F/T sensor , CAN-USB, and ST-LINK2 to the STRAIN_PROGRAM_INT as per [**Fig10**](../img/Fig10-CAN-USB_with-its_cables_and_connection_with_FT_SENSOR.jpg)  (and them to the PC):
 
 -	Browse to “C:\icub-tech\icub-firmware-build\CAN\strain2\st-link” and run “st-link_STRAIN2.bat” (this will flash the bootloader/application)
--	Open the Virtual Machine and check that the ESD USB-CAN is attached to it (see picture below)
+-	Open the Virtual Machine (user icub, pw icub) and check that the ESD USB-CAN is attached to it (see picture below)
 
 <img src ="../img/FIG17_Virtual_machine_check.jpg" height = 500px>
 Figure 17
@@ -330,7 +332,15 @@ Figure 17
 <img src ="../img/Fig18_Frimware_Updater.jpg" height = 500px>
 Figure 18
 **________________________________________________________________________________________________**
--	Select the strain2 (1) and click on Calibrate (2); in the new window fill SN filed (3), click on Change (4), click on Clear and Apply (5, 6); check that the ADC values (8) are close to 0. Finally Click on Close (8) and confirm saving data to Eeprom. 
+
+   **Do the following test**
+
+
+1.	Select the strain2 (1) and click on Calibrate(2)
+2.	in the new window fill SN filed(3) and click on Change (4)
+3.	click on Clear and Apply (5, 6); check that the ADC values (7) are close to 0.
+4.	Click on Close (8) and confirm saving data to Eeprom. 
+
 
 <img src ="../img/Fig19_Eeprom_Operations.jpg" height = 500px>
 Figure 19
@@ -341,7 +351,7 @@ Figure 19
 **________________________________________________________________________________________________**
 
 -	Open CanReal, Select Send->Load List” and browse to “C:\icub-tech\ftSensCalib\software\sensAquisitionArchive\calib_config_files” then load the “canreal_commands.cspsl” configuration  file  
- 
+
 <img src ="../img/Fig20_CanReal.jpg" height = 700px>
 Figure 20
 **________________________________________________________________________________________________**
@@ -379,15 +389,19 @@ Figure 22:Gulp Pressing  Point-Lines association
 Figure 23
 **________________________________________________________________________________________________**
 
-- Refer to the picture (Figure 24) take the sensor in your hands  , and moving your hands as described in  the table you have to see lines moving (fig    )
+- Refer to the picture (Figure 24) take the sensor in your hands  , and moving your hands as described in  the table you have to see lines moving (figure 25 )
 
 !!! Warning
     if it did not happen **DO NOT CONTINUE THE CALIBRATION PROCEDURE.**
 
- 
+
 <img src ="../img/Fig 24_Sensor in_hands_moving_directions.jpg" height = 700px> 
 
 Figure 24: Sensor in hands moving directions
+
+
+
+**Foto dei segnali ---> da rivedere**
 
 
 
@@ -398,9 +412,11 @@ Figure 24: Sensor in hands moving directions
 
 <img src ="../img/Fig25_Signal_Plot.jpg" height = 700px>
 
+Figure 25
+
+Upper figure(1): start_situation ____ Lower figure(2): after_clockwise operation
 
 
- 
 -	Click on “Stop” button both in the “Gulp” and “CanReal” applications
 -	Close both the applications
 
