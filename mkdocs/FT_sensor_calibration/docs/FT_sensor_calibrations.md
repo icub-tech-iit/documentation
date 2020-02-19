@@ -398,7 +398,7 @@ Figure 23
 <img src ="../img/Fig 24_Sensor in_hands_moving_directions.jpg" height = 700px> 
 
 Figure 24: Sensor in hands moving directions
-
+**________________________________________________________________________________________________**
 
 
 **Foto dei segnali ---> da rivedere**
@@ -413,10 +413,706 @@ Figure 24: Sensor in hands moving directions
 <img src ="../img/Fig25_Signal_Plot.jpg" height = 700px>
 
 Figure 25
-
+**________________________________________________________________________________________________**
 Upper figure(1): start_situation ____ Lower figure(2): after_clockwise operation
 
 
 -	Click on “Stop” button both in the “Gulp” and “CanReal” applications
 -	Close both the applications
 
+## 4   SENSOR CALIBRATION PROCEDURE
+
+!!! Warning
+      **Handle with care the loads and wear accident prevention shoes for your safety!**
+
+- Open the Virtual Machine (user "icub", pw "icub") and check that the ESD USB-CAN is attached to it (see figure 26)
+
+  
+
+
+<img src ="../img/Fig26_Virtual_machine_screenshot.jpg" height = 550px>
+
+Figure 26
+
+**________________________________________________________________________________________________** 
+
+- Open a terminal in the VM (CTRL+ALT+T) and run “setEsdCan.sh” (it enables the ESD USB-CAN linux driver)
+
+- Check that the folder ***/home/icub/data*** exists
+
+- Open a terminal in the VM (CTRL+ALT+T) and run “FirmwareUpdater -a” (it opens the FirmwareUpdtaer GUI) then select “SOCKETCAN<0>” as device and click on Discover button (see Figure 27)
+
+
+<img src ="../img/Fig27_Frimadapter.jpg" height = 400px>
+Figure 27
+
+**________________________________________________________________________________________________**
+
+
+
+
+1)  Select the strain2 and click on Calibrate (see figure 28)
+
+ 
+
+
+<img src ="../img/Fig28_Calibrate.jpg" height = 400px>
+
+Figure 28
+
+**________________________________________________________________________________________________**
+
+
+- Follow the steps from 1 to 13 to complete data acquisition (***Each step gives you instructions about the setup configuration - figure 28***)
+
+### 4.1    **Z+ pointing downwards 25kg traction**
+- Click on button concerning step 1
+- Place the setup with the Z+ axis pointing downwards with EXT2 Z axis extension mounted, without loads and press “Acquire data” button (as shown on figure 28 and figure 29)
+
+<img src ="../img/Fig29_setup.jpg" height = 350px> 
+
+Figure 29: Setup Configuration
+**________________________________________________________________________________________________**
+
+
+·     Place a 25Kg load on the z+ axis , wait till the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report** (see figure 30)
+
+
+<img src ="../img/Fig30_25KG_Z+dwn.jpg" height = 600px>
+
+
+
+Figure 30: Load Configuration
+
+**________________________________________________________________________________________________**
+
+- Press “Acquire data” button and remove the load
+
+
+### 4.2      **Z+ pointing downwards 5kg torques**
+
+- Click on button concerning step 2
+
+- Place the setup with the Z+ axis pointing downwards without EXT2 Z axis extension, without loads and press “Acquire data” button (see figure 31)
+
+
+<img src ="../img/Fig31 5KG_Z+d.jpg" height = 350px>
+
+Figure 31: Setup Configuration
+**_________________________________________________________________________________________________**
+
+- Following the window instructions place a 5Kg load on the “Y-“ axis (and then for the other 3 axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, ***if not take note of strange values in the report***
+
+<img src ="../img/Fig32_5KG_Z+D_4xLoad_setup.jpg" height = 600px>
+
+Figure 32: Load Configuration
+**________________________________________________________________________________________________**
+     
+- Press Acquire data button and remove the load
+
+### 4.3    **Z+ pointing upwards 25kg compression**
+
+- Click on button concerning step 3
+
+- Place the setup with the Z+ axis pointing upwards with EXT1 Z axis extension mounted , without loads and press “Acquire data” button (see figure 33)
+
+
+<img src ="../img/Fig33_25KG_Z+Up_setup.jpg" height = 600px>
+
+Figure 33: Setup Configuration
+**________________________________________________________________________________________________**
+
+- Following the window instructions place a 25Kg load on the “Z+“ axis and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+ 
+
+ <img src ="../img/Fig34_25KG_Z+Up_Load_setup.jpg" height = 600px> 
+
+Figure 34: Load configuration
+ 
+
+- Press “Acquire data” button and remove the load
+
+- Fill in the respective calibration report field
+
+### 4.4    **X+ pointing upwards 25kg**
+
+- Click on button concerning step 4
+
+- Place the setup with the X+ axis pointing upwards without loads and press “Acquire data” button as shown below
+
+
+<img src ="../img/Fig35_25KG_X+Up_setup.jpg" height = 600px>
+
+Figure 35: Setup Configuration
+**________________________________________________________________________________________________** 
+
+- Following the window instructions place a 25Kg load on the “X-“ axis , wait that the load is stable (not swing)  and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
+
+
+<img src ="../img/Fig36_25KG_X+Up_Load_setup.jpg" height = 1000px>  
+
+Figure 36: Load configuration
+
+**________________________________________________________________________________________________** 
+
+- Press “Acquire data” button and remove the load
+
+- Fill in the respective calibration report field
+
+### 4.5    **X- pointing upwards 25kg**
+
+- Click on button concerning step 5
+
+- Place the setup with the X- axis pointing upwards without loads and press “Acquire data” button (see figure 37)
+
+
+<img src ="../img/Fig37_25KG_X-Up_setup.jpg" height = 600px>
+
+Figure 37: Setup Configuration
+**________________________________________________________________________________________________**
+
+- Following the window instructions place a 25Kg load on the “X+“ axis , wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
+
+
+<img src ="../img/Fig38_25KG_X-Up_Load_setup.jpg" height = 1000px>
+  
+Figure 38: Load configuration
+**________________________________________________________________________________________________**
+ 
+
+- Press “Acquire data” button and remove the load
+
+- Fill in the respective calibration report field
+
+### 4.6    **“1” pointing downwards 25kg**
+
+- Click on button concerning step 6
+
+- Place the setup with the label “1” pointing downwards without loads and press “Acquire data” button (see figure 39)
+
+  
+<img src ="../img/Fig39_25KG_1_D_setup.jpg" height = 600px>
+
+Figure 39: Setup Configuration
+**________________________________________________________________________________________________**
+- Following the window instructions place a 25Kg load on the “1“ label , wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
+
+  
+
+<img src ="../img/Fig40_25KG_1_Up_Load_setup.jpg" height = 1000px>
+
+Figure 40: Load configuration
+**________________________________________________________________________________________________**
+ 
+
+- Press “Acquire data” button and remove the load
+
+- Fill in the respective calibration report field
+
+### 4.7    **“2” pointing downwards 25kg**
+
+- Click on button concerning step 7
+
+- Place the setup with the label “2” pointing downwards without loads and press “Acquire data” button (see figure 41)
+
+  
+
+Figure 41: Setup Configuration
+
+·     Following the window instructions place a 25Kg load on the “2“ label ,wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+  
+
+Figure 39: Load configuration
+
+ 
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+ 
+
+## 1.8    “3” pointing downwards 25kg
+
+·     Click on button concerning step 8
+
+·     Place the setup with the label “3” pointing downwards without loads and press “Acquire data” button as shown below
+
+  
+
+Figure 40: Setup Configuration
+
+·     Following the window instructions place a 25Kg load on the “3“ label ,wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+  
+
+Figure 41: Load configuration
+
+ 
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+## 1.9    “4” pointing downwards 25kg
+
+·     Click on button concerning step 9
+
+·     Place the setup with the label “4” pointing downwards without loads and press “Acquire data” button as shown below
+
+  
+
+Figure 42: Setup Configuration
+
+·     Following the window instructions place a 25Kg load on the “4“ label ,wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+  
+
+Figure 43: Load configuration
+
+ 
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+## 1.10   X+ pointing upwards 5kg laterals
+
+·     Click on button concerning step 10
+
+·     Place the setup with the axis  “X+” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button as shown below
+
+ 
+
+  
+
+Figure 44: Setup Configuration
+
+·     Following the window instructions place a 5Kg load on the Y- axis (then on the Z+ and Y+ axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+ 
+
+​      
+
+Figure 45: Load configurations
+
+ 
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+ 
+
+## 1.11   Y+ pointing upwards 5kg laterals
+
+·     Click on button concerning step 11
+
+·     Place the setup with the axis  “Y+” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button as shown below
+
+ 
+
+  
+
+Figure 46: Setup Configuration
+
+·     Following the window instructions place a 5Kg load on the X+ axis (then on the Z+ and X- axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+ 
+
+​      
+
+Figure 47: Load configurations
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+## 1.12   X- pointing upwards 5kg laterals
+
+·     Click on button concerning step 12
+
+·     Place the setup with the axis  “X-” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button as shown below
+
+  
+
+Figure 48: Setup Configuration
+
+·     Following the window instructions place a 5Kg load on the Y+ axis (then on the Z+ and Y- axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+​      
+
+Figure 49: Load configurations
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+## 1.13   Y- pointing upwards 5kg laterals
+
+·     Click on button concerning step 13
+
+·     Place the setup with the axis  “Y-” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button as shown below
+
+  
+
+Figure 50: Setup Configuration
+
+·     Following the window instructions place a 5Kg load on the X- axis (then on the Z+ and X+ axes), wait that the load is stable (not swing)  and check the numbers in the window. They must be all in green, if not take note of strange values in the report
+
+ 
+
+​      
+
+Figure 51: Load configurations
+
+·     Press “Acquire data” button and remove the load
+
+·     Fill in the respective calibration report field
+
+## 1.14   Generating Calibration Matrix
+
+ 
+
+·     Close the FirmwareUpdater application.
+
+·     Disassemble the calibration setup from the sensor and keep it connected to the PC
+
+·     On the VM create a directory named 
+
+***/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX/SNXXX\***
+
+Where ” ***cod_iit_XXX\***” and “SNXXX” are the iit code folder name and  the serial number of the sensor under test.
+
+·     Copy all files just generated :
+
+From : ***/home/icub/data\***
+
+To   : ***/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX/SNXXX\***
+
+ 
+
+ 
+
+ 
+
+·     Type “cd /home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/matlabFiles/”
+
+·             
+
+
+
+Type ‘gedit main.m’
+
+
+
+·          
+
+
+
+Change the sensFolder = cod_iit_xxxx and “sensNum = 'SNxxx';   % sensor to calibrate” statement with your sensor code and serial number and click Save and close
+
+
+
+  
+
+ 
+
+·     Type “octave main.m”
+
+·                          Check if the matrix_SNxxx.txt is present in the sensor folder
+
+·                        Open a terminal in the VM (CTRL+ALT+T) and run “FirmwareUpdater -a” (opens the FirmwareUpdtaer GUI) then select “SOCKETCAN<0>” as device and click on Discover button
+
+  
+
+ 
+
+·     Select the strain2 and click on Calibrate
+
+·     Click on Import in Matrix and full scales section and select the matrix_SNXX.txt file just generated
+
+·     Click on Send, Tune and check Apply digital regulation
+
+ 
+
+  
+
+ 
+
+·     Select EEPROM->Save to EEPROM in the top bar
+
+·     Select Save Calibration File and select the sensor folder (***/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX/SNXXX)\***
+
+·     Check that the measurement of Fz on the z axis is nearby 0
+
+·     Apply 1kg on the top of the sensor and check that the measurement of Fz on the z axis is nearby 10 or -10 (it depends on which side of the senor the load is placed)
+
+​    
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+## 1.15   Committing files
+
+ 
+
+·     In a terminal : cd **/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX**
+
+·     **Do “svn add SNXXX”**
+
+·     type “svn commit”; the window shown below will open, type “CTRL+X”.
+
+  
+
+ 
+
+·     At the choice below answer “c” and insert iit short username and pw if asked for
+
+  
+
+ 
+
+ 
+
+Now you can close Ubuntu VM and do SVN update on windows
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+# 2   SENSOR CALIBRATION REPORT
+
+| **SENSOR  S/N:**       |             |
+| ---------------------- | ----------- |
+| **Test Date:**         | **Tester:** |
+| **Strain Gauge  S/N:** |             |
+
+ 
+
+| **Test**                                                     | **Passed** | **Failed** |
+| ------------------------------------------------------------ | ---------- | ---------- |
+| **2.1** Strain Gauge Resistance check                        |            |            |
+| **Note:**              Pads    Couple            Resistance    +/- 40%            A            B            C                  1-2            430    Ohm                                                          2-6            430    Ohm                                                         3-5            430    Ohm                                                         4-5            430    Ohm |            |            |
+| **2.2** Short circuit Check                                  |            |            |
+| **Note:**                                                    |            |            |
+| **4.1** Z+ pointing  downwards 25kg traction                 |            |            |
+| **Note:**                                                    |            |            |
+| **4.2** Z+ pointing  downwards 5kg torques                   |            |            |
+| **Note:**                                                    |            |            |
+| **4.3** Z+ pointing  upwards 25kg compression                |            |            |
+| **Note:**                                                    |            |            |
+| **4.4** X+ pointing upwards 25kg                             |            |            |
+| **Note:**                                                    |            |            |
+| **4.5** X- pointing upwards 25kg                             |            |            |
+| **Note:**                                                    |            |            |
+| **4.6** “1” pointing downwards 25kg                          |            |            |
+| **Note:**                                                    |            |            |
+| **4.7** “2” pointing downwards 25kg                          |            |            |
+| **Note:**                                                    |            |            |
+| **4.8** “3” pointing downwards 25kg                          |            |            |
+| **Note:**                                                    |            |            |
+| **4.9** “4” pointing downwards 25kg                          |            |            |
+| **Note:**                                                    |            |            |
+| **4.10** X+ pointing  upwards 5kg laterals                   |            |            |
+| **Note:**                                                    |            |            |
+| **4.11** Y+ pointing  upwards 5kg laterals                   |            |            |
+| **Note:**                                                    |            |            |
+| **4.12** X- pointing  upwards 5kg laterals                   |            |            |
+| **Note:**                                                    |            |            |
+| **4.13** Y- pointing  upwards 5kg laterals                   |            |            |
+| **Note:**                                                    |            |            |
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+# 3   ADDENDUM
+
+ 
+
+## 3.1    STRAIN2 PCB PADS-CHANNEL RELATIONSHIP
+
+ 
+
+  
+
+#  
+
+ 
