@@ -73,7 +73,7 @@ https://svn.icub.iit.local/repos/mecha/ftSensCalib/trunk)`
 - 3 sets of 6 tinned cables with     these spec : length = 33mm , colors : Blue, Red, Yellow, Green, Black,     White “**CAB1**” (Figure 1)
 - 1 cable for connecting the     sensor to power and CAN-USB (**IITCODE 12478.x**)     “**CAB2**”(Figure 1)
 
- <img src ="img/Fig 1 da sostiuire.JPG" height = 500px>                             
+ <img src ="img/Fig 1 da sostiuire.jpg" height = 500px>                             
 
 Figure 1: Strain gauge sensor, strain pcb, cables and covers
 
@@ -83,7 +83,7 @@ Figure 1: Strain gauge sensor, strain pcb, cables and covers
 
 - 1 STRAIN2_ProgramInterface **IITCODE 12348.x** (Figure 2)
 
-  <img src ="img/Fig2_STRAIN2_ProgrammInterface.JPG" height = 390px>    
+  <img src ="img/Fig2_STRAIN2_ProgrammInterface.jpg" height = 390px>    
 
 Figure 2 STRAIN2_ProgramInterface
 
@@ -107,13 +107,13 @@ Figure 3: Screws
 - 6 3x16x2mm inox countersunk     hexagonal screws “**SC1**” (Figure 4)
 - 6 3x18x2.5mm inox hexagonal     screws “**SC2**” (Figure 4)
 
-<img src ="img/FIG4_Custom_made_cross_heads_nut.JPG" height = 500px>   
+<img src ="img/FIG4_Custom_made_cross_heads_nut.jpg" height = 500px>   
 
 Figure 4: Custom made cross, heads and the nut
 
 **________________________________________________________________________________________________**
 
-<img src ="img/Fig5_Custom_made_H_Bracket.JPG" height = 500px>
+<img src ="img/Fig5_Custom_made_H_Bracket.jpg" height = 500px>
 
 Figure 5: Custom made H bracket
 **________________________________________________________________________________________________**
