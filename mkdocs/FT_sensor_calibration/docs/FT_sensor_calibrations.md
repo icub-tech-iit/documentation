@@ -4,7 +4,7 @@
 
 # FT SENSOR CALIBRATION
 
-| **Rev.** |**Dep**|** Prepared  by **| **Date**|**Dep **                  |** Approved **  |** Date**         |
+| Rev. | Dep | Prepared  by | Date | Dep                   | Approved | Date         |
 | -------- | ---------- | ----|-----|-----|------|---- |
 | 0.0  | P&M          | Tome D.                | 15/04/2011 |              |             | 15/04/2011 |
 | 1.0  | iCubFacility | Tome D. – Michelini S. | 05/03/2014 | iCubFacility | Randazzo M. | 05/03/2014 |
@@ -22,7 +22,7 @@
 
  
 
-| **Rev.** | **Date**   | **Revision  description**                   |
+| Rev. | Date   | Revision  description                   |
 | -------- | ---------- | ------------------------------------------------------------ |
 | 0.0      | 15/04/2011 | Preliminary   emission                                       |
 | 1.0      | 05/03/2014 | Added section 2.1  Matlab replaced by Octave  New report template |
