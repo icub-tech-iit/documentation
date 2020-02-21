@@ -460,7 +460,7 @@ Figure 28
 - Click on button concerning step 1
 - Place the setup with the Z+ axis pointing downwards with EXT2 Z axis extension mounted, without loads and press “Acquire data” button (as shown on figure 28 and figure 29)
 
-<img src ="img/Fig29_setup.jpg" height = 350px> 
+<img src ="img/Fig29_setup.JPG" height = 350px> 
 
 Figure 29: Setup Configuration
 **________________________________________________________________________________________________**
@@ -485,14 +485,14 @@ Figure 30: Load Configuration
 
 - Place the setup with the Z+ axis pointing downwards without EXT2 Z axis extension, without loads and press “Acquire data” button (see figure 31)
 
-<img src ="img/Fig31 5KG_Z+d.jpg" height = 350px>
+<img src ="img/Fig31 5KG_Z+d.JPG" height = 350px>
 
 Figure 31: Setup Configuration
 **_________________________________________________________________________________________________**
 
 - Following the window instructions place a 5Kg load on the “Y-“ axis (and then for the other 3 axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, ***if not take note of strange values in the report***
 
-<img src ="img/Fig32_5KG_Z+D_4xLoad_setup.jpg" height = 600px>
+<img src ="img/Fig32_5KG_Z+D_4xLoad_setup.JPG" height = 600px>
 
 Figure 32: Load Configuration
 **________________________________________________________________________________________________**
@@ -505,7 +505,7 @@ Figure 32: Load Configuration
 
 - Place the setup with the Z+ axis pointing upwards with EXT1 Z axis extension mounted , without loads and press “Acquire data” button (see figure 33)
 
-<img src ="img/Fig33_25KG_Z+Up_setup.jpg" height = 600px>
+<img src ="img/Fig33_25KG_Z+Up_setup.JPG" height = 600px>
 
 Figure 33: Setup Configuration
 **________________________________________________________________________________________________**
@@ -513,7 +513,7 @@ Figure 33: Setup Configuration
 - Following the window instructions place a 25Kg load on the “Z+“ axis and check the numbers in the window. They must be all in green, if not take note of strange values in the report
 
 
- <img src ="img/Fig34_25KG_Z+Up_Load_setup.jpg" height = 600px> 
+ <img src ="img/Fig34_25KG_Z+Up_Load_setup.JPG" height = 600px> 
 
 Figure 34: Load configuration
 
@@ -528,14 +528,14 @@ Figure 34: Load configuration
 
 - Place the setup with the X+ axis pointing upwards without loads and press “Acquire data” button as shown below
 
-<img src ="img/Fig35_25KG_X+Up_setup.jpg" height = 600px>
+<img src ="img/Fig35_25KG_X+Up_setup.JPG" height = 600px>
 
 Figure 35: Setup Configuration
 **________________________________________________________________________________________________** 
 
 - Following the window instructions place a 25Kg load on the “X-“ axis , wait that the load is stable (not swing)  and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig36_25KG_X+Up_Load_setup.jpg" height = 1000px>  
+<img src ="img/Fig36_25KG_X+Up_Load_setup.JPG" height = 1000px>  
 
 Figure 36: Load configuration
 
@@ -551,14 +551,14 @@ Figure 36: Load configuration
 
 - Place the setup with the X- axis pointing upwards without loads and press “Acquire data” button (see figure 37)
 
-<img src ="img/Fig37_25KG_X-Up_setup.jpg" height = 600px>
+<img src ="img/Fig37_25KG_X-Up_setup.JPG" height = 600px>
 
 Figure 37: Setup Configuration
 **________________________________________________________________________________________________**
 
 - Following the window instructions place a 25Kg load on the “X+“ axis , wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig38_25KG_X-Up_Load_setup.jpg" height = 1000px>
+<img src ="img/Fig38_25KG_X-Up_Load_setup.JPG" height = 1000px>
 
 Figure 38: Load configuration
 **________________________________________________________________________________________________**
@@ -576,7 +576,7 @@ Figure 38: Load configuration
 
   
 
-<img src ="img/Fig39_25KG_1_D_setup.jpg" height = 600px>
+<img src ="img/Fig39_25KG_1_D_setup.JPG" height = 600px>
 
 Figure 39: Setup Configuration
 **________________________________________________________________________________________________**
@@ -584,7 +584,7 @@ Figure 39: Setup Configuration
 
   
 
-<img src ="img/Fig40_25KG_1_Up_Load_setup.jpg" height = 1000px>
+<img src ="img/Fig40_25KG_1_Up_Load_setup.JPG" height = 1000px>
 
 Figure 40: Load configuration
 **________________________________________________________________________________________________**
@@ -602,16 +602,16 @@ Figure 40: Load configuration
 
   
 
-<img src ="img/Fig41_25KG_2_D_setup.jpg" height = 600px>
+<img src ="img/Fig41_25KG_2_D_setup.JPG" height = 600px>
 
 Figure 41: Setup Configuration
 **________________________________________________________________________________________________**
 
 - Following the window instructions place a 25Kg load on the “2“ label, wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig42_25KG_2_D_Load_Setup.jpg" height = 1000px>
+<img src ="img/Fig42_25KG_2_D_Load_Setup.JPG" height = 1000px>
 
-Figure 39: Load configuration
+Figure 42: Load configuration
 **________________________________________________________________________________________________**
 
 
@@ -626,7 +626,7 @@ Figure 39: Load configuration
 
 - Place the setup with the label “3” pointing downwards without loads and press “Acquire data” button (see fig 43)
 
-<img src ="img/Fig43_25KG_3_D_setup.jpg" height = 600px>
+<img src ="img/Fig43_25KG_3_D_setup.JPG" height = 600px>
 
 
 Figure 43: Setup Configuration
@@ -634,7 +634,7 @@ Figure 43: Setup Configuration
 - Following the window instructions place a 25Kg load on the “3“ label ,wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
   
 
-<img src ="img/Fig44_25KG_3_D_Load_Setup.jpg" height = 1000px>
+<img src ="img/Fig44_25KG_3_D_Load_Setup.JPG" height = 1000px>
 
 Figure 44: Load configuration
 **________________________________________________________________________________________________**
@@ -650,15 +650,15 @@ Figure 44: Load configuration
 
 - Place the setup with the label “4” pointing downwards without loads and press “Acquire data” button (see figure 45)
 
-<img src ="img/Fig45_25KG_4_D_setup.jpg" height = 600px>
+<img src ="img/Fig45_25KG_4_D_setup.JPG" height = 600px>
 
 Figure 45: Setup Configuration
 **________________________________________________________________________________________________**
 - Following the window instructions place a 25Kg load on the “4“ label, wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig46_25KG_4_D_Load_Setup.jpg" height = 1000px>  
+<img src ="img/Fig46_25KG_4_D_Load_Setup.JPG" height = 1000px>  
 
-Figure 43: Load configuration
+Figure 46: Load configuration
 **________________________________________________________________________________________________**
 
 - Press “Acquire data” button and remove the load
@@ -672,7 +672,7 @@ Figure 43: Load configuration
 
 
 
-<img src ="img/Fig47_5KG_X+_Up_setup.jpg" height = 600px>
+<img src ="img/Fig47_5KG_X+_Up_setup.JPG" height = 600px>
 
 
 Figure 47: Setup Configuration
@@ -680,7 +680,7 @@ Figure 47: Setup Configuration
 
 - Following the window instructions place a 5Kg load on the Y- axis (then on the Z+ and Y+ axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig48_5KG_X+_Up_3xLoad_setup Y-_Z+_Y+.jpg" height = 600px>
+<img src ="img/Fig48_5KG_X+_Up_3xLoad_setup Y-_Z+_Y+.JPG" height = 600px>
 
 Figure 48: Load configurations (3x)
 
@@ -694,14 +694,14 @@ Figure 48: Load configurations (3x)
 - Click on button concerning step 11
 - Place the setup with the axis  “Y+” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button (see figure 49)
 
-<img src ="img/Fig49_5KG_Y+_Up_setup.jpg" height = 600px>
+<img src ="img/Fig49_5KG_Y+_Up_setup.JPG" height = 600px>
 
 Figure 49: Setup Configuration
 **________________________________________________________________________________________________** 
 
 - Following the window instructions place a 5Kg load on the X+ axis (then on the Z+ and X- axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig50_5KG_Y+_Up_3xLoad_setup X+_Z+_X-.jpg" height = 600px>
+<img src ="img/Fig50_5KG_Y+_Up_3xLoad_setup X+_Z+_X-.JPG" height = 600px>
 
 Figure 50: Load configurations (3x)
 
@@ -714,7 +714,7 @@ Figure 50: Load configurations (3x)
 - Click on button concerning step 12
 - Place the setup with the axis  “X-” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button (see figure 51)
 
-<img src ="img/Fig51_5KG_X-_Up_setup.jpg" height = 600px>
+<img src ="img/Fig51_5KG_X-_Up_setup.JPG" height = 600px>
 
   
 
@@ -723,7 +723,7 @@ Figure 51: Setup Configuration
 
 - Following the window instructions place a 5Kg load on the Y+ axis (then on the Z+ and Y- axes), wait that the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig52_5KG_X-_Up_3xLoad_setup Y+_Z+_Y-.jpg" height = 600px>
+<img src ="img/Fig52_5KG_X-_Up_3xLoad_setup Y+_Z+_Y-.JPG" height = 600px>
 
 Figure 52: Load configurations (3x)
 **________________________________________________________________________________________________**
@@ -736,13 +736,13 @@ Figure 52: Load configurations (3x)
 - Click on button concerning step 13
 - Place the setup with the axis  “Y-” pointing upwards with the EXT1 Z axis extension mounted, without loads and press “Acquire data” button (see figure 53)
 
-<img src ="img/Fig53_5KG_Y-_Up_setup.jpg" height = 600px>
+<img src ="img/Fig53_5KG_Y-_Up_setup.JPG" height = 600px>
 Figure 53: Setup Configuration
 **________________________________________________________________________________________________**
 
 - Following the window instructions place a 5Kg load on the X- axis (then on the Z+ and X+ axes), wait that the load is stable (not swing)  and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**
 
-<img src ="img/Fig54_5KG_Y-_Up_3xLoad_setup X-_Z+_X+.jpg" height = 600px>
+<img src ="img/Fig54_5KG_Y-_Up_3xLoad_setup X-_Z+_X+.JPG" height = 600px>
 
 Figure 54: Load configurations
 **________________________________________________________________________________________________**
@@ -773,7 +773,7 @@ To   : ***/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XX
 
 
 
-<img src ="img/Fig55_Sensor_to_calibrate.jpg" height = 400px>
+<img src ="img/Fig55_Sensor_to_calibrate.JPG" height = 400px>
 Figure 55
 
 **________________________________________________________________________________________________**
@@ -782,7 +782,7 @@ Figure 55
 - Check if the matrix_SNxxx.txt is present in the sensor folder
 - Open a terminal in the VM (CTRL+ALT+T) and run ***FirmwareUpdater -a*** (open the FirmwareUpdtaer GUI) then select ***SOCKETCAN<0>*** as device and click on Discover button (see figure 56)
 
-<img src ="img/Fig56_Firmadapter.jpg" height = 400px>
+<img src ="img/Fig56_Firmadapter.JPG" height = 400px>
 Figure 56
 **________________________________________________________________________________________________**
 
@@ -790,7 +790,7 @@ Figure 56
 - Click on Import in Matrix and full scales section and select the matrix_SNXX.txt file just generated
 - Click on Send, Tune and check Apply digital regulation
 
-<img src ="img/Fig57_Data_Acquisition.jpg" height = 500px>
+<img src ="img/Fig57_Data_Acquisition.JPG" height = 500px>
 
 Figure 57
 **________________________________________________________________________________________________**
@@ -802,7 +802,7 @@ Figure 57
 
 
 
-<img src ="img/Fig58_Fz_on_Xaxis_nearby_0.jpg" height = 300px>
+<img src ="img/Fig58_Fz_on_Xaxis_nearby_0.JPG" height = 300px>
 
 Figure 58
 **________________________________________________________________________________________________** 
@@ -816,14 +816,14 @@ In a terminal :
 - Do **“svn add SNXXX”**
 - type **“svn commit”**; the window shown below will open, type “CTRL+X”(see figure 59)
 
-<img src ="img/Fig59_SVN_commit.jpg" height = 600px>
+<img src ="img/Fig59_SVN_commit.JPG" height = 600px>
 
 Figure 59
 **________________________________________________________________________________________________** 
 
 - At the choice below answer “c” and insert IIT short username and pw if asked for
 
-<img src ="img/Fig60_SVN_commit_2.jpg" height = 600px>
+<img src ="img/Fig60_SVN_commit_2.JPG" height = 600px>
 
 Figure 60
 **________________________________________________________________________________________________**
@@ -843,7 +843,7 @@ Figure 60
 | **Test**                                                 | **Passed** | **Failed** |
 | -------------------------------------------------------- | ---------- | ---------- |
 | 2.1 **Strain Gauge Resistance check**                    |            |            |
-| <img src ="img/Fig61_Tesr_Res_check.jpg" height = 200px> |            |            |
+| <img src ="img/Fig61_Tesr_Res_check.JPG" height = 200px> |            |            |
 | 2.2 **Short circuit Check**                              |            |            |
 | **Note:**                                                |            |            |
 | 4.1 **Z+ pointing  downwards 25kg traction**             |            |            |
