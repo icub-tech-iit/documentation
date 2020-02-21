@@ -11,7 +11,7 @@
 | 2.0  | iCubFacility | M.Maggiali             | 26-01-2018 |              |             |            |
 | 2.1  | iCubFacility | D.Tomé                 | 17/04/19   |              |             |            |
 | 2.2  | iCubFacility | D.Tomé                 | 15/07/2019 |              |             |            |
-| 2.3  | iCubFacility | M.Borgagni - D.Tomè | 11/02/2020 |             iCubFacility | M. Accame             |11/02/2020            |
+| 2.3  | iCub Tech    | M.Borgagni - D.Tomè    | 11/02/2020 | iCub Tech    | M. Accame   | 11/02/2020 |
 
 
 
