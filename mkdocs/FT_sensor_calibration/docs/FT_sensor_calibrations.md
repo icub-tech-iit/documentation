@@ -92,7 +92,7 @@ Figure 2 STRAIN2_ProgramInterface
 - 6 6x12x2 mm screws “SC3” (Figure 3)
 - 6 6x8x2 mm screws “SC4” (Figure 3)
 
-<img src ="img/Fig3_Viti---da_sostituire.JPG" height = 500px>   
+<img src ="img/Fig3_Viti---da_sostituire.jpg" height = 500px>   
 
 Figure 3: Screws
 
