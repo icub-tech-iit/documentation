@@ -33,69 +33,11 @@
 
 
 
-Contents
-
-[Revision history. 1](#_Toc14076537)
-
-[1    TEST REQUIREMENTS. 3](#_Toc14076538)
-
-[1.1   Software Requirements. 3](#_Toc14076539)
-
-[1.2   Hardware Requirements. 3](#_Toc14076540)
-
-[2    SENSOR ASSEMBLY.. 8](#_Toc14076541)
-
-[2.1   Strain Gauge Resistance check. 8](#_Toc14076542)
-
-[2.2   Short circuit Check. 13](#_Toc14076543)
-
-[2.3   Pre calibration Check. 13](#_Toc14076544)
-
-[3    CALIBRATION SETUP ASSEMBLY.. 17](#_Toc14076545)
-
-[4    SENSOR CALIBRATION PROCEDURE.. 19](#_Toc14076546)
-
-[4.1   Z+ pointing downwards 25kg traction. 20](#_Toc14076547)
-
-[4.2   Z+ pointing downwards 5kg torques. 21](#_Toc14076548)
-
-[4.3   Z+ pointing upwards 25kg compression. 22](#_Toc14076549)
-
-[4.4   X+ pointing upwards 25kg. 23](#_Toc14076550)
-
-[4.5   X- pointing upwards 25kg. 24](#_Toc14076551)
-
-[4.6   “1” pointing downwards 25kg. 25](#_Toc14076552)
-
-[4.7   “2” pointing downwards 25kg. 26](#_Toc14076553)
-
-[4.8   “3” pointing downwards 25kg. 27](#_Toc14076554)
-
-[4.9   “4” pointing downwards 25kg. 28](#_Toc14076555)
-
-[4.10     X+ pointing upwards 5kg laterals. 29](#_Toc14076556)
-
-[4.11     Y+ pointing upwards 5kg laterals. 30](#_Toc14076557)
-
-[4.12     X- pointing upwards 5kg laterals. 31](#_Toc14076558)
-
-[4.13     Y- pointing upwards 5kg laterals. 32](#_Toc14076559)
-
-[4.14     Generating Calibration Matrix. 33](#_Toc14076560)
-
-[4.15     Uploading calibration matrix. 35](#_Toc14076561)
-
-[4.16     Committing sensor calibration folder 37](#_Toc14076562)
-
-[5    SENSOR CALIBRATION REPORT.. 38](#_Toc14076563)
-
-[6    ADDENDUM... 40](#_Toc14076564)
-
-[6.1   STRAIN2 PCB PADS-CHANNEL RELATIONSHIP. 40](#_Toc14076565)
+[TOC]
 
 
 
-## 1. **SW/HW REQUIREMENTS**
+## 1 **SW/HW REQUIREMENTS**
 
 ### 1.1 Software Requirements
 
@@ -395,7 +337,7 @@ Figure 18
    **Do the following test**
 
 
-1.	Select the strain2 (1) and click on Calibrate(2)
+1.	Select the strain2 (1) and click on ACQUIRE (2)
 2.	in the new window fill SN filed(3) and click on Change (4)
 3.	click on Clear and Apply (5, 6); check that the ADC values (7) are close to 0.
 4.	Click on Close (8) and confirm saving data to Eeprom. 
@@ -478,7 +420,7 @@ Upper figure(1): start_situation ____ Lower figure(2): after_clockwise operation
 
 
 
-# 4   CALIBRATION SETUP ASSEMBLY
+## 4   CALIBRATION SETUP ASSEMBLY
 
 1)   Assembly H1 to the sensor using SC2 screws as follow
 
