@@ -37,7 +37,7 @@
 
 
 
-## 1 **SW/HW REQUIREMENTS**
+## 1 **SW/HW Requirements**
 
 ### 1.1 Software Requirements
 
@@ -99,8 +99,6 @@ Figure 2 STRAIN2_ProgramInterface
 <img src ="img/Fig3_Viti---da_sostituire.jpg" height = 500px>   
 
 Figure 3: Screws
-
-**Serve nuovo set di viti e relative foto**
 
 **________________________________________________________________________________________________**
 
@@ -171,7 +169,7 @@ Figure 10: CAN-USB with its cables and connection with the FT-SENSOR
 
 -     1 5Kg load
 
-## 2   **SENSOR ASSEMBLY**
+## 2   **Sensor Assembly**
 
 
 !!! warning  
@@ -315,7 +313,7 @@ Fig 15B Capital scheme of the strain-2 connections
 !!! warning
     If you do not respect the values shown in the table **STOP CALIBRATION AND GIVE BACK TO IIT THE SENSOR FOR INVESTIGATION**
     
-## 3	**Pre calibration Check**
+## 3	**Pre-calibration Check**
 
 -	Connect the F/T sensor , CAN-USB, and ST-LINK2 to the STRAIN_PROGRAM_INT as per [**Fig10**](../img/Fig10-CAN-USB_with-its_cables_and_connection_with_FT_SENSOR.jpg)  (and them to the PC):
 
@@ -337,7 +335,7 @@ Figure 18
    **Do the following test**
 
 
-1.	Select the strain2 (1) and click on ACQUIRE (2)
+1.	Select the strain2 (1) and click on Calibrate (2)
 2.	in the new window fill SN filed(3) and click on Change (4)
 3.	click on Clear and Apply (5, 6); check that the ADC values (7) are close to 0.
 4.	Click on Close (8) and confirm saving data to Eeprom. 
@@ -420,26 +418,19 @@ Upper figure(1): start_situation ____ Lower figure(2): after_clockwise operation
 
 
 
-## 4   CALIBRATION SETUP ASSEMBLY
+## 4   **Calibration Setup Assembly**
 
 1)   Assembly H1 to the sensor using SC2 screws as follow
 
-<img src ="img/Fig26_cap_calib_setup_ass_H1_Head_Assembly.JPG" height = 400px>                                  
+<img src ="img/Fig26_cap_calib_setup_ass_H1_Head_Assembly.JPG" height = 200px>                                  
 
 Figure 26: H1 head assembly
 
  
 
- 
-
- 
-
- 
-
 2)  Place the sensor on the bracket BR1 as follow
 
-
-<img src ="img/Fig27_cap_calib_setup_ass_BR1_bracket_Assembly.JPG" height = 400px>
+<img src ="img/Fig27_cap_calib_setup_ass_BR1_bracket_Assembly.JPG" height = 250px>
 
 
 Figure 27: BR1 bracket assembly
@@ -454,7 +445,7 @@ Figure 27: BR1 bracket assembly
 
 
 
-<img src ="img/Fig28_cap_calib_setup_ass_CR1_cross_Assembly.JPG" height = 400px>
+<img src ="img/Fig28_cap_calib_setup_ass_CR1_cross_Assembly.JPG" height = 700px>
     
 Figure 28: Cr1 cross assembly
 
@@ -490,7 +481,7 @@ Figure 30
 
 
 
-1)  Select the strain2 and click on Calibrate (see figure 31)
+1)  Select the strain2 and click on Acquire (see figure 31)
 
  
 
@@ -855,7 +846,7 @@ Figure 61
 **________________________________________________________________________________________________** 
 
 
-## 7   **Committing files**
+## 7   **Committing Files**
 In a terminal :
 
 - **cd** **/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX**
@@ -921,7 +912,7 @@ Figure 63
 | **Note:**                                                |            |            |
 
 
-## 9   **ADDENDUM: STRAIN2 PCB PADS-CHANNEL RELATIONSHIP**
+## 9   **ADDENDUM: STRAIN2 PCB PADA-Channel Relationship**
 
 <img src ="img/FIG65_STRAIN2_PCA_Assembly.jpg" height = 600px>
 
