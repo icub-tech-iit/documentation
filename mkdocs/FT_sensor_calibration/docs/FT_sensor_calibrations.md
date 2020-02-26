@@ -481,7 +481,7 @@ Figure 29
 
 - Check that the folder ***/home/icub/data*** exists
 
-- Open a terminal in the VM (CTRL+ALT+T) and run “FirmwareUpdater -a” (it opens the FirmwareUpdtaer GUI) then select “SOCKETCAN<0>” as device and click on Discover button (see Figure 27)
+- Open a terminal in the VM (CTRL+ALT+T) and run “FirmwareUpdater -a” (it opens the FirmwareUpdtaer GUI) then select “SOCKETCAN<0>” as device and click on Discover button (see Figure 30)
 
 <img src ="img/Fig30_Frimadapter.jpg" height = 400px>
 Figure 30
@@ -490,8 +490,7 @@ Figure 30
 
 
 
-
-1)  Select the strain2 and click on Calibrate (see figure 28)
+1)  Select the strain2 and click on Calibrate (see figure 31)
 
  
 
@@ -504,9 +503,9 @@ Figure 31
 
 - Follow the steps from 1 to 13 to complete data acquisition (***Each step gives you instructions about the setup configuration - figure 32***)
 
-### 5.1    **Z+ pointing downwards 25kg traction**
+### 5.1    Z+ pointing downwards 25kg traction
 - Click on button concerning step 1
-- Place the setup with the Z+ axis pointing downwards with EXT2 Z axis extension mounted, without loads and press “Acquire data” button (as shown on figure 28 and figure 29)
+- Place the setup with the Z+ axis pointing downwards with EXT2 Z axis extension mounted, without loads and press “Acquire data” button (as shown on figure 32)
 
 <img src ="img/Fig32_setup.JPG" height = 350px> 
 
@@ -514,7 +513,7 @@ Figure 32: Setup Configuration
 **________________________________________________________________________________________________**
 
 
-·     Place a 25Kg load on the z+ axis , wait till the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report** (see figure 30)
+·     Place a 25Kg load on the z+ axis , wait till the load is stable (not swing) and check the numbers in the window. They must be all in green, **if not take note of strange values in the report**.
 
 <img src ="img/Fig33_25KG_Z+dwn.jpg" height = 600px>
 
@@ -828,7 +827,7 @@ Figure 58
 
 - Type ***octave main.m***
 - Check if the matrix_SNxxx.txt is present in the sensor folder
-- Open a terminal in the VM (CTRL+ALT+T) and run ***FirmwareUpdater -a*** (open the FirmwareUpdtaer GUI) then select ***SOCKETCAN<0>*** as device and click on Discover button (see figure 56)
+- Open a terminal in the VM (CTRL+ALT+T) and run ***FirmwareUpdater -a*** (open the FirmwareUpdtaer GUI) then select ***SOCKETCAN<0>*** as device and click on Discover button (see figure 59)
 
 <img src ="img/Fig59_Firmadapter.JPG" height = 400px>
 Figure 59
@@ -846,7 +845,7 @@ Figure 60
 - Select EEPROM->Save to EEPROM in the top bar
 - Select Save Calibration File and select the sensor folder ***(/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX/SNXXX)***
 - Check that the measurement of Fz on the z axis is nearby 0
-- Apply 1kg on the top of the sensor and check that the measurement of Fz on the z axis is nearby 10 or -10 (it depends on which side of the senor the load is placed) - see figure 58
+- Apply 1kg on the top of the sensor and check that the measurement of Fz on the z axis is nearby 10 or -10 (it depends on which side of the senor the load is placed) - see figure 61
 
 
 
@@ -862,7 +861,7 @@ In a terminal :
 - **cd** **/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX**
 
 - Do **“svn add SNXXX”**
-- type **“svn commit”**; the window shown below will open, type “CTRL+X”(see figure 59)
+- type **“svn commit”**; the window shown below will open, type “CTRL+X”(see figure 62)
 
 <img src ="img/Fig62_SVN_commit.JPG" height = 600px>
 
