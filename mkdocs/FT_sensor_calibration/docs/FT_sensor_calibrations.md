@@ -804,7 +804,7 @@ From : ***/home/icub/data***
 
 To   : ***/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/cod_iit_XXX/SNXXX***
 
-- Type ***cd/home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/matlabFiles***
+- Type ***cd /home/icub/ftSensCalib/trunk/software/sensAquisitionArchive/matlabFiles***
 
 - Type ***gedit main.m***
 - Change the sensFolder = cod_iit_xxxx and “sensNum = 'SNxxx';   % sensor to calibrate” statement with your sensor code and serial number and click Save and close (See figure 58)
