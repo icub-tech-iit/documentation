@@ -164,7 +164,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 <center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_6.png)</center>             
 <center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_5.png)</center>
-> Once both crimps jumped over the 2 teeth holding the in position you can start tightening the screws of the tensionnes 6 and 5
+> Once both crimps jumped over the 2 teeth holding the crimp in position you can start tightening the screws of the tensionnes 6 and 5
 
 ## 3. Left Elbow cabling 
 
@@ -175,8 +175,8 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! warning
     **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
     
-    **OR** You are heped by **someone else** to hold the Lower Arm (Forearm + Hand).
-    
+    **OR** You are helped by **someone else** to hold the Lower Arm (Forearm + Hand).
+
 
 <center>![ICUB_ELBOW](img/shoulder/ICUB_Elbow_LEFT_Cable_9-10.png)</center> 
 
@@ -313,8 +313,8 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! warning
     **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
     
-    **OR** You are heped by **someone else** to hold the Lower Arm.
-    
+    **OR** You are helped by **someone else** to hold the Lower Arm.
+
 
 <center>![ICUB_ELBOW](img/shoulder/ICUB_Elbow_RIGHT_Cable_9-10.png)</center> 
 
