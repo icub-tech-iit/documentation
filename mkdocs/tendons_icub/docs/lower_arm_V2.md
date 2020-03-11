@@ -1,50 +1,154 @@
-# Which "Lower Arm" do you have?
+# HOWTO REPAIR ANY CABLE FROM A FOREARM or HAND - VERSION 2
 
-## VERSION 1
+## LOWER ARM VERSION 2
 
 > let's have an overview of the mechanical CAD from different view angles.
 
-| Left Forearm V1                                | Right Forearm V2                                |
-| ---------------------------------------------- | ----------------------------------------------- |
-| <img src ="../img/L-4RMV1.gif" height = 600px> | <img src ="../img/R-4RM-V2.gif" height = 600px> |
+| Left Forearm V2                                           | Right Forearm V2                                          |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| <img src ="../GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
-WHAT NEXT?
 
-You need to identify which cable is broken
 
-### <u>Rules of Thumb:</u>
+### <u>Rules of Thumb for a good start:</u>
 
-> 1 - Visual inspection (remove the covers - around the forearm and above the hand - and check for broken cables)
+> 1 - Visual inspection (remove the covers - around the forearm and above the hand - and look for broken cables)
 >
 > 2 - Identification (which part needs to be repaired)
 >
 > 3 - Cleaning and Removing the broken cable
->
-> 4 - HOWTO GUIDE (follow the instructions from this webpage)
 
-## HOWTO REPAIR ANY CABLE FROM A FOREARM VERSION 1
 
-### Distal Joints:
+
+!!!TIP
+    First once you identify the motor/joint to recable - You need to remove the bar to work more easily. Just remove the 4 lateral screws.<img src ="../img/lowerArm/remove-bar-V2.png" height = 400px>
+
+
+
+### Do I need to remove to disconnect the Lower Arm?
+
+The answer is :
+
+| what is broken?                                              | REMOVING OR NOT   |
+| ------------------------------------------------------------ | ----------------- |
+| distal joint (Thumb, Index, Midldle, Ring or Pinkie)         | **NOT** necessary |
+| every other joint (all proximals, hand abduction and Thumb ) | **MANDATORY**     |
+
+
+
+## Distal Joints
 
 There are 2 types of distal Joint on this version of the forearm:
 
-* The ones which goes inside a motor shaft to get anckored and by having the motor spin the cable roll around the pulley and close the joint. Those motors are <u>*perfectly*</u> identical - only the positions differ :
+* The simplest ones which go inside a motor shaft to get anchored, and as soon as the motor is spinning the cable rolls around the pulley and close the joint. Those motors are <u>*perfectly*</u> identical - only the positions differ :
 
   > Thumb, Index & Middle distals
 
-* The ones which are attached to the slidder
+* The 2 trickiest ones which are actually a double distal joint in one motor.
 
-  > Pinky and Ring Fingers
+  > Ring and Pinkie Fingers
 
-Where are those cables located?
+### Where are those cables located?
 
-For a Right forearm Version #1
+Here is the table to locate all the distal joints on a forearm (**left** in this case)
 
-| Thumb distal                                                 | Index and Middle distal                                      | Pinky and ring fingers                        |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------- |
-| <img src ="../img/V1-distal-thumb.png" height = 300px>       | <img src ="../img/index_middle_V1.png" height=300 width=auto> | <img src ="../img/R&P_V1.png" height = 300px> |
-| <u>easy to find:</u> no **slider** above or hiding it. It is also tight next to the motor with the cage | they are located beneath the slider                          | They are attached to the slider moving part   |
+| LOCATION | JOINT  | POSITION |
+| ---- | ----- | --|
+| <img src ="../img/lowerArm/index_middle_V2.png" height=auto width=400> | Index and Middle | they are located **ATOP** the forearm when it <u>lies</u> palm face **DOWN** |
+| <img src ="../img/lowerArm/TH_R&P_V2.png" height=auto width=400> | Thumb distal **AND** Ring and Pinkie | They are located **ATOP** when the forearm <u>lies</u> palm face **UP** |
 
-> <u>WATCH OUT:</u> for the Left forearm - the motor positions are "mirrored" compared to the Right one.
 
-1. gThumb Distal : The simpliest one to restore as you dont have the 
+
+
+
+!!! danger "WATCH OUT"
+    FOR the **Right forearm** : the motor positions are "mirrored" respect to the **left** ones.
+
+| RIGHT FOREARM                                                | LEFT FOREARM                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src ="../img/lowerArm/distals-R-V2.png" height = 400px> | <img src ="../img/lowerArm/distals-L-V2.png" height = 400px> |
+
+
+
+
+
+### Let's start recabling
+
+The minimum requirement to start recabling:
+
+| IITCODE | Alias    | Description                                                  |
+| ------- | -------- | ------------------------------------------------------------ |
+| 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
+
+### Let's create the knot on the cable
+
+|                                                         | STEP BY STEP GUIDE FOR A GOOD KNOT                           |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src='../img/lowerArm/knot1.jpg' width =400>        | Start by cutting one piece of 40cm from the cable IITCODE 2391.<br />Make a knot at one extremity. |
+| <img src="../GIF/lower_arm/knot_video.gif" width = 400> | use 2 pliers to close it hard. The plier closest to the knot is just opened-free to let the cable to run over it but is here to block the knot, the second one pull the cable to tighten the knot. |
+| <img src='../img/lowerArm/knot3.jpg' width = 400>       | drop a tear of glue on the knot and dry it. <br>**REMOVE** the excess with a tissue - double check that the knot is perfectly dry before to procede. |
+| <img src='../img/lowerArm/knot4.jpg' width = 400>       | cut the excess of cable                                      |
+| <img src='../img/lowerArm/knot5.jpg' width = 400>       | FINISHED!!!                                                  |
+
+|                                                            | Insert the knot until it remains inside the socket of the pulley |
+| ---------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="../GIF/lower_arm/cable_in_hole.gif" width = 400> | <img src="../img/lowerArm/shaft_hole.png" width = 400>       |
+
+### Which distal do I need to restore?
+
+#### <u>Thumb:</u>
+
+<img src="../img/lowerArm/Th_I_O.png" width = 700>
+
+> Just insert the cable **IN** side the hole (red circle - blue arrow) - closest from the cage of the motor moving the slidder of the pinkie and ring fingers. The cable should gets **OUT** at the base of the falange (red arrow).
+
+!!! danger "WATCH OUT"
+    FOR the **Left forearm** : the motor positions are "mirrored" respect to the **right** ones.
+
+#### <u>Index or Middle:</u>
+
+> You must consider to move the slidder away that covers both motor to be able to see clearly the hole where the cable will go - for that purpose, please remove the 4 screws identicated on the pictures below.
+
+<img src="./img/lowerArm/rm_sliders_screws.png" width = 700>
+
+> After having remove the screws you should be able to move sideways the slider, being able more easily to fit the cable into the retaining socket (see GIF above) but mainly see both internal holes (blue circle for middle distal and red circle for index distal).
+> Put the cable inside the hole.
+
+<img src="./img/lowerArm/I_I_M.png" width = 700>
+
+> Push it until it gets OUT from the base of the first phalange of either index or midddle depending on the cable you want to fix.
+
+<img src="./img/lowerArm/O_I_M.png" width = 700>
+
+!!! note "Cabling for Thumb, Index and Middle"
+    <img src="./img/lowerArm/wiring.png" width = 700> <br> <br>
+    1. Just make a knot 1-2cm away from the exit of the thumb nail.<br><br>
+        <img src="./img/lowerArm/backdrive.png" width = 700> <br><br>
+        2. By using a flat screwdriver the size of the throat, turning it the direction shown above you should be able to see the cable get sucked up until finally you can see the finger closing entirely.<br><br>
+            3. Make sure the finger can easily get closed and opened by turning CW and CCW from mid range closing.
+
+!!! danger "WATCH OUT"
+    FOR the **Left forearm** : the motor positions are "mirrored" respect to the **right** ones.
+
+
+#### <u>Ring or Pinkie finger:</u>
+
+!!!note
+    Those fingers need to be done **together** in order to make sure that both cable close simultaneously
+
+
+| WHERE                                                    | step by step guide                                           |
+| -------------------------------------------------------- | ------------------------------------------------------------ |
+|                                                          | 1. Prepare 2 cables of about 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
+| <img src ="./img/lowerArm/R&P_V1.png" height = 400px>    | 2. starting point of the cabling are the 2 holes of the slider |
+| <img src ="./img/lowerArm/R_P_st_pt.png" height = 400px> | 3 .pass both cables inside the paralllel holes               |
+| <img src ="./img/lowerArm/P_R.png" height = 400px>       | 4. exit of both cables                                       |
+| <img src ="./img/lowerArm/R_P_cabling.png">              | 5. cable routing.<br />To be able to pass the cable at the base of the nail it is important to remove the nail and move forward the fingertip for 1 cm from its base. |
+|                                                          | 6. please write with a marker at the base of the nails where the knot should be in order to have a perfect synchronous closing for both fingers. <br/> |
+|                                                          | 7. Now close manually the 2 fingers to get some slack to the cable and pull it out a bit to see where you should create the knot - at the very end of the mark on the cable <br/> |
+|                                                          | 8. If you did good, when releasing the fingers they should be symmetrical |
+|                                                          | **FINISHED!!!**                                              |
+
+## Proximal Joints - Coming SOON
+
+### HOW TO REMOVE LOWERARM
