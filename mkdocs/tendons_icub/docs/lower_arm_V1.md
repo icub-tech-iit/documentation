@@ -1,5 +1,15 @@
 # HOWTO REPAIR ANY CABLE FROM A FOREARM or HAND - VERSION 1
 
+## VERSION 1
+
+> let's have an overview of the mechanical CAD from different view angles.
+
+| Left Forearm V1                                           | Right Forearm V1                                             |
+| --------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1una .gif" height = 600px> |
+
+
+
 ### <u>Rules of Thumb:</u>
 
 > 1 - Visual inspection (remove the covers - around the forearm and above the hand - and check for broken cables)
@@ -20,7 +30,7 @@ There are 2 types of distal Joint on this version of the forearm:
 
 * The ones which are attached to the slider
 
-  > Pinky and Ring Fingers
+  > Ring and Pinkie Fingers
 
 ### Where are those cables located?
 
@@ -48,7 +58,7 @@ The minimum requirement to start recabling:
 |  | STEP BY STEP GUIDE FOR A GOOD KNOT |
 |---|---|
 |<img src='../img/lowerArm/knot1.jpg' width =400>|Start by cutting one piece of 40cm from the cable IITCODE 2391.<br />Make a knot at one extremity.|
-|<img src="../GIF/lower_arm/knot_video.gif" width = 400>|use 2 pliers to close it hard.|
+|<img src="../GIF/lower_arm/knot_video.gif" width = 400>|use 2 pliers to close it hard. The plier closest to the knot is just opened-free to let the cable to run over it but is here to block the knot, the second one pull the cable to tighten the knot.|
 |<img src='../img/lowerArm/knot3.jpg' width = 400>|drop a tear of glue on the knot and dry it. <br>**REMOVE** the excess with a tissue - double check that the knot is perfectly dry before to procede.|
 |<img src='../img/lowerArm/knot4.jpg' width = 400>| cut the excess of cable |
 |<img src='../img/lowerArm/knot5.jpg' width = 400>| FINISHED!!! |
@@ -97,14 +107,14 @@ The minimum requirement to start recabling:
 #### <u>Ring or Pinkie finger:</u>
 
 !!!note
-    Those fingers need to be done **together** in order to make sure that both cable close simultanuously
+    Those fingers need to be done **together** in order to make sure that both cable close simultaneously
 
 
 | WHERE  | step by step guide       |
 | ------------ | ---------- |
-| | 1. Prepare 2 cable of 40 cm of IITCODE 2391 and make sure you make the knot as taught above|
+| | 1. Prepare 2 cables of about 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
 | <img src ="../img/lowerArm/R&P_V1.png" height = 400px>       | 2. starting point of the cabling are the 2 holes of the slider  |
-| <img src ="../img/lowerArm/R_P_st_pt.png" height = 400px> | 3 .pass both cables inside the parallle holes|
+| <img src ="../img/lowerArm/R_P_st_pt.png" height = 400px> | 3 .pass both cables inside the paralllel holes |
 | <img src ="../img/lowerArm/P_R.png" height = 400px>| 4. exit of both cables|
 | <img src ="../img/lowerArm/R_P_cabling.png"> | 5. cable routing.<br />To be able to pass the cable at the base of the nail it is important to remove the nail and move forward the fingertip for 1 cm from its base. |
 | | 6. please write with a marker at the base of the nails where the knot should be in order to have a perfect synchronous closing for both fingers. <br/> |
@@ -112,5 +122,18 @@ The minimum requirement to start recabling:
 | | 8. If you did good, when releasing the fingers they should be symmetrical |
 | |**FINISHED!!!**|
 
-
 ## Proximal Joints - Coming SOON
+
+# Which "Lower Arm" do you have?
+
+## VERSION 1
+
+> let's have an overview of the mechanical CAD from different view angles.
+
+| Left Forearm V1                                           | Right Forearm V2                                          |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
+
+
+
+### HOW TO REMOVE LOWERARM

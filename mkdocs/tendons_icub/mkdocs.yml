@@ -51,18 +51,18 @@ nav:
     - iCub Tech Docs: 
         - hhh: https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site/
     - The iCub cabling manual: 'index.md'
-    - The body parts:
-        - The neck: 'neck.md'
-        - The shoulder and elbow: 'shoulder_elbow.md'
-        - The lower arm:
+    - Body Parts:
+        - Neck: 'neck.md'
+        - Shoulder and Elbow: 'shoulder_elbow.md'
+        - Lower Arm:
               - Definition: 'lower_arm.md'
               - Version 1 :
-                   - Hand Cabling V1 - Building Phase: 'hand_cabling_V1.md'
-                   - Wrist Cabling: 'wrist_cabling.md'
-                   - Lower Arm V1 - Repair Phase : 'lower_arm_V1.md'
+                   - Building Phase - Entire Hand/Lower Arm Cabling: 'hand_cabling_V1.md'
+                   - Repair Phase - Lower Arm V1 : 'lower_arm_V1.md'
+                   - Repair Phase - Wrist Hand Cabling V1: 'wrist_cabling.md'
               - Version 2 :
                    - Lower Arm V2: 'lower_arm_V2.md'
                    - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
-        - The waist, leg and ankle: 'waist_legs.md'
+        - Waist, Leg and Ankle: 'waist_legs.md'
 
     - License: 'license.md'

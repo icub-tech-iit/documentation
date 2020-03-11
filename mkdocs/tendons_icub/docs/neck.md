@@ -1,10 +1,14 @@
 # NECK V2
 
+Here is the table showing the visual differences in between the First version of the iCub neck and the updated version 2 neck (NECK V2)
+
 |      <center> Neck V1 - First 2 DOFs </center>      |      <center> Neck V2 - First 2 DOFs </center>      |
 | :-------------------------------------------------: | :-------------------------------------------------: |
 | <img src ="../img/neck/neck_V1.png" height = 300px> | <img src ="../img/neck/neck_V2.png" height = 300px> |
 
-The second release of the head has 2 tendons and a differential joint to actuate the first 2 DoFs of the neck compared to the 2 serial joints from the one of the previous version V1 make it more robust, powerful and reliable.
+The second release of the neck has 2 tendons and two differential joints to actuate the first 2 DoFs of the neck compared to the 2 serial joints of the previous version of the neck (V1).
+
+**It makes it more robust, powerful and reliable.**
 [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position009a)
 
 
@@ -38,7 +42,7 @@ Prepare 2 cables with the components and specifics described below:
 
 
 
-Note that the “X” marks in the picture above is the area to be peeled off from the Teflon coating.
+Note that the “X” marks in the picture above is the area where the Teflon coating needs to be peeled off.
 
  **All dimensions are in mm**.
 
@@ -55,16 +59,16 @@ Note that the “X” marks in the picture above is the area to be peeled off fr
 ### 1.2.2      Rules of Thumb (RoT) for a Perfect START:[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position009b)
 **Blocking**
 
->Always block the cable in its portion on which we peeled off the coating.
+>Always block the cable in the peeled off Teflon section.
 
 
 **Positioning**
 
->The longest cable portion should be facing toward the front of the robot and vice-versa the shortest part of the cable should be pointing toward the rear of the robot.
+>The longest part of the cable should be facing toward the front of the robot and vice-versa the shortest part should be pointing toward the rear of the robot.
 
 
 **Releasing**
->Make sure that all tensioners are fully opened
+>Make sure that all tensioners are fully opened.
 
 !!! Tip
     To block the cable with Cable Block 1 do the following:
@@ -123,7 +127,7 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
 | 0.1     | 24 Jan 2017 | A. Spadoni                | First emission  |
 | 0.2	  | 8 Mar 2017	| A. Spadoni, A Parmiggiani |Document revision|
 | 0.3     | 20 July 2017| J. Jenvrin                |For emission     |
-| 0.4     |	20 Feb 2019 | J. Jenvrin         |Modification cabling N14|
+| 0.4     |	20 Feb 2019 | J. Jenvrin         |Modification cabling|
 | 0.5       | Sept 2019 | M. Borgagni                     | word to md|
 | 0.6    | Oct. 2019 | J. Jenvrin |add the 2 versions of block cables |
 

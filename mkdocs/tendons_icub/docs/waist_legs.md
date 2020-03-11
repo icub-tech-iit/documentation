@@ -118,6 +118,7 @@ You are now able to untighten the 2 screws tensionning the cale 13
 2- remove the central screw of the pulley
 3- use 2 fat screwdrivers to make the pulley popping up.
 -> photo needed
+
 !!!WATCH OUT
     once the pulley or one side of the cable 13 is remove the rotation of the torso is totally free, someone else help is more than welcome.
 
