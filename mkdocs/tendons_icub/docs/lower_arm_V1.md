@@ -118,11 +118,11 @@ The minimum requirement to start recabling:
 
 | WHERE  | step by step guide       |
 | ------------ | ---------- |
-| | 1. Prepare 2 cables of about 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
-| <img src ="../img/lowerArm/R&P_V1.png" height = 400px>       | 2. starting point of the cabling are the 2 holes of the slider  |
+| | 1. Prepare 2 cables of 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
+| <img src ="../img/lowerArm/R&P_V1.png" height = 400px>       | 2.  The starting points of the cabling are the 2 holes of the slider |
 | <img src ="../img/lowerArm/R_P_st_pt.png" height = 400px> | 3 .pass both cables inside the parallel holes |
-| <img src ="../img/lowerArm/P_R.png" height = 400px>| 4. exit of both cables|
-| <img src ="../img/lowerArm/R_P_cabling.png"> | 5. cable routing.<br />To be able to pass the cable at the base of the nail it is important to remove the nail and move forward the fingertip for 1 cm from its base. |
+| <img src ="../img/lowerArm/P_R.png" height = 400px>| 4. the exit of both cables is at the base of the phalange |
+| <img src ="../img/lowerArm/R_P_cabling.png"> | 5. cable routing (same rules as other fingers). <br />To be able to pass the cable at the base of the nail it is important to create space by removing the nail (plastic cover) and moving forward the fingertip for 1 cm from its base. |
 | | 6. please write with a marker at the base of the nails where the knot should be in order to have a perfect synchronous closing for both fingers. <br/> |
 | |7. Now close manually the 2 fingers to get some slack to the cable and pull it out a bit to see where you should create the knot - at the very end of the mark on the cable <br/>|
 | | 8. If you did good, when releasing the fingers they should be symmetrical |
@@ -140,16 +140,6 @@ The minimum requirement to start recabling:
 | --------------------------------------------------------- | --------------------------------------------------------- |
 | <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
-=======
-| | 1. Prepare 2 cable of 40 cm of IITCODE 2391 and make sure you make the knot as taught above|
-| <img src ="../img/lowerArm/R&P_V1.png" height = 400px>       | 2. The starting points of the cabling are the 2 holes of the slider |
-| <img src ="../img/lowerArm/R_P_st_pt.png" height = 400px> | 3 .pass both cables inside the parallel holes |
-| <img src ="../img/lowerArm/P_R.png" height = 400px>| 4. the exit of both cables is at the base of the falange |
-| <img src ="../img/lowerArm/R_P_cabling.png" height = 400px>| 5. cable routing (same rules as other fingers) |
-| | to be able to pass the cable at the base of the nail it is important to create space by removing the nail (plastic cover) and moving forward the fingertip for 1 cm from its base. |
-| |When you finally make it that far<br> 6. please write a mark on each cable at the base of the nail where the knot should be in order to have a perfect synchronous closing for both fingers. <br>|
-| | 7. Now close manually the 2 fingers to get some slack to the cable and pull it out a bit to see where you should create the knot - at the very end of the mark on the cable <br>|
-| |8. If you did good, when releasing the fingers they should be symmetrical|
-| | **FINISHED!!!**|
+
 
 ### HOW TO REMOVE LOWER ARM
