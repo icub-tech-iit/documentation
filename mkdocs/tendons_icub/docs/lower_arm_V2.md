@@ -25,14 +25,14 @@
 
 
 
-### Do I need to remove to disconnect the Lower Arm?
+### Do I need to disconnect the Lower Arm?
 
 The answer is :
 
 | what is broken?                                              | REMOVING OR NOT   |
 | ------------------------------------------------------------ | ----------------- |
-| distal joint (Thumb, Index, Midldle, Ring or Pinkie)         | **NOT** necessary |
-| every other joint (all proximals, hand abduction and Thumb ) | **MANDATORY**     |
+| **distal joint** (Thumb, Index, Midldle, Ring or Pinkie)     | **NOT** necessary |
+| **every other joint** (all proximals, fingers abduction and Thumb oppose ) | **MANDATORY**     |
 
 
 
@@ -70,17 +70,17 @@ Here is the table to locate all the distal joints on a forearm (**left** in this
 
 
 
+### Let's start wiring!!!
 
+#### 	1. Preparation
 
-### Let's start recabling
-
-The minimum requirement to start recabling:
+The minimum requirement to start recabling distal joints is:
 
 | IITCODE | Alias    | Description                                                  |
 | ------- | -------- | ------------------------------------------------------------ |
 | 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
-### Let's create the knot on the cable
+#### 	2. HOWTO create a knot
 
 |                                                         | STEP BY STEP GUIDE FOR A GOOD KNOT                           |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -88,47 +88,53 @@ The minimum requirement to start recabling:
 | <img src="../GIF/lower_arm/knot_video.gif" width = 400> | use 2 pliers to close it hard. The plier closest to the knot is just opened-free to let the cable to run over it but is here to block the knot, the second one pull the cable to tighten the knot. |
 | <img src='../img/lowerArm/knot3.jpg' width = 400>       | drop a tear of glue on the knot and dry it. <br>**REMOVE** the excess with a tissue - double check that the knot is perfectly dry before to procede. |
 | <img src='../img/lowerArm/knot4.jpg' width = 400>       | cut the excess of cable                                      |
-| <img src='../img/lowerArm/knot5.jpg' width = 400>       | FINISHED!!!                                                  |
+| <img src='../img/lowerArm/knot5.jpg' width = 400>       | FINISHED!!!|
 
-|                                                            | Insert the knot until it remains inside the socket of the pulley |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="../GIF/lower_arm/cable_in_hole.gif" width = 400> | <img src="../img/lowerArm/shaft_hole.png" width = 400>       |
 
-### Which distal do I need to restore?
+#### 	3. Wiring Explanation
 
-#### <u>Thumb:</u>
+#### <u>THUMB</u>
 
-<img src="../img/lowerArm/Th_I_O.png" width = 700>
+> we will proceed by showing you how to recable the distal thumb on the **LEFT**  Forearm - Just be aware that the motors for the **RIGHT** Forearm are **mirrored** as per the WATCH OUT above explained.
 
-> Just insert the cable **IN** side the hole (red circle - blue arrow) - closest from the cage of the motor moving the slidder of the pinkie and ring fingers. The cable should gets **OUT** at the base of the falange (red arrow).
+
+| pictures | step by step guide |
+| --- | --- |
+| <img src="../GIF/lower_arm/cable_in_hole.gif" width = 700> <img src="../img/lowerArm/shaft_hole.png" width = 700> | 1. Insert the knot until it remains inside the socket of the pulley |
+| <img src="../img/lowerArm/hole_TH_V2.png" width = 700> | 2. Just insert the cable inside the hole (red circle) |
+| <img src="../img/lowerArm/wir_mot_1-2_TH_V2.png" width = 700> <img src="../img/lowerArm/wir_mot_1-1_TH_V2.png" width = 700> | 3. The cable should gets **OUT** from here - BE PATIENT!!! |
+| <img src="../img/lowerArm/wir_TH_V2_base.png" width = 700> | 4. The cable will then run inside the sheath until it reach the base of the thumb |
+| <img src="../img/lowerArm/wir_TH_V2_along.png" width = 700> | 5. wiring this way. |
+| <img src="../img/lowerArm/TH_K.png" width = 700> | 6. make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) |
+| <img src="../img/lowerArm/TH_closing.png" width = 700> | 7. Just use a screwdriver to make the thumb start closing |
+| **YOU ARE DONE!!! CONGRATULATIONS!!!** | Please Close the fingertip and its nail and put back in place the lateral bar |
+
+
 
 !!! danger "WATCH OUT"
-    FOR the **Left forearm** : the motor positions are "mirrored" respect to the **right** ones.
+    FOR the **Right** forearm : the motor positions are "mirrored" respect to the **Left** ones.
 
 #### <u>Index or Middle:</u>
 
-> You must consider to move the slidder away that covers both motor to be able to see clearly the hole where the cable will go - for that purpose, please remove the 4 screws identicated on the pictures below.
+> we will proceed by showing you how to recable bth Index distal and Middle finger from the **LEFT**  Forearm - Just be aware that the motors for the **RIGHT** Forearm are **mirrored** as per the WATCH OUT above explained.
 
-<img src="./img/lowerArm/rm_sliders_screws.png" width = 700>
 
-> After having remove the screws you should be able to move sideways the slider, being able more easily to fit the cable into the retaining socket (see GIF above) but mainly see both internal holes (blue circle for middle distal and red circle for index distal).
-> Put the cable inside the hole.
+| pictures | step by step guide |
+| --- | --- |
+| <img src="../GIF/lower_arm/cable_in_hole.gif" width = 700> <img src="../img/lowerArm/shaft_hole.png" width = 700> | 1. Insert the knot until it remains inside the socket of the pulley |
+| <img src="../img/lowerArm/holes_I_M_V2.png" width = 700> | 2. Just insert the cable inside the hole (red circle) |
+| <img src="../img/lowerArm/wir_mot_1-1_I_M_V2.png" width = 700> <img src="../img/lowerArm/wir_mot_1-2_I_M_V2.png" width = 700> | 3. The cable should gets **OUT** from here - BE PATIENT!!! |
+| <img src="../img/lowerArm/base_I_M.png" width = 700> |4. The cable will then run inside the sheath until it reach the base of the Middle or Index (view from the palm side) |
+| <img src="../img/lowerArm/wir_I_M_V2_along.png" width = 700> | 5. wiring this way.|
+| piture nail moved to make knot | 6 .please remove the screw holding the nail onto the fingertip - move the fingertip sensor away from the base of the fingertip (1cm away max) |
+| <img src="../img/lowerArm/TH_K.png" width = 700> | 7. make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) |
+| <img src="../img/lowerArm/I_M_closing.png" width = 700> | 7. Just use a screwdriver to make the thumb start closing |
+| **YOU ARE DONE!!! CONGRATULATIONS!!!** | Please Close the fingertip and its nail and put back in place the lateral bar |
 
-<img src="./img/lowerArm/I_I_M.png" width = 700>
 
-> Push it until it gets OUT from the base of the first phalange of either index or midddle depending on the cable you want to fix.
-
-<img src="./img/lowerArm/O_I_M.png" width = 700>
-
-!!! note "Cabling for Thumb, Index and Middle"
-    <img src="./img/lowerArm/wiring.png" width = 700> <br> <br>
-    1. Just make a knot 1-2cm away from the exit of the thumb nail.<br><br>
-        <img src="./img/lowerArm/backdrive.png" width = 700> <br><br>
-        2. By using a flat screwdriver the size of the throat, turning it the direction shown above you should be able to see the cable get sucked up until finally you can see the finger closing entirely.<br><br>
-            3. Make sure the finger can easily get closed and opened by turning CW and CCW from mid range closing.
 
 !!! danger "WATCH OUT"
-    FOR the **Left forearm** : the motor positions are "mirrored" respect to the **right** ones.
+    FOR the **Right** forearm : the motor positions are "mirrored" respect to the **Left** ones.
 
 
 #### <u>Ring or Pinkie finger:</u>
