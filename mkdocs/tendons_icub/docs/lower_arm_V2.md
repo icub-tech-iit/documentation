@@ -17,15 +17,12 @@
 > 2 - Identification (which part needs to be repaired)
 >
 > 3 - Cleaning and Removing the broken cable
+>
+> 4 - Follow the instructions bellow to repair
 
+### Do I need to disconnect the Lower Arm and HOWTO?
 
-
-!!!TIP
-    First once you identify the motor/joint to recable - You need to remove the bar to work more easily. Just remove the 4 lateral screws.<img src ="../img/lowerArm/remove-bar-V2.png" height = 400px>
-
-
-
-### Do I need to disconnect the Lower Arm?
+Please Follow this link
 
 The answer is :
 
@@ -34,15 +31,23 @@ The answer is :
 | **distal joint** (Thumb, Index, Midldle, Ring or Pinkie)     | **NOT** necessary |
 | **every other joint** (all proximals, fingers abduction and Thumb oppose ) | **MANDATORY**     |
 
+How to remove the lower arm 
+
+[link]: 
+
 
 
 ## Distal Joints
+
+If ever you realize that one of the following cable is broken
+
+Thumb
 
 There are 2 types of distal Joint on this version of the forearm:
 
 * The simplest ones which go inside a motor shaft to get anchored, and as soon as the motor is spinning the cable rolls around the pulley and close the joint. Those motors are <u>*perfectly*</u> identical - only the positions differ :
 
-  > Thumb, Index & Middle distals
+  > Thumb, Index & Middle distal joints
 
 * The 2 trickiest ones which are actually a double distal joint in one motor.
 
@@ -126,9 +131,9 @@ The minimum requirement to start recabling distal joints is:
 | <img src="../img/lowerArm/wir_mot_1-1_I_M_V2.png" width = 700> <img src="../img/lowerArm/wir_mot_1-2_I_M_V2.png" width = 700> | 3. The cable should gets **OUT** from here - BE PATIENT!!! |
 | <img src="../img/lowerArm/base_I_M.png" width = 700> |4. The cable will then run inside the sheath until it reach the base of the Middle or Index (view from the palm side) |
 | <img src="../img/lowerArm/wir_I_M_V2_along.png" width = 700> | 5. wiring this way.|
-| piture nail moved to make knot | 6 .please remove the screw holding the nail onto the fingertip - move the fingertip sensor away from the base of the fingertip (1cm away max) |
+| picture nail moved to make knot | 6 .please remove the screw holding the nail onto the fingertip - move the fingertip sensor away from the base of the fingertip (1cm away max) |
 | <img src="../img/lowerArm/TH_K.png" width = 700> | 7. make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) |
-| <img src="../img/lowerArm/I_M_closing.png" width = 700> | 7. Just use a screwdriver to make the thumb start closing |
+| <img src="../img/lowerArm/I_M_closing.png" width = 700> | 7. Just use a screwdriver to make the thumb start closing.<br />Just recall to do not force with the screw diver if the movement looks like stucks, do some rotation Clock/CounterClock wise in order to unstuck it. |
 | **YOU ARE DONE!!! CONGRATULATIONS!!!** | Please Close the fingertip and its nail and put back in place the lateral bar |
 
 

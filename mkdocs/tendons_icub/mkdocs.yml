@@ -57,10 +57,14 @@ nav:
         - Lower Arm:
               - Definition: 'lower_arm.md'
               - Version 1 :
-                   - Building Phase - Entire Hand/Lower Arm Cabling: 'hand_cabling_V1.md'
-                   - Repair Phase - Lower Arm V1 : 'lower_arm_V1.md'
-                   - Repair Phase - Wrist Hand Cabling V1: 'wrist_cabling.md'
+                   - Building Phase:
+                        - Entire Hand/ForeArm Cabling: 'hand_cabling_V1.md'
+                   - Repair Phase:
+                        - DISCONNECT LOWER ARM: 'remove_V1.md'
+                        - Lower Arm V1 : 'lower_arm_V1.md'
+                        - Repair Phase - Wrist Hand Cabling V1: 'wrist_cabling.md'
               - Version 2 :
+                   - DISCONNECT LOWER ARM: 'remove_V2.md'
                    - Lower Arm V2: 'lower_arm_V2.md'
                    - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
         - Waist, Leg and Ankle: 'waist_legs.md'
