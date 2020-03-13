@@ -4,9 +4,9 @@
 
 > let's have an overview of the mechanical CAD from different view angles.
 
-| Left Forearm V1                                           | Right Forearm V1                                             |
-| --------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1una .gif" height = 600px> |
+| Left Forearm V1                                           | Right Forearm V1                                          |
+| --------------------------------------------------------- | --------------------------------------------------------- |
+| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1.gif" height = 600px> |
 
 
 
