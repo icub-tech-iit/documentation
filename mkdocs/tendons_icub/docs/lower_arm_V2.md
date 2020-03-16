@@ -150,7 +150,7 @@ The minimum requirement to start recabling distal joints is:
 | ------ | ----- |
 |                                                          | 1. Prepare 2 cables of about 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
 |  <img src ="../img/lowerArm/hole_dist.png" width=400>|!!!watch out!!! the 2 holes are a bit off one to another, make sure with a fat screw driver that the pulley is this way NOT 180 degrees rotated or selse the cables could jump one on another during the closing phase. |
-| <img src ="../img/lowerArm/wir_1_R_P_V2.png" width=400> <img src ="../img/lowerArm/wir_2_P_R.png" width=400> | 2. insert both cable into their respective holes and start wiring as follow |
+| <img src ="../img/lowerArm/wir_1_R_P_V2.png" width=400> <img src ="../img/lowerArm/wir_2_P_R.png" width=400> <img src ="../img/lowerArm/wir_L_R&P_pulley.png" width=400> | 2. insert both cable into their respective holes and start wiring as follow |
 | <img src ="../img/lowerArm/P_R.png" width=400> | 3 .push the 2 cables the shetath until they get out from the 2 holes circled. |
 | <img src ="../img/lowerArm/R_P_cabling.png" width=400>             | 4. cable routing.<br />To be able to pass the cable at the base of the nail it is important to remove the nail and move forward the fingertip for 1 cm from its base. |
 | picture sul vero robot | 5. please write with a marker at the base of the nails where the knot should be in order to have a perfect simultaneous closing for both fingers. |
@@ -163,29 +163,17 @@ The minimum requirement to start recabling distal joints is:
 
 ### Where are those cables located?
 
-Here is the table to locate all the distal joints on a forearm (**left** in this case)
-
-| LOCATION                                                     | JOINT                                | POSITION                                                     |
-| ------------------------------------------------------------ | ------------------------------------ | ------------------------------------------------------------ |
-| <img src ="../img/lowerArm/index_middle_V2.png" height=auto width=400> | Index and Middle                     | they are located **ATOP** the forearm when it <u>lies</u> palm face **DOWN** |
-| <img src ="../img/lowerArm/TH_R&P_V2.png" height=auto width=400> | Thumb distal **AND** Ring and Pinkie | They are located **ATOP** when the forearm <u>lies</u> palm face **UP** |
+| LEFT FOREARM                                                 | RIGHT FOREARM                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src ="../img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=400> | <img src ="../img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=400> |
+| <img src ="../img/lowerArm/L4RM-ElbowView.png" height=auto width=400> | <img src ="../img/lowerArm/R4RM-ElbowView.png" height=auto width=400> |
 
 
 
 If ever you realize that one of the following cable is broken bear in mind:
 
-The start of the wiring for each proximal is identical, only the wiring at the base of each finger differs:
-
-* The basic ones which go inside a motor shaft to get anchored, and as soon as the motor is spinning the cable rolls around the pulley and close the joint. Those motors are <u>*perfectly*</u> identical - only the positions differ :
-
-  > Index & Middle proximal joint
-
-* The trickiest one 
-
-  > Thumb Proximal
-
-### 
-
+!!!TIP
+    The start of the wiring for each proximal is identical (wiring around the motor pulley), the index and middle proximal joints are cabled exactely the same way, just the thumb is a bit trickier.
 
 
 ### Let's start wiring!!!
@@ -197,4 +185,29 @@ The minimum requirement to start recabling the proximal joints is:
 | IITCODE | Alias    | Description                                                  |
 | ------- | -------- | ------------------------------------------------------------ |
 | 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
+
+#### 	2. Cabling the Motor Pulley
+
+| LOCATION   | step by step guide      |
+| --- | --- |
+|       | 1. Take 1 meter of IITCODE 1815             |
+|<img src ="../img/lowerArm/start_prox.png" width=400> <img src ="../img/lowerArm/start_prox1.png" width=400>| Turn the pulley in order to have the threads already facing (pointing toward) the holes inside the pink frame and the hole inside the pulley itself lying at horizontal. |
+| <img src ="../img/lowerArm/wiring_prox1.png" width=400> | insert the cable inside the pulley and equitabily half the cable on both side of the pulley  |
+| <img src ="../img/lowerArm/wiring_prox_pulley3.png" width=400> <img src ="../img/lowerArm/wiring_prox_pulley.png" width=400> <img src ="../img/lowerArm/wiring_prox_pulley2.png" width=400> | 2. respect the only one rule :2 full turns around the pulley for the hole close to the ball bearing (blue part) and 1 full turn for the part of the cable for the cable that will go into the hole the closest from the motor (red) |
+
+!!!tip
+    YOU may need to use the cable , glue it a the tip (2cm long) on both side. With a plier make 2 times 90 degre angles on the cable at about 3-4mm from one another. see picture to manage to extract the cable once it passes in between the thread and the neck of the frame.
+    !!!PICTURE NEEDED!!!!
+
+| LOCATION   | step by step guide      |
+| --- | --- |
+| <img src ="../img/lowerArm/holes_prox.png" width=700>  |  !!!!WARNING!!! the cabling for the thumb passed first by a pair of pulleys before to reurn to a perfectly identical cabling as Index and Middle|
+| <img src ="../img/lowerArm/exit_prox.png" width=700>               | 3 .push the 2 sides of the cable inside the sheath (+) and (-) |
+|   | the 2 sides of the cables should get out:|
+|    <img src ="../img/lowerArm/exit_prox_thumb.png" width=700> | For the THUMB only: the cabling for the thumb passed first by a pair of pulleys before to reurn to a perfectly identical cabling as Index and Middle|
+| <img src ="../img/lowerArm/exit_prox_I&M.png" width=700> <img src ="../img/lowerArm/exit_prox_thumb2.png" width=700>  |  For all the proximal joint the final cabling start at the base of their respective finger |
+| <img src ="../img/lowerArm/last_pulley_prox.png" width=700>       | 4. cable as follow and block each side of the cable with the nut screw M1.6x3 |
+| picture from real robot| tense each side of the cable by releaasing the nut screw and pinch and rotate. CLose the nut screw.|
+| picture sul vero robot     | 5. make not at the base of the exit but a little further but keep in mind that the knot will have to remain in the slot |
+|    | **FINISHED!!!**        |
 
