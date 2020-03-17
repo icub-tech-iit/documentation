@@ -128,7 +128,19 @@ The minimum requirement to start recabling:
 | | 8. If you did good, when releasing the fingers they should be symmetrical |
 | |**FINISHED!!!**|
 
-## Proximal Joints - Coming SOON
+## Proximal Joints
+
+
+
+### Where are those cables located?
+
+New pics from V1 
+
+
+
+
+
+
 
 # Which "Lower Arm" do you have?
 
