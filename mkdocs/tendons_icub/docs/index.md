@@ -20,9 +20,11 @@ Please click on any of the iCub body parts below to get instructions on how to r
 
 Here is a table showing the **visual** differences of iCub from version 1 to 2.5.
 
-| iCub V1                                                      | iCub V2                                                      | iCub V2.5                                                    | iCub V2.5 - Backpack                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="img/index/iCubV1.png" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/index/iCubV2.png" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/index/iCubV2_5.png" alt="iCub V1" style="zoom: 25%;" /> | <img src="img/index/iCubV2_5_BP.png" alt="iCub V1" style="zoom: 25%;" /> |
+| iCub V1                                                      | iCub V2                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="img/index/iCubV1.png" height="700px"  width="auto"> | <img src="img/index/iCubV2.png" height="700px" width="auto"> |
+| **iCub V2.5**                                                | **iCub V2.5 - Backpack**                                     |
+| <img src="img/index/iCubV2_5.png" height="700px" width="auto"> | <img src="img/index/iCubV2_5_BP.png" height="700px" width="auto"> |
 
 
 
