@@ -2,11 +2,12 @@
 
 We define the "**Lower Arm**" as the assembly of the **<u>Forearm and the Hand</u>**.
 
-> LOWER ARM = FOREARM + HAND
+!!!Note "Definition"
+    	LOWER ARM = FOREARM + HAND
 
-In the Lower Arm lie 12 motors (<u>Forearm:</u> 10 + <u>Hand:</u> 2)
+The Lower Arm s composed of 12 motors (<u>Forearm:</u> 10 + <u>Hand:</u> 2)
 
-Let's describe the overall functionality of those motors:
+Let's describe the functionality of those motors:
 
 <u>Forearm:</u> (10)
 
@@ -36,7 +37,7 @@ Let's describe the overall functionality of those motors:
 
 | Left Forearm V1                                           | Right Forearm V1                                          |
 | --------------------------------------------------------- | --------------------------------------------------------- |
-| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1.gif" height = 600px> |
+| <img src ="GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1.gif" height = 600px> |
 
 Please follow this [**link**](lower_arm_V1.md) to reach the HOWTO page to repair the **Version 1** of the Lower Arm
 
@@ -52,6 +53,6 @@ Please follow this [**link**](lower_arm_V1.md) to reach the HOWTO page to repair
 
 | Left Forearm V2                                           | Right Forearm V2                                          |
 | --------------------------------------------------------- | --------------------------------------------------------- |
-| <img src ="../GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
+| <img src ="/GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
 Please follow this [**link**](lower_arm_V2.md) to reach the HOWTO page to repair the **Version 2** of the Lower Arm
