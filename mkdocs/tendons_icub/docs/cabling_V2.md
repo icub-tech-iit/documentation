@@ -4,9 +4,9 @@
 
 > let's have an overview of the mechanical CAD from different view angles.
 
-| Left Forearm V2  | Right Forearm V2    |
-| ---------------- | ------------------- |
-| <img src ="GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
+| Left Forearm V2                                         | Right Forearm V2                                        |
+| ------------------------------------------------------- | ------------------------------------------------------- |
+| <img src ="/GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="/GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
 
 
@@ -24,10 +24,10 @@ The 3 proximal joints :
 
 located here:
 
-| LEFT FOREARM  | RIGHT FOREARM   |
-| ------------- | --------------- |
-| <img src ="img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=700> | <img src ="img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=700> |
-| <img src ="img/lowerArm/L4RM-ElbowView.png" height=auto width=400> | <img src ="img/lowerArm/R4RM-ElbowView.png" height=auto width=400> |
+| LEFT FOREARM                                                 | RIGHT FOREARM                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src ="/img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=700> | <img src ="/img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=700> |
+| <img src ="/img/lowerArm/L4RM-ElbowView.png" height=auto width=400> | <img src ="/img/lowerArm/R4RM-ElbowView.png" height=auto width=400> |
 
 are all wired with the cable 0.63mm uncoated from CARLSTAHL Gbhm as per the follwing table
 
@@ -71,7 +71,7 @@ are needed for the 3 pieces circled in red on the picture above here the specs f
 
 Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable.
 
-Once the 3 proximal joints are cabled, the lateral vieof the forearm should look like this
+Once the 3 proximal joints are cabled, the lateral view of the forearm should look like this
 <center>
     <img src="/img/HAND_WRIST_V2/L4RM-cabling.png">
 </center>
@@ -87,9 +87,9 @@ The 5  proximal joints (theoritically 5 but in practice just 4 motors need to be
 
 located here:
 
-| RIGHT FOREARM | LEFT FOREARM |
-| ------------- | ------------ |
-| <img src ="img/lowerArm/distals-R-V2.png" width=400> | <img src ="img/lowerArm/distals-L-V2.png" width=400> |
+| RIGHT FOREARM                                         | LEFT FOREARM                                          |
+| ----------------------------------------------------- | ----------------------------------------------------- |
+| <img src ="/img/lowerArm/distals-R-V2.png" width=400> | <img src ="/img/lowerArm/distals-L-V2.png" width=400> |
 
 are all wired with the cable 0.61mm coated from CARLSTAHL Gbhm as per the following table
 
