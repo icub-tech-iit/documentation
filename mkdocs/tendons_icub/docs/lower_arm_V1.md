@@ -138,7 +138,7 @@ Below you can see the back views of the forearms (palm down). The motor position
 
 | LEFT FOREARM                                                 | RIGHT FOREARM                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src ="img/lowerArm/Left_motorsV1.png" height=auto width=700> | <img src ="img/lowerArm/Right_motorsV1.png" height=auto width=700> |
+| <img src ="/img/lowerArm/Left_motorsV1.png" height=auto width=700> | <img src ="/img/lowerArm/Right_motorsV1.png" height=auto width=700> |
 | real pic                                                     | real pic                                                     |
 
 
@@ -169,9 +169,9 @@ The minimum requirement to start recabling the proximal joints is:
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |                                                              | 1. Take 1 meter of IITCODE 1815                              |
 |                                                              | The following steps are common for the three fingers (index, middle, thumb). However, the holes for the thumb in the frame are slightly different (see next table). |
-| <img src ="img/lowerArm/start_prox.png" width=400> <img src ="img/lowerArm/start_prox1.png" width=400> | Turn the pulley in order to have the threads already facing (pointing toward) the holes inside the pink frame and the hole inside the pulley itself lying at horizontal. |
-| <img src ="img/lowerArm/wiring_prox1.png" width=400>         | insert the cable inside the pulley and equitably half the cable on both side of the pulley |
-| <img src ="img/lowerArm/wiring_prox_pulley3.png" width=400> <img src ="img/lowerArm/wiring_prox_pulley.png" width=400><br /> <img src ="img/lowerArm/wiring_prox_pulley2.png" width=400> | 2. respect the only one rule: 2 full turns around the pulley for the hole close to the ball bearing (blue cable) and 1 full turn for the part of the cable that will go into the hole the closest from the motor (red cable) |
+| <img src ="/img/lowerArm/start_prox.png" width=400> <img src ="/img/lowerArm/start_prox1.png" width=400> | Turn the pulley in order to have the threads already facing (pointing toward) the holes inside the pink frame and the hole inside the pulley itself lying at horizontal. |
+| <img src ="/img/lowerArm/wiring_prox1.png" width=400>        | insert the cable inside the pulley and equitably half the cable on both side of the pulley |
+| <img src ="/img/lowerArm/wiring_prox_pulley3.png" width=400> <img src ="/img/lowerArm/wiring_prox_pulley.png" width=400><br /> <img src ="/img/lowerArm/wiring_prox_pulley2.png" width=400> | 2. respect the only one rule: 2 full turns around the pulley for the hole close to the ball bearing (blue cable) and 1 full turn for the part of the cable that will go into the hole the closest from the motor (red cable) |
 
 
 
@@ -183,30 +183,18 @@ The minimum requirement to start recabling the proximal joints is:
 
 | LOCATION                                                     | step by step guide                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src ="img/lowerArm/Holes_indexmiddle_V1.png" width=700> | After wrapping the cable on the pulley as shown before, insert the two cable extremities inside the frame holes for the Index & Middle. |
-| <img src ="img/lowerArm/Holes_thumb.png" width=700>          | For the thumb, the frame holes are designed inclined by 45 deg, therefore the cables will not enter the frame perpendicularly as the previous case. |
-| <img src ="img/lowerArm/Section_motorsV1.png" width=700>     | Push the two sides of the cable inside the sheath (+) and (-) for each finger. |
+| <img src ="/img/lowerArm/Holes_indexmiddle_V1.png" width=700> | After wrapping the cable on the pulley as shown before, insert the two cable extremities inside the frame holes for the Index & Middle. |
+| <img src ="/img/lowerArm/Holes_thumb.png" width=700>         | For the thumb, the frame holes are designed inclined by 45 deg, therefore the cables will not enter the frame perpendicularly as the previous case. |
+| <img src ="/img/lowerArm/Section_motorsV1.png" width=700>    | Push the two sides of the cable inside the sheath (+) and (-) for each finger. |
 |                                                              | **The 2 sides of the cables should get out:**                |
-| <img src ="img/lowerArm/Thumb_cablesV1.png" width=700>       | For the THUMB: the cables exit from the base of the finger and enter inside two sheaths. |
-| <img src ="img/lowerArm/Section_indexmiddleV1.png" width=700> | For Index & Middle the cables exit at the base of their respective finger. |
+| <img src ="/img/lowerArm/Thumb_cablesV1.png" width=700>      | For the THUMB: the cables exit from the base of the finger and enter inside two sheaths. |
+| <img src ="/img/lowerArm/Section_indexmiddleV1.png" width=700> | For Index & Middle the cables exit at the base of their respective finger. |
 |                                                              | **Final cabling:**                                           |
-| <img src ="img/lowerArm/Cabling_thumbV1.png" width=700>      | For the THUMB, pass the cables around the pulley as shown. Start with the blue one. Fix the ends of the cables with a knot. |
-| <img src ="img/lowerArm/Final_proximalV1.png" width=700>     | Same procedure for the other fingers and make a knot at the end. |
+| <img src ="/img/lowerArm/Cabling_thumbV1.png" width=700>     | For the THUMB, pass the cables around the pulley as shown. Start with the blue one. Fix the ends of the cables with a knot. |
+| <img src ="/img/lowerArm/Final_proximalV1.png" width=700>    | Same procedure for the other fingers and make a knot at the end. |
 |                                                              | **FINISHED!!!**                                              |
 
 
 
 !!!TIP
     The final cabling is tricky. First, remember to CLOSE the tensioner of each cable before starting the cabling. If you leave the tensioners open, the cabling will not work. For making the final knot, put a mark on the blue cable and knot it. Slowly turn the motor CCW/CW while pulling the red extremity, ensuring that the cable is correctly running on the motor pulley. When the finger is completely closed pull the red cable and put a mark where the know will be. Proceed by making the knot the closest to the mark. Finally, you can use the tensioners for removing the slack.
-
-
-
-# Which "Lower Arm" do you have?
-
-## VERSION 1
-
-> let's have an overview of the mechanical CAD from different view angles.
-
-| Left Forearm V1                                           | Right Forearm V2                                          |
-| --------------------------------------------------------- | --------------------------------------------------------- |
-| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
