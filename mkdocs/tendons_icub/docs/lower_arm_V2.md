@@ -79,13 +79,13 @@ The minimum requirement to start recabling distal joints is:
 
 #### 	2. HOWTO create a knot
 
-|                                                       | STEP BY STEP GUIDE FOR A GOOD KNOT                           |
-| ----------------------------------------------------- | ------------------------------------------------------------ |
-| <img src='/img/lowerArm/knot1.jpg' width =400>        | Start by cutting one piece of 40cm from the cable IITCODE 2391.<br />Make a knot at one extremity. |
-| <img src="/GIF/lower_arm/knot_video.gif" width = 400> | use 2 pliers to close it hard. The plier closest to the knot is just opened-free to let the cable to run over it but is here to block the knot, the second one pull the cable to tighten the knot. |
-| <img src='/img/lowerArm/knot3.jpg' width = 400>       | drop a tear of glue on the knot and dry it. <br>**REMOVE** the excess with a tissue - double check that the knot is perfectly dry before to procede. |
-| <img src='/img/lowerArm/knot4.jpg' width = 400>       | cut the excess of cable                                      |
-| <img src='/img/lowerArm/knot5.jpg' width = 400>       | FINISHED!!!                                                  |
+|                                                         | STEP BY STEP GUIDE FOR A GOOD KNOT                           |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src='../img/lowerArm/knot1.jpg' width =400>        | Start by cutting one piece of 40cm from the cable IITCODE 2391.<br />Make a knot at one extremity. |
+| <img src="../GIF/lower_arm/knot_video.gif" width = 400> | use 2 pliers to close it hard. The plier closest to the knot is just opened-free to let the cable to run over it but is here to block the knot, the second one pull the cable to tighten the knot. |
+| <img src='../img/lowerArm/knot3.jpg' width = 400>       | drop a tear of glue on the knot and dry it. <br>**REMOVE** the excess with a tissue - double check that the knot is perfectly dry before to procede. |
+| <img src='../img/lowerArm/knot4.jpg' width = 400>       | cut the excess of cable                                      |
+| <img src='../img/lowerArm/knot5.jpg' width = 400>       | FINISHED!!!                                                  |
 
 
 #### 	3. Wiring Explanation
