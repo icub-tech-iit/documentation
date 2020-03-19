@@ -8,11 +8,9 @@
 ## 1.1  Right Forearm - Wrist tendons
 
 <center>
+<img src='../img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
 
-<img src='/img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
-
-
-<img src='/img/HAND_WRIST_V2/R_4RM_B.png' width = 130%>
+<img src='../img/HAND_WRIST_V2/R_4RM_B.png' width = 130%>
 
 </center>
 
@@ -20,19 +18,16 @@
 ## 1.2  Left Forearm - Wrist tendons
 
 <center>
+<img src='../img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
 
-<img src='/img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
-
-
-<img src='/img/HAND_WRIST_V2/L_4RM_B.PNG' width = 130%>
+<img src='../img/HAND_WRIST_V2/L_4RM_B.PNG' width = 130%>
 
 </center>
 
 ## 1.3  TENDONS WRIST LENGTH
 
 <center>
-
-<img src='/img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png'>
+<img src='../img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png'>
 
 
 
@@ -64,7 +59,7 @@ Here is the table reported the list of part needed to build them.
 
 ## 1.5  Tensioner - IITCODE 3514
 
-<img src = "/img/HAND_WRIST_V2/Tensioner_descriprion.png">
+<img src = "../img/HAND_WRIST_V2/Tensioner_descriprion.png">
 
 
 The tensioner IITCODE 3514 is an assembly - alias RC_TLR_010_G014 - made with the following pieces:
@@ -92,7 +87,7 @@ The tensioner IITCODE 3514 is an assembly - alias RC_TLR_010_G014 - made with th
 
      Left palm, view from top - S0 and S2 cable from the thumb oppose
 
-<img src="/img/HAND_WRIST_V2/Opposite_palm-view.png" width="700">
+<img src="../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700">
 
 !!!NOTE
     The Right Thumb oppose sheath are the exact same just mirrored so the rule of the longest (S2) and the shortest (S0) is still the same.
@@ -105,15 +100,15 @@ The tensioner IITCODE 3514 is an assembly - alias RC_TLR_010_G014 - made with th
 
 Here, you will find some rues to individuate the wiring and sheath for the wiring of the thumb oppose, the thumb proximal and distal.
 
-<img src="/img/HAND_WRIST_V2/Thumb1.png">
+<img src="../img/HAND_WRIST_V2/Thumb1.png">
 
-<img src="/img/HAND_WRIST_V2/Thumb2.png">
+<img src="../img/HAND_WRIST_V2/Thumb2.png">
 
-<img src="/img/HAND_WRIST_V2/Thumb3.png">
+<img src="../img/HAND_WRIST_V2/Thumb3.png">
 
 ## 3.2  Thumb Metacarpus sheath positions
 
-<img src="/img/HAND_WRIST_V2/Metacarpus.png">
+<img src="../img/HAND_WRIST_V2/Metacarpus.png">
 
 !!! WARNING "REMINDER"
 
@@ -131,7 +126,7 @@ Here, you will find some rues to individuate the wiring and sheath for the wirin
 
 | LEFT FOREARM                                                 | RIGHT FOREARM                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src ="/img/HAND_WRIST_V2/L4RM-labels.png" height=auto width=400> | <img src ="/img/HAND_WRIST_V2/R4RM-labels.png" height=auto width=400> |
+| <img src ="../img/HAND_WRIST_V2/L4RM-labels.png" height=auto width=400> | <img src ="../img/HAND_WRIST_V2/R4RM-labels.png" height=auto width=400> |
 
 
 
@@ -147,5 +142,5 @@ Here an example of good routing for the left forearm. Useless to say that the Ri
 
 
 <center>
-    <img src="/img/HAND_WRIST_V2/L4RM-cabling.png">
+    <img src="../img/HAND_WRIST_V2/L4RM-cabling.png">
 </center>
