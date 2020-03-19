@@ -4,9 +4,9 @@
 
 > let's have an overview of the mechanical CAD from different view angles.
 
-| Left Forearm V2                                         | Right Forearm V2                                        |
-| ------------------------------------------------------- | ------------------------------------------------------- |
-| <img src ="/GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="/GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
+| Left Forearm V2                                        | Right Forearm V2                                       |
+| ------------------------------------------------------ | ------------------------------------------------------ |
+| <img src ="GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
 
 
@@ -26,8 +26,8 @@ located here:
 
 | LEFT FOREARM                                                 | RIGHT FOREARM                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src ="/img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=700> | <img src ="/img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=700> |
-| <img src ="/img/lowerArm/L4RM-ElbowView.png" height=auto width=400> | <img src ="/img/lowerArm/R4RM-ElbowView.png" height=auto width=400> |
+| <img src ="img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=700> | <img src ="img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=700> |
+| <img src ="img/lowerArm/L4RM-ElbowView.png" height=auto width=400> | <img src ="img/lowerArm/R4RM-ElbowView.png" height=auto width=400> |
 
 are all wired with the cable 0.63mm uncoated from CARLSTAHL Gbhm as per the follwing table
 
@@ -53,7 +53,7 @@ Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable
 
 THe THUMB is a bit particular because - as it is the finger with the most degree of freedom- need to pass a serie of pulley at the base of the Thumb in order to add also the thumb oppose joint inside the articulation.
 
-<img src="/img/HAND_WRIST_V2/TH_SHEATHS.png" width=75%>
+<img src="img/HAND_WRIST_V2/TH_SHEATHS.png" width=75%>
 
 The IITCODE 2375 as specification retranscripted below :
 
@@ -73,12 +73,13 @@ Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable
 
 Once the 3 proximal joints are cabled, the lateral view of the forearm should look like this
 <center>
-    <img src="/img/HAND_WRIST_V2/L4RM-cabling.png">
+    <img src="img/HAND_WRIST_V2/L4RM-cabling.png">
 </center>
+
 
 ### 1.2	Distal joints
 
-The 5  proximal joints (theoritically 5 but in practice just 4 motors need to be wired): 
+The 5  proximal joints (theoretically 5 but in practice just 4 motors need to be wired): 
 
 - Thumb
 - Index
@@ -87,9 +88,9 @@ The 5  proximal joints (theoritically 5 but in practice just 4 motors need to be
 
 located here:
 
-| RIGHT FOREARM                                         | LEFT FOREARM                                          |
-| ----------------------------------------------------- | ----------------------------------------------------- |
-| <img src ="/img/lowerArm/distals-R-V2.png" width=400> | <img src ="/img/lowerArm/distals-L-V2.png" width=400> |
+| RIGHT FOREARM                                        | LEFT FOREARM                                         |
+| ---------------------------------------------------- | ---------------------------------------------------- |
+| <img src ="img/lowerArm/distals-R-V2.png" width=400> | <img src ="img/lowerArm/distals-L-V2.png" width=400> |
 
 are all wired with the cable 0.61mm coated from CARLSTAHL Gbhm as per the following table
 
@@ -124,9 +125,9 @@ Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable
 | 1815    | CG077063  | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
 | 13963   | MAZZONI_0_3-0_8-250_SS_SHEATH | Rectangular section sheath 0.3x0.8, L = 250 mm               |
 
-| Left Hand     | Right Hand  |
-| ------------- | ----------- |
-| <img src="/img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"> | <img src="/img/HAND_WRIST_V2/R_Th-opp-d-view.png" width="700"> |
+| Left Hand                                                    | Right Hand                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"> | <img src="img/HAND_WRIST_V2/R_Th-opp-d-view.png" width="700"> |
 
 Please follow this [link](wrist_hand_cabling_V2.md) for an extended HOWTO route the cable.
 
@@ -147,9 +148,9 @@ Please follow this [link](wrist_hand_cabling_V2.md) for an extended HOWTO route 
 | 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
 | 2375    | SHEATH   | Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm |
 
-| Left Hand                                                   | Right Hand                                                  |
-| ----------------------------------------------------------- | ----------------------------------------------------------- |
-| <img src="/img/HAND_WRIST_V2/L_hand_f_abd.png" width="700"> | <img src="/img/HAND_WRIST_V2/R_hand_f_abd.png" width="700"> |
+| Left Hand                                                  | Right Hand                                                 |
+| ---------------------------------------------------------- | ---------------------------------------------------------- |
+| <img src="img/HAND_WRIST_V2/L_hand_f_abd.png" width="700"> | <img src="img/HAND_WRIST_V2/R_hand_f_abd.png" width="700"> |
 
 
 
