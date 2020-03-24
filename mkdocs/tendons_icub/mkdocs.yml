@@ -55,18 +55,21 @@ nav:
         - Neck: 'neck.md'
         - Shoulder and Elbow: 'shoulder_elbow.md'
         - Lower Arm:
-              - Definition: 'lower_arm.md'
-              - Version 1 :
-                   - Building Phase:
-                        - Entire Hand/ForeArm Cabling: 'hand_cabling_V1.md'
-                   - Repair Phase:
-                        - Disconnect Lower_Arm V1: 'remove_V1.md'
-                        - Lower Arm V1 : 'lower_arm_V1.md'
-                        - Wrist Hand Cabling V1: 'wrist_cabling.md'
-              - Version 2 :
-                   - Disconnect Lower_Arm V2: 'remove_V2.md'
-                   - Lower Arm V2: 'lower_arm_V2.md'
-                   - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
+            - Definition: 'lower_arm.md'
+            - Version 1 :
+                - Building Phase:
+                    - Entire Hand/ForeArm Cabling: 'hand_cabling_V1.md'
+                - Repair Phase:
+                    - Disconnect Lower_Arm V1: 'remove.md'
+                    - Lower Arm V1 : 'lower_arm_V1.md'
+                    - Wrist Hand Cabling V1: 'wrist_cabling.md'
+            - Version 2 :
+                - Building Phase:
+                    - HOWTO CABLE & NEEDED PARTS: 'cabling_V2.md'
+                - Repair Phase:
+                    - Disconnect Lower_Arm V2: 'remove.md'
+                    - Lower Arm V2: 'lower_arm_V2.md'
+                    - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
         - Waist, Leg and Ankle: 'waist_legs.md'
 
-    - License: 'license.md'
+    - License & thx: 'license.md'
