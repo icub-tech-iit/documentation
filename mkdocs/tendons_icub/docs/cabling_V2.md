@@ -2,17 +2,16 @@
 
 ## CAD DESIGN
 
-> let's have an overview of the mechanical CAD from different view angles.
+> let's have an overview of the mechanical CAD from different view angles. and their specific names on CAD assembly.
 
-| Left Forearm V2                                           | Right Forearm V2                                          |
-| --------------------------------------------------------- | --------------------------------------------------------- |
-| <img src ="../GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
-
-
+| Left Forearm V2                                              | Right Forearm V2                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src ="../GIF/lower_arm/L-4RM-V2.gif" height = 600px>    | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px>    |
+| in **CAD** repository (maybe CREO): RC_TLR_007_A_001_LEFT_FOREARM.ASM + RC_TLR_012_A_001_LEFT_HAND.ASM | in **CAD** repository (maybe CREO): RC_TLR_010_A_001_RIGHT_FOREARM.ASM + RC_TLR_011_A_001_RIGHT_HAND.ASM |
 
 ## 1.	WHAT DO I NEED TO CABLE
 
-Here are following the overall tables describing the necessary parts when routing the cables onto the 11 motors (12 motors inside the Lower Arm but just 11 use cables) and during the path they make.
+Here you will find the overall tables describing the necessary parts needed when routing the cables onto the 11 motors (12 motors inside the Lower Arm but just 11 are cabled) and the mandatory sheaths to be used in the correct place.
 
 ### 1.1	Proximal joints
 
@@ -24,12 +23,12 @@ The 3 proximal joints :
 
 located here:
 
-| LEFT FOREARM                                                 | RIGHT FOREARM                                                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| LEFT FOREARM | RIGHT FOREARM |
+| ------------ | --------------|
 | <img src ="../img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=700> | <img src ="../img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=700> |
 | <img src ="../img/lowerArm/L4RM-ElbowView.png" height=auto width=400> | <img src ="../img/lowerArm/R4RM-ElbowView.png" height=auto width=400> |
 
-are all wired with the cable 0.63mm uncoated from CARLSTAHL Gbhm as per the follwing table
+are all wired with the cable 0.63mm uncoated from CARLSTAHL GmbH as per the follwing table
 
 | IITCODE | Alias    | Description  |
 | ------- | -------- | ------------ |
@@ -47,11 +46,11 @@ every sheath in which the cable pass through (+ and - ) are made of:
 !!!NOTE
     IITCODE  13963 is alternative to the 4545 (old one - not in use ANYMORE) and it was introduced only for cost efficiency
 
-Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable.
+Please follow this [link](lower_arm_V2.md) for an extended HOWTO route the cable.
 
 #### 1.1.a	THUMB peculiarity
 
-THe THUMB is a bit particular because - as it is the finger with the most degree of freedom- need to pass a serie of pulley at the base of the Thumb in order to add also the thumb oppose joint inside the articulation.
+The **THUMB** is a finger a bit particular compared to the index and the middle in the wiring because - as it is the finger with the most degrees of freedom- it needs to pass a serie of pulleys at the base of it in order to add also the thumb oppose joint movement inside the articulation.
 
 <img src="../img/HAND_WRIST_V2/TH_SHEATHS.png" width=75%>
 
@@ -69,14 +68,12 @@ are needed for the 3 pieces circled in red on the picture above here the specs f
 | 2      | prox short (-) | 11          |
 | 3      | prox short (+) | 9           |
 
-Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable.
+Please follow this [link](lower_arm_V2.md) for an extended HOWTO route the cable.
 
 Once the 3 proximal joints are cabled, the lateral view of the forearm should look like this
 <center>
     <img src="../img/HAND_WRIST_V2/L4RM-cabling.png">
 </center>
-
-
 
 ### 1.2	Distal joints
 
@@ -89,11 +86,11 @@ The 5  proximal joints (theoretically 5 but in practice just 4 motors need to be
 
 located here:
 
-| RIGHT FOREARM                                           | LEFT FOREARM                                            |
-| ------------------------------------------------------- | ------------------------------------------------------- |
+| RIGHT FOREARM | LEFT FOREARM |
+| ------------- | ------------ |
 | <img src ="../img/lowerArm/distals-R-V2.png" width=400> | <img src ="../img/lowerArm/distals-L-V2.png" width=400> |
 
-are all wired with the cable 0.61mm coated from CARLSTAHL Gbhm as per the following table
+are all wired with the cable 0.61mm coated from CARLSTAHL GmbH as per the following table
 
 | IITCODE | Alias    | Description  |
 | ------- | -------- | ------------ |
@@ -104,62 +101,68 @@ every sheath are made of both the following pieces:
 | IITCODE | Alias       | Description |
 | ------- | ----------- | ----------- |
 | 2375    | SHEATH      | Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm |
-|2386	  |TEFLON_SHEATH|	Insulating sheat, AWG22, inner dia 0,709 -0/+0,102 mm, material thickness 0,152 -0/+0,102mm, teflon, transparent|
+|2386	  |TEFLON_SHEATH| Insulating sheath, AWG22, inner dia 0,709 -0/+0,102 mm, material thickness 0,152 -0/+0,102mm, teflon, transparent |
 
-Please follow this [link](Lower_Arm_V2.md) for an extended HOWTO route the cable.
-
-
+Please follow this [link](lower_arm_V2.md) for an extended HOWTO route the cable.
 
 ### 1.3	Thumb Oppose
 
-> To build the thumb oppose you just need 2 pieces of the sheath IITCODE 13963
->
-> | Label | Dimension (mm) | IITCODE - SHEATH |
-> | ----- | -------------- | ---------------- |
-> | S0    | 50             | 13963            |
-> | S2    | 57             | 13963            |
->
-> approximatively **50cm** of IITCODE  1815 to route it.
+> To build the thumb oppose you just need 2 pieces of the sheath IITCODE 13963.
+
+| Label | Dimension (mm) | IITCODE - SHEATH |
+| ----- | -------------- | ---------------- |
+| S0    | 50             | 13963            |
+| S2    | 57             | 13963            |
+
+!!!DANGER
+    inside sheath 13963 please **DO NOT USE** teflon sheath!!!
+
+> And approximatively **50cm** of IITCODE  1815 to route it.
 
 | IITCODE | Alias     | Description   |
 | ------- | ----------| ------------- |
 | 1815    | CG077063  | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
-| 13963   | MAZZONI_0_3-0_8-250_SS_SHEATH | Rectangular section sheath 0.3x0.8, L = 250 mm               |
+| 13963   | MAZZONI_0_3-0_8-250_SS_SHEATH | Rectangular section sheath 0.3x0.8, L = 250 mm    |
 
-| Left Hand                                                    | Right Hand                                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+> Here is a more detail specification of where to find the 2 pieces
+
+| Left Hand     | Right Hand    |
+| ------------- | --------------|
 | <img src="../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"> | <img src="../img/HAND_WRIST_V2/R_Th-opp-d-view.png" width="700"> |
 
 Please follow this [link](wrist_hand_cabling_V2.md) for an extended HOWTO route the cable.
 
 ### 1.4	Fingers Abduction
 
-> To build the thumb oppose you just need 3 pieces of the sheath IITCODE2375 
->
-> | Label | Dimension(mm) | IITCODE - SHEATH |
-> | ----- | ------------- | ---------------- |
-> | T0    | 90            | 2375             |
-> | T2    | 27            | 2375             |
-> | T4    | 44            | 2375             |
->
+> To build the thumb oppose you just need 3 pieces of the sheath IITCODE2375
+
+| Label | Dimension(mm) | IITCODE - SHEATH |
+| ----- | ------------- | ---------------- |
+| T0    | 90            | 2375             |
+| T2    | 27            | 2375             |
+| T4    | 44            | 2375             |
+
+!!!DANGER
+    inside sheath 2375 please **DO NOT USE** teflon sheath!!!
+
 > and approximatively 50cm of IITCODE  1815 to route it.
 
-| IITCODE | Alias    | Description                                                  |
-| ------- | -------- | ------------------------------------------------------------ |
+| IITCODE | Alias    | Description |
+| ------- | -------- | ----------- |
 | 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
 | 2375    | SHEATH   | Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm |
 
-| Left Hand                                                    | Right Hand                                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+> Here is a more detail specification of where to find the 3 pieces
+
+| Left Hand   | Right Hand |
+| ----------- | ---------- |
 | <img src="../img/HAND_WRIST_V2/L_hand_f_abd.png" width="700"> | <img src="../img/HAND_WRIST_V2/R_hand_f_abd.png" width="700"> |
-
-
 
 Please follow this [link](wrist_hand_cabling_V2.md) for an extended HOWTO route the cable.
 
 # 2.	Finger sheaths
 
-## 2.1  SHEATH Versions
+## 2.1	SHEATH Versions
 
 | IITCODE | Alias        | Description   |
 | ------- | ------------ | ------------- |
@@ -171,7 +174,7 @@ Please follow this [link](wrist_hand_cabling_V2.md) for an extended HOWTO route 
     inside sheath 13963 please **DO NOT (NEVER) USE** teflon sheath!!!
 
 
-## 2.2 SHEATH LENGTH & LABELLING
+## 2.2	SHEATH LENGTH & LABELLING
 
 Please refer to this table to find out which sheath you need to install at the right place and the right label to add on top of it
 
@@ -206,3 +209,79 @@ Please refer to this table to find out which sheath you need to install at the r
 !!! WARNING
     For the proximal sheath, please label either the start of the sheath(base of the motor at the level of the elbow) and at the end of it		   	
 
+# 3	WRIST
+
+## 3.1 	WRIST TENDONS LENGTH
+
+Here is the list of the 10 tendons needed to build the wrist movements.
+
+<center>
+<img src='../img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png'>
+
+| Tendon | IITCODE | Length | Alias            |
+| ------ | ------- | ------ | ---------------- |
+| 1      | 6400    | 72 mm  | RC_IIT_019_G_019 |
+| 2      | 6402    | 84 mm  | RC_IIT_019_G_020 |
+| 3      | 6404    | 101 mm | RC_IIT_019_G_021 |
+| 4      | 6413    | 124 mm | RC_IIT_019_G_022 |
+| 5      | 6414    | 107 mm | RC_IIT_019_G_023 |
+| 6      | 6415    | 113 mm | RC_IIT_019_G_024 |
+| 7      | 6416    | 112 mm | RC_IIT_019_G_025 |
+| 8      | 6417    | 107mm  | RC_IIT_019_G_026 |
+| 9      | 6418    | 51 mm  | RC_IIT_019_G_027 |
+| 10     | 6419    | 43 mm  | RC_IIT_019_G_028 |
+</center>
+
+
+## 3.2 	Construction table
+
+The overall cables of the wrist all build from IITCODE 4482 (of Length defines in the table above) and 2 crimps IITCODE 4722, here is the table reporting the specifics of those pieces..
+
+| IITCODE | Number of pieces | Alias/Provider Code | Description                                                  |
+| ------- | ---------------- | ------------------- | ------------------------------------------------------------ |
+| 4482    | 1                | CG077081            | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,81mm, not coated, AISI 304 |
+| 4722    | 2                | RC_TLR_010_P_100    | THIMBLE FOR CABLE 0.8mm                                      |
+
+
+## 3.3	Right Forearm - Wrist motor tendons
+
+From the pictures below you will be able to locate and identify the 8 tendons inside the **Right Forearm** building the active part of the wrist tendons.
+<center>
+<img src='../img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
+
+<img src='../img/HAND_WRIST_V2/R_4RM_B.png' width = 130%>
+
+</center>
+
+
+## 3.4	Left Forearm - Wrist motor tendons
+
+From the pictures below you will be able to locate and identify the 8 tendons inside the **Left Forearm** building the active part of the wrist tendons.
+<center>
+<img src='../img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
+
+<img src='../img/HAND_WRIST_V2/L_4RM_B.PNG' width = 130%>
+
+</center>
+
+## 3.5	Tensioner - IITCODE 3514
+
+<img src = "../img/HAND_WRIST_V2/Tensioner_descriprion.png">
+
+To properly tense the 8 tendons fo the Forearm it is mandatory to add the  tensioner IITCODE 3514 - alias CAD of the assembly: RC_TLR_010_G014 - is made by the following pieces:
+
+| IITCODE | Revision | Alias            | Description     |
+| ------- | -------- | ---------------- | --------------- |
+| 3559    | A3       | RC_TLR_010_P_050 | TENSIONER BODY  |
+| 3560    | A1       | RC_TLR_010_P_046 | TENSIONER SCREW |
+| 3561    |          | RC_TLR_010_P_049 | LOCK NUT        |
+| 3562    | A1       | RC_TLR_010_P_048 | TENSIONER SCREW |
+| 3563    |          | RC_TLR_010_P_047 | LOCK NUT        |
+
+## 3.6	Wrist - Passive tendons
+
+From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
+
+| RIGHT WRIST                                         | LEFT WRIST                                          |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src='../img/HAND_WRIST_V2/R_wrist_label.png' > | <img src='../img/HAND_WRIST_V2/L_wrist_label.png' > |

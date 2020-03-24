@@ -5,32 +5,12 @@
 
 # 1	WRIST
 
-## 1.1  Right Forearm - Wrist tendons
+## 1.1  WRIST TENDONS LENGTH
 
-<center>
-<img src='../img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
-
-<img src='../img/HAND_WRIST_V2/R_4RM_B.png' width = 130%>
-
-</center>
-
-
-## 1.2  Left Forearm - Wrist tendons
-
-<center>
-<img src='../img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
-
-<img src='../img/HAND_WRIST_V2/L_4RM_B.PNG' width = 130%>
-
-</center>
-
-## 1.3  TENDONS WRIST LENGTH
+Here is the list of the 10 tendons needed to build the wrist movements.
 
 <center>
 <img src='../img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png'>
-
-
-
 |Tendon   |IITCODE   |Length   |Alias   |
 |---|---|---|---|
 | 1 | 6400 | 72 mm | RC_IIT_019_G_019 |
@@ -43,38 +23,33 @@
 | 8 | 6417 | 107mm | RC_IIT_019_G_026 |
 | 9 | 6418 | 51 mm | RC_IIT_019_G_027 |
 | 10 | 6419 | 43 mm | RC_IIT_019_G_028 |
+</center>
+
+## 1.2  Wrist motor tendons
+
+From the pictures below you will be able to locate and identify the 8 tendons inside the **Right Forearm** building the active part of the wrist tendons.
+<center>
+<img src='../img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
+
+<img src='../img/HAND_WRIST_V2/R_4RM_B.png' width = 130%>
 
 </center>
 
+From the pictures below you will be able to locate and identify the 8 tendons inside the **Left Forearm** building the active part of the wrist tendons.
+<center>
+<img src='../img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
 
-## 1.4  Construction table
+<img src='../img/HAND_WRIST_V2/L_4RM_B.PNG' width = 130%>
 
-Here is the table reported the list of part needed to build them.
+</center>
 
-|IITCODE | Number of pieces |  Alias/Provider Code | Description  |
-| ---------------- | ------- | ------------------- | --------|
-| 4482 | 1    | CG077081            | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,81mm, not coated, AISI 304 |
-| 4722  | 2   | RC_TLR_010_P_100    | THIMBLE FOR CABLE 0.8mm   |
+## ## 1.6 Wrist - Passive tendons
 
+From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
 
-## 1.5  Tensioner - IITCODE 3514
-
-<img src = "../img/HAND_WRIST_V2/Tensioner_descriprion.png">
-
-
-The tensioner IITCODE 3514 is an assembly - alias RC_TLR_010_G014 - made with the following pieces:
-
-|IITCODE | Revision | Alias | Description |
-|--|--|--|--|
-|3559|  A3 |         	RC_TLR_010_P_050|         	TENSIONER BODY|
-|3560|  A1 |        	RC_TLR_010_P_046|         	TENSIONER SCREW|
-|3561|	   |            RC_TLR_010_P_049|           LOCK NUT|
-|3562|  A1 |         	RC_TLR_010_P_048|         	TENSIONER SCREW|
-|3563| 	   |            RC_TLR_010_P_047|          	LOCK NUT|
-
-
-
-
+| RIGHT WRIST | LEFT WRIST |
+| ----------- | -----------|
+| <img src='../img/HAND_WRIST_V2/R_wrist_label.png' >|<img src='../img/HAND_WRIST_V2/L_wrist_label.png' >|
 
 # 2	Hand Wiring
 
@@ -111,9 +86,7 @@ Here, you will find some rues to individuate the wiring and sheath for the wirin
 <img src="../img/HAND_WRIST_V2/Metacarpus.png">
 
 !!! WARNING "REMINDER"
-
     The following list of sheaths are made from IITCODE :2375 - Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm – L = 500 mm:
-    
     	- Distal Thumb
     	- Short Distal Thumb
     	- Short Prox Thumb
