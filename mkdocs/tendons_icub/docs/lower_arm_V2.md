@@ -7,6 +7,8 @@
 | Left Forearm V2                                         | Right Forearm V2                                        |
 | ------------------------------------------------------- | ------------------------------------------------------- |
 | <img src ="/GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="/GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
+
+
 ### <u>Rules of Thumb for a good start:</u>
 
 > 1 - Visual inspection (remove the covers - around the forearm and above the hand - and look for broken cables)
@@ -74,7 +76,6 @@ The minimum requirement to start recabling distal joints is:
 
 #### 	2. HOWTO create a knot
 
-<<<<<<< HEAD
 |                                                       | STEP BY STEP GUIDE FOR A GOOD KNOT                           |
 | ----------------------------------------------------- | ------------------------------------------------------------ |
 | <img src='/img/lowerArm/knot1.jpg' width =400>        | Start by cutting one piece of 40cm from the cable IITCODE 2391.<br />Make a knot at one extremity. |
@@ -158,8 +159,10 @@ The minimum requirement to start recabling distal joints is:
 
 If you ever realize that one of the following cable is broken bear in mind:
 
-!!!TIP
-The start of the wiring for each proximal is identical (wiring around the motor pulley). The index and middle proximal joints are cabled exactly the same way, just the thumb is a bit trickier.
+!!!tip
+    The start of the wiring for each proximal is identical (wiring around the motor pulley). The index and middle proximal joints are cabled exactly the same way, just the thumb is a bit trickier.
+
+
 
 
 ### Let's start wiring!!!
