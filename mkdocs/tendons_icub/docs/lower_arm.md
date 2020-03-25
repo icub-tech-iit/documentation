@@ -37,7 +37,7 @@ Let's describe the functionality of those motors:
 
 | Left Forearm V1                                           | Right Forearm V1                                          |
 | --------------------------------------------------------- | --------------------------------------------------------- |
-| <img src ="GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1.gif" height = 600px> |
+| <img src ="../GIF/lower_arm/L-4RM-V1.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V1.gif" height = 600px> |
 
 Please follow this [**link**](lower_arm_V1.md) to reach the HOWTO page to repair the **Version 1** of the Lower Arm
 
@@ -53,6 +53,6 @@ Please follow this [**link**](lower_arm_V1.md) to reach the HOWTO page to repair
 
 | Left Forearm V2                                           | Right Forearm V2                                          |
 | --------------------------------------------------------- | --------------------------------------------------------- |
-| <img src ="/GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
+| <img src ="../GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
 Please follow this [**link**](lower_arm_V2.md) to reach the HOWTO page to repair the **Version 2** of the Lower Arm

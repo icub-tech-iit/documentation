@@ -10,7 +10,9 @@
 Here is the list of the 10 tendons needed to build the wrist movements.
 
 <center>
-<img src='../img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png'>
+<img src= "../img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png">
+
+  
 |Tendon   |IITCODE   |Length   |Alias   |
 |---|---|---|---|
 | 1 | 6400 | 72 mm | RC_IIT_019_G_019 |
@@ -23,6 +25,8 @@ Here is the list of the 10 tendons needed to build the wrist movements.
 | 8 | 6417 | 107mm | RC_IIT_019_G_026 |
 | 9 | 6418 | 51 mm | RC_IIT_019_G_027 |
 | 10 | 6419 | 43 mm | RC_IIT_019_G_028 |
+
+
 </center>
 
 ## 1.2  Wrist motor tendons
@@ -30,16 +34,14 @@ Here is the list of the 10 tendons needed to build the wrist movements.
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Right Forearm** building the active part of the wrist tendons.
 <center>
 <img src='../img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
-
-<img src='../img/HAND_WRIST_V2/R_4RM_B.png' width = 130%>
+<img src= "../img/HAND_WRIST_V2/R_4RM_B.png" width = 130%>
 
 </center>
 
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Left Forearm** building the active part of the wrist tendons.
 <center>
 <img src='../img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
-
-<img src='../img/HAND_WRIST_V2/L_4RM_B.PNG' width = 130%>
+<img src= "../img/HAND_WRIST_V2/L_4RM_B.PNG" width = 130%>
 
 </center>
 
@@ -47,9 +49,9 @@ From the pictures below you will be able to locate and identify the 8 tendons in
 
 From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
 
-| RIGHT WRIST | LEFT WRIST |
-| ----------- | -----------|
-| <img src='../img/HAND_WRIST_V2/R_wrist_label.png' >|<img src='../img/HAND_WRIST_V2/L_wrist_label.png' >|
+| RIGHT WRIST                                         | LEFT WRIST                                          |
+| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="../img/HAND_WRIST_V2/R_wrist_label.png" > | <img src='../img/HAND_WRIST_V2/L_wrist_label.png' > |
 
 # 2	Hand Wiring
 
