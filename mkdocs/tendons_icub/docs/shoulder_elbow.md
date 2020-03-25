@@ -87,9 +87,9 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 ### 2.1 Left Shoulder Rotation Cable 1 and 2
 
-![ICUB_SHOULDER_LEFT](img/shoulder/ICUB_SHOULDER_LEFT_Cable_1.png)
+![ICUB_SHOULDER_LEFT](../img/shoulder/ICUB_SHOULDER_LEFT_Cable_1.png)
 
-> Follow the diagram above to route the cable N1. ONce the head of the crimp reach the small pulley. Add atop of it the left crimp cover in ABS
+> Follow the diagram above to route the cable N1. Once the head of the crimp reach the small pulley. Add atop of it the left crimp cover in ABS
 (IIT CODE: 1895)[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 |**Crimp cover above the small pulley**|**Left crimp cover**|
@@ -144,7 +144,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 > 4. Start wiring
 
 <h3>VERSION 2</h3>
-![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_5-6-7-8_V2.png)
+![ICUB-SHOULDER](../img/shoulder/ICUB_SHOULDER_LEFT_Cable_5-6-7-8_V2.png)
 
 > 1. Loose the the 2 screws M4x12 to slide a bit the block of 2 pulleys (grey and yelow) to give space until you can pass both crimp 8 and 7 following the routing explain below.
 > 2. Close the gap in order to prevent the cables 8 and 7 to exit - tighten the 2 screws M4x12
@@ -226,7 +226,7 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 ### 4.1 Right Shoulder Rotation Cable 1 and 2
 
-![ICUB_SHOULDER_LEFT](img/shoulder/ICUB_SHOULDER_RIGHT_Cable_1.png)
+![ICUB_SHOULDER_LEFT](../img/shoulder/ICUB_SHOULDER_RIGHT_Cable_1.png)
 
 > Follow the diagram above to route the cable N1. ONce the head of the crimp reach the small pulley. Add atop of it the right crimp cover in ABS
 (IIT CODE: 1896)[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
@@ -242,7 +242,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! Danger
     You need to remove both tensionner of cable 2 and 3 in order to change one of them - meaning recabling pairs (1-2) and (3-4)
 
-![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_RIGHT_Cable_2.png) 
+![ICUB-SHOULDER](../img/shoulder/ICUB_SHOULDER_RIGHT_Cable_2.png) 
 
 > Route cable N2 as per the diagram above.
 > 
@@ -283,7 +283,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 > 4. Start wiring
 
 <h3>VERSION 2</h3>
-![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_RIGHT_V2.png)
+![ICUB-SHOULDER](../img/shoulder/ICUB_SHOULDER_RIGHT_V2.png)
 
 > 1. Loose the the 2 screws M4x12 to slide a bit the block of 2 pulleys (grey and yelow) to give space until you can pass both crimp 8 and 7 following the routing explain below.
 > 2. Close the gap in order to prevent the cables 8 and 7 to exit - tighten the 2 screws M4x12
@@ -326,16 +326,3 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
     5. Pass both heads of crimp before reattaching the Lateral Plate.
     6. Position the head of crimp in their socket
     7. start tightening the screws of both tensionner.
-
-
-
-
-
-| Version | Date         | Author                     | Comments                 |
-| ------- | ------------ | -------------------------- | ------------------------ |
-| 0.1     | 24 Jan 2017  | A. Spadoni                 | First emission           |
-| 0.2     | 8 Mar 2017   | A. Spadoni, <br/>A. Parmiggiani | Document revision   |
-| 0.3     | 20 July 2017 | J. Jenvrin                 | For emission             |
-| 0.4     | 20 Feb 2019  | J. Jenvrin                 | Modification cabling N14 |
-| 0.5     | 26 Sep 2019  | M. Borgagni                | Work on MD |
-|0.6|14 Oct 2019| J. Jenvrin|Add Rules, Tricks and Tips|

@@ -126,7 +126,7 @@ It requires first to unplug the cable 13 (please follow instructions on how to r
 
 D- 
 !!!DANGER "pictures to add"
-    ![waist](img\waist\back-pulley.png)
+    ![waist](../img/waist/back-pulley.png)
 ​    4 screws and sliding piece to pass crimp 
 
 E- RE-ASSEMBLE the upper body by retightening the 4 screws we had to lose to create the space to paas cable 11.
@@ -217,7 +217,8 @@ PHASE TWO
 <center>![waist](img\waist\Wiring-LEG_Cable_14_built.PNG)</center>
 !!! TIP
     the latter version of iCub have a cover, you may need to remove it before proceeding(see picture below). To do that remove the 2 screws of the cover. To unscrew them it is important to see them, use a hexagonal screw driver 2mm and turn the motor shaft from the other side of the motor(see picture below).
-    <center>![waist](img\waist\hip-cover.png)</center>
+
+    <center>![waist](../img/waist/hip-cover.png)</center>
 
 **Procedure:**
 
@@ -240,14 +241,14 @@ PHASE TWO
 
 |ANKLE FLEXION - cable 15 | ANKLE FLEXION - cable 16|
 | ---| --- |
-|<center>![waist](img\waist\15-wiring.png)</center>|<center>![waist](img\waist\16-wiring.png)</center>|
+|<center>![waist](../img/waist/15-wiring.png)</center>|<center>![waist](../img/waist/16-wiring.png)</center>|
 
 !!! TIP
     remove the blocker-cover to adjust the cable - when finally wired put it back and tighten firmly the screws holding it in place.
     
 |ANKLE FLEXION - cable 15 | ANKLE FLEXION - cable 16|
 | ---| --- |
-|<center>![waist](img\waist\cover-15.png)</center>|<center>![waist](img\waist\cover-16.png)</center>|
+|<center>![waist](../img/waist/cover-15.png)</center>|<center>![waist](../img/waist/cover-16.png)</center>|
 
 
 # STAND – FAST ROBOT LOCKER 
@@ -271,13 +272,3 @@ PHASE TWO
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position033)
 
 <center>![waist](img\waist\Stand_Cable_29_foto33_34.PNG)</center>
-# Version
-
-| Version | Date         | Author                     | Comments       |
-| ------- | ------------ | -------------------------- | --------------|
-| 0.1     | 24 Jan 2017  | A. Spadoni                 | First emission           |
-| 0.2     | 8 Mar 2017   | A. Spadoni, <br/>A. Parmiggiani | Document revision   |
-| 0.3     | 20 July 2017 | J. Jenvrin                 | For emission             |
-| 0.4     | 20 Feb 2019  | J. Jenvrin                 | Modification cabling N14 |
-| 0.5     | 26 Sep 2019  | M. Borgagni                | Work on MD               |
-

@@ -4,7 +4,7 @@
 
 
 
-<img src="/img/underreview.jpg" style="zoom:50%;" />
+<img src="../img/underreview.jpg" style="zoom:50%;" />
 
 
 Francesco Nori
@@ -82,16 +82,16 @@ TOOLS TO BE USED
 
 
 
-<img src ="/img/hand/1-2_Motor_case.PNG" height = 300px>
-<img src ="/img/hand/1-1_Finger_holes.PNG" height = 300px>
-<img src ="/img/hand/1-3_Motor_pulley.PNG" height = 300px>
-<img src ="/img/hand/1-4.PNG" height = 300px>
+<img src ="../img/hand/1-2_Motor_case.PNG" height = 300px>
+<img src ="../img/hand/1-1_Finger_holes.PNG" height = 300px>
+<img src ="../img/hand/1-3_Motor_pulley.PNG" height = 300px>
+<img src ="../img/hand/1-4.PNG" height = 300px>
 
 
 
 ##  2.     General Rules to be Followed
 
-<img src ="/img/hand/Fig_2-1.PNG" height = 300px> 
+<img src ="../img/hand/Fig_2-1.PNG" height = 300px> 
 
 >When mounting cables, pay attention to the fact that      rotating the motor in a clockwise direction should correspond to a closure      of the finger. The definition of clockwise rotation is given in the      picture. This rule is valid for all joints but distal joints; in the case      of distal joints the closure of joints depends on some issues that will be      discussed later on.
 
@@ -148,21 +148,22 @@ TOOLS TO BE USED
 
 
 
-<center><img src ="/img/hand/Fig_4-2.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-1_Motor_side_holes.PNG" height = 300px> </center>
-<center><img src ="/img/hand/Fig_4-4.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-3_Finger_side_holes.PNG" height = 300px></center>
-<center><img src ="/img/hand/Fig_4-6_Motor_side_holes.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-5_Finger_side_holes.PNG" height = 300px></center>
-<center><img src ="/img/hand/Fig_4-8.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-7.PNG" height = 300px></center>
-<center><img src ="/img/hand/Fig_4-10.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-9.PNG" height = 300px></center>
+<center><img src ="../img/hand/Fig_4-2.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-1_Motor_side_holes.PNG" height = 300px> </center>
+<center><img src ="../img/hand/Fig_4-4.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-3_Finger_side_holes.PNG" height = 300px></center>
+<center><img src ="../img/hand/Fig_4-6_Motor_side_holes.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-5_Finger_side_holes.PNG" height = 300px></center>
+<center><img src ="../img/hand/Fig_4-8.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-7.PNG" height = 300px></center>
+<center><img src ="../img/hand/Fig_4-10.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-9.PNG" height = 300px></center>
 
 
 
-<center><img src ="/img/hand/Fig_4-12_new.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-11_new.PNG" height = 300px></center>
+<center><img src ="../img/hand/Fig_4-12_new.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-11_new.PNG" height = 300px></center>
+
 
 
 >
@@ -174,10 +175,11 @@ TOOLS TO BE USED
 >S0 goes out from the thumb internal side
 >
 
-<center><img src ="/img/HAND_WRIST_V2/Opposite_palm-view.PNG" height = 500px></center>
+<center><img src ="../img/HAND_WRIST_V2/Opposite_palm-view.PNG" height = 500px></center>
 
 <center><img src ="../img/hand/Fig_4-14.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-13.PNG" height = 300px></center>
+<img src ="../img/hand/Fig_4-13.PNG" height = 300px></center>
+
 
 
 !!! note
@@ -235,15 +237,14 @@ TOOLS TO BE USED
     
     <img src ="../img/hand/TIP_shard_edges.PNG" height = 300px>
 
-
 !!! TIP
     For the Finger abductions always start from the index
 
 |      |      |
 | ---- | ---- |
-|<img src ="/img/hand/Fig_4-16.PNG" height = 300px>|<img src ="/img/hand/Fig_4-15.PNG" height = 300px>
-|<img src ="/img/hand/Fig_4-18.PNG" height = 300px>|<img src ="/img/hand/Fig_4-17.PNG" height = 300px>
-| <img src ="/img/hand/Fig_4-20.PNG" height = 300px> | <img src ="/img/hand/Fig_4-19.PNG" height = 300px> |
+|<img src ="../img/hand/Fig_4-16.PNG" height = 300px>|<img src ="../img/hand/Fig_4-15.PNG" height = 300px>
+|<img src ="../img/hand/Fig_4-18.PNG" height = 300px>|<img src ="../img/hand/Fig_4-17.PNG" height = 300px>
+| <img src ="../img/hand/Fig_4-20.PNG" height = 300px> | <img src ="../img/hand/Fig_4-19.PNG" height = 300px> |
 
 
 
@@ -296,19 +297,19 @@ TOOLS TO BE USED
     For proximal cablings it needs to mark with a suitable pen the cable most internal in the finger (palm opposite side). Then leave the cable and make a knot. Then you must pull the cable (the finger will be closed) and you can make the knot on the other cable nearest the palm, without marking with the pen. 
     
 
-<img src ="/img/hand/Fig_4-22.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-21.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-23.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-24.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-22.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-21.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-23.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-24.PNG" height = 300px>
 
 >PROXIMAL THUMB
 >
 >1B3M1 (left hand - 4-23) and 2B3M1 (right hand 4-24) are related the motor for the proximal thumb 
 
-<img src ="/img/hand/Fig_4-26.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-25.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-27.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-28.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-26.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-25.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-27.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-28.PNG" height = 300px>
 
 
 >DISTAL THUMB
@@ -350,12 +351,12 @@ Take a piece of coated cable (more or less 40cm).
 
 
 
-<img src ="/img/hand/Fig_4-30.PNG" height = 300px><img src ="/img/hand/Fig_4-29.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-32.PNG" height = 300px><img src ="/img/hand/Fig_4-31.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-34.PNG" height = 300px><img src ="/img/hand/Fig_4-33.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-36.PNG" height = 300px><img src ="/img/hand/Fig_4-35.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-tav1.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-tav2.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-30.PNG" height = 300px><img src ="../img/hand/Fig_4-29.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-32.PNG" height = 300px><img src ="../img/hand/Fig_4-31.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-34.PNG" height = 300px><img src ="../img/hand/Fig_4-33.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-36.PNG" height = 300px><img src ="../img/hand/Fig_4-35.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-tav1.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-tav2.PNG" height = 300px>
 
 
 
@@ -387,7 +388,7 @@ Take a piece of coated cable (more or less 40cm).
 | T3    | 125(mm)                                 | 8+L       | Enters   the finger in the hole close to the palm side(H3)   |
 | T4    | 140(mm)                                 | 8-L       | Enters   the finger in the hole close to the back of the hand side(H4). |
 
-<img src ="/img/hand/Fig_4-38.PNG" height = 300px><img src ="/img/hand/Fig_4-37.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-38.PNG" height = 300px><img src ="../img/hand/Fig_4-37.PNG" height = 300px>
 
 ### 4.6       index_distal: SxIndDst and DxIndDst
 
@@ -399,7 +400,7 @@ Take a piece of coated cable (more or less 40cm).
 |       |                                         |           |                                                              |
 | T1    | 140(mm)                                 | 5         | Exits the   motor case from the hole inside the forearm (H1). |
 
-<img src ="/img/hand/Fig_4-tav3.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-tav3.PNG" height = 300px>
 
 ### 4.7       middle_proximal: SxMidPrx and DxMidPrx
 
@@ -426,7 +427,7 @@ Take a piece of coated cable (more or less 40cm).
 | T3    | 125(mm)                                 | 7+L       | Enters the   finger in the hole close to the palm side(H3)   |
 | T4    | 143(mm)                                 | 7-L       | Enters the   finger in the hole close to the back of the hand side(H4). |
 
-<img src ="/img/hand/Fig_4-40.PNG" height = 300px><img src ="/img/hand/Fig_4-39.PNG" height = 300px> 
+<img src ="../img/hand/Fig_4-40.PNG" height = 300px><img src ="../img/hand/Fig_4-39.PNG" height = 300px> 
 
 
 
@@ -444,7 +445,7 @@ Take a piece of coated cable (more or less 40cm).
 |       |                                         |           |                                                              |
 | T1    | 135(mm)                                 | 3         | Exits the   motor case from the hole inside the forearm (H1). |
 
-<img src ="/img/hand/Fig_4-tav4.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-tav4.PNG" height = 300px>
 
 !!!note
     Middle and Pinkie
@@ -518,11 +519,11 @@ Take a piece of coated cable (more or less 40cm).
 !!!TIP
     Before connecting the sheath to the support insert and exit the cable, otherwise after this operation would be more complicated
 
-<img src ="/img/hand/Fig_4-42.PNG" height = 300px><img src ="/img/hand/Fig_4-41.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-44.PNG" height = 300px><img src ="/img/hand/Fig_4-43.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-46.PNG" height = 300px><img src ="/img/hand/Fig_4-45.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-47.PNG" height = 300px>
-<img src ="/img/hand/Fig_4-48.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-42.PNG" height = 300px><img src ="../img/hand/Fig_4-41.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-44.PNG" height = 300px><img src ="../img/hand/Fig_4-43.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-46.PNG" height = 300px><img src ="../img/hand/Fig_4-45.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-47.PNG" height = 300px>
+<img src ="../img/hand/Fig_4-48.PNG" height = 300px>
 
 
 ## 5         Table of cables lengths
@@ -568,14 +569,14 @@ Take a piece of coated cable (more or less 40cm).
 ​    
 ​    N°9 Cable ---> pinkie ----> pinkie side hole
 ​    
-    Push the two cables inside the respective sheats until they get out at the level of the two holes, see following picture
-    
-    <img src ="../img/hand/HOLE_exit_for_middle-and_pinkie.PNG" height = 300px>
-    
-    Continue the cable path through the finger as showed in the picture 4-45  
-    
-    <img src ="../img/hand/Fig_4-45.PNG" height = 300px>
-    
+​    Push the two cables inside the respective sheats until they get out at the level of the two holes, see following picture
+​    
+​    <img src ="../img/hand/HOLE_exit_for_middle-and_pinkie.PNG" height = 300px>
+​    
+​    Continue the cable path through the finger as showed in the picture 4-45  
+​    
+​    <img src ="../img/hand/Fig_4-45.PNG" height = 300px>
+​    
     Tense the cable, mark the end of the cable inside the hole H12 from picture 4-48, close the fingers in order to retrieve some slack in the cable and make a knot at the level of the mark.
     
     Cabling for the motor side
@@ -594,7 +595,7 @@ Take a piece of coated cable (more or less 40cm).
 ​    
 ​    Make sure that the cables goes out of the pulley from both hole tanget tp the pulley.
 ​    
-    Insert the sheats 0+S (ball bearing side)and 0-S (motor side).
+​    Insert the sheats 0+S (ball bearing side)and 0-S (motor side).
 
 
 ​    
@@ -602,19 +603,12 @@ Take a piece of coated cable (more or less 40cm).
 ​    
 ​    Pass the cable with the  0+S sheath through the two motors under the slider, put a tensioner and the 0+L sheath and pass through the central hole of the ergal part (cable should get out from H4), elbow side.
 ​    
-    At that moment the 2 sides of the cable get out, one from H4 and other side out of the ergal part H5.
-    
-    Then pass the cables, 0-S in the slider superior hole and 0+L in the inferior hole,
-    
-    Keeping straight the fingers with an about 6 mm thickness, tension the (0+L) cable and mark with a pen, afterwards pull the slider backwards (the finger getting closed) and make a knot where there is the pen mark
-    
-    Close the fingers (electrically) with the motor providing +/- 5.5 Volt and make the knot nearer than possibile to the slider.
+​    At that moment the 2 sides of the cable get out, one from H4 and other side out of the ergal part H5.
+​    
+​    Then pass the cables, 0-S in the slider superior hole and 0+L in the inferior hole,
+​    
+​    Keeping straight the fingers with an about 6 mm thickness, tension the (0+L) cable and mark with a pen, afterwards pull the slider backwards (the finger getting closed) and make a knot where there is the pen mark
+​    
+​    Close the fingers (electrically) with the motor providing +/- 5.5 Volt and make the knot nearer than possibile to the slider.
 
  
-
-
-
-
-
-
-
