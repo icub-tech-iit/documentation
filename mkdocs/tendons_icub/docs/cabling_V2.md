@@ -60,7 +60,7 @@ Please refer to this table to find out which sheath you need to install at the r
 !!! WARNING
     For the proximal sheath, please label BOTH the start of the sheath (base of the motor at the level of the elbow) and at the end of it.
 
-### 1.2   Finger cables
+### 1.2   Finger & hand cables
 
 | IITCODE | Alias    | Description                                                  |
 | ------- | -------- | ------------------------------------------------------------ |
@@ -84,7 +84,7 @@ Please refer to this table to find out which cable you need to install at the ri
 | Pinkie  | Distal    | 40          | 2391            |
 | Fingers | Abduction | 50          | 1815            |
 
-## 2. HOW TO CABLE - FINGERS
+## 2. HOW TO CABLE - FINGERS & HAND
 
 ### 2.1	Proximal joints
 
