@@ -200,6 +200,6 @@ The minimum requirement to start recabling the proximal joints is:
 | <img src ="../img/lowerArm/exit_prox_I&M.png" width=700> <img src ="../img/lowerArm/exit_prox_thumb2.png" width=700> | For all the proximal joints the final cabling starts at the base of their respective finger. |
 | <img src ="../img/lowerArm/last_pulley_prox.png" width=700>    | Cable as follow and block each side of the cable with the nut screw M1.6x3 |
 | picture from real robot| Tense each side of the cable by releasing the nut screw and pinch and rotate. Close the nut screw. |
-| picture from real robot | Make not at the base of the exit a little further but keep in mind that the knot will have to remain in the slot. |
+| picture from real robot | Make a knot at the base of the cable exit, a little further away from it **(+/-5 mm)** AND keep in mind that the **knot** will have to **remain in the slot**. |
 |  | **FINISHED!!!** |
 
