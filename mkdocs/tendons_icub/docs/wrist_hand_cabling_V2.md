@@ -12,7 +12,7 @@ Here is the list of the 10 tendons needed to build the wrist movements.
 <center>
 <img src= "../img/HAND_WRIST_V2/ICUB_Tendon_Left_Right.png">
 
-  
+
 |Tendon   |IITCODE   |Length   |Alias   |
 |---|---|---|---|
 | 1 | 6400 | 72 mm | RC_IIT_019_G_019 |
@@ -29,29 +29,43 @@ Here is the list of the 10 tendons needed to build the wrist movements.
 
 </center>
 
-## 1.2  Wrist motor tendons
+## 1.2 Wrist motor tendons
 
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Right Forearm** building the active part of the wrist tendons.
-<center>
-<img src='../img/HAND_WRIST_V2/R_4RM_A.png' width = 110%>
-<img src= "../img/HAND_WRIST_V2/R_4RM_B.png" width = 130%>
 
-</center>
+<center><img src="../img/HAND_WRIST_V2/R_4RM_A.png" width = 110%></center>
+<center><img src= "../img/HAND_WRIST_V2/R_4RM_B.png" width = 130%></center>
 
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Left Forearm** building the active part of the wrist tendons.
-<center>
-<img src='../img/HAND_WRIST_V2/L_4RM_A.PNG' width = 120%>
-<img src= "../img/HAND_WRIST_V2/L_4RM_B.PNG" width = 130%>
 
-</center>
+<center><img src="../img/HAND_WRIST_V2/L_4RM_A.png" width = 120%></center>
 
-## ## 1.6 Wrist - Passive tendons
+<center><img src= "../img/HAND_WRIST_V2/L_4RM_B.png" width = 130%></center>
+
+
+
+## 1.6  Wrist - Passive tendons
+
+### 1.6.1	Location and Identification
 
 From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
 
 | RIGHT WRIST                                         | LEFT WRIST                                          |
 | --------------------------------------------------- | --------------------------------------------------- |
 | <img src="../img/HAND_WRIST_V2/R_wrist_label.png" > | <img src='../img/HAND_WRIST_V2/L_wrist_label.png' > |
+| <img src="../img/HAND_WRIST_V2/R_cabling_wrist1.png" > |<img src="../img/HAND_WRIST_V2/L_cabling_wrist1.png" > |
+|<img src="../img/HAND_WRIST_V2/R_cabling_wrist2.png" > |<img src="../img/HAND_WRIST_V2/L_cabling_wrist2.png" > |
+|<img src="../img/HAND_WRIST_V2/R_cabling_wrist3.png" > |<img src="../img/HAND_WRIST_V2/L_cabling_wrist3.png" > |
+
+### 1.6.2	Cabling
+
+Here the sequence  you need to follow to restore the 2 little cables from the base of the wrist - we will write down the procedure using the left arm as base pictures but used the previous pictures above to mirror the explanations.
+
+|pictures|step by step procedure|
+| --- | --- |
+|<img src="../img/HAND_WRIST_V2/wrist_tensionner.png" > </br><img src="../img/HAND_WRIST_V2/wrist_screws.png" > </br>|1. replacing the cable 10 is really straight forward: </br>just put one side of the crimp of cable 10 inside the tensionner (blue cirle) and put the other side inside the holding tooth - just make sure the tensionner is down by releasing the screw|
+|<img src="../img/HAND_WRIST_V2/crimp_screw.png" >| 2. replacing cable 9 is just a tiny whinny more complicated becasue you need to first remove the screw to be able to lodge the crimp inside the tensionner and reput back in place the tensionner in the throat and insert the screw|
+|<img src="../img/HAND_WRIST_V2/up_down.png" >| Once done: </br>3. tighten the screws of both tensionner until you reach a strict tensing on the cables|
 
 # 2	Hand Wiring
 
@@ -83,7 +97,7 @@ Here, you will find some rues to individuate the wiring and sheath for the wirin
 
 <img src="../img/HAND_WRIST_V2/Thumb3.png">
 
-## 3.2  Thumb Metacarpus sheath positions
+## 2.2  Thumb Metacarpus sheath positions
 
 <img src="../img/HAND_WRIST_V2/Metacarpus.png">
 
@@ -94,28 +108,3 @@ Here, you will find some rues to individuate the wiring and sheath for the wirin
     	- Short Prox Thumb
 
 
-
-# 4 	Proximal Sheath - Position of the motor and labelling, cable routing
-
-## 4.1  Position of the motors and labelling
-
-| LEFT FOREARM                                                 | RIGHT FOREARM                                                |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src ="../img/HAND_WRIST_V2/L4RM-labels.png" height=auto width=400> | <img src ="../img/HAND_WRIST_V2/R4RM-labels.png" height=auto width=400> |
-
-
-
-!!!WARNING
-    Please note that the proximal of the Left and Right Arm are symmetrical respect to the median plan of the body, meaning that index prox (7) is on the left side of the right forearm and on the right side of the left forearm.
-
-## 4.2  Cable routing
-
-
-
-Here an example of good routing for the left forearm. Useless to say that the Right needs to look like identical.
-
-
-
-<center>
-    <img src="../img/HAND_WRIST_V2/L4RM-cabling.png">
-</center>
