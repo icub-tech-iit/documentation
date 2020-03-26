@@ -10,20 +10,25 @@ The answer is :
 ## HOW DO I OPERATE 4 LOWER ARM V1?
 
 - [ ] skin removal
+
 - [ ] lower part of the upper arm cover removal
   - [ ] remove lateral screws
   - [ ] remove 3 triceps screws
   - [ ] disconnect skin
+  
 - [ ] disconnect the MC4 connections
+
 - [ ] remove the 3 screws holding the Lower ARM to the elbow
 
-to be done with real picture
+  
+
+**to be done with real pictures**
 
 
 
 
 
-## DO I NEED TO DISCONNECT THE LOWER_ARM?
+## DO I NEED TO DISCONNECT THE LOWER_ARM V2?
 
 The answer is :
 
@@ -45,7 +50,9 @@ The answer is :
 - [ ] disconnect the MC4-PLUS connections
 - [ ] remove the 3 screws holding the Lower ARM to the elbow
 
-to be done with real picture
+
+
+**to be done with real pictures**
 
 
 
