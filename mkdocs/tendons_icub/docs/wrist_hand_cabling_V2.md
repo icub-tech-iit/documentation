@@ -55,11 +55,13 @@ In the case you found out 1 of the 8 first cables of the wrist broken, here the 
 | <img src= "/../img/HAND_WRIST_V2/Tensioner_description.png" width = 130%> | <u>STEP 3:</u> <br/>remove the broken part of the cable still inside the tensioner <br/> !!!WARNING!!! <br/>once remove, either you put back the brand new cable inside or else just simply gather the part removed from the tensioner assembly and re-screw it back in until further notice in order to DO NOT LOSE PIECES!!! |
 | <img src= "/../img/HAND_WRIST_V2/wrist_crimp_removal.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/wrist_AEA_stand.png" width = 130%> | <u>STEP4:</u> <br/>At the level of the wrist pulley, just remove the broken cable and replace it : <br/>EASY for cable 5 and 6 BUT LESS EASY for cable 1 and 2, <br/>you need to remove the mechanical part <br/>preventing you from inserting and removing the head crimp. <br/> To do so, just remove the 2 screws M2x6 <br/>and slide the block to retrieve and replace the head crimp<br/>Once done, put back on place the block and the 2 screws |
 | | We can now start wiring!!! |
-| <img src= "/../img/HAND_WRIST_V2/turn_pulley1.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/turn_pulley2.png" width = 130%> | <u>STEP 5:</u> <br/> Let's begin with the motor pulley, here is the way to wire  them both (as they are perfectly identical) |
+| <img src= "/../img/HAND_WRIST_V2/W_pulley_Ft.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/W_pulley_Bk.png" width = 130%> | <u>STEP 5:</u><br/>Let's begin with the motor pulley, here is the way to wire  them both (as they are perfectly identical). |
+| <img src= "/../img/HAND_WRIST_V2/Wrist_cables_left.png" width = 130%><br/> | <u>**LEFT ARM**</u><br/><br/>The **BLUE** cables for the Left Forearm are: <br/> <center>**4** and **7**</center><br/><br/><br/>The **RED** cables for the Left Forearm are:<br> <center>**3** and **8**</center><br/> |
+| <img src= "/../img/HAND_WRIST_V2/Wrist_cables_right.png" width = 130%><br/> | <u>**RIGHT ARM**</u><br/><br/>The **BLUE** cables for the Left Forearm are:<br><center>**3** and **8**</center><br/><br/><br/>The **RED** cables for the Left Forearm are:<br/><center>**4** and **7**</center><br/> |
 | put a picture showing that | <u>STEP 6:</u> <br/>put a 2 tie wraps one for each side (or cable) in order to prevent them from getting untwisted. |
 | picture motor almost closed on support | <u>STEP 7:</u><br/>Put back in place the motor with its 2 screws M2.5x10. Leave 1mm in between the motor and the support. We will cover this aspect later |
-|  | <u>STEP 8:</u><br/>let's wire the wrist pulleys (either for 1,2 or 5,6) |
-|  |  |
+| <img src= "/../img/HAND_WRIST_V2/W_pulley_top.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/W_pulley_Ext.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/W_pulley_Int.png" width = 130%> | <u>STEP 8:</u><br/>let's wire the wrist pulleys (either for 1,2 or 5,6)<br/>Here is the detail wiring for the left arm, please mirror it for the right arm<br/>The wiring is quite simple |
+|  | Here is the detail wiring for the left arm, please mirror it for the right arm |
 |  |  |
 |  |  |
 |  |  |
@@ -72,12 +74,12 @@ In the case you found out 1 of the 8 first cables of the wrist broken, here the 
 
 From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
 
-| RIGHT WRIST                                         | LEFT WRIST                                          |
-| --------------------------------------------------- | --------------------------------------------------- |
-| <img src="../img/HAND_WRIST_V2/R_wrist_label.png" > | <img src='../img/HAND_WRIST_V2/L_wrist_label.png' > |
-| <img src="../img/HAND_WRIST_V2/R_cabling_wrist1.png" > |<img src="../img/HAND_WRIST_V2/L_cabling_wrist1.png" > |
-|<img src="../img/HAND_WRIST_V2/R_cabling_wrist2.png" > |<img src="../img/HAND_WRIST_V2/L_cabling_wrist2.png" > |
-|<img src="../img/HAND_WRIST_V2/R_cabling_wrist3.png" > |<img src="../img/HAND_WRIST_V2/L_cabling_wrist3.png" > |
+| RIGHT WRIST                                             | LEFT WRIST                                              |
+| ------------------------------------------------------- | ------------------------------------------------------- |
+| <img src="/../img/HAND_WRIST_V2/R_wrist_label.png" >    | <img src='/../img/HAND_WRIST_V2/L_wrist_label.png' >    |
+| <img src="/../img/HAND_WRIST_V2/R_cabling_wrist1.png" > | <img src="/../img/HAND_WRIST_V2/L_cabling_wrist1.png" > |
+| <img src="/../img/HAND_WRIST_V2/R_cabling_wrist2.png" > | <img src="/../img/HAND_WRIST_V2/L_cabling_wrist2.png" > |
+| <img src="/../img/HAND_WRIST_V2/R_cabling_wrist3.png" > | <img src="/../img/HAND_WRIST_V2/L_cabling_wrist3.png" > |
 
 ### 1.3.2	Cabling
 
@@ -85,9 +87,9 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 
 |pictures|step by step procedure|
 | --- | --- |
-|<img src="../img/HAND_WRIST_V2/wrist_tensionner.png" ></br><img src="../img/HAND_WRIST_V2/wrist_screws.png" > </br>|!!!KEEP IN MIND - whenever you need to replace one of the 2 cables you **FIRST** need to release the tensionners </br> <u>CABLE 10:</u> </br> it is really straight forward - just put one side of the crimp of cable 10 inside the tensionner (blue cirle) and put the other side inside the holding tooth|
-|<img src="../img/HAND_WRIST_V2/crimp_screw.png" >| <u>cable 9: </u> </br> it is just a tiny whinny more complicated because you need to first remove the screw to be able to lodge the crimp inside the tensionner and reput back in place the tensionner in the throat and insert the screw|
-|<img src="../img/HAND_WRIST_V2/up_down.png" >| Once done: </br>3. tighten the screws of both tensionner until you reach a strict tensing on the cables|
+|<img src="/../img/HAND_WRIST_V2/wrist_tensionner.png" ></br><img src="/../img/HAND_WRIST_V2/wrist_screws.png" > </br>|!!!KEEP IN MIND - whenever you need to replace one of the 2 cables you **FIRST** need to release the tensionners </br> <u>CABLE 10:</u> </br> it is really straight forward - just put one side of the crimp of cable 10 inside the tensionner (blue cirle) and put the other side inside the holding tooth|
+|<img src="/../img/HAND_WRIST_V2/crimp_screw.png" >| <u>cable 9: </u> </br> it is just a tiny whinny more complicated because you need to first remove the screw to be able to lodge the crimp inside the tensionner and reput back in place the tensionner in the throat and insert the screw|
+|<img src="/../img/HAND_WRIST_V2/up_down.png" >| Once done: </br>3. tighten the screws of both tensionner until you reach a strict tensing on the cables|
 
 # 2	Hand Wiring
 
@@ -100,7 +102,7 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 
      Left palm, view from top - S0 and S2 cable from the thumb oppose
 
-<img src="../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700">
+<img src="/../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700">
 
 !!!NOTE
     The Right Thumb oppose sheath are the exact same just mirrored so the rule of the longest (S2) and the shortest (S0) is still the same.
@@ -113,15 +115,15 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 
 Here, you will find some rues to individuate the wiring and sheath for the wiring of the thumb oppose, the thumb proximal and distal.
 
-<img src="../img/HAND_WRIST_V2/Thumb1.png">
+<img src="/../img/HAND_WRIST_V2/Thumb1.png">
 
-<img src="../img/HAND_WRIST_V2/Thumb2.png">
+<img src="/../img/HAND_WRIST_V2/Thumb2.png">
 
-<img src="../img/HAND_WRIST_V2/Thumb3.png">
+<img src="/../img/HAND_WRIST_V2/Thumb3.png">
 
 ## 2.2  Thumb Metacarpus sheath positions
 
-<img src="../img/HAND_WRIST_V2/Metacarpus.png">
+<img src="/../img/HAND_WRIST_V2/Metacarpus.png">
 
 !!! WARNING "REMINDER"
     The following list of sheaths are made from IITCODE :2375 - Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm – L = 500 mm:
