@@ -1,6 +1,101 @@
-# **Wrist Cabling**
+# 1. WRIST
 
-<img src="../img/underreview.jpg" style="zoom:50%;" />
+## 1.1 Wrist tendons length 
+
+Tabella
+
+
+
+## 1.2 Wrist motor tendons
+
+### 1.2.1 Location & identification
+
+From the pictures below you will be able to locate and identify the tendons inside the **Right Forearm** building the active part of the wrist tendons.
+
+<img src ="/../img/wrist/Tendons_wrist_right.png" width=500>
+
+<img src ="/../img/wrist/Tendons_wrist_right_back.png" width=500>
+
+
+
+From the pictures below you will be able to locate and identify the tendons inside the **Left Forearm** building the active part of the wrist tendons.
+
+<img src ="/../img/wrist/Tendons_wrist_left.png" width=500>
+
+<img src ="/../img/wrist/Tendons_wrist_left_back.png" width=500>
+
+!!! note
+    Note that the cabling of (1,2) & (5,6) and (3,4) & (7,8) is identical for symmetry. 
+
+!!! note
+    Note also that cable E1 & E2 are indeed a **one cable** with two different labels at its extremities, as we will    see below.
+
+
+
+### 1.2.2 Cabling
+
+First of all, in order to increase the cable tension it is useful to unscrew the 2 couples of screws located as shown in the pictures below, depending on which cables we are working on. After having completed all the described operations the cable tension can be increased by tightening the screws again.
+
+| Left arm palm down                                   | Right arm palm down                                   |
+| ---------------------------------------------------- | ----------------------------------------------------- |
+| <img src ="/../img/wrist/Screws_left.png" width=300> | <img src ="/../img/wrist/Screws_right.png" width=300> |
+
+In the case you found out 1 of the 8 first cables of the wrist broken, here the sequence you need to follow to restore the it.
+
+| pictures                                                     | step by step guide                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src ="/../img/wrist/Tendons_wrist_right.png" width=2000> <img src ="/../img/wrist/Tendons_wrist_right_back.png"> | FIRST THING FIRST: </br>which side of the wrist is broken? the internal (refer to cables 1 to 4) or the external  one (refers to cables 5 to 8)? </br>Can you see the differences?</br>YOU may have guessed on your own but the answer is only that the external one is beneath the 3 proximal motors which makes it more  complicated to reach and repair apart from that it is **exactly identical** - so to proceed  we will first see how to move the proximal  motor if you need to repair the external wrist motor and follow up with the explanation  of the tendon in a more generical way  as both motor are wired the same way.</br>**If you need to repair tendons from 1 to 4  please just proceed to STEP 2** |
+| <img src ="/../img/wrist/Screws_lateral1.png" width=300>     | STEP 1:  remove the 6 screws M1.6x5 (?) and flip over the 3 motors to be able to access visually the motor beneath them. |
+| <img src ="/../img/wrist/Screws_lateral2.png">               | STEP 2:  remove or loose the 2 screws M2.5x10 (?) holding the motor. From now on you can work freely. |
+| Tensioner pic? non so quale tensioner e codici               | STEP 3:  remove the broken part of the cable still inside the tensioner  !!!WARNING!!!  once remove, either you put back the brand new cable inside or else just simply gather the part removed from the tensioner assembly and re-screw it back in until further notice in order to DO NOT LOSE PIECES!!! |
+|                                                              | **We can now start wiring!!!**                               |
+| <img src ="/../img/wrist/Hole_H.png" width=200>              | STEP 4: Let's begin with the motor pulley. Take a piece of uncoated cable (more or less 20 cm). Let its extremities be E1 and E2. Pass the cable trough the hole (H) in the pulley. Block the cable on the hole H with some cyanoacrylic glue. |
+| foto con colori e labels E1 E2 - E5 E6                       | STEP 5: Twine the cable on the pulley. The number of turns around the pulley has to be decided on the basis of the entrance and exit pulleys: the cable should be tangential to the pulleys. Block the cable on the motor with some tape. This will allow you to maintain the cable positioned on the pulley. **Non ho capito come si avvolge (quanti giri)**. This wiring is identical for the cables E5-E6. |
+| <img src ="/../img/wrist/Hole_H3.png" width=200> <img src ="/../img/wrist/Hole_H4.png" width=200> | **Wrist pulley (E3-E7):** take a piece of cable. Tie in a knot at one extremity. Take the other extremity (E3) and pass it trough the hole H3 on the pulley on the wrist side. Exit the pulley trough the hole H4. |
+| <img src ="/../img/wrist/Cabling_E3.png">                    | Wrap the cable as shown. The wiring of E7 is identical.      |
+| <img src ="/../img/wrist/Hole_H1.png" width=200> <img src ="/../img/wrist/Hole_H2.png" width=200> | **Wrist pulley (E4-E8):** take a piece of cable. Tie in a knot at one extremity. Take the other extremity (E4) and pass it trough the hole H1 on the pulley on the wrist side. Exit the pulley trough the hole H2. |
+| <img src ="/../img/wrist/Cabling_E4.png">                    | Wrap the cable as shown. The wiring of E8 is identical.      |
+|                                                              | We are finally getting to an end. Now that you know how to rewire every single one of the wrist cable you need to insert the tensioners. |
+|                                                              |                                                              |
+| <img src ="/../img/wrist/FIG13_RHS1.png" width=700> <img src ="/../img/wrist/FIG14_RHS2.png" width=700> | Pass E3 through the tensioner (LHS1) and tie a knot (KN3). This knot should be positioned taking into account the length of the tensioner. Remove E1 from the tape that blocks it on the motor and pass it trough the tensioner (RHS1). Tie in a knot (KN1) on E1. This knot should be positioned so as to have the tensioner in the middle of the admissible range of movements. Repeat for cables E2 &E4. |
+| <img src ="/../img/wrist/Broken_tendon_8.png" width=700>     | Tight the tensioners by screwing in the extremities.         |
+
+
+
+## 1.3 Passive tendons
+
+### 1.3.1 Location & identification
+
+From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements. 
+
+The **pink** cable is cable **9** and the **red** one is cable **10**.
+
+| Left wrist                                             | Right wrist                                             |
+| ------------------------------------------------------ | ------------------------------------------------------- |
+| <img src ="/../img/wrist/Passive_left.png" width=300>  | <img src ="/../img/wrist/Passive_right.png" width=300>  |
+| <img src ="/../img/wrist/Passive_left1.png" width=400> | <img src ="/../img/wrist/Passive_right1.png" width=400> |
+
+### 1.3.2 Cabling
+
+Here the sequence you need to follow to restore the 2 little cables from the base of the wrist - we will write down the procedure using the left arm as base pictures but use the previous pictures above to mirror the explanations.
+
+| pictures                                       | step by step procedure                                       |
+| ---------------------------------------------- | ------------------------------------------------------------ |
+| <img src ="/../img/wrist/Passive_cabling.png"> | !!!KEEP IN MIND - whenever you need to replace one of the 2 cables you **FIRST** need to release the tensioners . <br> Just put one side of the crimp of each cable inside its tensioner and follow the path until its blue stopper. |
+| <img src ="/../img/wrist/FIG20.png">           | Cable 9 needs to be inserted inside the hole H1, while cable 10 in the hole H2. |
+|                                                | Once done: tighten the screws of both tensioners until you reach a strict tensing on the cables. |
+
+
+
+
+
+
+
+
+
+
+
+<img src="/../img/underreview.jpg" style="zoom:50%;" />
 
 Nori Francesco
 
@@ -59,11 +154,9 @@ TOOLS TO BE USED
 
 >M2: angular position of 1B2M2
 
- 
 
- 
 
-## 1. M1 (wrist_pitch and wrist_yaw): SxWrPy and DxWrPy
+## 1.M1 (wrist_pitch and wrist_yaw): SxWrPy and DxWrPy
 
  
 
@@ -105,7 +198,7 @@ TOOLS TO BE USED
 
 | | |
 |--|--|
-|<img src ="../img/wrist/FIG1_1B2M1.PNG" height = 300> |<img src ="../img/wrist/FIG2_2B2M1.PNG" height = 300>|
+|<img src ="/../img/wrist/FIG1_1B2M1.PNG" height = 300> |<img src ="/../img/wrist/FIG2_2B2M1.PNG" height = 300>|
 
 <center><img src ="../img/wrist/FIG3_globale.PNG" height = 650 width = auto></center>
 
@@ -189,13 +282,12 @@ TOOLS TO BE USED
 17. Remove the stopper      St2 by unscrewing S4.
 18. Pull the cable and      block it with the stopper St1 and with screw S4. Tie in a knot in order to      prevent any cable slippage.
 
-
 | | |
 |--|--|
-|<img src ="../img/wrist/FIG19.PNG" height = 300> | <img src ="../img/wrist/FIG20.PNG" height = 300>
-|<img src ="../img/wrist/FIG21.PNG" height = 300> | <img src ="../img/wrist/FIG22.PNG" height = 300>
-|<img src ="../img/wrist/FIG24.PNG" height = 300> | <img src ="../img/wrist/FIG23.PNG" height = 300>
-|<img src ="../img/wrist/FIG25.PNG" height = 300> | <img src ="../img/wrist/FIG26.PNG" height = 300>|
+|<img src ="/../img/wrist/FIG19.PNG" height = 300> | <img src ="/../img/wrist/FIG20.PNG" height = 300>
+|<img src ="/../img/wrist/FIG21.PNG" height = 300> | <img src ="/../img/wrist/FIG22.PNG" height = 300>
+|<img src ="/../img/wrist/FIG24.PNG" height = 300> | <img src ="/../img/wrist/FIG23.PNG" height = 300>
+|<img src ="/../img/wrist/FIG25.PNG" height = 300> | <img src ="/../img/wrist/FIG26.PNG" height = 300>|
 
 
 ## **4. Broken Tendon on iCub V1**
