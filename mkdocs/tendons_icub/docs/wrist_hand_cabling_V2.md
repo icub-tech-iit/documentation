@@ -25,7 +25,6 @@ Here is the list of the 10 tendons needed to build the wrist movements.
 | 9 | 6418 | 51 mm | RC_IIT_019_G_027 |
 | 10 | 6419 | 43 mm | RC_IIT_019_G_028 |
 
-
 </center>
 
 ## 1.2 Wrist motor tendons
@@ -94,44 +93,33 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 |<img src="/../img/HAND_WRIST_V2/crimp_screw.png" >| <u>cable 9: </u> </br> it is just a tiny whinny more complicated because you need to first remove the screw to be able to lodge the crimp inside the tensionner and reput back in place the tensionner in the throat and insert the screw|
 |<img src="/../img/HAND_WRIST_V2/up_down.png" >| Once done: </br>3. tighten the screws of both tensionner until you reach a strict tensing on the cables|
 
+
+
 # 2	Hand Wiring
 
-!!! NOTE "SUM UP"
-    You will find below a certain amount of pictures illustrating the changes or helping you to individuate the cabling and labelling of the different sheaths located in the hand.
+## 2.1 Location
+
+<center>
+	<img src= "../img/HAND_WRIST_V2/hand_motors.png" width = 130%>
+</center>
 
 
 
-## 2.1  Thumb Oppose
+## 2.2  Thumb Oppose
 
-     Left palm, view from top - S0 and S2 cable from the thumb oppose
+As usual, you will find here after the instructions for rewiring the Thump oppose joint at base of the Left Hand
 
-<img src="/../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700">
-
-!!!NOTE
-    The Right Thumb oppose sheath are the exact same just mirrored so the rule of the longest (S2) and the shortest (S0) is still the same.
-
-
-
-## 2.1 Left THUMB
-
-
-
-Here, you will find some rues to individuate the wiring and sheath for the wiring of the thumb oppose, the thumb proximal and distal.
-
-<img src="/../img/HAND_WRIST_V2/Thumb1.png">
-
-<img src="/../img/HAND_WRIST_V2/Thumb2.png">
-
-<img src="/../img/HAND_WRIST_V2/Thumb3.png">
-
-## 2.2  Thumb Metacarpus sheath positions
-
-<img src="/../img/HAND_WRIST_V2/Metacarpus.png">
-
-!!! WARNING "REMINDER"
-    The following list of sheaths are made from IITCODE :2375 - Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm – L = 500 mm:
-    	- Distal Thumb
-    	- Short Distal Thumb
-    	- Short Prox Thumb
+| pictures | step by step guide|
+| --- | --- |
+| <img src="/../img/HAND_WRIST_V2/L_hand_w_palm.png" width = 110%><br/>| <u>STEP 1:</u> </br>The only way to start correctly this wiring is to remove the palm.<br/> Please remove the 3 srews M2x6 inside the palm (circled in red) and the 2 screws M2x4 at base of the wrist<br/>|
+|<img src="/../img/HAND_WRIST_V2/L_Hand_wo_palm.png" width = 110%><br/><img src="/../img/HAND_WRIST_V2/L_T_opp_1.png" width = 100%><br/>|<u>STEP 2</u><br/>we will now focus on the wiring along the pulley.<br/>Cut 50 to 60cm of ITTCODE 1815.<br/>Move with a screwdriver the pulley in order to have the hole flat horizontally.<br/>Insert the cable, equilibrate evenly the cable on both side of the pulley|
+|<img src="/../img/HAND_WRIST_V2/L_T_opp_2.png" width = 100%><br/>| <u>STEP 3:</u><br/>Make <br/>1 turn around the pulley CCW to go into S2<br/>ballbearing side<br/> 2 turns around the pulley CW to reach S0<br/>motor side<br/>!!!TIP: You may find convenient to remove the plate to round the cable around the pulley more easily|
+|<img src="/../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"><br/><img src="/../img/HAND_WRIST_V2/L_Th_holes.png">|<u>STEP 4: </u><br/>Insert both side of the cable inside S2 and S0 until they sprout out from the palm side|
+| picture on real icub  | !!!!TIP: once both side of the cables are out at the base of the palm, you may find convenient to verify the turns around the pulley ( you could use 2 pieces of foam hear plugs to prevent the cable from unwired itself) - Make sure the plate is screwed back into normal state |
+|<img src="/../img/HAND_WRIST_V2/Thumb2.png"><br/><img src="/../img/HAND_WRIST_V2/Thumb3.png">|<u>STEP 5: </u><br/>The cable from S0 goes directly into hole T1<br/>the cable from S2 makes **1 FULL TURN** around the pulley before going into T2|
+| <img src="/../img/HAND_WRIST_V2/L_Th_set_screws1.png"><br/><img src="/../img/HAND_WRIST_V2/L_Th_set_screws2.png">|<u>STEP 6: </u><br/>Use a 0.7mm hexagonal key (or screwdriver) to block the cables|
+||!!!TIP: you may find useful to first block one side and afterwards use a plier to exert a strong pulling of the wire to tense this other side of the cable and block it. Repeat the the same process on the other side.<br/>!!!!CONGRATULATIONS YOU ARE DONE!!!|
 
 
+
+## 2.3	Finger's Abduction
