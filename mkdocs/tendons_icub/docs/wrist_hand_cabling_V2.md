@@ -61,10 +61,13 @@ In the case you found out 1 of the 8 first cables of the wrist broken, here the 
 | put a picture showing that | <u>STEP 6:</u> <br/>put a 2 tie wraps one for each side (or cable) in order to prevent them from getting untwisted. |
 | picture motor almost closed on support | <u>STEP 7:</u><br/>Put back in place the motor with its 2 screws M2.5x10. Leave 1mm in between the motor and the support. We will cover this aspect later |
 | <img src= "/../img/HAND_WRIST_V2/W_pulley_top.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/W_pulley_Ext.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/W_pulley_Int.png" width = 130%> | <u>STEP 8:</u><br/>let's wire the wrist pulleys (either for 1,2 or 5,6)<br/>Here is the detail wiring for the left arm, please mirror it for the right arm<br/>The wiring is quite simple |
-|  | Here is the detail wiring for the left arm, please mirror it for the right arm |
-|  |  |
-|  |  |
-|  |  |
+|  | We are Finally getting to an end. Now that you know how to rewire every single one of the wrist cable you need to insert the tensioners. <br/>Let's make the example of the 4 cables 1 to 4. |
+| <img src= "/../img/HAND_WRIST_V2/cable_IN1.png" width = 130%><br/><img src= "/../img/HAND_WRIST_V2/cable_IN2.png" width = 130%><br/> | <u>STEP 9:</u><br/>Remove the tie wrap at the level of the motor wrist,<br/>for let's say cable 3. Open one side of the tensioner <br/>and start putting the ring, then the threaded piece ,<br/>of the tensioner, finish by screwing the ring onto <br/>the threaded piece. Do the exact same for the cable 1. |
+| <img src= "/../img/HAND_WRIST_V2/cable_IN3.png" width = 130%><br/> | <u>STEP 10:</u><br/>Screw both pieces into the main tensioner part - Let's say just 2 threads on both side, just to make it hold until we tense. |
+|  | <u>STEP 11:</u><br/>Repeat STEP 9 and STEP 10 with cables 2 and 4. |
+| photo from reality | <u>STEP 12:</u><br/>Use 2 pliers to hold on the tips of the threaded<br/> pieces' tensioner and start any tool fitting the hole<br/> inside the main part of the tensionner <br/>AND finally screw <br/>!!! depending on how you are facing the cables<br/> just screw CW or CCW for half a turn to<br/> understand if the 2 threaded pieces are going inside the main piece or if they get out - THEY NEED TO GET IN. |
+| | Repeat the above step on both tensioners until you get a quite nice tensing (but not super tense, this will be done, right next). |
+| <img src= "/../img/HAND_WRIST_V2/wrist_int_screws.png" width = 130%> | <u>FINAL STEP:</u><br/>Tense the 2 screws that we left a bit opened on STEP 7. |
 
 
 
