@@ -89,8 +89,8 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 
 |pictures|step by step procedure|
 | --- | --- |
-|<img src="/../img/HAND_WRIST_V2/wrist_tensionner.png" ></br><img src="/../img/HAND_WRIST_V2/wrist_screws.png" > </br>|!!!KEEP IN MIND - whenever you need to replace one of the 2 cables you **FIRST** need to release the tensionners </br> <u>CABLE 10:</u> </br> it is really straight forward - just put one side of the crimp of cable 10 inside the tensionner (blue cirle) and put the other side inside the holding tooth|
-|<img src="/../img/HAND_WRIST_V2/crimp_screw.png" >| <u>cable 9: </u> </br> it is just a tiny whinny more complicated because you need to first remove the screw to be able to lodge the crimp inside the tensionner and reput back in place the tensionner in the throat and insert the screw|
+|<img src="/../img/HAND_WRIST_V2/wrist_tensionner.png" ></br><img src="/../img/HAND_WRIST_V2/wrist_screws.png" > </br>|!!!KEEP IN MIND - whenever you need to replace one of the 2 cables you **FIRST** need to release the tensioners </br> <u>CABLE 10:</u> </br> it is really straight forward - just put one side of the crimp of cable 10 inside the tensioner (blue circle) and put the other side inside the holding tooth|
+|<img src="/../img/HAND_WRIST_V2/crimp_screw.png" >| <u>cable 9: </u> </br> it is just a tiny whinny more complicated because you need to first remove the screw to be able to lodge the crimp inside the tensioner and put back in place the tensioner in the throat and insert the screw |
 |<img src="/../img/HAND_WRIST_V2/up_down.png" >| Once done: </br>3. tighten the screws of both tensionner until you reach a strict tensing on the cables|
 
 
@@ -102,7 +102,11 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 <center>
 	<img src= "../img/HAND_WRIST_V2/hand_motors.png" width = 130%>
 </center>
+The minimum requirement to start recabling those 2 joints is:
 
+| IITCODE | Alias    | Description                                                  |
+| ------- | -------- | ------------------------------------------------------------ |
+| 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
 
 
 ## 2.2  Thumb Oppose
@@ -114,11 +118,12 @@ As usual, you will find here after the instructions for rewiring the Thump oppos
 | <img src="/../img/HAND_WRIST_V2/L_hand_w_palm.png" width = 110%><br/>| <u>STEP 1:</u> </br>The only way to start correctly this wiring is to remove the palm.<br/> Please remove the 3 srews M2x6 inside the palm (circled in red) and the 2 screws M2x4 at base of the wrist<br/>|
 |<img src="/../img/HAND_WRIST_V2/L_Hand_wo_palm.png" width = 110%><br/><img src="/../img/HAND_WRIST_V2/L_T_opp_1.png" width = 100%><br/>|<u>STEP 2</u><br/>we will now focus on the wiring along the pulley.<br/>Cut 50 to 60cm of ITTCODE 1815.<br/>Move with a screwdriver the pulley in order to have the hole flat horizontally.<br/>Insert the cable, equilibrate evenly the cable on both side of the pulley|
 |<img src="/../img/HAND_WRIST_V2/L_T_opp_2.png" width = 100%><br/>| <u>STEP 3:</u><br/>Make <br/>1 turn around the pulley CCW to go into S2<br/>ballbearing side<br/> 2 turns around the pulley CW to reach S0<br/>motor side<br/>!!!TIP: You may find convenient to remove the plate to round the cable around the pulley more easily|
-|<img src="/../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"><br/><img src="/../img/HAND_WRIST_V2/L_Th_holes.png">|<u>STEP 4: </u><br/>Insert both side of the cable inside S2 and S0 until they sprout out from the palm side|
+|<img src="/../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"><br/><img src="/../img/HAND_WRIST_V2/L_Th_holes_S.png">|<u>STEP 4: </u><br/>Insert both side of the cable inside S2 and S0 until they sprout out from the palm side|
 | picture on real icub  | !!!!TIP: once both side of the cables are out at the base of the palm, you may find convenient to verify the turns around the pulley ( you could use 2 pieces of foam hear plugs to prevent the cable from unwired itself) - Make sure the plate is screwed back into normal state |
-|<img src="/../img/HAND_WRIST_V2/Thumb2.png"><br/><img src="/../img/HAND_WRIST_V2/Thumb3.png">|<u>STEP 5: </u><br/>The cable from S0 goes directly into hole T1<br/>the cable from S2 makes **1 FULL TURN** around the pulley before going into T2|
+|<img src="/../img/HAND_WRIST_V2/L_Th_holes.png">|<u>STEP 5: </u><br/>The cable from S0 goes directly into hole T1<br/>the cable from S2 makes **1 FULL TURN** around the pulley before going into T2|
 | <img src="/../img/HAND_WRIST_V2/L_Th_set_screws1.png"><br/><img src="/../img/HAND_WRIST_V2/L_Th_set_screws2.png">|<u>STEP 6: </u><br/>Use a 0.7mm hexagonal key (or screwdriver) to block the cables|
-||!!!TIP: you may find useful to first block one side and afterwards use a plier to exert a strong pulling of the wire to tense this other side of the cable and block it. Repeat the the same process on the other side.<br/>!!!!CONGRATULATIONS YOU ARE DONE!!!|
+||!!!TIP: you may find useful to first block one side and afterwards use a plier to exert a strong pulling of the wire to tense this other side of the cable and block it. Repeat the the same process on the other side.<br/>|
+| |!!!!CONGRATULATIONS YOU ARE DONE!!!|
 
 
 
