@@ -22,9 +22,9 @@ Here is a table showing the **visual** differences of iCub from version 1 to 2.5
 
 | iCub V1                                                      | iCub V2                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="/../img/index/iCubV1.png" heigth="500px" width=auto> | <img src="/../img/index/iCubV2.png" heigth="500px" width=auto> |
+| <img src="../img/index/iCubV1.png" heigth="500px" width=auto> | <img src="../img/index/iCubV2.png" heigth="500px" width=auto> |
 | **iCub V2.5**                                                | **iCub V2.5 - Backpack**                                     |
-| <img src="/../img/index/iCubV2_5.png" height="500px" width=auto> | <img src="/../img/index/iCubV2_5_BP.png" height="500px" width=auto> |
+| <img src="../img/index/iCubV2_5.png" height="500px" width=auto> | <img src="../img/index/iCubV2_5_BP.png" height="500px" width=auto> |
 
 
 
