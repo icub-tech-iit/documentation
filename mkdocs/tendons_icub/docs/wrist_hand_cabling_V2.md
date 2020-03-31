@@ -1,9 +1,9 @@
 !!! NOTE "SUM UP"
     Updating the forearm in V2 had had for consequences the following changes compared to the wiring of the V1 - Please refer to this manual to compel with the new attributes.
 
-# 1.	WRIST
+## 1.	WRIST
 
-## 1.1  WRIST TENDONS LENGTH
+### 1.1  WRIST TENDONS LENGTH
 
 Here is the list of the 10 tendons needed to build the wrist movements.
 
@@ -28,8 +28,8 @@ Here is the list of the 10 tendons needed to build the wrist movements.
 
 </center>
 
-## 1.2 Wrist motor tendons
-### 1.2.1	Location and Identification
+### 1.2 Wrist motor tendons
+#### 1.2.1	Location and Identification
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Right Forearm** building the active part of the wrist tendons.
 
 <center>
@@ -44,7 +44,7 @@ From the pictures below you will be able to locate and identify the 8 tendons in
 
 <center><img src= "../img/HAND_WRIST_V2/L_4RM_B.png" width = 130%></center>
 
-### 1.2.2	Cabling
+#### 1.2.2	Cabling
 
 In the case you found out 1 of the 8 first cables of the wrist broken, here the sequence  you need to follow to restore the it.
 
@@ -61,7 +61,7 @@ In the case you found out 1 of the 8 first cables of the wrist broken, here the 
 | <img src= "../img/HAND_WRIST_V2/Wrist_cables_right.png" width = 130%><br/> | <u>**RIGHT ARM**</u><br/><br/>The **BLUE** cables for the Left Forearm are:<br><center>**3** and **8**</center><br/><br/><br/>The **RED** cables for the Left Forearm are:<br/><center>**4** and **7**</center><br/> |
 | put a picture showing that | <u>STEP 6:</u> <br/>put a 2 tie wraps one for each side (or cable) in order to prevent them from getting untwisted. |
 | picture motor almost closed on support | <u>STEP 7:</u><br/>Put back in place the motor with its 2 screws M2.5x10. Leave 1mm in between the motor and the support. We will cover this aspect later |
-| <img src= "../img/HAND_WRIST_V2/W_pulley_top.png" width = 130%><br/><img src= "../img/HAND_WRIST_V2/W_pulley_Ext.png" width = 130%><br/><img src= "../img/HAND_WRIST_V2/W_pulley_Int.png" width = 130%> | <u>STEP 8:</u><br/>let's wire the wrist pulleys (either for 1,2 or 5,6)<br/>Here is the detail wiring for the left arm, please mirror it for the right arm<br/>The wiring is quite simple |
+| <img src= "../img/HAND_WRIST_V2/W_pulley_Top.png" width = 130%><br/><img src= "../img/HAND_WRIST_V2/W_pulley_Ext.png" width = 130%><br/><img src= "../img/HAND_WRIST_V2/W_pulley_Int.png" width = 130%> | <u>STEP 8:</u><br/>let's wire the wrist pulleys (either for 1,2 or 5,6)<br/>Here is the detail wiring for the left arm, please mirror it for the right arm<br/>The wiring is quite simple |
 |  | We are Finally getting to an end. Now that you know how to rewire every single one of the wrist cable you need to insert the tensioners. <br/>Let's make the example of the 4 cables 1 to 4. |
 | <img src= "../img/HAND_WRIST_V2/cable_IN1.png" width = 130%><br/><img src= "../img/HAND_WRIST_V2/cable_IN2.png" width = 130%><br/> | <u>STEP 9:</u><br/>Remove the tie wrap at the level of the motor wrist,<br/>for let's say cable 3. Open one side of the tensioner <br/>and start putting the ring, then the threaded piece ,<br/>of the tensioner, finish by screwing the ring onto <br/>the threaded piece. Do the exact same for the cable 1. |
 | <img src= "../img/HAND_WRIST_V2/cable_IN3.png" width = 130%><br/> | <u>STEP 10:</u><br/>Screw both pieces into the main tensioner part - Let's say just 2 threads on both side, just to make it hold until we tense. |
@@ -72,9 +72,9 @@ In the case you found out 1 of the 8 first cables of the wrist broken, here the 
 
 
 
-## 1.3  Wrist - Passive tendons
+### 1.3  Wrist - Passive tendons
 
-### 1.3.1	Location and Identification
+#### 1.3.1	Location and Identification
 
 From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
 
@@ -85,7 +85,7 @@ From the pictures below you will be able to locate and identify the 2 tendons in
 | <img src="../img/HAND_WRIST_V2/R_cabling_wrist2.png" > | <img src="../img/HAND_WRIST_V2/L_cabling_wrist2.png" > |
 | <img src="../img/HAND_WRIST_V2/R_cabling_wrist3.png" > | <img src="../img/HAND_WRIST_V2/L_cabling_wrist3.png" > |
 
-### 1.3.2	Cabling
+#### 1.3.2	Cabling
 
 Here the sequence  you need to follow to restore the 2 little cables from the base of the wrist - we will write down the procedure using the left arm as base pictures but used the previous pictures above to mirror the explanations.
 
@@ -97,9 +97,9 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 
 
 
-# 2.	Hand Wiring
+## 2.	Hand Wiring
 
-## 2.1 Location
+### 2.1 Location
 
 <center>
 	<img src= "../img/HAND_WRIST_V2/hand_motors.png" width = 130%>
@@ -111,7 +111,7 @@ The minimum requirement to start recabling those 2 joints is:
 | 1815    | CG077063 | Stainless steel micro-cable, cable construction 7x7mm, nom. diameter  0,63mm, not coated, AISI 316 |
 
 
-## 2.2  Thumb Oppose
+### 2.2  Thumb Oppose
 
 As usual, you will find here after the instructions for rewiring the Thump oppose joint at base of the Left Hand
 
@@ -129,4 +129,4 @@ As usual, you will find here after the instructions for rewiring the Thump oppos
 
 
 
-## 2.3	Finger's Abduction
+### 2.3	Finger's Abduction

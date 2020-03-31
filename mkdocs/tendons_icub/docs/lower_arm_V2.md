@@ -96,7 +96,7 @@ The minimum requirement to start recabling distal joints is:
 | --- | --- |
 | <img src='../GIF/lower_arm/cable_in_hole.gif' width=200><br /> <img src='../img/lowerArm/shaft_hole.png' width=200><br /> | 1. Insert the knot until it remains inside the socket of the pulley |
 | <img src="../img/lowerArm/hole_TH_V2.png" width=600> | 2. Just insert the cable inside the hole (red circle) |
-| <img src="/img/lowerArm/wir_mot_1-2_TH_V2.png" width=00> <img src="../img/lowerArm/wir_mot_1-1_TH_V2.png" width=400> | 3. The cable should get **OUT** from here - BE PATIENT!!! |
+| <img src="../img/lowerArm/wir_mot_1-2_TH_V2.png" width=00><br/> <img src="../img/lowerArm/wir_mot_1-1_TH_V2.png" width=400> | 3. The cable should get **OUT** from here - BE PATIENT!!! |
 | <img src="../img/lowerArm/wir_TH_V2_base.png" width=400> | 4. The cable will then run inside the sheath until it reaches the base of the thumb |
 | <img src="../img/lowerArm/wir_TH_V2_along.png" width=400> | 5. Wire this way |
 | <img src="../img/lowerArm/TH_K.png" width=400> | 6. Make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) |
