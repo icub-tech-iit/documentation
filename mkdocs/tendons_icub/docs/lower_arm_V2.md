@@ -1,6 +1,6 @@
 # HOWTO REPAIR ANY CABLE FROM A FOREARM or HAND - VERSION 2
 
-## LOWER ARM VERSION 2
+## 1. LOWER ARM VERSION 2
 
 > Let's have an overview of the mechanical CAD from different view angles.
 
@@ -9,7 +9,7 @@
 | <img src ="../GIF/lower_arm/L-4RM-V2.gif" height = 600px> | <img src ="../GIF/lower_arm/R-4RM-V2.gif" height = 600px> |
 
 
-### <u>Rules of Thumb for a good start:</u>
+### <u>1.1. Rules of Thumb for a good start:</u>
 
 > 1 - Visual inspection (remove the covers - around the forearm and above the hand - and look for broken cables)
 >
@@ -19,7 +19,7 @@
 >
 > 4 - Follow the instructions below to repair
 
-### Do I need to disconnect the Lower Arm and HOWTO?
+### 1.2. Do I need to disconnect the Lower Arm and HOWTO?
 
 The answer is:
 
@@ -30,7 +30,7 @@ The answer is:
 
 Please refer to this following [**link**](remove_V2.md) to get know HOWTO disconnect the Lower Arm V2.
 
-## Distal Joints
+## 2. Distal Joints
 
 If ever you realize that one of the following cable is broken bear in mind:
 
@@ -44,7 +44,7 @@ There are 2 types of distal Joint on this version of the forearm:
 
   > Ring and Pinkie Fingers
 
-### Where are those cables located?
+### 2.1 Where are those cables located?
 
 Here is the table to locate all the distal joints on a forearm (**left** in this case)
 
@@ -64,9 +64,9 @@ Here is the table to locate all the distal joints on a forearm (**left** in this
 | ------------------------------------------------------- | ------------------------------------------------------- |
 | <img src ="../img/lowerArm/distals-R-V2.png" width=400> | <img src ="../img/lowerArm/distals-L-V2.png" width=400> |
 
-### Let's start wiring!!!
+### 2.2 Let's start wiring!!!
 
-#### 	1. Preparation
+#### 		1. Preparation
 
 The minimum requirement to start recabling distal joints is:
 
@@ -74,7 +74,7 @@ The minimum requirement to start recabling distal joints is:
 | ------- | -------- | ------------------------------------------------------------ |
 | 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
-#### 	2. HOWTO create a knot
+#### 		2. HOWTO create a knot
 
 |                                                         | STEP BY STEP GUIDE FOR A GOOD KNOT                           |
 | ------------------------------------------------------- | ------------------------------------------------------------ |
@@ -86,7 +86,7 @@ The minimum requirement to start recabling distal joints is:
 
 
 
-#### 	3. Wiring Explanation
+#### 		3. Wiring Explanation
 
 #### <u>THUMB</u>
 
@@ -146,9 +146,9 @@ The minimum requirement to start recabling distal joints is:
 
 
 
-## Proximal Joints
+## 3. Proximal Joints
 
-### Where are those cables located?
+### 3.1. Where are those cables located?
 
 | LEFT FOREARM                                                 | RIGHT FOREARM                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -165,7 +165,7 @@ If you ever realize that one of the following cable is broken bear in mind:
 
 
 
-### Let's start wiring!!!
+### 3.2. Let's start wiring!!!
 
 #### 	1. Preparation
 
