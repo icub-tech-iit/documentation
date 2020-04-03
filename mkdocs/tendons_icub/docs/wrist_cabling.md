@@ -138,12 +138,22 @@ Here are the instructions for recabling the Fingers Abduction joint of the Left 
 | <img src ="../img/wrist/Pulley_P1.png" width=300>            | Twine the cable around the pulley at the base of the index finger. Pass the cable ending trough the hole H7 and exit from H8. Block the cable on the pulley with the screw S9. |
 | <img src ="../img/wrist/T2_H4.png" width=300>                | Going back to the other cable extremity inserted in the sheath T2, position the extremity of T2 on the socket in correspondence of the hole H4. Finally, insert the cable in the hole. |
 | <img src ="../img/wrist/Pulley_P2.png" width=300>            | Twine the cable around the pulley at the base of the pinkie finger. Pass the cable ending trough the hole H9 and exit from H10. Block the cable on the pulley with the screw S10. |
-| <img src ="../img/wrist/Little_Pulley.png" width=300> <img src ="../img/wrist/H11_H12.png" width=300> | Twine the cable around the little pulley and then around the pulley at the base of the ring finger. Pass the cable ending trough the hole H11 and exit from H12. Block the cable on the pulley with the screw S11. |
-|                                                              |                                                              |
+| <img src ="../img/wrist/Little_Pulley.png" width=300> <img src ="../img/wrist/H11_H12.png" width=300> | Twine the cable around the little pulley and then around the pulley at the base of the ring finger. </br> </br> Pass the cable ending trough the hole H11 and exit from H12. Block the cable on the pulley with the screw S11. |
+| <img src ="../img/wrist/H5_H6.png" width=300>                | Pass the cable trough the hole H5 and the sheath T4. Position the extremity of the sheath on the socket of H5. Note: the tube extremity should be inserted correctly in its socket. </br></br> Pass the cable trough the hole H6 and position the extremity of T4 on the socket of H6. |
+| <img src ="../img/wrist/H13_H14.png" width=300>              | At this point we close the loop, reaching again the first pulley located at the base of the index. </br> </br>Twine the cable around the pulley and pass the cable ending trough the hole H13 and exit from H14. Block the cable on the pulley with the screw S12. |
+|                                                              | Now unscrew all the screws blocking the cable on the pulleys (S9, S10, S11 and S12). Note that this operation can be done only at a specific configuration of the fingers. At this configuration the screws are accessible thanks to suitable holes on the palm. |
+| <img src ="../img/wrist/PulleyP1_final.png" width=300>       | In the picture you can see the final cable configuration on the first pulley at the base of the Index. The 2 parts of the cabled are represented by different colors. Now tension the cable: </br> 1) Pull the blue cable from its ending. Check that the sheath is inside its sockets at H1 and H3 and block the cable extremity with the screw S9. </br> 2) Pull the red cable from its ending. Check that the sheath is inside its sockets at H4, H5 and H6. Block the cable with the screw S10, S11 and S12. |
+|                                                              | !!!!CONGRATULATIONS YOU ARE DONE!!!                          |
 
+!!! TIP
+   
 
+    Tensioning the cable is very important. Even when all the screws are not tight, it may result difficult to tension the cable in all of its parts. This is due to the sharp edges of the pulley which do not allow a uniform distribution of the tension.
+    
+    <img src ="../img/hand/TIP_shard_edges.PNG" height = 300px>
 
-
+!!! TIP
+    For the Fingers Abduction always start from the index as previously shown.
 
 
 
