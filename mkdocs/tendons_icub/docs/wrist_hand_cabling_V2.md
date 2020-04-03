@@ -104,7 +104,7 @@ Here the sequence  you need to follow to restore the 2 little cables from the ba
 <center>
 	<img src= "../img/HAND_WRIST_V2/hand_motors.png" width = 130%>
 </center>
-The minimum requirement to start recabling those 2 joints is:
+The minimum requirement to start re-cabling those 2 joints is:
 
 | IITCODE | Alias    | Description                                                  |
 | ------- | -------- | ------------------------------------------------------------ |
@@ -117,7 +117,7 @@ As usual, you will find here after the instructions for rewiring the Thump oppos
 
 | pictures | step by step guide|
 | --- | --- |
-| <img src="../img/HAND_WRIST_V2/L_hand_w_palm.png" width = 110%><br/> | <u>STEP 1:</u> </br>The only way to start correctly this wiring is to remove the palm.<br/> Please remove the 3 screws M2x6 inside the palm (circled in red) and the 2 screws M2x4 at base of the wrist<br/> |
+| <img src="../img/HAND_WRIST_V2/L_Hand_w_palm.png" width = 110%><br/> | <u>STEP 1:</u> </br>The only way to start correctly this wiring is to remove the palm.<br/> Please remove the 3 screws M2x6 inside the palm (circled in red) and the 2 screws M2x4 (circled in blue) at base of the wrist<br/> |
 |<img src="../img/HAND_WRIST_V2/L_Hand_wo_palm.png" width = 110%><br/><img src="../img/HAND_WRIST_V2/L_T_opp_1.png" width = 100%><br/>|<u>STEP 2</u><br/>we will now focus on the wiring along the pulley.<br/>Cut 50 to 60cm of ITTCODE 1815.<br/>Move with a screwdriver the pulley in order to have the hole flat horizontally.<br/>Insert the cable, equilibrate evenly the cable on both side of the pulley|
 |<img src="../img/HAND_WRIST_V2/L_T_opp_2.png" width = 100%><br/>| <u>STEP 3:</u><br/>Make <br/>1 turn around the pulley CCW to go into S2<br/>ball-bearing side<br/> 2 turns around the pulley CW to reach S0<br/>motor side<br/>!!!TIP: You may find convenient to remove the plate to round the cable around the pulley more easily |
 |<img src="../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"><br/><img src="../img/HAND_WRIST_V2/L_Th_holes_S.png">|<u>STEP 4: </u><br/>Insert both side of the cable inside S2 and S0 until they sprout out from the palm side|
@@ -130,3 +130,34 @@ As usual, you will find here after the instructions for rewiring the Thump oppos
 
 
 ### 2.3	Finger's Abduction
+
+PREFACE: This cable is THE most complicated to replace - rewire, mainly because you need tounmount a lot of parts BUT in the other hand it is also the most reliable - You may never need to replace it.
+
+
+
+| Pictures                                                     | step by step guide                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="../img/HAND_WRIST_V2/remove-dorso.png" width = 110%><br/> | <u>STEP 1:</u><br/>remove the screw M2x6 holding the dorsum cover and turn upside down the cover from the external part. The dorsum cover should get removed. |
+| <img src="../img/HAND_WRIST_V2/L_Hand_w_palm.png" width = 110%><br/> | <u>STEP 2:</u></br>The only way to start correctly this wiring is to remove the palm.<br/>Please remove the 3 screws M2x6 inside the palm (circled in red) and the 2 screws M2x4 (circled in blue) at base of the wrist<br/> |
+| <img src="../img/HAND_WRIST_V2/set-screws-f-abd.png" width = 110%><br/><img src="../img/HAND_WRIST_V2/zoom-set-screws-f-abd.png" width = 110%> | <u>STEP 3:</u><br/>remove the overall set screws<br/>use a 0.7mm hexagonal - screwdriver or key. |
+|                                                              | <u>STEP 4:</u><br/>remove the overall remaining piece of the broken cable before starting to restore it.<br/>Inspect in side the cage - remove the 2 screw M1.6x5<br/>Let's get to business and Let's  start wiring! |
+| <img src="../img/HAND_WRIST_V2/L-f-abd-wiring.png" width = 110%><br/><img src="../img/HAND_WRIST_V2/L-f-abd-wiring1.png" width = 110%> | <u>STEP 5:</u><br/>start wiring<br/>2 Full Turns (blue) CCW around the pulley and gets out <br/>into tube T2<br/>1 Full Turn (red) CW around the pulley and gets out into tube T0 |
+|                                                              | !!!TIP!!! it could be a good idea to block the wiring around the pulley thx to some foam earplug or some paper |
+| <img src="../img/HAND_WRIST_V2/L_hand_f_abd_new.png" width = 110%> | Here is a picture of the overall path of the cable inside the 3 tubes constituting the path of the cable. |
+| <img src="../img/HAND_WRIST_V2/Unmount-board1.png" width = 110%> | <u>STEP 6:</u><br/>remove every single board above the knuckle |
+| <img src="../img/HAND_WRIST_V2/Unmount-board2.png" width = 110%> | <u>STEP 6a:</u><br/>remove the screw and flip over the board with the little chipsets . |
+| <img src="../img/HAND_WRIST_V2/Unmount-board3.png" width = 110%><br/><img src="../img/HAND_WRIST_V2/Unmount-board4.png" width = 110%> | <u>STEP 6b:</u><br/>1. Unplug every single chipset from the main board.<br/>!!!TIP: Please write down with a marker the initial of the finger chipset you unplug - it sometimes messy when remounting everything to find out which chipset is for which finger<br/>2. remove the power connector<br/>3. remove the 3 screws (2 M1x5 and 1 M1.6x6)<br />4. With caution please remove the MAIS Board - on the bottom side of the board there is an inductor that sometimes got broken when remove carelessly. |
+| <img src="../img/HAND_WRIST_V2/Unmount-board5.png" width = 110%> | <u>STEP 6c:</u><br/>1. remove the 2 screws M1.6x6<br/>       |
+|                                                              | Let's start with wiring cable from T2                        |
+| <img src="../img/HAND_WRIST_V2/L-f-abd-wiring2.png" width = 110%><br/> | <u>STEP 7:</u><br/>Here is the picture of the routing of the cable you need to realize<br/>To do that it is necessary to allow the pulleys to spine around their pin |
+| <img src="../img/HAND_WRIST_V2/R_P_pins.png" width = 110%>   | <u>STEP 7a:</u><br/>**PINKIE FINGER**<br/>1. we need to untighten the axe screws (NOT REMOVED) <br/>on both side until the pulley move sideways <br/>accordingly with the motion of the finger you should be able to insert the cable into it.<br/>2. Put back on the axe screws and retighten them |
+|                                                              | <u>STEP 7b:</u><br/>**RING FINGER**<br/>Same as the Pinkie finger.<br/>Finally insert the cable into the hole leading to T4 |
+|                                                              | <u>STEP 8:</u>reput back on the screws holding fingers       |
+|                                                              | <u>STEP 1:</u>T between anulare e indice                     |
+|                                                              | <u>STEP 1:</u>start to insert the set screws just in order to block the fingers |
+|                                                              | <u>STEP 1:</u>close 1 set screw from the indice and use plier to pull wire and close 2nd set screw of index |
+|                                                              | close every single                                           |
+|                                                              | <u>STEP 6:</u><br/>Let's start to wire the simplest part of the cable (red)push the cable until it reach the internal part of the Index base T verso indice + giro |
+| <img src="../img/HAND_WRIST_V2/L_hand_f_abd_new.png" width = 110%> |                                                              |
+|                                                              |                                                              |
+

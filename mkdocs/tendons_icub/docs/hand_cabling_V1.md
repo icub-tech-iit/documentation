@@ -175,11 +175,10 @@ TOOLS TO BE USED
 >S0 goes out from the thumb internal side
 >
 
-<center><img src ="../img/HAND_WRIST_V2/Opposite_palm-view.PNG" height = 500px></center>
+<center><img src ="../img/HAND_WRIST_V2/Opposite_palm-view.png" height = 500px></center>
 
 <center><img src ="../img/hand/Fig_4-14.PNG" height = 300px>
 <img src ="../img/hand/Fig_4-13.PNG" height = 300px></center>
-
 
 
 !!! note
@@ -206,7 +205,7 @@ TOOLS TO BE USED
  
 
 >1. Take a piece of non coated cable (more or less 40cm).
-2. Pass the cable trough the hole (H) in the pulley.      Optionally you can block the cable on the pulley putting a drop of cyanoacrylic glue into the hole.
+2. Pass the cable trough the hole (H) in the pulley.      Optionally you can block the cable on the pulley putting a drop of cyano-acrylic glue into the hole.
 3. Twine the cable on the pulley. The number of turns around      the pulley has to be decided on the basis of the entrance and exit holes      (H1 and H2): the cable should enter the holes tangentially.
 4. Insert the cable extremities, E1 and E2, in holes H1 and      H2 respectively.
 5. Pass E1 trough the tube T1. Pass E2 trough T2. Position      the extremities of the tube on the sockets of the holes H1 and H2 in the      motor support. Note: the tube extremity should be inserted correctly in      its socket.
@@ -577,8 +576,8 @@ Take a piece of coated cable (more or less 40cm).
 ​    
 ​    <img src ="../img/hand/Fig_4-45.PNG" height = 300px>
 ​    
-    Tense the cable, mark the end of the cable inside the hole H12 from picture 4-48, close the fingers in order to retrieve some slack in the cable and make a knot at the level of the mark.
-    
+​    Tense the cable, mark the end of the cable inside the hole H12 from picture 4-48, close the fingers in order to retrieve some slack in the cable and make a knot at the level of the mark.
+​    
     Cabling for the motor side
     
     Put an about 6 mm thickness piece in between the slider and the  ergal part, see following picture.
