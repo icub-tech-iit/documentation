@@ -62,14 +62,14 @@ nav:
                 - Repair Phase:
                     - Disconnect Lower_Arm: 'remove.md'
                     - Lower Arm V1 : 'lower_arm_V1.md'
-                    - Wrist Hand Cabling V1: 'wrist_cabling.md'
+                    - Wrist & Hand Cabling V1: 'wrist_cabling.md'
             - Version 2 :
                 - Building Phase:
                     - HOWTO CABLE & NEEDED PARTS: 'cabling_V2.md'
                 - Repair Phase:
                     - Disconnect Lower_Arm: 'remove.md'
                     - Lower Arm V2: 'lower_arm_V2.md'
-                    - Wrist Hand Cabling V2: 'wrist_hand_cabling_V2.md'
+                    - Wrist & Hand Cabling V2: 'wrist_hand_cabling_V2.md'
         - Waist, Leg and Ankle: 'waist_legs.md'
 
     - License & thx: 'license.md'
