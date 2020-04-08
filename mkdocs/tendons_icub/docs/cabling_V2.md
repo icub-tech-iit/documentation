@@ -13,7 +13,7 @@
 
 Here you will find the overall tables describing the necessary parts needed when routing the cables onto the 11 motors (12 motors inside the Lower Arm but just 11 are cabled) and the mandatory sheaths to be used in the correct place.
 
-### 	1.1	Finger sheaths
+### 		1.1	Finger sheaths
 
 | IITCODE | Alias       | Description  |
 | ------- | ----------- | ------------ |
@@ -24,7 +24,7 @@ Here you will find the overall tables describing the necessary parts needed when
 !!!DANGER
     inside sheath 13963 please **DO NOT (NEVER) USE** Teflon sheath!!!
 
-#### 		1.1.1	Sheaths length & labelling 
+#### 				1.1.1	Sheaths length & labelling 
 
 Please refer to this table to find out which sheath you need to install at the right place and the correct label to add on top of it:
 
@@ -60,14 +60,16 @@ Please refer to this table to find out which sheath you need to install at the r
 !!! WARNING
     For the proximal sheath, please label BOTH the start of the sheath (base of the motor at the level of the elbow) and at the end of it.
 
-### 	1.2   Finger & hand cables
+
+
+### 		1.2	Finger & hand cables
 
 | IITCODE | Alias    | Description |
 | ------- | -------- | --------------- |
-| 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
-| 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
+| 1815    | CG077063 | Stainless steel micro-cable, cable construction 7x7mm, nom. diameter 0,63mm, not coated, AISI 316 |
+| 2391    | U7194561 | Stainless steel micro-cable, cable construction 7x19mm, nom. diameter 0.45mm, outer diameter 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
-#### 		1.2.1	Cables length
+#### 				1.2.1	Cables length
 
 Please refer to this table to find out which cable you need to install at the right place:
 
@@ -82,13 +84,13 @@ Please refer to this table to find out which cable you need to install at the ri
 | Middle  | Distal    | 40          | 2391            |
 | Ring    | Distal    | 40          | 2391            |
 | Pinkie  | Distal    | 40          | 2391            |
-| Fingers | Abduction | 50          | 1815            |
+| Fingers | Abduction | 50/60       | 1815            |
+
+
 
 ## 2	HOW TO CABLE - FINGERS & HAND
 
-### 	2.1	Proximal joints
-
-<a name="prox"></a>
+### 		2.1	Proximal joints
 
 The 3 proximal joints : 
 
@@ -107,7 +109,7 @@ are all wired with the cable 0.63mm uncoated from CARLSTAHL GmbH as per the foll
 
 | IITCODE | Alias    | Description  |
 | ------- | -------- | ------- |
-| 1815    | CG077063 | Stainless steel micro-cable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
+| 1815    | CG077063 | Stainless steel micro-cable, cable construction 7x7mm, nom. diameter 0,63mm, not coated, AISI 316 |
 
 Every sheath in which the cable pass through (+ and - ) is made of:
 
@@ -121,11 +123,9 @@ Every sheath in which the cable pass through (+ and - ) is made of:
 !!!NOTE
     IITCODE  13963 is alternative to the 4545 (old one - not in use ANYMORE) and it was introduced only for cost efficiency.
 
-Please follow this [link](lower_arm_V2.md) for an extended HOWTO route the cable and go to the *Proximal Joints* section.
+Please follow this [link](lower_arm_V2.md#3-proximal-joints) for an extended HOWTO route the cable.
 
-#### 		2.1.1	THUMB peculiarity
-
-<a name="prox_thumb"></a>
+#### 				2.1.1	THUMB peculiarity
 
 The **THUMB** is a finger a bit particular in the wiring compared to the index and the middle because - as it is the finger with the most degrees of freedom- it needs to pass a series of pulleys at the base of it in order to add also the thumb oppose joint movement inside the articulation.
 
@@ -145,15 +145,13 @@ Is needed for the 3 pieces circled in red on the picture above. Here are the spe
 | 2      | prox short (-) | 11          |
 | 3      | prox short (+) | 9           |
 
-Please follow this [link](lower_arm_V2.md) for an extended HOWTO route the cable and go to the *Proximal Joints* section.
+Please follow this [link](lower_arm_V2.md#3-proximal-joints) for an extended HOWTO route the cable.
 
 Once the 3 proximal joints are cabled, the lateral view of the forearm should look like the picture below. The 6 sheaths are pointed by the red arrows.
 
 <img src="../img/lowerArm/L-4RM-sheats-prox.png">
 
-<a name="distal"></a>
-
-### 	2.2	Distal joints
+### 		2.2	Distal joints
 
 The 5  proximal joints (theoretically 5 but in practice just 4 motors need to be wired): 
 
@@ -170,22 +168,22 @@ Located here:
 
 Are all wired with the cable 0.61mm coated from CARLSTAHL GmbH as per the following table:
 
-| IITCODE | Alias    | Description  |
-| ------- | -------- | ------------ |
-| 2391    | U7194561 | Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
+| IITCODE | Alias    | Description                                                  |
+| ------- | -------- | ------------------------------------------------------------ |
+| 2391    | U7194561 | Stainless steel micro-cable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
 Every sheath is made of both the following pieces:
 
 | IITCODE | Alias       | Description |
 | ------- | ----------- | ----------- |
 | 2375    | SHEATH      | Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm |
-|2386	  |TEFLON_SHEATH| Insulating sheath, AWG22, inner dia 0,709 -0/+0,102 mm, material thickness 0,152 -0/+0,102mm, teflon, transparent |
+|2386	  |TEFLON_SHEATH| Insulating sheath, AWG22, inner dia 0,709 -0/+0,102 mm, material thickness 0,152 -0/+0,102mm, Teflon, transparent |
 
-Please follow this [link](lower_arm_V2.md#) for an extended HOWTO route the cable.
+Please follow this [link](lower_arm_V2.md#2-distal-joints) for an extended HOWTO route the cable.
 
-<a name="thumb_opp"></a>
 
-### 	2.3	Thumb Oppose
+
+### 		2.3	Thumb Oppose
 
 > To build the thumb oppose you just need 2 pieces of the sheath IITCODE 13963
 
@@ -210,11 +208,9 @@ Please follow this [link](lower_arm_V2.md#) for an extended HOWTO route the cabl
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"> | <img src="../img/HAND_WRIST_V2/R_Th-opp-d-view.png" width="700"> |
 
-Please follow this [link](wrist_hand_cabling_V2.md#thumb_opp) for an extended HOWTO route the cable.
+Please follow this [link](wrist_hand_cabling_V2.md#22-thumb-oppose) for an extended HOWTO route the cable.
 
-<a name="fingers"></a>
-
-### 	2.4	Fingers Abduction
+### 		2.4	Fingers Abduction
 
 > To build the fingers abduction you just need 3 pieces of the sheath IITCODE 2375
 
@@ -240,13 +236,13 @@ Please follow this [link](wrist_hand_cabling_V2.md#thumb_opp) for an extended HO
 | ----------- | -------------- |
 | <img src="../img/HAND_WRIST_V2/L_hand_f_abd_new.png" width=700> | <img src="../img/HAND_WRIST_V2/R_hand_f_abd_new.png" width=700> |
 
-Please follow this [link](wrist_hand_cabling_V2.md#fingers) for an extended HOWTO route the cable.
+Please follow this [link](wrist_hand_cabling_V2.md#23-fingers-abduction) for an extended HOWTO route the cable.
 
-<a name="wrist_tendons"></a>
+
 
 ## 3	HOW TO CABLE - WRIST
 
-### 	3.1 	Wrist tendons length
+### 		3.1 	Wrist tendons length
 
 Here is the list of the 10 tendons needed to build the wrist movements:
 
@@ -274,7 +270,7 @@ Here is the list of the 10 tendons needed to build the wrist movements:
 </center>
 
 
-### 	3.2	Construction table
+### 		3.2	Construction table
 
 The overall cables of the wrist are all build from IITCODE 4482 (of Length defined in the table above) and 2 crimps IITCODE 4722, here is the table reporting the specifics of those pieces:
 
@@ -285,7 +281,7 @@ The overall cables of the wrist are all build from IITCODE 4482 (of Length defin
 
 
 
-### 	3.3	Right Forearm - Wrist motor tendons
+### 		3.3	Right Forearm - Wrist motor tendons
 
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Right Forearm** building the active part of the wrist tendons.
 
@@ -297,9 +293,9 @@ From the pictures below you will be able to locate and identify the 8 tendons in
 
 </center>
 
-To get a more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#wrist_motor)
+To get a more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#12-wrist-motor-tendons)
 
-### 	3.4	Left Forearm - Wrist motor tendons
+### 		3.4	Left Forearm - Wrist motor tendons
 
 From the pictures below you will be able to locate and identify the 8 tendons inside the **Left Forearm** building the active part of the wrist tendons.
 
@@ -311,11 +307,11 @@ From the pictures below you will be able to locate and identify the 8 tendons in
 
 </center>
 
-To get a more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#wrist_motor)
+To get a more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#12-wrist-motor-tendons)
 
 
 
-### 	3.5	Tensioner - IITCODE 3514
+### 		3.5	Tensioner - IITCODE 3514
 
 <img src = "../img/HAND_WRIST_V2/Tensioner_description.png">
 
@@ -334,7 +330,7 @@ To properly tense the 8 tendons of the Forearm it is mandatory to add the tensio
 </center>
 
 
-### 	3.6	Wrist - Passive tendons
+### 		3.6	Wrist - Passive tendons
 
 From the pictures below you will be able to locate and identify the 2 tendons inside both the **Right Wrist** and **Left Wrist** building the passive part of the wrist movements.
 
@@ -342,4 +338,4 @@ From the pictures below you will be able to locate and identify the 2 tendons in
 | ------------- | -------------- |
 | <img src='../img/HAND_WRIST_V2/R_wrist_label.png' > | <img src='../img/HAND_WRIST_V2/L_wrist_label.png' > |
 
-To get a more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#wrist_passive)
+To get more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#13-wrist-passive-tendons).

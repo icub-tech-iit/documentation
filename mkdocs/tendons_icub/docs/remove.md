@@ -1,13 +1,17 @@
-## 	DO I NEED TO DISCONNECT THE LOWER_ARM V1?
+## 	1	LOWER ARM V1
 
-The answer is :
+### 1.1	DO I NEED TO DISCONNECT THE LOWER ARM VERSION 1?
+
+The **<u>answer</u>** is :
+
+It depends the problem you encounter, Please refer to the table below to find out either you need or not to disconnect the lower arm
 
 | what is broken?                                              | REMOVING OR NOT   |
 | ------------------------------------------------------------ | ----------------- |
 | **distal joint** (Thumb, Index, Middle, Ring or Pinkie distal joints) | **NOT** necessary |
 | **every other joint** (all proximal joints, fingers abduction, Thumb oppose and Ring and Pinkie finger motor joint) | **MANDATORY**     |
 
-## HOW DO I OPERATE 4 LOWER ARM V1?
+### 1.2	HOW DO I OPERATE 4 LOWER ARM V1?
 
 - [ ] skin removal
 
@@ -26,11 +30,13 @@ The answer is :
 
 
 
+## 2	LOWER ARM V2
 
-
-## DO I NEED TO DISCONNECT THE LOWER_ARM V2?
+### 2.1	DO I NEED TO DISCONNECT THE LOWER_ARM V2?
 
 The answer is :
+
+It depends the problem you encounter, Please refer to the table below to find out either you need or not to disconnect the lower arm
 
 | what is broken?                                              | REMOVING OR NOT   |
 | ------------------------------------------------------------ | ----------------- |
@@ -39,7 +45,7 @@ The answer is :
 
 
 
-## HOW DO I OPERATE FOR LOWER ARM V2?
+### 2.2	HOW DO I OPERATE FOR LOWER ARM V2?
 
 - [ ] skin biceps removal
 - [ ] lower part of the upper arm cover removal

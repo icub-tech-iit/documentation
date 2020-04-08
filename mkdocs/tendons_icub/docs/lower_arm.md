@@ -31,7 +31,7 @@ Let's describe the functionality of those motors:
 
 
 
-## VERSION 1
+## 1	VERSION 1
 
 > Let's have an overview of the mechanical CAD from different view angles.
 
@@ -45,7 +45,7 @@ Please follow this [**link**](lower_arm_V1.md) to reach the HOWTO page to repair
 
 
 
-## VERSION 2
+## 2	VERSION 2
 
 > Let's have an overview of the mechanical CAD from different view angles.
 
