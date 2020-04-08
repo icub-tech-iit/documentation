@@ -1,6 +1,6 @@
 # HOWTO REPAIR ANY CABLE FROM A FOREARM or HAND - VERSION 1
 
-## OVERVIEW
+## 1 OVERVIEW
 
 > Let's have an overview of the mechanical CAD from different view angles.
 
@@ -10,7 +10,7 @@
 
 
 
-<u>Rules of Thumb:</u>
+## 1.1 Rules of Thumb for a good start:
 
 > 1 - Visual inspection (remove the covers - around the forearm and above the hand - and check for broken cables)
 >
@@ -20,7 +20,7 @@
 
 
 
-## 1. Distal Joints
+## 2 Distal Joints
 
 There are 2 types of distal Joints on this version of the forearm:
 
@@ -32,7 +32,7 @@ There are 2 types of distal Joints on this version of the forearm:
 
   > Ring and Pinkie fingers
 
-### 1.1 Location
+### 2.1 Location
 
 | WHERE  | JOINT   | POSITION       |
 | ------------ | ---------- | --------------------------- |
@@ -43,7 +43,9 @@ There are 2 types of distal Joints on this version of the forearm:
 !!! danger "WATCH OUT"
     FOR the **Left forearm** : the motor positions are "mirrored" respect to the **right** ones.
 
+### 2.2 Cabling
 
+#### 2.2.1 Preparation
 
 The minimum requirement to start recabling:
 
@@ -51,7 +53,7 @@ The minimum requirement to start recabling:
 | ------- | -------- | ------------------------- |
 | 2391    | U7194561 | Stainless steel micro cable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH |
 
-### 1.2 Let's create the knot on the cable
+#### 2.2.2 Knot creation
 
 |  | STEP BY STEP GUIDE FOR A GOOD KNOT |
 |---|---|
@@ -65,9 +67,9 @@ The minimum requirement to start recabling:
 |---|:-:|
 |<img src="../GIF/lower_arm/cable_in_hole.gif" width = 250>|<img src="../img/lowerArm/shaft_hole.png" width = 250>|
 
-### 1.3 Cabling
 
-#### 1.3.1 Thumb
+
+#### 2.2.3 Thumb
 
 Here you can find a procedure for recabling the Thumb Distal Joint of the right hand of the robot.
 
@@ -85,7 +87,7 @@ Here you can find a procedure for recabling the Thumb Distal Joint of the right 
 
 
 
-#### 1.3.2 Index or Middle
+#### 2.2.4 Index or Middle
 
 Here you can find a procedure for recabling the Index or Middle Distal Joints of the right hand of the robot.
 
@@ -103,7 +105,7 @@ Here you can find a procedure for recabling the Index or Middle Distal Joints of
 |                                                       | Make sure the finger can easily get closed and opened by turning CW and CCW from mid range closing. |
 |                                                       | **FINISHED!!!**                                              |
 
-#### 1.3.3 Ring and Pinkie
+#### 2.2.5 Ring and Pinkie
 
 This 2 fingers actually form a single distal joint and are in fact driven by a single motor.
 
@@ -123,9 +125,9 @@ This 2 fingers actually form a single distal joint and are in fact driven by a s
 | | 8. If you did good, when releasing the fingers they should be symmetrical |
 | |**FINISHED!!!**|
 
-## 2. Proximal Joints
+## 3 Proximal Joints
 
-### 2.1 Location
+### 3.1 Location
 
 Below you can see the back views of the forearms (palm down). The motor positions are mirrored.
 
@@ -139,7 +141,9 @@ If ever you realize that one of the following cable is broken bear in mind:
 !!!TIP
     The start of the wiring for each proximal is identical (wiring around the motor pulley), the index and middle proximal joints are cabled exactly the same way, just the thumb is a bit trickier.
 
+### 3.2 Cabling
 
+#### 3.2.1 Preparation
 
 The minimum requirement to start recabling the proximal joints is:
 
@@ -147,9 +151,7 @@ The minimum requirement to start recabling the proximal joints is:
 | ------- | -------- | ------------------------------------------------------------ |
 | 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
 
-
-
-### 	2.2 Cabling
+#### 3.2.1 Cabling of the motor pulley & fingers
 
 Let' start with the cabling of the motor pulley.
 
