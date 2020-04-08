@@ -1,4 +1,4 @@
-# What does "Lower Arm" mean?
+# Definition of "Lower Arm"
 
 We define the "**Lower Arm**" as the assembly of the **<u>Forearm and the Hand</u>**.
 

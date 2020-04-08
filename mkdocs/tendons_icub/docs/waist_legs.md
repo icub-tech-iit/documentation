@@ -1,7 +1,7 @@
 
 # **Waist, Stand Locker and Legs Cabling Manual**
 
-## <u>Cable construction:</u>
+## 1	Cable construction
 
 <center>![waist](img\waist\cables_all.png)</center>
 <center> 11  : length 709 mm - Diam. 1.5/1.75</center>
@@ -30,110 +30,92 @@
 | 4772    | RC_IIT_019_G_015   |   1   | ANKLE FLEXION CABLE 15 |
 | 6377    | RC_IIT_019_G_016   |   1   | ANKLE FLEXION V2 CABLE 16 |
 
+
+
 > Cable 29 instead is aliased RC_IIT_090_G_005. At the moment this cable is home-made.
 
 
-# WAIST
+## 2	WAIST
 
 > This chapter describes the steps required for the wiring of the cables 11 - 12 - 13 which allow the movement of the waist of the robot, both during construction and in maintenance/repair phase.[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position013)
 
-## WAIST BACK - Cable 11
+
+
+### 2.1	CHEST, BACK and BACK PACK COVERS DISMOUNTING
+
+Whatever the situation you run into, the only way to proceed with the future explanations is get to a starting point that will allow you to proceed with a step by step guide later on.
+
+**HOW TO BE IN SITUATION TO START ROUTING**
+
+| normal state of robot | starting point for wiring |
+| --------------------- | ------------------------- |
+|                       |                           |
+
+
+
+**A - CHEST cover removal**
+
+| pictures | step by step guide                                           |
+| -------- | ------------------------------------------------------------ |
+|          | <u>STEP 1:</u><br/>remove the 6 screws (3 on each side of the skin patch above the chest cover)<br/>if you do not have the skin on torso go on to the nest step. |
+|          | <u>STEP 2:</u><br/>flip the skin in order to access the 2 screws beneath it.<br/>Remove the 2 screws M2xX |
+|          | <u>STEP 3:</u><br/>hold the chest cover and remove the 2 crews at the level of the shoulder<br/> |
+|          | <u>STEP 4:</u><br/>disconnect the the electrical cable connecting the robot to the skin board inside the cover |
+
+
+
+> depending of your version you will need to move sideways the back cover or the backpack.
+> version without backpack
+
+**B1 - NO BACKPACK VERSION**
+
+| pictures                                                     | step by step guide                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+|                                                              | <u>STEP 1:</u><br/>disconnect the power cord from the back of iCub |
+|                                                              | <u>STEP 2:</u><br/>remove the 4 screws to be able to move sideways the back cover |
+| -> picture of the 4 screws to remove to be able to move sideways the back c0ver | <center><u>Final State</u><br/></center>                     |
+
+**B2 - BACKPACK VERSION**
+
+| pictures                                        | step by step guide                                           |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+|                                                 | <u>STEP 1:</u><br/> disconnect the overall cables attached to the back pack -> |
+|                                                 | <u>STEP 2:</u><br/>remove the top cover of the back pack     |
+|                                                 | <u>STEP 3:</u><br/>remove the battery pack (real or dummy either way). -> photo |
+|                                                 | <u>STEP 4:</u><br/>remove the buttons' cache - remove the screw -> photo |
+|                                                 | <u>STEP 5:</u><br/>loose the 2 screws holding the switches/ethernet board and push it inwards |
+|                                                 | <u>STEP 6:</u><br/>remove the stand off buttons              |
+|                                                 | <u>STEP 7:</u><br/>remove the 6 screws holding the back pack in place -> photo CAD |
+|                                                 | <u>STEP 8:</u><br/>remove the backpack -> gif                |
+|                                                 | watch out!!!                                                 |
+|                                                 | <u>STEP 9:</u><br/>disconnect the 3 connectors (2 on switch board - for the power of the 2 fans- and 1 on power board) |
+|                                                 | <u>STEP 10:</u><br/>cut the tie wrap -> the back cover can be left away until we will need to remount it |
+|                                                 | <u>STEP 11:</u><br/>remove the 4 screws holding the battery pack holder -> the holder can move almost freely |
+| FINISH                                          | You are now able to untighten the 2 screws tensioning the cable 13 |
+| -> picture of the space that need to be created |                                                              |
+
+
+
+IF YOU HAVE CABLE 13 BROKEN JUST GO DIRECTLY TO [13](#2.4-waist-top-cable-13)
+
+
+
+### 2.2	WAIST BACK - Cable 11
 
 <center>![waist](img\waist\Waist_cable_11.png)</center>
 !!! WARNING
-    routing cable 11 is quite simple in process of construction because you dont have yet the upper body mounted atop of the waist BUT become particularly tedious in phase of repair due to the presence of this latter.
+    routing cable 11 is quite simple in process of construction because you don't have yet the upper body mounted atop of the waist BUT become particularly tedious in phase of repair due to the presence of this latter. GO TO UPPER [link](#2.1-chest-back-and-back-pack-covers-dismounting)
 
-#### CONSTRUCTION PROCESS OR REPAIR?
+**HOW TO BE IN SITUATION TO START ROUTING**
 
-!!! note "Shortcut"
-    if you just start routing on the lower part **without** the upper body mounting please jump to **PHASE TWO.**
-
-
-
-### **PHASE ONE**
-
-#### HOW TO BE IN SITUATION TO START ROUTING
-
->  The goal of this first phase is to remove the broken cable or simply to create some space  in between 2 pieces in order to pass the cable 11and access the slot where the cable will be fixed so as to proceed on **PHASE TWO**.
+| normal state of robot | starting point for wiring |
+| --------------------- | ------------------------- |
+|                       |                           |
 
 
 
 
 
--> picture of the space that need to be created
-
-
-
-
-
-to do so we need to unwire the cable 13 but **before we need to untighten the screws of cable 13 tensioners. BUT one more time to do so we need to be able to access those screws. and ** here yields the overall problem.
-we will divide the first phase into 4 steps:
-	A:remove the **chest** cover.
-	B:release the **back**  or **backpack** cover (depending on the version of iCub you own).
-	C:remove the pulley in the back of iCub (meaning unwiring the cable 13 to access the screws of the slot where yields the starting point for cable 11 routing)
-	D:create the necessary space in between the 2 pieces (see pictures above) to fit the cable 11.
-	E: retighten the 4 screws holding the upper body
-
-!!!hint
-    the help of another person is quite recommended!!!
-
-
-
-#### A - CHEST cover removal
-
-1- remove the 6 screws (3 on each side of the skin patch above the chest cover)
-2- flip the skin in order to access tje 2 screws beneath it and remove them
-3- hold the chest cover and remove the 2 crews at the level of the shoulder
-4- disconnect the the electrical cable connecting the robot to the skin board inside the cover
-
-depending of your version you will need to move sideways the back cover or the backpack.
-version without backpack
-
-#### B1 - NO BACKPACK VERSION
-
-1- disconnect the power cord from the back of iCub 
-2- remove the 4 screws to be able to move sideways the back cover
--> picture of the 4 screws to remove to be able to move sideways the back cver
-
-#### B2 - BACKPACK VERSION
-
-1- disconnect the overall cables attached to the back pack -> 
-2- remove the top cover of the back pack
-3- remove the battery pack (real or dummy either way). -> photo
-4- remove the buttons' cache - remove the screw -> photo
-5- loose the 2 screws holding the switches/ethernet board and push it inwards
-6- remove the stand off buttons
-7- remove the 6 screws holding the back pack in place -> photo CAD
-8 - remove the backpack -> gif 
-watch out!!!
-9- disconnect the 3 connectors (2 on switch board - for the power of the 2 fans- and 1 on power board)
-10- cut the tie wrap -> the back cover can be left away until we will need to remomunt it
-11- remove the 4 screws holding the battery pak holder -> the holder can move almost freely
-
-You are now able to untighten the 2 screws tensionning the cale 13
-
-#### C - remove the back pulley
-
-1- loose the screws of the tensionners to get some slack on the cable.
-2- remove the central screw of the pulley
-3- use 2 fat screwdrivers to make the pulley popping up.
--> photo needed
-
-!!!WATCH OUT
-    once the pulley or one side of the cable 13 is remove the rotation of the torso is totally free, someone else help is more than welcome.
-
-It requires first to unplug the cable 13 (please follow instructions on how to remove either the back cover or the backpack in order to access the tensionning screws which you will need to untighten). Remove the back pulley RC_TLR_001_P_243 as well as slightly untightened 4 screws to have the possibility to move backward the piece XXX_XXXXX_XXX and create enough space to pass the crimp.
-
-D- 
-!!!DANGER "pictures to add"
-    ![waist](../img/waist/back-pulley.png)
-​    4 screws and sliding piece to pass crimp 
-
-E- RE-ASSEMBLE the upper body by retightening the 4 screws we had to lose to create the space to paas cable 11.
-
-FINISHED
-
-PHASE TWO 
 **Procedure:**
 
 > Take the cable and draw with a marker the middle of it. Place the cable onto the slot of the pulley (Photo 1). Put the squared plate above the cable and secure it with 4 screws with hexagonal head size M2.5x5 (Photo 2)
@@ -160,7 +142,7 @@ PHASE TWO
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position019)
 
 <center>![waist](img\waist\Waist_cable_11_foto9-10.png)</center>
-## WAIST FRONT – Cable 12
+### 2.3	WAIST FRONT – Cable 12
 
 <center>![waist](img\waist\Waist_Front1.PNG)</center>
  **Procedure:**
@@ -184,7 +166,7 @@ PHASE TWO
 > At this point, the cables of the wiring of the waist 11 and 12 is terminated and therefore it is possible to proceed with the positioning of the upper body above the latter.
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position023)
 
-## WAIST TOP – Cable 13
+### 2.4	WAIST TOP – Cable 13
 
 <center>![waist](img\waist\Waist_top.PNG)</center>
 **Procedure:**
@@ -201,12 +183,12 @@ PHASE TWO
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position026)
 
 <center>![waist](img\waist\Waist_top22_23.PNG)</center>
-# LEG CABLING
+## 3	LEG CABLING
 
 > This chapter describes the steps required both during construction and in maintenance phase to route of the cables 14 of the hip of the robot and cables 15 or 16 of the ankle present on robot with lower body version 1.[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position013)
 
 
-## HIP FLEXION – Cable 14
+### 3.1	HIP FLEXION – Cable 14
 
 <center>![waist](img\waist\Wiring-LEG_Cable_14.PNG)</center>
 **Preparation:**
@@ -231,11 +213,9 @@ PHASE TWO
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position028)
 
 <center>![waist](img\waist\Wiring-LEG_26_27_28.PNG)</center>
-# ANKLE CABLING
+### 4.1	ANKLE FLEXION - Cable 15
 
-> Those 2 cables are only one some previous iCub design V1.
-
-## ANKLE FLEXION - Cable 15
+Those 2 cables are only on some previous iCub design V1.
 
 > Follow the following diagram in order to rewire correctly.
 
@@ -251,12 +231,12 @@ PHASE TWO
 |<center>![waist](../img/waist/cover-15.png)</center>|<center>![waist](../img/waist/cover-16.png)</center>|
 
 
-# STAND – FAST ROBOT LOCKER 
+## 5	STAND – FAST ROBOT LOCKER 
 
 > This chapter describes the construction of fast locker to connect the robot to the stand seat
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position029)
 
-## STAND  - Cable 29 
+### 5.1	STAND  - Cable 29 
 
 **Procedure:**
 

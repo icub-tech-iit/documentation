@@ -67,7 +67,7 @@ nav:
                 - Building Phase:
                     - HOWTO CABLE & NEEDED PARTS: 'cabling_V2.md'
                 - Repair Phase:
-                    - Disconnection V2: 'remove.md#2-lower-arm-v2'
+                    - Disconnection V2: 'remove/#2-lower-arm-v2'
                     - Lower Arm V2: 'lower_arm_V2.md'
                     - Wrist & Hand Cabling V2: 'wrist_hand_cabling_V2.md'
         - Waist, Leg and Ankle: 'waist_legs.md'
