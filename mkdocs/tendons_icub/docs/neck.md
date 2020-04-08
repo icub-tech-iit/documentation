@@ -12,12 +12,12 @@ The second release of the neck has 2 tendons and two differential joints to actu
 [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position009a)
 
 
-## 1.1       Mechanical assembly of the 2 tendons:
+## 1	Mechanical assembly of the 2 tendons:
 
 
 
 !!! note "Fast Forward"
-    If you already have a spare tendon from your maintenance kit please jump to 1.2
+    If you already have a spare tendon from your maintenance kit please jump to [2](#2-mounting-procedure)
 
 
 
@@ -48,15 +48,15 @@ Note that the “X” marks in the picture above is the area where the Teflon co
 
  
 
-## 1.2       Mounting Procedure
+## 2	Mounting Procedure
 
-### 1.2.1      Block version identification
+### 	2.1	Block version identification
 | Where yields the difference  | Cable Block 1 | Cable Block 2 |
 |: --------: | :--------------: | :-----------------------------: |
 | <img src ="../img/neck/NECK_V2_block.jpg" width = 300px> |<img src ="../img/neck/NECK_V2_BlockV1.png" width = 300px> | <img src ="../img/neck/NECK_V2_BlockV2.png" width = 300px> |
 | **Tightening System**   | 2 nut screws M2.5x2.5 + Plate  | 2 screws M2x3            |
 
-### 1.2.2      Rules of Thumb (RoT) for a Perfect START:[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position009b)
+### 	2.2	Rules of Thumb (RoT) for a Perfect START:[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position009b)
 **Blocking**
 
 >Always block the cable in the peeled off Teflon section.
@@ -86,7 +86,7 @@ Note that the “X” marks in the picture above is the area where the Teflon co
 
 ![plate_trick](../img/neck/magnet_plate.png)
 
-### 1.2.3        Route Cable ”A”
+### 	2.3	Route Cable ”A”
 
  ![testa icubV2](../img/neck/ICUB_HEAD_Wiring_front_rear_view.png)
 
@@ -98,7 +98,7 @@ Note that the “X” marks in the picture above is the area where the Teflon co
 Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno alla puleggia (1) e poi girare attorno alla   puleggia (2) per poi finire sulla puleggia (3) fino ad agganciare il crimp   all’interno del tensionner. Usare la puleggia **Y** per poter recuperare più cavo   per continuare l’altro lato del cavo.   L’altra parte del cavo e’ tutto   sommato facile da posizionare, semplicemente fare ¾ giro della pullegia (1)   e agganciare il crimp dentro il tensionner della puleggia (4).
 -->
 
-### 1.2.4        Route Cable “B”
+### 	2.4	Route Cable “B”
 
 ![ICUB_HEAD_Wiring_B](../img/neck/ICUB_HEAD_Wiring_B.png)
 
@@ -111,7 +111,7 @@ Iniziare dalla parte del cavo più lungo,   fargli fare un ¾ di giro attorno al
  <!-- Eseguire   nello stesso modo le instruzioni del cavo “A” ma rispettando I disegni qui sopra, puleggia X-->
 
 
-### 1.2.5        Final Tensioning
+### 	2.5	Final Tensioning
 
 ![ICUB_HEAD_wiring_tension](../img/neck/ICUB_HEAD_wiring_tension.png)                                  
 > Adjust the tension of both cables with the 4 tensioners. 1 and 2 for **Cable A**,    3 and 4 for **Cable B**
