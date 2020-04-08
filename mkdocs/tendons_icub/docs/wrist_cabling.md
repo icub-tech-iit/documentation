@@ -1,4 +1,4 @@
-## 1. WRIST
+## 1 WRIST
 
 ### 1.1 Wrist motor tendons
 
@@ -58,7 +58,7 @@ In the case you found out that one of the 8 cables of the wrist broken, here the
 
 
 
-### 1.2 Passive tendons
+### 1.2 Wrist passive tendons
 
 #### 1.2.1 Location & identification
 
@@ -86,7 +86,7 @@ Here the sequence you need to follow to restore the 2 little cables from the bas
 
 
 
-## 2. HAND
+## 2 HAND
 
 ### 2.1 Location
 
@@ -102,7 +102,7 @@ The minimum requirement to start recabling those 2 joints is:
 | ------- | -------- | ------------------------------------------------------------ |
 | 1815    | CG077063 | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
 
-### 2.2 Thumb Oppose cabling
+### 2.2 Thumb Oppose
 
 Here are the instructions for rewiring the Thumb Oppose Joint at the base of the Left Hand.
 
@@ -116,7 +116,7 @@ Here are the instructions for rewiring the Thumb Oppose Joint at the base of the
 | <img src ="../img/wrist/Blocking_set_screws.png" width=300>  | <u>STEP 6: </u> Use a 0.7mm hexagonal key (or screwdriver) to block the cables with the set screws. |
 |                                                              | !!!!CONGRATULATIONS YOU ARE DONE!!!                          |
 
-### 2.3 Fingers Abduction cabling
+### 2.3 Fingers Abduction
 
 <center>
 
