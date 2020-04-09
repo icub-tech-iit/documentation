@@ -107,10 +107,16 @@ Here you can find a procedure for recabling the Index or Middle Distal Joints of
 
 #### 2.2.5 Ring and Pinkie
 
-This 2 fingers actually form a single distal joint and are in fact driven by a single motor.
+These 2 fingers actually form a single distal joint and are in fact driven by a single motor.
 
 !!!note
     Those fingers need to be done **together** in order to make sure that both cable close simultaneously.
+
+The 2 fingers are so actuated by 3 wires - 2 for the distal cables inside the fingers and 1 inside the motor shaft which moves the slider. For each cabling please follow the procedures below.
+
+##### 2.2.5a Cabling for the fingers
+
+
 
 
 | Pictures | step by step guide       |
@@ -124,6 +130,29 @@ This 2 fingers actually form a single distal joint and are in fact driven by a s
 | |7. Now close manually the 2 fingers to get some slack to the cable and pull it out a bit to see where you should create the knot - at the very end of the mark on the cable.|
 | | 8. If you did good, when releasing the fingers they should be symmetrical |
 | |**FINISHED!!!**|
+
+##### 2.2.5b Cabling for the motor side
+
+Here you can find the procedure for the cabling of the motor side - responsible for the slider movement:
+
+| Pictures                                           | Steb by step guide                                           |
+| -------------------------------------------------- | ------------------------------------------------------------ |
+| <img src ="../img/hand/Fig_4-41bis.PNG" width=700> | Put an about 6 mm thickness piece in between the slider and the Ergal part (yellow). |
+| <img src ="../img/hand/Motor_ball.png">            | Take one meter of cable IITCODE 1815 and start cabling along the pulley with cage already on:<br/>   - 1 turn around the pulley for the motor side<br/>   - 3 turns around pulley for the ball bearing side </br> Make sure that the cables goes out of the pulley from both holes tangentially to the pulley. |
+|                                                    | Insert the sheaths 0+S (ball bearing side) and 0-S (motor side). |
+| <img src ="../img/hand/0-S_H5.png">                | Assembly the motor passing the cable with 0-S sheath in the Ergal part - central hole, hand side (H5). |
+| <img src ="../img/hand/0+S_H4.png">                | Pass the cable with the 0+L sheath through the two motors under the slider, put a tensioner and the 0+S sheath and pass through the central hole of the Ergal part (cable should get out from H4), elbow side. </br> At that moment the 2 sides of the cable get out, one from H4 and other side out of the Ergal part H5. |
+| <img src ="../img/hand/H6_H7.png">                 | Now pass the cables inside the slider superior and inferior holes: from H5 to H7 and from H4 to H6. |
+| <img src ="../img/hand/Knot1.png">                 | Keeping straight the fingers with the piece of about 6 mm thickness inserted, tension the (0+S) cable and mark it with a pen, afterwards pull the slider backwards (the finger getting closed) and make a knot where there is the pen mark. |
+| <img src ="../img/hand/Knot2.png">                 | Close the fingers (electrically) with the motor providing +/- 5.5 Volt and make the knot nearer than possible to the slider. |
+
+
+
+
+
+
+
+
 
 ## 3 Proximal Joints
 
