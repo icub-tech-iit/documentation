@@ -58,7 +58,7 @@ nav:
             - Definition: 'lower_arm.md'
             - Version 1 :
                 - Building Phase:
-                    - Entire Hand/ForeArm Cabling: 'hand_cabling_V1.md'
+                    - HOWTO CABLE & NEEDED PARTS: 'hand_cabling_V1.md'
                 - Repair Phase:
                     - Disconnection V1: 'remove.md'
                     - Lower Arm V1 : 'lower_arm_V1.md'
