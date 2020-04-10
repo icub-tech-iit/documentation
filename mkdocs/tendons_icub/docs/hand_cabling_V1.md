@@ -1,3 +1,5 @@
+
+
 # LOWER ARM V1 CABLING
 
 ## CAD DESIGN
@@ -122,7 +124,11 @@ S0 exits the motor case from the hole near the motor (H2). Enters the finger in 
 
 S2 exits the motor case from the hole near the ball bearing (H1). Enters the finger in the hole which is external to the palm (H4).
 
-<center> <img src ="../img/hand/Fig_4-10.png" width=400> </center>
+
+
+<center> <img src ="../img/hand/Fig_4-10.png" width="400"> </center>
+
+
 
 !!! note
     Cable turns around the pulley with the thumb in the straight position (half thumb path) in order to permit the two opposite movements. 
@@ -195,9 +201,9 @@ Here are the sheaths needed for the Thumb proximal Joint.
 | 124(mm)   | 6+L       | Enters the finger in the hole near the other fingers(H3)     |
 | 124(mm)   | 6-L       | Enters the finger in the hole near the wrist (H4)            |
 
-|                                                 |                                                 |
-| ----------------------------------------------- | ----------------------------------------------- |
-| <img src ="../img/hand/Fig_4-22.png" width=700> | <img src ="../img/hand/Fig_4-21.png" width=700> |
+|                                                   |                                                   |
+| ------------------------------------------------- | ------------------------------------------------- |
+| <img src ="../img/hand/Fig_4-22.png" width="700"> | <img src ="../img/hand/Fig_4-21.png" width="700"> |
 
 !!! note
     For proximal cablings you need to mark with a suitable pen the cable most internal in the finger (palm opposite side). Then leave the cable and make a knot. Then you must pull the cable (the finger will be closed) and you can make the knot on the other cable nearest the palm, without marking with the pen. 
@@ -257,7 +263,11 @@ The cable needed for the Thumb Distal Joint is IITCODE 2391 and the sheath:
 | --------- | --------- | ---------------------------------------------------------- |
 | 132(mm)   | 4         | Exits the motor case from the hole inside the forearm (H1) |
 
-<center><img src ="../img/hand/Fig_4-31.png" width=300></center>
+
+
+<center> <img src ="../img/hand/Fig_4-31.png" width="300"> </center>
+
+
 
 #### 3.4.2 Index Distal
 
@@ -297,7 +307,11 @@ The 2 cables needed for the R&P Distal Joint (from slider to fingers) are IITCOD
 
 Here you can see the schematic of the cabling. The sheaths entering the fingers are represented in blue, while the sheaths for the slider movement are in red. The gray block is the tensioner.
 
-<center><img src ="../img/hand/Slider.png" width=300></center>
+
+
+<center> <img src ="../img/hand/Slider.png" width=300> </center>
+
+
 
 Please follow this [link](lower_arm_V1.md#225-ring-and-pinkie) for an extended HOWTO route the cable.
 
@@ -353,7 +367,11 @@ To get more details on how to rewire them, please follow this [link](wrist_cabli
 
 ### 4.2 Tensioner - IITCODE 3745
 
-<img src ="../img/hand/Tensioner_V1.png">
+
+
+<center> <img src ="../img/hand/Tensioner_V1.png" width=500> </center>
+
+
 
 To properly tense the tendons of the Forearm it is mandatory to add the tensioner IITCODE 3745- alias CAD of the assembly:  RC_TLR_007_G_014_00 - it is made by the following pieces:
 
