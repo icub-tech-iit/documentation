@@ -303,8 +303,6 @@ Please follow this [link](lower_arm_V1.md#225-ring-and-pinkie) for an extended H
 
 
 
-
-
 ## 4 HOW TO CABLE - WRIST
 
 
@@ -316,23 +314,15 @@ Please follow this [link](lower_arm_V1.md#225-ring-and-pinkie) for an extended H
 
 > wrist_yaw = M1 + M2
 
-> where M1 and M2 are the angular positions of the the two motors contributing to the movements. We have:
+> where M1 and M2 are the angular positions of the the two motors contributing to the movements. 
 
->**RIGHT_ARM**
+<center>
 
->M1: angular position of 2B2M1
+| Wrist motors left arm                                  | Section view left arm                                   |
+| ------------------------------------------------------ | ------------------------------------------------------- |
+| <img src ="../img/hand/Motors_wrist.png" height = 300> | <img src ="../img/hand/Motors_wrist1.png" height = 300> |
 
->M2: angular position of 2B2M2
-
->**LEFT_ARM**
-
->M1: angular position of 1B2M1
-
->M2: angular position of 1B2M2
-
-QUI METTI FOTO MOTORI NUOVA MAGARI e dici quale motore pilota quale giunto
-
-
+</center>
 
 The overall cables of the wrist are all build from IITCODE 1815 with the following specifications:
 
@@ -340,124 +330,59 @@ The overall cables of the wrist are all build from IITCODE 1815 with the followi
 | ------- | ------------------- | ------------------------------------------------------------ |
 | 1815    | CG077063            | Stainless steel microcable, cable construction 7x7mm, nom. dia 0.63mm, not coated, AISI 316 |
 
-STOP
-
-|                                                        |                                                        |
-| ------------------------------------------------------ | ------------------------------------------------------ |
-| <img src ="/../img/wrist/FIG1_1B2M1.PNG" height = 300> | <img src ="/../img/wrist/FIG2_2B2M1.PNG" height = 300> |
-
-<center><img src ="../img/wrist/FIG3_globale.PNG" height = 650 width = auto></center>
 
 
+### 4.1 Wrist Motor tendons
 
-### 6.2 (wrist_yaw): SxWrYw and DxWrYw
+From the pictures below you will be able to locate and identify the tendons inside the **Right Forearm** building the active part of the wrist tendons.
 
-| **WrYw** |                                   |
-| -------- | --------------------------------- |
-| Motor    | 1B2M2 (SxWrYw) and 2B2M2 (DxWrYw) |
-| Cable    | Carl Stahl CG077063               |
-|          |                                   |
+<center> <img src ="../img/wrist/Tendons_wrist_right.png" width=500>
+         <img src ="../img/wrist/Tendons_wrist_right_back.png" width=500>
 
+</center>
 
-|                                                        |                                                        |
-| ------------------------------------------------------ | ------------------------------------------------------ |
-| <img src ="../img/wrist/FIG10_1B2M2.PNG" height = 300> | <img src ="../img/wrist/FIG11_2B2M2.PNG" height = 300> |
+From the pictures below you will be able to locate and identify the tendons inside the **Left Forearm** building the active part of the wrist tendons.
 
-<center><img src ="../img/wrist/FIG12_globale.PNG" height = 650 width = auto></center>
+<center>
+    <img src ="../img/wrist/Tendons_wrist_left.png" width=500>
+    <img src ="../img/wrist/Tendons_wrist_left_back.png" width=500>
 
-| | |
-|--|--|
-|<img src ="../img/wrist/FIG13_RHS1.PNG" height = 300> | <img src ="../img/wrist/FIG14_RHS2.PNG" height = 300>
-|<img src ="../img/wrist/FIG15_H1_H3.PNG" height = 300> | <img src ="../img/wrist/FIG16_H2_H3.PNG" height = 300>
-|<img src ="../img/wrist/FIG17_H4a.PNG" height = 300> | <img src ="../img/wrist/FIG18_H4b.PNG" height = 300>|
+</center>
 
-### 6.3  wrist_yaw and wrist_pitch coupling
+To get more details on how to rewire them, please follow this [link](wrist_cabling.md#112-cabling).
 
-| **---** |                     |
-| ------- | ------------------- |
-| Motor   | --                  |
-| Cable   | Carl Stahl CG077063 |
-|         |                     |
+### 4.2 Tensioner - IITCODE 3745
 
-| | |
-|--|--|
-|<img src ="../img/wrist/FIG19.PNG" height = 300> | <img src ="../img/wrist/FIG20.PNG" height = 300>
-|<img src ="../img/wrist/FIG21.PNG" height = 300> | <img src ="../img/wrist/FIG22.PNG" height = 300>
-|<img src ="../img/wrist/FIG24.PNG" height = 300> | <img src ="../img/wrist/FIG23.PNG" height = 300>
-|<img src ="../img/wrist/FIG25.PNG" height = 300> | <img src ="../img/wrist/FIG26.PNG" height = 300>|
+<img src ="../img/hand/Tensioner_V1.png">
 
+To properly tense the tendons of the Forearm it is mandatory to add the tensioner IITCODE 3745- alias CAD of the assembly:  RC_TLR_007_G_014_00 - it is made by the following pieces:
 
+<center>
 
-## 7. Broken Tendon on iCub V1 (secondo me da rimuovere)
+| IITCODE | Revision | Alias               | Description     |
+| :------ | :------- | :------------------ | :-------------- |
+| 3756    | 2        | RC_TLR_007_P_042_00 | TENSIONER BODY  |
+| 3757    | 1        | RC_TLR_007_P_041_00 | TENSIONER SCREW |
+| 2121    |          | RC_TLR_007_P_044_00 | LOCK NUT        |
+| 3758    | 1        | RC_TLR_007_P_067_00 | TENSIONER SCREW |
+| 2136    |          | RC_TLR_007_P_068_00 | LOCK NUT        |
 
-### 7.1	Check Correct mounting the UPPER TENDON PART (Elbow side)
-
->4.1.1.	Make sure the cable is properly twined around the pulley P (red in the pic below)
-
-<img src ="../img/wrist/Broken_tendon_1.PNG" height = 400 width = auto>
-
-> 4.1.2.	You might have to remove the proximal motors to have a clear view on pulley P.
-
-> 4.1.3.	If you can assess the proper twining state around P, please skip to 6. Otherwise proceed with 4.
-
-> 4.1.4.	To remove these motors just undo the screws shown in red below.
-
-<img src ="../img/wrist/Broken_tendon_2.PNG" height = 400 width = auto>
-
-> 4.1.5.	You should now be able to get them out of the way (they will still be attached to their tendons) and get a clear view of the pulley. 
-
-<img src ="../img/wrist/Broken_tendon_3.PNG" height = 500 width = auto>
-
-> 4.1.6.	The cable should be tangential to the pulleys as shown below.
-
-<img src ="../img/wrist/Broken_tendon_4.PNG" height = 500 width = auto>
-
-> 4.1.7.	Block the cable on the motor with some tape. This will allow you to maintain the cable positioned on the pulley
-
-!!! Tips
-    We found ear-plugs are perfect for this scope cause they can be squeezed into position and then they will keep the tendon and prevent it from moving.
-    
-<img src ="../img/wrist/Broken_tendon_5.PNG" height = 500 width = auto>
- 
-
-### 7.2	Gain some margin on cable tension
-
->4.2.1 Undo the small nuts on both sides of the tensioner and undo the tensioner extremities until they are as long as possible (only couple of threads screwed into the body of the tensioner)
-
-<img src ="../img/wrist/Broken_tendon_6.PNG" height =200 width = auto>
+</center>
 
 !!! note
     Note that RED nut and the RED extremity of the tensioner assembly are left hand-threaded (wrist side). Pay attention to the direction of turning.
 
->4.2.2.	Loosen the two screws that hold the motor in place. Do not remove them.
-
-<img src ="../img/wrist/Broken_tendon_6b.PNG" height =400 width = auto>
 
 
-### 7.3	Replace the broken cable (wrist side)
+### 4.3 Wrist Passive tendons
 
->4.3.1.	Take a piece of cable 25 – 30 cm at least. Tie in a knot at one extremity. Drop some cyanoacrylate glue on the knot to make sure it will NOT get loose
+From the pictures below you will be able to locate and identify the 2 tendons inside the wrist building the passive part of the wrist movements.
 
->4.3.2.    Take the other extremity and pass it through the hole H1 on the pulley P3. Exit the pulley through the hole H2.
-
-<img src ="../img/wrist/Broken_tendon_7.PNG" height =300 width = auto>
-
->4.3.3	Pass the wire through the tensioner and mark with a permanent marker where the knot shall fall. This knot should be positioned taking into account the length of the tensioner.
-
->4.3.4.	Tight a knot and fix it using the usual drop of cyanoacrylate glue.
-
-> 4.3.5.    The tensioner should be in the middle of the admissible range of movements.
+|                                                  |                                                  |
+| ------------------------------------------------ | ------------------------------------------------ |
+| <img src ="../img/wrist/FIG22.PNG" height = 300> | <img src ="../img/wrist/FIG24.PNG" height = 300> |
+| <img src ="../img/wrist/FIG23.PNG" height = 300> | <img src ="../img/wrist/FIG25.PNG" height = 300> |
+| <img src ="../img/wrist/FIG26.PNG" height = 300> |                                                  |
 
 
-###  7.4 Tight to perfection
-
-4.4.1.	Tight the tensioner by screwing in the extremities
-
-<img src ="../img/wrist/Broken_tendon_8.PNG" height =165 width = auto>
-
-4.4.2.	Tight back in the screw that hold the motor
-
-<img src ="../img/wrist/Broken_tendon_9.PNG" height =400 width = auto>
-
-
-
+To get more details on how to rewire them, please follow this [link](wrist_cabling.md#122-cabling).
