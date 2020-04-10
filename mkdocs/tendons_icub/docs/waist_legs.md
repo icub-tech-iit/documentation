@@ -89,7 +89,7 @@ And the answer is that unfortunately the cover are preventing us for either tens
 
 IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top-cable-13)
 
-#### C - remove the back pulley
+**C - remove the back pulley**
 
 !!!WATCH OUT
     once the pulley or one side of the cable 13 is remove the rotation of the torso is totally free, someone else help is more than appreciated to hold it firm.
@@ -107,9 +107,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 | <img src="../img/waist/screw13.png" width = 500>             | <u>STEP 3:</u><br/>Remove the central screw of this pulley RC_TLR_001_P_243 |
 |                                                              | <u>STEP 4:</u><br/>Use 2 fat flat screwdrivers to make the pulley popping up.<br/>**-> photo needed** |
 
-<a "#close_gap" /a>
-
-#### D- create the require space
+**D- create the require space**
 
 | pictures                                                 | step by step guide                                           |
 | -------------------------------------------------------- | ------------------------------------------------------------ |
@@ -234,12 +232,12 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position028)
 
 <center>![waist](img\waist\Wiring-LEG_24_25.PNG)</center>
-> Take the inner part of the cable (the right one so to speak – or the longest) and make one turn around the pulley RC_IIT_001_P_314 (Photo 25). If done correcly you should have the 2 crimps reunited down below the hip (photo N.26).
-> At this point proceed route the cables by making an 8 shape, by crossing the cables and follow the wiring (photo N.28) (shortest part - yellow cable) and insert both crimp inside their respective tensionner -  piece RC_USAL_001_P_131 (Photo 27).
+> Take the inner part of the cable (the right one so to speak – or the longest) and make one turn around the pulley RC_IIT_001_P_314 (Photo 25). If done correctly you should have the 2 crimps reunited down below the hip (photo N.26).
+> At this point proceed route the cables by making an 8 shape, by crossing the cables and follow the wiring (photo N.28) (shortest part - yellow cable) and insert both crimp inside their respective tensioner -  piece RC_USAL_001_P_131 (Photo 27).
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position028)
 
 <center>![waist](img\waist\Wiring-LEG_26_27_28.PNG)</center>
-### 4.1	ANKLE FLEXION - Cable 15
+### 4.1	ANKLE FLEXION - Cable 15 or Cable 16
 
 Those 2 cables are only on some previous iCub design V1.
 
@@ -250,8 +248,9 @@ Those 2 cables are only on some previous iCub design V1.
 |<center>![waist](../img/waist/15-wiring.png)</center>|<center>![waist](../img/waist/16-wiring.png)</center>|
 
 !!! TIP
-    remove the blocker-cover to adjust the cable - when finally wired put it back and tighten firmly the screws holding it in place.
+    remove the blocker-cover to adjust the cable - when finally wired and the foot 90 degree respect to leg, put it back and tighten firmly the screws holding it in place.
     
+
 |ANKLE FLEXION - cable 15 | ANKLE FLEXION - cable 16|
 | ---| --- |
 |<center>![waist](../img/waist/cover-15.png)</center>|<center>![waist](../img/waist/cover-16.png)</center>|
