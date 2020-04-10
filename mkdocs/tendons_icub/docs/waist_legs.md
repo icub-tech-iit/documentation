@@ -50,10 +50,10 @@
 
 **A - CHEST cover removal**
 
-| pictures                                             | step by step guide                                           |
-| ---------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="/img/waist/chest-screws1.png" width = 300> | <u>STEP 1:</u><br/>remove the 6 screws M2x5 (red arrows)<br/> (3 on each side of the skin patch of the chest cover)<br/>If you do not have skin on torso cover go on to the next step.<br/><br/><u>STEP 2:</u><br/>flip over the skin in order to access<br/> the 2 screws beneath it.<br/>Remove the 2 screws M3x6<br/><br/><u>STEP 3:</u><br/>hold the chest cover and remove the 2 crews M3x8 at the level of the shoulder (green circles)<br/><br/> |
-| pictures of the connector                            | <u>STEP 4:</u><br/>disconnect the the electrical cable connecting the robot to the skin board inside the cover<br/>If you do not have skin on torso cover go on to the next step. |
+| pictures                                               | step by step guide                                           |
+| ------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="../img/waist/chest-screws1.png" width = 300> | <u>STEP 1:</u><br/>remove the 6 screws M2x5 (red arrows)<br/> (3 on each side of the skin patch of the chest cover)<br/>If you do not have skin on torso cover go on to the next step.<br/><br/><u>STEP 2:</u><br/>flip over the skin in order to access<br/> the 2 screws beneath it.<br/>Remove the 2 screws M3x6<br/><br/><u>STEP 3:</u><br/>hold the chest cover and remove the 2 crews M3x8 at the level of the shoulder (green circles)<br/><br/> |
+| pictures of the connector                              | <u>STEP 4:</u><br/>disconnect the the electrical cable connecting the robot to the skin board inside the cover<br/>If you do not have skin on torso cover go on to the next step. |
 
 
 
@@ -62,26 +62,27 @@
 
 **B1 - NO BACKPACK VERSION**
 
-| pictures                                            | step by step guide                                           |
-| --------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="/img/waist/torso-screws.png" width = 300> | <u>STEP 1:</u><br/>Unscrew the power cord on the back of iCub (black circle)<br/><u>STEP 2:</u><br/>Remove the 2 ring screws (green circles)<br/><u>STEP 3:</u><br/>remove the 4 screws M3x6 to be able to move sideways the back cover |
+| pictures                                              | step by step guide                                           |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="../img/waist/torso-screws.png" width = 300> | <u>STEP 1:</u><br/>Unscrew the power cord on the back of iCub (black circle)<br/><u>STEP 2:</u><br/>Remove the 2 ring screws (green circles)<br/><u>STEP 3:</u><br/>remove the 4 screws M3x6 to be able to move sideways the back cover |
 
 **B2 - BACKPACK VERSION**
 
 | pictures                                                     | step by step guide                                           |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | picture of robot with connections                            | <u>STEP 1:</u><br/> disconnect the overall cables attached to the back pack -> |
-| <img src="/img/waist/top-bp-cover.png" width = 300>          | <u>STEP 2:</u><br/>remove the top cover of the back pack<br/>some version have a screw in the yellow circle some just a magnet<br/>If you are a screw version - remove it and just flip the cover and you are done. |
-| <img src="/img/waist/btp-screws-real.png" width = 300><br/><img src="/img/waist/btp-screws-dummy.png" width = 300> | <u>STEP 3:</u><br/>Either you use the <u>real</u> battery pack<br/>-> untighten the 2 lateral screws<br/>or the <u>dummy</u> battery pack<br/>-> remove the 2 lateral screw M2.5x10. |
-| <img src="/img/waist/bp-buttons.png" width = 300>            | <u>STEP 4:</u><br/>remove the buttons' cache by unmounting the screw M2x6 |
-| <img src="/img/waist/bp-power-board.png" width = 300>        | <u>STEP 5:</u><br/>loose the 2 screws M2.5x8 holding the switches/ethernet board<br/> and push it inwards<br />**!!!NEED PICTURE TO SHOW THAT!!!** |
-| <img src="/img/waist/stand-offs.png" width = 300>            | <u>STEP 6:</u><br/>On the previous mention board, try to pop out the stand-off <br/>above the 2 push buttons.<br/>they will be in the way when we will try to remove<br/> the backpack cover later on, we may break them<br/> if remove wrongly |
-| <img src="/img/waist/bp-screws.png" width = 300>             | <u>STEP 7:</u><br/>remove the 4 screws (red circles) holding the back pack in place.<br/>NECK : 2 M3x8Theoritically, you should already have removed the 2 ring screws<br/>but of you forget, please do it now!! |
-|                                                              | <u>STEP 8:</u><br/>remove the backpack -> gif                |
+| <img src="../img/waist/top-bp-cover.png" width = 300>        | <u>STEP 2:</u><br/>remove the top cover of the back pack<br/>some version have a screw in the yellow circle some just a magnet<br/>If you have the version with the screw - remove it and just flip the cover and you are done. |
+| <img src="../img/waist/btp-screws-real.png" width = 300><br/><img src="../img/waist/btp-screws-dummy.png" width = 300> | <u>STEP 3:</u><br/>Either you use the <u>real</u> battery pack<br/>-> untighten the 2 lateral screws<br/>or the <u>dummy</u> battery pack<br/>-> remove the 2 lateral screw M2.5x10. |
+| <img src="../img/waist/nut-screws.png" width = 300>          | <u>STEP 4:</u><br/>slide the 2 two pieces and remove them    |
+| <img src="../img/waist/bp-buttons.png" width = 250>          | <u>STEP 5:</u><br/>remove the buttons' cache by unmounting the screw M2x6 |
+| <img src="../img/waist/bp-power-board.png" width = 300>      | <u>STEP 6:</u><br/>loose the 2 screws M2.5x8 holding the switches/ethernet board and push it inwards<br />**!!!NEED PICTURE TO SHOW THAT!!!** |
+| <img src="../img/waist/stand-offs.png" width = 300>          | <u>STEP 7:</u><br/>On the previous mention board, try to pop out the stand-off <br/>above the 2 push buttons.<br/>they will be in the way when we will try to remove<br/> the backpack cover later on, we may break them<br/> if remove wrongly |
+| <img src="../img/waist/bp-screws.png" width = 300>           | <u>STEP 8:</u><br/>remove the 4 screws (red circles) holding the back pack in place.<br/>NECK : 2 screws M3x8<br/>bottom back pack cover : 2 screws M3x12<br/>Theoretically, you should already have removed the 2 ring screws<br/>but if you forget, please do it now!! |
+|                                                              | <u>STEP 9:</u><br/>remove the backpack -> gif                |
 |                                                              | watch out!!!                                                 |
-| **PHOTO**                                                    | <u>STEP 9:</u><br/>disconnect the 3 connectors (2 on switch board - for the power of the 2 fans- and 1 on power board) |
-| **PHOTO**                                                    | <u>STEP 10:</u><br/>cut the tie wrap -> the back cover can be left away until we will need to remount it |
-| <img src="/img/waist/btp_holder-screws.png" width = 300>     | <u>STEP 11:</u><br/>remove the 4 screws holding the battery pack holder.<br/>2 screws M3x8 (yellow circle)<br/>2 screws M3x6 (red circle)<br/>!!! the battery pack holder can move almost freely from now on !!! |
+| **PHOTO**(S)                                                 | <u>STEP 10:</u><br/>disconnect the 3 connectors (2 on switch board - for the power of the 2 fans- and 1 on power board) |
+| **PHOTO**                                                    | <u>STEP 11:</u><br/>cut the tie wrap -> the back cover can be left away until we will need to remount it |
+| <img src="../img/waist/btp_holder-screws.png" width = 300>   | <u>STEP 12:</u><br/>remove the 4 screws holding the battery pack holder.<br/>2 screws M3x8 (yellow circle)<br/>2 screws M3x6 (red circle)<br/>!!! the battery pack holder can move almost freely from now on !!! |
 
 YOU would probably asking me why did we need to remove all of this for?
 And the answer is that unfortunately the cover are preventing us for either tense the cables or access to some pieces.
@@ -93,30 +94,30 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 !!!WATCH OUT
     once the pulley or one side of the cable 13 is remove the rotation of the torso is totally free, someone else help is more than appreciated to hold it firm.
 
-| what we have                               | what we want                               |
-| ------------------------------------------ | ------------------------------------------ |
-| <img src="/img/waist/WWH.png" width = 500> | <img src="/img/waist/WWW.png" width = 500> |
+| what we have                                 | what we want                                 |
+| -------------------------------------------- | -------------------------------------------- |
+| <img src="../img/waist/WWH.png" width = 500> | <img src="../img/waist/WWW.png" width = 500> |
 
 
 
-| pictures                                                   | step by step guide                                           |
-| ---------------------------------------------------------- | ------------------------------------------------------------ |
-| <img src="/img/waist/cable13-tens-screws.png" width = 500> | <u>STEP 1:</u><br/>loose the screws inside of the tensioners<br/>to get some slack on the cable.<br/>You should be able to make he cable jump around the |
-| <img src="/img/waist/pulley13.png" width = 500>            | <u>STEP 2:</u><br/>You should be able to make the cable jump over the pulley |
-| <img src="/img/waist/screw13.png" width = 500>             | <u>STEP 3:</u><br/>Remove the central screw of this pulley RC_TLR_001_P_243 |
-|                                                            | <u>STEP 4:</u><br/>Use 2 fat flat screwdrivers to make the pulley popping up.<br/>**-> photo needed** |
+| pictures                                                     | step by step guide                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="../img/waist/cable13-tens-screws.png" width = 500> | <u>STEP 1:</u><br/>loose the screws inside of the tensioners<br/>to get some slack on the cable.<br/>You should be able to make he cable jump around the |
+| <img src="../img/waist/pulley13.png" width = 500>            | <u>STEP 2:</u><br/>You should be able to make the cable jump over the pulley |
+| <img src="../img/waist/screw13.png" width = 500>             | <u>STEP 3:</u><br/>Remove the central screw of this pulley RC_TLR_001_P_243 |
+|                                                              | <u>STEP 4:</u><br/>Use 2 fat flat screwdrivers to make the pulley popping up.<br/>**-> photo needed** |
 
-
+<a "#close_gap" /a>
 
 #### D- create the require space
 
-| pictures                                               | step by step guide                                           |
-| ------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="/img/waist/space11.png" width = 500>         | In order to change the cable 11, <br/> it is necessary, when you still have the upper body attached to the robot <br/> to create some space in between those 2 pieces to be able to fit the cable that you need to replace. |
-| <img src="/img/waist/plate11.png" width = 500>         | <u>STEP 1:</u><br/>Remove the central piece which will hold the cable 11.<br/> 4 scews M |
-| <img src="/img/waist/unmount11-back.png" width = 500>  | <u>STEP 2:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate |
-| <img src="/img/waist/unmount11-front.png" width = 500> | <u>STEP 3:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate |
-| <img src="./img/waist/R-side11.png" width = 500><br/>  | <u>STEP 4:</u><br/>You should be able to move slightly the upper body from the torso and create some space. |
+| pictures                                                 | step by step guide                                           |
+| -------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="../img/waist/space11.png" width = 500>         | In order to change the cable 11, <br/> it is necessary, when you still have the upper body attached to the robot <br/> to create some space in between those 2 pieces to be able to fit the cable that you need to replace. |
+| <img src="../img/waist/plate11.png" width = 500>         | <u>STEP 1:</u><br/>Remove the central piece which will hold the cable 11.<br/> 4 screws M2.5v5 |
+| <img src="../img/waist/unmount11-back.png" width = 500>  | <u>STEP 2:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate |
+| <img src="../img/waist/unmount11-front.png" width = 500> | <u>STEP 3:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate |
+| <img src="../img/waist/R-side11.png" width = 500><br/>   | <u>STEP 4:</u><br/>You should be able to move slightly the upper body<br/>from the torso and create some space (2mm max). |
 
 
 
@@ -124,7 +125,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 
 <center>![waist](img\waist\Waist_cable_11.png)</center>
 !!! WARNING
-    routing cable 11 is quite simple in process of construction because you don't have yet the upper body mounted atop of the waist BUT become particularly tedious in phase of repair due to the presence of this latter. GO TO UPPER [link](#21-chest-back-and-back-pack-covers-dismounting) if you didn't remove the cover above the torso or the back/backpack cover
+    routing cable 11 is quite simple in process of construction because you don't have yet the upper body mounted atop of the waist **<u>BUT</u>** become particularly tedious in phase of repair due to the presence of this latter. If you haven't removed the cover above the torso and the back (or backpack cover), please follow this [link](#21-chest-back-and-back-pack-covers-dismounting)
 
 
 
@@ -133,10 +134,14 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 > Take the cable and draw with a marker the middle of it. Place the cable onto the slot of the pulley (Photo 1). Put the squared plate above the cable and secure it with 4 screws with hexagonal head size M2.5x5 (Photo 2)
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position015)
 
-<center>![waist](img\waist\Waist_cable_11_foto.png)</center>
 
 
-**E- RE-ASSEMBLE the upper body by retightening the 4 screws we had to lose to create the space to pas cable 11.**
+![waist](img\waist\Waist_cable_11_foto.png)
+
+
+
+!!!WARNING
+    For people having the upper body still hanging **CLOSE** the gap <center><img src="../img/waist/close-gap.png" width = 500></center>
 
 
 
@@ -150,7 +155,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 > [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position017)
 
 !!! Tip
-    Use a 2mm hexagonal screwdriver to spin the motor shaft (Photo N.9)  - on both sides of iCub's hips - allowing you to rotate the internal pulley (holding the tensionner) and have it in a proper angle.
+    Use a 2mm hexagonal screwdriver to spin the motor shaft (Photo N.9)  - on both sides of iCub hips - allowing you to rotate the internal pulley (where yield the tensioners) and have it in a proper angle.
 
 <center>![waist](img\waist\Waist_cable_11_foto5_6.png)</center>
 > To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 7 - 8).
@@ -164,7 +169,8 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 <center>![waist](img\waist\Waist_cable_11_foto9-10.png)</center>
 ### 2.3	WAIST FRONT – Cable 12
 
-<center>![waist](img\waist\Waist_Front1.PNG)</center>
+<center>![waist](img\waist\Waist_front.PNG)</center>
+
  **Procedure:**
 
 > Take the cable and draw with a marker the middle of it. Place the cable into the slot of the pulley (Photo 12)
