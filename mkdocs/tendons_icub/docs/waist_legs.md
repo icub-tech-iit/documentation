@@ -115,7 +115,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 | <img src="../img/waist/plate11.png" width = 500>         | <u>STEP 1:</u><br/>Remove the central piece which will hold the cable 11.<br/> 4 screws M2.5v5 |
 | <img src="../img/waist/unmount11-back.png" width = 500>  | <u>STEP 2:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate |
 | <img src="../img/waist/unmount11-front.png" width = 500> | <u>STEP 3:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate |
-| <img src="../img/waist/R-side11.png" width = 500><br/>   | <u>STEP 4:</u><br/>You should be able to move slightly the upper body<br/>from the torso and create some space (2mm max). |
+| <img src="../img/waist/R-side11.png" width = 500><br/>   | <u>STEP 4:</u><br/>You should be able to move slightly the upper body<br/>from the torso and create some space (2mm max - just the <br/>minimum required to pass the body of <br/>the cable in between the 2 pieces). |
 
 
 
