@@ -1,13 +1,4 @@
-# mkdocs tests
-This repository contains tests for mkdocs.
+iCub Tech Docs
+==============
 
-see https://icub-tech-iit.github.io/documentation/mkdocs/thedocs/site
-
-and: https://github.com/icub-tech-iit/documentation/wiki
-
-
-
-
-
-
-
+Browse our [online documentation 🌐](https://icub-tech-iit.github.io/documentation).
