@@ -1,3 +1,0 @@
-# iCub upgrade
-
-See `Instructions`
