@@ -11,7 +11,7 @@ First draft of iCub documentation.
 ## The Upgrade Kits
 The design of our robot evolves in time. We have been asking ourselves how to propagate the mechanical or hardare enhancements we design to older robots. Our solution is to define upgrade kits that can be applied to specific robots. 
 
-An upgrade kit is a ... plastic bag with mechanical parts, hardware boards, screws, wires, tendons and whatever it is required to perform a physical upgrade of the robots. And surely the instructions.
+An upgrade kit is a plastic bag with mechanical parts, hardware boards, screws, wires, tendons and whatever it is required to perform a physical upgrade of the robots, including the instructions.
 
 Here are our first kits:
 
