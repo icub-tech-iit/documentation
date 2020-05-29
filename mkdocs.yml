@@ -1,0 +1,75 @@
+# Project information
+site_name: iCub Tech Docs
+repo_url: https://github.com/icub-tech-iit/documentation
+site_description: Documentation resources for the iCub & R1 robots
+site_author: iCub Tech
+copyright: BSD 3-Clause License
+
+theme:
+    name: 'material'
+    palette:
+        accent: amber
+    features:
+        - tabs
+    icon:
+        logo: material/robot
+
+markdown_extensions:
+    - markdown.extensions.admonition
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+        smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.highlight
+    - pymdownx.keys
+    - pymdownx.magiclink:
+        user: robotology
+        repo: assistive-rehab
+        repo_url_shortener: true
+        repo_url_shorthand: true
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist
+    - pymdownx.tilde
+    - markdown.extensions.toc:
+        permalink: true
+
+nav:
+    - iCub Tech Docs:
+        - Home Page: index.md
+        - iCub:
+            - Home Page: icub.md
+
+            # iCub Tendons
+            - The iCub cabling manual: icub_tendons/index.md
+            - Body Parts:
+                - Neck: icub_tendons/neck.md
+                - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
+                - Lower Arm:
+                    - Definition: icub_tendons/lower_arm.md
+                    - Version 1 :
+                        - Building Phase:
+                            - HOWTO CABLE & NEEDED PARTS V1: icub_tendons/hand_cabling_V1.md
+                        - Repair Phase:
+                            - Disconnection V1: icub_tendons/remove.md
+                            - Lower Arm V1 : icub_tendons/lower_arm_V1.md
+                            - Wrist & Hand Cabling V1: icub_tendons/wrist_cabling.md
+                    - Version 2 :
+                        - Building Phase:
+                            - HOWTO CABLE & NEEDED PARTS V2: icub_tendons/cabling_V2.md
+                        - Repair Phase:
+                            - Disconnection V2: icub_tendons/remove.md
+                            - Lower Arm V2: icub_tendons/lower_arm_V2.md
+                            - Wrist & Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
+                - Waist, Leg and Ankle: icub_tendons/waist_legs.md
+
+            # Upgrade Kits
+            - The iCub Upgrade Kits:
+                - Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
+                - Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
+                - Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
+                - Hands Support: upgrade_kits/hands/support.md
