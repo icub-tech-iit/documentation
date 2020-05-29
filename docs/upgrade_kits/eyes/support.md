@@ -33,7 +33,7 @@ We are going to replace parts in the eyes tilt assembly, there are some prelimin
 
     We are going to replace the 4 parts here in picture.
     
-| <center> ![](img\4thng.JPG) </center> |
+| <center> ![](img/4thng.JPG) </center> |
 | :-----------------------------------------------------------: |
 |  Brackets unmounting |
     

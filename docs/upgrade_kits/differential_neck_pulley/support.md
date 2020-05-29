@@ -14,7 +14,7 @@ It is possible to work with leaving the head attached to the robot or not.
 
 We are going to replace the part in the following picture with its new version A2, this is really similar to the previous one but the groove (red in picture) which is now smaller.
 
-| ![](img\groove.PNG) |
+| ![](img/groove.PNG) |
 |: -----------------------------------------------------------: |
 |  The pulley part to be changed |
 
@@ -22,7 +22,7 @@ We are going to replace the part in the following picture with its new version A
 
 There are two of these parts  in iCub's neck. Here is a picture of the neck with the parts in red.
 
-| ![](img\in_the_neck.PNG) |
+| ![](img/in_the_neck.PNG) |
 | :-----------------------------------------------------------: |
 |  The neck with the pulleys in red |
 
@@ -30,7 +30,7 @@ There are two of these parts  in iCub's neck. Here is a picture of the neck with
 Here are the instructions for replacing the left pulley.
 
 
-- First of all you need to remove tendons from the neck. [Neck's tendons replacement](https://icub-tech-iit.github.io/fix-test-mkdocs/mkdocs/tendons_icub/site/neck/)
+- First of all you need to remove tendons from the neck. [Neck's tendons replacement](../../icub_tendons/neck.md)
 - Remove the green highlighted assembly loosening the screws indicated by arrows
 
     | <center> ![imagine view](img/belt_ass.PNG) </center> |

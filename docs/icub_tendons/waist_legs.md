@@ -3,7 +3,7 @@
 
 ## 1	Cable construction
 
-<center>![waist](img\waist\cables_all.png)</center>
+<center>![waist](./img/waist/cables_all.png)</center>
 <center> 11  : length 709 mm - Diam. 1.5/1.75</center>
 <center> 12  : length 488 mm - Diam. 1.5/1.75</center>
 <center> 13  : length 630 mm - Diam. 1.5/1.75 </center>
@@ -177,7 +177,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 <center>![waist](./img/waist/Waist_cable_11_foto15-16.png)</center>
 > Finally, To put an end to the wiring of cable 11 and 12, just tense the 4 tensioners on which the crimps are located. Take care of tensing every one of them little by little in order to share the tension inside the tensioners in the same way.
 
-<center>![waist](img\waist\Waist_cable_foto 17.png)</center>
+<center>![waist](./img/waist/Waist_cable_foto17.png)</center>
 > At this point, the cables of the wiring of the waist 11 and 12 is terminated and therefore it is possible to proceed with the positioning of the upper body above the latter.
 
 ### 2.4	WAIST TOP – Cable 13
