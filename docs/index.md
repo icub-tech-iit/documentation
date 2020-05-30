@@ -1,6 +1,6 @@
 # Welcome to iCub Tech Documentation
 
-<img src="./assets/icub-rotate.gif" width="85%" height="85%">
+<img src="./assets/icub-rotate.gif" width="70%" height="70%">
 
 - [`iCub`](icub.md) home page collecting documentation resources on the iCub robot. 
 
