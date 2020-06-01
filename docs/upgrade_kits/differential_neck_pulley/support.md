@@ -15,7 +15,7 @@ It is possible to work with leaving the head attached to the robot or not.
 We are going to replace the part in the following picture with its new version A2, this is really similar to the previous one but the groove (red in picture) which is now smaller.
 
 | ![](img/groove.PNG) |
-|: -----------------------------------------------------------: |
+|:-----------------------------------------------------------: |
 |  The pulley part to be changed |
 
 
