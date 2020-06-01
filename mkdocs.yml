@@ -42,11 +42,11 @@ nav:
     - iCub Tech Docs:
         - Home Page: index.md
         - iCub:
-            - Home Page: icub.md
+            - Summary: icub.md
 
             # iCub Tendons
-            - The iCub cabling manual: icub_tendons/index.md
-            - Body Parts:
+            - The iCub cabling manual:
+                - Summary: icub_tendons/index.md
                 - Neck: icub_tendons/neck.md
                 - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
                 - Lower Arm:
@@ -69,6 +69,7 @@ nav:
 
             # Upgrade Kits
             - The iCub Upgrade Kits:
+                - Summary: upgrade_kits/index.md
                 - Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
                 - Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
                 - Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
