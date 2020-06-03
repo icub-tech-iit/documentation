@@ -126,7 +126,7 @@ The minimum requirement to start re-cabling distal joints is:
 | <img src="../img/lowerArm/wir_mot_1-1_I_M_V2.png" width=700><br /> <img src="../img/lowerArm/wir_mot_1-2_I_M_V2.png" width=700> | 3. The cable should get **OUT** from here - BE PATIENT!!! |
 | <img src="../img/lowerArm/base_I_M.png" width=400> |4. The cable will then run inside the sheath until it reaches the base of the Middle or Index (view from the palm side) |
 | <img src="../img/lowerArm/wir_I_M_V2_along.png" width=400> | 5. Wire this way. |
-| picture nail moved to make knot | 6. Please remove the screw holding the nail onto the fingertip - move the fingertip sensor away from the base of the fingertip (1cm away max) |
+| <img src="../img/lowerArm/nailV2.png" width=400> | 6. Please remove the screw holding the nail onto the fingertip - move the fingertip sensor away from the base of the fingertip (1cm away max) |
 | <img src="../img/lowerArm/TH_K.png" width=400> | 7. Make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) |
 | <img src="../img/lowerArm/I_M_closing.png" width=400> | 7. Just use a screwdriver to make the thumb start closing.<br />Just recall to do not force with the screwdriver if the movement looks like stuck, do some rotation clock/counter-clock wise in order to unstuck it. |
 | **YOU ARE DONE!!! CONGRATULATIONS!!!** | Please close the fingertip and its nail and put back in place the lateral bar |
@@ -188,14 +188,15 @@ The minimum requirement to start re-cabling the proximal joints is:
 | --- | --- |
 |       | Take 1 meter of IITCODE 1815.            |
 |<img src ="../img/lowerArm/start_prox.png" width=700> <img src ="../img/lowerArm/start_prox1.png" width=400>| Turn the pulley in order to have the threads already facing (pointing toward) the holes inside the pink frame and the hole inside the pulley itself lying at horizontal. |
-| <img src ="../img/lowerArm/wiring_prox1.png" width=800> | Insert the cable inside the pulley and equitably half the cable on both sides of the pulley. In order to differentiate the two cable parts, we will call them red and blue. |
-| <img src ="../img/lowerArm/wiring_prox_pulley3.png" width=400> <img src ="../img/lowerArm/wiring_prox_pulley.png" width=400>  <img src ="../img/lowerArm/wiring_prox_pulley2.png" width=400> | Respect the only one rule: 2 full turns around the pulley for the hole close to the ball bearing (blue cable) and 1 full turn for the part that will go into the hole the closest from the motor (red cable). |
+| <img src ="../img/lowerArm/wiring_prox1.png" width=800> <br> <img src ="../img/lowerArm/ProximalV2.png" width=800> <br> <img src ="../img/lowerArm/pull_cable.png" width=800> | Insert the cable inside the pulley and equitably half the cable on both sides of the pulley. In order to differentiate the two cable parts, we will call them red and blue. <br><br> !!!TIP!!! In order to keep in position the cable  split in two halves, pull it like shown in the last pic |
+| <img src ="../img/lowerArm/wiring_prox_pulley3.png" width=400> <img src ="../img/lowerArm/wiring_prox_pulley.png" width=400>  <img src ="../img/lowerArm/wiring_prox_pulley2.png" width=400><br> <img src ="../img/lowerArm/hold_cable.png" width=400> | Respect the only one rule: 2 full turns around the pulley for the hole close to the ball bearing (blue cable) and 1 full turn for the part that will go into the hole the closest from the motor (red cable). <br><br> In order to keep the cable in position after the turns, you can push it with a screwdriver like shown in this last picture |
 
 
 
 !!!tip
-    YOU may need to glue the cable at the tip (2cm long) on both sides. With a plier make 2 times 90 degree angles on the cable at about 3-4mm from one another, in order to create a hook. See picture to manage to extract the cable once it passes between the thread and the neck of the frame.
-    !!!PICTURE NEEDED!!!!
+    YOU may need to glue the cable at the tip (2cm long) on both sides. With a plier make 2 times 90 degree angles on the cable at about 3-4mm from one another, in order to create a hook. Extract the cable once it passes between the thread and the neck of the frame. <img src ="../img/lowerArm/hook.png" width=600>
+
+
 
 | LOCATION   | step by step guide      |
 | --- | --- |
@@ -203,10 +204,10 @@ The minimum requirement to start re-cabling the proximal joints is:
 | <img src ="../img/lowerArm/holes_prox.png" width=600> | After wrapping the cable on the pulley, insert the 2 cable extremities inside the frame holes. For the thumb, the frame holes are designed inclined by 45 deg. |
 | <img src ="../img/lowerArm/exit_prox.png" width=400>            | Push the 2 sides of the cable inside the sheath (+) and (-) for each finger. |
 |   | **The 2 sides of the cables should get out:** |
-| <img src ="../img/lowerArm/exit_prox_thumb.png" width=800> | For the THUMB only: the cabling for the thumb passes first by a pair of pulleys before returning to a perfectly identical cabling as Index and Middle, as shown below. |
+| <img src ="../img/lowerArm/exit_prox_thumb.png" width=800> <br><img src ="../img/lowerArm/thumb_prox_pic.png" width=800> | For the THUMB only: the cabling for the thumb passes first by a pair of pulleys before returning to a perfectly identical cabling as Index and Middle, as shown below. |
 | <img src ="../img/lowerArm/exit_prox_I&M.png" width=700> <img src ="../img/lowerArm/exit_prox_thumb2.png" width=700> | For all the proximal joints the final cabling starts at the base of their respective finger. |
 | <img src ="../img/lowerArm/last_pulley_prox.png" width=700>    | Cable as follow and block each side of the cable with the nut screw M1.6x3 |
-| picture from real robot| Tense each side of the cable by releasing the nut screw and pinch and rotate. Close the nut screw. |
-| picture from real robot | Make a knot at the base of the cable exit, a little further away from it **(+/-5 mm)** AND keep in mind that the **knot** will have to **remain in the slot**. |
+| <img src ="../img/lowerArm/nutscrewV2.png" width=700> | Tense each side of the cable by releasing the nut screw and pinch and rotate. Close the nut screw. |
+|  | Make a knot at the base of the cable exit, a little further away from it **(+/-5 mm)** AND keep in mind that the **knot** will have to **remain in the slot**. |
 |  | **FINISHED!!!** |
 
