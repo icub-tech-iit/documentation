@@ -35,7 +35,6 @@ jobs:
           git checkout --orphan gh-pages
           rm -R `ls -A | grep -v -E "^(.git|site)$"`
           mv site/* ./
-          rm -Rf site
 
       - name: Commit and push
         run: |
