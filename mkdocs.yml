@@ -26,8 +26,8 @@ markdown_extensions:
     - pymdownx.highlight
     - pymdownx.keys
     - pymdownx.magiclink:
-        user: robotology
-        repo: assistive-rehab
+        user: icub-tech-iit
+        repo: documentation
         repo_url_shortener: true
         repo_url_shorthand: true
     - pymdownx.mark
