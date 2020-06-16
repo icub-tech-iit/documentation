@@ -9,5 +9,5 @@ The design of our robot evolves in time. We have been asking ourselves how to pr
 
 An [upgrade kit](./upgrade_kits/index.md) is a plastic bag with mechanical parts, hardware boards, screws, wires, tendons and whatever it is required to perform a physical upgrade of the robots, including the instructions.
 
-## [The iCub Verions Table](./icub_versions/index.md)
+## [The iCub Versions Table](./icub_versions/index.md)
 [iCub Versions Table](./icub_versions/index.md) is a table containing the current known iCub versions.
