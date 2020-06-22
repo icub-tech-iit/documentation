@@ -10,12 +10,12 @@
 |     1   | RC_IIT_011_G_017    |          |     |      Left support for FTC                         | 14354 | 
 |     1   |  RC_IIT_011_P_062   |     3    |     |     Right support for Mais                        | 14356 |
 |     1   |  RC_IIT_011_G_016   |     1    |     |     Right support for FTC                         | 14355 |
-|     4   |  ISO 7046 M1.6x5    |     2    |     |     screws for right/left support FTC             | 11229 |
-|     6   | ISO 7045 M1.6x6     |  4 / 6   |     |     screws for right/left support Mais            |  2399 |
-|     4   | ISO 1207 M1x5       |     7    |     |     screws for right/left support and Mais board  |  2406 |
+|     4   |  ISO 7046 M1.6x5    |     2    |     |     CROSS RECESSED SCREW ISO7046-1 M1.6X5 H       | 11229 |
+|     6   | ISO 7045 M1.6x6     |  4 / 6   |     |     CROSS RECESSED SCREW ISO7045 M1.6X6 Z         |  2399 |
+|     4   | ISO 1207 M1x5       |     7    |     |     SLOTTED CHEESE HEAD SCREW DIN 84 ISO1207 M1X5 |  2406 |
 |     2   | RC_IIT_017_P_031    |    10    |     |     UPPERCOVER HAND RIGHT                         |  5448 |   
 |     2   | RC_IIT_017_P_030    |          |     |     UPPERCOVER HAND LEFT                          |  5447 |      
-|     2   |  V2-6--_-_ISO7046-1_CH |   9   |     |    Screw for uppercover Hand                      |  2440 |
+|     2   |  V2-6--_-_ISO7046-1_CH |   9   |     |    CROSS RECESSED SCREW ISO7046-1 M2X6 H          |  2440 |
 
 ## Assembly instruction
 
