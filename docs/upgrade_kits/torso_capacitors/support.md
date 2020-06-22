@@ -2,7 +2,6 @@
 
 ## Content material
 
-## Content material
 
 |  Pieces |     Alias    	        |          Description                        |  Cod. Wgst |
 |   :---: |    :-----------:      |     :---:                                   |   :---:   |
