@@ -151,7 +151,10 @@ The minimum requirement to start re-cabling distal joints is:
 | <img src ="../img/lowerArm/R_P_cabling.png" width=600>         | 4. Cable routing.<br />To be able to pass the cable at the base of the nail it is important to remove the nail and move forward the fingertip for 1 cm from its base. |
 | picture sul vero robot | 5. Please write with a marker at the base of the nails where the knot should be in order to have a perfect simultaneous closing for both fingers. |
 
+ 
 
+!!!tip
+    The insertion of the cables into their holes, passing through the pulleys, is tricky. If you are struggling, cut the cable extremity with a **45 deg angle**, so it will be easier for it to get in position.
 
 ## 3	Proximal Joints
 
@@ -195,6 +198,11 @@ The minimum requirement to start re-cabling the proximal joints is:
 
 !!!tip
     YOU may need to glue the cable at the tip (2cm long) on both sides. With a plier make 2 times 90 degree angles on the cable at about 3-4mm from one another, in order to create a hook. Extract the cable once it passes between the thread and the neck of the frame. <img src ="../img/lowerArm/hook.png" width=600>
+
+
+
+!!!tip
+    When inserting the cable in the pulley, make sure that the pulley holes are in phase with the frame holes. In other words, the pulley threads need to be aligned with the 2 holes in the frame. 
 
 
 
