@@ -74,7 +74,7 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 !!! note "Rules for a good start"
     1.Always remove the broken cable
 
-    2.Pay attention of putting the tensionner upside down so that the crimp dont exit
+    2.Pay attention of putting the tensionner upside down so that the crimp does not exit
     
     3a.Keep in Mind that the shoulder is a set of 4 pairs of antagonistic cables : (1-2), (3-4), (8-7), (6-5)
     
@@ -157,6 +157,12 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 <center><img src='../img/shoulder/ICUB_SHOULDER_LEFT_Cable_7.png' width="90%" height="auto"></center>
 
+
+
+In order to insert these cables, you need to turn the 2 pulleys and align the teeth as shown in the picture above.
+
+
+
 > Once both crimps jumped over the 2 teeth holding the crimp in position - you can start tightening the screws of the tensioners 7 and 8.
 
 ### 2.4	Left Shoulder Elevation Cable 6 and 5
@@ -165,7 +171,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 <center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_6.png)</center>             
 <center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_5.png)</center>
-> Once both crimps jumped over the 2 teeth holding the crimp in position you can start tightening the screws of the tensioners 6 and 5
+> Once both crimps jumped over the 2 teeth holding the crimp in position you can start tightening the screws of the tensioners 6 and 5.
 
 ## 3	Left Elbow cabling 
 
