@@ -1,4 +1,4 @@
-# Icub upper arm covers update which prevents skin breakage.
+# iCub upper arm covers preventing skin breakage.
 
 ## Upgrade Kit
 
