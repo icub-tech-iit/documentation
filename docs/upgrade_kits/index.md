@@ -11,3 +11,6 @@
 
 ### iCub Upgrade Kit: differential neck pulley 
 [iCub Differential Neck Pulley UpKit](./eyes/support.md) describes how to perform an upgrade of the neck of iCub so that the tendon does not easily slip away.
+
+### iCub Upgrade Kit: upper arm covers
+[iCub upper arm cover UpKit](./upperarm_cover_icub2_5/support.md) describes how to perform an upgrade to iCub so that the upper arm covers can be mounted.
