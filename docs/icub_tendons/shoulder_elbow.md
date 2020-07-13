@@ -1,6 +1,6 @@
 # Shoulder & Elbow
 
-This chapter describes the wiring procedure for the cables of the shoulders and elbows, for every version of iCub made from version 1 to version 2.5, either in mounting phase or during a maintenance.
+This chapter describes the wiring procedure for the cables of the shoulders and elbows, for every version of iCub made from version 1 to version 2.5, either in mounting phase or during a maintenance.\ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position001)  
 
 <!--
 Spalle e gomiti
@@ -23,7 +23,7 @@ Il presente Capitolo descrive la procedura di cablaggio dei cavi delle spalle e 
 
 
 
-> Cables from 1 to 6 are RC_IIT_019_G_00X - X from 1 to 6 - each made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492). The assembly resulting cable can be purchased from with IITCODE from 4758 to 4763.
+> Cables from 1 to 6 are RC_IIT_019_G_00X - X from 1 to 6 - each made of U7191517 (IITCODE 2390) with different lengths (see the list above) and 2 crimps RC_TLR_003_P_101 (IITCODE 3492). The assembly resulting cable can be purchased from with IITCODE from 4758 to 4763.\  [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position002)
 <!-- 
 Gli IITCODE dei cavi da 1 a 6 sono da 4758 a 4763. Vengono realizzati mediante cavo di acciaio U7191517 codice IIT 2390 e n. 2 crimp codice IIT 3492. Le misure sono presenti nella lista
 -->
@@ -42,7 +42,7 @@ Gli IITCODE dei cavi da 1 a 6 sono da 4758 a 4763. Vengono realizzati mediante c
 |1896|IIT_003_P_007_00 |RIGHT PULLEY - CRIMP COVER|
 
 
-> For Cable 7-8-9-10 measures see above (respectively IITCODE from 13736 to 13739). **Alternatively you could build your own, made from U7191215 (IITCODE 2389) and 2 crimps (IITCODE 3877) BUT note that it is really important to shrink down to 4mm the crimp that will be inside the tensioner holder**
+> For Cable 7-8-9-10 measures see above (respectively IITCODE from 13736 to 13739). **Alternatively you could build your own, made from U7191215 (IITCODE 2389) and 2 crimps (IITCODE 3877) BUT note that it is really important to shrink down to 4mm the crimp that will be inside the tensioner holder** \ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position003)
 
 <!-- 
 Per i cavi 7-8-9-10 fare riferimento a descrizione in IITCODE 13736-7-8-9
@@ -57,9 +57,12 @@ Per i cavi 7-8-9-10 fare riferimento a descrizione in IITCODE 13736-7-8-9
 |2389| U7191215 |Stainless steel microcable, cable construction 7x19mm, nom. dia 1,2mm, outer dia 1,5mm, Polyamide coated, AISI 316 - CARL STAHL GMBH|
 |3877| RC_TLR_005_P_101 |Thimble for cable Dia 1.5mm (Inner dia 1.25mm)|
 
-
 !!! danger "The cabling sequence for the shoulder is the following:"
+
     <h4><center>**(1 - 2) - (3 - 4) - (8 - 7) - (6 - 5)**</center></h4>
+
+!!! note "IMPORTANT NOTE"
+    **shrink down to 4mm** one crimp of the cable 7 and 8  (crimp going into the tensioner)
 
 <!--
 Consiglio
@@ -70,27 +73,27 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 <img src='../img/shoulder/ICUB_SHOULDER_LEFT.png' width = 95%>
 
-
 !!! note "Rules for a good start"
-    1.Always remove the broken cable
 
-    2.Pay attention of putting the tensionner upside down so that the crimp does not exit
+    - Always remove the broken cable
+
+    - Pay attention of putting the tensioner upside down so that the crimp can't exit
     
-    3a.Keep in Mind that the shoulder is a set of 4 pairs of antagonistic cables : (1-2), (3-4), (8-7), (6-5)
+    - Keep in Mind that the shoulder is a set of 4 pairs of antagonistic cables : (1-2), (3-4), (8-7), (6-5). And by so,to put back in place one pair of cable you need to make sure that the tensioners for both cables are loose.
     
-    3b.And by so,to put back in place one pair of cable you need to make sure that the tensionner for both cables are loose
+    - PLEASE start by having the pulleys positionned in the same way as the pictures depicted
 
 
-|**Block of pulleys**|**Tensionner fully opened**|**Cavity of the tensionner hidden - crimp can't escape**|
+|**Block of pulleys**|**Tensioner fully opened**|**Cavity of the tensioner hidden - crimp can't escape**|
 |:-----:|:-----:|:-----:|
 |<img src ='../img/shoulder/block_pulleys.png' height = 400px width = auto>|<img src ='../img/shoulder/tensionner.png'height=400px width = auto>|<img src ='../img/shoulder/tensionner_UPSIDEDOWN.png' height=400px width = auto>|
 
 ### 2.1	Left Shoulder Rotation Cable 1 and 2
 
-![ICUB_SHOULDER_LEFT](./img/shoulder/ICUB_SHOULDER_LEFT_Cable_1.png)
+![ICUB_SHOULDER_LEFT](../img/shoulder/ICUB_SHOULDER_LEFT_Cable_1.png)
 
 > Follow the diagram above to route the cable N1. Once the head of the crimp reach the small pulley. Add atop of it the left crimp cover in ABS
-(IIT CODE: 1895)
+(IIT CODE: 1895)[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 |**Crimp cover above the small pulley**|**Left crimp cover**|
 |:-----:|:-----:|
@@ -116,7 +119,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 ### 2.2	Left Shoulder Elevation Cable 3 and 4
 
 <center><img src ='../img/shoulder/ICUB_SHOULDER_LEFT_Cable_3.png' width = 85%></center>
-> As per cable N1, just route cable N3 following the diagram above and prevent the crimp from escaping by adding the left cover crimp (IITCODE : 1895)
+> As per cable N1, just route cable N3 following the diagram above and prevent the crimp from escaping by adding the left cover crimp (IITCODE : 1895)\ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 <!--
 Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccola   RC_TLR_003_P_037 posizionare il copri cavo in abs (plastica) ovvero il   pezzo  IIT_003_P_006_00 SX
@@ -135,17 +138,17 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! danger "From cable 8 to 5"
     **To mount the cables 8 - 7 - 6 - 5, it is important to start with all of them already disconnected. You   first need to replace the broken cable(s) by starting to enter the head crimp   (4mm size – smaller one or ball crimp) of the cable 7 and 8 inside their respective   tensioner. You will need later to start wiring cable 7 and 8 in their future   path BUT to do so it is necessary to create SPACE FOR THE CRIMPS TO PASS.**
     
-    **There are 2 designs for the   shoulder so it is necessary to see the difference in between both of them to know how to untighten the good pieces and screws to create that SPACE**
+    **There are 2 designs for the shoulder so it is necessary to see the difference in between both of them to know how to untighten the good pieces and screws to create that SPACE**\ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position007)
 
 <h3>VERSION 1</h3>
-<center>![ICUB-SHOULDER](./img/shoulder/ICUB_SHOULDER_LEFT_Cable_5-6-7-8.png)</center>
+<center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_5-6-7-8.png)</center>
 > 1. Remove the beige pulley (remove the 4 screws M2x12) until you don't remount cable 5
 > 2. Reach the 2 screws M4x12 on the green pulley and just untighten them until you can pass both crimp 8 and 7 following the routing explain below.
 > 3. Close the gap in order to prevent the cables 8 and 7 to exit - tighten the 2 screws M4x12
 > 4. Start wiring
 
 <h3>VERSION 2</h3>
-![ICUB-SHOULDER](./img/shoulder/ICUB_SHOULDER_LEFT_Cable_5-6-7-8_V2.png)
+![ICUB-SHOULDER](../img/shoulder/ICUB_SHOULDER_LEFT_Cable_5-6-7-8_V2.png)
 
 > 1. Loose the the 2 screws M4x12 to slide a bit the block of 2 pulleys (grey and yellow) to give space until you can pass both crimp 8 and 7 following the routing explain below.
 > 2. Close the gap in order to prevent the cables 8 and 7 to exit - tighten the 2 screws M4x12
@@ -157,12 +160,6 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 <center><img src='../img/shoulder/ICUB_SHOULDER_LEFT_Cable_7.png' width="90%" height="auto"></center>
 
-
-
-In order to insert these cables, you need to turn the 2 pulleys and align the teeth as shown in the picture above.
-
-
-
 > Once both crimps jumped over the 2 teeth holding the crimp in position - you can start tightening the screws of the tensioners 7 and 8.
 
 ### 2.4	Left Shoulder Elevation Cable 6 and 5
@@ -171,16 +168,19 @@ In order to insert these cables, you need to turn the 2 pulleys and align the te
 
 <center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_6.png)</center>             
 <center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_LEFT_Cable_5.png)</center>
-> Once both crimps jumped over the 2 teeth holding the crimp in position you can start tightening the screws of the tensioners 6 and 5.
+> Once both crimps jumped over the 2 teeth holding the crimp in position you can start tightening the screws of the tensioners 6 and 5
 
 ## 3	Left Elbow cabling 
+
+!!! note "IMPORTANT NOTE"
+    **shrink down to 4mm**, one crimp of the cable 9 and 10  (crimp going into the tensioner)
 
 > Those 2 cables are not specifically difficult to route but unfortunately you need to operate cautiously to do NOT damage the electronical boards located beneath the upper arm.
 
 <img src='../img/shoulder/ICUB_ELBOW_LEFT.png' width = 80%>
 
 !!! warning
-    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
+    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#2-lower-arm-v2)
     
     **OR** You are helped by **someone else** to hold the Lower Arm (Forearm + Hand).
 
@@ -233,10 +233,10 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 ### 4.1	Right Shoulder Rotation Cable 1 and 2
 
-![ICUB_SHOULDER_LEFT](./img/shoulder/ICUB_SHOULDER_RIGHT_Cable_1.png)
+![ICUB_SHOULDER_LEFT](../img/shoulder/ICUB_SHOULDER_RIGHT_Cable_1.png)
 
 > Follow the diagram above to route the cable N1. Once the head of the crimp reach the small pulley. Add atop of it the right crimp cover in ABS
-(IIT CODE: 1896)
+(IIT CODE: 1896)[<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 |**Crimp cover above the small pulley**|**Right crimp cover**|
 |:-----:|:-----:|
@@ -249,7 +249,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! Danger
     You need to remove both tensioner of cable 2 and 3 in order to change one of them - meaning re-cabling pairs (1-2) and (3-4)
 
-![ICUB-SHOULDER](./img/shoulder/ICUB_SHOULDER_RIGHT_Cable_2.png) 
+![ICUB-SHOULDER](../img/shoulder/ICUB_SHOULDER_RIGHT_Cable_2.png) 
 
 > Route cable N2 as per the diagram above.
 > 
@@ -262,7 +262,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 ### 4.2	Right Shoulder Elevation Cable 3 and 4
 
 <center><img src ='../img/shoulder/ICUB_SHOULDER_RIGHT_Cable_3.png' width = 85%></center>
-> As per cable N1, just route cable N3 following the diagram above and prevent the crimp from escaping by adding the right cover crimp (IITCODE : 1896)
+> As per cable N1, just route cable N3 following the diagram above and prevent the crimp from escaping by adding the right cover crimp (IITCODE : 1896)\ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position006)
 
 <!--
 Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccola   RC_TLR_003_P_037 posizionare il copri cavo in abs (plastica) ovvero il   pezzo  IIT_003_P_006_00 SX
@@ -281,17 +281,17 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! danger "From cable 8 to 5"
     **To mount the cables 8 - 7 - 6 - 5, it is important to start with all of them already disconnected. You   first need to replace the broken cable(s) by starting to enter the head crimp   (4mm size – smaller one or ball crimp) of the cable 7 and 8 inside their respective   tensioner. You will need later to start wiring cable 7 and 8 in their future   path BUT to do so it is necessary to create SPACE FOR THE CRIMPS TO PASS.**
     
-    **There are 2 designs for the   shoulder so it is necessary to see the difference in between both of them to know how to untighten the good pieces and screws to create that SPACE**
+    **There are 2 designs for the   shoulder so it is necessary to see the difference in between both of them to know how to untighten the good pieces and screws to create that SPACE**\ [<i class="fa fa-flag fa-1x"></i> **ITA**](italiano.md#position007)
 
 <h3>VERSION 1</h3>
-<center>![ICUB-SHOULDER](./img/shoulder/ICUB_SHOULDER_RIGHT_V1.png)</center>
+<center>![ICUB-SHOULDER](img/shoulder/ICUB_SHOULDER_RIGHT_V1.png)</center>
 > 1. Remove the beige pulley (remove the 4 screws M2x12) until you don't remount cable 5
 > 2. Reach the 2 screws M4x12 on the green pulley and just untighten them until you can pass both crimp 8 and 7 following the routing explain below.
 > 3. Close the gap in order to prevent the cables 8 and 7 to exit - tighten the 2 screws M4x12
 > 4. Start wiring
 
 <h3>VERSION 2</h3>
-![ICUB-SHOULDER](./img/shoulder/ICUB_SHOULDER_RIGHT_V2.png)
+![ICUB-SHOULDER](../img/shoulder/ICUB_SHOULDER_RIGHT_V2.png)
 
 > 1. Loose the the 2 screws M4x12 to slide a bit the block of 2 pulleys (grey and yellow) to give space until you can pass both crimp 8 and 7 following the routing explain below.
 > 2. Close the gap in order to prevent the cables 8 and 7 to exit - tighten the 2 screws M4x12
