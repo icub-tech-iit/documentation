@@ -78,16 +78,42 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
     
     3a.Keep in Mind that the shoulder is a set of 4 pairs of antagonistic cables : (1-2), (3-4), (8-7), (6-5)
     
-    3b.And by so,to put back in place one pair of cable you need to make sure that the tensionner for both cables are loose
+    3b.And by so,to put back in place one pair of cable you need to make sure that the tensioners for both cables are loose
 
 
-|**Block of pulleys**|**Tensionner fully opened**|**Cavity of the tensionner hidden - crimp can't escape**|
+|**Block of pulleys**|**Tensioner fully opened**|**Cavity of the tensioner hidden - crimp can't escape**|
 |:-----:|:-----:|:-----:|
 |<img src ='../img/shoulder/block_pulleys.png' height = 400px width = auto>|<img src ='../img/shoulder/tensionner.png'height=400px width = auto>|<img src ='../img/shoulder/tensionner_UPSIDEDOWN.png' height=400px width = auto>|
 
 ### 2.1	Left Shoulder Rotation Cable 1 and 2
 
+
+
+If you have to repair cable 1 and/or cable 2, it is convenient to first:
+
+1. Remove the chest cover (follow [this procedure](waist_legs.md#21-chest-back-and-back-pack-covers-dismounting)) in order to have better access to the pulleys
+2. Loose also the cables 5-6-7-8 in order to easily turn the pulleys of cables 1&2 and thus tension them
+3. Tension cables 1 and 2, attach the other cables and finally tension them
+
+
+
+In order to access the tensioners of cables 1 and 2, you have to remove the small metal cover on both pulleys, as shown below, by unscrewing the M2x5 screw holding them:
+
+|              Tensioner cover              |           Tensioner cover CAD model            |
+| :---------------------------------------: | :--------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2.png'> | <img src ='../img/shoulder/cable1_2_blue.png'> |
+
+
+
+Let's see the cabling of tendons 1 & 2 in detail:
+
+
+
 ![ICUB_SHOULDER_LEFT](./img/shoulder/ICUB_SHOULDER_LEFT_Cable_1.png)
+
+
+
+
 
 > Follow the diagram above to route the cable N1. Once the head of the crimp reach the small pulley. Add atop of it the left crimp cover in ABS
 (IIT CODE: 1895)
@@ -101,7 +127,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 -->
 
 !!! Danger
-    You need to remove both tensioner of cable 2 and 3 in order to change one of them - meaning re-cabling pairs (1-2) and (3-4)
+    You need to remove both tensioners of cable 2 and 3 in order to change one of them - meaning re-cabling pairs (1-2) and (3-4)
 
 <center><img src='../img/shoulder/ICUB_SHOULDER_LEFT_Cable_2.png' width=90%></center> 
 
@@ -112,6 +138,16 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! TIP
     Do cycles of 5 turns for each screws in order to find an equal tensioning
     
+
+Make sure you face the crimps as shown below before tensioning, in order to have access to them. The down pulley should be rotated like shown:
+
+
+
+|                                             |                                                  |
+| :-----------------------------------------: | :----------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2_1.png'> | <img src ='../img/shoulder/cable1_2_pulley.png'> |
+
+
 
 ### 2.2	Left Shoulder Elevation Cable 3 and 4
 
@@ -182,6 +218,7 @@ In order to insert these cables, you need to turn the 2 pulleys and align the te
 !!! warning
     **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
     
+
     **OR** You are helped by **someone else** to hold the Lower Arm (Forearm + Hand).
 
 
@@ -233,6 +270,26 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 ### 4.1	Right Shoulder Rotation Cable 1 and 2
 
+
+
+If you have to repair cable 1 and/or cable 2, it is convenient to first:
+
+1. Remove the chest cover (follow [this procedure](waist_legs.md#21-chest-back-and-back-pack-covers-dismounting)) in order to have better access to the pulleys
+2. Loose also the cables 5-6-7-8 in order to easily turn the pulleys of cables 1&2 and thus tension them
+3. Tension cables 1 and 2, attach the other cables and finally tension them
+
+
+
+In order to access the tensioners of cables 1 and 2, you have to remove the small metal cover on both pulleys, as shown below, by unscrewing the M2x5 screw holding them:
+
+|              Tensioner cover              |                Tensioner cover                 |
+| :---------------------------------------: | :--------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2.png'> | <img src ='../img/shoulder/cable1_2_blue.png'> |
+
+
+
+Let's see the cabling of tendons 1 & 2 in detail:
+
 ![ICUB_SHOULDER_LEFT](./img/shoulder/ICUB_SHOULDER_RIGHT_Cable_1.png)
 
 > Follow the diagram above to route the cable N1. Once the head of the crimp reach the small pulley. Add atop of it the right crimp cover in ABS
@@ -249,6 +306,8 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 !!! Danger
     You need to remove both tensioner of cable 2 and 3 in order to change one of them - meaning re-cabling pairs (1-2) and (3-4)
 
+
+
 ![ICUB-SHOULDER](./img/shoulder/ICUB_SHOULDER_RIGHT_Cable_2.png) 
 
 > Route cable N2 as per the diagram above.
@@ -257,7 +316,20 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 
 !!! TIP
     Do cycles of 5 turns for each screws in order to find an equal tensioning
-    
+
+
+
+Make sure you face the crimps as shown below before tensioning, in order to have access to them. The down pulley should be rotated like shown:
+
+
+
+|                                             |                                                  |
+| :-----------------------------------------: | :----------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2_1.png'> | <img src ='../img/shoulder/cable1_2_pulley.png'> |
+
+
+
+
 
 ### 4.2	Right Shoulder Elevation Cable 3 and 4
 
