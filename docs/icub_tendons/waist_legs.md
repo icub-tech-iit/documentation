@@ -78,10 +78,10 @@
 | <img src="../img/waist/bp-power-board.png" width = 300>      | <u>STEP 6:</u><br/>loose the 2 screws M2.5x8 holding the switches/ethernet board and push it inwards<br />**!!!NEED PICTURE TO SHOW THAT!!!** |
 | <img src="../img/waist/stand-offs.png" width = 300>          | <u>STEP 7:</u><br/>On the previous mention board, try to pop out the stand-off <br/>above the 2 push buttons.<br/>they will be in the way when we will try to remove<br/> the backpack cover later on, we may break them<br/> if remove wrongly |
 | <img src="../img/waist/bp-screws.png" width = 300>           | <u>STEP 8:</u><br/>remove the 4 screws (red circles) holding the back pack in place.<br/>NECK : 2 screws M3x8<br/>bottom back pack cover : 2 screws M3x12<br/>Theoretically, you should already have removed the 2 ring screws<br/>but if you forget, please do it now!! |
-|                                                              | <u>STEP 9:</u><br/>remove the backpack -> gif                |
+| <img src="../gif/waist_legs/bp-removal.gif" width = 300>     | <u>STEP 9:</u><br/>remove the backpack                       |
 |                                                              | watch out!!!                                                 |
-| **PHOTO**(S)                                                 | <u>STEP 10:</u><br/>disconnect the 3 connectors (2 on switch board - for the power of the 2 fans- and 1 on power board) |
-| **PHOTO**                                                    | <u>STEP 11:</u><br/>cut the tie wrap -> the back cover can be left away until we will need to remount it |
+| <img src="../img/waist/fans.jpg" width = 300><br /><img src="../img/waist/fan.jpg" width = 300> | <u>STEP 10:</u><br/>disconnect the 3 connectors (2 on switch board - to drive the 2 fans atop the backpack- and 1 on power board to drive the fans on the right side of the backpack) |
+|                                                              | <u>STEP 11:</u><br/>cut the tie wrap -> the back cover can be left away until we will need to remount it |
 | <img src="../img/waist/btp_holder-screws.png" width = 300>   | <u>STEP 12:</u><br/>remove the 4 screws holding the battery pack holder.<br/>2 screws M3x8 (yellow circle)<br/>2 screws M3x6 (red circle)<br/>!!! the battery pack holder can move almost freely from now on !!! |
 
 YOU would probably asking me why did we need to remove all of this for?
