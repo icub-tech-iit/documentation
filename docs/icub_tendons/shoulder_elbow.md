@@ -91,7 +91,7 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 If you have to repair cable 1 and/or cable 2, it is convenient to first:
 
-1. Remove the chest cover (follow [this procedure](https://icub-tech-iit.github.io/documentation/icub_tendons/waist_legs/#21-chest-back-and-back-pack-covers-dismounting)) in order to have better access to the pulleys
+1. Remove the chest cover (follow [this procedure](waist_legs.md#21-chest-back-and-back-pack-covers-dismounting)) in order to have better access to the pulleys
 2. Loose also the cables 5-6-7-8 in order to easily turn the pulleys of cables 1&2 and thus tension them
 3. Tension cables 1 and 2, attach the other cables and finally tension them
 
@@ -216,7 +216,7 @@ In order to insert these cables, you need to turn the 2 pulleys and align the te
 <img src='../img/shoulder/ICUB_ELBOW_LEFT.png' width = 80%>
 
 !!! warning
-    **EITHER** you remove the Lower Arm by Following the instructions for Low er Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
+    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
     
 
     **OR** You are helped by **someone else** to hold the Lower Arm (Forearm + Hand).
@@ -274,7 +274,7 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 If you have to repair cable 1 and/or cable 2, it is convenient to first:
 
-1. Remove the chest cover (follow [this procedure](https://icub-tech-iit.github.io/documentation/icub_tendons/waist_legs/#21-chest-back-and-back-pack-covers-dismounting)) in order to have better access to the pulleys
+1. Remove the chest cover (follow [this procedure](waist_legs.md#21-chest-back-and-back-pack-covers-dismounting)) in order to have better access to the pulleys
 2. Loose also the cables 5-6-7-8 in order to easily turn the pulleys of cables 1&2 and thus tension them
 3. Tension cables 1 and 2, attach the other cables and finally tension them
 
