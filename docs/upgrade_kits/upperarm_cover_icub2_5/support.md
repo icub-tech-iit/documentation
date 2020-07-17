@@ -14,9 +14,10 @@
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  14589  | MKIT_004  |   | Pieces  |  1  | iCub, Upper arms, fix skin breaking |
+|  2  |	   14767  |		WKIT_004	 |	 	| Pieces	| 1	| iCub2, Upperarms, fix skin breaking (wiring parts) |
+|  3  |	   14768  |		EKIT_004	 |	 	| Pieces	| 1	| iCub2, Upperarms, fix skin breaking (electronics) |
 
-
-## Content material. 
+## Content material  MKIT_004 .
 
 
 |  Pieces |     Alias    |  Description       |  Cod. Wgst |
@@ -27,6 +28,23 @@
 | 2  |V2-6--_-_ISO7045_CZ |CROSS RECESSED SCREW ISO7045 M2X6 Z  |2439|
 | 2 |V2-6--_-_ISO7046-1_CH |CROSS RECESSED SCREW ISO7046-1 M2X6 H |2440|
 |4 |V3-10--_-_ISO7046-1_CH |CROSS RECESSED SCREW ISO7046-1 M3X10 H |3461|
+
+## Content material  WKIT_004 
+
+|  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
+|   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
+|   1     |    10301  	 |      	 | iCub2.5, subassembly - Right Upperarm Skin Harness, wiring materials |10301 |
+|   1     |    10273 	 |     	 | 	iCub2.5, subassembly - Left Upperarm Skin Harness, wiring materials |10273 |
+
+
+## Content material  EKIT_004 
+|  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
+|   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
+|  1 |   13475     |        | iCubSkin 2.5, Right Upper Arm Skin, RUGGED Electronic boards   |    13475  |
+|  1 |   13476     |        | 	iCubSkin 2.5, Left Upper Arm Skin, RUGGED Electronic boards  |    13476  |
+
+
+
 
 ## Assembly instruction.
 
