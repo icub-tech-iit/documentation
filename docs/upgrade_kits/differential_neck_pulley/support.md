@@ -3,6 +3,13 @@
 We are going to replace parts in the neck, you can either operate with the head's covers mounted or not (probably more comfortable).
 It is possible to work with leaving the head attached to the robot or not.
 
+|  IIT alias|     KIT_006   	          |        
+|   :---: |    :-----------:            |    
+
+|  Robot|    iCub, head V2	          |        
+|   :---: |    :-----------:            | 
+
+
 ## Content material
 
 |  Pieces |     Alias    	          |          Description                        |  Cod. Wgst |
