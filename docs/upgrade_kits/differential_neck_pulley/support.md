@@ -4,7 +4,7 @@ We are going to replace parts in the neck, you can either operate with the head'
 It is possible to work with leaving the head attached to the robot or not.
 
 |       |       	          |
-|   :---: |    :-----------:            |
+|   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_006  |
 |    Applicable to|iCub, head V2| 
 
