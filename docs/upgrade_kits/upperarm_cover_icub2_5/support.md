@@ -43,7 +43,14 @@
 |  1 |   13475     |        | iCubSkin 2.5, Right Upper Arm Skin, RUGGED Electronic boards   |    13475  |
 |  1 |   13476     |        | 	iCubSkin 2.5, Left Upper Arm Skin, RUGGED Electronic boards  |    13476  |
 
+## Historical review:
+Before, in the previous Revision of the covers, the mini cards were organized informing of the hexagon. This largely caused the skin patch PCB to flex and break, because they took the accentuated curvature of the cover (see image).
 
+-<center> ![imagine view](img/12.PNG) </center>
+
+To solve this problem, we reduced the number of PCBs by arranging a strip with 5 PCBs (skin patch) on the flat surface of the cover. (see image)
+
+-<center> ![imagine view](img/10.PNG) </center>
 
 
 ## Assembly instruction.
