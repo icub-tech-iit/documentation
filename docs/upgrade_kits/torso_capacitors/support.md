@@ -2,6 +2,11 @@
 
 ## Content material
 
+|       |       	          |
+|   :--- |    :-----------           |
+|    IIT alias (used as ordering reference)| KIT_002  |
+|    Applicable to|iCub| 
+
 
 |  Pieces |     Alias    	        |          Description                        |  Cod. Wgst |
 |   :---: |    :-----------:      |     :---:                                   |   :---:   |
