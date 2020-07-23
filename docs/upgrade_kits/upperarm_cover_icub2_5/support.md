@@ -2,7 +2,7 @@
 
 ## Upgrade Kit
 
-# :construction: AVAILABLE SOON :construction: 
+# 🚧 AVAILABLE SOON 🚧
 
 
 |       |       	          |
