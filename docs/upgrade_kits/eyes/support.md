@@ -1,5 +1,9 @@
 # **Eyes motor replacement support**
 
+|       |       	          |
+|   :--- |    :-----------           |
+|    IIT alias (used as ordering reference)| KIT_005  |
+|    Applicable to|iCub, head V2| 
 
 
 ## Content material
