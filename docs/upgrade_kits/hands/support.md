@@ -1,6 +1,10 @@
 # **Update Support for iCub Right and Left hand**
 
 
+|       |       	          |
+|   :--- |    :-----------           |
+|    IIT alias (used as ordering reference)| KIT_003  |
+|    Applicable to|iCub | 
 
 ## Content material
 
