@@ -2,6 +2,15 @@
 
 ## Upgrade Kit
 
+# :construction_worker: AVAILABLE SOON :construction_worker: 
+
+
+|       |       	          |
+|   :--- |    :-----------           |
+|    IIT alias (used as ordering reference)| KIT_004  |
+|    Applicable to|iCub | 
+
+
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  14589  | MKIT_004  |   | Pieces  |  1  | iCub, Upper arms, fix skin breaking |
