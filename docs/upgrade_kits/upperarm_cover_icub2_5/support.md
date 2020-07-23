@@ -2,7 +2,7 @@
 
 ## Upgrade Kit
 
-# :construction_worker: AVAILABLE SOON :construction_worker: 
+# :construction: AVAILABLE SOON :construction: 
 
 
 |       |       	          |
@@ -50,4 +50,3 @@ Before starting assembly, check the orientation of the covers.<br>
 
 -<center> ![imagine view](img/4.PNG) </center>
 -<center> ![imagine view](img/5.PNG) </center>
-
