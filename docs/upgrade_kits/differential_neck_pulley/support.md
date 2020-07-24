@@ -1,4 +1,4 @@
-# **Update of differential neck pulley for iCub**
+# **KIT_006 Update of differential neck pulley for iCub**
 
 We are going to replace parts in the neck, you can either operate with the head's covers mounted or not (probably more comfortable).
 It is possible to work with leaving the head attached to the robot or not.
