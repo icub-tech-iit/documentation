@@ -1,4 +1,4 @@
-# iCub upper arm covers preventing skin breakage.
+# KIT_004 iCub upper arm covers preventing skin breakage
 
 ## Upgrade Kit
 
@@ -17,7 +17,7 @@
 |  2  |	   14767  |		WKIT_004	 |	 	| Pieces	| 1	| iCub2, Upperarms, fix skin breaking (wiring parts) |
 |  3  |	   14768  |		EKIT_004	 |	 	| Pieces	| 1	| iCub2, Upperarms, fix skin breaking (electronics) |
 
-## Content material  MKIT_004 .
+## Content material  MKIT_004
 
 
 |  Pieces |     Alias    |  Description       |  Cod. Wgst |
