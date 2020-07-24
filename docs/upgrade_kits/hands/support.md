@@ -1,4 +1,4 @@
-# **KIT_003 Update Support for iCub Right and Left hand**
+# KIT_003 Update Support for iCub Right and Left hand
 
 
 |       |       	          |
