@@ -5,7 +5,7 @@
 # 🚧 AVAILABLE SOON 🚧
 
 !!! warning
-   The 3D taxels points are not available for both `left_arm` and `right_arm` of iCubs mounting this UKit(version 2.7). For this reason `skinManager` may not work as expected, this information will be added in the near future. On the other hand the 2D position of new patches has been defined, then the `iCubSkinGui` works fine.
+    The 3D taxels points are not available for both `left_arm` and `right_arm` of iCubs mounting this UKit(version 2.7). For this reason `skinManager` may not work as expected, this information will be added in the near future. On the other hand the 2D position of new patches has been defined, then the `iCubSkinGui` works fine.
 
 |       |       	          |
 |   :--- |    :-----------           |
