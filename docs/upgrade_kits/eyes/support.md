@@ -1,4 +1,4 @@
-# **KIT_005 Eyes motor replacement support**
+# KIT_005 Eyes motor replacement support
 
 |       |       	          |
 |   :--- |    :-----------           |
