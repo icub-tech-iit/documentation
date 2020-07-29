@@ -18,7 +18,7 @@ Please click on any of the iCub body parts below to get instructions on how to r
 
 ## iCub mechanical versions
 
-Here is a table showing the **visual** differences of iCub from version 1 to 2.5.
+Here is a table showing the **visual** differences of iCub from version 1 to 2.7.
 
 | iCub V1                                                      | iCub V2                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -30,7 +30,7 @@ Here is a table showing the **visual** differences of iCub from version 1 to 2.5
 
 ## Cabling Differences
 
-| Part activated by tendons  | iCub V1  | iCub V2  | iCub V2.5 | iCub V2.5 (w/ backpack) |
+| Part activated by tendons  | iCub V1  | iCub V2  | iCub V2.5 | iCub V2.5 & following (w/ backpack) |
 | -------------------------- | -------- | -------- | --------- | -------------------- |
 | NECK                       | NO       | YES      | YES       | YES                  |
 | SHOULDER                   | YES - V1 | YES - V2 | YES - V2  | YES - V2             |
