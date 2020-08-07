@@ -5,6 +5,7 @@
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_003  |
 |    Applicable to|iCub | 
+|Available onboard |since iCub SN 043 (August 2020)|
 
 ## Content material
 
