@@ -10,6 +10,7 @@
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_004  |
 |    Applicable to|iCub | 
+|Available onboard |since iCub SN 043 (August 2020)|
 
 
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
