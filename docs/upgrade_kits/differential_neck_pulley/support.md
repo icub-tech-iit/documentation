@@ -7,6 +7,7 @@ It is possible to work with leaving the head attached to the robot or not.
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_006  |
 |    Applicable to|iCub, head V2| 
+|Available onboard |since iCub SN 043 (August 2020)|
 
 
 ## Content material
