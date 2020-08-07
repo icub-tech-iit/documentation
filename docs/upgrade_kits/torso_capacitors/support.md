@@ -6,6 +6,7 @@
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_002  |
 |    Applicable to|iCub| 
+|Available onboard |since iCub SN 043 (August 2020)|
 
 
 |  Pieces |     Alias    	        |          Description                        |  Cod. Wgst |
