@@ -342,7 +342,7 @@ To get more details on how to rewire them, please follow this [link](wrist_hand_
 
 ### 		3.7	TEST - MOTION
 
-Every single motor listed below need to be tested at the end of the cabling to unsure the perfect motion.
+Every single motor listed below needs to be tested at the end of the cabling to ensure the perfect motion.
 
 MOTOR LABEL | MOTOR FUNCTION   | volt to open         | volts to close
 -- | -- | -- | --
@@ -358,4 +358,3 @@ MOTOR LABEL | MOTOR FUNCTION   | volt to open         | volts to close
 4M1 | midlle prox | 0.5V-1.5V | 0.5V-1.5V
 4M2 | middle distal | 1-1.5V | 1-1.5V
 4M3 | pinkie and ring | 1V-1.5V | 1V-1.5V
-
