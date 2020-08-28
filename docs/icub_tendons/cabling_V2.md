@@ -339,3 +339,23 @@ From the pictures below you will be able to locate and identify the 2 tendons in
 | <img src='../img/HAND_WRIST_V2/R_wrist_label.png' > | <img src='../img/HAND_WRIST_V2/L_wrist_label.png' > |
 
 To get more details on how to rewire them, please follow this [link](wrist_hand_cabling_V2.md#13-wrist-passive-tendons).
+
+### 		3.7	TEST - MOTION
+
+Every single motor listed below need to be tested at the end of the cabling to unsure the perfect motion.
+
+MOTOR LABEL | MOTOR FUNCTION   | volt to open         | volts to close
+-- | -- | -- | --
+2M0|pronosuppination | 0.5V-1.5V | 0.5V-1.5V
+2M1|inside wrist motor | 0.5V-1.5V | 0.5V-1.5V
+2M2|outside wrist motor | 0.5V-1.5V | 0.5V-1.5V
+2M3|hand fingers | 1.5-2V  | 1.5-2V
+3M0|thumb oppose | 0.5-1V(0)  | 2.5Vmax(90)
+3M1 | thum prox | 0.5V-1V | 0.5V-1V
+3M2 | thumb distal | 2V-2.5V | 2V-2.5V
+3M3 | index prox | 0.5V-1.5V | 0.5V-1.5V
+4M0 | index distal | 1.5-2V | 1.5-2V
+4M1 | midlle prox | 0.5V-1.5V | 0.5V-1.5V
+4M2 | middle distal | 1-1.5V | 1-1.5V
+4M3 | pinkie and ring | 1V-1.5V | 1V-1.5V
+
