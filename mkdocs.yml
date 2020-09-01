@@ -81,7 +81,7 @@ nav:
                 - Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
                 - Hands Support: upgrade_kits/hands/support.md
                 - Update upper arm covers : upgrade_kits/upperarm_cover_icub2_5/support.md
-			
+
             # FIRST STEP WITH ICUB
             - iCub Starter Kits:
                 - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
