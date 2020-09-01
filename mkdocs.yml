@@ -50,6 +50,10 @@ nav:
             - The iCub Versions Table:
                 - Versions Table: icub_versions/index.md
                 
+            # First Steps with iCub
+            - iCub Starter Kits:
+                - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md                
+                
             # iCub Tendons
             - The iCub cabling manual:
                 - Summary: icub_tendons/index.md
@@ -81,8 +85,3 @@ nav:
                 - KIT_004 Update upper arm covers : upgrade_kits/upperarm_cover_icub2_5/support.md
                 - KIT_005 Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
                 - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
-
-
-            # FIRST STEP WITH ICUB
-            - iCub Starter Kits:
-                - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
