@@ -1,5 +1,4 @@
-FROM ubuntu:latest
-LABEL maintainer="ugo.pattacini@iit.it"
+FROM mcr.microsoft.com/vscode/devcontainers/base:focal
 
 ENV DEBIAN_FRONTEND=noninteractive
 
