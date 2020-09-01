@@ -9,3 +9,10 @@ iCub Tech Docs
 
 ## Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
+
+## ☁ Codespaces
+You can leverage on [GitHub Codespaces](https://github.com/features/codespaces) to quickly get a testing platform on the cloud where to try out how the documentation is rendered.
+
+| Click to enlarge |
+| :---: |
+| ![](./assets/codespaces.gif) |
