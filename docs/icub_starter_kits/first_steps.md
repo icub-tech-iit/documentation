@@ -240,4 +240,6 @@ When done this process the robot will be able to see the ball and you can launch
 !!! WARNING
     THE ROBOT IS NOW MOVING TOWARD THE BALL AND TRY TO GRASP IT
     
-    See the video tutorial on how to let the robot grasp the ball - RedBallDemo.mp4 - gif
+    See the video tutorial on how to let the robot grasp the ball
+
+    <video controls muted autoplay loop width="720" height="405"> <source type="video/mp4" src="../videos/red-ball-demo.mp4"> </video>
