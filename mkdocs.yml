@@ -84,4 +84,4 @@ nav:
 			
             # FIRST STEP WITH ICUB
             - iCub Starter Kits:
-                - First steps with the Humanoid iCub: first_steps.md
+                - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
