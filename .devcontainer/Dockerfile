@@ -1,8 +1,8 @@
-FROM mcr.microsoft.com/vscode/devcontainers/base:focal
+FROM ubuntu:latest
 
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
-    apt install -y python3-wheel python3-setuptools
-    
-#RUN pip3 install mkdocs mkdocs-material pymdown-extensions
+    apt install -y python3 python3-pip python3-setuptools python3-wheel
+
+RUN pip3 install mkdocs mkdocs-material pymdown-extensions
