@@ -10,8 +10,19 @@ iCub Tech Docs
 ## Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
 
-## ☁ Codespaces
-You can leverage on [GitHub Codespaces](https://github.com/features/codespaces) to quickly get a testing platform on the cloud where to try out how the documentation is rendered.
+## ☁ Cloud IDE
+You can leverage on a few Cloud IDE's to quickly get a testing platform on the cloud where to try out how the documentation is rendered.
+
+### [Gitpod](https://github.com/features/codespaces) 
+First off, sign up for Gitpod using your GitHub credentials. You'll have 50 hours/month of free usage on public repositories.
+
+Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-extension).
+
+| Click to enlarge |
+| :---: |
+| ![](./assets/gitpod.gif) |
+
+### [GitHub Codespaces](https://github.com/features/codespaces)
 
 | Click to enlarge |
 | :---: |
