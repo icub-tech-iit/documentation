@@ -9,7 +9,7 @@ We are going to replace iCub feet plates in order to increase the step length an
 |       |       	          |
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_007 |
-|    Applicable to|iCub 2.4|
+|    Applicable to|iCub 2.5|
 |Available onboard |available as an option|
 
 
