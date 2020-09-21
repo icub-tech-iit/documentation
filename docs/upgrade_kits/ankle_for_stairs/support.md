@@ -54,3 +54,11 @@ We are going to replace iCub feet plates in order to increase the step length an
 
 - Mount back the sensorized sole using the same screws as before
 
+## Softare instructions
+
+If you mount the `KIT_007` on your iCub, the kinematics of the leg limb will change, so you will need to make sure that any model that you use in your high level software  (in particular anything related to walking or in any case motion of the legs) will be changed appropriately.
+
+In particular, if you rely on URDF models present in https://github.com/robotology/icub-models, make sure that your iCub model is correctly updated to include the changes of `KIT_007`.
+
+If you do not know if your iCub model is present in https://github.com/robotology/icub-models or if it is updated, feel free to open an issue on https://github.com/robotology/icub-tech-support to ask about it. 
+
