@@ -4,7 +4,7 @@ LABEL org.opencontainers.image.authors="Ugo Pattacini <ugo.pattacini@iit.it>"
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
-    apt install -y python3 python3-pip python3-setuptools python3-wheel
+    apt install -y sudo git python3 python3-pip python3-setuptools python3-wheel
 
 RUN pip3 install mkdocs mkdocs-material pymdown-extensions
 
