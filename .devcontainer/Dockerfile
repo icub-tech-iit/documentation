@@ -9,3 +9,5 @@ RUN apt update && \
 RUN pip3 install mkdocs mkdocs-material pymdown-extensions
 
 RUN rm -Rf /var/lib/apt/lists/*
+
+EXPOSE 8000
