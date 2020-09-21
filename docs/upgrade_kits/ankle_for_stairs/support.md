@@ -35,7 +35,7 @@ We are going to replace iCub feet plates in order to increase the step length an
 
 | ![](img/foot.jpg) |
 | :-----------------------------------------------------------: |
-|  The neck with the pulleys in red |
+|  the screws that tight the foot plate to the robot |
 
 
 - At this point we are going to separate cover and foot plate removing these screws
