@@ -11,7 +11,7 @@ iCub Tech Docs
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
 
 ## ☁ Cloud IDE
-You can leverage on a few Cloud IDE's to quickly get a testing platform on the cloud where to try out how the documentation is rendered.
+You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
 ### [Gitpod](https://www.gitpod.io) 
 First off, sign up for Gitpod using your GitHub credentials. You'll have 50 hours/month of free usage on public repositories.
