@@ -17,7 +17,7 @@ jobs:
           sudo apt update
           sudo apt install -y python3-wheel python3-setuptools
           pip3 install --user mkdocs mkdocs-material pymdown-extensions
-          echo "::set-env name=PATH::${HOME}/.local/bin:$PATH"
+          echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
         
       - name: Configure Git
         run: |
