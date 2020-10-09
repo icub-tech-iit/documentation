@@ -2,7 +2,6 @@
 
 
 
-# 🚧 AVAILABLE SOON 🚧
 
 We are going to replace iCub feet plates in order to increase the step length and climb some stairs.
 
