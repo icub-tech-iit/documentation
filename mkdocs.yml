@@ -43,8 +43,8 @@ markdown_extensions:
 nav:
     - iCub Tech Docs:
         - Home Page: index.md
-        - iCub:
-            - Summary: icub.md
+        - iCub HW:
+            - Summary: icub_hw.md
 
             # iCub Versions
             - The iCub Versions Table:
@@ -87,4 +87,6 @@ nav:
                 - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
                 - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
 
- 
+        - iCub SW:
+            - Summary: icub_sw.md
+

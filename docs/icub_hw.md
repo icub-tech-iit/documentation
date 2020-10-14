@@ -1,5 +1,5 @@
-# iCub Documentation
-First draft of iCub documentation.
+# ⚙ iCub HW Documentation
+First draft of iCub HW documentation.
 
 ## [The iCub Versions Table](./icub_versions/index.md)
 [iCub Versions Table](./icub_versions/index.md) is a table containing the current known iCub versions.
