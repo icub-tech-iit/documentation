@@ -43,16 +43,16 @@ markdown_extensions:
 nav:
     - iCub Tech Docs:
         - Home Page: index.md
+
+        - iCub Starter Kits:
+            - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
+
         - iCub HW:
             - Summary: icub_hw.md
 
             # iCub Versions
             - The iCub Versions Table:
                 - Versions Table: icub_versions/index.md
-                
-            # First Steps with iCub
-            - iCub Starter Kits:
-                - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md                
                 
             # iCub Tendons
             - The iCub cabling manual:
