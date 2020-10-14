@@ -4,9 +4,6 @@ First draft of iCub HW documentation.
 ## [The iCub Versions Table](./icub_versions/index.md)
 [iCub Versions Table](./icub_versions/index.md) is a table containing the current known iCub versions.
 
-## [iCub Starter Kit](./icub_starter_kits/first_steps.md)
-[First Launch with the Humanoid robot iCub](./icub_starter_kits/first_steps.md) contains the perfect starter guide to handle and check the overall capabilities of iCub.
-
 ## [iCub Tendons](./icub_tendons/index.md)
 [iCub Tendons](./icub_tendons/index.md) contains the ultimate step-by-step guide on how to replace broken or out of place tendons of the iCub. It includes also some tutorials on how to build forearms and the overall tendons constituting iCub.
 
