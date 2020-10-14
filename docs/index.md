@@ -2,5 +2,6 @@
 
 <img src="./assets/icub-rotate.gif" width="70%" height="70%">
 
-- [`iCub`](icub.md) home page collecting documentation resources on the iCub robot. 
+- ⚙ [`iCub HW`](icub_hw.md) home page collecting documentation resources on the iCub HW. 
+- 👨🏻‍💻 [`iCub SW`](icub_sw.md) home page collecting documentation resources on the iCub SW. 
 
