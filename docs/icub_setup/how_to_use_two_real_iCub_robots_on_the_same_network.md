@@ -1,3 +1,5 @@
+## How to use two real iCub robots on the same network
+
 This page is intended to be used as a practical guide for setting up two real iCub robots together on the same network to run controllers designed for two of them. Ideally, the steps can be extended to multiple robots without any more changes.
 
 The following steps are done using `iCubGenova02` (aka Purple) and `iCubGenova04` (aka Green). The two major modifications are on the **Network** side and **Configuration** side.

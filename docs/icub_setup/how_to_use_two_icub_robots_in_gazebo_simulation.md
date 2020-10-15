@@ -1,3 +1,5 @@
+## How to use two iCub robots in gazebo simulation
+
 In order to use icub robot in gazebo simulation environment one needs to have the repository [icub-gazebo](https://github.com/robotology/icub-gazebo) and have to set GAZEBO_MODEL_PATH to this repository as indicated in the [readme](https://github.com/robotology/icub-gazebo) file. Furthermore, [icub-gazebo-wholebody](https://github.com/robotology/icub-gazebo-wholebody) repository contains complex `gazebo models` and `gazebo worlds`, for example [icub-standup-world](https://github.com/robotology/icub-gazebo-wholebody/blob/master/worlds/icub_standup_world/icub_standup_world). In general, these two repositories can be used as standalone or they can be used as a part of [robotology-superbuild](https://github.com/robotology/robotology-superbuild).
 
 When an iCub model is spawned in gazebo, all the ports that are opened take the name placed in the [gazebo_icub_robotname.ini](https://github.com/robotology/icub-gazebo/blob/master/icub/conf/gazebo_icub_robotname.ini) configuration file as a port prefix. The default name used is `icubSim`:
