@@ -50,11 +50,9 @@ nav:
         - iCub HW:
             - Summary: icub_hw.md
 
-            # iCub Versions
             - The iCub Versions Table:
                 - Versions Table: icub_versions/index.md
 
-            # iCub Tendons
             - The iCub cabling manual:
                 - Summary: icub_tendons/index.md
                 - Neck: icub_tendons/neck.md
@@ -77,7 +75,6 @@ nav:
                             - Wrist & Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
                 - Waist, Leg and Ankle: icub_tendons/waist_legs.md
 
-            # Upgrade Kits
             - The iCub Upgrade Kits:
                 - Summary: upgrade_kits/index.md
                 - KIT_002 Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
@@ -90,7 +87,7 @@ nav:
         - iCub SW:
             - Summary: icub_sw.md
 
-            # iCub Setup Multiple Robots
             - iCub Setup Multiple Robots:
-                -  How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
+                - Summary: icub_setup_multiple_robots/index.md
+                - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
                 - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
