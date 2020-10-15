@@ -24,6 +24,7 @@ To launch an icub robot multiple [configuration files](https://github.com/roboto
 that particular robot. But the port names used in all these configuration files are usually the same. So, while trying to launch multiple robots on the same network, port address conflict happens. This issue can be solved by using different port prefix names in the configuration files, e.g. changing from `icub` to more robot specific like `icub02` for `iCubGenova02` and `icub04` for `iCubGenova04`. An example can be found in [dic-iit/robots-configuration/icub02-prefix](https://github.com/dic-iit/robots-configuration/tree/icub02-prefix) were the `iCubGenova02` configuration files have been updated in order to run `icub_wbd.xml` application with all the port prefixes changed to `icub02`.
 
 In particular, the following files have to be changed:
+
 - Update robot `yarprobotinterface` port prefix (e.g. https://github.com/dic-iit/robots-configuration/commit/91b2ee0865ac61ec429d577c6fdf3de289ec2b26)
 - Update nterfaces wrapper port prefix (e.g. https://github.com/dic-iit/robots-configuration/commit/47d6a1beb0b5596749d975dd681e57dadaf6acee)
 - Add port prefix to whole-Body-Dynamics (e.g. https://github.com/dic-iit/robots-configuration/commit/08081819b46621c364a488695bcff8b986202a87), by adding the following line:
