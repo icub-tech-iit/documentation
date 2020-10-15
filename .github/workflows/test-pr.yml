@@ -19,4 +19,4 @@ jobs:
         
       - name: Build Mkdocs
         run: |
-          mkdocs build
+          mkdocs build --strict
