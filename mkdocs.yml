@@ -53,7 +53,7 @@ nav:
             # iCub Versions
             - The iCub Versions Table:
                 - Versions Table: icub_versions/index.md
-                
+
             # iCub Tendons
             - The iCub cabling manual:
                 - Summary: icub_tendons/index.md
@@ -90,3 +90,7 @@ nav:
         - iCub SW:
             - Summary: icub_sw.md
 
+            # iCub Setup Multiple Robots
+            - iCub Setup Multiple Robots:
+                -  How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
+                - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
