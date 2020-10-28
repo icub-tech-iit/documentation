@@ -1,20 +1,33 @@
 ## iCub 2.x Wiring 
 
-### iCub 2.5-E3.3 
-Full robot with COM-EXP and MC4-PLUS and Battery Pack
+### **CAN backbone**
+### Logic and Harness iCub 2.x-E2.0.0 
+- [iCub 2 Logic](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.0.0/pdf/iCub%202_2.0.0_XXXX_Logic.pdf)
+- [iCub 2 Harness](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.0.0/pdf/iCub%202_2.0.0_XXXX_Harness.pdf)
+- [Motor and Board Placement](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.0.0/pdf/Motor&Board%20Placement.pdf)
+### Logic and Harness iCub 2.3_E2.3.0 - Full robot with Talking Head
+- [iCub 2.3 Talking Head Logic](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.3.0%20TalkingHead/pdf/iCub%202_2.3.0_XXXX_Logic.pdf)
+- [iCub 2.3 Talking Head Harness](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.3.0%20TalkingHead/pdf/iCub%202_2.3.0_XXXX_Harness.pdf)
+- [iCub 2.3 Talking Head Motor and Board Placement](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.3.0%20TalkingHead/pdf/Motor&Board%20Placement%20Talking%20H.pdf)
+### Logic and Harness iCub 2.5_E2.5.1 - Full robot with Seaslegs
+- [iCub 2.5 Seaslegs Logic](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.5.1%20SeasLegs/pdf/iCub2_5_1_5672_B_Logic.pdf)
+- [iCub 2.5 Seaslegs Harness](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.5.1%20SeasLegs/pdf/iCub2_5_1_6070_A_Harness.pdf)
+- [iCub 2.5 Seaslegs Motor and Board Placement](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/electronics/public/ICUB2_LOGIC_HARNESS/iCub%202.5.1%20SeasLegs/pdf/Motor&Board%20Placement.pdf)
+
+
+
+### **ETHERNET backbone**
+
+### Logic and Harness iCub 2.5-E3.3 (ETH) - Full robot with **COM-EXP** and **MC4-PLUS**
  
 - [iCub 2.5 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
-        
 - [iCub2.5-E3.3.2 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/iCub2.5-E3.3.2_5672_Logic.pdf)
-
 - [iCub2.5_E3.3.2 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/iCub2.5_E3.3.2_6070_Harness.pdf) 
         
-### Logic and Harness iCub 2.7-E3.6
+### Logic and Harness iCub 2.7-E3.6 - Full robot with high performance IMU on the waist and new face expressions
 
 - [iCub 2.7 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
-
 - [iCub2.7_E3.6.0 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14838_Logic.pdf)
-
 - [iCub2.7_E3.6.0 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14839_Harness.pdf)
 
 Note: *Logic* are the schematics with the logic connections of boards motors and sensors
