@@ -52,8 +52,12 @@ nav:
 
             - The iCub Versions Table:
                 - Versions Table: icub_versions/index.md
-
-            - The iCub cabling manual:
+            - The iCub Wiring Schematics: 
+                - Summary: icub_wiring/index.md 
+                - iCub 1.0: icub_wiring/icub1_x.md
+                - iCub 2.x: icub_wiring/icub2_x.md
+                - iCub 3.x: icub_wiring/icub3_x.md
+            - The iCub Tendons manual:
                 - Summary: icub_tendons/index.md
                 - Neck: icub_tendons/neck.md
                 - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
