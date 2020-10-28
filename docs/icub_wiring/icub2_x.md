@@ -17,3 +17,5 @@ Full robot with COM-EXP and MC4-PLUS and Battery Pack
 
 - [iCub2.7_E3.6.0 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14839_Harness.pdf)
 
+Note: *Logic* are the schematics with the logic connections of boards motors and sensors
+*Harness* are the drawing of the cable and the connectors with their crimps, colour, lenght, etc.
