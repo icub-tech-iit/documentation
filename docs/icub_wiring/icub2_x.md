@@ -1,5 +1,35 @@
 ## iCub 2.x Wiring 
 
+Logic schematics are logical and electrical connections between boards, sensors and motors. 
+Harness schematics there are the drawings of all the cables and bundles. 
+In the mage below you will find the position of all the harness that you find in the pdf. 
+In order to find a cable in the Harness file of your robot, you should start looking at this picture to find out where you have to look at. 
+The Motor&Board_Placement is the document where you can find the wireframe of the robot with all the electronic boards, motors and sensors labels.
+
+<center> <img src ="../img/Harness_position.png" width=250>
+         
+</center>
+
+### **ETHERNET backbone**
+
+The system architecture of iCub2.x with ETHERNET backbone is depicted in the following image:
+
+<center> <img src ="../img/Architecture_iCub2.5-E3.2.png" width=500>
+         
+</center>
+
+### Logic and Harness iCub 2.5-E3.3 (ETH) - Full robot with **COM-EXP** and **MC4-PLUS**
+ 
+- [iCub 2.5 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
+- [iCub2.5-E3.3.2 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/iCub2.5-E3.3.2_5672_Logic.pdf)
+- [iCub2.5_E3.3.2 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/iCub2.5_E3.3.2_6070_Harness.pdf) 
+        
+### Logic and Harness iCub 2.7-E3.6 - Full robot with high performance IMU on the waist and new face expressions
+- [iCub 2.7 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
+- [iCub2.7_E3.6.1 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.1_14838_Logic.pdf)
+- [iCub2.7_E3.6.0 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14839_Harness.pdf)
+
+
 ### **CAN backbone**
 
 
@@ -17,26 +47,6 @@
 - [iCub 2.5 Seaslegs Motor and Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2/iCub%202.5.1%20SeasLegs/pdf/Motor%26Board%20Placement.pdf)
 
 
-
-### **ETHERNET backbone**
-
-The system architecture of iCub2.x with ETHERNET backbone is depicted in the following image:
-
-<center> <img src ="../img/Architecture_iCub2.5-E3.2.png" width=500>
-         
-</center>
-
-### Logic and Harness iCub 2.5-E3.3 (ETH) - Full robot with **COM-EXP** and **MC4-PLUS**
- 
-- [iCub 2.5 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
-- [iCub2.5-E3.3.2 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/iCub2.5-E3.3.2_5672_Logic.pdf)
-- [iCub2.5_E3.3.2 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/iCub2.5_E3.3.2_6070_Harness.pdf) 
-        
-### Logic and Harness iCub 2.7-E3.6 - Full robot with high performance IMU on the waist and new face expressions
-
-- [iCub 2.7 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
-- [iCub2.7_E3.6.1 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.1_14838_Logic.pdf)
-- [iCub2.7_E3.6.0 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14839_Harness.pdf)
-
 Note: *Logic* are the schematics with the logic connections of boards motors and sensors
-*Harness* are the drawing of the cable and the connectors with their crimps, colour, lenght, etc.
+*Harness* are the drawing of the cable an
+
