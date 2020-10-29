@@ -52,7 +52,7 @@ nav:
 
             - The iCub Versions Table:
                 - Versions Table: icub_versions/index.md
-            - The iCub Wiring Schematics: 
+            - The iCub Wiring: 
                 - Summary: icub_wiring/index.md 
                 - iCub 1.0: icub_wiring/icub1_x.md
                 - iCub 2.x: icub_wiring/icub2_x.md
