@@ -7,7 +7,7 @@ In the mage below you will find the position of all the harness that you find in
 In order to find a cable in the Harness file of your robot, you should start looking at this picture to find out where you have to look at. 
 The Motor&Board_Placement is the document where you can find the wireframe of the robot with all the electronic boards, motors and sensors labels.
 
-<center> <img src ="../img/Harness_position.png" width=250>
+<center> <img src ="../img/Harness_position.png" width=500>
          
 </center>
 
