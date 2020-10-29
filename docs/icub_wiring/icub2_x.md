@@ -46,7 +46,5 @@ The system architecture of iCub2.x with ETHERNET backbone is depicted in the fol
 - [iCub 2.5 Seaslegs Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2/iCub%202.5.1%20SeasLegs/pdf/iCub2_5_1_6070_A_Harness.pdf)
 - [iCub 2.5 Seaslegs Motor and Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2/iCub%202.5.1%20SeasLegs/pdf/Motor%26Board%20Placement.pdf)
 
-
-Note: *Logic* are the schematics with the logic connections of boards motors and sensors
-*Harness* are the drawing of the cable an
+ 
 
