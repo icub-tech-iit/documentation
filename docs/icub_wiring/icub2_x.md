@@ -1,6 +1,8 @@
 ## iCub 2.x Wiring 
 
 ### **CAN backbone**
+
+
 ### Logic and Harness iCub 2.x-E2.0.0 
 - [iCub 2 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2/iCub%202.0.0/pdf/iCub%202_2.0.0_XXXX_Logic.pdf)
 - [iCub 2 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2/iCub%202.0.0/pdf/iCub%202_2.0.0_XXXX_Harness.pdf)
@@ -17,6 +19,12 @@
 
 
 ### **ETHERNET backbone**
+
+The system architecture of iCub2.x with ETHERNET backbone is depicted in the following image:
+
+<center> <img src ="../img/Architecture_iCub2.5-E3.2.png" width=500>
+         
+</center>
 
 ### Logic and Harness iCub 2.5-E3.3 (ETH) - Full robot with **COM-EXP** and **MC4-PLUS**
  
