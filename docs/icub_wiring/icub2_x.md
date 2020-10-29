@@ -35,7 +35,7 @@ The system architecture of iCub2.x with ETHERNET backbone is depicted in the fol
 ### Logic and Harness iCub 2.7-E3.6 - Full robot with high performance IMU on the waist and new face expressions
 
 - [iCub 2.7 Motor Board Placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.5/iCub%20wiring%20Rev3.3%20COM-EXP%20and%20MC4-PLUS%20and%20BatteryPack/pdf/Motor%20and%20board%20placement_iCub2.5.pdf) 
-- [iCub2.7_E3.6.0 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14838_Logic.pdf)
+- [iCub2.7_E3.6.1 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.1_14838_Logic.pdf)
 - [iCub2.7_E3.6.0 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub2.7/pdf/iCub2.7_E3.6.0_14839_Harness.pdf)
 
 Note: *Logic* are the schematics with the logic connections of boards motors and sensors
