@@ -10,7 +10,7 @@
 | v1.4 |	This version has tactile sensors added on the upper arm and chest. | |
 | v2.0 |	This version has: <p> 1. Incremental encoders (optical) directly mounted on the motors (fast side of the reduction gear). <br> 2. Completely redesigned fore-arm and hands assemblies. <br> Completely redesigned head assembly for higher performances (stronger neck motors, zero-backlash eye movement) <br> 3. Mounts complete set of sensitive skin.
 | v2.3 |	This version is a v2.0 + talking-Head (it's now obsolete, head with motors for lips and jaw) | |
-| v2.5 | This version has: <p>  1. Hands v2.0 <br> 2. Stronger legs (with the possibility to mount series elastic elements on the knee and on the ankle) <br> 3.  | 
+| v2.5 | This version has: <p>  1. Hands v2.0 <br> 2. Stronger legs (with the possibility to mount series elastic elements on the knee and on the ankle) <br>   | 
 | v2.5.5| This version is a v2.5 + a backpack for batteries | | 
 | v2.6 | v2.5.5 with new face expression (RFE master board) | |
 | v2.7 | v2.6 with high-performance IMU on the waist | |
