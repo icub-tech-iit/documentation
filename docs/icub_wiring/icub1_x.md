@@ -15,3 +15,4 @@ iCub 1.7.1 has iCubHead 2.0 and forearms and hands 2.0. Therefore the logic and 
 - [iCub1.7.1 Logic](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub1/iCub%201.7.1/iCub%201.7.1_upperbody_logic.pdf)
 - [iCub1.7.1 Harness](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub1/iCub%201.7.1/iCub%201.7.1_upperbody_harness.pdf)
 - [iCub1.7.1 Motor&board placement](https://github.com/icub-tech-iit/electronics-public/blob/master/projects/robots/iCub1/iCub%201.7.1/Motor%26Board%20Placement.pdf)
+
