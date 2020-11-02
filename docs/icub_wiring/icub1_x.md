@@ -2,6 +2,7 @@
 
 ### Logic and Harness iCub 1
 
+
 !!! note "note"
     The wiring schematics of iCub 1.x has been designed by using Orcad. You can find all the docs at the link below:
 
