@@ -1,0 +1,51 @@
+name: Update SW Distros
+
+on:
+  workflow_dispatch:
+    inputs:
+      superbuild_tag:
+        description: 'The robotology-superbuild tag to refer to'
+        required: true
+        default: 'master'
+      initial_distro:
+        description: 'The initial SW Distro to process e.g. 2020.05'
+        required: true
+        default: '0000.00'
+
+jobs:
+  Update:
+    name: "Update"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install Dependencies
+        run: |
+          sudo gem install yaml
+      - name: Set Env Variables
+        run: |
+          echo "SUPERBUILD_TAG=${{ github.event.inputs.superbuild_tag }}" >> ${GITHUB_ENV}
+          echo "INITIAL_DISTRO=${{ github.event.inputs.initial_distro }}" >> ${GITHUB_ENV}
+          echo "SUPERBUILD_RELEASES_PATH=${{ github.workspace }}/../robotology-superbuild/releases" >> ${GITHUB_ENV}
+          echo "SW_VERSIONING_TABLE_PATH=${{ github.workspace }}/docs/sw_versioning_table" >> ${GITHUB_ENV}
+      - uses: actions/checkout@master
+      - name: Download Robotology Superbuild
+        run: |
+          cd ../
+          git clone https://github.com/robotology/robotology-superbuild.git --depth 1 --branch ${SUPERBUILD_TAG}
+      - name: Run Updater
+        run: |
+          rm -Rf ${SW_VERSIONING_TABLE_PATH}
+          cd scripts/sw-distros
+          ./update-sw-distros.rb
+      - name: Configure Git
+        run: |
+          git config --global push.default upstream
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+      - name: Commit and push
+        run: |
+          git add .
+          git commit -m "update SW versioning table to ${SUPERBUILD_TAG}"
+          git push
+
