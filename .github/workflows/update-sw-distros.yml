@@ -48,4 +48,13 @@ jobs:
           git add .
           git commit -m "update SW versioning table to ${SUPERBUILD_TAG}"
           git push
+      - name: Publish Documentation through dispatching
+        env:
+          BOT_TRIGGER_GH_PAGES: ${{ secrets.BOT_TRIGGER_GH_PAGES }}
+        if: env.BOT_TRIGGER_GH_PAGES != null
+        uses: peter-evans/repository-dispatch@v1.1.1
+        with:
+          token: ${{ secrets.BOT_TRIGGER_GH_PAGES }}
+          repository: ${{ github.repository }}
+          event-type: build_documentation
 
