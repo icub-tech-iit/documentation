@@ -91,6 +91,8 @@ nav:
         - iCub SW:
             - Summary: icub_sw.md
 
+            - Software Versioning Table: sw_versioning_table/index.md
+
             - iCub Setup Multiple Robots:
                 - Summary: icub_setup_multiple_robots/index.md
                 - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md

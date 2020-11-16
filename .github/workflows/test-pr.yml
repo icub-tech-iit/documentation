@@ -20,9 +20,6 @@ jobs:
       - name: Build Mkdocs
         run: |
           mkdocs build --strict > log 2>&1
-          if grep -q "not included" log; then
-            exit 1
-          fi
 
       - name: Print Log
         if: always()
