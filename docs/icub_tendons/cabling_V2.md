@@ -36,8 +36,8 @@ Please refer to this table to find out which sheath you need to install at the r
 | Thumb   | Short Prox - | pict. above | 11          | 2375              |
 | Thumb   | Distal       | N4          | 57          | 2375  `(+Teflon)` |
 | Thumb   | Short Dist   | pict. above | 11.5        | 2375              |
-| Thumb   | oppose       | S0          | 50          | 13963             |
-| Thumb   | oppose       | S2          | 57          | 13963             |
+| Thumb   | oppose       | S0          | 50          | 2375  `(+Teflon)` |
+| Thumb   | oppose       | S2          | 57          | 2375  `(+Teflon)` |
 | Index   | Proximal     | 8+          | 224         | 13963             |
 | Index   | Proximal     | 8-          | 224         | 13963             |
 | Index   | Distal       | N5          | 105         | 2375  `(+Teflon)` |
@@ -185,22 +185,20 @@ Please follow this [link](lower_arm_V2.md#2-distal-joints) for an extended HOWTO
 
 ### 		2.3	Thumb Oppose
 
-> To build the thumb oppose you just need 2 pieces of the sheath IITCODE 13963
+> To build the thumb oppose you just need 2 pieces of the sheath IITCODE 2375
 
 | Label | Dimension (mm) | IITCODE - SHEATH |
 | ----- | -------------- | ---------------- |
-| S0    | 50             | 13963            |
-| S2    | 57             | 13963            |
+| S0    | 50             | 2375  `(+Teflon)`|
+| S2    | 57             | 2375  `(+Teflon)`|
 
-!!!DANGER
-    inside sheath 13963 please **DO NOT USE** Teflon sheath!!!
 
 > And approximatively **50cm** of IITCODE  1815 to route it.
 
 | IITCODE | Alias     | Description   |
 | ------- | ----------| ------------- |
 | 1815    | CG077063  | Stainless steel microcable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316 |
-| 13963   | MAZZONI_0_3-0_8-250_SS_SHEATH | Rectangular section sheath 0.3x0.8, L = 250 mm    |
+| 2375    | SHEATH    | Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm |
 
 > Here is a more detail specification of where to find the 2 pieces:
 
