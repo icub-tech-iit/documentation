@@ -8,92 +8,88 @@ repo_name: icub-tech-iit/documentation
 repo_url: https://github.com/icub-tech-iit/documentation
 
 theme:
-    name: 'material'
-    palette:
-        accent: amber
-    features:
-        - tabs
-    icon:
-        logo: material/robot
+  name: material
+  palette:
+    accent: amber
+  features:
+    - tabs
+  icon:
+    logo: material/robot
 
 markdown_extensions:
-    - markdown.extensions.admonition
-    - pymdownx.arithmatex
-    - pymdownx.betterem:
-        smart_enable: all
-    - pymdownx.caret
-    - pymdownx.critic
-    - pymdownx.details
-    - pymdownx.inlinehilite
-    - pymdownx.highlight
-    - pymdownx.keys
-    - pymdownx.magiclink:
-        user: icub-tech-iit
-        repo: documentation
-        repo_url_shortener: true
-        repo_url_shorthand: true
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tasklist
-    - pymdownx.tilde
-    - markdown.extensions.toc:
-        permalink: true
+  - markdown.extensions.admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      user: icub-tech-iit
+      repo: documentation
+      repo_url_shortener: true
+      repo_url_shorthand: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - markdown.extensions.toc:
+      permalink: true
 
 nav:
-    - iCub Tech Docs:
-        - Home Page: index.md
+  - iCub Tech Docs:
+    - Home Page: index.md
 
-        - iCub Starter Kits:
-            - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
+    - iCub Starter Kits:
+      - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
 
-        - iCub HW:
-            - Summary: icub_hw.md
+    - iCub HW:
+      - Summary: icub_hw.md
+      - The iCub Versions Table:
+        - Versions Table: icub_versions/index.md
+      - The iCub Wiring: 
+        - Summary: icub_wiring/index.md 
+        - iCub 1.x: icub_wiring/icub1_x.md
+        - iCub 2.x: icub_wiring/icub2_x.md
+        - iCub 3.x: icub_wiring/icub3_x.md
+      - The iCub Tendons manual:
+        - Summary: icub_tendons/index.md
+        - Neck: icub_tendons/neck.md
+        - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
+        - Lower Arm:
+          - Definition: icub_tendons/lower_arm.md
+          - Version 1:
+            - Building Phase:
+              - How-to Cable and Needed Parts V1: icub_tendons/hand_cabling_V1.md
+            - Repair Phase:
+              - Disconnection V1: icub_tendons/remove.md
+              - Lower Arm V1: icub_tendons/lower_arm_V1.md
+              - Wrist and Hand Cabling V1: icub_tendons/wrist_hand_cabling_V1.md
+          - Version 2:
+            - Building Phase:
+              - How-to Cable and Needed Parts V2: icub_tendons/hand_cabling_V2.md
+            - Repair Phase:
+              - Disconnection V2: icub_tendons/remove.md
+              - Lower Arm V2: icub_tendons/lower_arm_V2.md
+              - Wrist and Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
+        - Waist, Leg and Ankle: icub_tendons/waist_legs.md
+      - The iCub Upgrade Kits:
+        - Summary: upgrade_kits/index.md
+        - KIT_002 Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
+        - KIT_003 Hands Support: upgrade_kits/hands/support.md
+        - KIT_004 Update upper arm covers : upgrade_kits/upperarm_cover_icub2_5/support.md
+        - KIT_005 Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
+        - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
+        - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
 
-            - The iCub Versions Table:
-                - Versions Table: icub_versions/index.md
-            - The iCub Wiring: 
-                - Summary: icub_wiring/index.md 
-                - iCub 1.0: icub_wiring/icub1_x.md
-                - iCub 2.x: icub_wiring/icub2_x.md
-                - iCub 3.x: icub_wiring/icub3_x.md
-            - The iCub Tendons manual:
-                - Summary: icub_tendons/index.md
-                - Neck: icub_tendons/neck.md
-                - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
-                - Lower Arm:
-                    - Definition: icub_tendons/lower_arm.md
-                    - Version 1 :
-                        - Building Phase:
-                            - HOWTO CABLE & NEEDED PARTS V1: icub_tendons/hand_cabling_V1.md
-                        - Repair Phase:
-                            - Disconnection V1: icub_tendons/remove.md
-                            - Lower Arm V1 : icub_tendons/lower_arm_V1.md
-                            - Wrist & Hand Cabling V1: icub_tendons/wrist_cabling.md
-                    - Version 2 :
-                        - Building Phase:
-                            - HOWTO CABLE & NEEDED PARTS V2: icub_tendons/cabling_V2.md
-                        - Repair Phase:
-                            - Disconnection V2: icub_tendons/remove.md
-                            - Lower Arm V2: icub_tendons/lower_arm_V2.md
-                            - Wrist & Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
-                - Waist, Leg and Ankle: icub_tendons/waist_legs.md
-
-            - The iCub Upgrade Kits:
-                - Summary: upgrade_kits/index.md
-                - KIT_002 Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
-                - KIT_003 Hands Support: upgrade_kits/hands/support.md
-                - KIT_004 Update upper arm covers : upgrade_kits/upperarm_cover_icub2_5/support.md
-                - KIT_005 Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
-                - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
-                - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
-
-        - iCub SW:
-            - Summary: icub_sw.md
-
-            - Software Versioning Table: sw_versioning_table/index.md
-
-            - iCub Setup Multiple Robots:
-                - Summary: icub_setup_multiple_robots/index.md
-                - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
-                - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
+    - iCub SW:
+      - Summary: icub_sw.md
+      - Software Versioning Table: sw_versioning_table/index.md
+      - iCub Setup Multiple Robots:
+        - Summary: icub_setup_multiple_robots/index.md
+        - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
+        - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
