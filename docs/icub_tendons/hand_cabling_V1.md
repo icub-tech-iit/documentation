@@ -133,7 +133,7 @@ S2 exits the motor case from the hole near the ball bearing (H1). Enters the fin
 !!! note
     Cable turns around the pulley with the thumb in the straight position (half thumb path) in order to permit the two opposite movements. 
 
-Please follow this [link](wrist_cabling.md#22-thumb-oppose) for an extended HOWTO route the cable.
+Please follow this [link](wrist_hand_cabling_V1.md#22-thumb-oppose) for an extended HOWTO route the cable.
 
 ### 3.2 Fingers Abduction
 
@@ -159,7 +159,7 @@ Please follow this [link](wrist_cabling.md#22-thumb-oppose) for an extended HOWT
 | :------------------------------------ | :------------------------------------- |
 | <img src ="../img/hand/Abd_left.png"> | <img src ="../img/hand/Abd_right.png"> |
 
-Please follow this [link](wrist_cabling.md#23-fingers-abduction) for an extended HOWTO route the cable.
+Please follow this [link](wrist_hand_cabling_V1.md#23-fingers-abduction) for an extended HOWTO route the cable.
 
 ### 3.3 Proximal Joints
 
@@ -363,7 +363,7 @@ From the pictures below you will be able to locate and identify the tendons insi
 
 </center>
 
-To get more details on how to rewire them, please follow this [link](wrist_cabling.md#112-cabling).
+To get more details on how to rewire them, please follow this [link](wrist_hand_cabling_V1.md#112-cabling).
 
 ### 4.2 Tensioner - IITCODE 3745
 
@@ -403,4 +403,4 @@ From the pictures below you will be able to locate and identify the 2 tendons in
 | <img src ="../img/wrist/FIG26.PNG" height = 300> |                                                  |
 
 
-To get more details on how to rewire them, please follow this [link](wrist_cabling.md#122-cabling).
+To get more details on how to rewire them, please follow this [link](wrist_hand_cabling_V1.md#122-cabling).
