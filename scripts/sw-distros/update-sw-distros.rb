@@ -105,7 +105,7 @@ if distro_files then
         mkd.write "[`robotology/robotology-superbuild@#{$superbuild_tag}/releases`](https://github.com/robotology/robotology-superbuild/tree/#{$superbuild_tag}/releases).\n\n"
         mkd.write "Click on the distros below to explore their package versions:\n\n"
         # the latest distro is topmost
-        distro_files.sort.reverse().each { |file|
+        distro_files.sort.reverse.each { |file|
             name = file.rpartition('.').first
             process_distro(name, file)
             mkd.write "- [📦 Distro **#{name}**](./#{name}.md)\n"
