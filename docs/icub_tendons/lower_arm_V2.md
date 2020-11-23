@@ -219,3 +219,5 @@ The minimum requirement to start re-cabling the proximal joints is:
 |  | Make a knot at the base of the cable exit, a little further away from it **(+/-5 mm)** AND keep in mind that the **knot** will have to **remain in the slot**. |
 |  | **FINISHED!!!** |
 
+!!! danger
+    PLEASE NEVER USE **GLUE** ON THE KNOT
