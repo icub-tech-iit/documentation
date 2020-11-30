@@ -8,9 +8,9 @@ on:
         required: true
         default: 'master'
       initial_distro:
-        description: 'The initial SW Distro to process e.g. 2020.05'
+        description: 'The initial SW Distro to process e.g. 2020.02'
         required: true
-        default: '0000.00'
+        default: '2020.02'
 
 jobs:
   Update:
