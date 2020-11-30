@@ -1,5 +1,5 @@
 packages_preferred_order:
-  - "ycm"
+  - "YCM"
   - "YARP"
   - "ICUB"
   - "robots-configuration"
