@@ -8,7 +8,7 @@ on:
         required: true
         default: 'master'
       initial_distro:
-        description: 'The initial SW Distro to process e.g. 2020.05'
+        description: 'Optional: the initial SW Distro to process (e.g. 0000.00 will process all distros)'
         required: true
         default: '0000.00'
 
