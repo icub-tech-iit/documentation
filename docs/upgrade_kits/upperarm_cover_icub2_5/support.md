@@ -38,12 +38,17 @@
 |   1     |    10301  	 |      	 | iCub2.5, subassembly - Right Upperarm Skin Harness, wiring materials |10301 |
 |   1     |    10273 	 |     	 | 	iCub2.5, subassembly - Left Upperarm Skin Harness, wiring materials |10273 |
 
+!!! note "note"
+    [link to harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14767%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(wiring%20parts)) 
 
 ## Content material  EKIT_004 
 |  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
 |  1 |   13475     |        | iCubSkin 2.5, Right Upper Arm Skin, RUGGED Electronic boards   |    13475  |
 |  1 |   13476     |        | 	iCubSkin 2.5, Left Upper Arm Skin, RUGGED Electronic boards  |    13476  |
+
+!!! note "note"
+    [link to logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14768%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(electronics))
 
 ## Historical review:
 In previous revisions of the covers, the mini cards were organized in the shape of hexagons. This largely caused the skin patch PCB to flex and break, because the patches took the high curvature of the cover (see image).
