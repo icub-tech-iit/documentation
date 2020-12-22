@@ -51,8 +51,8 @@ nav:
       - Summary: icub_hw.md
       - The iCub Versions Table:
         - Versions Table: icub_versions/index.md
-      - The iCub Wiring: 
-        - Summary: icub_wiring/index.md 
+      - The iCub Wiring:
+        - Summary: icub_wiring/index.md
         - iCub 1.x: icub_wiring/icub1_x.md
         - iCub 2.x: icub_wiring/icub2_x.md
         - iCub 3.x: icub_wiring/icub3_x.md
@@ -93,3 +93,23 @@ nav:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
         - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
+      - The OS for the iCub enviroment: icub_operative_systems/index.md
+        - 'The OS on icub-head':
+          - 'Introduction': 'icubos/icubos.md'
+          - 'Installation':
+            - 'Installation from pre-built image': 'icubos/installation-from-image.md'
+            - 'Installation from scratch': 'icubos/installation-from-scratch.md'
+          - 'Networking': 'icubos/networking.md'
+          - 'User environment': 'icubos/user-env.md'
+        - 'The OS on PC104 (live USB)':
+          - 'Introduction': 'pc104/icub-live.md'
+          - 'Installation': 'pc104/the-icub-live-installation.md'
+          - 'Details': pc104/the-linux-live-details.md'
+        - 'The OS on other machines (not on robot)':
+          - 'Generic iCub enviroment machines (eg. laptop)': 'other-machines/generic-machine.md'
+          - 'The iCub server':
+            - 'The "real" iCub server':
+              - 'Installation from pre-built image': 'other-machines/icub-server-from-image.md'
+              - 'Installation from scratch': 'other-machines/icub-server-from-scratch.md'
+            - 'The laptop used as icub server': 'other-machines/icub-server-laptop.md'
+          - 'The CUDA workstation': 'other-machines/cuda-workstation.md'
