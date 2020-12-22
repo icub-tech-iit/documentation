@@ -8,7 +8,7 @@ At any time to determine the version of the image is running on your iCub, the f
 - `ChangeLog_PC104`: list changes to the image
 
 ## Latest version
-The latest version is 7.10 based on [Debian 10 (Buster)] (https://www.debian.org/releases/buster/)
+The latest version is 7.10 based on [Debian 10 (Buster)](https://www.debian.org/releases/buster/).
 
 # Versioning
 
@@ -21,11 +21,9 @@ The latest version is 7.10 based on [Debian 10 (Buster)] (https://www.debian.org
 - 7.9.x This is a Debian Stretch (v9) based distribution, built on a Debian LIVE system with overlay persistence, compiled for kernel rt-amd64 (x86 64 bit with real time PREEMPT_RT patches)
 - 7.10.x This is a Debian Buster (v10) based distribution, built on a Debian LIVE system with overlay persistence, compiled for kernel rt-amd64 (x86 64 bit with real time PREEMPT_RT patches)
 
-Starting from version 5.0, the image file name is composed by four parts: a a *major release*, a a *minor release*, a *build release* which is a string that contains the build date and a *kernel flavor* string, which describes the kernel architecture the image is built for. For example
+Starting from version 5.0, the image file name is composed by four parts: a a *major release*, a a *minor release*, a *build release* which is a string that contains the build date and a *kernel flavor* string, which describes the kernel architecture the image is built for.
 
-`icub-live_5.0-14.11.12-rt-amd64.iso `
-
-is
+For example, `icub-live_5.0-14.11.12-rt-amd64.iso` is:
 
 - **`5`** is the major release
 - **`0`** is the minor release
