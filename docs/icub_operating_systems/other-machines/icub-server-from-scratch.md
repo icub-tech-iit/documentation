@@ -19,7 +19,7 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Hostname** : icub-srv
 - **IP address** : 10.0.0.1
 - **Username** : icub
-- **Password** : icubAdmin
+- **Password** : icub
 
 ## Operative System
 **Installed OS** : Ubuntu Server 20.04.1 LTS

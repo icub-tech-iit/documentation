@@ -1,9 +1,10 @@
+# Introduction
+
 This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the pc104 (open call configuration).
 We assume you have installed a working Debian or Ubuntu on the laptop.
 You can freely decide to install 32 bit or 64 bit, the code compiles on both architectures. Be aware that if you plan to share the repository with other machines, all machines need to have the same architecture (32 versus 64 bits, same versions of the libraries). A possibility would be to share the same code directory and different builds.
 
-*Prerequisite* : basic system setup for a iCub machine
-------------------------------------------------------
+# *Prerequisite* : basic system setup for a iCub machine
 
 Please follow the instructions on page [Generic iCub machine installation instructions](generic-machine.md), in order to prepare a generic machine for the iCub network.
 
@@ -11,8 +12,7 @@ Please follow the instructions on page [Generic iCub machine installation instru
 
 Then follow the below steps to customize it as the iCub Laptop
 
-The host file
--------------
+# The host file
 
 Add following lines in the file `/etc/hosts`
 
@@ -20,8 +20,7 @@ Add following lines in the file `/etc/hosts`
 10.0.0.2        icub-head icub-head.icub.local pc104 pc104.icub.local
 ```
 
-NFS Server
-----------
+# NFS Server
 
 The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the PC104 and by the laptop iteself :
 
@@ -68,8 +67,7 @@ sudo /etc/init.d/nfs-kernel-server restart
 
 Or just reboot the machine.
 
-Software repositories
----------------------
+# Software repositories
 
 Create a symbolic link to the code export path as follows (as root)
 
@@ -88,8 +86,7 @@ git clone https://github.com/robotology/icub-firmware
 git clone https://github.com/robotology/icub-firmware-build
 ```
 
-YARP local path
----------------
+# YARP local path
 
 Create a symbolic link to the local yarp export path as follows (as
 root)
@@ -99,8 +96,7 @@ mkdir -p /home/icub/.local/share
 ln -s /exports/local_yarp /home/icub/.local/share/yarp
 ```
 
-Install the ssh keys for password-less login on PC104
------------------------------------------------------
+# Install the ssh keys for password-less login on PC104
 
 Log in as icub and create an ssh key.
 
@@ -115,10 +111,9 @@ Upload this key file to pc104
 ssh-copy-id -i /home/icub/.ssh/id_rsa.pub icub@pc104
 ```
 
-Other configurations
---------------------
+## Other configurations
 
-### IP forwarding and NAT
+## IP forwarding and NAT
 
 Enable NAT and port forwarding so that the pc104 (and other machines on the network) have internet access (using wlan0 as external network
 interface)
@@ -137,7 +132,7 @@ iptables --table nat --append POSTROUTING --out-interface wlan0 -j MASQU
 iptables --append FORWARD --in-interface eth0 -j ACCEPT
 ```
 
-#### Note about natting
+### Note about natting
 
 Please check that:
 
@@ -151,7 +146,7 @@ Please check that:
 chmod a+x /etc/network/if-up.d/natting
 ```
 
-#### Netplan and ifup scripts
+### Netplan and ifup scripts
 
 The netplan (installed starting from Ubuntu 18.04) is not compatible with IF-UP scripts (see this (link)[https://askubuntu.com/questions/1117960/how-to-use-netplan-to-do-the-same-as-was-being-done-using-iptables] ), so a workaroun  is to use networkd-dispatcher. This (FAQ)[https://netplan.io/faq#use-pre-up-post-up-etc-hook-scripts] gives an example on how to do it: using networkd-dispatcher to run existing ifup hooks via a script installed in /etc/networkd-dispatcher/routable.d/50-ifup-hooks
 
@@ -165,7 +160,7 @@ done
 exit 0
 ```
 
-### Fix IP and DNS
+## Fix IP and DNS
 
 Use the following configuration for the network
 
@@ -181,7 +176,7 @@ Use the following configuration for the network
   dns-search icub.local
 ```
 
-### Clock synchronization
+## Clock synchronization
 
 Download the ntp package
 ```

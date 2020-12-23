@@ -1,10 +1,29 @@
 # Introduction
+
 This page contains instructions on how to prepare a machine to work in the iCub Subnet environment. This is a basic setup, useful as a starting point to prepare any kind of machine of the iCub ecosystem.
 
 # Operating System
+
 You can choose both a Debian or Ubuntu Linux, the currently suggested OS is [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
 
-# Creation of the icub user
+# User account
+
+## Users and Passwords
+
+The default user account is
+
+**Username** : `icub`
+**Password** : `icub`
+
+If you want to change the default password simply execute (*this works only if you are using persistence*)
+
+`passwd icub`
+
+**NOTE**: As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
+
+`sudo su - `
+
+## Creation of the icub user
 
 You need to create the icub user. For nfs (see later) to work this user has to have the uid 1000 and guid 1000. In LINUX starting procedure, is asks to create the first user. By default uid is set at 1000. To make sure it is done do :
 
@@ -17,7 +36,7 @@ Add the icub user to the sudoers group, by editing in `/etc/group` the following
 
 `sudo:x:27:icub`
 
-## Required and useful Packages
+# Required and useful Packages
 
 Please install the following packages (names are correct for Ubuntu 18.04, please check the corresponding package in your distribution):
 
