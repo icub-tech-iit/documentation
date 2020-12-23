@@ -1,4 +1,5 @@
 # Introduction
+
 This page contains guidelines to install the iCub nVidia CUDA
 Workstation.
 
@@ -12,6 +13,7 @@ Please follow the instructions on page [Generic iCub machine
 installation instructions](generic-machine.md), in order to prepare a generic machine for the iCub network. Then, follow the steps below to customize it as the iCub Laptop
 
 # Note
+
 **In the following instructions, we assume that the installed OS is a Debian GNU/Linux Wheezy. If you are usign a different distribution os release, please modify the instructionsaccordingly.**
 
 # Installation steps

@@ -1,8 +1,10 @@
 # Introduction
+
 This method uses a pre-built disk image to install the icub-head, this image is a 1:1 copy of a working system: once the image is written on the icub-head disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](installation-from-scratch.md).
 
 # Installation procedure
+
 This procedure involves the following steps:
 
 1. Create the bootable USB with the imaging tool (CloneZilla)
@@ -14,16 +16,19 @@ This procedure involves the following steps:
 7. Customize the system
 
 ## Create the bootable USB with the imaging tool (CloneZilla)
+
 The imaging tool used to create and restore icub-head disk images is [CloneZilla LIVE](https://clonezilla.org/clonezilla-live.php).
 
 1. Download clonezilla from this [link](https://clonezilla.org/downloads.php)
 2. Get a USB 3 USB drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
-## 2. Download the latest iCubOS image
+## Download the latest iCubOS image
+
 Get the lastest iCubOS image and put it on a external USB drive (not the same were is CloneZilla LIVE)
 
-## 3. Connect the icub-head
+## Connect the icub-head
+
 You need:
 
 - USB 3 hub
@@ -35,10 +40,12 @@ You need:
 Connect the keyboard, the USB with clonezilla to the hub and the USB disk with the iCubOS disk image. Then connect the hub to a USB port in the iCub head.
 Connect the monitor to the DisplayPort socket in the iCub head.
 
-## 4. Boot the USB disk
+## Boot the USB disk
+
 Power on the icub-head and enter BIOS, the select drive with CloneZilla as first in boot order, then boot from that drive.
 
-## 5. Write the image
+## Write the image
+
 Follow the steps below to write the image on the icub-head HD (detailed instruction about how to use CloneZilla can be found [here](https://clonezilla.org/clonezilla-usage/clonezilla-live-usage.php) ).
 _Please note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)
 
@@ -53,8 +60,10 @@ _Please note that the instructions below refers to the lastest clonezilla releas
 9. wait for the USB drive (as in step 8) is shown and press `CTRL-C`
 10. select the correct drive and partition for the USB drive (as in step 8) (usually partition is n.1)
 
-## 6. Restart icub-head
+## Restart icub-head
+
 Power down the icub-head and unplug the USB hub, then restart.
 
-## 7. Customize the system
+## Customize the system
+
 What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in both [_Networking_](networking.md) and [_User Environment_](user-env.md) chapters)

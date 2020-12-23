@@ -94,23 +94,6 @@ There is also an inline help for the script, available with
 
 The image requires an amount of space which is bigger than the the ISO size of a 10%, so setup the persistence partition size accordingly. The script checks if the target USB memory has enough space for live system and persistence (if not disabled), so don't worry.
 
-# Users and Passwords
-
-Starting from version 5.0, the default user is
-
-**`username`** : `icub`
-**`password`** : `live`
-
-If you want to change the default password simply execute (*this works only if you are using persistence*)
-
-` passwd icub`
-
-**NOTE**: the root user has no password, this means that the direct login (i.e. *ssh root\@10.0.0.2*) is disabled, but you can always do
-
-`sudo su - `
-
-once connected as icub, to switch to the root user.
-
 # Required customizations
 
 ## Set RobotName variable
