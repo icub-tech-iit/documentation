@@ -1,10 +1,13 @@
 # Introductrion
+
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it
 
 # Latest versions
+
 Latest version is based on Ubuntu Server 18.04.4
 
 # Create the USB installer
+
 The first step is to download the [official Ubuntu 18.04 LTS Server install media](https://releases.ubuntu.com/bionic/ubuntu-18.04.4-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/bionic/)
 
 Then please create the USB installer using an USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
@@ -12,23 +15,27 @@ Then please create the USB installer using an USB memory and a tool like [Balena
 On Ubuntu website, you can find further informations about creating a bootable USB stick on [Windows](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows?_ga=2.181742695.1184983981.1588944309-600352565.1586438290), [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu?_ga=2.181742695.1184983981.1588944309-600352565.1586438290) or [macOS](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos?_ga=2.236980288.1184983981.1588944309-600352565.1586438290)
 
 # Install Ubuntu
+
 Follow the below steps to install Ubuntu server on icub-head.
 
 Please note that the installation procedure can be slight different in each release, you can see the [Ubuntu server official install guide](https://ubuntu.com/tutorials/tutorial-install-ubuntu-server)
 
 # Required Packages
+
 Install the following packages
 ```
 nfs-common python-tk libopencv-dev ntpdate vim ssh cmake-curses-gui iperf libportaudio2 portaudio19-dev linux-sound-base alsa-base alsa-utils gdb meld bmon i2c-dev expect libgfortran3 qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
 ```
 
 ## Low Latency kernel
+
 Install the following packages
 ```
 linux-image-lowlatency linux-headers-lowlatency
 ```
 
 ## iCub repository and package
+
 1. Add the file
   ```
   /etc/apt/sources.list.d/icub.list
@@ -52,6 +59,7 @@ linux-image-lowlatency linux-headers-lowlatency
 # Further installation steps and configuration
 
 ## SSH configuration
+
 1. Configure passwordless ssh: see this [link](https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login)
 2. Disable reverse DNS lookup in SSH server: add the following line to the file `/etc/ssh/sshd_config`
   ```
@@ -59,6 +67,7 @@ linux-image-lowlatency linux-headers-lowlatency
   ```
 
 ## Network performances tweaks
+
 1. Install the following packages :
   ```
   sudo apt install linux-image-lowlatency linux-headers-lowlatency
@@ -77,6 +86,7 @@ linux-image-lowlatency linux-headers-lowlatency
   ```
 
 ## Bluetooth configuration
+
 1. Install the following packages
   ```
   bluetooth bluez bluez-tools
@@ -114,6 +124,7 @@ linux-image-lowlatency linux-headers-lowlatency
   ```
 
 ## NTP
+
 Edit the file `/etc/default/ntpdate` by adding the folowing line
 ```
 NTPSERVERS="10.0.0.1"
@@ -122,6 +133,7 @@ NTPSERVERS="10.0.0.1"
 ## IMU Bosch
 
 ### Installation
+
 To use the IMU Bosch BNO055 through the i2c bus these additional steps are required:
 
 1. Install libraries for i2c:
@@ -149,6 +161,7 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
  ```
 
 ### Test the configuration of i2c and BNO055
+
 To test the installation with the python script BNO055:
 ```
 python BNO055.py
@@ -168,6 +181,7 @@ i2cdetect -l
 Another possible troubleshooting could be change in the script BNO055.py (line 187) the default address from 0x28 to 0x29
 
 ## fixed USB resources names
+
 In order to get a fixed device name for some USB resources such as IMU and USB2SERIAL, you have to create the following UDEV rules
 
 - IMU BOSH : adde the file `/etc/udev/rules.d/88-bosch-i2c-imu.rules` as follows
@@ -185,6 +199,7 @@ In order to get a fixed device name for some USB resources such as IMU and USB2S
 # Tweaks
 
 ## Mount via SSH
+
 On the icub-head, graphics-based tools have not been installed (except the ones required for firmware interfaces) and it is better not to install them. Anyway, to use graphic tools (like editors, files managers, etc..) is very useful and sometimes essential. Instead of running remotely a tool and displaying it locally (like we did in old PC104), we can mount locally via SSH the icub-head filesystem and run locally all the tools we need.
 In order to mount locally the icub-head filesystem on your client:
 

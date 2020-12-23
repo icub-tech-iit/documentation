@@ -29,3 +29,19 @@ For example, `icub-live_5.0-14.11.12-rt-amd64.iso` is:
 - **`0`** is the minor release
 - **`14.11.12`** is the build release (Year.Month.Day)
 - **`rt-amd64`** is the kernel flavour
+
+# Users and Passwords
+Starting from version 5.0, the default user account is
+
+**Username** : `icub`
+**Password** : `live`
+
+If you want to change the default password simply execute (*this works only if you are using persistence*)
+
+` passwd icub`
+
+**NOTE**: the root user has no password, this means that the direct login (i.e. *ssh root\@10.0.0.2*) is disabled, but you can always do
+
+`sudo su - `
+
+once connected as icub, to switch to the root user.
