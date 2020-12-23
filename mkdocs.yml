@@ -93,10 +93,11 @@ nav:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
         - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
-      - The OS for the iCub enviroment: 
+      - The OS for the iCub enviroment:
         - Summary: icub_operating_systems/index.md
         - The OS on icub-head:
           - Introduction: icub_operating_systems/icubos/icubos.md
+          - BIOS Tweaks: icub_operating_systems/icubos/bios.md
           - Installation:
             - Installation from pre-built image: icub_operating_systems/icubos/installation-from-image.md
             - Installation from scratch: icub_operating_systems/icubos/installation-from-scratch.md
