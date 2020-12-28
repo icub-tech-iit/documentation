@@ -115,3 +115,5 @@ nav:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
         - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
+      - iCub Firmware:
+        - Firmware documentation: icub_firmware_documentation/index.md
