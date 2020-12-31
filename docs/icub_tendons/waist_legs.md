@@ -39,8 +39,12 @@
 
 > This chapter describes the steps required for the wiring of the cables 11 - 12 - 13 which allow the movement of the waist of the robot, both during construction and in maintenance/repair phase.
 
+
+
 !!!note "VERY IMPORTANT NOTE"
     If you have only the cable 12 broken please proceed directly to [2.3](#23-waist-front-cable-12)
+
+
 
 > Whatever the other cases of figure you run into, the only way to substitute/replace the broken cables is to follow the next steps.
 
@@ -92,7 +96,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 **C - remove the back pulley**
 
 !!!WATCH OUT
-    once the pulley or one side of the cable 13 is remove the rotation of the torso is totally free, someone else help is more than appreciated to hold it firm.
+    once the pulley or one side of the cable 13 is removed the rotation of the torso is totally free, someone else help is more than appreciated to hold it firmly the robot in this process.
 
 | what we have                                 | what we want                                 |
 | -------------------------------------------- | -------------------------------------------- |
@@ -127,6 +131,16 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 
 
 
+**How to lock securedly the crimp:**
+when you finalize your wiring it is important to realize that the tensioners are actually designed to prevent the crimp from escaping. As most of the cable inside the robot use the property of antagonism cabling it is important to have them both firmly tighten.
+
+!!! Note "Rule"
+    The crimp is always **rotated upside down** in order to prevent the crimp cable from popping out. The drawback of this positioning is that you always need to remove both tensioner and the screw to leave the crimp getting in the through and put back the tensioner above it to finalize the wiring.
+
+<center>![waist](./img/waist/crimp_locking.jpg)</center>
+
+
+
 **Procedure:**
 
 > Take the cable and draw with a marker the middle of it. Place the cable onto the slot of the pulley (Photo 1). Put the squared plate above the cable and secure it with 4 screws with hexagonal head size M2.5x5 (Photo 2)
@@ -153,7 +167,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
     Use a 2mm hexagonal screwdriver to spin the motor shaft (Photo N.9)  - on both sides of iCub hips - allowing you to rotate the internal pulley (where yield the tensioners) and have it in a proper angle.
 
 <center>![waist](./img/waist/Waist_cable_11_foto5_6.png)</center>
-> To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 7 - 8).
+> To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 7 - 8). Please use the rule for a proper locking of the crimp [link](#21-chest-back-and-back-pack-covers-dismounting)
 
 
 <center>![waist](./img/waist/Waist_cable_11_foto7_8.png)</center>
@@ -172,7 +186,8 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 > Put the rectangular plate above the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 13). Turn the cable around the pulley taking care to cross the cable above the pulley (Photo 14).
 
 <center>![waist](./img/waist/Waist_cable_11_foto13-14.png)</center>
-> To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 15 - 16)
+> To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 15 - 16).
+> Please use the rule for a proper locking of the crimp [link](#21-chest-back-and-back-pack-covers-dismounting)
 
 <center>![waist](./img/waist/Waist_cable_11_foto15-16.png)</center>
 > Finally, To put an end to the wiring of cable 11 and 12, just tense the 4 tensioners on which the crimps are located. Take care of tensing every one of them little by little in order to share the tension inside the tensioners in the same way.
@@ -191,7 +206,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 > Turn the cable around the RC_TLR_001_P_243 piece taking care to cross it around the pulley, the opposite side to the plate (Photo 20).Then pass the cable through the grooves of the pulleys RC_USAL_001_P_119 (Photo 21) 
 
 <center>![waist](./img/waist/Waist_top20_21.PNG)</center>
-> To Finish the wiring, draw the cable along the pulley RC_USAL_001_P_124, and place the crimp in the appropriate tensioner RC_USAL_001_P_131 (Photo 22).Do the same for the other side of the cable and cross the cable before reaching the tensioner (Photo 23).
+> To Finish the wiring, draw the cable along the pulley RC_USAL_001_P_124, and place the crimp in the appropriate tensioner RC_USAL_001_P_131 (Photo 22). Do the same for the other side of the cable and cross the cable before reaching the tensioner (Photo 23).
 
 <center>![waist](./img/waist/Waist_top22_23.PNG)</center>
 ## 3	LEG CABLING
