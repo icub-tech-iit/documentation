@@ -83,7 +83,7 @@ La sequenza del  cablaggio dei cavi spalla è la seguente:   Cavo n. (1-2) - (3-
 
 |**Block of pulleys**|**Tensioner fully opened**|**Cavity of the tensioner hidden - crimp can't escape**|
 |:-----:|:-----:|:-----:|
-|<img src ='../img/shoulder/block_pulleys.png' height = 400px width = auto>|<img src ='../img/shoulder/tensionner.png'height=400px width = auto>|<img src ='../img/shoulder/tensionner_UPSIDEDOWN.png' height=400px width = auto>|
+|<img src ='../img/shoulder/block_pulleys.png' height = 400px width = auto>|<img src ='../img/shoulder/tensionner.png' height=400px width = auto>|<img src ='../img/shoulder/tensionner_UPSIDEDOWN.png' height=400px width = auto>|
 
 ### 2.1	Left Shoulder Rotation Cable 1 and 2
 
@@ -99,9 +99,9 @@ If you have to repair cable 1 and/or cable 2, it is convenient to first:
 
 In order to access the tensioners of cables 1 and 2, you have to remove the small metal cover on both pulleys, as shown below, by unscrewing the M2x5 screw holding them:
 
-|              Tensioner cover              |           Tensioner cover CAD model            |
-| :---------------------------------------: | :--------------------------------------------: |
-| <img src ='../img/shoulder/cable1_2.png'> | <img src ='../img/shoulder/cable1_2_blue.png'> |
+|                       Tensioner cover                        |                  Tensioner cover CAD model                   |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2.png' height=400px width = auto> | <img src ='../img/shoulder/cable1_2_blue.png' height=400px width = auto> |
 
 
 
@@ -120,7 +120,7 @@ Let's see the cabling of tendons 1 & 2 in detail:
 
 |**Crimp cover above the small pulley**|**Left crimp cover**|
 |:-----:|:-----:|
-|<img src ='../img/shoulder/left_crimp_cover_on_pulleys.png' height = 350px width = auto>|<img src ='../img/shoulder/L_crimp_cover.png' height=300px width = auto>|
+|<img src ='../img/shoulder/left_crimp_cover_on_pulleys.png' width = 300px>|<img src ='../img/shoulder/L_crimp_cover.png' width = 300px>|
 
 <!--
 Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccola   RC_TLR_003_P_037 posizionare il copri cavo in abs (plastica) ovvero il   pezzo  IIT_003_P_006_00 SX
@@ -143,9 +143,9 @@ Make sure you face the crimps as shown below before tensioning, in order to have
 
 
 
-|                                             |                                                  |
-| :-----------------------------------------: | :----------------------------------------------: |
-| <img src ='../img/shoulder/cable1_2_1.png'> | <img src ='../img/shoulder/cable1_2_pulley.png'> |
+|                                                              |                                                              |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2_1.png' height=400px width = auto> | <img src ='../img/shoulder/cable1_2_pulley.png' height=400px width = auto> |
 
 
 
@@ -282,9 +282,9 @@ If you have to repair cable 1 and/or cable 2, it is convenient to first:
 
 In order to access the tensioners of cables 1 and 2, you have to remove the small metal cover on both pulleys, as shown below, by unscrewing the M2x5 screw holding them:
 
-|              Tensioner cover              |                Tensioner cover                 |
-| :---------------------------------------: | :--------------------------------------------: |
-| <img src ='../img/shoulder/cable1_2.png'> | <img src ='../img/shoulder/cable1_2_blue.png'> |
+|                       Tensioner cover                        |                       Tensioner cover                        |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| <img src ='../img/shoulder/cable1_2.png' height=300px width = auto> | <img src ='../img/shoulder/cable1_2_blue.png' height=300px width = auto> |
 
 
 
