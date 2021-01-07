@@ -30,7 +30,7 @@ Below you can find the default network paramenters of the the main icub-head net
 
 This configuration depends deeply from the motor control board firware and thus it can't be changed
 
-- **IP address** : 10.0.0.104 - _STATIC_
+- **IP address** : 10.0.1.104 - _STATIC_
 - **Netmask** : 255.255.255.0
 
 since this is a segregated network, there is no default gateway.
