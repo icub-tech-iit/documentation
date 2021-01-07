@@ -249,9 +249,13 @@ Here's the link to the [wiring](https://github.com/icub-tech-iit/electronics-wir
 | 10.0.1.21 | EB21 (MC4PLUS) | RFE->CAN1:1 | MC: head joints 2 -> 5<br />INERTIALS: head |
 | 10.0.1.22 | EB22 (MC4PLUS) | MTB4->CAN1:7<br />MTB4->CAN2:8<br />MTB4->CAN2:9<br />MTB4->CAN2:10 | SKIN: torso|
 | 10.0.1.24 | EB24 (MC4PLUS) | MTB4->CAN1:8<br />MTB4->CAN2:9<br />MTB4->CAN2:10<br />MTB4->CAN2:11<br />MTB4->CAN2:12<br />MTB4->CAN2:13<br />MTB4->CAN2:14 |  MC: left arm joints 4 -> 7 <br /> SKIN: left arm | 
+| 10.0.1.25 | EB25 (MC4PLUS) | MAIS->CAN1:14 |  MC: left arm joints 8 -> 11 | 
+| 10.0.1.26 | EB26 (MC4PLUS) | MAIS->CAN1:14 |  MC: left arm joints 12 -> 15 | 
+| 10.0.1.27 | EB27 (MC4PLUS) | MTB4->CAN1:8<br />MTB4->CAN2:9<br />MTB4->CAN2:10<br />MTB4->CAN2:11<br />MTB4->CAN2:12<br />MTB4->CAN2:13<br />MTB4->CAN2:14 |  MC: right arm joints 4 -> 7 <br /> SKIN: right arm | 
+| 10.0.1.28 | EB28 (MC4PLUS) | MAIS->CAN1:14 |  MC: right arm joints 8 -> 11 | 
+| 10.0.1.29 | EB29 (MC4PLUS) | MAIS->CAN1:14 |  MC: right arm joints 12 -> 15 | 
 
-
-![eth_new](./img/3-eth2_5_new.png)
+<br />
 
 #### HOW TO PROGRAM THE BOARDS
 Here you can find a usefull link to the [documentation](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) where is explained how to program boards (bootloader, firmware) and some common operation using `FirmwareUpdater`
