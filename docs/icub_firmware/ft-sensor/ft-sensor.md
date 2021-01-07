@@ -98,7 +98,7 @@ Firmware source code:
 
 \*\* requires STRAIN2 board
 
-## FT58 assembly
+### FT58 assembly
 ---
 
 <p>The FT58 sensor is assembled as described hereafter.</p>
@@ -126,7 +126,7 @@ The bottom interface is fixed with 6 M4x10 UNI 5931 counterbore hex. screws (cod
 The recommended tightening torque is 2.8Nm.
 ![image-1](img/img-2.png)
 
-## FT58 assembly on iCub3
+### FT58 assembly on iCub3
 ---
 
 The FT58 sensor is assembled on iCub3 as represented in th following pictures.
