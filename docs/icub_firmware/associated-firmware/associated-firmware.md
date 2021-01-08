@@ -266,6 +266,7 @@ Details on the control boards connected to each network are given in the followi
 | 1B3        | -&gt; | 5 (cfw2can)  | 5 (6)   | 4DC.1.28.out.S |
 | 1B4        | -&gt; | 5 (cfw2can)  | 7 (8)   | 4DC.1.30.out.S |
 | MAIS       | -&gt; | 5 (cfw2can)  | 14      | mais.hex       |
+
 #### **CFW2CAN2: Right arm**
 | boardLabel                         |       | canDeviceNum | boardId | firmware        |
 |------------------------------------|-------|--------------|---------|-----------------|
@@ -276,6 +277,7 @@ Details on the control boards connected to each network are given in the followi
 | virtual FT joint sensor (shoulder) | -&gt; | 2 (cfw2can)  | 12      | \- - -          |
 | virtual FT joint sensor (wrist)    | -&gt; | 2 (cfw2can)  | 11      | \- - -          |
 | Strain                             | -&gt; | 2 (cfw2can)  | 13      | strain.hex      |
+
 #### **CFW2CAN6: Right hand**
 | boardLabel |       | canDeviceNum | boardId | firmware       |
 |------------|-------|--------------|---------|----------------|
@@ -283,6 +285,7 @@ Details on the control boards connected to each network are given in the followi
 | 2B3        | -&gt; | 6 (cfw2can)  | 5 (6)   | 4DC.1.28.out.S |
 | 2B4        | -&gt; | 6 (cfw2can)  | 7 (8)   | 4DC.1.30.out.S |
 | MAIS       | -&gt; | 6 (cfw2can)  | 14      | mais.hex       |
+
 #### **CFW2CAN3: left leg**
 | boardLabel              |       | canDeviceNum | boardId | firmware        |
 |-------------------------|-------|--------------|---------|-----------------|
@@ -292,6 +295,7 @@ Details on the control boards connected to each network are given in the followi
 | 3B7                     | -&gt; | 3 (cfw2can)  | 7       | 2BLL.1.51.out.S |
 | virtual FT joint sensor | -&gt; | 3 (cfw2can)  | 12      | \- - -          |
 | Strain                  | -&gt; | 3 (cfw2can)  | 13      | strain.hex      |
+
 #### **CFW2CAN4: right leg**
 | boardLabel              |       | canDeviceNum | boardId | firmware        |
 |-------------------------|-------|--------------|---------|-----------------|
@@ -301,12 +305,14 @@ Details on the control boards connected to each network are given in the followi
 | 3B10                    | -&gt; | 4 (cfw2can)  | 10      | 2BLL.1.51.out.S |
 | virtual FT joint sensor | -&gt; | 4 (cfw2can)  | 11      | \- - -          |
 | Strain                  | -&gt; | 4 (cfw2can)  | 14      | strain.hex      |
+
 #### **CFW2CAN7: Skin Left hand**
 | boardLabel |       | canDeviceNum | boardId | firmware |
 |------------|-------|--------------|---------|----------|
 |            |       |              |         |          |
 | 1B7        | -&gt; | 7 (cfw2can)  | 15      | skin.hex |
 |            |       |              |         |          |
+
 #### **CFW2CAN8: Skin Right hand**
 | boardLabel |       | canDeviceNum | boardId | firmware |
 |------------|-------|--------------|---------|----------|
@@ -342,6 +348,7 @@ Details on the control boards connected to each network are given in the followi
 | 0B0        | -&gt; | 0 (pcan)     | 1 (2)   | 4DC.1.11.out.S |
 | 0B1        | -&gt; | 0 (pcan)     | 3 (4)   | 4DC.1.15.out.S |
 
+
 ##### **_Torso_**
 | boardLabel |       | canDeviceNum | boardId | firmware        |
 |------------|-------|--------------|---------|-----------------|
@@ -367,6 +374,7 @@ Details on the control boards connected to each network are given in the followi
 | 1B3        | -&gt; | 5 (cfw2can)  | 5 (6)   | 4DC.1.28.out.S |
 | 1B4        | -&gt; | 5 (cfw2can)  | 7 (8)   | 4DC.1.30.out.S |
 | MAIS       | -&gt; | 5 (cfw2can)  | 14      | mais.hex       |
+
 #### **CFW2CAN2: Right arm**
 | boardLabel                         |       | canDeviceNum | boardId | firmware        |
 |------------------------------------|-------|--------------|---------|-----------------|
@@ -377,6 +385,7 @@ Details on the control boards connected to each network are given in the followi
 | virtual FT joint sensor (shoulder) | -&gt; | 2 (cfw2can)  | 12      | \- - -          |
 | virtual FT joint sensor (wrist)    | -&gt; | 2 (cfw2can)  | 11      | \- - -          |
 | Strain                             | -&gt; | 2 (cfw2can)  | 13      | strain.hex      |
+
 #### **CFW2CAN6: Right hand**
 | boardLabel |       | canDeviceNum | boardId | firmware       |
 |------------|-------|--------------|---------|----------------|
@@ -384,6 +393,7 @@ Details on the control boards connected to each network are given in the followi
 | 2B3        | -&gt; | 6 (cfw2can)  | 5 (6)   | 4DC.1.28.out.S |
 | 2B4        | -&gt; | 6 (cfw2can)  | 7 (8)   | 4DC.1.30.out.S |
 | MAIS       | -&gt; | 6 (cfw2can)  | 14      | mais.hex       |
+
 #### **CFW2CAN3: left leg**
 | boardLabel              |       | canDeviceNum | boardId | firmware        |
 |-------------------------|-------|--------------|---------|-----------------|
@@ -393,6 +403,7 @@ Details on the control boards connected to each network are given in the followi
 | 3B7                     | -&gt; | 3 (cfw2can)  | 7       | 2BLL.1.51.out.S |
 | virtual FT joint sensor | -&gt; | 3 (cfw2can)  | 12      | \- - -          |
 | Strain                  | -&gt; | 3 (cfw2can)  | 13      | strain.hex      |
+
 #### **CFW2CAN4: right leg**
 | boardLabel              |       | canDeviceNum | boardId | firmware        |
 |-------------------------|-------|--------------|---------|-----------------|
@@ -402,6 +413,7 @@ Details on the control boards connected to each network are given in the followi
 | 3B10                    | -&gt; | 4 (cfw2can)  | 10      | 2BLL.1.51.out.S |
 | virtual FT joint sensor | -&gt; | 4 (cfw2can)  | 11      | \- - -          |
 | Strain                  | -&gt; | 4 (cfw2can)  | 14      | strain.hex      |
+
 #### **CFW2CAN7: Skin Left hand**
 | boardLabel          |       | canDeviceNum | boardId | firmware |
 |---------------------|-------|--------------|---------|----------|
@@ -410,6 +422,7 @@ Details on the control boards connected to each network are given in the followi
 | 1B9 (FOREARM UPPER) | -&gt; | 7 (cfw2can)  | 13      | skin.hex |
 | 1B8 (FOREARM LOWER) | -&gt; | 7 (cfw2can)  | 12      | skin.hex |
 |                     |       |              |         |          |
+
 #### **CFW2CAN8: Skin Right hand**
 | boardLabel          |       | canDeviceNum | boardId | firmware |
 |---------------------|-------|--------------|---------|----------|
@@ -439,6 +452,7 @@ Details on the control boards connected to network 0 are given in the following.
 |            |       |              |         |                   |
 | 0B0        | -&gt; | 0 (cfw2can)  | 1       | 2BLLDC.1.62.out.S |
 | 0B1        | -&gt; | 0 (cfw2can)  | 2 (3)   | 4DC.2.15.out.S    |
+
 ##### **_Torso_**
 | boardLabel |       | canDeviceNum | boardId | firmware        |
 |------------|-------|--------------|---------|-----------------|
@@ -459,6 +473,7 @@ We here describe the CAN-bus networks structure of the iCub v2
 |            |       |              |         |                   |
 | 0B0        | -&gt; | 0 (cfw2can)  | 1       | 2BLLDC.1.62.out.S |
 | 0B1        | -&gt; | 0 (cfw2can)  | 2 (3)   | 4DC.2.15.out.S    |
+
 ##### **_Torso_**
 | boardLabel     |       | canDeviceNum | boardId | firmware        |
 |----------------|-------|--------------|---------|-----------------|
@@ -543,6 +558,7 @@ We here describe the CAN-bus networks structure of the iCub v2
 | 1B12 (LEFT UPPER INTERNAL) | -&gt; | 7 (cfw2can)  | 9       | skin.hex |
 | 1B13 (LEFT LOWER UPPERARM) | -&gt; | 7 (cfw2can)  | 8       | skin.hex |
 |                            |       |              |         |          |
+
 #### **CFW2CAN8: Skin Right arm**
 | boardLabel                  |       | canDeviceNum | boardId | firmware |
 |-----------------------------|-------|--------------|---------|----------|
@@ -578,6 +594,7 @@ We here describe the CAN-bus networks structure of the iCub v2 - Talking Head
 | 0B1        | -&gt; | 0 (cfw2can)  | 2 (3)   | 4DC.2.15.out.S    |
 | 0B7        | -&gt; | 0 (cfw2can)  | 7 (8)   | 4DC.2.15.out.S    |
 | 0B9        | -&gt; | 0 (cfw2can)  | 9 (10)  | 4DC.1.11.out.S    |
+
 ##### **_Torso_**
 | boardLabel     |       | canDeviceNum | boardId | firmware        |
 |----------------|-------|--------------|---------|-----------------|
@@ -592,19 +609,19 @@ We here describe the CAN-bus networks structure of the iCub v2 - Talking Head
 ---
 We here describe the ETH and CAN-bus firmware association structure of the iCub v2.5 (Wiring <= 3.2)
 
-| IP address | Board Name(firmware) |  Atatched CAN Boards(firmware) | 
-|:---:|:---:|:---|:---|
-| 10.0.1.1 | EB1 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 
-| 10.0.1.2 | EB2 (ems.hex) | MC4(4DC.2.19.out.S) CAN1:3<br />MC4(4DC.2.28.out.S) CAN1:5<br />MC4(4DC.2.30.out.S) CAN1:7<br />MAIS(mais.hex) CAN1:14<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13<br />MTB(mtb.hex) CAN2:14 
-| 10.0.1.3 | EB3 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13
-| 10.0.1.4 | EB4 (ems.hex) | MC4(4DC.2.19.out.S) CAN1:3<br />MC4(4DC.2.28.out.S) CAN1:5<br />MC4(4DC.2.30.out.S) CAN1:7<br />MAIS(mais.hex) CAN1:14<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13<br />MTB(mtb.hex) CAN2:14  
-| 10.0.1.5 | EB5 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4 
-| 10.0.1.6 | EB6 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 
-| 10.0.1.7 | EB7 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1 
-| 10.0.1.8 | EB8 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 
-| 10.0.1.9 | EB9 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1 
-| 10.0.1.10 | EB10 (ems.hex) | MTB(mtb.hex) CAN1:1<br />MTB(mtb.hex) CAN1:2<br />MTB(mtb.hex) CAN1:3<br />MTB(mtb.hex) CAN1:4<br />MTB(mtb.hex) CAN1:5<br />MTB(mtb.hex) CAN1:6<br />MTB(mtb.hex) CAN1:7<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13 
-| 10.0.1.11 | EB11 (ems.hex) | MTB(mtb.hex) CAN1:1<br />MTB(mtb.hex) CAN1:2<br />MTB(mtb.hex) CAN1:3<br />MTB(mtb.hex) CAN1:4<br />MTB(mtb.hex) CAN1:5<br />MTB(mtb.hex) CAN1:6<br />MTB(mtb.hex) CAN1:7<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13 
+| IP address | Board Name(firmware) |  Atatched CAN Boards(firmware) | Services |
+|:---:|:---:|:---:|:---:|
+| 10.0.1.1 | EB1 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 | MC: left arm joints 0 -> 3 <br /> STRAIN |
+| 10.0.1.2 | EB2 (ems.hex) | MC4(4DC.2.19.out.S) CAN1:3<br />MC4(4DC.2.28.out.S) CAN1:5<br />MC4(4DC.2.30.out.S) CAN1:7<br />MAIS(mais.hex) CAN1:14<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13<br />MTB(mtb.hex) CAN2:14 | MC: left arm joints 4 -> 11 <br /> MAIS left hand <br /> SKIN left arm <br /> INERTIALS: left arm |
+| 10.0.1.3 | EB3 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 | MC: right arm joints 0 -> 3<br />STRAIN | 
+| 10.0.1.4 | EB4 (ems.hex) | MC4(4DC.2.19.out.S) CAN1:3<br />MC4(4DC.2.28.out.S) CAN1:5<br />MC4(4DC.2.30.out.S) CAN1:7<br />MAIS(mais.hex) CAN1:14<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13<br />MTB(mtb.hex) CAN2:14  | MC: right arm joints 4 -> 11 <br /> MAIS right hand <br /> SKIN right arm <br /> INERTIALS: right arm |
+| 10.0.1.5 | EB5 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4  | MC: torso joints 0 -> 2 |
+| 10.0.1.6 | EB6 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 | MC: left leg joints 0 -> 3<br />STRAIN |
+| 10.0.1.7 | EB7 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1 | MC: left leg joints 4 -> 5<br />STRAIN |
+| 10.0.1.8 | EB8 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13 | MC: right leg joints 0 -> 3<br />STRAIN |
+| 10.0.1.9 | EB9 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1 | MC: right leg joints 4 -> 5<br />STRAIN |
+| 10.0.1.10 | EB10 (ems.hex) | MTB(mtb.hex) CAN1:1<br />MTB(mtb.hex) CAN1:2<br />MTB(mtb.hex) CAN1:3<br />MTB(mtb.hex) CAN1:4<br />MTB(mtb.hex) CAN1:5<br />MTB(mtb.hex) CAN1:6<br />MTB(mtb.hex) CAN1:7<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13 | SKIN: left leg<br />INERTIALS: left leg |
+| 10.0.1.11 | EB11 (ems.hex) | MTB(mtb.hex) CAN1:1<br />MTB(mtb.hex) CAN1:2<br />MTB(mtb.hex) CAN1:3<br />MTB(mtb.hex) CAN1:4<br />MTB(mtb.hex) CAN1:5<br />MTB(mtb.hex) CAN1:6<br />MTB(mtb.hex) CAN1:7<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13 | SKIN: right leg<br />INERTIALS: right leg |
 
 <br />
 
@@ -612,23 +629,23 @@ We here describe the ETH and CAN-bus firmware association structure of the iCub 
 ---
 We here describe the ETH and CAN-bus firmware association structure of the iCub v2.5 (Wiring > 3.2)
 
-| IP address | Board Name(firmware) |  Atatched CAN Boards(firmware) | 
-|:---:|:---:|:---|:---|
-| 10.0.1.1 | EB1 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 
-| 10.0.1.3 | EB3 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13
-| 10.0.1.5 | EB5 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4 
-| 10.0.1.6 | EB6 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 
-| 10.0.1.7 | EB7 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1<br />STRAIN2(strain2.hex) CAN2:13
-| 10.0.1.8 | EB8 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 
-| 10.0.1.9 | EB9 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1<br />STRAIN2(strain2.hex) CAN2:13
-| 10.0.1.10 | EB10 (ems.hex) | MTB4(mtb4.hex) CAN1:1<br />MTB4(mtb4.hex) CAN1:2<br />MTB4(mtb4.hex) CAN1:3<br />MTB4(mtb4.hex) CAN1:4<br />MTB4(mtb4.hex) CAN1:5<br />MTB4(mtb4.hex) CAN1:6<br />MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN2:8<br />MTB4(mtb4.hex) CAN2:9<br />MTB4(mtb4.hex) CAN2:10<br />MTB4(mtb4.hex) CAN2:11<br />MTB4(mtb4.hex) CAN2:12<br />MTB4(mtb4.hex) CAN2:13 
-| 10.0.1.11 | EB11 (ems.hex) | MTB4(mtb4.hex) CAN1:1<br />MTB4(mtb4.hex) CAN1:2<br />MTB4(mtb4.hex) CAN1:3<br />MTB4(mtb4.hex) CAN1:4<br />MTB4(mtb4.hex) CAN1:5<br />MTB4(mtb4.hex) CAN1:6<br />MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN2:8<br />MTB4(mtb4.hex) CAN2:9<br />MTB4(mtb4.hex) CAN2:10<br />MTB4(mtb4.hex) CAN2:11<br />MTB4(mtb4.hex) CAN2:12<br />MTB4(mtb4.hex) CAN2:13 
-| 10.0.1.20 | EB20 (mc4plus.hex)<br />MC4PLUS | No CAN boards 
-| 10.0.1.21 | EB21 (mc4plus.hex)<br />MC4PLUS | RFE(rfe.hex) CAN1:1
-| 10.0.1.22 | EB22 (mc4plus.hex)<br />MC4PLUS | MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10
-| 10.0.1.24 | EB24 (mc4plus.hex)<br />MC4PLUS | MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10<br />MTB4(mtb4.hex) CAN1:11<br />MTB4(mtb4.hex) CAN1:12<br />MTB4(mtb4.hex) CAN1:13<br />MTB4(mtb4.hex) CAN1:14
-| 10.0.1.25 | EB25 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14
-| 10.0.1.26 | EB26 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14
-| 10.0.1.27 | EB27 (mc4plus.hex)<br />MC4PLUS | MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10<br />MTB4(mtb4.hex) CAN1:11<br />MTB4(mtb4.hex) CAN1:12<br />MTB4(mtb4.hex) CAN1:13<br />MTB4(mtb4.hex) CAN1:14
-| 10.0.1.28 | EB28 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14
-| 10.0.1.29 | EB29 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14
+| IP address | Board Name(firmware) |  Atatched CAN Boards(firmware) | Services |
+|:---:|:---:|:---:|:---:|
+| 10.0.1.1 | EB1 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 | MC: left arm joints 0 -> 3 <br /> STRAIN2 |
+| 10.0.1.3 | EB3 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 | MC: right arm joints 0 -> 3<br />STRAIN2 | 
+| 10.0.1.5 | EB5 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4 | MC: torso joints 0 -> 2 |
+| 10.0.1.6 | EB6 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 | MC: left leg joints 0 -> 3<br />STRAIN2 |
+| 10.0.1.7 | EB7 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1<br />STRAIN2(strain2.hex) CAN2:13 | MC: left leg joints 4 -> 5<br />STRAIN2 |
+| 10.0.1.8 | EB8 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13 | MC: right leg joints 0 -> 3<br />STRAIN2 |
+| 10.0.1.9 | EB9 (ems.hex) | 2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1<br />STRAIN2(strain2.hex) CAN2:13 | MC: right leg joints 4 -> 5<br />STRAIN2 |
+| 10.0.1.10 | EB10 (ems.hex) | MTB4(mtb4.hex) CAN1:1<br />MTB4(mtb4.hex) CAN1:2<br />MTB4(mtb4.hex) CAN1:3<br />MTB4(mtb4.hex) CAN1:4<br />MTB4(mtb4.hex) CAN1:5<br />MTB4(mtb4.hex) CAN1:6<br />MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN2:8<br />MTB4(mtb4.hex) CAN2:9<br />MTB4(mtb4.hex) CAN2:10<br />MTB4(mtb4.hex) CAN2:11<br />MTB4(mtb4.hex) CAN2:12<br />MTB4(mtb4.hex) CAN2:13 | SKIN: left leg<br />INERTIALS: left leg |
+| 10.0.1.11 | EB11 (ems.hex) | MTB4(mtb4.hex) CAN1:1<br />MTB4(mtb4.hex) CAN1:2<br />MTB4(mtb4.hex) CAN1:3<br />MTB4(mtb4.hex) CAN1:4<br />MTB4(mtb4.hex) CAN1:5<br />MTB4(mtb4.hex) CAN1:6<br />MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN2:8<br />MTB4(mtb4.hex) CAN2:9<br />MTB4(mtb4.hex) CAN2:10<br />MTB4(mtb4.hex) CAN2:11<br />MTB4(mtb4.hex) CAN2:12<br />MTB4(mtb4.hex) CAN2:13 | SKIN: right leg<br />INERTIALS: right leg |
+| 10.0.1.20 | EB20 (mc4plus.hex)<br />MC4PLUS | No CAN boards | MC: head joints 0 -> 1 |
+| 10.0.1.21 | EB21 (mc4plus.hex)<br />MC4PLUS | RFE(rfe.hex) CAN1:1 | MC: head joints 2 -> 5<br />INERTIALS: head |
+| 10.0.1.22 | EB22 (mc4plus.hex)<br />MC4PLUS | MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10 | SKIN: torso|
+| 10.0.1.24 | EB24 (mc4plus.hex)<br />MC4PLUS | MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10<br />MTB4(mtb4.hex) CAN1:11<br />MTB4(mtb4.hex) CAN1:12<br />MTB4(mtb4.hex) CAN1:13<br />MTB4(mtb4.hex) CAN1:14 |  MC: left arm joints 4 -> 7 <br /> SKIN: left arm | 
+| 10.0.1.25 | EB25 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14 |  MC: left arm joints 8 -> 11 | 
+| 10.0.1.26 | EB26 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14 |  MC: left arm joints 12 -> 15 | 
+| 10.0.1.27 | EB27 (mc4plus.hex)<br />MC4PLUS | MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10<br />MTB4(mtb4.hex) CAN1:11<br />MTB4(mtb4.hex) CAN1:12<br />MTB4(mtb4.hex) CAN1:13<br />MTB4(mtb4.hex) CAN1:14 |  MC: right arm joints 4 -> 7 <br /> SKIN: right arm | 
+| 10.0.1.28 | EB28 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14 |  MC: right arm joints 8 -> 11 | 
+| 10.0.1.29 | EB29 (mc4plus.hex)<br />MC4PLUS | MAIS(mais.hex) CAN1:14 |  MC: right arm joints 12 -> 15 | 

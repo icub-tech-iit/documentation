@@ -119,5 +119,5 @@ nav:
         - Summary: icub_firmware/index.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
-        - CanLoader Tools: icub_firmware/canLoader/canLoader.md
-        - F/T Sensors: icub_firmware/ft-sensor/ft-sensor.md
+        - CanLoader: icub_firmware/canLoader/canLoader.md
+        - F/T Sesnors: icub_firmware/ft-sensors/ft-sensors.md

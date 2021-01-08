@@ -5,9 +5,9 @@ Here you can find informations about firmware in the various versions of the rob
 
 [**Associated Firmware**](./associated-firmware/associated-firmware.md)
 
-[**CanLoaderand FirmwareUdpater Tools**](./canLoader/canLoader.md)
+[**CanLoader**](./canLoader/canLoader.md)
 
-[**F/T Sensors**](./ft-sensor/ft-sensor.md)
+[**F/T Sensors**](./ft-sensors/ft-sensors.md)
 
 
 

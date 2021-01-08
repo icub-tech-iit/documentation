@@ -1,4 +1,4 @@
-# F/T Sensor
+# F/T Sensors
 The F/T sensor (6-dof) has also been specially designed to fit the iCub. However, the size of the sensor has been made compatible with an existing commercial product. On the other hand the signal conditioning electronics has been made to fit the sensor itself, consequently reducing the space required. The F/T sensor is based on a classical [Wheatstone bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge) design employing 12 semiconductor strain gauges arranged in a 6 half-bridges configuration.ed robots
 
 ![F/T Sensor](./img/ft-sensor.png)
@@ -44,7 +44,7 @@ In particular the FT sensor assembly name is `ic_008_a_001.asm.1`.
 ---
 Additional specification are reported in this [document](./assets/FTSens.pdf).
 
-For more info on how to load the firmware and the calibration matrix on a FT sensor, check the documentation page on [Firmware](../index.md).
+For more info on how to load the firmware and the calibration matrix on a FT sensor, check the documentation page on [Firmware](../firmware/firmware.md).
 
 ### Electronics
 ---
@@ -258,11 +258,11 @@ There are three cards for reading six axis F/T Sensors:
 
 ## Resources
 
+- [FT58 - without Temp. Compensation](./assets/FT58%20-%20without%20Temp.%20Compensation.pdf)
 - [FT45 - Temp. Compensation included](./assets/FT45%20-%20Temp.%20Compensation%20included.PDF)
 - [FT45 - without Temp. Compensation](./assets/FT45%20-%20without%20Temp.%20Compensation.PDF)
-- [FT45 - Temp. Compensation included 2](./assets/FT45%20-%20Temp.%20Compensation%20included-2.PDF)
-- [FT58 - Temp. Compensation included](./assets/FT58%20-%20Temp.%20Compensation%20included.PDF)
-- [FT58 - without Temp. Compensation](./assets/FT58%20-%20without%20Temp.%20Compensation.pdf)
+- [FT45 - Temp. Compensation included 2](assets/FT45%20-%20Temp.%20Compensation%20included-2.PDF)
+- [FT58 - Temp. Compensation included](assets/FT58%20-%20Temp.%20Compensation%20included.PDF)
 
 ## More information
 ---
