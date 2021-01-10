@@ -59,7 +59,7 @@ The user can also launch FirmwareUpdater in administration mode to perform advan
 - upload special system processes which helps maintenance and execution of the application,
 - management of strain and strain2 boards.
   
-For how to operate in this mode please refer to [this](https://github.com/robotology/icub-firmware-build/doc)
+For how to operate in this mode please refer to [this](https://github.com/robotology/icub-firmware-build/tree/master/docs).
 
 ### Robot Versions and Firmware
 Below you'll find a detailed description of the various robot versions, in particular for the `board` type-`id` or `ip address`-`firmware` associations. and the services offered by each board.
