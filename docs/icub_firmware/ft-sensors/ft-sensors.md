@@ -256,7 +256,7 @@ There are three cards for reading six axis F/T Sensors:
 	</tbody>
 </table>
 
-## Resources
+## Additional material
 
 - [FT45 - without Temp. Compensation](./assets/FT45%20-%20without%20Temp.%20Compensation.PDF)
 - [FT45 - Temp. Compensation included](./assets/FT45%20-%20Temp.%20Compensation%20included.PDF)
