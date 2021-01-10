@@ -115,3 +115,9 @@ nav:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
         - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
+      - iCub Firmware:
+        - Summary: icub_firmware/index.md
+        - Firmware Documentation: icub_firmware/firmware/firmware.md
+        - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
+        - CanLoader: icub_firmware/canLoader/canLoader.md
+        - F/T Sensors: icub_firmware/ft-sensors/ft-sensors.md
