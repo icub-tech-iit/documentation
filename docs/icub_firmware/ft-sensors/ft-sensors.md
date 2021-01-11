@@ -190,6 +190,14 @@ There are three cards for reading six axis F/T Sensors:
 
 ![image-1](img/img-6.png)
 
+## Cable connections
+---
+### STRAIN
+![STRAIN](img/cabling-strain.png)
+
+### STRAIN2
+![STRAIN2](img/cabling-strain2.png)
+
 ## Summarized usable codes
 ---
 
