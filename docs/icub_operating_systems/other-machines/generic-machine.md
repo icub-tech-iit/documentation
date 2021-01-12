@@ -53,13 +53,13 @@ Also install (optional, but very useful) the following packages:
 Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/sources.list`
 Example:
 ```
-deb http://mi.mirror.garr.it/mirrors/debian/ wheezy main non-free contrib
-deb-src http://mi.mirror.garr.it/mirrors/debian/ wheezy main non-free contrib
-deb http://security.debian.org/ wheezy/updates main non-free contrib
-deb-src http://security.debian.org/ wheezy/updates main non-free contrib
-# wheezy-updates, previously known as 'volatile'
-deb http://mi.mirror.garr.it/mirrors/debian/ wheezy-updates main non-free contrib
-deb-src http://mi.mirror.garr.it/mirrors/debian/)` wheezy-updates main non-free contrib
+deb http://mi.mirror.garr.it/mirrors/debian/ buster main non-free contrib
+deb-src http://mi.mirror.garr.it/mirrors/debian/ buster main non-free contrib
+deb http://security.debian.org/ buster/updates main non-free contrib
+deb-src http://security.debian.org/ buster/updates main non-free contrib
+# buster-updates, previously known as 'volatile'
+deb http://mi.mirror.garr.it/mirrors/debian/ buster-updates main non-free contrib
+deb-src http://mi.mirror.garr.it/mirrors/debian/)` buster-updates main non-free contrib
 ```
 
 # iCub software repository and common packages
