@@ -195,6 +195,7 @@ server 10.0.0.1
 ## iCub .bashrc
 
 Add the file `/home/icub/.bashrc_iCub` . This file has two variants:
+
 * [variant if you install ycm, yarp, icub-main and all the other software repos one by one,](https://git.robotology.eu/mbrunettini/icub-environment/blob/master/bashrc_iCub)
 * [variant if you install software through the robotology-superbuild.](https://git.robotology.eu/MBrunettini/icub-environment/-/blob/master/bashrc_iCub_superbuild)
 
