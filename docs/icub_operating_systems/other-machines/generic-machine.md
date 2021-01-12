@@ -28,7 +28,7 @@ If you want to change the default password simply execute (*this works only if y
 You need to create the icub user. For nfs (see later) to work this user has to have the uid 1000 and guid 1000. In LINUX starting procedure, is asks to create the first user. By default uid is set at 1000. To make sure it is done do :
 
 ```
-id -u icu
+id -u icub
 id -g icub
 ```
 
@@ -88,19 +88,6 @@ Install the following packages from icub repository
 
 ` icub-common`
 
-# Optional : install QT libraries
-
-**NOTE**: this step is not required if you installed the icub-common package with version > 1.1.15
-
-Please install the following packages (please check the corresponding package in your distribution):
-
-- for a Debian 7 (Wheezy) machine (in this release packages are from  backports repository):
-
-`qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qml-module-qtquick2 qml-module-qtquick-window2 qml-module-qtmultimedia qml-module-qtquick-dialogs qml-module-qtquick-controls libqt5svg5`
-
-- for a Ubuntu 14.04 LTS (Trusty) machine :
-
-` qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev qtdeclarative5-qtquick2-plugin qtdeclarative5-window-plugin qtdeclarative5-qtmultimedia-plugin qtdeclarative5-controls-plugin qtdeclarative5-dialogs-plugin libqt5svg5`
 
 # Network configuration
 
@@ -193,7 +180,7 @@ Edit the file `/etc/ntp.conf` by adding the following line
 
 ``` 
 server NTP_SERVER_IP
-``` 
+```
 
 and replace **NTP_SERVER_IP** with the appropriate value for your network. As example, in case of a machine in an environment with the icub server the above configuration will be
 
@@ -207,7 +194,9 @@ server 10.0.0.1
 
 ## iCub .bashrc
 
-Add the file `/home/icub/.bashrc_iCub` as [here](https://git.robotology.eu/mbrunettini/icub-environment/blob/master/bashrc_iCub)
+Add the file `/home/icub/.bashrc_iCub` . This file has two variants:
+* [variant if you install ycm, yarp, icub-main and all the other software repos one by one,](https://git.robotology.eu/mbrunettini/icub-environment/blob/master/bashrc_iCub)
+* [variant if you install software through the robotology-superbuild.](https://git.robotology.eu/MBrunettini/icub-environment/-/blob/master/bashrc_iCub_superbuild)
 
 Then add the following lines
 
@@ -233,7 +222,6 @@ case $- in
 esac
 ```
 
-You can also download the `.bashrc_iCub file` here: (_please remember to rename it by adding a starting "."_) [.bashrc\_iCub](https://git.robotology.eu/MBrunettini/icub-environment/raw/master/home/bashrc_iCub)
 
 ## iCub bashrc customization
 
@@ -288,16 +276,6 @@ with
 
 ` hosts:          files dns`
 
-# _Optional_ - install opencv version 2.4.8
-
-Download the sources of [Opencv-2.4.8](http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.8/opencv-2.4.8.zip/download) Unzip and build with
-
-` cmake -D CMAKE_BUILD_TYPE=RELEASE`
-
-if you dont't want to install it, you can setup the environment variable _OpenCV_DIR_, es:
-
-` export OpenCV_DIR=$code/opencv/opencv-2.4.8/build`
-
 # _Optional_ - how to fix ssh lag on connect
 
 In case of lag in SSH connections, disable DNS lookup on ssh server, edit the file `/etc/ssh/sshd_config` adding the following line
@@ -320,6 +298,6 @@ so both, server and client must match.
 
 In case of special machines (such as the cuda workstation or icub laptop) you must follow further steps in order to complete the installation:
 
--   [The iCUb server](icub-server-from-image.md)
+-   [The iCub server](icub-server-from-image.md)
 -   [The iCub server laptop](icub-server-laptop.md)
--   [ The nVidia CUDA workstation](cuda-workstation.md)
+-   [The nVidia CUDA workstation](cuda-workstation.md)
