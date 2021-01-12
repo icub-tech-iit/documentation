@@ -178,7 +178,7 @@ Then create the two above mountpoints as follows
 
 Edit the file `/etc/ntp.conf` by adding the following line
 
-``` 
+```
 server NTP_SERVER_IP
 ```
 
