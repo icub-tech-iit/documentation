@@ -208,7 +208,7 @@ Please follow this [link](lower_arm_V2.md#2-distal-joints) for an extended HOWTO
 
 Please follow this [link](wrist_hand_cabling_V2.md#22-thumb-oppose) for an extended HOWTO route the cable.
 
-Remember that the **shorter** sheat is S0 and the **longer** one is S1.
+Remember that the **shorter** sheat is S0 and the **longer** one is S2.
 
 ### 		2.4	Fingers Abduction
 
