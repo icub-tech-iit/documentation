@@ -106,7 +106,7 @@ The minimum requirement to start re-cabling distal joints is:
 | <img src="../img/lowerArm/wir_mot_1-2_TH_V2.png" width=00><br/> <img src="../img/lowerArm/wir_mot_1-1_TH_V2.png" width=400> | 3. The cable should get **OUT** from here - BE PATIENT!!! |
 | <img src="../img/lowerArm/wir_TH_V2_base.png" width=400> | 4. The cable will then run inside the sheath until it reaches the base of the thumb |
 | <img src="../img/lowerArm/wir_TH_V2_along.png" width=400> | 5. Wire this way |
-| <img src="../img/lowerArm/TH_K.png" width=400> | 6. Make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) |
+| <img src="../img/lowerArm/TH_K.png" width=400> | 6. Make the final knot - you need to make it very close to the finger nail hole (1-2cm away max) - **PLEASE DO NOT USE GLUE ON THE FINAL KNOT**|
 | <img src="../img/lowerArm/TH_closing.png" width=400> | 7. Just use a screwdriver to make the thumb start closing |
 | **YOU ARE DONE!!! CONGRATULATIONS!!!** | Please close the fingertip and its nail and put back in place the lateral bar |
 
@@ -149,7 +149,8 @@ The minimum requirement to start re-cabling distal joints is:
 | <img src ="../img/lowerArm/wir_1_R_P_V2.png" width=800><br /> <img src ="../img/lowerArm/wir_2_P_R.png" width=800><br /> <img src ="../img/lowerArm/wir_L_R&P_pulley.png" width=900> | 2. Insert both cables into their respective holes and start wiring as follow. |
 | <img src ="../img/lowerArm/P_R.png" width=400> | 3. Push the 2 cables in the sheath until they get out from the 2 holes circled. |
 | <img src ="../img/lowerArm/R_P_cabling.png" width=600>         | 4. Cable routing.<br />To be able to pass the cable at the base of the nail it is important to remove the nail and move forward the fingertip for 1 cm from its base. |
-| picture sul vero robot | 5. Please write with a marker at the base of the nails where the knot should be in order to have a perfect simultaneous closing for both fingers. |
+| picture if possible | 5. Please write with a marker at the base of the nails where the knot should be in order to have a perfect simultaneous closing for both fingers. |
+|                     | 6. finally make the knot -  - **PLEASE DO NOT USE GLUE**|
 
  
 
@@ -216,8 +217,8 @@ The minimum requirement to start re-cabling the proximal joints is:
 | <img src ="../img/lowerArm/exit_prox_I&M.png" width=700> <img src ="../img/lowerArm/exit_prox_thumb2.png" width=700> | For all the proximal joints the final cabling starts at the base of their respective finger. |
 | <img src ="../img/lowerArm/last_pulley_prox.png" width=700>    | Cable as follow and block each side of the cable with the nut screw M1.6x3 |
 | <img src ="../img/lowerArm/nutscrewV2.png" width=700> | Tense each side of the cable by releasing the nut screw and pinch and rotate. Close the nut screw. |
-|  | Make a knot at the base of the cable exit, a little further away from it **(+/-5 mm)** AND keep in mind that the **knot** will have to **remain in the slot**. |
+|  | Make a knot at the base of the cable exit, a little further away from it **(+/-5 mm)** AND keep in mind that the **knot** will have to **remain in the slot**.  |
 |  | **FINISHED!!!** |
 
 !!! danger
-    PLEASE NEVER USE **GLUE** ON THE KNOT
+     **PLEASE DO NOT USE GLUE ON THE FINAL KNOT**
