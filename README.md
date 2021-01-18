@@ -27,3 +27,39 @@ Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-
 | Click to enlarge |
 | :---: |
 | ![](./assets/codespaces.gif) |
+
+## Local Workflow
+
+If you prefer to work on the documentation on your own computer without using Cloud IDEs as described in the previous section, 
+you need to install the following software packages: 
+* [mkdocs](https://www.mkdocs.org/)
+* [mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+* [mkdocs-material-extensions](https://pypi.org/project/mkdocs-material-extensions/)
+* [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)
+
+Once you have installed them, just clone this repo, navigate to it and serve its content with the `mkdocs serve` command:
+~~~
+git clone https://github.com/icub-tech-iit/documentation
+cd documentation
+mkdocs serve
+~~~
+
+In the next sections it will be described in detail how to install the required dependencies using different package managers.
+
+### conda
+You can use the [conda-forge](https://conda-forge.org/) distribution to install the required dependencies on Linux, macOS or Windows.
+First of all you need a conda distribution, for example [Miniforge3](https://github.com/conda-forge/miniforge).
+
+If you already have a conda distribution, just create a new [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (for example called `mkdocs-env`) and install in it the require dependencies:
+~~~
+conda create -n mkdocs-env
+conda activate mkdocs-env
+conda install --channel conda-forge mkdocs-material mkdocs-material-extensions pymdown-extensions
+~~~
+
+After the installation, whenever you need to test the website just activate the `mkdocs-env` environment and call `mkdocs serve` in the `documentation` directory:
+~~~
+cd documentation
+conda activate mkdocs-env
+mkdocs serve
+~~~
