@@ -11,7 +11,7 @@ software modules.
 without coordinating with the iCub support.  For any doubt, please open an issue at https://github.com/robotology/icub-tech-support.**
 
 This page only covers the software installation on the icub-head. To prepare the operating system for the icub-head system,
-please refer to Section on [iCub Operating Systems](icub_operating_systems/index.md).
+please refer to Section on [iCub Operating Systems](../icub_operating_systems/index.md).
 
 ### Getting robotology-superbuild
 

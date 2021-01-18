@@ -9,7 +9,7 @@ are available in the **Installation from sources** menu section.
 Depending on the operating system you want to use, it may be available also the possibilities of installing the iCub software via pre-compiled binaries instead of manually compiling the source code. Documentation for this workflow is available in the
 **Installation from pre-compiled binaries** menu section.
 
-Regardless of how you installed your software, you can check if it has been installed correctly by following the instructions in the [Check your installation](sw_installation/check_your_installation.md) page.
+Regardless of how you installed your software, you can check if it has been installed correctly by following the instructions in the [Check your installation](./check_your_installation.md) page.
 
 The standard installation procedure is appropriate for normal developers system, but some machines on the iCub setup, in particular the `icub-head` system that is installed in the head of the iCub robot, require specific software installation instructions. You may find those in the "Installation on specific systems on iCub setup" menu section.
 

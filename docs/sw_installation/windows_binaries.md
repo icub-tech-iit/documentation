@@ -18,4 +18,4 @@ Unless you already have the Microsoft Visual Studio installed on your machine, m
 
 
 ## Check your installation
-After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](sw_installation/check_your_installation.md) page.
+After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](./check_your_installation.md) page.

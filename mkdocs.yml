@@ -105,7 +105,7 @@ nav:
           - Superbuild Installation:
             - icub-head: sw_installation/icub_head_superbuild.md
           - Manual Installation:
-            - icub-head: sw_installation/icub_head_standalone.md
+            - icub-head: sw_installation/icub_head_manual.md
       - Software Versioning Table: sw_versioning_table/index.md
       - The OS for the iCub enviroment:
         - Summary: icub_operating_systems/index.md

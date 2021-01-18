@@ -175,4 +175,4 @@ directories, you need to set your environment.
 * Modify the variable `YARP_DATA_DIRS` accordingly, i.e.: `YARP_DATA_DIRS=`<YARP_INSTALL_PREFIX>`/share/yarp:`<ICUB_INSTALL_PREFIX>`/share/iCub:`<ICUBCONTRIB_INSTALL_PREFIX>`/share/ICUBcontrib`.
 
 ## Check your installation
-After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](sw_installation/check_your_installation.md) page.
+After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](./check_your_installation.md) page.

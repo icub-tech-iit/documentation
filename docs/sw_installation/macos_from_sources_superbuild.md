@@ -14,4 +14,4 @@ git checkout v<YYYY.MM>
 Then follow the macOS instructions in [robotology-superbuild documentation](https://github.com/robotology/robotology-superbuild#macos-from-source).
 
 ## Check your installation
-After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](sw_installation/check_your_installation.md) page.
+After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](./check_your_installation.md) page.

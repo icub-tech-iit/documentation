@@ -1,7 +1,7 @@
 #  Installation on icub-head installing manually each package
 
 The `icub-head` (also known as `pc104` on older iCubs) is a Linux system, so the
-installation procedure follows the one described in [the installation for Linux systems](linux_from_sources_standalone.md).
+installation procedure follows the one described in [the installation for Linux systems](linux_from_sources_manual.md).
 
 The main difference is that in addition you need to enable certain flags in CMake that enable compilation of specific
 software modules.
@@ -60,7 +60,7 @@ Cartesian controllers:
 
 ## Prepare your system
 This page only covers the software installation on the icub-head. To prepare the operating system for the icub-head system,
-please refer to Section on [iCub Operating Systems](icub_operating_systems/index.md).
+please refer to Section on [iCub Operating Systems](../icub_operating_systems/index.md).
 
 ### Getting YARP, iCub sources and Robots configurations
 
