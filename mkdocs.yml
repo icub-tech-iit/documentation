@@ -121,3 +121,5 @@ nav:
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
         - CanLoader: icub_firmware/canLoader/canLoader.md
         - F/T Sensors: icub_firmware/ft-sensors/ft-sensors.md
+      - iCub Microphones:
+        - How to use microphones: icub_microphones/icub_microphones.md
