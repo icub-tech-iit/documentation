@@ -1,4 +1,4 @@
-# Standalone installation on icub-head
+# Superbuild installation on icub-head
 
 The `icub-head` (also known as `pc104` on older iCubs) is a Linux system, so the
 installation procedure follows the one described in [the installation for Linux systems](linux_from_sources_superbuild.md).
