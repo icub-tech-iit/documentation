@@ -88,7 +88,25 @@ nav:
 
     - iCub SW:
       - Summary: icub_sw.md
-      - Software Versioning Table: sw_versioning_table/index.md      
+      - Software Installation:
+        - Summary: sw_installation/index.md
+        - Installation from sources:
+          - Superbuild Installation:
+            - Windows: sw_installation/windows_from_sources_superbuild.md
+            - Linux (Debian/Ubuntu): sw_installation/linux_from_sources_superbuild.md
+            - macOS: sw_installation/macos_from_sources_superbuild.md
+          - Manual Installation:
+            - Linux (Debian/Ubuntu): sw_installation/linux_from_sources_manual.md
+        - Installation from pre-compiled binaries:
+          - Windows: sw_installation/windows_binaries.md
+          - Linux (Debian/Ubuntu): sw_installation/linux_binaries.md
+        - Check your installation: sw_installation/check_your_installation.md
+        - Installation on specific systems on iCub setup:
+          - Superbuild Installation:
+            - icub-head: sw_installation/icub_head_superbuild.md
+          - Manual Installation:
+            - icub-head: sw_installation/icub_head_manual.md
+      - Software Versioning Table: sw_versioning_table/index.md
       - The OS for the iCub enviroment:
         - Summary: icub_operating_systems/index.md
         - The OS on icub-head:
