@@ -45,6 +45,7 @@ For using the head microphones we must install the `PortAudio` on the head and l
  Now, the difficult part. All these devices/subdevices require some specific (and complex) options to work properly. These options are documented in the yarp pages I linked before. The parameters required by portaudioRecorder/portaudioPlayer are specific to the sound format (e.g. frequency, sample format etc). The parameters required by AudioRecorderWrapper/AudioPlayerWrapper define the fragmentation of the sound packets over the network and the buffering options. I recommend to use the default options.
  Please note that buffering introduces some inevitable delay (five seconds by default), and that realtime audio playback is not currently supported (so you might hear some clicks, when a buffer underrun occurs).
  
+## Use case
  A different use case is processing audio in you application. To do this, you may:
  
  * read the audio data directly from the `/audioPlayerRecorder/audio:o`  port
@@ -62,7 +63,8 @@ For using the head microphones we must install the `PortAudio` on the head and l
  
  which can be used for testing/development purpose without the need of the real hardware.
 
-
+## References
+- http://www.portaudio.com/
 
 
 
