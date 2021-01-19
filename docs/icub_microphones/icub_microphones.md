@@ -75,7 +75,7 @@ Using the second option, the audio packets should be already assembled by the wr
 yarpdev --device AudioRecorderWrapper --subdevice portaudioRecorder --start on the head pc104, you'll get audio from icub microphones.
 ```
 ### Simulate a microphone
-
+If you want to simulate a microphone, i.e. play a file from disk:
 ```xml
 yarpdev --device AudioRecorderWrapper --subdevice audioFromFileDevice --file_name myfile.wav --start
 ```
