@@ -49,7 +49,9 @@ The parameters required by portaudioRecorder/portaudioPlayer are specific to the
 The parameters required by AudioRecorderWrapper/AudioPlayerWrapper define the fragmentation of the sound packets over the network and the buffering options. We recommend using the default options.
 Please note that buffering introduces some inevitable delay (five seconds by default), and that realtime audio playback is not currently supported (so we might hear some clicks, when a buffer underrun occurs).
  
-## Use case
+## Use cases
+
+### Processing audio in a application
  A different use case is processing audio in a application. To do this:
  
  - read the audio data directly from the `/audioPlayerRecorder/audio:o`  port
@@ -67,6 +69,18 @@ Using the second option, the audio packets should be already assembled by the wr
  ```
  
  which can be used for testing/development purpose without the need of the real hardware.
+
+### Grabbing audio from the microphones
+```xml
+yarpdev --device AudioRecorderWrapper --subdevice portaudioRecorder --start on the head pc104, you'll get audio from icub microphones.
+```
+### Simulate a microphone
+
+```xml
+yarpdev --device AudioRecorderWrapper --subdevice audioFromFileDevice --file_name myfile.wav --start
+```
+
+In both cases, the port opened by default by AudioRecorderWrapper is /audioRecorderWrapper/audio:o. You can check the options described in AudioRecorderWrapper.h if you want to choose a custom port name.
 
 ## References
 - http://www.portaudio.com/
