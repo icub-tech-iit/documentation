@@ -40,7 +40,7 @@ For using the head microphones we must install the `PortAudio` on the head and l
  yarp connect /audioPlayerRecorder/audio:o /audioPlayerWrapper/audio:i tcp_fast
  ```
  
- The option --start will automatically enable the devices on startup. Otherwise you can start/stop the recording/playback by sending the command on the corresponding rpc ports.
+ The option --start will automatically enable the devices on startup; otherwise, we can start/stop the recording/playback by sending the command on the corresponding RPC ports.
  
 All these devices/subdevices require some specific (and complex) options to work properly. These options are documented in the yarp pages I linked before. The parameters required by portaudioRecorder/portaudioPlayer are specific to the sound format (e.g. frequency, sample format etc). The parameters required by AudioRecorderWrapper/AudioPlayerWrapper define the fragmentation of the sound packets over the network and the buffering options. I recommend to use the default options.
 Please note that buffering introduces some inevitable delay (five seconds by default), and that realtime audio playback is not currently supported (so we might hear some clicks, when a buffer underrun occurs).
@@ -66,7 +66,6 @@ Using the second option, the audio packets should be already assembled by the wr
 
 ## References
 - http://www.portaudio.com/
-
 
 
 
