@@ -15,6 +15,7 @@ For using the head microphones we must install the `PortAudio` on the head and l
   ```
 - Run `make -j4` 
 
+If you rely on [`robotology-superbuild`](https://github.com/robotology/robotology-superbuild), the configuration and the building process will automatically take care of the `portaudio`related options.
  
 ## Recording and Playback
  Recording and playback is supported in yarp via `libportaudio`, which wraps on the top of the linux device drivers.
@@ -84,5 +85,4 @@ In both cases, the port opened by default by AudioRecorderWrapper is /audioRecor
 
 ## References
 - http://www.portaudio.com/
-
 
