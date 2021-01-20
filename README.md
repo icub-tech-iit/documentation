@@ -10,7 +10,7 @@ iCub Tech Docs
 ## Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
 
-## ☁ Cloud IDE
+## ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
 ### [Gitpod](https://www.gitpod.io) 
