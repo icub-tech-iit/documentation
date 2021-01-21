@@ -8,7 +8,7 @@ If you prefer to install the system from scratch, please check the [_appropriate
 This procedure involves the following steps:
 
 1. Create the bootable USB with the imaging tool (CloneZilla)
-2. Download the latest iCubOS image
+2. Download the latest iCub server image
 3. Connect the icub-server
 4. Boot the USB disk
 5. Write the image
@@ -23,11 +23,11 @@ The imaging tool used to create and restore icub-head disk images is [CloneZilla
 2. Get a USB 3 USB drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
-## Where to get the latest iCubOS image
+## Where to get the latest iCub server image
 
 Please open an issue in the [iCub Tech Support Repository on GithHub](https://github.com/robotology/icub-tech-support/issues)
 
-## Download the latest iCubOS image
+## Download the latest iCub server image
 
 Get the lastest iCubServer image and put it on a external USB drive (not the same were is CloneZilla LIVE)
 
@@ -66,7 +66,7 @@ _Please note that the instructions below refers to the lastest clonezilla releas
 
 ## Restart icub-server
 
-Power down the icub-head, then restart.
+Power down the server, then restart.
 
 ## Users and Passwords
 
