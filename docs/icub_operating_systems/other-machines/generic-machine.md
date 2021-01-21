@@ -174,7 +174,7 @@ Then create the two above mountpoints as follows
 
 # NTP configuration
 
-**NOTE** : skip this step in case of icub server
+**NOTE** : skip this step in case of icub server (both "real" and "laptop" versions)
 
 Edit the file `/etc/ntp.conf` by adding the following line
 
