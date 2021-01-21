@@ -16,5 +16,5 @@ There are two versions of the customized OS that runs on the machine inside iCub
 Once you customized your machine, you can proceed with further setup for special machines, such as:
 
 - [_CUDA workstation_](./other-machines/cuda-workstation.md)
-- [_The iCub Server (Workstation)_](./other-machines/icub-server-from-scratch.md)
-- [_The iCub Server (laptop)_](./other-machines/icub-server-laptop.md)
+- [_The iCub Server (a dedicated machine acting only as server setup for gateway, ntp, nfs, dhcp, dns)_](./other-machines/icub-server-from-scratch.md)
+- [_The iCub Server (a single machine, usually a laptop, acting both as server for gateway, ntp and NFS as well as a console)_](./other-machines/icub-server-laptop.md)
