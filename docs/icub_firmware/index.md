@@ -7,7 +7,7 @@ Here you can find informations about firmware in the various versions of the rob
 
 [**CanLoader**](./canLoader/canLoader.md)
 
-[**F/T Sensors**](./ft-sensors/ft-sensors.md)
+
 
 
 
