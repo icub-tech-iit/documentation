@@ -331,11 +331,3 @@ Here's are described the elctrical and mechanical specifications for each joint
 |HW limits|+25/-25 (degrees)|
 |SW limits|-|
 
-## Resources
-The info above have been eztracted from the following files:
-
-- [head](./assets/head%20joints.pptx)
-- [face](./assets/face%20joints.pptx)
-- [upperbody](./assets/upperbody%20joints.pptx)
-- [forearms](./assets/forearm%20joints.pptx)
-- [lowerbody](./assets/Lowerbody-joints.pptx)
