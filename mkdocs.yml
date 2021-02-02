@@ -85,6 +85,23 @@ nav:
         - KIT_005 Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
         - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
         - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
+      - F/T Sensors:
+        - F/T Sensors: ft-sensors/ft-sensors.md
+      - iCub Kinematics:
+        - Summary: icub_kinematics/index.md
+        - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
+        - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
+        - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md 
+        - ICub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md 
+        - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
+        - ICubForwardKinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md 
+        - ICubForwardKinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md 
+        - ICubForwardKinematics Fingers:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md 
+        - ICubForwardKinematics Head:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md 
+        - ICubForwardKinematics Legs:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md 
+        - ICubForwardKinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md 
+      - iCub 3:
+        - iCub 3 joints specs: icub3/icub3-joints.md
 
     - iCub SW:
       - Summary: icub_sw.md
@@ -138,27 +155,11 @@ nav:
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
         - CanLoader: icub_firmware/canLoader/canLoader.md
-      - F/T Sensors:
-        - F/T Sensors: ft-sensors/ft-sensors.md
       - iCub Microphones:
         - How to use microphones: icub_microphones/icub_microphones.md
-      - iCub Kinematics:
-        - Summary: icub_kinematics/index.md
-        - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
-        - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
-        - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md 
-        - ICub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md 
-        - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
-        - ICubForwardKinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md 
-        - ICubForwardKinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md 
-        - ICubForwardKinematics Fingers:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md 
-        - ICubForwardKinematics Head:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md 
-        - ICubForwardKinematics Legs:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md 
-        - ICubForwardKinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md 
       - iCub Robot Calibration:
         - Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
         - Stereo Calibration: icub_robot_calibration/icub-stereo-calib.md
-      - iCub 3:
-        - iCub 3 joints specs: icub3/icub3-joints.md
+
 
      

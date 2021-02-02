@@ -5,7 +5,4 @@
 - [`The OS for the iCub enviroment`](./icub_operating_systems/index.md)
 - [`How to set up multiple iCubs on the same network`](./icub_setup_multiple_robots/index.md)
 - [`iCub Firmware`](./icub_firmware/index.md)
-- [`iCub Kinematics`](./icub_kinematics/index.md)
 - [`Robot Calibration`](./icub_robot_calibration/icub-robot-calibration.md)
-- [`iCub 3`](./icub3/icub3-joints.md)
-- [`F/T Sensors`](./ft-sensors/ft-sensors.md)
