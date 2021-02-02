@@ -94,12 +94,12 @@ nav:
         - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md 
         - ICub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md 
         - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
-        - ICubForwardKinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md 
-        - ICubForwardKinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md 
-        - ICubForwardKinematics Fingers:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md 
-        - ICubForwardKinematics Head:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md 
-        - ICubForwardKinematics Legs:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md 
-        - ICubForwardKinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md 
+        - iCub FW Kinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md 
+        - iCub FW Kinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md 
+        - iCub FW Kinematics Fingers:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md 
+        - iCub FW Kinematics Head:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md 
+        - iCub FW Kinematics Legs:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md 
+        - iCub FW Kinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md 
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
 
