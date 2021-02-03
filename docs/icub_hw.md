@@ -14,3 +14,12 @@ First draft of iCub HW documentation.
 The design of our robot evolves in time. We have been asking ourselves how to propagate the mechanical or hardare enhancements we design to older robots. Our solution is to define upgrade kits that can be applied to specific robots. 
 
 An [upgrade kit](./upgrade_kits/index.md) is a plastic bag with mechanical parts, hardware boards, screws, wires, tendons and whatever it is required to perform a physical upgrade of the robots, including the instructions.
+
+## [iCub Kinematics](./icub_kinematics/index.md)
+Here you can find informations about iCub's kinematics.
+
+## [iCub 3](./icub3/icub3-joints.md)
+Here's are described the elctrical and mechanical specifications for each joint
+
+## [F/T Sensors](./ft-sensors/ft-sensors.md)
+Here's are reported info about `F/T sensors`

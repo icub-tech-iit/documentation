@@ -44,7 +44,7 @@ In particular the FT sensor assembly name is `ic_008_a_001.asm.1`.
 ---
 Additional specification are reported in this [document](./assets/FTSens.pdf).
 
-For more info on how to load the firmware and the calibration matrix on a FT sensor, check the documentation page on [Firmware](../firmware/firmware.md).
+For more info on how to load the firmware and the calibration matrix on a FT sensor, check the documentation page on [Firmware](../icub_firmware/firmware/firmware.md).
 
 ### Electronics
 ---
