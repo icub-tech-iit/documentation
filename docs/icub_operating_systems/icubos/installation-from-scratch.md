@@ -4,11 +4,11 @@ Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the d
 
 # Latest versions
 
-Latest version is based on Ubuntu Server 18.04.4
+Latest version is based on Ubuntu Server 20.04.1
 
 # Create the USB installer
 
-The first step is to download the [official Ubuntu 18.04 LTS Server install media](https://releases.ubuntu.com/bionic/ubuntu-18.04.4-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/bionic/)
+The first step is to download the [official Ubuntu 20.04 LTS Server install media](https://releases.ubuntu.com/focal/ubuntu-20.04.1-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/focal)
 
 Then please create the USB installer using an USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
