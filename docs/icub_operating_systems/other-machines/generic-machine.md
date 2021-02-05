@@ -141,37 +141,7 @@ server 10.0.0.1
 
 **NOTE** : skip this step in case of [iCub server](icub-server-from-image.md)
 
-## iCub .bashrc
-
-Add the file `/home/icub/.bashrc_iCub` . This file has two variants:
-
-* [variant if you install ycm, yarp, icub-main and all the other software repos one by one,](https://git.robotology.eu/mbrunettini/icub-environment/blob/master/bashrc_iCub)
-* [variant if you install software through the robotology-superbuild.](https://git.robotology.eu/MBrunettini/icub-environment/-/blob/master/bashrc_iCub_superbuild)
-
-Then add the following lines
-
-```
-#Load the iCub custom bashrc
-if [ "$HOME" != "" ]; then
-  ICUBRC_FILE="${HOME}/.bashrc_iCub"
-else
-  ICUBRC_FILE="/home/icub/.bashrc_iCub"
-fi
-if [ -f "$ICUBRC_FILE" ]; then
-  source $ICUBRC_FILE
-fi
-```
-
-at the beginning of file `/home/icub/.bashrc` just **BEFORE** the following lines:
-
-```
-# If not running interactively, don't do anything
-case $- in
-   *i*) ;;
-     *) return;;
-esac
-```
-
+Please see [this section](../icubos/user-env.md)
 
 ## iCub bashrc customization
 

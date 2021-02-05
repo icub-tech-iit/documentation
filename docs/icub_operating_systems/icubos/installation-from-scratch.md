@@ -139,11 +139,11 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
 1. Install libraries for i2c:
  `sudo apt install libi2c-dev i2c-tools`
 
-2. Unzip kempld-drivers.20.tar.gz
+2. Unzip [kempld-drivers.30.tar.gz](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosh/kempld-drivers.30.tar.gz)
 
 3. Compile the custom kernel modules:
  ```
- cd kempld-drivers.20/kempld-modules-{ver}
+ cd kempld-drivers.30/kempld-modules-{ver}
  make
  sudo make install
  ```
@@ -162,7 +162,7 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
 
 ### Test the configuration of i2c and BNO055
 
-To test the installation with the python script BNO055:
+To test the installation with the [python script BNO055](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosh/BNO055.zip):
 ```
 python BNO055.py
 ```
