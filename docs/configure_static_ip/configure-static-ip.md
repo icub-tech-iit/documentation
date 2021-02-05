@@ -12,7 +12,7 @@ To let the setup working we need:
 -  The [`robotology-superbuild`](https://github.com/robotology/robotology-superbuild) installed
 
 ## Ubuntu
-In order to communicate wit an `ETH` board we need to assign a `static IP` to the network interface used.
+In order to communicate with an `ETH` board, we need to assign a `static IP` to the network interface used.
 
 To do that :
 
