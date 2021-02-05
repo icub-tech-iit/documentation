@@ -11,6 +11,9 @@ To let the setup working we need:
 -  A laptop/workstation with a network interface available (both physical or an `USB/ETH` adapter)
 -  The [`robotology-superbuild`](https://github.com/robotology/robotology-superbuild) installed
 
+!!!memo
+    Remember to enable the `ROBOTOLOGY_ENABLE_ICUB_HEAD` profile when compiling `robotology-superbuild` in order to have `FirmwareUpdater` running.
+
 ## Ubuntu
 In order to communicate with an `ETH` board, we need to assign a `static IP` to the network interface used.
 
