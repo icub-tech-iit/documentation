@@ -53,7 +53,7 @@ Follow the steps below:
 
 ![Network and Sharing Center](img/network-setup-2.png)
 
-3. Select `Chnage adapter settings` 
+3. Select `Change adapter settings` 
 
 ![Chnage adapter settings](img/network-setup-3.png)
 
