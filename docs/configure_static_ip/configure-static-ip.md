@@ -26,7 +26,7 @@ To do that :
 ![Network config](./img/img-2.png)
 
 !!!note
-    It's also possible to define the static IP address by editing the `/etc/network/interfaces` as follow:
+    It's also possible to define the static IP address by editing the `/etc/network/interfaces` as follows:
     ```xml
         # The primary network interface
             auto eth0
