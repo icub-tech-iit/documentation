@@ -45,27 +45,27 @@ In this example, a `USB/ETH` adapter is used (but a physical network interface c
 
 Follow the steps below:
 
-1. In `Control Panel` go to `Network and Internet`
+- In `Control Panel` go to `Network and Internet`
 
 ![Network and Internet](img/network-setup-1.png)
 
-2. Select `Network and Sharing Center` 
+- Select `Network and Sharing Center` 
 
 ![Network and Sharing Center](img/network-setup-2.png)
 
-3. Select `Change adapter settings` 
+- Select `Change adapter settings` 
 
 ![Chnage adapter settings](img/network-setup-3.png)
 
-4. Right click on the desired network interface then select `Properties`
+- Right click on the desired network interface then select `Properties`
 
 ![Properties](img/network-setup-4.png)
 
-5. Select `Internet Protocol Version 4 (TCP/IPv4)` then click on `Properties`
+- Select `Internet Protocol Version 4 (TCP/IPv4)` then click on `Properties`
 
 ![IPv4](img/network-setup-5.png)
 
-6. Select `Use the following IP address` and input the values as in figure below, then click `OK`
+- Select `Use the following IP address` and input the values as in figure below, then click `OK`
 
 ![IP address](img/network-setup-6.png)
 
