@@ -8,7 +8,7 @@ In the image above the `ETH` interface used is an `USB/ETH` adapter but a physic
 ## Requirements
 To let the setup working we need:
 
--  A laptop/worksttion with a network interface available (both physical or an `USB/ETH` adapter)
+-  A laptop/workstation with a network interface available (both physical or an `USB/ETH` adapter)
 -  The [`robotology-superbuild`](https://github.com/robotology/robotology-superbuild) installed
 
 ## Ubuntu
