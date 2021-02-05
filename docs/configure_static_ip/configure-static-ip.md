@@ -41,7 +41,7 @@ To do that :
 ## Windows
 In order to communicate with an `ETH` board, we need to assign a `static IP` to the network interface used.
 
-in this example is used an `USB/ETH` adapter (but a physical network interface can be used as well) to communicate with an `EMS` board.
+In this example, a `USB/ETH` adapter is used (but a physical network interface can be used as well) to communicate with an `EMS` board.
 
 Follow the steps below:
 
