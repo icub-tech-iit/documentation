@@ -12,7 +12,7 @@ To let the setup working we need:
 -  The [`robotology-superbuild`](https://github.com/robotology/robotology-superbuild) installed
 
 !!!memo
-    Remember to enable the `ROBOTOLOGY_ENABLE_ICUB_HEAD` profile when compiling `robotology-superbuild` in order to have `FirmwareUpdater` running.
+    Remember to enable the `ROBOTOLOGY_ENABLE_ICUB_HEAD` profile when compiling `robotology-superbuild` in order to make `FirmwareUpdater` available.
 
 ## Ubuntu
 In order to communicate with an `ETH` board, we need to assign a `static IP` to the network interface used.
