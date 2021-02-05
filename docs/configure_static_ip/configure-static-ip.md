@@ -45,7 +45,7 @@ In this example, a `USB/ETH` adapter is used (but a physical network interface c
 
 Follow the steps below:
 
-1. In `Control Panel` got to `Network and Internet`
+1. In `Control Panel` go to `Network and Internet`
 
 ![Network and Internet](img/network-setup-1.png)
 
