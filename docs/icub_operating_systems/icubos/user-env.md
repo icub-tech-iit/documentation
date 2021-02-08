@@ -4,7 +4,7 @@ The main user configured on  icub-head is `icub` (SID: 1000 - GID 1000). All the
 
 # The bashrc
 
-The user enviroment configurationsration (for bash sessions) are stored in the file
+The user enviroment configurations (for bash sessions) are stored in the file
 
 `~/.bashrc_iCub`
 
@@ -13,8 +13,8 @@ The user enviroment configurationsration (for bash sessions) are stored in the f
 You can find the updated default .bashrc_iCub file online.
 There are two versions of the iCub enviroment file:
 
-- `bashrc_iCub_superbuild` - a special version of icub user environment, to use in case of [ROBOOLOGY SUPERBUILD](https://github.com/robotology/robotology-superbuild)
-- `bashrc_iCub` - the standard version of icub user enviroment, needed if you do not use the Robotology SUPERBUID
+- `[bashrc_iCub_superbuild](https://raw.githubusercontent.com/icub-tech-iit/icub-os-files/master/user-environment/bashrc_iCub_superbuild)` - a special version of icub user environment, to use in case of [ROBOOLOGY SUPERBUILD](https://github.com/robotology/robotology-superbuild)
+- `[bashrc_iCub](https://raw.githubusercontent.com/icub-tech-iit/icub-os-files/master/user-environment/bashrc_iCub)` - the standard version of icub user enviroment, needed if you do not use the Robotology SUPERBUID
 
 the above files must be renamed to `.bashrc_iCub` and saved in the user home directory, along with the `.bashrc` file.
 

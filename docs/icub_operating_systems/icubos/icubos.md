@@ -4,7 +4,7 @@ The iCubOS operating system is a customized version of [Ubuntu GNU/Linux](https:
 
 ## Latest version
 
-The latest version is 8.18.04_20200117 based on [Ubuntu 18.04 LTS (Bionic Beaver)](https://releases.ubuntu.com/bionic).
+The latest version is 8.0.20.04_20210203 based on [Ubuntu 20.04.1 LTS (Focal Fossa)](https://releases.ubuntu.com/focal).
 
 ## Users and Passwords
 

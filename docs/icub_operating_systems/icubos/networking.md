@@ -52,7 +52,7 @@ The basic idea is that to setup a [network bonding](https://docs.oracle.com/cd/E
 
 ## Netplan
 
-Latest ubuntu uses [NETPLAN](https://netplan.io/) to configure the network, so I setup netplan to create the above network bonding: netplan uses the configuration files it founds in the path
+Latest ubuntu uses [NETPLAN](https://netplan.io/) to configure the network via command line, so I setup netplan to create the above network bonding: netplan uses the configuration files it founds in the path
 ```
 /etc/netplan/
 ```
