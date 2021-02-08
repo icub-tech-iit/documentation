@@ -20,7 +20,7 @@ Follow the below steps to install Ubuntu server on icub-head.
 
 Please note that the installation procedure can be slight different in each release, you can see the [Ubuntu server official install guide](https://ubuntu.com/tutorials/tutorial-install-ubuntu-server)
 
-## Ubuntu Installer configuration_
+## Ubuntu Installer configuration
 
 Install the system by choosing the default options, except the follow steps:
 
