@@ -173,7 +173,7 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
 1. Install libraries for i2c:
  `sudo apt install libi2c-dev i2c-tools`
 
-2. Unzip [kempld-drivers.30.tar.gz](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosh/kempld-drivers.30.tar.gz)
+2. Unzip [kempld-drivers.30.tar.gz](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosch/kempld-drivers.30.tar.gz)
 
 3. Compile the custom kernel modules:
  ```
@@ -196,7 +196,7 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
 
 ### Test the configuration of i2c and BNO055
 
-To test the installation with the [python script BNO055](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosh/BNO055.zip):
+To test the installation with the [python script BNO055](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosch/BNO055.zip):
 ```
 python BNO055.py
 ```
@@ -218,7 +218,7 @@ Another possible troubleshooting could be change in the script BNO055.py (line 1
 
 In order to get a fixed device name for some USB resources such as IMU and USB2SERIAL, you have to create the following UDEV rules
 
-- IMU BOSH : adde the file `/etc/udev/rules.d/88-bosch-i2c-imu.rules` as follows
+- IMU BOSCH : adde the file `/etc/udev/rules.d/88-bosch-i2c-imu.rules` as follows
   ```
   # iCub Bosch i2c IMU
   SUBSYSTEM=="i2c-dev", ATTRS{name}=="i2c-kempld", SYMLINK+="bosch-i2c-imu", MODE="0660", GROUP="i2c"
