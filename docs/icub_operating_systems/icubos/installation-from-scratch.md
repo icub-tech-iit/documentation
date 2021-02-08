@@ -4,11 +4,11 @@ Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the d
 
 # Latest versions
 
-Latest version is based on Ubuntu Server 18.04.4
+Latest version is based on Ubuntu Server 20.04.1
 
 # Create the USB installer
 
-The first step is to download the [official Ubuntu 18.04 LTS Server install media](https://releases.ubuntu.com/bionic/ubuntu-18.04.4-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/bionic/)
+The first step is to download the [official Ubuntu 20.04 LTS Server install media](https://releases.ubuntu.com/focal/ubuntu-20.04.1-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/focal)
 
 Then please create the USB installer using an USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
@@ -20,11 +20,36 @@ Follow the below steps to install Ubuntu server on icub-head.
 
 Please note that the installation procedure can be slight different in each release, you can see the [Ubuntu server official install guide](https://ubuntu.com/tutorials/tutorial-install-ubuntu-server)
 
+## Ubuntu Installer configuration
+
+Install the system by choosing the default options, except the follow steps:
+
+### Keyboard and language
+
+- **Layout** : `US`
+- **Variant** : `US`
+
+### Storage configuration
+
+- _**Disable** the following option_ : `Setup this disk as an LVM group`
+
+### Identity
+
+- **Your name** : `icub`
+- **Your Server's name** : `icub-head'
+- **Pick a username** : `icub`
+- **Choose a password** : `icub`
+
+### SSH
+
+- _**Enable** the following option_ : `Install SSH server`
+
+
 # Required Packages
 
 Install the following packages
 ```
-nfs-common python-tk libopencv-dev ntpdate vim ssh cmake-curses-gui iperf libportaudio2 portaudio19-dev linux-sound-base alsa-base alsa-utils gdb meld bmon i2c-dev expect libgfortran3 qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
+nfs-common python-tk libopencv-dev ntpdate vim ssh cmake-curses-gui iperf libportaudio2 portaudio19-dev linux-sound-base alsa-base alsa-utils gdb meld bmon libi2c-dev expect libgfortran10-dev qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
 ```
 
 ## Low Latency kernel
@@ -32,6 +57,13 @@ nfs-common python-tk libopencv-dev ntpdate vim ssh cmake-curses-gui iperf libpor
 Install the following packages
 ```
 linux-image-lowlatency linux-headers-lowlatency
+```
+
+## Disable X server at startup
+
+The x server is started automatically at startup by GDM, so please disable GDM
+```
+sudo systemctl disable gdm
 ```
 
 ## iCub repository and package
@@ -125,9 +157,11 @@ linux-image-lowlatency linux-headers-lowlatency
 
 ## NTP
 
-Edit the file `/etc/default/ntpdate` by adding the folowing line
+Edit the file `/etc/default/ntpdate` by changing the following lines
 ```
-NTPSERVERS="10.0.0.1"
+NTPDATE_USE_NTP_CONF="no"
+...
+NTPSERVERS="10.0.0.1 ntp.ubuntu.com"
 ```
 
 ## IMU Bosch
@@ -139,11 +173,11 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
 1. Install libraries for i2c:
  `sudo apt install libi2c-dev i2c-tools`
 
-2. Unzip kempld-drivers.20.tar.gz
+2. Unzip [kempld-drivers.30.tar.gz](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosh/kempld-drivers.30.tar.gz)
 
 3. Compile the custom kernel modules:
  ```
- cd kempld-drivers.20/kempld-modules-{ver}
+ cd kempld-drivers.30/kempld-modules-{ver}
  make
  sudo make install
  ```
@@ -162,7 +196,7 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
 
 ### Test the configuration of i2c and BNO055
 
-To test the installation with the python script BNO055:
+To test the installation with the [python script BNO055](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosh/BNO055.zip):
 ```
 python BNO055.py
 ```

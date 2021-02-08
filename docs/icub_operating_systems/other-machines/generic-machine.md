@@ -4,7 +4,7 @@ This page contains instructions on how to prepare a machine to work in the iCub 
 
 # Operating System
 
-You can choose both a Debian or Ubuntu Linux, the currently suggested OS is [Ubuntu 18.04 (Bionic Beaver)](http://releases.ubuntu.com/18.04/).
+You can choose both a Debian or Ubuntu Linux, the currently suggested OS is [Ubuntu 20.04 (Focal Fossa)](http://releases.ubuntu.com/20.04/).
 
 # User account
 
@@ -32,9 +32,9 @@ id -u icub
 id -g icub
 ```
 
-Add the icub user to the sudoers group, by editing in `/etc/group` the following line
+Add the icub user to the sudoers group, as follows
 
-`sudo:x:27:icub`
+`sudo usermod -aG sudo icub`
 
 # Required and useful Packages
 
@@ -51,16 +51,6 @@ Also install (optional, but very useful) the following packages:
 **NOTE** : this step is required only for a Debian machine.
 
 Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/sources.list`
-Example:
-```
-deb http://mi.mirror.garr.it/mirrors/debian/ buster main non-free contrib
-deb-src http://mi.mirror.garr.it/mirrors/debian/ buster main non-free contrib
-deb http://security.debian.org/ buster/updates main non-free contrib
-deb-src http://security.debian.org/ buster/updates main non-free contrib
-# buster-updates, previously known as 'volatile'
-deb http://mi.mirror.garr.it/mirrors/debian/ buster-updates main non-free contrib
-deb-src http://mi.mirror.garr.it/mirrors/debian/)` buster-updates main non-free contrib
-```
 
 # iCub software repository and common packages
 
@@ -72,9 +62,9 @@ Configure the iCub software repository, by creating the file `/etc/apt/sources.l
 
 `deb http://www.icub.org/debian buster contrib/science`
 
--   for a Ubuntu 18.04 LTS (Bionic) machine :
+-   for a Ubuntu 20.04 LTS (Focal) machine :
 
-`deb http://www.icub.org/ubuntu bionic contrib/science
+`deb http://www.icub.org/ubuntu focal contrib/science`
 
 Download the packages signature
 
@@ -88,72 +78,31 @@ Install the following packages from icub repository
 
 ` icub-common`
 
-
 # Network configuration
 
 You have two options:
 
-- Static IP address (this option is **mandatory**  if there is no DHCP in your subnet - like in the case of iCub Laptop - or if your machine is the DHCP server - this is the case of icub server)
+- Static IP address (this option is **mandatory**  if there is no DHCP in your subnet - like in the case of [the iCub server laptop](icub-server-laptop.md) - or if your machine is the DHCP server - this is the case of  [the "real" iCub server](icub-server-from-image.md) )
 - Dynamic DHCP IP address
 
-## Dynamic IP configuration
+## Configuration methods
+Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (eg. in Ubuntu 20.04 the tool is [Network Manager](https://help.ubuntu.com/community/NetworkManager) ).
 
-To configure a dynamic IP adress, edit `/etc/network/interfaces` as follows (where `eth0` is the interface to configure):
-```
-# The primary network interface`
-auto eth0
-allow-hotplug eth0
-iface eth0 inet dhcp
-```
+Otherwise, you can configure the network interfaces usign the commmand line configuration files (eg. in Ubuntu 20.40 you have to deal with [NETPLAN](https://netplan.io/) )
 
-## Static IP configuration
-
-To configure a static IP adress, edit /etc/network/interfaces, as
-follows (where *eth0* is the interface to configure)
-```
-# The primary network interface
-auto eth0
-allow-hotplug eth0
-iface eth0 inet static
-  address MACHINE_IP
-  netmask NETMASK
-  gateway GATEWAY_IP
-  dns-nameservers DNS_IP
-  dns-domain icub.local
-  dns-search icub.local
-```
-
-and replace **MACHINE_IP** **NETMASK** **DNS_IP** **GATEWAY_IP** with
-the appropriate values for you network.
-
-As example, in case of a machine in an environment with the icub server the above configuration will be (where **MACHINE_IP** is now `10.0.0.16`)
-
-```
-# The primary network interface
-auto eth0
-iface eth0 inet static
-  address 10.0.0.16
-  netmask 255.255.255.0
-  gateway 10.0.0.1
-  dns-nameservers 10.0.0.1
-  dns-domain icub.local
-  dns-search icub.loca
-```
-
-In case of Static IP, please check that the file `/etc/hosts` looks as
-follows:
+## the HOSTS file
+Please check that the file `/etc/hosts` looks asfollows:
 
 ```
 127.0.0.1       localhost
 127.0.1.1       MACHINE_HOSTNAME.icub.local       MACHINE_HOSTNAME
 ```
 
-and replace **MACHINE_HOSTNAME** with the hostname of you machine, that should match the file `/etc/hostname`
+where **MACHINE_HOSTNAME** is the hostname of you machine, that should match the file `/etc/hostname`
 
 ## Mount remote NFS shares
 
-**NOTE** : skip this step in case of icub server or icub "standalone"
-latop (without iCub rack servers)
+**NOTE** : skip this step in case of [iCub server LAPTOP](icub-server-laptop.md) or [iCub server](icub-server-from-image.md)
 
 To mount the remote NFS shares, edit `/etc/fstab`, by adding the folowing lines
 
@@ -190,39 +139,9 @@ server 10.0.0.1
 
 # iCub user environment variables
 
-**NOTE** : skip this step in case of iCub server
+**NOTE** : skip this step in case of [iCub server](icub-server-from-image.md)
 
-## iCub .bashrc
-
-Add the file `/home/icub/.bashrc_iCub` . This file has two variants:
-
-* [variant if you install ycm, yarp, icub-main and all the other software repos one by one,](https://git.robotology.eu/mbrunettini/icub-environment/blob/master/bashrc_iCub)
-* [variant if you install software through the robotology-superbuild.](https://git.robotology.eu/MBrunettini/icub-environment/-/blob/master/bashrc_iCub_superbuild)
-
-Then add the following lines
-
-```
-#Load the iCub custom bashrc
-if [ "$HOME" != "" ]; then
-  ICUBRC_FILE="${HOME}/.bashrc_iCub"
-else
-  ICUBRC_FILE="/home/icub/.bashrc_iCub"
-fi
-if [ -f "$ICUBRC_FILE" ]; then
-  source $ICUBRC_FILE
-fi
-```
-
-at the beginning of file `/home/icub/.bashrc` just **BEFORE** the following lines:
-
-```
-# If not running interactively, don't do anything
-case $- in
-   *i*) ;;
-     *) return;;
-esac
-```
-
+Please see [this section](../icubos/user-env.md)
 
 ## iCub bashrc customization
 
@@ -258,12 +177,34 @@ Using the gnome3 control panel, it is not possible to avoid the system has to be
 
 # _Optional_ - install nVidia video drivers
 
-- Install the following packages
+1. Check if you have nvidia hardware
 
-` nvidia-glx nvidia-settings nvidia-xconfig`
+`sudo ubuntu-drivers devices`
 
-- Run nvidia-xconfig
-- Reboot
+and check the command output. In case of nvidia hardare you should see somthing like the following example
+
+```
+== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
+
+vendor   : NVIDIA Corporation
+modalias : pci:v000010DEd00000DDAsv000017AAsd000021D1bc03sc00i00
+model    : GF106GLM [Quadro 2000M]
+driver   : xserver-xorg-video-nouveau - distro free builtin
+driver   : nvidia-304-updates - distro non-free
+driver   : nvidia-304 - distro non-free
+driver   : nvidia-331 - distro non-free recommended
+driver   : nvidia-331-updates - distro non-free
+```
+
+The above example is showing that there are several different nVidia driver versions available, you should chose the **recommended** one (the `nvidia-331` in above example )
+
+2. Install the appropriate nvidia driver, as follows (for the example above)
+
+`sudo apt install nvidia-331`
+
+3. Reboot
+
+For further details, please read [thi guide](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia)
 
 # _Optional_ - Fix the the .local domains resolution problems
 
