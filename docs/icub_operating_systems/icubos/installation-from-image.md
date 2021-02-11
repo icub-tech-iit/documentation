@@ -20,7 +20,7 @@ This procedure involves the following steps:
 The imaging tool used to create and restore icub-head disk images is [CloneZilla LIVE](https://clonezilla.org/clonezilla-live.php).
 
 1. Download clonezilla from this [link](https://clonezilla.org/downloads.php)
-2. Get a USB 3 USB drive (at least 4 GB of size)
+2. Get a USB 3 drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
 ## Where to get the latest iCub server image
