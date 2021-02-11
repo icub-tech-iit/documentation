@@ -91,15 +91,15 @@ nav:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
         - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
-        - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md 
-        - ICub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md 
+        - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md
+        - ICub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md
         - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
-        - iCub FW Kinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md 
-        - iCub FW Kinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md 
-        - iCub FW Kinematics Fingers:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md 
-        - iCub FW Kinematics Head:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md 
-        - iCub FW Kinematics Legs:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md 
-        - iCub FW Kinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md 
+        - iCub FW Kinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md
+        - iCub FW Kinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md
+        - iCub FW Kinematics Fingers:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md
+        - iCub FW Kinematics Head:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md
+        - iCub FW Kinematics Legs:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md
+        - iCub FW Kinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
 
@@ -133,6 +133,7 @@ nav:
             - Installation from pre-built image: icub_operating_systems/icubos/installation-from-image.md
             - Installation from scratch: icub_operating_systems/icubos/installation-from-scratch.md
           - Networking: icub_operating_systems/icubos/networking.md
+          - Bluetooth: icub_operating_systems/icubos/bluetooth.md
           - User environment: icub_operating_systems/icubos/user-env.md
         - The OS on PC104 (live USB):
           - Introduction: icub_operating_systems/pc104/icub-live.md
@@ -164,6 +165,3 @@ nav:
         - Calibration types: icub_r1_calibration_types/icub_r1_calibration_types.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md  
-
-
-     
