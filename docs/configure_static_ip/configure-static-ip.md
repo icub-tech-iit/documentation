@@ -1,4 +1,4 @@
-# Configure a static IP
+# Configure IP on a setup for ETH boards
 This documentation describes how to setup a laptop/workstation network interface in order to communicate with an `ETH` board (i.e. `mc4plus`, `mc2plus` or `ems`)
 
 ![Setup](./img/img-1.png)
