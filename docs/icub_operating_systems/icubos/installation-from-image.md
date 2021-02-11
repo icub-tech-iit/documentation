@@ -51,7 +51,7 @@ Power on the icub-head and enter BIOS, the select drive with CloneZilla as first
 ## Write the image
 
 Follow the steps below to write the image on the icub-head HD (detailed instruction about how to use CloneZilla can be found [here](https://clonezilla.org/clonezilla-usage/clonezilla-live-usage.php) ).
-_Please note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)
+Please, note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)
 
 1. In boot menu, select the option `Clonezilla live (Defaut, To RAM)`
 2. choose your language
