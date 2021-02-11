@@ -7,7 +7,7 @@ The icub-head board has an onboard BT controller and antenna, so no external don
 
 The BT configuration relies on hardware address, so it is to be done on each robot after you installed iCubOS.
 
-## Bluetooth configuration
+## Required configuration
 This procedure shows how to pair the bluetooth on icub-head with the battery module. It can be used also to pair and connect to a joypad, usign the joypad address instead of the _RNBT_ one.
 
 1. Install the following packages
