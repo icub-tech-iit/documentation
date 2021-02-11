@@ -88,7 +88,7 @@ sudo systemctl disable gdm
   icub-common
   ```
 
-# Further installation steps and configuration
+# Configuration steps
 
 ## SSH configuration
 
@@ -115,44 +115,6 @@ sudo systemctl disable gdm
   ```
   # This sets the max OS receive buffer size for all types of connections
   net.core.rmem_max=8388608
-  ```
-
-## Bluetooth configuration
-
-1. Install the following packages
-  ```
-  bluetooth bluez bluez-tools
-  ```
-
-2. Scan for available devices and search for the battery device
-  ```
-  hcitool scan | grep RNBT
-  ```
-
-3. Open Bluetooth control and search for the Battery device
-  ```
-  bluetoothctl
-    scan on
-  ```
-
-4. Wait that the above ADDR shows then stop scanning
-  ```
-  scan off
-  ```
-
-5. Pair the battery device with address ADDR
-  ```
-  pair ADDR
-  ```
-
-6. Check status
-  ```
-  devices
-  ```
-
-7. If everything is ok quit Bluetooth control
-  ```
-  quit
   ```
 
 ## NTP
@@ -228,7 +190,9 @@ In order to get a fixed device name for some USB resources such as IMU and USB2S
   ```
   # tty Xsens
   SUBSYSTEM=="tty", ATTRS{idVendor}=="2639", SYMLINK+="ttyXsens", MODE="0660", GROUP="tty"
-  ```
+    ```
+
+Further installation steps and configuration
 
 # Tweaks
 
@@ -252,3 +216,6 @@ If you already setup the passwordless SSH login, you can skip the password:
 ```
 sudo sshfs -o allow_other,IdentityFile=/home/icub/.ssh/id_rsa icub@10.0.0.2:/usr/local/src/robot/ /home/icub/icub-head_fs
 ```
+
+# Customize the system
+What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth](bluetooth.md) and [_User Environment_](user-env.md) chapters)
