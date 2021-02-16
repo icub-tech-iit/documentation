@@ -25,7 +25,7 @@ Prepare 2 cables with the components and specifics described below:
 | IITCODE | Alias            | Descption                                                    |
 | ------- | ---------------- | ------------------------------------------------------------ |
 | 1001    | U0778110         | Stainless steel microcable, cable construction 7x7mm - (Coated ext 1.0 mm / core 0.81 mm) - CARL STAHL GMBH |
-| 2714    | RC_IIT_010_P_064 | D ext/int = 2.4 mm/0.85 mm - length 3.5 mm -- material X5CrNiMo1712-AIS1316 |
+| 2717    | RC_IIT_010_P_064 | D ext/int = 2.4 mm/0.85 mm - length 3.5 mm -- material X5CrNiMo1712-AIS1316 |
 
 
 
