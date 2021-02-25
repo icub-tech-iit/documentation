@@ -74,6 +74,7 @@ path:
 
 Unzip this new library file into the following path (replace `${YOUR_DIRECTORY}`
 with the path where you cloned the two repositories): 
+
 ~~~
 ${YOUR_DIRECTORY}\icub-firmware\emBODY\eBcode\arch-arm\libs\highlevel\abslayer\ipal\
 ~~~
