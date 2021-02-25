@@ -60,15 +60,17 @@ This completes the Installation and license configuration for Keil!
 
 Now that Keil is installed and running, you need to setup the firmware
 and its shared repositories, which can be cloned from the follow link: 
-
-[https://github.com/robotology/icub-firmware](https://github.com/robotology/icub-firmware)
-
-[https://github.com/robotology/icub-firmware-shared](https://github.com/robotology/icub-firmware-shared)
+- [https://github.com/robotology/icub-firmware](https://github.com/robotology/icub-firmware)
+- [https://github.com/robotology/icub-firmware-shared](https://github.com/robotology/icub-firmware-shared)
 
 You can clone these repositories anywhere in your computer as long as they 
 are both in the same directory. Once you clone the two repositories, you 
-will need an extra library that will be provided upon request to either 
-Marco Accame, Nicolo Genesio or Alexandre Antunes.
+will need an extra library that is available on IITs intranet in the following
+path:
+
+~~~
+\\storage05.icub.iit.local\repository\software\ipal-extra
+~~~
 
 Unzip this new library file into the following path (replace `${YOUR_DIRECTORY}`
 with the path where you cloned the two repositories): 
