@@ -125,7 +125,7 @@ IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY [HERE](#24-waist-top
 
 ### 2.2	WAIST BACK - Cable 11
 
-<center>![waist](img\waist\Waist_cable_11.png)</center>
+<center>![waist](./img/waist/Waist_cable_11.png)</center>
 !!! WARNING
     routing cable 11 is quite simple in process of construction because you don't have yet the upper body mounted atop of the waist **<u>BUT</u>** become particularly tedious in phase of repair due to the presence of this latter. If you haven't removed the cover above the torso and the back (or backpack cover), please follow this [link](#21-chest-back-and-back-pack-covers-dismounting)
 
