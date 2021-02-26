@@ -1,0 +1,6427 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation resources for the iCub & R1 robots">
+      
+      
+      
+        <meta name="author" content="iCub Tech">
+      
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.2">
+    
+    
+      
+        <title>Associated Firmware - iCub Tech Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="amber">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#associated-firmware" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="iCub Tech Docs" class="md-header__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iCub Tech Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Associated Firmware
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="iCub Tech Docs" class="md-nav__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    iCub Tech Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1">
+        iCub Tech Docs
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Tech Docs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Tech Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home Page
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      <label class="md-nav__link" for="__nav_1_2">
+        iCub Starter Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Starter Kits" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Starter Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_starter_kits/first_steps/" class="md-nav__link">
+        First steps with the Humanoid iCub
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3">
+        iCub HW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub HW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          iCub HW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_hw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_2" type="checkbox" id="__nav_1_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_2">
+        The iCub Versions Table
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Versions Table" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Versions Table
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_versions/" class="md-nav__link">
+        Versions Table
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_3" type="checkbox" id="__nav_1_3_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_3">
+        The iCub Wiring
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Wiring" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Wiring
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/icub1_x/" class="md-nav__link">
+        iCub 1.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/icub2_x/" class="md-nav__link">
+        iCub 2.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/icub3_x/" class="md-nav__link">
+        iCub 3.x
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4" type="checkbox" id="__nav_1_3_4" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4">
+        The iCub Tendons manual
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Tendons manual" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Tendons manual
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/neck/" class="md-nav__link">
+        Neck
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/shoulder_elbow/" class="md-nav__link">
+        Shoulder and Elbow
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4" type="checkbox" id="__nav_1_3_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4">
+        Lower Arm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lower Arm" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_3_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Lower Arm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/lower_arm/" class="md-nav__link">
+        Definition
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2" type="checkbox" id="__nav_1_3_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2">
+        Version 1
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Version 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_1" type="checkbox" id="__nav_1_3_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/hand_cabling_V1/" class="md-nav__link">
+        How-to Cable and Needed Parts V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_2" type="checkbox" id="__nav_1_3_4_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/remove/" class="md-nav__link">
+        Disconnection V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/lower_arm_V1/" class="md-nav__link">
+        Lower Arm V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/wrist_hand_cabling_V1/" class="md-nav__link">
+        Wrist and Hand Cabling V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3" type="checkbox" id="__nav_1_3_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3">
+        Version 2
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 2" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Version 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_1" type="checkbox" id="__nav_1_3_4_4_3_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/hand_cabling_V2/" class="md-nav__link">
+        How-to Cable and Needed Parts V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_2" type="checkbox" id="__nav_1_3_4_4_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/remove/" class="md-nav__link">
+        Disconnection V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/lower_arm_V2/" class="md-nav__link">
+        Lower Arm V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/wrist_hand_cabling_V2/" class="md-nav__link">
+        Wrist and Hand Cabling V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/waist_legs/" class="md-nav__link">
+        Waist, Leg and Ankle
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_5" type="checkbox" id="__nav_1_3_5" >
+      
+      <label class="md-nav__link" for="__nav_1_3_5">
+        The iCub Upgrade Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Upgrade Kits" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Upgrade Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/torso_capacitors/support/" class="md-nav__link">
+        KIT_002 Update of torso capacitors
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/hands/support/" class="md-nav__link">
+        KIT_003 Hands Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/upperarm_cover_icub2_5/support/" class="md-nav__link">
+        KIT_004 Update upper arm covers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/eyes/support/" class="md-nav__link">
+        KIT_005 Eyes Motor Replacement Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/differential_neck_pulley/support/" class="md-nav__link">
+        KIT_006 Update of differential neck pulley
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/ankle_for_stairs/support/" class="md-nav__link">
+        KIT_007 Ankle for climbing stairs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_6" type="checkbox" id="__nav_1_3_6" >
+      
+      <label class="md-nav__link" for="__nav_1_3_6">
+        F/T Sensors
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="F/T Sensors" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          F/T Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ft-sensors/ft-sensors/" class="md-nav__link">
+        F/T Sensors
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_7" type="checkbox" id="__nav_1_3_7" >
+      
+      <label class="md-nav__link" for="__nav_1_3_7">
+        iCub Kinematics
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Kinematics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Kinematics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-joints/icub-joints/" class="md-nav__link">
+        iCub Joints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-joints-limits/icub-joints-limits/" class="md-nav__link">
+        iCub Joints Limits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-robot-configuration/icub-robot-configuration/" class="md-nav__link">
+        Robot Configuration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions/" class="md-nav__link">
+        ICub Model naming conventions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-vergence-version/icub-vergence-version/" class="md-nav__link">
+        Vergence, Version and Disparity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics/" class="md-nav__link">
+        iCub FW Kinematics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms/" class="md-nav__link">
+        iCub FW Kinematics Arms
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers/" class="md-nav__link">
+        iCub FW Kinematics Fingers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head/" class="md-nav__link">
+        iCub FW Kinematics Head
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs/" class="md-nav__link">
+        iCub FW Kinematics Legs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial/" class="md-nav__link">
+        iCub FW Kinematics Inertial
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_8" type="checkbox" id="__nav_1_3_8" >
+      
+      <label class="md-nav__link" for="__nav_1_3_8">
+        iCub 3
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub 3" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub3/icub3-joints/" class="md-nav__link">
+        iCub 3 joints specs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" checked>
+      
+      <label class="md-nav__link" for="__nav_1_4">
+        iCub SW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub SW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          iCub SW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_sw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2">
+        Software Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Software Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2" type="checkbox" id="__nav_1_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2">
+        Installation from sources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from sources" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from sources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_1" type="checkbox" id="__nav_1_4_2_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/windows_from_sources_superbuild/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/linux_from_sources_superbuild/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/macos_from_sources_superbuild/" class="md-nav__link">
+        macOS
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_2" type="checkbox" id="__nav_1_4_2_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/linux_from_sources_manual/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_3" type="checkbox" id="__nav_1_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_3">
+        Installation from pre-compiled binaries
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from pre-compiled binaries" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from pre-compiled binaries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/windows_binaries/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/linux_binaries/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/check_your_installation/" class="md-nav__link">
+        Check your installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5" type="checkbox" id="__nav_1_4_2_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5">
+        Installation on specific systems on iCub setup
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation on specific systems on iCub setup" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Installation on specific systems on iCub setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_1" type="checkbox" id="__nav_1_4_2_5_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/icub_head_superbuild/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_2" type="checkbox" id="__nav_1_4_2_5_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/icub_head_manual/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_versioning_table/" class="md-nav__link">
+        Software Versioning Table
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4" type="checkbox" id="__nav_1_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4">
+        The OS for the iCub enviroment
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS for the iCub enviroment" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS for the iCub enviroment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2" type="checkbox" id="__nav_1_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2">
+        The OS on icub-head
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on icub-head" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on icub-head
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/icubos/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/bios/" class="md-nav__link">
+        BIOS Tweaks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2_3" type="checkbox" id="__nav_1_4_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2_3">
+        Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/installation-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/installation-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/networking/" class="md-nav__link">
+        Networking
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/bluetooth/" class="md-nav__link">
+        Bluetooth
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/icubos/user-env/" class="md-nav__link">
+        User environment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_3" type="checkbox" id="__nav_1_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_3">
+        The OS on PC104 (live USB)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on PC104 (live USB)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on PC104 (live USB)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/pc104/icub-live/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/pc104/the-icub-live-installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/pc104/the-icub-live-details/" class="md-nav__link">
+        Details
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4" type="checkbox" id="__nav_1_4_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4">
+        The OS on other machines (not on robot)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on other machines (not on robot)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on other machines (not on robot)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/other-machines/generic-machine/" class="md-nav__link">
+        Generic iCub enviroment machines (eg. laptop)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2" type="checkbox" id="__nav_1_4_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2">
+        The iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub server" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2_1" type="checkbox" id="__nav_1_4_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2_1">
+        The "real" iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The "real" iCub server" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          The "real" iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/other-machines/icub-server-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/other-machines/icub-server-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/other-machines/icub-server-laptop/" class="md-nav__link">
+        The laptop used as icub server
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_operating_systems/other-machines/cuda-workstation/" class="md-nav__link">
+        The CUDA workstation
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_5" type="checkbox" id="__nav_1_4_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_5">
+        iCub Setup Multiple Robots
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Setup Multiple Robots" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Setup Multiple Robots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_setup_multiple_robots/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_setup_multiple_robots/two_robots_simulation/" class="md-nav__link">
+        How to use two iCub robots in gazebo simulation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_setup_multiple_robots/two_robots_real/" class="md-nav__link">
+        How to use two real iCub robots on the same network
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6" type="checkbox" id="__nav_1_4_6" checked>
+      
+      <label class="md-nav__link" for="__nav_1_4_6">
+        iCub Firmware
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Firmware" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Firmware
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6_2" type="checkbox" id="__nav_1_4_6_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6_2">
+        Firmware Toolchain Documentation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Firmware Toolchain Documentation" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Firmware Toolchain Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fw_toolchain/installing_keil/" class="md-nav__link">
+        Installing Keil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fw_toolchain/installing_mplab/" class="md-nav__link">
+        Installing MPLAB
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../firmware/firmware/" class="md-nav__link">
+        Firmware Documentation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Associated Firmware
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Associated Firmware
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#can-based-robots" class="md-nav__link">
+    CAN based robots
+  </a>
+  
+    <nav class="md-nav" aria-label="CAN based robots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#can-networks" class="md-nav__link">
+    CAN Networks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v10" class="md-nav__link">
+    iCub V1.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub V1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcan0-head-and-torso" class="md-nav__link">
+    PCAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="PCAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan1-left-arm" class="md-nav__link">
+    PCAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan2-right-arm" class="md-nav__link">
+    PCAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan3-legs" class="md-nav__link">
+    PCAN3: Legs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v110" class="md-nav__link">
+    iCub V1.1.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub V1.1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcan0-head-and-torso_1" class="md-nav__link">
+    PCAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="PCAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_1" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_1" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan1-left-arm_1" class="md-nav__link">
+    PCAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecan1-left-hand" class="md-nav__link">
+    ECAN1: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan2-right-arm_1" class="md-nav__link">
+    PCAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecan0-right-hand" class="md-nav__link">
+    ECAN0: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan3-legs_1" class="md-nav__link">
+    PCAN3: Legs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v120" class="md-nav__link">
+    iCub v1.2.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v1.2.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_2" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_2" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can1-left-arm" class="md-nav__link">
+    CFW2CAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can5-left-hand" class="md-nav__link">
+    CFW2CAN5: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can2-right-arm" class="md-nav__link">
+    CFW2CAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can6-right-hand" class="md-nav__link">
+    CFW2CAN6: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can3-left-leg" class="md-nav__link">
+    CFW2CAN3: left leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can4-right-leg" class="md-nav__link">
+    CFW2CAN4: right leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can7-skin-left-hand" class="md-nav__link">
+    CFW2CAN7: Skin Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can8-skin-right-hand" class="md-nav__link">
+    CFW2CAN8: Skin Right hand
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v130" class="md-nav__link">
+    iCub v1.3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v1.3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_1" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_3" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_3" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can1-left-arm_1" class="md-nav__link">
+    CFW2CAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can5-left-hand_1" class="md-nav__link">
+    CFW2CAN5: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can2-right-arm_1" class="md-nav__link">
+    CFW2CAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can6-right-hand_1" class="md-nav__link">
+    CFW2CAN6: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can3-left-leg_1" class="md-nav__link">
+    CFW2CAN3: left leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can4-right-leg_1" class="md-nav__link">
+    CFW2CAN4: right leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can7-skin-left-hand_1" class="md-nav__link">
+    CFW2CAN7: Skin Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can8-skin-right-hand_1" class="md-nav__link">
+    CFW2CAN8: Skin Right hand
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v1x1-x1" class="md-nav__link">
+    iCub v1.x.1 ( x&gt;1 )
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v1.x.1 ( x&gt;1 )">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_2" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_4" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_4" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v2" class="md-nav__link">
+    iCub v2
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_3" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_5" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_5" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can1-left-arm_2" class="md-nav__link">
+    CFW2CAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can5-left-hand_2" class="md-nav__link">
+    CFW2CAN5: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can2-right-arm_2" class="md-nav__link">
+    CFW2CAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can6-right-hand_2" class="md-nav__link">
+    CFW2CAN6: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can3-left-leg_2" class="md-nav__link">
+    CFW2CAN3: left leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can4-right-leg_2" class="md-nav__link">
+    CFW2CAN4: right leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can7-skin-left-arm" class="md-nav__link">
+    CFW2CAN7: Skin Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can8-skin-right-arm" class="md-nav__link">
+    CFW2CAN8: Skin Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can9-skin-torso" class="md-nav__link">
+    CFW2CAN9: Skin Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v2-talking-head" class="md-nav__link">
+    iCub v2 - Talking Head
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v2 - Talking Head">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_4" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_6" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_6" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-25-wiring-32" class="md-nav__link">
+    iCub 2.5 - Wiring &lt;= 3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-25-wiring-32_1" class="md-nav__link">
+    iCub 2.5 - Wiring &gt; 3.2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../canLoader/canLoader/" class="md-nav__link">
+        CanLoader
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_7" type="checkbox" id="__nav_1_4_7" >
+      
+      <label class="md-nav__link" for="__nav_1_4_7">
+        iCub Microphones
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Microphones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Microphones
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_microphones/icub_microphones/" class="md-nav__link">
+        How to use microphones
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_8" type="checkbox" id="__nav_1_4_8" >
+      
+      <label class="md-nav__link" for="__nav_1_4_8">
+        iCub Robot Calibration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Robot Calibration" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Robot Calibration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_robot_calibration/icub-robot-calibration/" class="md-nav__link">
+        Robot Calibration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_robot_calibration/icub-stereo-calib/" class="md-nav__link">
+        Stereo Calibration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_9" type="checkbox" id="__nav_1_4_9" >
+      
+      <label class="md-nav__link" for="__nav_1_4_9">
+        iCub/R1 Calibration Types
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub/R1 Calibration Types" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_9">
+          <span class="md-nav__icon md-icon"></span>
+          iCub/R1 Calibration Types
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_r1_calibration_types/icub_r1_calibration_types/" class="md-nav__link">
+        Calibration types
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_10" type="checkbox" id="__nav_1_4_10" >
+      
+      <label class="md-nav__link" for="__nav_1_4_10">
+        Configure IP on a setup for ETH boards
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configure IP on a setup for ETH boards" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_10">
+          <span class="md-nav__icon md-icon"></span>
+          Configure IP on a setup for ETH boards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../configure_static_ip/configure-static-ip/" class="md-nav__link">
+        Configure IP on a setup for ETH boards
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#can-based-robots" class="md-nav__link">
+    CAN based robots
+  </a>
+  
+    <nav class="md-nav" aria-label="CAN based robots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#can-networks" class="md-nav__link">
+    CAN Networks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v10" class="md-nav__link">
+    iCub V1.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub V1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcan0-head-and-torso" class="md-nav__link">
+    PCAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="PCAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan1-left-arm" class="md-nav__link">
+    PCAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan2-right-arm" class="md-nav__link">
+    PCAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan3-legs" class="md-nav__link">
+    PCAN3: Legs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v110" class="md-nav__link">
+    iCub V1.1.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub V1.1.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcan0-head-and-torso_1" class="md-nav__link">
+    PCAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="PCAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_1" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_1" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan1-left-arm_1" class="md-nav__link">
+    PCAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecan1-left-hand" class="md-nav__link">
+    ECAN1: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan2-right-arm_1" class="md-nav__link">
+    PCAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecan0-right-hand" class="md-nav__link">
+    ECAN0: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pcan3-legs_1" class="md-nav__link">
+    PCAN3: Legs
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v120" class="md-nav__link">
+    iCub v1.2.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v1.2.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_2" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_2" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can1-left-arm" class="md-nav__link">
+    CFW2CAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can5-left-hand" class="md-nav__link">
+    CFW2CAN5: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can2-right-arm" class="md-nav__link">
+    CFW2CAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can6-right-hand" class="md-nav__link">
+    CFW2CAN6: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can3-left-leg" class="md-nav__link">
+    CFW2CAN3: left leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can4-right-leg" class="md-nav__link">
+    CFW2CAN4: right leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can7-skin-left-hand" class="md-nav__link">
+    CFW2CAN7: Skin Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can8-skin-right-hand" class="md-nav__link">
+    CFW2CAN8: Skin Right hand
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v130" class="md-nav__link">
+    iCub v1.3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v1.3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_1" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_3" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_3" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can1-left-arm_1" class="md-nav__link">
+    CFW2CAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can5-left-hand_1" class="md-nav__link">
+    CFW2CAN5: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can2-right-arm_1" class="md-nav__link">
+    CFW2CAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can6-right-hand_1" class="md-nav__link">
+    CFW2CAN6: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can3-left-leg_1" class="md-nav__link">
+    CFW2CAN3: left leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can4-right-leg_1" class="md-nav__link">
+    CFW2CAN4: right leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can7-skin-left-hand_1" class="md-nav__link">
+    CFW2CAN7: Skin Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can8-skin-right-hand_1" class="md-nav__link">
+    CFW2CAN8: Skin Right hand
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v1x1-x1" class="md-nav__link">
+    iCub v1.x.1 ( x&gt;1 )
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v1.x.1 ( x&gt;1 )">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_2" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_4" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_4" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v2" class="md-nav__link">
+    iCub v2
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_3" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_5" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_5" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can1-left-arm_2" class="md-nav__link">
+    CFW2CAN1: Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can5-left-hand_2" class="md-nav__link">
+    CFW2CAN5: Left hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can2-right-arm_2" class="md-nav__link">
+    CFW2CAN2: Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can6-right-hand_2" class="md-nav__link">
+    CFW2CAN6: Right hand
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can3-left-leg_2" class="md-nav__link">
+    CFW2CAN3: left leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can4-right-leg_2" class="md-nav__link">
+    CFW2CAN4: right leg
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can7-skin-left-arm" class="md-nav__link">
+    CFW2CAN7: Skin Left arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can8-skin-right-arm" class="md-nav__link">
+    CFW2CAN8: Skin Right arm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can9-skin-torso" class="md-nav__link">
+    CFW2CAN9: Skin Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-v2-talking-head" class="md-nav__link">
+    iCub v2 - Talking Head
+  </a>
+  
+    <nav class="md-nav" aria-label="iCub v2 - Talking Head">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cfw2can0-head-and-torso_4" class="md-nav__link">
+    CFW2CAN0: Head and Torso
+  </a>
+  
+    <nav class="md-nav" aria-label="CFW2CAN0: Head and Torso">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#head_6" class="md-nav__link">
+    Head
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#torso_6" class="md-nav__link">
+    Torso
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-25-wiring-32" class="md-nav__link">
+    iCub 2.5 - Wiring &lt;= 3.2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#icub-25-wiring-32_1" class="md-nav__link">
+    iCub 2.5 - Wiring &gt; 3.2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/icub-tech-iit/documentation/edit/master/docs/icub_firmware/associated-firmware/associated-firmware.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="associated-firmware"><strong>Associated Firmware</strong><a class="headerlink" href="#associated-firmware" title="Permanent link">&para;</a></h1>
+<p>This page reports the association <code>board/address/firmware</code> version either for <code>CAN</code> and <code>ETH</code> based robots</p>
+<h2 id="can-based-robots"><strong>CAN based robots</strong><a class="headerlink" href="#can-based-robots" title="Permanent link">&para;</a></h2>
+<hr />
+<h3 id="can-networks"><strong>CAN Networks</strong><a class="headerlink" href="#can-networks" title="Permanent link">&para;</a></h3>
+<p>The iCub 1.0.0 four can bus network are used (ids range from 0 to 3)</p>
+<ul>
+<li>0 head network, device pcan</li>
+<li>1 left arm network, device pcan</li>
+<li>2 right arm network, device pcan</li>
+<li>3 legs network, device pcan</li>
+</ul>
+<p>On iCub 1.1.0 two ecan devices are added to the existing pcans.</p>
+<ul>
+<li>0 head network, device pcan</li>
+<li>1 left arm network, device pcan</li>
+<li>2 right arm network, device pcan</li>
+<li>
+<p>3 legs network, device pcan</p>
+</li>
+<li>
+<p>left hand: device ecan, variable id</p>
+</li>
+<li>right hand: device ecan, variable id</li>
+</ul>
+<p>On iCub 1.2.0 the cfw2can board is used (ids range from 0 to 8).</p>
+<ul>
+<li>0 head network, device cfw2can</li>
+<li>1 left arm network, device cfw2can</li>
+<li>2 right arm network, device cfw2can</li>
+<li>3 left leg network, device cfw2can</li>
+<li>4 right leg network, device cfw2can</li>
+<li>5 left hand, device cfw2can</li>
+<li>6 right hand, device cfw2can</li>
+<li>7 left hand skin network, device cfw2can</li>
+<li>8 right hand skin network, device cfw2can</li>
+</ul>
+<p>On iCub 1.3.0 the cfw2can board is used (ids range from 0 to 8).</p>
+<ul>
+<li>0 head network, device cfw2can</li>
+<li>1 left arm network, device cfw2can</li>
+<li>2 right arm network, device cfw2can</li>
+<li>3 left leg network, device cfw2can</li>
+<li>4 right leg network, device cfw2can</li>
+<li>5 left hand, device cfw2can</li>
+<li>6 right hand, device cfw2can</li>
+<li>7 left hand and forearm skin network, device cfw2can</li>
+<li>8 right hand and forearm skin network, device cfw2can</li>
+</ul>
+<p>On iCub 1.3.1 the Head V2.0 is installed on a 1.3.0 robot.</p>
+<p>On iCub 2 the cfw2can board is used (ids range from 0 to 9).</p>
+<ul>
+<li>0 head network, device cfw2can</li>
+<li>1 left arm network, device cfw2can</li>
+<li>2 right arm network, device cfw2can</li>
+<li>3 left leg network, device cfw2can</li>
+<li>4 right leg network, device cfw2can</li>
+<li>5 left hand, device cfw2can</li>
+<li>6 right hand, device cfw2can</li>
+<li>7 left hand, forearm and upperarm skin network, device cfw2can</li>
+<li>8 right hand forearm and upperarm skin network, device cfw2can</li>
+<li>9 torso skin network, device cfw2can</li>
+</ul>
+<p><br /></p>
+<h3 id="icub-v10"><strong>iCub V1.0</strong><a class="headerlink" href="#icub-v10" title="Permanent link">&para;</a></h3>
+<hr />
+<p>We here describe the CAN-bus networks structure of the iCub v1.0. The version 1.0 uses the CFW board which has 4 canbus lines.</p>
+<p><span style="color:red">This version of iCub is no more supported. Firmware versions marked in red have been removed from the main repository.</span></p>
+<table>
+<thead>
+<tr>
+<th>can-bus network</th>
+<th>configuration file</th>
+<th>associated robot part</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pcan-0</td>
+<td>icub_head_torso.ini</td>
+<td>head (entries 0 to 5) and torso (entries 6 to 8)</td>
+</tr>
+<tr>
+<td>pcan-1</td>
+<td>icub_left_arm.ini</td>
+<td>left_arm</td>
+</tr>
+<tr>
+<td>pcan-2</td>
+<td>icub_right_arm.ini</td>
+<td>right_arm</td>
+</tr>
+<tr>
+<td>pcan-3</td>
+<td>icub_legs_leg.ini</td>
+<td>left_leg (entries 0 to 5) and right_leg (entries 6 to 11)</td>
+</tr>
+</tbody>
+</table>
+<p>Details on the control boards connected to each network are given below.</p>
+<h4 id="pcan0-head-and-torso"><strong>PCAN0: Head and Torso</strong><a class="headerlink" href="#pcan0-head-and-torso" title="Permanent link">&para;</a></h4>
+<h5 id="head"><strong><em>Head</em></strong><a class="headerlink" href="#head" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>1 (2)</td>
+<td>4DC.1.11.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.15.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso"><strong><em>Torso</em></strong><a class="headerlink" href="#torso" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>6</td>
+<td>2BLL.1.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>5</td>
+<td>2BLL.1.54.out.S</td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcan1-left-arm"><strong>PCAN1: Left arm</strong><a class="headerlink" href="#pcan1-left-arm" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B0</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>1B1</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>2</td>
+<td><span style="color:red">2BLL.1.53.out.S</span></td>
+</tr>
+<tr>
+<td>1B2</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>1B3</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>5 (6)</td>
+<td><span style="color:red">4DC.1.18.out.S</span></td>
+</tr>
+<tr>
+<td>1B4</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>7 (8)</td>
+<td><span style="color:red">4DC.1.20.out.S</span></td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcan2-right-arm"><strong>PCAN2: Right arm</strong><a class="headerlink" href="#pcan2-right-arm" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B0</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>2B1</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>2</td>
+<td><span style="color:red">2BLL.1.53.out.S</span></td>
+</tr>
+<tr>
+<td>2B2</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>2B3</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>5 (6)</td>
+<td><span style="color:red">4DC.1.18.out.S</span></td>
+</tr>
+<tr>
+<td>2B4</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>7 (8)</td>
+<td><span style="color:red">4DC.1.20.out.S</span></td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcan3-legs"><strong>PCAN3: Legs</strong><a class="headerlink" href="#pcan3-legs" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B5</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>5</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B6</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>6</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B7</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>7</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B8</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>8</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B9</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>9</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B10</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>10</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h3 id="icub-v110"><strong>iCub V1.1.0</strong><a class="headerlink" href="#icub-v110" title="Permanent link">&para;</a></h3>
+<hr />
+<p>We here describe the CAN-bus networks structure of the iCub v1.1. The version 1.1 uses the CFW board which has 4 canbus lines and 2 esd-can device. Overall we have 6 canbus lines: 4 pcan and 2 ecan. Additionaly, the robot is equipped with MAIS and STRAIN analog sensors.</p>
+<table>
+<thead>
+<tr>
+<th>can-bus network</th>
+<th>configuration file</th>
+<th>associated robot part</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pcan-0</td>
+<td>icub_head_torso.ini</td>
+<td>head (entries 0 to 5) and torso (entries 6 to 8)</td>
+</tr>
+<tr>
+<td>pcan-1</td>
+<td>icub_left_arm.ini</td>
+<td>left_arm (joints 0 to 7)</td>
+</tr>
+<tr>
+<td>pcan-2</td>
+<td>icub_right_arm.ini</td>
+<td>right_arm (joints 0 to 7)</td>
+</tr>
+<tr>
+<td>pcan-3</td>
+<td>icub_legs.ini</td>
+<td>left_leg (entries 0 to 5) and right_leg (entries 6 to 11)</td>
+</tr>
+<tr>
+<td>ecan-0 or ecan-1</td>
+<td>icub_left_hand.ini</td>
+<td>left_arm (joints 8 to 15)</td>
+</tr>
+<tr>
+<td>ecan-0 or ecan-1</td>
+<td>icub_right_hand.ini</td>
+<td>right_arm (joints 8 to 15)</td>
+</tr>
+</tbody>
+</table>
+<p>Details on the control boards connected to each network are given below.</p>
+<h4 id="pcan0-head-and-torso_1"><strong>PCAN0: Head and Torso</strong><a class="headerlink" href="#pcan0-head-and-torso_1" title="Permanent link">&para;</a></h4>
+<h5 id="head_1"><strong><em>Head</em></strong><a class="headerlink" href="#head_1" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>1 (2)</td>
+<td>4DC.1.11.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.15.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso_1"><strong><em>Torso</em></strong><a class="headerlink" href="#torso_1" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>6</td>
+<td>2BLL.1.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>5</td>
+<td>2BLL.1.54.out.S</td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcan1-left-arm_1"><strong>PCAN1: Left arm</strong><a class="headerlink" href="#pcan1-left-arm_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B0</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>1B1</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>2</td>
+<td>2BLL.1.57.out.S</td>
+</tr>
+<tr>
+<td>1B2</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>1 (pcan)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="ecan1-left-hand"><strong>ECAN1: Left hand</strong><a class="headerlink" href="#ecan1-left-hand" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B3</td>
+<td>-&gt;</td>
+<td>1 (ecan)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>1B4</td>
+<td>-&gt;</td>
+<td>1 (ecan)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>1 (ecan)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>1 (ecan)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcan2-right-arm_1"><strong>PCAN2: Right arm</strong><a class="headerlink" href="#pcan2-right-arm_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B0</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>2B1</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>2</td>
+<td>2BLL.1.57.out.S</td>
+</tr>
+<tr>
+<td>2B2</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>2 (pcan)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="ecan0-right-hand"><strong>ECAN0: Right hand</strong><a class="headerlink" href="#ecan0-right-hand" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B3</td>
+<td>-&gt;</td>
+<td>2 (ecan)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>2B4</td>
+<td>-&gt;</td>
+<td>2 (ecan)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>2 (ecan)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>2 (ecan)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="pcan3-legs_1"><strong>PCAN3: Legs</strong><a class="headerlink" href="#pcan3-legs_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B5</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>5</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B6</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>6</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B7</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>7</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B8</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>8</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B9</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>9</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B10</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>10</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (left_leg)</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain (left_leg)</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (right_leg)</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain (right_leg)</td>
+<td>-&gt;</td>
+<td>3 (pcan)</td>
+<td>14</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h3 id="icub-v120"><strong>iCub v1.2.0</strong><a class="headerlink" href="#icub-v120" title="Permanent link">&para;</a></h3>
+<hr />
+<p>We here describe the CAN-bus networks structure of the iCub v1.2.0. The version 1.2.0 uses the CFW2 board which has 10 can-Bus lines available.</p>
+<table>
+<thead>
+<tr>
+<th>can-bus network</th>
+<th>configuration file</th>
+<th>associated robot part</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>icub_head_torso.ini</td>
+<td>head and torso</td>
+</tr>
+<tr>
+<td>1</td>
+<td>icub_left_arm.ini</td>
+<td>left_arm (joints 0 to 7)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>icub_right_arm.ini</td>
+<td>right_arm (joints 0 to 7)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>icub_left_leg.ini</td>
+<td>left_leg</td>
+</tr>
+<tr>
+<td>4</td>
+<td>icub_right_leg.ini</td>
+<td>right_leg</td>
+</tr>
+<tr>
+<td>5</td>
+<td>icub_left_hand.ini</td>
+<td>left_arm (joints 8 to 15)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>icub_right_hand.ini</td>
+<td>right_arm (joints 8 to 15)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>skinlefthand.ini</td>
+<td>left_hand skin</td>
+</tr>
+<tr>
+<td>8</td>
+<td>skinrighthand.ini</td>
+<td>right_hand skin</td>
+</tr>
+</tbody>
+</table>
+<p>Details on the control boards connected to each network are given in the following.</p>
+<h4 id="cfw2can0-head-and-torso"><strong>CFW2CAN0: Head and Torso</strong><a class="headerlink" href="#cfw2can0-head-and-torso" title="Permanent link">&para;</a></h4>
+<h5 id="head_2"><strong><em>Head</em></strong><a class="headerlink" href="#head_2" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>1 (2)</td>
+<td>4DC.1.11.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.15.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso_2"><strong><em>Torso</em></strong><a class="headerlink" href="#torso_2" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>6</td>
+<td>2BLL.1.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>5</td>
+<td>2BLL.1.54.out.S</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can1-left-arm"><strong>CFW2CAN1: Left arm</strong><a class="headerlink" href="#cfw2can1-left-arm" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B0</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>1B1</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>2</td>
+<td>2BLL.1.57.out.S</td>
+</tr>
+<tr>
+<td>1B2</td>
+<td>-&gt;</td>
+<td>1 (cfw2)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (shoulder)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (wrist)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can5-left-hand"><strong>CFW2CAN5: Left hand</strong><a class="headerlink" href="#cfw2can5-left-hand" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B3</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>1B4</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can2-right-arm"><strong>CFW2CAN2: Right arm</strong><a class="headerlink" href="#cfw2can2-right-arm" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B0</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>2B1</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>2</td>
+<td>2BLL.1.57.out.S</td>
+</tr>
+<tr>
+<td>2B2</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (shoulder)</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (wrist)</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can6-right-hand"><strong>CFW2CAN6: Right hand</strong><a class="headerlink" href="#cfw2can6-right-hand" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B3</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>2B4</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can3-left-leg"><strong>CFW2CAN3: left leg</strong><a class="headerlink" href="#cfw2can3-left-leg" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B5</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>5</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B6</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>6</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B7</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>7</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can4-right-leg"><strong>CFW2CAN4: right leg</strong><a class="headerlink" href="#cfw2can4-right-leg" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B8</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>8</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B9</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>9</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B10</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>10</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>14</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can7-skin-left-hand"><strong>CFW2CAN7: Skin Left hand</strong><a class="headerlink" href="#cfw2can7-skin-left-hand" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B7</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>15</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can8-skin-right-hand"><strong>CFW2CAN8: Skin Right hand</strong><a class="headerlink" href="#cfw2can8-skin-right-hand" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B7</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>15</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h3 id="icub-v130"><strong>iCub v1.3.0</strong><a class="headerlink" href="#icub-v130" title="Permanent link">&para;</a></h3>
+<hr />
+<p>We here describe the CAN-bus networks structure of the iCub v1.3.0. The version 1.3.0 uses the CFW2 board which has 10 can-Bus lines available.</p>
+<table>
+<thead>
+<tr>
+<th>can-bus network</th>
+<th>configuration file</th>
+<th>associated robot part</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>icub_head_torso.ini</td>
+<td>head and torso</td>
+</tr>
+<tr>
+<td>1</td>
+<td>icub_left_arm.ini</td>
+<td>left_arm (joints 0 to 7)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>icub_right_arm.ini</td>
+<td>right_arm (joints 0 to 7)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>icub_left_leg.ini</td>
+<td>left_leg</td>
+</tr>
+<tr>
+<td>4</td>
+<td>icub_right_leg.ini</td>
+<td>right_leg</td>
+</tr>
+<tr>
+<td>5</td>
+<td>icub_left_hand.ini</td>
+<td>left_arm (joints 8 to 15)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>icub_right_hand.ini</td>
+<td>right_arm (joints 8 to 15)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>skinlefthand.ini</td>
+<td>left_hand skin</td>
+</tr>
+<tr>
+<td>8</td>
+<td>skinrighthand.ini</td>
+<td>right_hand skin</td>
+</tr>
+</tbody>
+</table>
+<p>Details on the control boards connected to each network are given in the following.</p>
+<h4 id="cfw2can0-head-and-torso_1"><strong>CFW2CAN0: Head and Torso</strong><a class="headerlink" href="#cfw2can0-head-and-torso_1" title="Permanent link">&para;</a></h4>
+<h5 id="head_3"><strong><em>Head</em></strong><a class="headerlink" href="#head_3" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>1 (2)</td>
+<td>4DC.1.11.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>3 (4)</td>
+<td>4DC.1.15.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso_3"><strong><em>Torso</em></strong><a class="headerlink" href="#torso_3" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>6</td>
+<td>2BLL.1.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (pcan)</td>
+<td>5</td>
+<td>2BLL.1.54.out.S</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can1-left-arm_1"><strong>CFW2CAN1: Left arm</strong><a class="headerlink" href="#cfw2can1-left-arm_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B0</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>1B1</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>2</td>
+<td>2BLL.1.57.out.S</td>
+</tr>
+<tr>
+<td>1B2</td>
+<td>-&gt;</td>
+<td>1 (cfw2)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (shoulder)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (wrist)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can5-left-hand_1"><strong>CFW2CAN5: Left hand</strong><a class="headerlink" href="#cfw2can5-left-hand_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B3</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>1B4</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can2-right-arm_1"><strong>CFW2CAN2: Right arm</strong><a class="headerlink" href="#cfw2can2-right-arm_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B0</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>1</td>
+<td>2BLL.1.50.out.S</td>
+</tr>
+<tr>
+<td>2B1</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>2</td>
+<td>2BLL.1.57.out.S</td>
+</tr>
+<tr>
+<td>2B2</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>3 (4)</td>
+<td>4DC.1.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (shoulder)</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (wrist)</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can6-right-hand_1"><strong>CFW2CAN6: Right hand</strong><a class="headerlink" href="#cfw2can6-right-hand_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B3</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>2B4</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can3-left-leg_1"><strong>CFW2CAN3: left leg</strong><a class="headerlink" href="#cfw2can3-left-leg_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B5</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>5</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B6</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>6</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B7</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>7</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can4-right-leg_1"><strong>CFW2CAN4: right leg</strong><a class="headerlink" href="#cfw2can4-right-leg_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B8</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>8</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B9</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>9</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>3B10</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>10</td>
+<td>2BLL.1.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>14</td>
+<td>strain.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can7-skin-left-hand_1"><strong>CFW2CAN7: Skin Left hand</strong><a class="headerlink" href="#cfw2can7-skin-left-hand_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B7 (HAND)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>14</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B9 (FOREARM UPPER)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>13</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B8 (FOREARM LOWER)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>12</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can8-skin-right-hand_1"><strong>CFW2CAN8: Skin Right hand</strong><a class="headerlink" href="#cfw2can8-skin-right-hand_1" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B7 (HAND)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>14</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B9 (FOREARM UPPER)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>13</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B8 (FOREARM LOWER)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>12</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h3 id="icub-v1x1-x1"><strong>iCub v1.x.1 ( x&gt;1 )</strong><a class="headerlink" href="#icub-v1x1-x1" title="Permanent link">&para;</a></h3>
+<hr />
+<p>We here describe the CAN-bus networks structure of the iCub v1.x.1 ( x&gt;1 ). The version 1.x.1 uses the Head V2. For CAN-bus network different from NET0 refer to relative iCub version</p>
+<table>
+<thead>
+<tr>
+<th>can-bus network</th>
+<th>configuration file</th>
+<th>associated robot part</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>icub_head_torso.ini</td>
+<td>head and torso</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Details on the control boards connected to network 0 are given in the following.</p>
+<h4 id="cfw2can0-head-and-torso_2"><strong>CFW2CAN0: Head and Torso</strong><a class="headerlink" href="#cfw2can0-head-and-torso_2" title="Permanent link">&para;</a></h4>
+<h5 id="head_4"><strong><em>Head</em></strong><a class="headerlink" href="#head_4" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>1</td>
+<td>2BLLDC.1.62.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>2 (3)</td>
+<td>4DC.2.15.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso_4"><strong><em>Torso</em></strong><a class="headerlink" href="#torso_4" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>6</td>
+<td>2BLL.1.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>5</td>
+<td>2BLL.1.54.out.S</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h3 id="icub-v2"><strong>iCub v2</strong><a class="headerlink" href="#icub-v2" title="Permanent link">&para;</a></h3>
+<hr />
+<p>We here describe the CAN-bus networks structure of the iCub v2</p>
+<h4 id="cfw2can0-head-and-torso_3"><strong>CFW2CAN0: Head and Torso</strong><a class="headerlink" href="#cfw2can0-head-and-torso_3" title="Permanent link">&para;</a></h4>
+<h5 id="head_5"><strong><em>Head</em></strong><a class="headerlink" href="#head_5" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>1</td>
+<td>2BLLDC.1.62.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>2 (3)</td>
+<td>4DC.2.15.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso_5"><strong><em>Torso</em></strong><a class="headerlink" href="#torso_5" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>6</td>
+<td>2BLL.2.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>5</td>
+<td>2BLL.2.54.out.S</td>
+</tr>
+<tr>
+<td>6SG (optional)</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>14</td>
+<td>6sg.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can1-left-arm_2"><strong>CFW2CAN1: Left arm</strong><a class="headerlink" href="#cfw2can1-left-arm_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B0</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>1</td>
+<td>2BLL.2.50.out.S</td>
+</tr>
+<tr>
+<td>1B1</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>2</td>
+<td>2BLL.2.57.out.S</td>
+</tr>
+<tr>
+<td>1B2</td>
+<td>-&gt;</td>
+<td>1 (cfw2)</td>
+<td>3 (4)</td>
+<td>4DC.2.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (shoulder)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (wrist)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+<tr>
+<td>6SG Shoulder (optional)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>9</td>
+<td>6sg.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can5-left-hand_2"><strong>CFW2CAN5: Left hand</strong><a class="headerlink" href="#cfw2can5-left-hand_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B3</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>5 (6)</td>
+<td>4DC.2.28.out.S</td>
+</tr>
+<tr>
+<td>1B4</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.2.30.out.S</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>5 (cfw2can)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can2-right-arm_2"><strong>CFW2CAN2: Right arm</strong><a class="headerlink" href="#cfw2can2-right-arm_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B0</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>1</td>
+<td>2BLL.2.50.out.S</td>
+</tr>
+<tr>
+<td>2B1</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>2</td>
+<td>2BLL.2.57.out.S</td>
+</tr>
+<tr>
+<td>2B2</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>3 (4)</td>
+<td>4DC.2.19.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (shoulder)</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor (wrist)</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>2 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+<tr>
+<td>6SG Shoulder (optional)</td>
+<td>-&gt;</td>
+<td>1 (cfw2can)</td>
+<td>9</td>
+<td>6sg.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can6-right-hand_2"><strong>CFW2CAN6: Right hand</strong><a class="headerlink" href="#cfw2can6-right-hand_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B3</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>5 (6)</td>
+<td>4DC.1.28.out.S</td>
+</tr>
+<tr>
+<td>2B4</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.1.30.out.S</td>
+</tr>
+<tr>
+<td>MAIS</td>
+<td>-&gt;</td>
+<td>6 (cfw2can)</td>
+<td>14</td>
+<td>mais.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can3-left-leg_2"><strong>CFW2CAN3: left leg</strong><a class="headerlink" href="#cfw2can3-left-leg_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B5</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>5</td>
+<td>2BLL.2.51.out.S</td>
+</tr>
+<tr>
+<td>3B6</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>6</td>
+<td>2BLL.2.51.out.S</td>
+</tr>
+<tr>
+<td>3B7</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>7</td>
+<td>2BLL.2.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>12</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>13</td>
+<td>strain.hex</td>
+</tr>
+<tr>
+<td>6SG Upper Leg (optional)</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>1</td>
+<td>6sg.hex</td>
+</tr>
+<tr>
+<td>6SG Lower Leg (optional)</td>
+<td>-&gt;</td>
+<td>3 (cfw2can)</td>
+<td>2</td>
+<td>6sg.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can4-right-leg_2"><strong>CFW2CAN4: right leg</strong><a class="headerlink" href="#cfw2can4-right-leg_2" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3B8</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>8</td>
+<td>2BLL.2.51.out.S</td>
+</tr>
+<tr>
+<td>3B9</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>9</td>
+<td>2BLL.2.51.out.S</td>
+</tr>
+<tr>
+<td>3B10</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>10</td>
+<td>2BLL.2.51.out.S</td>
+</tr>
+<tr>
+<td>virtual FT joint sensor</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>11</td>
+<td>- - -</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>14</td>
+<td>strain.hex</td>
+</tr>
+<tr>
+<td>6SG Upper Leg (optional)</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>1</td>
+<td>6sg.hex</td>
+</tr>
+<tr>
+<td>6SG Lower Leg (optional)</td>
+<td>-&gt;</td>
+<td>4 (cfw2can)</td>
+<td>2</td>
+<td>6sg.hex</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can7-skin-left-arm"><strong>CFW2CAN7: Skin Left arm</strong><a class="headerlink" href="#cfw2can7-skin-left-arm" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1B7 (HAND)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>14</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B8 (LEFT LOWER FOREARM)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>12</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B9 (LEFT UPPER FOREARM)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>13</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B10 (LEFT UPPER EXTERNAL)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>10</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B11 (LEFT UPPER BOTTOM)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>11</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B12 (LEFT UPPER INTERNAL)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>9</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>1B13 (LEFT LOWER UPPERARM)</td>
+<td>-&gt;</td>
+<td>7 (cfw2can)</td>
+<td>8</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can8-skin-right-arm"><strong>CFW2CAN8: Skin Right arm</strong><a class="headerlink" href="#cfw2can8-skin-right-arm" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2B7 (HAND)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>14</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B8 (LEFT LOWER FOREARM)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>12</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B9 (LEFT UPPER FOREARM)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>13</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B10 (RIGHT UPPER EXTERNAL)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>10</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B11 (RIGHT UPPER BOTTOM)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>11</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B12 (RIGHT UPPER INTERNAL)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>9</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>2B13 (RIGHT LOWER UPPERARM)</td>
+<td>-&gt;</td>
+<td>8 (cfw2can)</td>
+<td>8</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="cfw2can9-skin-torso"><strong>CFW2CAN9: Skin Torso</strong><a class="headerlink" href="#cfw2can9-skin-torso" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B7</td>
+<td>-&gt;</td>
+<td>9 (cfw2can)</td>
+<td>7</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>0B8</td>
+<td>-&gt;</td>
+<td>9 (cfw2can)</td>
+<td>8</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>0B9</td>
+<td>-&gt;</td>
+<td>9 (cfw2can)</td>
+<td>9</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td>0B10</td>
+<td>-&gt;</td>
+<td>9 (cfw2can)</td>
+<td>10</td>
+<td>skin.hex</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="icub-v2-talking-head"><strong>iCub v2 - Talking Head</strong><a class="headerlink" href="#icub-v2-talking-head" title="Permanent link">&para;</a></h3>
+<p>We here describe the CAN-bus networks structure of the iCub v2 - Talking Head</p>
+<h4 id="cfw2can0-head-and-torso_4"><strong>CFW2CAN0: Head and Torso</strong><a class="headerlink" href="#cfw2can0-head-and-torso_4" title="Permanent link">&para;</a></h4>
+<h5 id="head_6"><strong><em>Head</em></strong><a class="headerlink" href="#head_6" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B0</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>1</td>
+<td>2BLLDC.1.62.out.S</td>
+</tr>
+<tr>
+<td>0B1</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>2 (3)</td>
+<td>4DC.2.15.out.S</td>
+</tr>
+<tr>
+<td>0B7</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>7 (8)</td>
+<td>4DC.2.15.out.S</td>
+</tr>
+<tr>
+<td>0B9</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>9 (10)</td>
+<td>4DC.1.11.out.S</td>
+</tr>
+</tbody>
+</table>
+<h5 id="torso_6"><strong><em>Torso</em></strong><a class="headerlink" href="#torso_6" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>boardLabel</th>
+<th></th>
+<th>canDeviceNum</th>
+<th>boardId</th>
+<th>firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>0B3</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>6</td>
+<td>2BLL.2.52.out.S</td>
+</tr>
+<tr>
+<td>0B4</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>5</td>
+<td>2BLL.2.54.out.S</td>
+</tr>
+<tr>
+<td>6SG (optional)</td>
+<td>-&gt;</td>
+<td>0 (cfw2can)</td>
+<td>14</td>
+<td>6sg.hex</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h4 id="icub-25-wiring-32"><strong>iCub 2.5 - Wiring &lt;= 3.2</strong><a class="headerlink" href="#icub-25-wiring-32" title="Permanent link">&para;</a></h4>
+<hr />
+<p>We here describe the ETH and CAN-bus firmware association structure of the iCub v2.5 (Wiring &lt;= 3.2)</p>
+<table>
+<thead>
+<tr>
+<th align="center">IP address</th>
+<th align="center">Board Name(firmware)</th>
+<th align="center">Atatched CAN Boards(firmware)</th>
+<th align="center">Services</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10.0.1.1</td>
+<td align="center">EB1 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13</td>
+<td align="center">MC: left arm joints 0 -&gt; 3 <br /> STRAIN</td>
+</tr>
+<tr>
+<td align="center">10.0.1.2</td>
+<td align="center">EB2 (ems.hex)</td>
+<td align="center">MC4(4DC.2.19.out.S) CAN1:3<br />MC4(4DC.2.28.out.S) CAN1:5<br />MC4(4DC.2.30.out.S) CAN1:7<br />MAIS(mais.hex) CAN1:14<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13<br />MTB(mtb.hex) CAN2:14</td>
+<td align="center">MC: left arm joints 4 -&gt; 11 <br /> MAIS left hand <br /> SKIN left arm <br /> INERTIALS: left arm</td>
+</tr>
+<tr>
+<td align="center">10.0.1.3</td>
+<td align="center">EB3 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13</td>
+<td align="center">MC: right arm joints 0 -&gt; 3<br />STRAIN</td>
+</tr>
+<tr>
+<td align="center">10.0.1.4</td>
+<td align="center">EB4 (ems.hex)</td>
+<td align="center">MC4(4DC.2.19.out.S) CAN1:3<br />MC4(4DC.2.28.out.S) CAN1:5<br />MC4(4DC.2.30.out.S) CAN1:7<br />MAIS(mais.hex) CAN1:14<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13<br />MTB(mtb.hex) CAN2:14</td>
+<td align="center">MC: right arm joints 4 -&gt; 11 <br /> MAIS right hand <br /> SKIN right arm <br /> INERTIALS: right arm</td>
+</tr>
+<tr>
+<td align="center">10.0.1.5</td>
+<td align="center">EB5 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4</td>
+<td align="center">MC: torso joints 0 -&gt; 2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.6</td>
+<td align="center">EB6 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13</td>
+<td align="center">MC: left leg joints 0 -&gt; 3<br />STRAIN</td>
+</tr>
+<tr>
+<td align="center">10.0.1.7</td>
+<td align="center">EB7 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1</td>
+<td align="center">MC: left leg joints 4 -&gt; 5<br />STRAIN</td>
+</tr>
+<tr>
+<td align="center">10.0.1.8</td>
+<td align="center">EB8 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN(strain.hex) CAN2:13</td>
+<td align="center">MC: right leg joints 0 -&gt; 3<br />STRAIN</td>
+</tr>
+<tr>
+<td align="center">10.0.1.9</td>
+<td align="center">EB9 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1</td>
+<td align="center">MC: right leg joints 4 -&gt; 5<br />STRAIN</td>
+</tr>
+<tr>
+<td align="center">10.0.1.10</td>
+<td align="center">EB10 (ems.hex)</td>
+<td align="center">MTB(mtb.hex) CAN1:1<br />MTB(mtb.hex) CAN1:2<br />MTB(mtb.hex) CAN1:3<br />MTB(mtb.hex) CAN1:4<br />MTB(mtb.hex) CAN1:5<br />MTB(mtb.hex) CAN1:6<br />MTB(mtb.hex) CAN1:7<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13</td>
+<td align="center">SKIN: left leg<br />INERTIALS: left leg</td>
+</tr>
+<tr>
+<td align="center">10.0.1.11</td>
+<td align="center">EB11 (ems.hex)</td>
+<td align="center">MTB(mtb.hex) CAN1:1<br />MTB(mtb.hex) CAN1:2<br />MTB(mtb.hex) CAN1:3<br />MTB(mtb.hex) CAN1:4<br />MTB(mtb.hex) CAN1:5<br />MTB(mtb.hex) CAN1:6<br />MTB(mtb.hex) CAN1:7<br />MTB(mtb.hex) CAN2:8<br />MTB(mtb.hex) CAN2:9<br />MTB(mtb.hex) CAN2:10<br />MTB(mtb.hex) CAN2:11<br />MTB(mtb.hex) CAN2:12<br />MTB(mtb.hex) CAN2:13</td>
+<td align="center">SKIN: right leg<br />INERTIALS: right leg</td>
+</tr>
+</tbody>
+</table>
+<p><br /></p>
+<h4 id="icub-25-wiring-32_1"><strong>iCub 2.5 - Wiring &gt; 3.2</strong><a class="headerlink" href="#icub-25-wiring-32_1" title="Permanent link">&para;</a></h4>
+<hr />
+<p>We here describe the ETH and CAN-bus firmware association structure of the iCub v2.5 (Wiring &gt; 3.2)</p>
+<table>
+<thead>
+<tr>
+<th align="center">IP address</th>
+<th align="center">Board Name(firmware)</th>
+<th align="center">Atatched CAN Boards(firmware)</th>
+<th align="center">Services</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">10.0.1.1</td>
+<td align="center">EB1 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13</td>
+<td align="center">MC: left arm joints 0 -&gt; 3 <br /> STRAIN2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.3</td>
+<td align="center">EB3 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13</td>
+<td align="center">MC: right arm joints 0 -&gt; 3<br />STRAIN2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.5</td>
+<td align="center">EB5 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4</td>
+<td align="center">MC: torso joints 0 -&gt; 2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.6</td>
+<td align="center">EB6 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13</td>
+<td align="center">MC: left leg joints 0 -&gt; 3<br />STRAIN2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.7</td>
+<td align="center">EB7 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1<br />STRAIN2(strain2.hex) CAN2:13</td>
+<td align="center">MC: left leg joints 4 -&gt; 5<br />STRAIN2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.8</td>
+<td align="center">EB8 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN1:3<br />2FOC(2foc.hex) CAN1:4<br />STRAIN2(strain2.hex) CAN2:13</td>
+<td align="center">MC: right leg joints 0 -&gt; 3<br />STRAIN2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.9</td>
+<td align="center">EB9 (ems.hex)</td>
+<td align="center">2FOC(2foc.hex) CAN1:1<br />2FOC(2foc.hex) CAN1:2<br />2FOC(2foc.hex) CAN2:1<br />STRAIN2(strain2.hex) CAN2:13</td>
+<td align="center">MC: right leg joints 4 -&gt; 5<br />STRAIN2</td>
+</tr>
+<tr>
+<td align="center">10.0.1.10</td>
+<td align="center">EB10 (ems.hex)</td>
+<td align="center">MTB4(mtb4.hex) CAN1:1<br />MTB4(mtb4.hex) CAN1:2<br />MTB4(mtb4.hex) CAN1:3<br />MTB4(mtb4.hex) CAN1:4<br />MTB4(mtb4.hex) CAN1:5<br />MTB4(mtb4.hex) CAN1:6<br />MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN2:8<br />MTB4(mtb4.hex) CAN2:9<br />MTB4(mtb4.hex) CAN2:10<br />MTB4(mtb4.hex) CAN2:11<br />MTB4(mtb4.hex) CAN2:12<br />MTB4(mtb4.hex) CAN2:13</td>
+<td align="center">SKIN: left leg<br />INERTIALS: left leg</td>
+</tr>
+<tr>
+<td align="center">10.0.1.11</td>
+<td align="center">EB11 (ems.hex)</td>
+<td align="center">MTB4(mtb4.hex) CAN1:1<br />MTB4(mtb4.hex) CAN1:2<br />MTB4(mtb4.hex) CAN1:3<br />MTB4(mtb4.hex) CAN1:4<br />MTB4(mtb4.hex) CAN1:5<br />MTB4(mtb4.hex) CAN1:6<br />MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN2:8<br />MTB4(mtb4.hex) CAN2:9<br />MTB4(mtb4.hex) CAN2:10<br />MTB4(mtb4.hex) CAN2:11<br />MTB4(mtb4.hex) CAN2:12<br />MTB4(mtb4.hex) CAN2:13</td>
+<td align="center">SKIN: right leg<br />INERTIALS: right leg</td>
+</tr>
+<tr>
+<td align="center">10.0.1.20</td>
+<td align="center">EB20 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">No CAN boards</td>
+<td align="center">MC: head joints 0 -&gt; 1</td>
+</tr>
+<tr>
+<td align="center">10.0.1.21</td>
+<td align="center">EB21 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">RFE(rfe.hex) CAN1:1</td>
+<td align="center">MC: head joints 2 -&gt; 5<br />INERTIALS: head</td>
+</tr>
+<tr>
+<td align="center">10.0.1.22</td>
+<td align="center">EB22 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MTB4(mtb4.hex) CAN1:7<br />MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10</td>
+<td align="center">SKIN: torso</td>
+</tr>
+<tr>
+<td align="center">10.0.1.24</td>
+<td align="center">EB24 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10<br />MTB4(mtb4.hex) CAN1:11<br />MTB4(mtb4.hex) CAN1:12<br />MTB4(mtb4.hex) CAN1:13<br />MTB4(mtb4.hex) CAN1:14</td>
+<td align="center">MC: left arm joints 4 -&gt; 7 <br /> SKIN: left arm</td>
+</tr>
+<tr>
+<td align="center">10.0.1.25</td>
+<td align="center">EB25 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MAIS(mais.hex) CAN1:14</td>
+<td align="center">MC: left arm joints 8 -&gt; 11</td>
+</tr>
+<tr>
+<td align="center">10.0.1.26</td>
+<td align="center">EB26 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MAIS(mais.hex) CAN1:14</td>
+<td align="center">MC: left arm joints 12 -&gt; 15</td>
+</tr>
+<tr>
+<td align="center">10.0.1.27</td>
+<td align="center">EB27 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MTB4(mtb4.hex) CAN1:8<br />MTB4(mtb4.hex) CAN1:9<br />MTB4(mtb4.hex) CAN1:10<br />MTB4(mtb4.hex) CAN1:11<br />MTB4(mtb4.hex) CAN1:12<br />MTB4(mtb4.hex) CAN1:13<br />MTB4(mtb4.hex) CAN1:14</td>
+<td align="center">MC: right arm joints 4 -&gt; 7 <br /> SKIN: right arm</td>
+</tr>
+<tr>
+<td align="center">10.0.1.28</td>
+<td align="center">EB28 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MAIS(mais.hex) CAN1:14</td>
+<td align="center">MC: right arm joints 8 -&gt; 11</td>
+</tr>
+<tr>
+<td align="center">10.0.1.29</td>
+<td align="center">EB29 (mc4plus.hex)<br />MC4PLUS</td>
+<td align="center">MAIS(mais.hex) CAN1:14</td>
+<td align="center">MC: right arm joints 12 -&gt; 15</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../../firmware/firmware/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Firmware Documentation
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../canLoader/canLoader/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              CanLoader
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            BSD 3-Clause License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.f5903571.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.3981fc68.min.js"></script>
+      
+    
+  </body>
+</html>

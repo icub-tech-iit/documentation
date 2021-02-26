@@ -1,0 +1,2533 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation resources for the iCub & R1 robots">
+      
+      
+      
+        <meta name="author" content="iCub Tech">
+      
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.2">
+    
+    
+      
+        <title>Installation - iCub Tech Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="amber">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#which-version-do-i-need" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="iCub Tech Docs" class="md-header__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iCub Tech Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="iCub Tech Docs" class="md-nav__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    iCub Tech Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1">
+        iCub Tech Docs
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Tech Docs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Tech Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home Page
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      <label class="md-nav__link" for="__nav_1_2">
+        iCub Starter Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Starter Kits" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Starter Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_starter_kits/first_steps/" class="md-nav__link">
+        First steps with the Humanoid iCub
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3">
+        iCub HW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub HW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          iCub HW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_hw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_2" type="checkbox" id="__nav_1_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_2">
+        The iCub Versions Table
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Versions Table" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Versions Table
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_versions/" class="md-nav__link">
+        Versions Table
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_3" type="checkbox" id="__nav_1_3_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_3">
+        The iCub Wiring
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Wiring" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Wiring
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/icub1_x/" class="md-nav__link">
+        iCub 1.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/icub2_x/" class="md-nav__link">
+        iCub 2.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_wiring/icub3_x/" class="md-nav__link">
+        iCub 3.x
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4" type="checkbox" id="__nav_1_3_4" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4">
+        The iCub Tendons manual
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Tendons manual" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Tendons manual
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/neck/" class="md-nav__link">
+        Neck
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/shoulder_elbow/" class="md-nav__link">
+        Shoulder and Elbow
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4" type="checkbox" id="__nav_1_3_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4">
+        Lower Arm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lower Arm" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_3_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Lower Arm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/lower_arm/" class="md-nav__link">
+        Definition
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2" type="checkbox" id="__nav_1_3_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2">
+        Version 1
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Version 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_1" type="checkbox" id="__nav_1_3_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/hand_cabling_V1/" class="md-nav__link">
+        How-to Cable and Needed Parts V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_2" type="checkbox" id="__nav_1_3_4_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/remove/" class="md-nav__link">
+        Disconnection V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/lower_arm_V1/" class="md-nav__link">
+        Lower Arm V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/wrist_hand_cabling_V1/" class="md-nav__link">
+        Wrist and Hand Cabling V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3" type="checkbox" id="__nav_1_3_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3">
+        Version 2
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 2" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Version 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_1" type="checkbox" id="__nav_1_3_4_4_3_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/hand_cabling_V2/" class="md-nav__link">
+        How-to Cable and Needed Parts V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_2" type="checkbox" id="__nav_1_3_4_4_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/remove/" class="md-nav__link">
+        Disconnection V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/lower_arm_V2/" class="md-nav__link">
+        Lower Arm V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/wrist_hand_cabling_V2/" class="md-nav__link">
+        Wrist and Hand Cabling V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_tendons/waist_legs/" class="md-nav__link">
+        Waist, Leg and Ankle
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_5" type="checkbox" id="__nav_1_3_5" >
+      
+      <label class="md-nav__link" for="__nav_1_3_5">
+        The iCub Upgrade Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Upgrade Kits" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Upgrade Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/torso_capacitors/support/" class="md-nav__link">
+        KIT_002 Update of torso capacitors
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/hands/support/" class="md-nav__link">
+        KIT_003 Hands Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/upperarm_cover_icub2_5/support/" class="md-nav__link">
+        KIT_004 Update upper arm covers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/eyes/support/" class="md-nav__link">
+        KIT_005 Eyes Motor Replacement Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/differential_neck_pulley/support/" class="md-nav__link">
+        KIT_006 Update of differential neck pulley
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../upgrade_kits/ankle_for_stairs/support/" class="md-nav__link">
+        KIT_007 Ankle for climbing stairs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_6" type="checkbox" id="__nav_1_3_6" >
+      
+      <label class="md-nav__link" for="__nav_1_3_6">
+        F/T Sensors
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="F/T Sensors" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          F/T Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ft-sensors/ft-sensors/" class="md-nav__link">
+        F/T Sensors
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_7" type="checkbox" id="__nav_1_3_7" >
+      
+      <label class="md-nav__link" for="__nav_1_3_7">
+        iCub Kinematics
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Kinematics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Kinematics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-joints/icub-joints/" class="md-nav__link">
+        iCub Joints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-joints-limits/icub-joints-limits/" class="md-nav__link">
+        iCub Joints Limits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-robot-configuration/icub-robot-configuration/" class="md-nav__link">
+        Robot Configuration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions/" class="md-nav__link">
+        ICub Model naming conventions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-vergence-version/icub-vergence-version/" class="md-nav__link">
+        Vergence, Version and Disparity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics/" class="md-nav__link">
+        iCub FW Kinematics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms/" class="md-nav__link">
+        iCub FW Kinematics Arms
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers/" class="md-nav__link">
+        iCub FW Kinematics Fingers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head/" class="md-nav__link">
+        iCub FW Kinematics Head
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs/" class="md-nav__link">
+        iCub FW Kinematics Legs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial/" class="md-nav__link">
+        iCub FW Kinematics Inertial
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_8" type="checkbox" id="__nav_1_3_8" >
+      
+      <label class="md-nav__link" for="__nav_1_3_8">
+        iCub 3
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub 3" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub3/icub3-joints/" class="md-nav__link">
+        iCub 3 joints specs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" checked>
+      
+      <label class="md-nav__link" for="__nav_1_4">
+        iCub SW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub SW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          iCub SW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_sw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2">
+        Software Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Software Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2" type="checkbox" id="__nav_1_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2">
+        Installation from sources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from sources" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from sources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_1" type="checkbox" id="__nav_1_4_2_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/windows_from_sources_superbuild/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/linux_from_sources_superbuild/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/macos_from_sources_superbuild/" class="md-nav__link">
+        macOS
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_2" type="checkbox" id="__nav_1_4_2_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/linux_from_sources_manual/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_3" type="checkbox" id="__nav_1_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_3">
+        Installation from pre-compiled binaries
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from pre-compiled binaries" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from pre-compiled binaries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/windows_binaries/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/linux_binaries/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/check_your_installation/" class="md-nav__link">
+        Check your installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5" type="checkbox" id="__nav_1_4_2_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5">
+        Installation on specific systems on iCub setup
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation on specific systems on iCub setup" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Installation on specific systems on iCub setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_1" type="checkbox" id="__nav_1_4_2_5_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/icub_head_superbuild/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_2" type="checkbox" id="__nav_1_4_2_5_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_installation/icub_head_manual/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sw_versioning_table/" class="md-nav__link">
+        Software Versioning Table
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4" type="checkbox" id="__nav_1_4_4" checked>
+      
+      <label class="md-nav__link" for="__nav_1_4_4">
+        The OS for the iCub enviroment
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS for the iCub enviroment" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS for the iCub enviroment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2" type="checkbox" id="__nav_1_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2">
+        The OS on icub-head
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on icub-head" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on icub-head
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/icubos/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/bios/" class="md-nav__link">
+        BIOS Tweaks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2_3" type="checkbox" id="__nav_1_4_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2_3">
+        Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/installation-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/installation-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/networking/" class="md-nav__link">
+        Networking
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/bluetooth/" class="md-nav__link">
+        Bluetooth
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icubos/user-env/" class="md-nav__link">
+        User environment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_3" type="checkbox" id="__nav_1_4_4_3" checked>
+      
+      <label class="md-nav__link" for="__nav_1_4_4_3">
+        The OS on PC104 (live USB)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on PC104 (live USB)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on PC104 (live USB)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../icub-live/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Installation
+      </a>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../the-icub-live-details/" class="md-nav__link">
+        Details
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4" type="checkbox" id="__nav_1_4_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4">
+        The OS on other machines (not on robot)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on other machines (not on robot)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on other machines (not on robot)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other-machines/generic-machine/" class="md-nav__link">
+        Generic iCub enviroment machines (eg. laptop)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2" type="checkbox" id="__nav_1_4_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2">
+        The iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub server" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2_1" type="checkbox" id="__nav_1_4_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2_1">
+        The "real" iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The "real" iCub server" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          The "real" iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other-machines/icub-server-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other-machines/icub-server-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other-machines/icub-server-laptop/" class="md-nav__link">
+        The laptop used as icub server
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other-machines/cuda-workstation/" class="md-nav__link">
+        The CUDA workstation
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_5" type="checkbox" id="__nav_1_4_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_5">
+        iCub Setup Multiple Robots
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Setup Multiple Robots" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Setup Multiple Robots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_setup_multiple_robots/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_setup_multiple_robots/two_robots_simulation/" class="md-nav__link">
+        How to use two iCub robots in gazebo simulation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_setup_multiple_robots/two_robots_real/" class="md-nav__link">
+        How to use two real iCub robots on the same network
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6" type="checkbox" id="__nav_1_4_6" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6">
+        iCub Firmware
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Firmware" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Firmware
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_firmware/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6_2" type="checkbox" id="__nav_1_4_6_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6_2">
+        Firmware Toolchain Documentation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Firmware Toolchain Documentation" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Firmware Toolchain Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_firmware/fw_toolchain/installing_keil/" class="md-nav__link">
+        Installing Keil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_firmware/fw_toolchain/installing_mplab/" class="md-nav__link">
+        Installing MPLAB
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_firmware/firmware/firmware/" class="md-nav__link">
+        Firmware Documentation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_firmware/associated-firmware/associated-firmware/" class="md-nav__link">
+        Associated Firmware
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_firmware/canLoader/canLoader/" class="md-nav__link">
+        CanLoader
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_7" type="checkbox" id="__nav_1_4_7" >
+      
+      <label class="md-nav__link" for="__nav_1_4_7">
+        iCub Microphones
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Microphones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Microphones
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_microphones/icub_microphones/" class="md-nav__link">
+        How to use microphones
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_8" type="checkbox" id="__nav_1_4_8" >
+      
+      <label class="md-nav__link" for="__nav_1_4_8">
+        iCub Robot Calibration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Robot Calibration" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Robot Calibration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_robot_calibration/icub-robot-calibration/" class="md-nav__link">
+        Robot Calibration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_robot_calibration/icub-stereo-calib/" class="md-nav__link">
+        Stereo Calibration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_9" type="checkbox" id="__nav_1_4_9" >
+      
+      <label class="md-nav__link" for="__nav_1_4_9">
+        iCub/R1 Calibration Types
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub/R1 Calibration Types" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_9">
+          <span class="md-nav__icon md-icon"></span>
+          iCub/R1 Calibration Types
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../icub_r1_calibration_types/icub_r1_calibration_types/" class="md-nav__link">
+        Calibration types
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_10" type="checkbox" id="__nav_1_4_10" >
+      
+      <label class="md-nav__link" for="__nav_1_4_10">
+        Configure IP on a setup for ETH boards
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configure IP on a setup for ETH boards" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_10">
+          <span class="md-nav__icon md-icon"></span>
+          Configure IP on a setup for ETH boards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../configure_static_ip/configure-static-ip/" class="md-nav__link">
+        Configure IP on a setup for ETH boards
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/icub-tech-iit/documentation/edit/master/docs/icub_operating_systems/pc104/the-icub-live-installation.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="which-version-do-i-need">Which version do I need?<a class="headerlink" href="#which-version-do-i-need" title="Permanent link">&para;</a></h1>
+<p>This question is quite common whenever the number of versions and revisions start to become... more than one.
+The Debian image to use depends on the iCub version:
+- iCub up to version 1.1 <strong><em>must</em></strong> use a Etch and a Half distribution (image version 1.x). Persistent filesystem allows deep system configuration; if you are happy with the current configuration you can skip this update, while if you really need to change system configuration now you can by applying this update.
+- iCub from version 1.2 on can use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 9.x @ November 2020). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.</p>
+<h1 id="burn-the-debian-image-version-7x-latest">Burn the Debian image version 7.x (latest)<a class="headerlink" href="#burn-the-debian-image-version-7x-latest" title="Permanent link">&para;</a></h1>
+<p>Starting from version 6.0 images come in a compressed archive file containing the USB image to write to an USB memory.</p>
+<h2 id="where-to-download-the-zip-archive">Where to download the ZIP archive<a class="headerlink" href="#where-to-download-the-zip-archive" title="Permanent link">&para;</a></h2>
+<p>Compressed archives can be downloaded <a href="http://wiki.icub.org/iCub/downloads/pc104-images/">here</a></p>
+<h2 id="how-to-create-the-bootable-usb-drive-with-the-live-image">How to create the bootable USB drive with the live image<a class="headerlink" href="#how-to-create-the-bootable-usb-drive-with-the-live-image" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Download the latest image from the <a href="http://wiki.icub.org/iCub/downloads/pc104-images/">above link</a></li>
+<li>Extract the image</li>
+<li>Take an USB-2 drive at least of 16 GB size (please note that using an USB3 disk or a huge disk, eg. 32 GB, may not work depending on the version of your PC104)</li>
+<li>burn the image file (it has the .img extension), you can use the follwing tools:</li>
+</ol>
+<h3 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h3>
+<p>Please use <a href="http://sourceforge.net/projects/win32diskimager/">Win32 Disk Imager</a></p>
+<h3 id="linux-command-line">Linux (command line)<a class="headerlink" href="#linux-command-line" title="Permanent link">&para;</a></h3>
+<p>Linux users can  use the dd command to directly write an IMG file’s contents to a removable media device. Insert the removable media and run the following command on Ubuntu:</p>
+<p><code>sudo dd if=/home/user/icub-live_7.10-201126_rt-amd64.img of=/dev/sdX bs=1M</code></p>
+<p>Replace <code>/home/user/icub-live_7.10-201126_rt-amd64.img</code> with the correct name of USB image and <code>/dev/sdX</code> with the path to your USB or SD card device. <strong>Be very careful to specify the correct disk path here — if you specify the path to your system drive instead, you’ll write the contents of the image to your operating system drive and corrupt it</strong></p>
+<h3 id="linux-gui-tool">Linux (GUI tool)<a class="headerlink" href="#linux-gui-tool" title="Permanent link">&para;</a></h3>
+<p>There is a GUI available in Ubuntu, called <em>"Disks"</em> (gnome-disks) and comes default in later Ubuntu: connect the USB drive and just right-click on the image file and select <em>"Open with Disk Image Writer"</em>, then select the drive USB drive you just inserted.</p>
+<p>See also <a href="https://www.howtogeek.com/191054/how-to-create-bootable-usb-drives-and-sd-cards-for-every-operating-system/#:~:text=From%20an%20IMG%20File&amp;text=Use%20Win32%20Disk%20Imager%20to,USB%20drives%20and%20SD%20cards">this guide</a></p>
+<h2 id="burn-the-debian-image-version-5x-old">Burn the Debian image version 5.x (old)<a class="headerlink" href="#burn-the-debian-image-version-5x-old" title="Permanent link">&para;</a></h2>
+<p>From version 5.0 on, the image is based on a Debian LIVE system. Version 5.x images come into a standard ISO Hybrid image file and there is a script to write the image to a USB memory</p>
+<h3 id="where-to-download-the-iso-image-and-burn-script">Where to download the ISO image and burn script<a class="headerlink" href="#where-to-download-the-iso-image-and-burn-script" title="Permanent link">&para;</a></h3>
+<p>ISO images and the script can be downloaded <a href="http://wiki.icub.org/iCub/downloads/pc104-images/">here</a> Some images are compressed, if so uncompress it before proceeding. To verify the file has been successfully downloaded, the md5 code can be verified by placing the .md5 file in the same folder as the uncompressed image and typing the following command:</p>
+<p><code>md5sum --check MD5FILE.md5</code></p>
+<h3 id="how-to-put-the-iso-on-a-usb-memory">How to put the iso on a USB memory<a class="headerlink" href="#how-to-put-the-iso-on-a-usb-memory" title="Permanent link">&para;</a></h3>
+<p>Please use the icub_iso2usb.sh script: this script will create a working bootable USB from the ISO file and ensure compatibility on some old PC104.
+This scripts will also enable file persistence (see below).
+<strong>NOTE : this script is compatible ONLY with Debian GNU/Linux 7 wheezy and Ubuntu 14.04.3 LTS Trusty</strong></p>
+<h3 id="what-is-file-persistence-and-how-to-use-it">What is file persistence and how to use it<a class="headerlink" href="#what-is-file-persistence-and-how-to-use-it" title="Permanent link">&para;</a></h3>
+<p>File persistence is used to write the changes you made to the live filesystem (i.e. if you modify a file or write a new one) to a separate partition on the USB memory, allowing those changes to survive a reboot.
+The bigger is the USB memory, the more space you have for the new files, so we suggest at least a 4 Gb USB memory. If you mount an USB memory which persistence enable on a normal PC, you will see two partitions:</p>
+<ul>
+<li>LIVE partition, which contains the live image files</li>
+<li>PERSITENCE partition, which contains all the modified or new files</li>
+</ul>
+<h3 id="how-to-use-the-icub_iso2usbsh-script">How to use the icub_iso2usb.sh script<a class="headerlink" href="#how-to-use-the-icub_iso2usbsh-script" title="Permanent link">&para;</a></h3>
+<p>This script takes a iCub PC104 live image and write it to an USB memory,
+optionally enabling file persistence. The script run on a Linux system and requires the following commands to be installed:</p>
+<ul>
+<li>parted</li>
+<li>mkdiskimage</li>
+<li>mkdosfs</li>
+<li>mkfs.ext4</li>
+<li>install-mbr</li>
+<li>syslinux</li>
+<li>p7zip</li>
+</ul>
+<p>On a Debian 7 system, this means that you must install the following packages</p>
+<p><code>parted syslinux syslinux-common syslinux-utils dosfstools e2fsprogs p7zip mbr</code></p>
+<p>The script usage is the following</p>
+<p><code>icub_iso2usb.sh -f LIVE_ISO_FILE -t USB_TARGET_DEVICE [-p PERSISTENCE_SIZE]</code></p>
+<p>where:</p>
+<ul>
+<li><strong>LIVE_ISO_FILE</strong> is the live filename (mandatory parameter)</li>
+<li><strong>USB_TARGET_DEVICE</strong> is the device to write to the iso image -     <em>important: USE a device not a partition</em> (mandatory parameter)</li>
+<li><strong>PERSISTENCE_SIZE</strong> is the size of overlay partition (in MB) - set to 0 to disable overlay, the default persistence size is 1024 MB</li>
+</ul>
+<p>Example:</p>
+<p><code>icub_iso2usb.sh -f icub-live_4.0-14.11.12-rt-amd64.iso -t sdc</code></p>
+<p>There is also an inline help for the script, available with</p>
+<p><code>icub_icub2usb.sh -h</code></p>
+<p>The image requires an amount of space which is bigger than the the ISO size of a 10%, so setup the persistence partition size accordingly. The script checks if the target USB memory has enough space for live system and persistence (if not disabled), so don't worry.</p>
+<h1 id="required-customizations">Required customizations<a class="headerlink" href="#required-customizations" title="Permanent link">&para;</a></h1>
+<h2 id="set-robotname-variable">Set RobotName variable<a class="headerlink" href="#set-robotname-variable" title="Permanent link">&para;</a></h2>
+<p>Edit the file:</p>
+<p><code>/home/icub/.bashrc_iCub</code></p>
+<p>replace the line:</p>
+<p><code>export YARP_ROBOT_NAME=myiCubRobotName00</code></p>
+<p>with the name of your robot e.g. iCubGenova01</p>
+<h2 id="clean-the-cmakecache-before-compiling">clean the CMakeCache before compiling<a class="headerlink" href="#clean-the-cmakecache-before-compiling" title="Permanent link">&para;</a></h2>
+<p>When upgrading the usb key to a different version, remember to clean the CMakeCache before compiling!! This is because some path are likely to be changed in the meanwhile</p>
+<h2 id="ssh-passwordless-login">SSH passwordless login<a class="headerlink" href="#ssh-passwordless-login" title="Permanent link">&para;</a></h2>
+<p>User authentication credentials are stored inside the <code>/home/icub/.ssh/authorized_key</code> file; each line in this file is related to a different entry user@host. User credentials can be added also by using this command for each user@machine you want to log from :</p>
+<p><code>ssh-copy-id -i /home/user/.ssh/id_rsa.pub icub@pc104</code></p>
+<h2 id="startup-scripts">Startup scripts<a class="headerlink" href="#startup-scripts" title="Permanent link">&para;</a></h2>
+<p><strong>Important</strong>: these instructions apply to the recent <em>persistent</em> images of the Linux (starting from 1.7 and 3.0).</p>
+<p>There are some scripts that customize the Linux when the pc104 boots up; those scripts are inside /etc/rciCub.d folder. Normally, you don\'t need to modify them, but be aware of them.</p>
+<h2 id="other-customizations">Other Customizations<a class="headerlink" href="#other-customizations" title="Permanent link">&para;</a></h2>
+<p>The persistent version of the Debian distribution is now writable so any
+customization can be done. Please be aware of what you do, because any
+changes in configuration file can lead to malfunction.</p>
+<h1 id="common-problems-and-how-to-solve-them">Common Problems and how to solve them<a class="headerlink" href="#common-problems-and-how-to-solve-them" title="Permanent link">&para;</a></h1>
+<h2 id="i-used-an-usb3-andor-32-gb-disk-and-the-system-does-not-boot">I used an USB3 and/or 32 GB disk and the system does not boot<a class="headerlink" href="#i-used-an-usb3-andor-32-gb-disk-and-the-system-does-not-boot" title="Permanent link">&para;</a></h2>
+<p>Try with a USB2 smaller ( 16GB or better 8 GB) drive. Some PC104 have problems in reading those recent USB drives.</p>
+<h2 id="the-icub_iso2usbsh-script-asks-me-the-closest-location-we-can-manage-is-is-this-still-acceptable-to-you">The <code>icub_iso2usb.sh</code> script asks me <em>"The closest location we can manage is.. Is this still acceptable to you?"</em><a class="headerlink" href="#the-icub_iso2usbsh-script-asks-me-the-closest-location-we-can-manage-is-is-this-still-acceptable-to-you" title="Permanent link">&para;</a></h2>
+<p>Simply press "Y" and forget about the warning <em>"Information: You may need to update /etc/fstab."</em> :)</p>
+<h2 id="once-i-created-a-new-usb-memory-with-the-pc104-image-ssh-complains-that-remote-host-identification-has-changed-and-does-not-connect-to-the-pc104">Once I created a new USB memory with the PC104 image, ssh complains that <em>"Remote host identification has changed"</em> and does not connect to the PC104<a class="headerlink" href="#once-i-created-a-new-usb-memory-with-the-pc104-image-ssh-complains-that-remote-host-identification-has-changed-and-does-not-connect-to-the-pc104" title="Permanent link">&para;</a></h2>
+<p>This is normal: for security reasons when a new iCub live is executed for the first time, a new SSH Key is created for the PC104 host. Please remove all the entries in the file</p>
+<p><code>~/.ssh/known_hosts</code></p>
+<p>that refers to pc104 or 10.0.0.2 and login again.</p>
+<p>This must be done from each machine you want to connect to the PC104.</p>
+<p><em>See also <a href="http://askubuntu.com/questions/9800/remote-host-identification-has-changed-warning-when-connecting-over-ssh">this link</a></em></p>
+<h2 id="i-used-the-live-usb-first-on-a-computer-then-when-i-plugged-it-into-the-pc104-it-does-not-work-anymore">I used the live USB first on a computer, then when I plugged it into the PC104 it does not work anymore<a class="headerlink" href="#i-used-the-live-usb-first-on-a-computer-then-when-i-plugged-it-into-the-pc104-it-does-not-work-anymore" title="Permanent link">&para;</a></h2>
+<p>Probably the PC104 booted correctly, but the network is not reachable (you can check it by <a href="https://svn.robotology.eu/repos/iCubHardware-pub/trunk/mechanics/public/doc/howTo/Connect_VGA_to_PC104.pd">connecting a vga cable to the PC104</a>
+inside iCub's head)</p>
+<p>Live systems write some info about the network card the first time they boot on a machine. This implies that if you boot the live on a desktop and then you plug it to a different machine the network may not work (since the network card is different).</p>
+<p>To fix this you have two options:</p>
+<ol>
+<li>
+<p><strong>quick and dirty</strong> - on the live USB, open the file <code>/etc/udev/rules.d/70-presisten-net.rules</code> and remove any pair of lines like the following:
+<div class="highlight"><pre><span></span><code># PCI device 0x8086:0x10f5 (e1000e)
+SUBSYSTEM==&quot;net&quot;, ACTION==&quot;add&quot;, DRIVERS==&quot;?*&quot;, ATTR{address}==&quot;00:1f:16:0b:47:4d&quot;, ATTR{dev_id}==&quot;0x0&quot;, ATTR{type}==&quot;1&quot;, KERNEL==&quot;eth*&quot;, NAME=&quot;eth0&quot;
+</code></pre></div>
+(of course attributes like <em>address</em>, <em>name</em> or <em>device</em> may not exactly the same in your file)</p>
+</li>
+<li>
+<p><strong>clean and easy</strong> - burn another USB and FIRST install it on the PC104</p>
+</li>
+</ol>
+<h1 id="detailed-information">Detailed information<a class="headerlink" href="#detailed-information" title="Permanent link">&para;</a></h1>
+<p>If you want to get detailed information about the iCub LIVE image (i.e. the differences from a standard Debian LIVE) please read <a href="../the-icub-live-details/">this page</a></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../icub-live/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Introduction
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../the-icub-live-details/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Details
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            BSD 3-Clause License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.f5903571.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.3981fc68.min.js"></script>
+      
+    
+  </body>
+</html>

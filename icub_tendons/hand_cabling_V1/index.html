@@ -1,0 +1,3643 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation resources for the iCub & R1 robots">
+      
+      
+      
+        <meta name="author" content="iCub Tech">
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.2">
+    
+    
+      
+        <title>How-to Cable and Needed Parts V1 - iCub Tech Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="amber">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lower-arm-v1-cabling" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iCub Tech Docs" class="md-header__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iCub Tech Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              How-to Cable and Needed Parts V1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iCub Tech Docs" class="md-nav__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    iCub Tech Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1">
+        iCub Tech Docs
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Tech Docs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Tech Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home Page
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      <label class="md-nav__link" for="__nav_1_2">
+        iCub Starter Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Starter Kits" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Starter Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_starter_kits/first_steps/" class="md-nav__link">
+        First steps with the Humanoid iCub
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3">
+        iCub HW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub HW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          iCub HW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_hw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_2" type="checkbox" id="__nav_1_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_2">
+        The iCub Versions Table
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Versions Table" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Versions Table
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_versions/" class="md-nav__link">
+        Versions Table
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_3" type="checkbox" id="__nav_1_3_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_3">
+        The iCub Wiring
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Wiring" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Wiring
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/icub1_x/" class="md-nav__link">
+        iCub 1.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/icub2_x/" class="md-nav__link">
+        iCub 2.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/icub3_x/" class="md-nav__link">
+        iCub 3.x
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4" type="checkbox" id="__nav_1_3_4" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3_4">
+        The iCub Tendons manual
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Tendons manual" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Tendons manual
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neck/" class="md-nav__link">
+        Neck
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shoulder_elbow/" class="md-nav__link">
+        Shoulder and Elbow
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4" type="checkbox" id="__nav_1_3_4_4" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4">
+        Lower Arm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lower Arm" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_3_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Lower Arm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_arm/" class="md-nav__link">
+        Definition
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2" type="checkbox" id="__nav_1_3_4_4_2" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2">
+        Version 1
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Version 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_1" type="checkbox" id="__nav_1_3_4_4_2_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          How-to Cable and Needed Parts V1
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        How-to Cable and Needed Parts V1
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cad-design" class="md-nav__link">
+    CAD DESIGN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-basic-principles" class="md-nav__link">
+    1 Basic Principles
+  </a>
+  
+    <nav class="md-nav" aria-label="1 Basic Principles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-general-rules-to-be-followed" class="md-nav__link">
+    1.1 General Rules to be Followed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-general-tips-and-tricks" class="md-nav__link">
+    1.2 General Tips and Tricks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-do-i-need-to-cable" class="md-nav__link">
+    2 WHAT DO I NEED TO CABLE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-how-to-cable-fingers-hand" class="md-nav__link">
+    3 HOW TO CABLE - FINGERS &amp; HAND
+  </a>
+  
+    <nav class="md-nav" aria-label="3 HOW TO CABLE - FINGERS &amp; HAND">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-thumb-oppose" class="md-nav__link">
+    3.1 Thumb oppose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-fingers-abduction" class="md-nav__link">
+    3.2 Fingers Abduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-proximal-joints" class="md-nav__link">
+    3.3 Proximal Joints
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Proximal Joints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331-thumb-proximal" class="md-nav__link">
+    3.3.1 Thumb Proximal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332-index-proximal" class="md-nav__link">
+    3.3.2 Index Proximal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#333-middle-proximal" class="md-nav__link">
+    3.3.3 Middle Proximal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-distal-joints" class="md-nav__link">
+    3.4 Distal Joints
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Distal Joints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-thumb-distal" class="md-nav__link">
+    3.4.1 Thumb Distal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-index-distal" class="md-nav__link">
+    3.4.2 Index Distal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-middle-distal" class="md-nav__link">
+    3.4.3 Middle Distal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-ring-pinkie-distal" class="md-nav__link">
+    3.4.4 Ring &amp; Pinkie Distal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-how-to-cable-wrist" class="md-nav__link">
+    4 HOW TO CABLE - WRIST
+  </a>
+  
+    <nav class="md-nav" aria-label="4 HOW TO CABLE - WRIST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-wrist-motor-tendons" class="md-nav__link">
+    4.1 Wrist Motor tendons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-tensioner-iitcode-3745" class="md-nav__link">
+    4.2 Tensioner - IITCODE 3745
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-wrist-passive-tendons" class="md-nav__link">
+    4.3 Wrist Passive tendons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_2" type="checkbox" id="__nav_1_3_4_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remove/" class="md-nav__link">
+        Disconnection V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_arm_V1/" class="md-nav__link">
+        Lower Arm V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wrist_hand_cabling_V1/" class="md-nav__link">
+        Wrist and Hand Cabling V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3" type="checkbox" id="__nav_1_3_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3">
+        Version 2
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 2" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Version 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_1" type="checkbox" id="__nav_1_3_4_4_3_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hand_cabling_V2/" class="md-nav__link">
+        How-to Cable and Needed Parts V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_2" type="checkbox" id="__nav_1_3_4_4_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remove/" class="md-nav__link">
+        Disconnection V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_arm_V2/" class="md-nav__link">
+        Lower Arm V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wrist_hand_cabling_V2/" class="md-nav__link">
+        Wrist and Hand Cabling V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../waist_legs/" class="md-nav__link">
+        Waist, Leg and Ankle
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_5" type="checkbox" id="__nav_1_3_5" >
+      
+      <label class="md-nav__link" for="__nav_1_3_5">
+        The iCub Upgrade Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Upgrade Kits" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Upgrade Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/torso_capacitors/support/" class="md-nav__link">
+        KIT_002 Update of torso capacitors
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/hands/support/" class="md-nav__link">
+        KIT_003 Hands Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/upperarm_cover_icub2_5/support/" class="md-nav__link">
+        KIT_004 Update upper arm covers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/eyes/support/" class="md-nav__link">
+        KIT_005 Eyes Motor Replacement Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/differential_neck_pulley/support/" class="md-nav__link">
+        KIT_006 Update of differential neck pulley
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/ankle_for_stairs/support/" class="md-nav__link">
+        KIT_007 Ankle for climbing stairs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_6" type="checkbox" id="__nav_1_3_6" >
+      
+      <label class="md-nav__link" for="__nav_1_3_6">
+        F/T Sensors
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="F/T Sensors" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          F/T Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ft-sensors/ft-sensors/" class="md-nav__link">
+        F/T Sensors
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_7" type="checkbox" id="__nav_1_3_7" >
+      
+      <label class="md-nav__link" for="__nav_1_3_7">
+        iCub Kinematics
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Kinematics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Kinematics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-joints/icub-joints/" class="md-nav__link">
+        iCub Joints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-joints-limits/icub-joints-limits/" class="md-nav__link">
+        iCub Joints Limits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-robot-configuration/icub-robot-configuration/" class="md-nav__link">
+        Robot Configuration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions/" class="md-nav__link">
+        ICub Model naming conventions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-vergence-version/icub-vergence-version/" class="md-nav__link">
+        Vergence, Version and Disparity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics/" class="md-nav__link">
+        iCub FW Kinematics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms/" class="md-nav__link">
+        iCub FW Kinematics Arms
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers/" class="md-nav__link">
+        iCub FW Kinematics Fingers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head/" class="md-nav__link">
+        iCub FW Kinematics Head
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs/" class="md-nav__link">
+        iCub FW Kinematics Legs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial/" class="md-nav__link">
+        iCub FW Kinematics Inertial
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_8" type="checkbox" id="__nav_1_3_8" >
+      
+      <label class="md-nav__link" for="__nav_1_3_8">
+        iCub 3
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub 3" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub3/icub3-joints/" class="md-nav__link">
+        iCub 3 joints specs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4">
+        iCub SW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub SW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          iCub SW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_sw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2">
+        Software Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Software Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2" type="checkbox" id="__nav_1_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2">
+        Installation from sources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from sources" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from sources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_1" type="checkbox" id="__nav_1_4_2_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/windows_from_sources_superbuild/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/linux_from_sources_superbuild/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/macos_from_sources_superbuild/" class="md-nav__link">
+        macOS
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_2" type="checkbox" id="__nav_1_4_2_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/linux_from_sources_manual/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_3" type="checkbox" id="__nav_1_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_3">
+        Installation from pre-compiled binaries
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from pre-compiled binaries" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from pre-compiled binaries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/windows_binaries/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/linux_binaries/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/check_your_installation/" class="md-nav__link">
+        Check your installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5" type="checkbox" id="__nav_1_4_2_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5">
+        Installation on specific systems on iCub setup
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation on specific systems on iCub setup" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Installation on specific systems on iCub setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_1" type="checkbox" id="__nav_1_4_2_5_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/icub_head_superbuild/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_2" type="checkbox" id="__nav_1_4_2_5_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/icub_head_manual/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_versioning_table/" class="md-nav__link">
+        Software Versioning Table
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4" type="checkbox" id="__nav_1_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4">
+        The OS for the iCub enviroment
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS for the iCub enviroment" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS for the iCub enviroment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2" type="checkbox" id="__nav_1_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2">
+        The OS on icub-head
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on icub-head" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on icub-head
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/icubos/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/bios/" class="md-nav__link">
+        BIOS Tweaks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2_3" type="checkbox" id="__nav_1_4_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2_3">
+        Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/installation-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/installation-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/networking/" class="md-nav__link">
+        Networking
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/bluetooth/" class="md-nav__link">
+        Bluetooth
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/user-env/" class="md-nav__link">
+        User environment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_3" type="checkbox" id="__nav_1_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_3">
+        The OS on PC104 (live USB)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on PC104 (live USB)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on PC104 (live USB)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/pc104/icub-live/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/pc104/the-icub-live-installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/pc104/the-icub-live-details/" class="md-nav__link">
+        Details
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4" type="checkbox" id="__nav_1_4_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4">
+        The OS on other machines (not on robot)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on other machines (not on robot)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on other machines (not on robot)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/generic-machine/" class="md-nav__link">
+        Generic iCub enviroment machines (eg. laptop)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2" type="checkbox" id="__nav_1_4_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2">
+        The iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub server" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2_1" type="checkbox" id="__nav_1_4_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2_1">
+        The "real" iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The "real" iCub server" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          The "real" iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/icub-server-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/icub-server-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/icub-server-laptop/" class="md-nav__link">
+        The laptop used as icub server
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/cuda-workstation/" class="md-nav__link">
+        The CUDA workstation
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_5" type="checkbox" id="__nav_1_4_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_5">
+        iCub Setup Multiple Robots
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Setup Multiple Robots" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Setup Multiple Robots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_setup_multiple_robots/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_setup_multiple_robots/two_robots_simulation/" class="md-nav__link">
+        How to use two iCub robots in gazebo simulation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_setup_multiple_robots/two_robots_real/" class="md-nav__link">
+        How to use two real iCub robots on the same network
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6" type="checkbox" id="__nav_1_4_6" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6">
+        iCub Firmware
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Firmware" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Firmware
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6_2" type="checkbox" id="__nav_1_4_6_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6_2">
+        Firmware Toolchain Documentation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Firmware Toolchain Documentation" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Firmware Toolchain Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/fw_toolchain/installing_keil/" class="md-nav__link">
+        Installing Keil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/fw_toolchain/installing_mplab/" class="md-nav__link">
+        Installing MPLAB
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/firmware/firmware/" class="md-nav__link">
+        Firmware Documentation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/associated-firmware/associated-firmware/" class="md-nav__link">
+        Associated Firmware
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/canLoader/canLoader/" class="md-nav__link">
+        CanLoader
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_7" type="checkbox" id="__nav_1_4_7" >
+      
+      <label class="md-nav__link" for="__nav_1_4_7">
+        iCub Microphones
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Microphones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Microphones
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_microphones/icub_microphones/" class="md-nav__link">
+        How to use microphones
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_8" type="checkbox" id="__nav_1_4_8" >
+      
+      <label class="md-nav__link" for="__nav_1_4_8">
+        iCub Robot Calibration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Robot Calibration" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Robot Calibration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_robot_calibration/icub-robot-calibration/" class="md-nav__link">
+        Robot Calibration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_robot_calibration/icub-stereo-calib/" class="md-nav__link">
+        Stereo Calibration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_9" type="checkbox" id="__nav_1_4_9" >
+      
+      <label class="md-nav__link" for="__nav_1_4_9">
+        iCub/R1 Calibration Types
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub/R1 Calibration Types" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_9">
+          <span class="md-nav__icon md-icon"></span>
+          iCub/R1 Calibration Types
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_r1_calibration_types/icub_r1_calibration_types/" class="md-nav__link">
+        Calibration types
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_10" type="checkbox" id="__nav_1_4_10" >
+      
+      <label class="md-nav__link" for="__nav_1_4_10">
+        Configure IP on a setup for ETH boards
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configure IP on a setup for ETH boards" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_10">
+          <span class="md-nav__icon md-icon"></span>
+          Configure IP on a setup for ETH boards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configure_static_ip/configure-static-ip/" class="md-nav__link">
+        Configure IP on a setup for ETH boards
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cad-design" class="md-nav__link">
+    CAD DESIGN
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-basic-principles" class="md-nav__link">
+    1 Basic Principles
+  </a>
+  
+    <nav class="md-nav" aria-label="1 Basic Principles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-general-rules-to-be-followed" class="md-nav__link">
+    1.1 General Rules to be Followed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-general-tips-and-tricks" class="md-nav__link">
+    1.2 General Tips and Tricks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-do-i-need-to-cable" class="md-nav__link">
+    2 WHAT DO I NEED TO CABLE
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-how-to-cable-fingers-hand" class="md-nav__link">
+    3 HOW TO CABLE - FINGERS &amp; HAND
+  </a>
+  
+    <nav class="md-nav" aria-label="3 HOW TO CABLE - FINGERS &amp; HAND">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-thumb-oppose" class="md-nav__link">
+    3.1 Thumb oppose
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-fingers-abduction" class="md-nav__link">
+    3.2 Fingers Abduction
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-proximal-joints" class="md-nav__link">
+    3.3 Proximal Joints
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3 Proximal Joints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331-thumb-proximal" class="md-nav__link">
+    3.3.1 Thumb Proximal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332-index-proximal" class="md-nav__link">
+    3.3.2 Index Proximal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#333-middle-proximal" class="md-nav__link">
+    3.3.3 Middle Proximal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-distal-joints" class="md-nav__link">
+    3.4 Distal Joints
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Distal Joints">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#341-thumb-distal" class="md-nav__link">
+    3.4.1 Thumb Distal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#342-index-distal" class="md-nav__link">
+    3.4.2 Index Distal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#343-middle-distal" class="md-nav__link">
+    3.4.3 Middle Distal
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#344-ring-pinkie-distal" class="md-nav__link">
+    3.4.4 Ring &amp; Pinkie Distal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-how-to-cable-wrist" class="md-nav__link">
+    4 HOW TO CABLE - WRIST
+  </a>
+  
+    <nav class="md-nav" aria-label="4 HOW TO CABLE - WRIST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-wrist-motor-tendons" class="md-nav__link">
+    4.1 Wrist Motor tendons
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-tensioner-iitcode-3745" class="md-nav__link">
+    4.2 Tensioner - IITCODE 3745
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-wrist-passive-tendons" class="md-nav__link">
+    4.3 Wrist Passive tendons
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/icub-tech-iit/documentation/edit/master/docs/icub_tendons/hand_cabling_V1.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="lower-arm-v1-cabling">LOWER ARM V1 CABLING<a class="headerlink" href="#lower-arm-v1-cabling" title="Permanent link">&para;</a></h1>
+<h2 id="cad-design">CAD DESIGN<a class="headerlink" href="#cad-design" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Let's have an overview of the mechanical CAD from different view angles and their specific names on CAD assembly.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Left Forearm V1</th>
+<th>Right Forearm V1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src ="../gif/lower_arm/L-4RM-V1.gif" height = 600px></td>
+<td><img src ="../gif/lower_arm/R-4RM-V1.gif" height = 600px></td>
+</tr>
+</tbody>
+</table>
+<h2 id="1-basic-principles">1 Basic Principles<a class="headerlink" href="#1-basic-principles" title="Permanent link">&para;</a></h2>
+<p>In the following document we describe how to connect the hand joints with the motors positioned in the forearm. The basic scheme is very simple and based on the following ideas:</p>
+<blockquote>
+<p>−    Each motor rotates a pulley (P) </p>
+<p>−    A (optionally coated) cable is twined around the pulley. The cable is fixed to the pulley by passing through a hole in the pulley (H).</p>
+<p>−    The cable exits the motor by passing trough holes H1 and H2.</p>
+<p>−    The cable enters into a tube (T1, T2, T3, T4) which guides its path trough the wrist. All the tubes are positioned on suitable sockets in correspondence of the holes (H1, H2).</p>
+<p>−    Optionally the cable passes trough tensioners (Te1 and Te2) in between T1/T2 and T3/T4. Again the tensioners are provided with suitable sockets.</p>
+<p>−    The cable exits the tube by entering into holes H3 and H4 once more equipped with suitable sockets for the tubes.</p>
+</blockquote>
+<p>Refer to the following example pictures:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src ="../img/hand/Motor_pulley.png" height = 300px></td>
+<td><img src ="../img/hand/Motor_case.png" height = 300px></td>
+</tr>
+<tr>
+<td><img src ="../img/hand/Tubes.png" height = 300px></td>
+<td><img src ="../img/hand/Finger_holes.png" height = 300px></td>
+</tr>
+</tbody>
+</table>
+<h3 id="11-general-rules-to-be-followed">1.1 General Rules to be Followed<a class="headerlink" href="#11-general-rules-to-be-followed" title="Permanent link">&para;</a></h3>
+<p>When mounting cables, pay attention to the fact that rotating the motor in a clockwise direction should correspond to a closure of the finger. The definition of clockwise rotation is given in the picture below. This rule is valid for all joints <u>but</u> distal joints; in the case of distal joints the closure of joints depends on some issues that will be discussed later on.</p>
+<p><center> <img src ="../img/hand/General_rules.png" width=500>  </center></p>
+<h3 id="12-general-tips-and-tricks">1.2 General Tips and Tricks<a class="headerlink" href="#12-general-tips-and-tricks" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>−    The uncoated cable is a bundle of smaller wires. When the cable is cut, this bundle may be corrupted (especially at the cable ending) by trying to pass the cable trough holes. A drop of glue on the cable ending may be useful.</p>
+<p>−    Ideally the cable should be twined around the pulley P exactly at the middle of it. In particular, when the joint is in the middle of its range of movements the cable should leave the pulley P exactly at the level of the holes H1 and H2. If this is not the case, the friction of the cable at the level of H1 and H2 may break the cable after short usage.</p>
+<p>−    Always check that the tubes are inside their sockets. If this is not the case cables will break easily due to high friction in correspondence of the input and output holes.</p>
+<p>−    The tension of the cable is fundamental for having fingers working correctly. Always consider the possibility of using tensioners for increasing the cable tension.</p>
+</blockquote>
+<h2 id="2-what-do-i-need-to-cable">2 WHAT DO I NEED TO CABLE<a class="headerlink" href="#2-what-do-i-need-to-cable" title="Permanent link">&para;</a></h2>
+<p>Here you will find the overall table describing the the mandatory sheaths to be used in the correct place.</p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>Finger</th>
+<th>Typology</th>
+<th>Label</th>
+<th>Length (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Thumb</strong></td>
+<td>Proximal short</td>
+<td>6+S</td>
+<td>74</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>6-S</td>
+<td>74</td>
+</tr>
+<tr>
+<td></td>
+<td>Proximal long</td>
+<td>6+L</td>
+<td>124</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>6-L</td>
+<td>124</td>
+</tr>
+<tr>
+<td></td>
+<td>Distal</td>
+<td>4</td>
+<td>132</td>
+</tr>
+<tr>
+<td></td>
+<td>Oppose</td>
+<td>S0</td>
+<td>50</td>
+</tr>
+<tr>
+<td></td>
+<td>Oppose</td>
+<td>S2</td>
+<td>57</td>
+</tr>
+<tr>
+<td><strong>Index</strong></td>
+<td>Proximal short</td>
+<td>8+S</td>
+<td>80</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>8-S</td>
+<td>53</td>
+</tr>
+<tr>
+<td></td>
+<td>Proximal Long</td>
+<td>8+L</td>
+<td>125</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>8-L</td>
+<td>140</td>
+</tr>
+<tr>
+<td></td>
+<td>Distal</td>
+<td>5</td>
+<td>140</td>
+</tr>
+<tr>
+<td><strong>Middle</strong></td>
+<td>Proximal short</td>
+<td>7+S</td>
+<td>75</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>7-S</td>
+<td>60</td>
+</tr>
+<tr>
+<td></td>
+<td>Proximal long</td>
+<td>7+L</td>
+<td>125</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>7-L</td>
+<td>143</td>
+</tr>
+<tr>
+<td></td>
+<td>Distal</td>
+<td>3</td>
+<td>135</td>
+</tr>
+<tr>
+<td><strong>Ring</strong></td>
+<td>Distal</td>
+<td>2</td>
+<td>112</td>
+</tr>
+<tr>
+<td><strong>Pinkie</strong></td>
+<td>Distal</td>
+<td>9</td>
+<td>112</td>
+</tr>
+<tr>
+<td><strong>Ring&amp;Pinkie slider</strong></td>
+<td>Distal short</td>
+<td>0+S</td>
+<td>73</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>0-S</td>
+<td>60</td>
+</tr>
+<tr>
+<td></td>
+<td>Distal long</td>
+<td>0+L</td>
+<td>80</td>
+</tr>
+<tr>
+<td><strong>Fingers</strong></td>
+<td>abduction</td>
+<td>T0</td>
+<td>38</td>
+</tr>
+<tr>
+<td></td>
+<td>abduction</td>
+<td>T2</td>
+<td>27</td>
+</tr>
+<tr>
+<td></td>
+<td>abduction</td>
+<td>T3</td>
+<td>38</td>
+</tr>
+<tr>
+<td></td>
+<td>abduction</td>
+<td>T4</td>
+<td>44</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Remember that symbol + = finger closure and symbol - = finger aperture.</p>
+</div>
+<h2 id="3-how-to-cable-fingers-hand">3 HOW TO CABLE - FINGERS &amp; HAND<a class="headerlink" href="#3-how-to-cable-fingers-hand" title="Permanent link">&para;</a></h2>
+<h3 id="31-thumb-oppose">3.1 Thumb oppose<a class="headerlink" href="#31-thumb-oppose" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>To build the thumb oppose you just need 2 pieces of the sheath IITCODE 13963</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">Label</th>
+<th align="left">Dimension (mm)</th>
+<th align="left">IITCODE - SHEATH</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">S0</td>
+<td align="left">50</td>
+<td align="left">13963</td>
+</tr>
+<tr>
+<td align="left">S2</td>
+<td align="left">57</td>
+<td align="left">13963</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>And approximatively <strong>40cm</strong> of IITCODE 1815 to route it.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">IITCODE</th>
+<th align="left">Alias</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1815</td>
+<td align="left">CG077063</td>
+<td align="left">Stainless steel microcable, cable construction 7x7mm, nom. dia 0.63mm, not coated, AISI 316</td>
+</tr>
+<tr>
+<td align="left">13963</td>
+<td align="left">MAZZONI_0_3-0_8-250_SS_SHEATH</td>
+<td align="left">Rectangular section sheath 0.3x0.8, L = 250 mm</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Here is a more detail specification of where to find the 2 pieces:</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">Left Hand</th>
+<th align="left">Right Hand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src="../img/HAND_WRIST_V2/Opposite_palm-view.png" width="700"></td>
+<td align="left"><img src="../img/HAND_WRIST_V2/R_Th-opp-d-view.png" width="700"></td>
+</tr>
+</tbody>
+</table>
+<p>S0 exits the motor case from the hole near the motor (H2). Enters the finger in the hole which is internal to the palm (H3).</p>
+<p>S2 exits the motor case from the hole near the ball bearing (H1). Enters the finger in the hole which is external to the palm (H4).</p>
+<p><center> <img src ="../img/hand/Fig_4-10.png" width="400"> </center></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cable turns around the pulley with the thumb in the straight position (half thumb path) in order to permit the two opposite movements. </p>
+</div>
+<p>Please follow this <a href="../wrist_hand_cabling_V1/#22-thumb-oppose">link</a> for an extended HOWTO route the cable.</p>
+<h3 id="32-fingers-abduction">3.2 Fingers Abduction<a class="headerlink" href="#32-fingers-abduction" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>To build the fingers abduction you just need 4 pieces of the sheath IITCODE 2375</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Sheaths</th>
+<th>Dimension (mm)</th>
+<th><strong>Label</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T1</td>
+<td>38</td>
+<td>T0</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>27</td>
+<td>T2</td>
+</tr>
+<tr>
+<td>T3</td>
+<td>38</td>
+<td>T3</td>
+</tr>
+<tr>
+<td>T4</td>
+<td>44</td>
+<td>T4</td>
+</tr>
+</tbody>
+</table>
+<p>and approximatively 40cm of IITCODE 1815 to route it.</p>
+<table>
+<thead>
+<tr>
+<th align="left">IITCODE</th>
+<th align="left">Alias</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1815</td>
+<td align="left">CG077063</td>
+<td align="left">Stainless steel micro-cable, cable construction 7x7mm, nom. diameter 0.63mm, not coated, AISI 316</td>
+</tr>
+<tr>
+<td align="left">2375</td>
+<td align="left">SHEATH</td>
+<td align="left">Open spiral spring, inox steel AISI302, D ext= 1.6mm, D wire= 0.25mm, L = 500 mm</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Here is a more detail specification of where to find the 3 pieces:</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="left">Left Hand</th>
+<th align="left">Right Hand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src ="../img/hand/Abd_left.png"></td>
+<td align="left"><img src ="../img/hand/Abd_right.png"></td>
+</tr>
+</tbody>
+</table>
+<p>Please follow this <a href="../wrist_hand_cabling_V1/#23-fingers-abduction">link</a> for an extended HOWTO route the cable.</p>
+<h3 id="33-proximal-joints">3.3 Proximal Joints<a class="headerlink" href="#33-proximal-joints" title="Permanent link">&para;</a></h3>
+<p>The 3 proximal joints :</p>
+<ul>
+<li>Thumb</li>
+<li>Index</li>
+<li>Middle</li>
+</ul>
+<p>located here:</p>
+<table>
+<thead>
+<tr>
+<th align="left">LEFT FOREARM</th>
+<th align="left">RIGHT FOREARM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src ="../img/lowerArm/Left_motorsV1.png" height=150 width=700></td>
+<td align="left"><img src ="../img/lowerArm/Right_motorsV1.png" height=150 width=700></td>
+</tr>
+</tbody>
+</table>
+<p>are all wired with the cable 0.63mm uncoated from CARLSTAHL GmbH as per the following table:</p>
+<table>
+<thead>
+<tr>
+<th align="left">IITCODE</th>
+<th align="left">Alias</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1815</td>
+<td align="left">CG077063</td>
+<td align="left">Stainless steel micro-cable, cable construction 7x7mm, nom. dia 0,63mm, not coated, AISI 316</td>
+</tr>
+</tbody>
+</table>
+<p>Every sheath in which the cable pass through (+ and - ) is made of:</p>
+<table>
+<thead>
+<tr>
+<th align="left">IITCODE</th>
+<th align="left">Alias</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">13963</td>
+<td align="left">MAZZONI_0_3-0_8-250_SS_SHEATH</td>
+<td align="left">Rectangular section sheath 0.3x0.8, L = 250 mm</td>
+</tr>
+</tbody>
+</table>
+<p>Please follow this <a href="../lower_arm_V1/#3-proximal-joints">link</a> for an extended HOWTO route the cable.</p>
+<h4 id="331-thumb-proximal">3.3.1 Thumb Proximal<a class="headerlink" href="#331-thumb-proximal" title="Permanent link">&para;</a></h4>
+<p>Here are the sheaths needed for the Thumb proximal Joint.</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>74(mm)</td>
+<td>6+S</td>
+<td>Exits the motor case from the hole near the ball bearing (H1)</td>
+</tr>
+<tr>
+<td>74(mm)</td>
+<td>6-S</td>
+<td>Exits the motor case from the hole near the motor (H2)</td>
+</tr>
+<tr>
+<td>124(mm)</td>
+<td>6+L</td>
+<td>Enters the finger in the hole near the other fingers(H3)</td>
+</tr>
+<tr>
+<td>124(mm)</td>
+<td>6-L</td>
+<td>Enters the finger in the hole near the wrist (H4)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src ="../img/hand/Fig_4-22.png" width="700"></td>
+<td><img src ="../img/hand/Fig_4-21.png" width="700"></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For proximal cablings you need to mark with a suitable pen the cable most internal in the finger (palm opposite side). Then leave the cable and make a knot. Then you must pull the cable (the finger will be closed) and you can make the knot on the other cable nearest the palm, without marking with the pen. </p>
+</div>
+<h4 id="332-index-proximal">3.3.2 Index Proximal<a class="headerlink" href="#332-index-proximal" title="Permanent link">&para;</a></h4>
+<p>Here are the sheaths needed for the Index Proximal Joint.</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>80(mm)</td>
+<td>8+S</td>
+<td>Exits the motor case from the hole near the ball bearing (H1)</td>
+</tr>
+<tr>
+<td>53(mm)</td>
+<td>8-S</td>
+<td>Exits the motor case from the hole near the motor (H2)</td>
+</tr>
+<tr>
+<td>125(mm)</td>
+<td>8+L</td>
+<td>Enters the finger in the hole close to the palm side (H3)</td>
+</tr>
+<tr>
+<td>140(mm)</td>
+<td>8-L</td>
+<td>Enters the finger in the hole close to the back of the hand side (H4)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="333-middle-proximal">3.3.3 Middle Proximal<a class="headerlink" href="#333-middle-proximal" title="Permanent link">&para;</a></h4>
+<p>Here are the sheaths needed for the Middle Proximal Joint.</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>75(mm)</td>
+<td>7+S</td>
+<td>Exits the motor case from the hole near the ball bearing (H1)</td>
+</tr>
+<tr>
+<td>60(mm)</td>
+<td>7-S</td>
+<td>Exits the motor case from the hole near the motor (H2)</td>
+</tr>
+<tr>
+<td>125(mm)</td>
+<td>7+L</td>
+<td>Enters the finger in the hole close to the palm side (H3)</td>
+</tr>
+<tr>
+<td>143(mm)</td>
+<td>7-L</td>
+<td>Enters the finger in the hole close to the back of the hand side (H4)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="34-distal-joints">3.4 Distal Joints<a class="headerlink" href="#34-distal-joints" title="Permanent link">&para;</a></h3>
+<p>The 5 distal joints (theoretically 5 but in practice just 4 motors need to be wired):</p>
+<ul>
+<li>Thumb</li>
+<li>Index</li>
+<li>Middle</li>
+<li>Ring and Pinkie</li>
+</ul>
+<p>Located here:</p>
+<table>
+<thead>
+<tr>
+<th align="left">LEFT FOREARM</th>
+<th align="left">RIGHT FOREARM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><img src ="../img/hand/Left_distals.png"></td>
+<td align="left"><img src ="../img/hand/Right_distals.png"></td>
+</tr>
+</tbody>
+</table>
+<p>Are wired with the following cables:</p>
+<table>
+<thead>
+<tr>
+<th align="left">IITCODE</th>
+<th align="left">Alias</th>
+<th align="left">Description</th>
+<th>Joint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">2391</td>
+<td align="left">U7194561</td>
+<td align="left">Stainless steel microcable, cable construction 7x19mm, nom. dia 0.45mm, outer dia 0.61mm, Polyamide coated, AISI 316 - CARL STAHL GMBH</td>
+<td>Thumb</br>  Index</br> Middle</br>Ring &amp; Pinkie (from slider to fingers)</td>
+</tr>
+<tr>
+<td align="left">1815</td>
+<td align="left">CG077063</td>
+<td align="left">Stainless steel micro-cable, cable construction 7x7mm, nom. dia 0.63mm, not coated, AISI 316</td>
+<td>Ring &amp; Pinkie (slider movement)</td>
+</tr>
+</tbody>
+</table>
+<p>Please follow this <a href="../lower_arm_V1/#2-distal-joints">link</a> for an extended HOWTO route the cable.</p>
+<h4 id="341-thumb-distal">3.4.1 Thumb Distal<a class="headerlink" href="#341-thumb-distal" title="Permanent link">&para;</a></h4>
+<p>The cable needed for the Thumb Distal Joint is IITCODE 2391 and the sheath:</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>132(mm)</td>
+<td>4</td>
+<td>Exits the motor case from the hole inside the forearm (H1)</td>
+</tr>
+</tbody>
+</table>
+<p><center> <img src ="../img/hand/Fig_4-31.png" width="300"> </center></p>
+<h4 id="342-index-distal">3.4.2 Index Distal<a class="headerlink" href="#342-index-distal" title="Permanent link">&para;</a></h4>
+<p>The cable needed for the Index Distal Joint is IITCODE 2391 and the sheath:</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>140(mm)</td>
+<td>5</td>
+<td>Exits the motor case from the hole inside the forearm (H1)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="343-middle-distal">3.4.3 Middle Distal<a class="headerlink" href="#343-middle-distal" title="Permanent link">&para;</a></h4>
+<p>The cable needed for the Middle Distal Joint is IITCODE 2391 and the sheath:</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>135(mm)</td>
+<td>3</td>
+<td>Exits the motor case from the hole inside the forearm (H1).</td>
+</tr>
+</tbody>
+</table>
+<h4 id="344-ring-pinkie-distal">3.4.4 Ring &amp; Pinkie Distal<a class="headerlink" href="#344-ring-pinkie-distal" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>This joint differs from the others since its movement is realized with a slider. The motor rotates so as to move the slider (clockwise rotations correspond to moving the slider proximally, i.e. closer to the elbow). The slider pulls a couple of wires so as to close the ring and little finger. </p>
+<p>These 2 fingers are so actuated by 3 wires - 2 for the distal cables inside the fingers and 1 inside the motor shaft which moves the slider.</p>
+</blockquote>
+<p>The 2 cables needed for the R&amp;P Distal Joint (from slider to fingers) are IITCODE 2391 <strong>and</strong> the 1 cable needed for the slider movements is IITCODE 1815 . The sheaths needed are:</p>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th><strong>Label</strong></th>
+<th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>60(mm)</td>
+<td>0-S or 0-</td>
+<td>Exits the motor case from the hole closer to the motor. Enters the hole in the slider near the hand (H5)</td>
+</tr>
+<tr>
+<td>80(mm)</td>
+<td>0+L</td>
+<td>Exits the motor case from the hole close to the ball bearing and arrives to the tensioner</td>
+</tr>
+<tr>
+<td>73(mm)</td>
+<td>0+S</td>
+<td>Exits from the tensioner and enters the hole in the slider near the elbow (H4)</td>
+</tr>
+<tr>
+<td>112(mm)</td>
+<td>2</td>
+<td>Exits from the slider (H10) and enters the finger which is closer to the hole - ring.</td>
+</tr>
+<tr>
+<td>112(mm)</td>
+<td>9</td>
+<td>Exits from the slider (H11) and enters the finger which is closer to the hole - pinkie.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Before connecting the sheath to the support insert and exit the cable, otherwise after this operation it would be more complicated.</p>
+</div>
+<p>Here you can see the schematic of the cabling. The sheaths entering the fingers are represented in blue, while the sheaths for the slider movement are in red. The gray block is the tensioner.</p>
+<p><center> <img src ="../img/hand/Slider.png" width=300> </center></p>
+<p>Please follow this <a href="../lower_arm_V1/#225-ring-and-pinkie">link</a> for an extended HOWTO route the cable.</p>
+<h2 id="4-how-to-cable-wrist">4 HOW TO CABLE - WRIST<a class="headerlink" href="#4-how-to-cable-wrist" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>The wrist movements (roll, pitch and yaw) are achieved with three motors located in the forearm. The wrist roll (or pronosupination) is achieved directly, i.e. without any cable driven joint.</p>
+<p>The wrist pitch and yaw are instead cable driven. The actuation is achieved with two motors which jointly collaborate to the pitch and yaw degrees of freedom. The actuation is differential with the following relationship:</p>
+<p>wrist_pitch = M1</p>
+<p>wrist_yaw = M1 + M2</p>
+<p>where M1 and M2 are the angular positions of the the two motors contributing to the movements. </p>
+</blockquote>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th>Wrist motors left arm</th>
+<th>Section view left arm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src ="../img/hand/Motors_wrist.png" height = 300></td>
+<td><img src ="../img/hand/Motors_wrist1.png" height = 300></td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<p>The overall cables of the wrist are all build from IITCODE 1815 with the following specifications:</p>
+<table>
+<thead>
+<tr>
+<th>IITCODE</th>
+<th>Alias/Provider Code</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1815</td>
+<td>CG077063</td>
+<td>Stainless steel microcable, cable construction 7x7mm, nom. dia 0.63mm, not coated, AISI 316</td>
+</tr>
+</tbody>
+</table>
+<h3 id="41-wrist-motor-tendons">4.1 Wrist Motor tendons<a class="headerlink" href="#41-wrist-motor-tendons" title="Permanent link">&para;</a></h3>
+<p>From the pictures below you will be able to locate and identify the tendons inside the <strong>Right Forearm</strong> building the active part of the wrist tendons.</p>
+<p><center> <img src ="../img/wrist/Tendons_wrist_right.png" width=500>
+         <img src ="../img/wrist/Tendons_wrist_right_back.png" width=500></p>
+<p></center></p>
+<p>From the pictures below you will be able to locate and identify the tendons inside the <strong>Left Forearm</strong> building the active part of the wrist tendons.</p>
+<p><center>
+    <img src ="../img/wrist/Tendons_wrist_left.png" width=500>
+    <img src ="../img/wrist/Tendons_wrist_left_back.png" width=500></p>
+<p></center></p>
+<p>To get more details on how to rewire them, please follow this <a href="../wrist_hand_cabling_V1/#112-cabling">link</a>.</p>
+<h3 id="42-tensioner-iitcode-3745">4.2 Tensioner - IITCODE 3745<a class="headerlink" href="#42-tensioner-iitcode-3745" title="Permanent link">&para;</a></h3>
+<p><center> <img src ="../img/hand/Tensioner_V1.png" width=500> </center></p>
+<p>To properly tense the tendons of the Forearm it is mandatory to add the tensioner IITCODE 3745- alias CAD of the assembly:  RC_TLR_007_G_014_00 - it is made by the following pieces:</p>
+<p><center></p>
+<table>
+<thead>
+<tr>
+<th align="left">IITCODE</th>
+<th align="left">Revision</th>
+<th align="left">Alias</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">3756</td>
+<td align="left">2</td>
+<td align="left">RC_TLR_007_P_042_00</td>
+<td align="left">TENSIONER BODY</td>
+</tr>
+<tr>
+<td align="left">3757</td>
+<td align="left">1</td>
+<td align="left">RC_TLR_007_P_041_00</td>
+<td align="left">TENSIONER SCREW</td>
+</tr>
+<tr>
+<td align="left">2121</td>
+<td align="left"></td>
+<td align="left">RC_TLR_007_P_044_00</td>
+<td align="left">LOCK NUT</td>
+</tr>
+<tr>
+<td align="left">3758</td>
+<td align="left">1</td>
+<td align="left">RC_TLR_007_P_067_00</td>
+<td align="left">TENSIONER SCREW</td>
+</tr>
+<tr>
+<td align="left">2136</td>
+<td align="left"></td>
+<td align="left">RC_TLR_007_P_068_00</td>
+<td align="left">LOCK NUT</td>
+</tr>
+</tbody>
+</table>
+<p></center></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Note that RED nut and the RED extremity of the tensioner assembly are left hand-threaded (wrist side). Pay attention to the direction of turning.</p>
+</div>
+<h3 id="43-wrist-passive-tendons">4.3 Wrist Passive tendons<a class="headerlink" href="#43-wrist-passive-tendons" title="Permanent link">&para;</a></h3>
+<p>From the pictures below you will be able to locate and identify the 2 tendons inside the wrist building the passive part of the wrist movements.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src ="../img/wrist/FIG22.PNG" height = 300></td>
+<td><img src ="../img/wrist/FIG24.PNG" height = 300></td>
+</tr>
+<tr>
+<td><img src ="../img/wrist/FIG23.PNG" height = 300></td>
+<td><img src ="../img/wrist/FIG25.PNG" height = 300></td>
+</tr>
+<tr>
+<td><img src ="../img/wrist/FIG26.PNG" height = 300></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>To get more details on how to rewire them, please follow this <a href="../wrist_hand_cabling_V1/#122-cabling">link</a>.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../lower_arm/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Definition
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../remove/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Disconnection V1
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            BSD 3-Clause License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.f5903571.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3981fc68.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,3075 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation resources for the iCub & R1 robots">
+      
+      
+      
+        <meta name="author" content="iCub Tech">
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.2">
+    
+    
+      
+        <title>Waist, Leg and Ankle - iCub Tech Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="" data-md-color-accent="amber">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#waist-stand-locker-and-legs-cabling-manual" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="iCub Tech Docs" class="md-header__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            iCub Tech Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Waist, Leg and Ankle
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="iCub Tech Docs" class="md-nav__button md-logo" aria-label="iCub Tech Docs">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2M7.5 13A2.5 2.5 0 0 0 5 15.5 2.5 2.5 0 0 0 7.5 18a2.5 2.5 0 0 0 2.5-2.5A2.5 2.5 0 0 0 7.5 13m9 0a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5z"/></svg>
+
+    </a>
+    iCub Tech Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/icub-tech-iit/documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    icub-tech-iit/documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" checked>
+      
+      <label class="md-nav__link" for="__nav_1">
+        iCub Tech Docs
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Tech Docs" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Tech Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home Page
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_2" type="checkbox" id="__nav_1_2" >
+      
+      <label class="md-nav__link" for="__nav_1_2">
+        iCub Starter Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Starter Kits" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Starter Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_starter_kits/first_steps/" class="md-nav__link">
+        First steps with the Humanoid iCub
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" type="checkbox" id="__nav_1_3" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3">
+        iCub HW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub HW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          iCub HW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_hw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_2" type="checkbox" id="__nav_1_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_2">
+        The iCub Versions Table
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Versions Table" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Versions Table
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_versions/" class="md-nav__link">
+        Versions Table
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_3" type="checkbox" id="__nav_1_3_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_3">
+        The iCub Wiring
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Wiring" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Wiring
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/icub1_x/" class="md-nav__link">
+        iCub 1.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/icub2_x/" class="md-nav__link">
+        iCub 2.x
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_wiring/icub3_x/" class="md-nav__link">
+        iCub 3.x
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4" type="checkbox" id="__nav_1_3_4" checked>
+      
+      <label class="md-nav__link" for="__nav_1_3_4">
+        The iCub Tendons manual
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Tendons manual" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Tendons manual
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neck/" class="md-nav__link">
+        Neck
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shoulder_elbow/" class="md-nav__link">
+        Shoulder and Elbow
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4" type="checkbox" id="__nav_1_3_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4">
+        Lower Arm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Lower Arm" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_3_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Lower Arm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_arm/" class="md-nav__link">
+        Definition
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2" type="checkbox" id="__nav_1_3_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2">
+        Version 1
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 1" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Version 1
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_1" type="checkbox" id="__nav_1_3_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hand_cabling_V1/" class="md-nav__link">
+        How-to Cable and Needed Parts V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_2_2" type="checkbox" id="__nav_1_3_4_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_2_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remove/" class="md-nav__link">
+        Disconnection V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_arm_V1/" class="md-nav__link">
+        Lower Arm V1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wrist_hand_cabling_V1/" class="md-nav__link">
+        Wrist and Hand Cabling V1
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3" type="checkbox" id="__nav_1_3_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3">
+        Version 2
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Version 2" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Version 2
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_1" type="checkbox" id="__nav_1_3_4_4_3_1" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_1">
+        Building Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Building Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Building Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hand_cabling_V2/" class="md-nav__link">
+        How-to Cable and Needed Parts V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_4_4_3_2" type="checkbox" id="__nav_1_3_4_4_3_2" >
+      
+      <label class="md-nav__link" for="__nav_1_3_4_4_3_2">
+        Repair Phase
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Repair Phase" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_3_4_4_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Repair Phase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remove/" class="md-nav__link">
+        Disconnection V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lower_arm_V2/" class="md-nav__link">
+        Lower Arm V2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wrist_hand_cabling_V2/" class="md-nav__link">
+        Wrist and Hand Cabling V2
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Waist, Leg and Ankle
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Waist, Leg and Ankle
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-cable-construction" class="md-nav__link">
+    1    Cable construction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-waist" class="md-nav__link">
+    2    WAIST
+  </a>
+  
+    <nav class="md-nav" aria-label="2    WAIST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-chest-back-and-back-pack-covers-dismounting" class="md-nav__link">
+    2.1 CHEST, BACK and BACK PACK COVERS DISMOUNTING
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-waist-back-cable-11" class="md-nav__link">
+    2.2 WAIST BACK - Cable 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-waist-front-cable-12" class="md-nav__link">
+    2.3 WAIST FRONT – Cable 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-waist-top-cable-13" class="md-nav__link">
+    2.4 WAIST TOP – Cable 13
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-leg-cabling" class="md-nav__link">
+    3    LEG CABLING
+  </a>
+  
+    <nav class="md-nav" aria-label="3    LEG CABLING">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-hip-flexion-cable-14" class="md-nav__link">
+    3.1 HIP FLEXION – Cable 14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#41-ankle-flexion-cable-15-or-cable-16" class="md-nav__link">
+    4.1 ANKLE FLEXION - Cable 15 or Cable 16
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-stand-fast-robot-locker" class="md-nav__link">
+    5    STAND – FAST ROBOT LOCKER
+  </a>
+  
+    <nav class="md-nav" aria-label="5    STAND – FAST ROBOT LOCKER">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-stand-cable-29" class="md-nav__link">
+    5.1 STAND  - Cable 29
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_5" type="checkbox" id="__nav_1_3_5" >
+      
+      <label class="md-nav__link" for="__nav_1_3_5">
+        The iCub Upgrade Kits
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub Upgrade Kits" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub Upgrade Kits
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/torso_capacitors/support/" class="md-nav__link">
+        KIT_002 Update of torso capacitors
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/hands/support/" class="md-nav__link">
+        KIT_003 Hands Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/upperarm_cover_icub2_5/support/" class="md-nav__link">
+        KIT_004 Update upper arm covers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/eyes/support/" class="md-nav__link">
+        KIT_005 Eyes Motor Replacement Support
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/differential_neck_pulley/support/" class="md-nav__link">
+        KIT_006 Update of differential neck pulley
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../upgrade_kits/ankle_for_stairs/support/" class="md-nav__link">
+        KIT_007 Ankle for climbing stairs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_6" type="checkbox" id="__nav_1_3_6" >
+      
+      <label class="md-nav__link" for="__nav_1_3_6">
+        F/T Sensors
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="F/T Sensors" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          F/T Sensors
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ft-sensors/ft-sensors/" class="md-nav__link">
+        F/T Sensors
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_7" type="checkbox" id="__nav_1_3_7" >
+      
+      <label class="md-nav__link" for="__nav_1_3_7">
+        iCub Kinematics
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Kinematics" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Kinematics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-joints/icub-joints/" class="md-nav__link">
+        iCub Joints
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-joints-limits/icub-joints-limits/" class="md-nav__link">
+        iCub Joints Limits
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-robot-configuration/icub-robot-configuration/" class="md-nav__link">
+        Robot Configuration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions/" class="md-nav__link">
+        ICub Model naming conventions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-vergence-version/icub-vergence-version/" class="md-nav__link">
+        Vergence, Version and Disparity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics/" class="md-nav__link">
+        iCub FW Kinematics
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms/" class="md-nav__link">
+        iCub FW Kinematics Arms
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers/" class="md-nav__link">
+        iCub FW Kinematics Fingers
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head/" class="md-nav__link">
+        iCub FW Kinematics Head
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs/" class="md-nav__link">
+        iCub FW Kinematics Legs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial/" class="md-nav__link">
+        iCub FW Kinematics Inertial
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_8" type="checkbox" id="__nav_1_3_8" >
+      
+      <label class="md-nav__link" for="__nav_1_3_8">
+        iCub 3
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub 3" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_3_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub 3
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub3/icub3-joints/" class="md-nav__link">
+        iCub 3 joints specs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4" type="checkbox" id="__nav_1_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4">
+        iCub SW
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub SW" data-md-level="2">
+        <label class="md-nav__title" for="__nav_1_4">
+          <span class="md-nav__icon md-icon"></span>
+          iCub SW
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_sw/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2" type="checkbox" id="__nav_1_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2">
+        Software Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Software Installation" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Software Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2" type="checkbox" id="__nav_1_4_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2">
+        Installation from sources
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from sources" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from sources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_1" type="checkbox" id="__nav_1_4_2_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/windows_from_sources_superbuild/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/linux_from_sources_superbuild/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/macos_from_sources_superbuild/" class="md-nav__link">
+        macOS
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_2_2" type="checkbox" id="__nav_1_4_2_2_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_2_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/linux_from_sources_manual/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_3" type="checkbox" id="__nav_1_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_3">
+        Installation from pre-compiled binaries
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation from pre-compiled binaries" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation from pre-compiled binaries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/windows_binaries/" class="md-nav__link">
+        Windows
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/linux_binaries/" class="md-nav__link">
+        Linux (Debian/Ubuntu)
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/check_your_installation/" class="md-nav__link">
+        Check your installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5" type="checkbox" id="__nav_1_4_2_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5">
+        Installation on specific systems on iCub setup
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation on specific systems on iCub setup" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Installation on specific systems on iCub setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_1" type="checkbox" id="__nav_1_4_2_5_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_1">
+        Superbuild Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Superbuild Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Superbuild Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/icub_head_superbuild/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_2_5_2" type="checkbox" id="__nav_1_4_2_5_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_2_5_2">
+        Manual Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Manual Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_2_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Manual Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_installation/icub_head_manual/" class="md-nav__link">
+        icub-head
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sw_versioning_table/" class="md-nav__link">
+        Software Versioning Table
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4" type="checkbox" id="__nav_1_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4">
+        The OS for the iCub enviroment
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS for the iCub enviroment" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS for the iCub enviroment
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2" type="checkbox" id="__nav_1_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2">
+        The OS on icub-head
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on icub-head" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on icub-head
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/icubos/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/bios/" class="md-nav__link">
+        BIOS Tweaks
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_2_3" type="checkbox" id="__nav_1_4_4_2_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_2_3">
+        Installation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Installation" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Installation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/installation-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/installation-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/networking/" class="md-nav__link">
+        Networking
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/bluetooth/" class="md-nav__link">
+        Bluetooth
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/icubos/user-env/" class="md-nav__link">
+        User environment
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_3" type="checkbox" id="__nav_1_4_4_3" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_3">
+        The OS on PC104 (live USB)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on PC104 (live USB)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on PC104 (live USB)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/pc104/icub-live/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/pc104/the-icub-live-installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/pc104/the-icub-live-details/" class="md-nav__link">
+        Details
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4" type="checkbox" id="__nav_1_4_4_4" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4">
+        The OS on other machines (not on robot)
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The OS on other machines (not on robot)" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          The OS on other machines (not on robot)
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/generic-machine/" class="md-nav__link">
+        Generic iCub enviroment machines (eg. laptop)
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2" type="checkbox" id="__nav_1_4_4_4_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2">
+        The iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The iCub server" data-md-level="5">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          The iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_4_4_2_1" type="checkbox" id="__nav_1_4_4_4_2_1" >
+      
+      <label class="md-nav__link" for="__nav_1_4_4_4_2_1">
+        The "real" iCub server
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="The "real" iCub server" data-md-level="6">
+        <label class="md-nav__title" for="__nav_1_4_4_4_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          The "real" iCub server
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/icub-server-from-image/" class="md-nav__link">
+        Installation from pre-built image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/icub-server-from-scratch/" class="md-nav__link">
+        Installation from scratch
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/icub-server-laptop/" class="md-nav__link">
+        The laptop used as icub server
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_operating_systems/other-machines/cuda-workstation/" class="md-nav__link">
+        The CUDA workstation
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_5" type="checkbox" id="__nav_1_4_5" >
+      
+      <label class="md-nav__link" for="__nav_1_4_5">
+        iCub Setup Multiple Robots
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Setup Multiple Robots" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Setup Multiple Robots
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_setup_multiple_robots/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_setup_multiple_robots/two_robots_simulation/" class="md-nav__link">
+        How to use two iCub robots in gazebo simulation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_setup_multiple_robots/two_robots_real/" class="md-nav__link">
+        How to use two real iCub robots on the same network
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6" type="checkbox" id="__nav_1_4_6" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6">
+        iCub Firmware
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Firmware" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_6">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Firmware
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/" class="md-nav__link">
+        Summary
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_6_2" type="checkbox" id="__nav_1_4_6_2" >
+      
+      <label class="md-nav__link" for="__nav_1_4_6_2">
+        Firmware Toolchain Documentation
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Firmware Toolchain Documentation" data-md-level="4">
+        <label class="md-nav__title" for="__nav_1_4_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Firmware Toolchain Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/fw_toolchain/installing_keil/" class="md-nav__link">
+        Installing Keil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/fw_toolchain/installing_mplab/" class="md-nav__link">
+        Installing MPLAB
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/firmware/firmware/" class="md-nav__link">
+        Firmware Documentation
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/associated-firmware/associated-firmware/" class="md-nav__link">
+        Associated Firmware
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_firmware/canLoader/canLoader/" class="md-nav__link">
+        CanLoader
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_7" type="checkbox" id="__nav_1_4_7" >
+      
+      <label class="md-nav__link" for="__nav_1_4_7">
+        iCub Microphones
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Microphones" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_7">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Microphones
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_microphones/icub_microphones/" class="md-nav__link">
+        How to use microphones
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_8" type="checkbox" id="__nav_1_4_8" >
+      
+      <label class="md-nav__link" for="__nav_1_4_8">
+        iCub Robot Calibration
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub Robot Calibration" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_8">
+          <span class="md-nav__icon md-icon"></span>
+          iCub Robot Calibration
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_robot_calibration/icub-robot-calibration/" class="md-nav__link">
+        Robot Calibration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_robot_calibration/icub-stereo-calib/" class="md-nav__link">
+        Stereo Calibration
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_9" type="checkbox" id="__nav_1_4_9" >
+      
+      <label class="md-nav__link" for="__nav_1_4_9">
+        iCub/R1 Calibration Types
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iCub/R1 Calibration Types" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_9">
+          <span class="md-nav__icon md-icon"></span>
+          iCub/R1 Calibration Types
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../icub_r1_calibration_types/icub_r1_calibration_types/" class="md-nav__link">
+        Calibration types
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_4_10" type="checkbox" id="__nav_1_4_10" >
+      
+      <label class="md-nav__link" for="__nav_1_4_10">
+        Configure IP on a setup for ETH boards
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Configure IP on a setup for ETH boards" data-md-level="3">
+        <label class="md-nav__title" for="__nav_1_4_10">
+          <span class="md-nav__icon md-icon"></span>
+          Configure IP on a setup for ETH boards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../configure_static_ip/configure-static-ip/" class="md-nav__link">
+        Configure IP on a setup for ETH boards
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-cable-construction" class="md-nav__link">
+    1    Cable construction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-waist" class="md-nav__link">
+    2    WAIST
+  </a>
+  
+    <nav class="md-nav" aria-label="2    WAIST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-chest-back-and-back-pack-covers-dismounting" class="md-nav__link">
+    2.1 CHEST, BACK and BACK PACK COVERS DISMOUNTING
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-waist-back-cable-11" class="md-nav__link">
+    2.2 WAIST BACK - Cable 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-waist-front-cable-12" class="md-nav__link">
+    2.3 WAIST FRONT – Cable 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-waist-top-cable-13" class="md-nav__link">
+    2.4 WAIST TOP – Cable 13
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-leg-cabling" class="md-nav__link">
+    3    LEG CABLING
+  </a>
+  
+    <nav class="md-nav" aria-label="3    LEG CABLING">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-hip-flexion-cable-14" class="md-nav__link">
+    3.1 HIP FLEXION – Cable 14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#41-ankle-flexion-cable-15-or-cable-16" class="md-nav__link">
+    4.1 ANKLE FLEXION - Cable 15 or Cable 16
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-stand-fast-robot-locker" class="md-nav__link">
+    5    STAND – FAST ROBOT LOCKER
+  </a>
+  
+    <nav class="md-nav" aria-label="5    STAND – FAST ROBOT LOCKER">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-stand-cable-29" class="md-nav__link">
+    5.1 STAND  - Cable 29
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/icub-tech-iit/documentation/edit/master/docs/icub_tendons/waist_legs.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="waist-stand-locker-and-legs-cabling-manual"><strong>Waist, Stand Locker and Legs Cabling Manual</strong><a class="headerlink" href="#waist-stand-locker-and-legs-cabling-manual" title="Permanent link">&para;</a></h1>
+<h2 id="1-cable-construction">1    Cable construction<a class="headerlink" href="#1-cable-construction" title="Permanent link">&para;</a></h2>
+<p><center><img alt="waist" src="../img/waist/cables_all.png" /></center>
+<center> 11  : length 709 mm - Diam. 1.5/1.75</center>
+<center> 12  : length 488 mm - Diam. 1.5/1.75</center>
+<center> 13  : length 630 mm - Diam. 1.5/1.75 </center>
+<center> 14  : length 729 mm -  Diam. 1.5/1.75 </center> 
+<center> 15  : length 450 mm -  Diam. 1.5/1.75 </center> 
+<center> 16  : length 530 mm -  Diam. 1.5/1.75 </center> 
+<center> 29  : length &nbsp;&nbsp;23 mm - Diam. 1.5/1.75 </center></p>
+<blockquote>
+<p>Each cable from the list above is made of U7191517 (IITCODE 2390) with its belonging lengths and 2 crimps RC_TLR_003_P_101 (IITCODE 3492).</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>IITCODE</th>
+<th>Alias</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2390</td>
+<td>U7191517</td>
+<td>Stainless, cable construction 7x19mm, Polyamide coated - CARL STAHL GMBH</td>
+</tr>
+<tr>
+<td>3492</td>
+<td>RC_TLR_003_P_101</td>
+<td>Thimble for cable 1.75mm (Diam int/ext/L 1.6/4.6/6 mm) - material X5CrNiMo1712-AISI316</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Alternatively, each cable can be seen as an assembly with its respective IITCODE and alias taken from CAD named RC_IIT_019_G_0XX - where XX is number from 11 to 16.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>IITCODE</th>
+<th>Alias</th>
+<th>Revision</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4768</td>
+<td>RC_IIT_019_G_011</td>
+<td>1</td>
+<td>WAIST BACK CABLE 11</td>
+</tr>
+<tr>
+<td>4769</td>
+<td>RC_IIT_019_G_012</td>
+<td>1</td>
+<td>WAIST FRONT CABLE 12</td>
+</tr>
+<tr>
+<td>4770</td>
+<td>RC_IIT_019_G_013</td>
+<td>1</td>
+<td>WAIST TOP CABLE 13</td>
+</tr>
+<tr>
+<td>4771</td>
+<td>RC_IIT_019_G_014</td>
+<td>1</td>
+<td>HIP FLEXION CABLE 14</td>
+</tr>
+<tr>
+<td>4772</td>
+<td>RC_IIT_019_G_015</td>
+<td>1</td>
+<td>ANKLE FLEXION CABLE 15</td>
+</tr>
+<tr>
+<td>6377</td>
+<td>RC_IIT_019_G_016</td>
+<td>1</td>
+<td>ANKLE FLEXION V2 CABLE 16</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Cable 29 instead is aliased RC_IIT_090_G_005. At the moment this cable is home-made.</p>
+</blockquote>
+<h2 id="2-waist">2    WAIST<a class="headerlink" href="#2-waist" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>This chapter describes the steps required for the wiring of the cables 11 - 12 - 13 which allow the movement of the waist of the robot, both during construction and in maintenance/repair phase.</p>
+</blockquote>
+<div class="admonition note">
+<p class="admonition-title">VERY IMPORTANT NOTE</p>
+<p>If you have only the cable 12 broken please proceed directly to <a href="#23-waist-front-cable-12">2.3</a></p>
+</div>
+<blockquote>
+<p>Whatever the other cases of figure you run into, the only way to substitute/replace the broken cables is to follow the next steps.</p>
+</blockquote>
+<h3 id="21-chest-back-and-back-pack-covers-dismounting">2.1 CHEST, BACK and BACK PACK COVERS DISMOUNTING<a class="headerlink" href="#21-chest-back-and-back-pack-covers-dismounting" title="Permanent link">&para;</a></h3>
+<p><strong>A - CHEST cover removal</strong></p>
+<table>
+<thead>
+<tr>
+<th>pictures</th>
+<th>step by step guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../img/waist/chest-screws1.png" width = 300></td>
+<td><u>STEP 1:</u><br/>remove the 6 screws M2x5 (red arrows)<br/> (3 on each side of the skin patch of the chest cover)<br/>If you do not have skin on torso cover go on to the next step.<br/><br/><u>STEP 2:</u><br/>flip over the skin in order to access<br/> the 2 screws beneath it.<br/>Remove the 2 screws M3x6<br/><br/><u>STEP 3:</u><br/>hold the chest cover and remove the 2 crews M3x8 at the level of the shoulder (green circles)<br/><br/></td>
+</tr>
+<tr>
+<td>pictures of the connector</td>
+<td><u>STEP 4:</u><br/>disconnect the the electrical cable connecting the robot to the skin board inside the cover<br/>If you do not have skin on torso cover go on to the next step.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>depending of your version you will need to move sideways the back cover or the backpack.
+version without backpack</p>
+</blockquote>
+<p><strong>B1 - NO BACKPACK VERSION</strong></p>
+<table>
+<thead>
+<tr>
+<th>pictures</th>
+<th>step by step guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../img/waist/torso-screws.png" width = 300></td>
+<td><u>STEP 1:</u><br/>Unscrew the power cord on the back of iCub (black circle)<br/><u>STEP 2:</u><br/>Remove the 2 ring screws (green circles)<br/><u>STEP 3:</u><br/>remove the 4 screws M3x6 to be able to move sideways the back cover</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B2 - BACKPACK VERSION</strong></p>
+<table>
+<thead>
+<tr>
+<th>pictures</th>
+<th>step by step guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>picture of robot with connections</td>
+<td><u>STEP 1:</u><br/> disconnect the overall cables attached to the back pack -&gt;</td>
+</tr>
+<tr>
+<td><img src="../img/waist/top-bp-cover.png" width = 300></td>
+<td><u>STEP 2:</u><br/>remove the top cover of the back pack<br/>some version have a screw in the yellow circle some just a magnet<br/>If you have the version with the screw - remove it and just flip the cover and you are done.</td>
+</tr>
+<tr>
+<td><img src="../img/waist/btp-screws-real.png" width = 300><br/><img src="../img/waist/btp-screws-dummy.png" width = 300></td>
+<td><u>STEP 3:</u><br/>Either you use the <u>real</u> battery pack<br/>-&gt; untighten the 2 lateral screws<br/>or the <u>dummy</u> battery pack<br/>-&gt; remove the 2 lateral screw M2.5x10.</td>
+</tr>
+<tr>
+<td><img src="../img/waist/nut-screws.png" width = 300></td>
+<td><u>STEP 4:</u><br/>slide the 2 two pieces and remove them</td>
+</tr>
+<tr>
+<td><img src="../img/waist/bp-buttons.png" width = 250></td>
+<td><u>STEP 5:</u><br/>remove the buttons' cache by unmounting the screw M2x6</td>
+</tr>
+<tr>
+<td><img src="../img/waist/bp-power-board.png" width = 300></td>
+<td><u>STEP 6:</u><br/>loose the 2 screws M2.5x8 holding the switches/ethernet board and push it inwards<br /><strong>!!!NEED PICTURE TO SHOW THAT!!!</strong></td>
+</tr>
+<tr>
+<td><img src="../img/waist/stand-offs.png" width = 300></td>
+<td><u>STEP 7:</u><br/>On the previous mention board, try to pop out the stand-off <br/>above the 2 push buttons.<br/>they will be in the way when we will try to remove<br/> the backpack cover later on, we may break them<br/> if remove wrongly</td>
+</tr>
+<tr>
+<td><img src="../img/waist/bp-screws.png" width = 300></td>
+<td><u>STEP 8:</u><br/>remove the 4 screws (red circles) holding the back pack in place.<br/>NECK : 2 screws M3x8<br/>bottom back pack cover : 2 screws M3x12<br/>Theoretically, you should already have removed the 2 ring screws<br/>but if you forget, please do it now!!</td>
+</tr>
+<tr>
+<td><img src="../gif/waist_legs/bp-removal.gif" width = 300></td>
+<td><u>STEP 9:</u><br/>remove the backpack</td>
+</tr>
+<tr>
+<td></td>
+<td>watch out!!!</td>
+</tr>
+<tr>
+<td><img src="../img/waist/fans.jpg" width = 300><br /><img src="../img/waist/fan.jpg" width = 300></td>
+<td><u>STEP 10:</u><br/>disconnect the 3 connectors (2 on switch board - to drive the 2 fans atop the backpack- and 1 on power board to drive the fans on the right side of the backpack)</td>
+</tr>
+<tr>
+<td></td>
+<td><u>STEP 11:</u><br/>cut the tie wrap -&gt; the back cover can be left away until we will need to remount it</td>
+</tr>
+<tr>
+<td><img src="../img/waist/btp_holder-screws.png" width = 300></td>
+<td><u>STEP 12:</u><br/>remove the 4 screws holding the battery pack holder.<br/>2 screws M3x8 (yellow circle)<br/>2 screws M3x6 (red circle)<br/>!!! the battery pack holder can move almost freely from now on !!!</td>
+</tr>
+</tbody>
+</table>
+<p>YOU would probably asking me why did we need to remove all of this for?
+And the answer is that unfortunately the cover are preventing us for either tense the cables or access to some pieces.</p>
+<p>IF YOU HAVE **<u>ONLY</u>**CABLE 13 BROKEN JUST GO DIRECTLY <a href="#24-waist-top-cable-13">HERE</a></p>
+<p><strong>C - remove the back pulley</strong></p>
+<div class="admonition watch out">
+<p class="admonition-title">Watch</p>
+<p>once the pulley or one side of the cable 13 is removed the rotation of the torso is totally free, someone else help is more than appreciated to hold it firmly the robot in this process.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>what we have</th>
+<th>what we want</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../img/waist/WWH.png" width = 500></td>
+<td><img src="../img/waist/WWW.png" width = 500></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>pictures</th>
+<th>step by step guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../img/waist/cable13-tens-screws.png" width = 500></td>
+<td><u>STEP 1:</u><br/>loose the screws inside of the tensioners<br/>to get some slack on the cable.<br/>You should be able to make he cable jump around the</td>
+</tr>
+<tr>
+<td><img src="../img/waist/pulley13.png" width = 500></td>
+<td><u>STEP 2:</u><br/>You should be able to make the cable jump over the pulley</td>
+</tr>
+<tr>
+<td><img src="../img/waist/screw13.png" width = 500></td>
+<td><u>STEP 3:</u><br/>Remove the central screw of this pulley RC_TLR_001_P_243</td>
+</tr>
+<tr>
+<td></td>
+<td><u>STEP 4:</u><br/>Use 2 fat flat screwdrivers to make the pulley popping up.<br/><strong>-&gt; photo needed</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>D- create the require space</strong></p>
+<table>
+<thead>
+<tr>
+<th>pictures</th>
+<th>step by step guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../img/waist/space11.png" width = 500></td>
+<td>In order to change the cable 11, <br/> it is necessary, when you still have the upper body attached to the robot <br/> to create some space in between those 2 pieces to be able to fit the cable that you need to replace.</td>
+</tr>
+<tr>
+<td><img src="../img/waist/plate11.png" width = 500></td>
+<td><u>STEP 1:</u><br/>Remove the central piece which will hold the cable 11.<br/> 4 screws M2.5v5</td>
+</tr>
+<tr>
+<td><img src="../img/waist/unmount11-back.png" width = 500></td>
+<td><u>STEP 2:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate</td>
+</tr>
+<tr>
+<td><img src="../img/waist/unmount11-front.png" width = 500></td>
+<td><u>STEP 3:</u><br/>Untighten just enough to have 2mm gap in between the head screw and the plate</td>
+</tr>
+<tr>
+<td><img src="../img/waist/R-side11.png" width = 500><br/></td>
+<td><u>STEP 4:</u><br/>You should be able to move slightly the upper body<br/>from the torso and create some space (2mm max - just the <br/>minimum required to pass the body of <br/>the cable in between the 2 pieces).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22-waist-back-cable-11">2.2 WAIST BACK - Cable 11<a class="headerlink" href="#22-waist-back-cable-11" title="Permanent link">&para;</a></h3>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11.png" /></center></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>routing cable 11 is quite simple in process of construction because you don't have yet the upper body mounted atop of the waist <strong><u>BUT</u></strong> become particularly tedious in phase of repair due to the presence of this latter. If you haven't removed the cover above the torso and the back (or backpack cover), please follow this <a href="#21-chest-back-and-back-pack-covers-dismounting">link</a></p>
+</div>
+<p><strong>How to lock securedly the crimp:</strong>
+when you finalize your wiring it is important to realize that the tensioners are actually designed to prevent the crimp from escaping. As most of the cable inside the robot use the property of antagonism cabling it is important to have them both firmly tighten.</p>
+<div class="admonition note">
+<p class="admonition-title">Rule</p>
+<p>The crimp is always <strong>rotated upside down</strong> in order to prevent the crimp cable from popping out. The drawback of this positioning is that you always need to remove both tensioner and the screw to leave the crimp getting in the through and put back the tensioner above it to finalize the wiring.</p>
+</div>
+<p><center><img alt="waist" src="../img/waist/crimp_locking.jpg" /></center></p>
+<p><strong>Procedure:</strong></p>
+<blockquote>
+<p>Take the cable and draw with a marker the middle of it. Place the cable onto the slot of the pulley (Photo 1). Put the squared plate above the cable and secure it with 4 screws with hexagonal head size M2.5x5 (Photo 2)</p>
+</blockquote>
+<p><img alt="waist" src="../img/waist/Waist_cable_11_foto.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>For people having the upper body still hanging <strong>CLOSE</strong> the gap <center><img src="../img/waist/close-gap.png" width = 500></center></p>
+</div>
+<blockquote>
+<p>Turn the cable around the pulley taking care to cross it at the opposite side of the plate (Photo 3 - 4).</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto3_4.png" /></center></p>
+<blockquote>
+<p>Each side of the cable go up and pass into the little side pulley (Photo 5 - 6)</p>
+</blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Use a 2mm hexagonal screwdriver to spin the motor shaft (Photo N.9)  - on both sides of iCub hips - allowing you to rotate the internal pulley (where yield the tensioners) and have it in a proper angle.</p>
+</div>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto5_6.png" /></center></p>
+<blockquote>
+<p>To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 7 - 8). Please use the rule for a proper locking of the crimp <a href="#21-chest-back-and-back-pack-covers-dismounting">link</a></p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto7_8.png" /></center></p>
+<blockquote>
+<p>To bring the joint a proper position to start correctly the routing of cable 12, please use the head screw inside the hips (Photo 9) simultaneously or one hip at a time by few degree every now and then. To arrive on the position (Photo 10)</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto9-10.png" /></center></p>
+<h3 id="23-waist-front-cable-12">2.3 WAIST FRONT – Cable 12<a class="headerlink" href="#23-waist-front-cable-12" title="Permanent link">&para;</a></h3>
+<p><center><img alt="waist" src="../img/waist/Waist_front.PNG" /></center></p>
+<p><strong>Procedure:</strong></p>
+<blockquote>
+<p>Take the cable and draw with a marker the middle of it. Place the cable into the slot of the pulley (Photo 12)</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto11-12.png" /></center></p>
+<blockquote>
+<p>Put the rectangular plate above the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 13). Turn the cable around the pulley taking care to cross the cable above the pulley (Photo 14).</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto13-14.png" /></center></p>
+<blockquote>
+<p>To finish the wiring, position the head of the crimps inside their respective tensioners on both side of the inner part of the hips (Photo 15 - 16).
+Please use the rule for a proper locking of the crimp <a href="#21-chest-back-and-back-pack-covers-dismounting">link</a></p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_11_foto15-16.png" /></center></p>
+<blockquote>
+<p>Finally, To put an end to the wiring of cable 11 and 12, just tense the 4 tensioners on which the crimps are located. Take care of tensing every one of them little by little in order to share the tension inside the tensioners in the same way.</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_cable_foto17.png" /></center></p>
+<blockquote>
+<p>At this point, the cables of the wiring of the waist 11 and 12 is terminated and therefore it is possible to proceed with the positioning of the upper body above the latter.</p>
+</blockquote>
+<h3 id="24-waist-top-cable-13">2.4 WAIST TOP – Cable 13<a class="headerlink" href="#24-waist-top-cable-13" title="Permanent link">&para;</a></h3>
+<p><center><img alt="waist" src="../img/waist/Waist_top.PNG" /></center>
+<strong>Procedure:</strong></p>
+<blockquote>
+<p>Take the cable and draw with a marker the middle of it. Place it in the slot on the piece RC_TLR_001_P_243 (Photo 18).Put the plate RC_USAL_001_P_219 on the cable and secure it with 4 screws M2.5x5 hexagonal head (Photo 19).</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_top18_19.PNG" /></center></p>
+<blockquote>
+<p>Turn the cable around the RC_TLR_001_P_243 piece taking care to cross it around the pulley, the opposite side to the plate (Photo 20).Then pass the cable through the grooves of the pulleys RC_USAL_001_P_119 (Photo 21) </p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_top20_21.PNG" /></center></p>
+<blockquote>
+<p>To Finish the wiring, draw the cable along the pulley RC_USAL_001_P_124, and place the crimp in the appropriate tensioner RC_USAL_001_P_131 (Photo 22). Do the same for the other side of the cable and cross the cable before reaching the tensioner (Photo 23).</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Waist_top22_23.PNG" /></center></p>
+<h2 id="3-leg-cabling">3    LEG CABLING<a class="headerlink" href="#3-leg-cabling" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>This chapter describes the steps required both during construction and in maintenance phase to route of the cables 14 of the hip of the robot and cables 15 or 16 of the ankle present on robot with lower body version 1.</p>
+</blockquote>
+<h3 id="31-hip-flexion-cable-14">3.1 HIP FLEXION – Cable 14<a class="headerlink" href="#31-hip-flexion-cable-14" title="Permanent link">&para;</a></h3>
+<p><center><img alt="waist" src="../img/waist/Wiring-LEG_Cable_14.PNG" /></center>
+<strong>Preparation:</strong></p>
+<blockquote>
+<p>The cable has to be previously peeled off, at a distance of 435 mm from crimp, for a total of 50 mm. (see below)</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Wiring-LEG_Cable_14_built.PNG" /></center></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>the latter version of iCub have a cover, you may need to remove it before proceeding(see picture below). To do that remove the 2 screws of the cover. To unscrew them it is important to see them, use a hexagonal screw driver 2mm and turn the motor shaft from the other side of the motor(see picture below).</p>
+<p><center><img alt="waist" src="../img/waist/hip-cover.png" /></center></p>
+</div>
+<p><strong>Procedure:</strong></p>
+<blockquote>
+<p>Take the cable and place the part stripped in the slot on the piece RC_IIT_001_P_314, then center and block it with the help of the plate RC_IIT_001_P_328 (Photo 24). The shortest part of the cable is the one going outside of the robot.</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Wiring-LEG_24_25.PNG" /></center></p>
+<blockquote>
+<p>Take the inner part of the cable (the right one so to speak – or the longest) and make one turn around the pulley RC_IIT_001_P_314 (Photo 25). If done correctly you should have the 2 crimps reunited down below the hip (photo N.26).
+At this point proceed route the cables by making an 8 shape, by crossing the cables and follow the wiring (photo N.28) (shortest part - yellow cable) and insert both crimp inside their respective tensioner -  piece RC_USAL_001_P_131 (Photo 27).</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Wiring-LEG_26_27_28.PNG" /></center></p>
+<h3 id="41-ankle-flexion-cable-15-or-cable-16">4.1 ANKLE FLEXION - Cable 15 or Cable 16<a class="headerlink" href="#41-ankle-flexion-cable-15-or-cable-16" title="Permanent link">&para;</a></h3>
+<p>Those 2 cables are only on some previous iCub design V1.</p>
+<blockquote>
+<p>Follow the following diagram in order to rewire correctly.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>ANKLE FLEXION - cable 15</th>
+<th>ANKLE FLEXION - cable 16</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><center><img alt="waist" src="../img/waist/15-wiring.png" /></center></td>
+<td><center><img alt="waist" src="../img/waist/16-wiring.png" /></center></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>remove the blocker-cover to adjust the cable - when finally wired and the foot 90 degree respect to leg, put it back and tighten firmly the screws holding it in place.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>ANKLE FLEXION - cable 15</th>
+<th>ANKLE FLEXION - cable 16</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><center><img alt="waist" src="../img/waist/cover-15.png" /></center></td>
+<td><center><img alt="waist" src="../img/waist/cover-16.png" /></center></td>
+</tr>
+</tbody>
+</table>
+<h2 id="5-stand-fast-robot-locker">5    STAND – FAST ROBOT LOCKER<a class="headerlink" href="#5-stand-fast-robot-locker" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>This chapter describes the construction of fast locker to connect the robot to the stand seat</p>
+</blockquote>
+<h3 id="51-stand-cable-29">5.1 STAND  - Cable 29<a class="headerlink" href="#51-stand-cable-29" title="Permanent link">&para;</a></h3>
+<p><strong>Procedure:</strong></p>
+<blockquote>
+<p>Take the cable and put it so that the crimp goes into the slot of the piece RC_IIT_090_P_009 (Photo 29-30).</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Stand_Cable_29_foto29_30.PNG" /></center></p>
+<blockquote>
+<p>Attach the hook, or the piece PKWS4SLIDER with two screws 3x5 TSV, to RC_IIT_090_P_009 piece (Photo 31).Place on the part of the cable RC_IIT_090_P_007 piece and then the adjustment mechanism for proper closure piece RC_IIT_090_P_007 (Photo 31-32)</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Stand_Cable_29_foto31_32.PNG" /></center></p>
+<blockquote>
+<p>At this point, proceed by entering what has been previously mounted into the slot of the support RC_IIT_090_P_005 (Photo 33).Complete the installation by screwing the threaded part of the piece RC_IIT_090_P_006 with the piece  RC_IIT_090_P_008 (Photo 34)</p>
+</blockquote>
+<p><center><img alt="waist" src="../img/waist/Stand_Cable_29_foto33_34.PNG" /></center></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../wrist_hand_cabling_V2/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Wrist and Hand Cabling V2
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../upgrade_kits/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Summary
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            BSD 3-Clause License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.f5903571.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.3981fc68.min.js"></script>
+      
+    
+  </body>
+</html>
