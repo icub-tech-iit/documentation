@@ -84,5 +84,7 @@ The 2FOC device is the **dsPIC33FJ128MC802**.
 ![image](img/MPLAB_2.png)
 
 just click "OK".
+
 - Clean and Build the project as shown below:
-<img width="1751" alt="image" src="img/MPLAB_3.png">
+
+![image](img/MPLAB_3.png)
