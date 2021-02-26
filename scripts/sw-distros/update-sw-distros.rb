@@ -33,9 +33,14 @@ def get_distro_files()
         files.each { |file|
             if !file.casecmp?('.') && !file.casecmp?('..') then
                 fields = file.split('.')
-                aggregate = 100 * fields[0].to_i + fields[1].to_i
-                if aggregate >= aggregate_initial_distro then
-                    files_filtered << file
+                if fields.size() >= 2 then
+                    # check if fields are numeric
+                    if fields[0].count("^0-9").zero? && fields[1].count("^0-9").zero? then
+                        aggregate = 100 * fields[0].to_i + fields[1].to_i
+                        if aggregate >= aggregate_initial_distro then
+                            files_filtered << file
+                        end
+                    end
                 end
             end
         }
