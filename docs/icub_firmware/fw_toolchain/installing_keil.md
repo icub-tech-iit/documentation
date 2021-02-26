@@ -59,7 +59,8 @@ This completes the Installation and license configuration for Keil!
 ## Configuring iCub-firmware
 
 Now that Keil is installed and running, you need to setup the firmware
-and its shared repositories, which can be cloned from the follow link: 
+and its shared repositories, which can be cloned from the follow link:
+
 - [https://github.com/robotology/icub-firmware](https://github.com/robotology/icub-firmware)
 - [https://github.com/robotology/icub-firmware-shared](https://github.com/robotology/icub-firmware-shared)
 
