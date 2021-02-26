@@ -74,16 +74,18 @@ So, the proper fix is to download the additional Legacy Peripheral Libraries as 
 
 - Run app MPLAB X IDE v5.40.
 - Open the project [2FOC-V3.X](https://github.com/robotology/icub-firmware/tree/master/emBODY/eBcode/arch-dspic/board/2foc/appl/2FOC-V3/2FOC-V3.X) (shortcut CTRL+SHIFT+O on windows).
-- you should see in the lower left pane:
+- You should see in the lower left pane:
 
 ![image](img/MPLAB_1.png)
 
 The 2FOC device is the **dsPIC33FJ128MC802**.
-- Then click on Packs - dsPIC33F-GP-...   You should see a popup window with the project properties
+
+- Then, click on Packs - dsPIC33F-GP
+- You should see a popup window with the project properties:
 
 ![image](img/MPLAB_2.png)
 
-just click "OK".
+Just click "OK".
 
 - Clean and Build the project as shown below:
 
