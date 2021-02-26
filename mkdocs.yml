@@ -154,7 +154,7 @@ nav:
       - iCub Firmware:
         - Summary: icub_firmware/index.md
         - Firmware Toolchain Documentation: 
-          - Installing Kiel: icub_firmware/fw_toolchain/installing_keil.md
+          - Installing Keil: icub_firmware/fw_toolchain/installing_keil.md
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
