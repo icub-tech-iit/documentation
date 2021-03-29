@@ -1,6 +1,6 @@
 # Introduction
 
-This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the pc104 (open call configuration).
+This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the icub-head.
 We assume you have installed a working Debian or Ubuntu on the laptop.
 You can freely decide to install 32 bit or 64 bit, the code compiles on both architectures. Be aware that if you plan to share the repository with other machines, all machines need to have the same architecture (32 versus 64 bits, same versions of the libraries). A possibility would be to share the same code directory and different builds.
 
@@ -22,7 +22,7 @@ Add following lines in the file `/etc/hosts`
 
 # NFS Server
 
-The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the PC104 and by the laptop iteself :
+The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the icub-head and by the laptop iteself :
 
 -   `/exports/code` - this contains the robot software sources such as
     YARP, iCub Software.
@@ -96,7 +96,7 @@ mkdir -p /home/icub/.local/share
 ln -s /exports/local_yarp /home/icub/.local/share/yarp
 ```
 
-# Install the ssh keys for password-less login on PC104
+# Install the ssh keys for password-less login on icub-head
 
 Log in as icub and create an ssh key.
 
@@ -105,17 +105,17 @@ ssh-keygen -t rsa
 ```
 
 Leave all choises to default just by pressing return button\
-Upload this key file to pc104
+Upload this key file to icub-head
 
 ```
-ssh-copy-id -i /home/icub/.ssh/id_rsa.pub icub@pc104
+ssh-copy-id -i /home/icub/.ssh/id_rsa.pub icub@icub-head
 ```
 
 ## Other configurations
 
 ## IP forwarding and NAT
 
-Enable NAT and port forwarding so that the pc104 (and other machines on the network) have internet access (using wlan0 as external network
+Enable NAT and port forwarding so that the icub-head (and other machines on the network) have internet access (using wlan0 as external network
 interface)
 
 - Enable IP forwarding : edit the file `/etc/sysctl.conf` by modifying the below line as follows
@@ -124,57 +124,51 @@ interface)
 net.ipv4.ip_forward = 1
 ```
 
-- Setup Network Address Translation : add the following file `/etc/network/if-up.d/natting` as follows
+- Setup Network Address Translation :
 
-```
-#!/bin/sh -e
-iptables --table nat --append POSTROUTING --out-interface wlan0 -j MASQUERADE
-iptables --append FORWARD --in-interface eth0 -j ACCEPT
-```
+  1. add the IPTABLES rules
+  ```
+  sudo iptables --table nat --append POSTROUTING --out-interface wlan0 -j MASQUERADE
+  sudo iptables --append FORWARD --in-interface eth0 -j ACCEPT
+  ```
+  2. make the above rules persistent, by installing the `iptables-persistent` package
+  ```
+  sudo apt install iptables-persistent
+  ```
+  Oce you installed the package `iptables-persistent` it will asks you to save the current ipv4 and ipv6 iptables rules, answer yes to save it. Otherwise you can save it later witrh the command
+  ```
+  sudo iptables-save > /etc/iptables/rules.v4
+  ```
 
 ### Note about natting
 
 Please check that:
 
-1.  The name of your network interfaces are correct (in the above script
+1.  The name of your network interfaces are correct (in the above commands
     *wlan0* is the EXTERNAL interface - connecting to the external
-    world - and *eth0* is the INTERNAL interfaceg - connection to the
-    PC104)
+    world - and *eth0* is the INTERNAL interface - connection to the
+    icub-head)
 2.  The above script must be executable, otherwise you can made it
     executuable by
 ```
 chmod a+x /etc/network/if-up.d/natting
 ```
 
-### Netplan and ifup scripts
-
-The netplan (installed starting from Ubuntu 18.04) is not compatible with IF-UP scripts (see this (link)[https://askubuntu.com/questions/1117960/how-to-use-netplan-to-do-the-same-as-was-being-done-using-iptables] ), so a workaroun  is to use networkd-dispatcher. This (FAQ)[https://netplan.io/faq#use-pre-up-post-up-etc-hook-scripts] gives an example on how to do it: using networkd-dispatcher to run existing ifup hooks via a script installed in /etc/networkd-dispatcher/routable.d/50-ifup-hooks
-
-```
-#!/bin/sh
-
-for d in up post-up; do
-    hookdir=/etc/network/if-${d}.d
-    [ -e $hookdir ] && /bin/run-parts $hookdir
-done
-exit 0
-```
-
 ## Fix IP and DNS
 
-Use the following configuration for the network
+Use the following configuration for the _internal (cabled)_ network in netplan (usually the file `/etc/netplanmn/01-network-manager-all.yaml` )
 
 ```
-# The primary network interface
- auto eth0
- allow-hotplug eth0
- iface eth0 inet static
-  address 10.0.0.1
-  netmask 255.255.255.0
-  network 10.0.0.0
-  broadcast 10.0.0.255
-  dns-search icub.local
+    eth0:
+      dhcp4: no
+      dhcp6: no
+      addresses: [10.0.0.1/24]
+      optional: true
 ```
+
+*NOTES*:
+  1. The configuration above assumes that the name of you internal interface is `eth0`, please check the actual name and change the above accordingly
+  2. When you setup netplan to manage a network interface, this will prevent the default Network configuration GUI (NetworkManager) to change it. This is an expected behavior and it is correct.
 
 ## Clock synchronization
 
@@ -183,15 +177,7 @@ Download the ntp package
 sudo apt-get install ntp
 ```
 
-Your Laptop has to be the clock of the connection with the pc104 in case of no internet access so replace those lines from the file /etc/ntp.conf
-```
-server 0.ubuntu.pool.ntp.org
-server 1.ubuntu.pool.ntp.org
-server 2.ubuntu.pool.ntp.org
-server 3.ubuntu.pool.ntp.org
-```
-
-or comment them by adding a # in front each lines and add those lines instead
+Your Laptop has to be the master server for the icub-head so add those lines at the end of file `/etc/ntp.conf`
 
 ```
 # the folllowing lines make the server a master server
@@ -200,4 +186,4 @@ fudge           127.127.1.0 stratum 10
 broadcastdelay  0.008
 ```
 
-The internal clock of the pc104 resets every time the pc104 is restarted. It is important you configure your local network so that the pc104 has the correct time. In general it is a good idea if all the machines on the iCub network have synchronized clock via NTP
+In general it is a good idea if all the machines on the iCub network have synchronized clock via NTP
