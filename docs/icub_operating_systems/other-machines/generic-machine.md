@@ -204,7 +204,7 @@ The above example is showing that there are several different nVidia driver vers
 
 3. Reboot
 
-For further details, please read [thi guide](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia)
+For further details, please read [this guide](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia)
 
 # _Optional_ - Fix the the .local domains resolution problems
 

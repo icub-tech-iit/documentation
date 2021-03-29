@@ -6,3 +6,5 @@
 - [`How to set up multiple iCubs on the same network`](./icub_setup_multiple_robots/index.md)
 - [`iCub Firmware`](./icub_firmware/index.md)
 - [`Robot Calibration`](./icub_robot_calibration/icub-robot-calibration.md)
+- [`iCub/R1 Calibration Types`](./icub_r1_calibration_types/icub_r1_calibration_types.md)
+- [`Configure IP on a setup for ETH boards`](./configure_static_ip/configure-static-ip.md)
