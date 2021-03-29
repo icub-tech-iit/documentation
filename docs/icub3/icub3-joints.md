@@ -1,4 +1,4 @@
-# iCub3
+# iCub 3
 Here's are described the elctrical and mechanical specifications for each joint
 
 ## Head Joints Specs

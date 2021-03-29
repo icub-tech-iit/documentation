@@ -26,11 +26,12 @@ $ git clone https://github.com/robotology/icub-main.git -b v1.17.0
 ```
 
 ## Table
-This table has been generated automatically by processing data available in [`robotology/robotology-superbuild@v2021.02/releases`](https://github.com/robotology/robotology-superbuild/tree/v2021.02/releases).
+This table has been generated automatically by processing data available in [`robotology/robotology-superbuild@master/releases`](https://github.com/robotology/robotology-superbuild/tree/master/releases).
 
 Click on the distros below to explore their package versions:
 
 - [📦 Distro **2021.02**](./2021.02.md)
+- [📦 Distro **2021.02.feat-01**](./2021.02.feat-01.md)
 - [📦 Distro **2020.11**](./2020.11.md)
 - [📦 Distro **2020.08**](./2020.08.md)
 - [📦 Distro **2020.08.patch-01**](./2020.08.patch-01.md)
