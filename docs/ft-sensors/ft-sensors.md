@@ -30,8 +30,8 @@ The sensors are calibrated in order to obtain high resolution in typical operati
 
 |                | Fx, Fy \[N\] | Fz \[N\] | Tx, Ty \[Nm\] | Tz \[Nm\]                                                   |
 |----------------|--------------|----------|---------------|-------------------------------------------------------------|
-| **Range**      | 2000         | 2000     | 40            | 30                                                          |
-| **Resolution** | 0.25         | 0.25     | 0.0049        | 0.0037 |
+| **Range**      | 1500         | 2000     | 35            | 25                                                          |
+| **Resolution** | 0.25         | 0.25     | 0.005         | 0.004                                                       |
 Table 2: typical values after sensor calibration
 
 ### Creo CAD model
@@ -44,7 +44,7 @@ In particular the FT sensor assembly name is `ic_008_a_001.asm.1`.
 ---
 Additional specification are reported in this [document](./assets/FTSens.pdf).
 
-For more info on how to load the firmware and the calibration matrix on a FT sensor, check the documentation page on [Firmware](../icub_firmware/firmware/firmware.md).
+For more info on how to flash the firmware and the calibration matrix on a FT sensor, check the documentation page on [Firmware](../icub_firmware/firmware/firmware.md).
 
 ### Electronics
 ---

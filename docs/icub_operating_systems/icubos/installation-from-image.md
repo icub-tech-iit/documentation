@@ -20,7 +20,7 @@ This procedure involves the following steps:
 The imaging tool used to create and restore icub-head disk images is [CloneZilla LIVE](https://clonezilla.org/clonezilla-live.php).
 
 1. Download clonezilla from this [link](https://clonezilla.org/downloads.php)
-2. Get a USB 3 USB drive (at least 4 GB of size)
+2. Get a USB 3 drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
 ## Where to get the latest iCub server image
@@ -51,7 +51,7 @@ Power on the icub-head and enter BIOS, the select drive with CloneZilla as first
 ## Write the image
 
 Follow the steps below to write the image on the icub-head HD (detailed instruction about how to use CloneZilla can be found [here](https://clonezilla.org/clonezilla-usage/clonezilla-live-usage.php) ).
-_Please note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)
+Please, note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)
 
 1. In boot menu, select the option `Clonezilla live (Defaut, To RAM)`
 2. choose your language
@@ -70,4 +70,4 @@ Power down the icub-head and unplug the USB hub, then restart.
 
 ## Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in both [_Networking_](networking.md) and [_User Environment_](user-env.md) chapters)
+What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md) and [_User Environment_](user-env.md) chapters)
