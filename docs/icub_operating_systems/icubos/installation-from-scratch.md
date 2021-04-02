@@ -20,6 +20,8 @@ Follow the below steps to install Ubuntu server on icub-head.
 
 Please note that the installation procedure can be slight different in each release, you can see the [Ubuntu server official install guide](https://ubuntu.com/tutorials/tutorial-install-ubuntu-server)
 
+**WARNING** : the installation procedure will overwrite the disk of your icub-head, so all data will be deleted.
+
 ## Ubuntu Installer configuration
 
 Install the system by choosing the default options, except the follow steps:
