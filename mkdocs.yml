@@ -135,6 +135,8 @@ nav:
           - Networking: icub_operating_systems/icubos/networking.md
           - Bluetooth: icub_operating_systems/icubos/bluetooth.md
           - User environment: icub_operating_systems/icubos/user-env.md
+          - Further tasks: icub_operating_systems/icubos/further-tasks.md
+          
         - The OS on PC104 (live USB):
           - Introduction: icub_operating_systems/pc104/icub-live.md
           - Installation: icub_operating_systems/pc104/the-icub-live-installation.md
@@ -153,7 +155,7 @@ nav:
         - How to use two real iCub robots on the same network: icub_setup_multiple_robots/two_robots_real.md
       - iCub Firmware:
         - Summary: icub_firmware/index.md
-        - Firmware Toolchain Documentation: 
+        - Firmware Toolchain Documentation:
           - Installing Keil: icub_firmware/fw_toolchain/installing_keil.md
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
