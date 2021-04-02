@@ -136,7 +136,6 @@ nav:
           - Bluetooth: icub_operating_systems/icubos/bluetooth.md
           - User environment: icub_operating_systems/icubos/user-env.md
           - Further tasks: icub_operating_systems/icubos/further-tasks.md
-          
         - The OS on PC104 (live USB):
           - Introduction: icub_operating_systems/pc104/icub-live.md
           - Installation: icub_operating_systems/pc104/the-icub-live-installation.md
