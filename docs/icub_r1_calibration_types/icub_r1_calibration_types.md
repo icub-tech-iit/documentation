@@ -1,29 +1,29 @@
 # Calibration types available on iCub and R1 robots
-The aims of this document is to give to expert user some technical information about `joints` calibration types on `R1` and `iCub` robots based on Ethernet in order to set the desired `zero position` of the robot.
+The aims of this document is to provide expert users with some technical information about `joints` calibration types on `R1` and `iCub` robots based on Ethernet in order to set the desired `zero position` of the robot.
 
-The type of calibration depends on the encoders and on mechanics of joints.
+The type of calibration depends on the encoders and on the mechanics of the joints.
 
-Currently exist **12 types** of calibrations that will be explain in detail in following sections.
+There exist currently **12 types** of calibrations that will be explained in detail in the following sections.
  
-The calibration procedure is performed by firmware each time the robots starts up and it used following calibration parameters written in calibration files:
+The calibration procedure is performed by the firmware each time the robot starts up and it makes use of the following calibration parameters written in calibration files:
 
 - `Calibration type`: it is the type of calibration. Its values should be included in [1,12]. Based on its value the meaning of the parameters `calibration1`, `calibration2`, `calibration3`, `calibration4`, `calibration5` changes. Usually they are expressed in machine units.
 - `calibrationZero`: for historical reasons, is the value in degree at `0.0 position`. Now for several calibrations it is not necessary, so its value is `0.0`.
 - `calibrationDelta`: this parameter can be changed by user to tuning the calibration, in order to set the zero of joint in the correct position (fine calibration).
 
-It is important to notice that the firmware haven’t both `calibrationZero` and `calibrationDelta` parameters, but it has only the sum of two: `calibrationZero + calibrationDelta`. 
+It is important to notice that the firmware does not deal with either `calibrationZero` or `calibrationDelta` parameters independently, but it has only the sum of the two: `calibrationZero + calibrationDelta`. 
 For this reason, if the calibration needs a particular value of `calibrationZero`, please insert that value, because it is mandatory.
 
 ## General procedure for retrieving calibration parameters
-1. First of all you need to be sure that boards have been reset after last calibration. If not please swich off and swich on boards.
+1. First off, you need to make sure that the boards have been reset after last calibration. If not, please swich off and swich on the boards.
 
 2. In the [general.xml](https://github.com/robotology/robots-configuration/blob/master/CER01/general.xml) file set both `useRawEncoderValue` and `skipCalibration` parameters to `true`
 
-3. Press the faultbutton. So you are sure the procedure is safe
+3. Press the fault button, so that you are sure that the procedure runs safely.
 
-4. Launch `yarprobotinterface`. You will see that `yarprobotInterface` tell you to press fault button and waits until the user press enter.
+4. Launch `yarprobotinterface`. You will see that `yarprobotInterface` tells you to press fault button and wait until the user presses enter.
 
-5. Start the calibration procedure depending on calibration type.
+5. Start the calibration procedure depending on the calibration type.
 
 ## General rules for each calibration type
 1. At the end of calibration, the joint has to be inside of user limits, if not the controller sets the joint in hardware fault.
