@@ -40,9 +40,9 @@ The system architecture of iCub2.x with ETHERNET backbone is depicted in the fol
 - [iCub 2 Harness](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.0.0/pdf/iCub%202_2.0.0_XXXX_Harness.pdf)
 - [Motor and Board Placement](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.0.0/pdf/Motor%26Board%20Placement.pdf)
 ### Logic and Harness iCub 2.3_E2.3.0 - Full robot with Talking Head
-- [iCub 2.3 Talking Head Logic](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/projects/robots/icub2/icub-2.3.0-talkinghead/iCub%202_2.3.0_XXXX_Logic.pdf)
-- [iCub 2.3 Talking Head Harness](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/projects/robots/icub2/icub-2.3.0-talkinghead/iCub%202_2.3.0_XXXX_Harness.pdf)
-- [iCub 2.3 Talking Head Motor and Board Placement](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/projects/robots/icub2/icub-2.3.0-talkinghead/Motor%26Board%20Placement%20Talking%20H.pdf)
+- [iCub 2.3 Talking Head Logic](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.3.0-talkinghead/pdf/iCub%202_2.3.0_XXXX_Logic.pdf)
+- [iCub 2.3 Talking Head Harness](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.3.0-talkinghead/pdf/iCub%202_2.3.0_XXXX_Harness.pdf)
+- [iCub 2.3 Talking Head Motor and Board Placement](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.3.0-talkinghead/pdf/Motor%26Board%20Placement%20Talking%20H.pdf)
 ### Logic and Harness iCub 2.5_E2.5.1 - Full robot with Seaslegs
 - [iCub 2.5 Seaslegs Logic](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.5.1-seaslegs/pdf/iCub2_5_1_5672_B_Logic.pdf)
 - [iCub 2.5 Seaslegs Harness](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.5.1-seaslegs/pdf/iCub2_5_1_6070_A_Harness.pdf)
