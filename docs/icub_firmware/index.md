@@ -1,5 +1,5 @@
 # Firmware Documentation
-Here you can find informations about firmware in the various versions of the robot and some related resources.
+Here you can find information about firmware in the various versions of the robot and some related resources.
 
 [**Firmware Toolchain Documentation**](./fw_toolchain/index.md)
 
