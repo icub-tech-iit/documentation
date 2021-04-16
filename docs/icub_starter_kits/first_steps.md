@@ -1,3 +1,48 @@
+# ICUB UNPACKING AND INSTALLATION
+
+### 1) Open the box
+
+In order to remove iCub from its box, first remove the black straps holding the robot.
+
+<img src ="../img/Picture1.png">
+
+### 2) Lift the robot
+
+Carefully lift the robot and place it on the stand. The video below shows how to hold the robot for transportation.
+
+<video controls autoplay loop width="720" height="405"> <source type="video/mp4" src="../videos/Robot_case_reversed.mp4"> </video>
+
+### 3) Secure the robot on the stand
+
+Pull the clip in front of the robot pelvis as shown.
+
+<video controls autoplay loop width="720" height="405"> <source type="video/mp4" src="../videos/Robot_stand.mp4"> </video>
+
+### 4) Remove plastic protection from arms
+
+<video controls autoplay loop width="720" height="405"> <source type="video/mp4" src="../videos/Arms_unpacking_reverse.mp4"> </video>
+
+Pay attention to the thumbs. They should be in the position shown below. If you want to move the thumb proximal joint, manually turn the corresponding motor with a flat screwdriver.
+
+<img src ="../img/Picture2.png">
+
+### 5) Cables connection
+
+Follow the video. The power supply is already set at the right voltage and current. The ETH cable needs to be connected to the robot laptop.
+
+<img src ="../img/Picture3.png">
+
+<video controls autoplay loop width="720" height="405"> <source type="video/mp4" src="../videos/Robot_Connections.mp4"> </video>
+
+Make sure that the power connector is in place:
+
+<img src ="../img/Picture4.png">
+
+After turning on the power supply, you should see the two buttons in the backpack turning red. In order to turn on the icub-head pc press the lower button.
+
+<img src ="../img/Picture5.png">
+
+
 # FIRST START WITH ICUB
 
 
