@@ -1,7 +1,7 @@
 # Welcome to iCub Tech Documentation
 
 <p align="center">
-  <img src="./assets/icub-rotate.gif" width="70%" height="70%" alt="iCub" />
+  <img src="./assets/icub-rotate.gif" width="50%" height="50%" alt="iCub" />
 </p>
 
 - 1️⃣ [`First Launch with the Humanoid robot iCub`](./icub_starter_kits/first_steps.md) the perfect starter guide to handle and check the overall capabilities of iCub.
