@@ -19,10 +19,10 @@ An [upgrade kit](./upgrade_kits/index.md) is a plastic bag with mechanical parts
 Here you can find informations about iCub's kinematics.
 
 ## [iCub 3](./icub3/icub3-joints.md)
-Here's are described the elctrical and mechanical specifications for each joint
+Here are described the elctrical and mechanical specifications for each joint.
 
 ## [F/T Sensors](./ft-sensors/ft-sensors.md)
-Here's are reported info about `F/T sensors`
+Here's reported info about `F/T sensors`.
 
-## [Custom components](./Custom_components/custom_components.md)
-Here's are reported info about `third parts' custom components`
+## [Custom components](./custom_components/custom_components.md)
+Here's reported info about `third-party custom components`.
