@@ -393,13 +393,13 @@ The iCub live ISO image is built with a custom script based on the Debian LIVE t
 
 ## The live-build script
 You can find the script here: <https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live>
-The script requires some additional packages to be installed (before starting, it checks for dependancies and if any is missing it installs the package). 
+The script requires some additional packages to be installed (before starting, it checks for dependancies and if any is missing it installs the package).
 The script is based on the Debian live-build system and uses the configuration files and templates inside the folder [live-build](https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live/live-build). See the code on the [repository](https://github.com/icub-tech-iit/icub-os-files) for further details.
 
 The script syntax is the following:
 ```
   icub_create-live [options] -s all|config|build|clean|cleancache|cleanall
-``` 
+```
 
 The parameter STAGE is mandatory and can be one of the following:
 ```
@@ -419,17 +419,12 @@ Options are :
   -h : print the help
 ```
 
-eg.
-```
-icub_create-live -s all
-```
-
 If there are no errors, the script will produce an iso image along with its MD5 control file.
 
 ## How to create a bootable USB media with persistence from the iso
-We used the [RUFUS](https://rufus.ie) for Windows to put the ISO on a USB memory stick. While it is possible to use any other similar tool that supports PERSISTENCE, we found that the PC104 board does not boot when the USB is burned usign some other tools, so it's **strongly** recommended to use RUFUS.
+We used the [RUFUS](https://rufus.ie) tool for Windows to put the ISO on a USB memory stick. While it is possible to use any other similar tool that supports _persistence_, we found that the PC104 board does not boot when the USB is burned using some other tools, so it's **strongly** recommended to use RUFUS.
 
-In RUFUS, just select the iSO image, the USB target pendrive and _enable the persistence_ (this will create a secondary partition on the disk where the modified files will are written) as below
+In RUFUS just select the iSO image, the USB target pendrive and _enable the persistence_ (this will create a secondary partition on the disk where the modified files will are written) as below
 
 ![rufus](../img/rufus.png)
 
