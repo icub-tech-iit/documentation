@@ -16,6 +16,9 @@ theme:
   icon:
     logo: material/robot
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - markdown.extensions.admonition
   - pymdownx.arithmatex
@@ -124,7 +127,7 @@ nav:
           - Manual Installation:
             - icub-head: sw_installation/icub_head_manual.md
       - Software Versioning Table: sw_versioning_table/index.md
-      - The OS for the iCub enviroment:
+      - The OS for the iCub environment:
         - Summary: icub_operating_systems/index.md
         - The OS on icub-head:
           - Introduction: icub_operating_systems/icubos/icubos.md
@@ -155,6 +158,7 @@ nav:
       - iCub Firmware:
         - Summary: icub_firmware/index.md
         - Firmware Toolchain Documentation:
+          - Summary: icub_firmware/fw_toolchain/index.md
           - Installing Keil: icub_firmware/fw_toolchain/installing_keil.md
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
