@@ -105,6 +105,8 @@ nav:
         - iCub FW Kinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
+      - Custom components: Custom_components/custom_components.md
+
 
     - iCub SW:
       - Summary: icub_sw.md
