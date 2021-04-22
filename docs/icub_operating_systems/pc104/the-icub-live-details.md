@@ -427,7 +427,7 @@ icub_create-live -s all
 If there are no errors, the script will produce a iso image along with its MD5 control file.
 
 ## How to create a bootable USB media with persistence from the iso
-We used the [RUFUS](https://rufus.ie) for Windows to put the ISO on a USB memory stick. While it is possible to use any other similar tool that supports PERSISTENCE, we foind that the PC104 board does not boot when the USB is burned usign some other tools, so it's **strongly** recommended to use RUFUS.
+We used the [RUFUS](https://rufus.ie) for Windows to put the ISO on a USB memory stick. While it is possible to use any other similar tool that supports PERSISTENCE, we found that the PC104 board does not boot when the USB is burned usign some other tools, so it's **strongly** recommended to use RUFUS.
 
 In RUFUS, just select the iSO image, the USB target pendrive and _enable the persistence_ (this will create a secondary partition on the disk where the modified files will are written) as below
 
