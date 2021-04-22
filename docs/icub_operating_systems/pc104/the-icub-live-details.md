@@ -390,3 +390,50 @@ net.core.rmem_max=8388608
 
 # How the iCub LIVE image is built
 The iCub live ISO image is built with a custom script based on the Debian LIVE tools (included in the package live-build).
+
+## The live-build script
+You can find the script here: <https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live>
+The script requires some additional packages to be installed (before starting, it check for dependancies and if any is missing it installs the package). 
+The script is based on the Debian live-build system and uses the configuration files and templates inside the folder [live-build](https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live/live-build). See the code on the [repository](https://github.com/icub-tech-iit/icub-os-files) for further details.
+
+The script syntax is the following:
+```
+  icub_create-live [options] -s all|config|build|clean|cleancache|cleanall
+``` 
+
+The parameter STAGE is mandatory and can be one of the following:
+```
+  config - create config files
+  build - build image based on config stage
+  clean - cleanup build files
+  cleancache - clean only cache
+  cleanall - clean both build and cache files
+  cleaniso - clean all iso and related files
+  all - execute clean, config and build
+ ```
+Options are :
+```
+  -L LOG_FILE : logs to file LOG_FILE
+  -D : compile the live system in debug mode
+  -d : print defaults
+  -h : print the help
+```
+
+eg.
+```
+icub_create-live -s all
+```
+
+If there are no errors, the script will produce a iso image along with its MD5 control file.
+
+## How to create a bootable USB media with persistence from the iso
+We used the [RUFUS](https://rufus.ie) for Windows to put the ISO on a USB memory stick. While it is possible to use any other similar tool that supports PERSISTENCE, we foind that the PC104 board does not boot when the USB is burned usign some other tools, so it's **strongly** recommended to use RUFUS.
+
+In RUFUS, just select the iSO image, the USB target pendrive and _enable the persistence_ (this will create a secondary partition on the disk where the modified files will are written) as below
+
+![rufus](../img/rufus.png)
+
+The persistence requires an additional kernel booting parameter to be added in the file `\isolinux\live.cfg` where the line starting with `append boot=` must contain the keyword `persistence`, but the `icub_create-live` already creates the above file with correct parameters.
+
+## From USB pendrive to a IMG file
+In order to distribuite easily PC104 OS releases, we create an IMG file from a bootable USB created as above, using the [Win32 Disk Imager tool](https://sourceforge.net/projects/win32diskimager/). 
