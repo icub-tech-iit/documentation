@@ -393,7 +393,7 @@ The iCub live ISO image is built with a custom script based on the Debian LIVE t
 
 ## The live-build script
 You can find the script here: <https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live>
-The script requires some additional packages to be installed (before starting, it check for dependancies and if any is missing it installs the package). 
+The script requires some additional packages to be installed (before starting, it checks for dependancies and if any is missing it installs the package). 
 The script is based on the Debian live-build system and uses the configuration files and templates inside the folder [live-build](https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live/live-build). See the code on the [repository](https://github.com/icub-tech-iit/icub-os-files) for further details.
 
 The script syntax is the following:
