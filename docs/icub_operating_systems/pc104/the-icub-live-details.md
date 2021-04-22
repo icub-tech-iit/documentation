@@ -431,4 +431,4 @@ In RUFUS just select the iSO image, the USB target pendrive and _enable the pers
 The persistence requires an additional kernel booting parameter to be added in the file `\isolinux\live.cfg` where the line starting with `append boot=` must contain the keyword `persistence`, but the `icub_create-live` script already creates the above file with correct parameters: then, _the ISO file produced by the script does not require any further modification_.
 
 ## From USB pendrive to an IMG file
-In order to distribuite easily PC104 OS releases, we create an IMG file from a bootable USB created as above, using the [Win32 Disk Imager tool](https://sourceforge.net/projects/win32diskimager/). 
+In order to distribuite easily PC104 OS releases, we create an IMG file from a bootable USB created as above, using the [Win32 Disk Imager tool](https://sourceforge.net/projects/win32diskimager/).
