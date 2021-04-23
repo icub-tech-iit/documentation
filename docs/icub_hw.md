@@ -21,7 +21,7 @@ Here you can find informations about iCub's kinematics.
 ## [iCub 3](./icub3/icub3-joints.md)
 Here are described the elctrical and mechanical specifications for each joint.
 
-## [F/T Sensors](./ft-sensors/ft-sensors.md)
+## [F/T Sensors](./ft_sensors/ft_sensors.md)
 Here's reported info about `F/T sensors`.
 
 ## [Custom components](./custom_components/custom_components.md)
