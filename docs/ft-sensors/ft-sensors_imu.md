@@ -1,7 +1,6 @@
 # F/T Sensors on-board IMU
 The F/T Sensors have an onboard IMU unit mounted on the STRAIN2 (the signal conditioning electronic board). 
 The data from the IMU can be streamed in the CAN bus with dedicated messages to complement the information from F/T sensor.
-# Electronics features
 
 The used device is the BNO055 9-axis IMU with fusion algorhithms, datasheet can be found [here](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf). 
 The basic configuration allows the user to directly read the raw data and apply externally reconstruction algorhithms.
@@ -10,6 +9,7 @@ The basic configuration allows the user to directly read the raw data and apply 
 ## Measurement frame specifications
 ----
 ![F/T Sensor Frame](./img/ft-frame.png)
+
 *Figure 1: the FT reference frame as can be defined while using the device*
 The F/T sensor reference frame and the IMU default reference frame are solidal each other. The two frames are rotated with respect to each other. Definitions are in the following.
 
@@ -21,16 +21,18 @@ The F/T reference frame can be determined by looking at the device:
 This reference frame is the one used to determine and transmit the forces and torques. 
 
 The IMU reference frame is defined by its positioning on the Strain2 PCB (see figure 2). It's oriented by with the following alignment w.r.t. the F/T frame:
-|  |  |
+| IMU | F/T |
 |--|--|
 | $x_{IMU}$ | $y_{FT}$  |
 | $y_{IMU}$ | $-x_{FT}$ |
 | $z_{IMU}$ | $z_{FT}$  |
 
-![strain2](./img/strain.PNG)
-*Figure 2. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor*
 
-By acting on the firmware the two reference frames can be made parallel but to perform a precise acceleration transformation we have in general to deal with **non-inertial term**.
+<img title = 'prova' src =./img/strain.PNG width="40%" height="40%" alt="prova" >
+![strain2](./img/strain.PNG)
+*Figure 2. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor; in magenta it is also highlighted the footprint of the IMU component*
+
+By acting on the firmware the two reference frames can be made parallel but to perform a precise acceleration transformation we have in general to deal with **non-inertial term** as explained in the following.
 
 The IMU origin in the F/T frame coordinates are (7.5, -8.6) mm.
 
@@ -46,7 +48,8 @@ Given the two relevant quantities
 we can identify the transformation law as 
 ![acceltransform](./img/acceltransform.png)
 
-where the last two terms in the right-hand member are the non-inertial terms that appears in the reference frame transformation. 
+where the last two terms in the right-hand member are the non-inertial terms that appears in the reference frame transformation. The suffix *A* means that the quantity is calculated w.r.t. the 
+inertial *absolute* reference frame. 
 
 ### Measurement of non-inertial terms in realistic scenarios
 
