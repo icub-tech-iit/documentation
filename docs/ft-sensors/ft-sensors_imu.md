@@ -2,8 +2,8 @@
 The F/T Sensors have an onboard IMU unit mounted on the STRAIN2 (the signal conditioning electronic board). 
 The data from the IMU can be streamed in the CAN bus with dedicated messages to complement the information from F/T sensor.
 
-The used device is the BNO055 9-axis IMU with fusion algorhithms, datasheet can be found [here](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-
-bno055-ds000.pdf). 
+The used device is the BNO055 9-axis IMU with fusion algorhithms, datasheet can be found 
+[here](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf). 
 The basic configuration allows the user to directly read the raw data and apply externally reconstruction algorhithms.
 
 
@@ -44,7 +44,7 @@ The IMU origin in the F/T frame coordinates are (7.5, -8.6) mm.
 ## Acceleration transformation with non-inertial terms
 
 We have two reference frames rotated w.r.t. each other but rigidly connected, i.e. F/T and IMU reference frames.
-We measure accelerations with the IMU in its proper reference frame *B*, and the mathematical proble is to transform the accelerations in the FT reference frame *S*.
+We measure accelerations with the IMU in its proper reference frame *B*, and the mathematical problem is to transform the accelerations in the FT reference frame *S*.
 
 Given the two relevant quantities
 - origin displacement of FT reference frame in IMU reference frame ${}^B o_S = (8.6, 7.5, 0)$
@@ -54,8 +54,7 @@ we can identify the transformation law as
 ![acceltransform](./img/acceltransform.png)
 
 where the last two terms in the right-hand member are the non-inertial terms that appears in the reference frame transformation. The suffix *A* means that the quantity is 
-calculated w.r.t. the 
-inertial *absolute* reference frame. 
+calculated w.r.t. the inertial *absolute* reference frame. 
 
 ### Measurement of non-inertial terms in realistic scenarios
 
@@ -110,8 +109,8 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
     
     info.canaddress = embot::app::theCANboardInfo::getInstance().cachedCANaddress();
 #if defined(STM32HAL_BOARD_STRAIN2)
-    info.x = imuacquisition.data.acc.y;
-    info.y = -(imuacquisition.data.acc.x);
+    info.x = -(imuacquisition.data.acc.y);
+    info.y = imuacquisition.data.acc.x;
     info.z = imuacquisition.data.acc.z;         
 #else
     info.x = imuacquisition.data.acc.x;
@@ -123,8 +122,10 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
 
 ```
 
-And the same apply to the corresponding gyroscope data. **Please notice the conditional loop to keep the correct behaviour for the other boards using a BNO055 IMU
-i.e. the RFE, the MTB4 and others.**
+And the same apply to the corresponding gyroscope data. 
+**Please notice the conditional loop to keep the correct behaviour for the other boards using a BNO055 IMU** preventing unwanted behaviors e.g. robot falling on ground. 
 
-We also foresee a future step: a internal method using the information from accelerometer and gyroscope to implement the precise formula will be inserted in the code. 
+
+We also foresee a future step: a internal method using the information from accelerometer and gyroscope to implement the precise formula will be implemented in the code 
+with a call to it in the above quoted snippet. 
 
