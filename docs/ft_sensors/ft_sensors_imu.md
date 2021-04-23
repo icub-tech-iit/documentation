@@ -78,10 +78,10 @@ However, we choose an algorhithm approach to keep this possibility open in a nex
 To further pinpoint our assumption, we have evaluated the gravity vector as streamed from the BNO055 as $g = 9.778\pm 0.021 m/s^2 \; (95\% \; \text{C.L.})$ which suffers also from systematic error of approx. $0.4 m/s^2$, which is comparable to the error introduced by neglecting the non-inertial terms.
 
 ## Firmware implementation
-In the firmware, we can either directly remap the axes with a suitable method from the BNO055 library, or define a macro to calculate explicitly the transformation. 
-We chose the latter mode, which does not require initializing the corresponding register. The perk is that we can have full control over the algorithm and insert higher order corrections. 
+In the firmware, we can either directly remap the axes with a suitable method from the BNO055 library or define a macro to calculate explicitly the transformation. 
+We chose the latter option that does not require initializing the corresponding register. The perk is that we can have full control over the algorithm and insert higher order corrections. 
 
-Therefore, the acceleration remapping is located in the function used to fill in the CAN message ahead of transmission.
+Therefore, the acceleration remapping is located in the function used to fill in the CAN message ahead of the transmission.
 
 In detail, the snippet below:
 
@@ -108,7 +108,7 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
     
     info.canaddress = embot::app::theCANboardInfo::getInstance().cachedCANaddress();
 #if defined(STM32HAL_BOARD_STRAIN2)
-    info.x = -(imuacquisition.data.acc.y);
+    info.x = -imuacquisition.data.acc.y;
     info.y = imuacquisition.data.acc.x;
     info.z = imuacquisition.data.acc.z;         
 #else
@@ -120,9 +120,9 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
 }
 ```
 
-The same applis to the corresponding gyroscope data. 
+The same applies to the corresponding gyroscope data. 
 
-**Please notice the conditional loop to keep the correct behaviour for the other boards using a BNO055 IMU** preventing unwanted behaviors e.g. robot falling on ground. 
+**Notice the preprocessor condition aimed to guarantee the correct behaviour for other boards using a BNO055 IMU** preventing unwanted behaviors. 
 
 ## Outlook
 As a future step, we may consider implementing the full transformation that includes the non-intertial terms. 
