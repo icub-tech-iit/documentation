@@ -95,8 +95,8 @@ nav:
         - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
         - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
       - F/T Sensors:
-        - F/T Sensors: ft-sensors/ft-sensors.md
-        - F/T Sensors IMU: ft-sensors/ft-sensors_imu.md
+        - F/T Sensors: ft_sensors/ft_sensors.md
+        - F/T Sensors IMU: ft_sensors/ft_sensors_imu.md
       - iCub Kinematics:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
