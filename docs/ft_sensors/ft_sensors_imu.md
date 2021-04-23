@@ -120,7 +120,8 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
 }
 ```
 
-And the same applis to the corresponding gyroscope data. 
+The same applis to the corresponding gyroscope data. 
+
 **Please notice the conditional loop to keep the correct behaviour for the other boards using a BNO055 IMU** preventing unwanted behaviors e.g. robot falling on ground. 
 
 ## Outlook
