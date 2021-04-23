@@ -63,10 +63,10 @@ where:
 - firmware is the firmware binary file (*.s for motorola-based boards, *.hex for DSPIC-based board)
 
 #### Firmware update (Force/Torque Sensors)
-In this section is described the procedure to update the firmware of the [F/T sensors](../../ft-sensors/ft-sensors.md). iCub (version >=1.1) is equipped with four [F/T sensors](../../ft-sensors/ft-sensors.md), one for each limb, connected to the CanBus. For a complete reference of the used CAN bus addresses please refer to: [list of the CAN bus addresses](../associated-firmware/associated-firmware.md)
+In this section is described the procedure to update the firmware of the [F/T sensors](../../ft_sensors/ft_sensors.md). iCub (version >=1.1) is equipped with four [F/T sensors](../../ft_sensors/ft_sensors.md), one for each limb, connected to the CanBus. For a complete reference of the used CAN bus addresses please refer to: [list of the CAN bus addresses](../associated-firmware/associated-firmware.md)
 
 ## Procedure for updating the firmware of the F/T Sensors
-The update of the [F/T sensors](../../ft-sensors/ft-sensors.md) firmware is performed using the [CanLoader](../canLoader/canLoader.md) module. The procedure is identical to the standard procedure used to update the firmware of a single DSP board:
+The update of the [F/T sensors](../../ft_sensors/ft_sensors.md) firmware is performed using the [CanLoader](../canLoader/canLoader.md) module. The procedure is identical to the standard procedure used to update the firmware of a single DSP board:
 
 - open the [CanLoader](../canLoader/canLoader.md) GUI.
 - select the can bus number and the can bus device driver from the menus and click 'Connect'.

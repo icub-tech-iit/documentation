@@ -68,7 +68,7 @@ Firmware source code:
 | **12031**   |   FT45\_M1\_E1.5    | \-      | **iCub, assembly - Force/Torque sensor (5x gain), with mechanical parts, strain-gauge, strain board and cabling**             |                                                                                     |
 | **12621**   |    FT58\_M2\_E2     | \-      | FT58 M2 cod.**12176.A1 - IC\_005\_A\_001** + **STRAIN2** cod.**11996.B** + **Wiring materials** cod.**12478.0.0**             |                                                                             
 
-![Assembly Variants](./assets/assemby-variants.png)
+![Assembly Variants](./img/assemby-variants.png)
 
 ### FT45 Mechanical variants
 ---
@@ -266,11 +266,11 @@ There are three cards for reading six axis F/T Sensors:
 
 ## Additional material
 
-- [FT45 - without Temp. Compensation](./assets/FT45%20-%20without%20Temp.%20Compensation.PDF)
-- [FT45 - Temp. Compensation included](./assets/FT45%20-%20Temp.%20Compensation%20included.PDF)
-- [FT45 - Temp. Compensation included 2](./assets/FT45%20-%20Temp.%20Compensation%20included-2.PDF)
+- [FT45 - without Temp. Compensation](./assets/FT45%20-%20without%20Temp.%20Compensation.pdf)
+- [FT45 - Temp. Compensation included](./assets/FT45%20-%20Temp.%20Compensation%20included.pdf)
+- [FT45 - Temp. Compensation included 2](./assets/FT45%20-%20Temp.%20Compensation%20included-2.pdf)
 - [FT58 - without Temp. Compensation](./assets/FT58%20-%20without%20Temp.%20Compensation.pdf)
-- [FT58 - Temp. Compensation included](./assets/FT58%20-%20Temp.%20Compensation%20included.PDF)
+- [FT58 - Temp. Compensation included](./assets/FT58%20-%20Temp.%20Compensation%20included.pdf)
 
 ## More information
 ---
