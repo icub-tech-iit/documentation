@@ -109,14 +109,22 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
     bool ret = true;
     
     info.canaddress = embot::app::theCANboardInfo::getInstance().cachedCANaddress();
-    info.x = -imuacquisition.data.acc.y;
-    info.y = imuacquisition.data.acc.x;
-    info.z = imuacquisition.data.acc.z;
-         
+#if defined(STM32HAL_BOARD_STRAIN2)
+    info.x = imuacquisition.data.acc.y;
+    info.y = -(imuacquisition.data.acc.x);
+    info.z = imuacquisition.data.acc.z;         
+#else
+    info.x = imuacquisition.data.acc.x;
+    info.y = imuacquisition.data.acc.y;
+    info.z = imuacquisition.data.acc.z;        	
+#endif   
     return ret;    
 }
 
 ```
 
-as a future step: a internal method using the information from accelerometer and gyroscpe to implement the precise formula will be inserted in the code. 
+And the same apply to the corresponding gyroscope data. **Please notice the conditional loop to keep the correct behaviour for the other boards using a BNO055 IMU
+i.e. the RFE, the MTB4 and others.**
+
+We also foresee a future step: a internal method using the information from accelerometer and gyroscope to implement the precise formula will be inserted in the code. 
 
