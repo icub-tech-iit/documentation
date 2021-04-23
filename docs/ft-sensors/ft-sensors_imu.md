@@ -1,6 +1,6 @@
 # F/T Sensors on-board IMU
 The F/T Sensors have an onboard IMU unit mounted on the STRAIN2 (the signal conditioning electronic board). The data from the IMU can be streamed in the CAN bus with dedicated messages to complement the information from F/T sensor.
-![strain2](./img/strain.png)
+![strain2](./img/strain.PNG)
 *Figure 1. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor*
 
 ## Electronics features
