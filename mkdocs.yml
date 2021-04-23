@@ -96,6 +96,7 @@ nav:
         - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
       - F/T Sensors:
         - F/T Sensors: ft-sensors/ft-sensors.md
+        - F/T Sensors IMU: ft-sensors/ft-sensors_imu.md
       - iCub Kinematics:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
