@@ -28,8 +28,7 @@ The IMU reference frame is defined by its positioning on the Strain2 PCB (see fi
 | $z_{IMU}$ | $z_{FT}$  |
 
 
-<img title = 'prova' src =./img/strain.PNG width="40%" height="40%" alt="prova" >
-![strain2](./img/strain.PNG)
+<img title = 'prova' src =./img/strain.PNG width="60%" height="60%" alt='prova' >
 *Figure 2. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor; in magenta it is also highlighted the footprint of the IMU component*
 
 By acting on the firmware the two reference frames can be made parallel but to perform a precise acceleration transformation we have in general to deal with **non-inertial term** as explained in the following.
