@@ -6,24 +6,24 @@ The IMU device is the [BNO055](https://www.bosch-sensortec.com/media/boschsensor
 The basic configuration of the IMU allows the user to directly read the raw data.
 
 ## Measurement frame specifications
-----
-
-| |
-| :---: |
-| ![](./img/ft-frame.png) |
-| *Figure 1: the FT reference frame as can be defined while using the device* |
-
 The F/T sensor reference frame and the IMU default reference frame are rigidly connected. The two frames are rotated with respect to each other.
 
-The F/T reference frame can be determined by visual inspection:
+The F/T reference frame can be determined by visual inspection (see Figure 1):
 
 - the connection cable exits the sensor in the $-x$ direction.
 - the thick sensor cover indicates the $+z$ direction.
 - the $y$ axis is determined according to a right-handed convention.
 
+<p align="center">
+  <figure>
+    <img src="../img/ft-frame.png"/>
+    <figcaption><b>Figure 1: the FT reference frame as can be defined while using the device</b></figcaption>
+  </figure>
+</p>
+
 This reference frame is the one used to determine and transmit the forces and torques. 
 
-The IMU reference frame is defined w.r.t its location on the Strain2 PCB (see figure 2).
+The IMU reference frame is defined w.r.t its location on the Strain2 PCB (see Figure 2).
 Its orientation can be also defined in terms of the F/T frame:
 
 | IMU | F/T |
@@ -34,17 +34,18 @@ Its orientation can be also defined in terms of the F/T frame:
 
 Finally, the IMU origin in the F/T frame coordinates are $\left( 7.5, \; -8.6 \right)$ $mm$.
 
-| |
-| :---: |
-| ![](./img/strain.png) |
-| *Figure 2. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor; in magenta it is also highlighted the footprint of the IMU component* |
+<p align="center">
+  <figure>
+    <img src="../img/strain.png"/>
+    <figcaption><b>Figure 2. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor; in magenta it is also highlighted the footprint of the IMU component</b></figcaption>
+  </figure>
+</p>
 
 By configuring the firmware options, the two reference frames can be made coincident.
 
 Nonetheless, to express accelerations in a different reference frame, one needs to account for **non-inertial terms** as explained in the following section.
 
 ## Acceleration transformation with non-inertial terms
-
 We have two reference frames rotated w.r.t. each other but rigidly connected, i.e. F/T and IMU reference frames.
 We measure accelerations with the IMU in its proper reference frame *B*, and we seek to transform the accelerations in the FT reference frame *S*.
 
@@ -63,14 +64,17 @@ where the last two terms on the right are the non-inertial terms that appear in 
 calculated w.r.t. the inertial *absolute* reference frame. 
 
 ### Measurement of non-inertial terms in realistic scenarios
-
 To assess the required level of precision in transforming the acceleration between the two dragged reference frames, we performed a few tests in a real world case, i.e. 
 the iCub performing the **Yoga Demo**. In this demo the left foot is held on the ground and the robot balances over it moving the right leg. 
 We logged both gyroscope and accelerometer data from all the F/T sensors and evaluated the non-inertial terms from the formula above.
 
 As a test, we compared the transformed accelerations with and without the non-inertial components calculated according to equation above and the results are reported in the plotv below.
 
-![](./img/noninertialterms_yogademo_rightlegandfoot.png)
+<p align="center">
+  <figure>
+    <img src="../img/noninertialterms_yogademo_rightlegandfoot.png"/>
+  </figure>
+</p>
 
 As a first approximation, in our use case we can neglect the effect of the drag non-inertial forces in the remapping of the accelerometer data. 
 However, we choose an algorhithm approach to keep this possibility open in a next step.
@@ -122,7 +126,7 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
 
 The same applies to the corresponding gyroscope data. 
 
-**Notice the preprocessor condition aimed to guarantee the correct behaviour for other boards using a BNO055 IMU** preventing unwanted behaviors. 
+**Notice how the preprocessor condition aimed to guarantee the correct behaviour for other boards using a BNO055 IMU** preventing unwanted behaviors. 
 
 ## Outlook
 As a future step, we may consider implementing the full transformation that includes the non-intertial terms. 
