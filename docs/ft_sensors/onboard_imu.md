@@ -60,8 +60,9 @@ $$
 m_S = {}^S R_ B ( m_ B + {}^B \omega_{A,B} \times {}^B \omega_{A,B} \times {}^B o_S  + {}^B \dot{\omega}_{A,B} \times  {}^B o_S ),
 $$
 
-where the last two terms on the right are the non-inertial terms that appear in the reference frame transformation. The suffix *A* means that the quantity is 
-calculated w.r.t. the inertial *absolute* reference frame. 
+where the last two terms on the right are the non-inertial terms that appear in the reference frame transformation. The suffix *A* means that the quantity is calculated w.r.t. the inertial *absolute* reference frame. 
+
+For a more thorough and complete analysis, refer to this [study](./change_of_frame_accelerometer.md) 📚
 
 ### Measurement of non-inertial terms in realistic scenarios
 To assess the required level of precision in transforming the acceleration between the two dragged reference frames, we performed a few tests in a real world case, i.e. 
@@ -126,7 +127,7 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
 
 The same applies to the corresponding gyroscope data. 
 
-**Notice how the preprocessor condition aimed to guarantee the correct behaviour for other boards using a BNO055 IMU** preventing unwanted behaviors. 
+**Notice how the preprocessor condition aimed to guarantee the correct behaviour for other boards using the BNO055 IMU device**.
 
 ## Outlook
 As a future step, we may consider implementing the full transformation that includes the non-intertial terms. 
