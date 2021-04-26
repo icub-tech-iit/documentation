@@ -1,4 +1,4 @@
-# Study of change of frame on accelerometer measurements
+# Study on change of frame on accelerometer measurements
 
 #### Author
 
