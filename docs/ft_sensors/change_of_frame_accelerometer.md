@@ -1,11 +1,12 @@
 # Study of change of frame on accelerometer measurements
-Unless noted, notation follows what is described in ["A Multibody Dynamics Notation – Revision_2"](https://pure.tue.nl/ws/portalfiles/portal/139293126/A_Multibody_Dynamics_Notation_Revision_2_.pdf) 📚
 
 #### Author
 
 | | |
 |:---:|:---|
 | [<img src="https://github.com/traversaro.png" width="40">](https://github.com/traversaro) | [@traversaro](https://github.com/traversaro) |
+
+Unless noted, notation follows what is described in ["A Multibody Dynamics Notation – Revision_2"](https://pure.tue.nl/ws/portalfiles/portal/139293126/A_Multibody_Dynamics_Notation_Revision_2_.pdf) 📚
 
 ## Problem description
 Assume that we have two accelerometers, that are attached to the same rigid body, but placed in two different frames ($S$ and $B$). 
