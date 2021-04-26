@@ -97,7 +97,7 @@ nav:
       - F/T Sensors:
         - Summary: ft_sensors/index.md
         - F/T Sensors: ft_sensors/ft_sensors.md
-        - Onboard IMU: ft_sensors/onboard_imu.md
+        - F/T Onboard IMU: ft_sensors/ft_onboard_imu.md
         - Study on change of frame for accelerometer measurements: ft_sensors/change_of_frame_accelerometer.md
       - iCub Kinematics:
         - Summary: icub_kinematics/index.md
