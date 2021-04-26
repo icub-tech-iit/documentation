@@ -1,5 +1,5 @@
 # Study of change of frame on accelerometer measurements
-Unless noted, notation follows what described in https://pure.tue.nl/ws/portalfiles/portal/139293126/A_Multibody_Dynamics_Notation_Revision_2_.pdf.
+Unless noted, notation follows what is described in ["A Multibody Dynamics Notation – Revision_2"](https://pure.tue.nl/ws/portalfiles/portal/139293126/A_Multibody_Dynamics_Notation_Revision_2_.pdf) 📚
 
 #### Author
 
