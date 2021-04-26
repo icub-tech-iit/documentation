@@ -14,12 +14,12 @@ The F/T reference frame can be determined by visual inspection (see Figure 1):
 - the thick sensor cover indicates the $+z$ direction.
 - the $y$ axis is determined according to a right-handed convention.
 
-<p align="center">
+<center>
   <figure>
     <img src="../img/ft-frame.png"/>
     <figcaption><b>Figure 1: the FT reference frame as can be defined while using the device</b></figcaption>
   </figure>
-</p>
+</center>
 
 This reference frame is the one used to determine and transmit the forces and torques. 
 
@@ -34,12 +34,12 @@ Its orientation can be also defined in terms of the F/T frame:
 
 Finally, the IMU origin in the F/T frame coordinates are $\left( 7.5, \; -8.6 \right)$ $mm$.
 
-<p align="center">
+<center>
   <figure>
     <img src="../img/strain.png"/>
     <figcaption><b>Figure 2. The Strain2 simplified board layout with highlighted the reference frames, magenta for the IMU and green for the F/T sensor; in magenta it is also highlighted the footprint of the IMU component</b></figcaption>
   </figure>
-</p>
+</center>
 
 By configuring the firmware options, the two reference frames can be made coincident.
 
@@ -70,11 +70,11 @@ We logged both gyroscope and accelerometer data from all the F/T sensors and eva
 
 As a test, we compared the transformed accelerations with and without the non-inertial components calculated according to equation above and the results are reported in the plotv below.
 
-<p align="center">
+<center>
   <figure>
     <img src="../img/noninertialterms_yogademo_rightlegandfoot.png"/>
   </figure>
-</p>
+</center>
 
 As a first approximation, in our use case we can neglect the effect of the drag non-inertial forces in the remapping of the accelerometer data. 
 However, we choose an algorhithm approach to keep this possibility open in a next step.
