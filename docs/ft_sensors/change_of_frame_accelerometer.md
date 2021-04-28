@@ -17,7 +17,8 @@ We indicate with:
 
 $$
 \begin{equation}
-{}^A o_S = {}^A o_B + {}^A R_B {}^B o_S. \; (1)
+{}^A o_S = {}^A o_B + {}^A R_B {}^B o_S.
+\tag{1}
 \end{equation}
 $$
 
@@ -43,7 +44,8 @@ and
 $$
 \begin{align}
 {}^A \ddot{R}_ B &= {}^A \dot{R}_ B {}^B \omega_{A,B} \times + {}^A R_B {}^B \dot{\omega}_{A,B} \times = \\
-&= {}^A R_B {}^B \omega_{A,B} \times {}^B \omega_{A,B} \times + {}^A R_B {}^B \dot{\omega}_{A,B} \times.  \; (2)
+&= {}^A R_B {}^B \omega_{A,B} \times {}^B \omega_{A,B} \times + {}^A R_B {}^B \dot{\omega}_{A,B} \times.
+\tag{2}
 \end{align}
 $$
 
@@ -51,7 +53,8 @@ As $B$ and $S$ are rigidly attached to the same rigid body, we have that ${}^B o
 
 $$
 \begin{equation}
-{}^B \dot{o}_S = 0. \; (3)
+{}^B \dot{o}_S = 0.
+\tag{3}
 \end{equation}
 $$
 
@@ -59,13 +62,14 @@ The measure of each sensor is given by:
 
 $$
 \begin{equation}
-m_S = {}^S R_A ( {}^A \ddot{o}_S - {}^A g) \; (4)
+m_S = {}^S R_A ( {}^A \ddot{o}_S - {}^A g)
+\tag{4}
 \end{equation}
 $$
 
 $$
 \begin{equation}
-m_B = {}^B R_A ( {}^A \ddot{o}_B - {}^A g) \; (5)
+m_B = {}^B R_A ( {}^A \ddot{o}_B - {}^A g)
 \end{equation}
 $$
 
@@ -81,7 +85,7 @@ and then we derivative again:
 
 $$
 \begin{equation}
-{}^A \ddot{o}_S = {}^A \ddot{o}_B + {}^A \ddot{R}_B {}^B o_S + 2 {}^A \dot{R}_B {}^B \dot{o}_S  + {}^A R_B {}^B \ddot{o}_S \; (6)
+{}^A \ddot{o}_S = {}^A \ddot{o}_B + {}^A \ddot{R}_B {}^B o_S + 2 {}^A \dot{R}_B {}^B \dot{o}_S  + {}^A R_B {}^B \ddot{o}_S
 \end{equation}
 $$
 
@@ -89,11 +93,12 @@ as we know that the $B$ and $C$ are rigidly attached to the same body (see $(3)$
 
 $$
 \begin{equation}
-{}^A \ddot{o}_S = {}^A \ddot{o}_B + {}^A \ddot{R}_B {}^B o_S. \; (7)
+{}^A \ddot{o}_S = {}^A \ddot{o}_B + {}^A \ddot{R}_B {}^B o_S.
+\tag{5}
 \end{equation}
 $$
 
-By substituting $(7)$ in $(4)$ we have:
+By substituting $(5)$ in $(4)$ we have:
 
 $$
 \begin{align}
