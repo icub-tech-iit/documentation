@@ -187,3 +187,37 @@ broadcastdelay  0.008
 ```
 
 In general it is a good idea if all the machines on the iCub network have synchronized clock via NTP
+
+# Tweaks
+
+## How to change the network card used to connect to the robot
+This section explains how to change the network card used to connect the laptop to the robot, eg. if you need to replace the internal one with an ETH2USB adapter
+
+### Note
+If you are replacing the network card with an ETH2USB adapter this procedure must be executed any time you use a new adapter, in other words if you replace the adapter with a different one, this procedure must be executed again.
+
+### 1. Take note of the new network interface name
+The first thing is to know which is the name that the system has assigne to the new interface.
+Before adding the new interface, please issue this command:
+
+`ip link`
+
+This will return a line each ethernet connection available, eg:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp0s31f6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+```
+
+then add the new ethernet card, issue the command `ip link` and check the differences, eg:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: enp0s31f6: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+3: **enx3c8cf8fba684**: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
+    link/ether 3c:8c:f8:fb:a6:84 brd ff:ff:ff:ff:ff:ff
+```
