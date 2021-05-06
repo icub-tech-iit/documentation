@@ -1,8 +1,6 @@
 # Introduction
 
 This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the icub-head.
-We assume you have installed a working Debian or Ubuntu on the laptop.
-You can freely decide to install 32 bit or 64 bit, the code compiles on both architectures. Be aware that if you plan to share the repository with other machines, all machines need to have the same architecture (32 versus 64 bits, same versions of the libraries). A possibility would be to share the same code directory and different builds.
 
 # *Prerequisite* : basic system setup for a iCub machine
 
@@ -194,7 +192,9 @@ In general it is a good idea if all the machines on the iCub network have synchr
 # Tweaks
 
 ## How to change the network card used to connect to the robot
-This section explains how to change the network card used to connect the laptop to the robot, eg. if you need to replace the internal one with an ETH2USB adapter
+This section explains how to change the network card used to connect the laptop to the robot, eg. if you need to replace the internal one with an ETH2USB adapter.
+
+The instruction below can be easily adapted if you need to change the External (Wireless) network connection.
 
 ### Note
 If you are replacing the network card with an ETH2USB adapter this procedure must be executed any time you use a new adapter, in other words if you replace the adapter with a different one, this procedure must be executed again.
