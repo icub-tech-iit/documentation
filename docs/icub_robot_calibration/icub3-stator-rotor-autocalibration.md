@@ -1,5 +1,5 @@
 # iCub 3 - Stator/Rotor auto-calibration
-This page shows how to run the autocalibration procedure of the rotor/stator alignement on iCub3.
+This page shows how to run the autocalibration procedure of the rotor/stator alignement on iCub 3.
 
 ## Prepare the `.xml` files
 In order to get the values to put in the `.xml` files we need to modify the file enabling the autocalibration.
