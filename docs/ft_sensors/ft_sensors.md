@@ -151,10 +151,10 @@ The recommended tightening torque is 2.8Nm.
   </figure>
 </center>
 
-### FT58 assembly on iCub3
+### FT58 assembly on iCub 3
 ---
 
-The FT58 sensor is assembled on iCub3 as represented in th following pictures.
+The FT58 sensor is assembled on iCub 3 as represented in th following pictures.
 The top interface is fixed with 6 M4x12 UNI 5933 countersunk hex. screws (cod. V4-12--_-_U5933_C).
 The recommended tightening torque is 2Nm.
 
