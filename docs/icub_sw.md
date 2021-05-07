@@ -7,6 +7,6 @@
 - [`iCub Firmware`](./icub_firmware/index.md)
 - [`iCub Microphones`](./icub_microphones/icub_microphones.md)
 - [`Robot Calibration`](./icub_robot_calibration/icub-robot-calibration.md)
-- ['Calibration Types'](./icub_r1_icub3_calibration_types/icub_r1_calibration_types.md)
+- [`Calibration Types`](./icub_r1_icub3_calibration_types/icub_r1_calibration_types.md)
 - [`iCub and R1 Calibration Types`](./icub_r1_icub3_calibration_types/icub_r1_calibration_types.md)
 - [`Configure IP on a setup for ETH boards`](./configure_static_ip/configure-static-ip.md)
