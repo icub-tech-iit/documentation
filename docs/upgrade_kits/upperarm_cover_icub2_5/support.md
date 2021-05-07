@@ -16,8 +16,8 @@
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  14589  | MKIT_004  |   | Pieces  |  1  | iCub, Upper arms, fix skin breaking |
-|  2  |	   14767  |		WKIT_004	 |	 	| Pieces	| 1	| iCub2, Upperarms, fix skin breaking (wiring parts) |
-|  3  |	   14768  |		EKIT_004	 |	 	| Pieces	| 1	| iCub2, Upperarms, fix skin breaking (electronics) |
+|  2  |	   14767  |		WKIT_004	 |	 	| Pieces	| 1	| iCub 2, Upperarms, fix skin breaking (wiring parts) |
+|  3  |	   14768  |		EKIT_004	 |	 	| Pieces	| 1	| iCub 2, Upperarms, fix skin breaking (electronics) |
 
 ## Content material  MKIT_004
 
@@ -35,8 +35,8 @@
 
 |  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
-|   1     |    10301  	 |      	 | iCub2.5, subassembly - Right Upperarm Skin Harness, wiring materials |10301 |
-|   1     |    10273 	 |     	 | 	iCub2.5, subassembly - Left Upperarm Skin Harness, wiring materials |10273 |
+|   1     |    10301  	 |      	 | iCub 2.5, subassembly - Right Upperarm Skin Harness, wiring materials |10301 |
+|   1     |    10273 	 |     	 | 	iCub 2.5, subassembly - Left Upperarm Skin Harness, wiring materials |10273 |
 
 !!! note "note"
     [link to harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14767%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(wiring%20parts)) 
