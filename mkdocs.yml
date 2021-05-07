@@ -174,7 +174,8 @@ nav:
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
-        - CanLoader: icub_firmware/canLoader/canLoader.md
+        - Old Tools:
+          - CanLoader: icub_firmware/canLoader/canLoader.md
       - iCub Microphones:
         - How to use microphones: icub_microphones/icub_microphones.md
       - Robot Calibration:

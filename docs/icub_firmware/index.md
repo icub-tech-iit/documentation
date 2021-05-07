@@ -7,10 +7,3 @@ Here you can find information about firmware in the various versions of the robo
 
 [**Associated Firmware**](./associated-firmware/associated-firmware.md)
 
-[**CanLoader**](./canLoader/canLoader.md)
-
-
-
-
-
-
