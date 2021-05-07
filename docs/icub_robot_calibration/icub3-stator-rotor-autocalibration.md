@@ -2,11 +2,11 @@
 This page shows how to run the autocalibration procedure of the rotor/stator alignement on iCub 3.
 
 ## Prepare the `XML` files
-In order to get the values to put in the `XML` files we need to modify the file enabling the autocalibration.
+In order to get the values to put in the `XML` files, we need to modify the file enabling the autocalibration.
 
-The files are located in this [folder](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals)
+The files are located in [`robots-configuration/iCubGenova09/hardware/mechanicals`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals).
 
-Accordingly to the joint you have to calibrate, select the corrsponding file and set `AutoCalibration` param to 1 and `RotorIndexOffset` to 0
+Accordingly to the joint you have to calibrate, select the corresponding file and set `AutoCalibration` param to 1 and `RotorIndexOffset` to 0:
 
 ```xml
  <group name="2FOC">
@@ -23,17 +23,17 @@ Accordingly to the joint you have to calibrate, select the corrsponding file and
 ```
 
 ## Run `yarprobotinterface` 
-In order to get the value to be written in the `XML` file above, `yarprobotinterface` needs to run.
+In order to get the value to be written in the `XML` file above, `yarprobotinterface` needs to be launched.
 
 !!!info
-    In order to get less messages from the `yarprobotinterface` log it is better to enable the calibration only for the joint that needs to be calibrated.
-    To do that in the correspondant [calibration file](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/calibrators) edit the `CALIB_ORDER` param to contain only the number of the joint you need:
+    In order to get less messages from the `yarprobotinterface` log, better off enabling the calibration only for the joint that needs to be calibrated.
+    To do that in the corresponding [calibration file](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/calibrators), edit the `CALIB_ORDER` param to contain only the number of the joint you need:
     ```xml
                 <param name="CALIB_ORDER"> (0) (1) (2) (3) (4) (5) </param>
     ```
 
 ## Retrieve the offset from the log messages
-Once `yarprobotinterface` is running check the log messages an look for a `DEBUG` message regarding the joint being under calibration that looks like the one below:
+Once `yarprobotinterface` is running, check the log messages and look for a `DEBUG` message regarding the joint being under calibration as below:
 
 ```
 [DEBUG]  from BOARD 10.0.1.10 (right_leg-eb10-j0_1), src CAN1, adr 1, time 92s 891m 994u: (code 0x04000002, par16 0x8119 par64 0xffcc0042ffff0079) -> DEBUG: tag02 + .
@@ -46,7 +46,7 @@ Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degree
     Otherwise the calibration is failed/not completed. 
 
 !!!note
-    The joint number is determined by its `2FOC` can address, taking care that `adr` can be [1-4]: 
+    The joint number is determined by its `2FOC` CAN address, considering that `adr` can be in [1-4]: 
     
     Example 1
     `(right_leg-eb10-j0_1), src CAN1, adr 1` -> adr 1 is the first joint defined in `right_leg-eb10-j0_1`, so `joint 0`
@@ -56,12 +56,11 @@ Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degree
 
 
 ## Put the values in the `XML` files
-Once the value of the autocalibration is retrieved, just put it in the correspondant [`XML`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file.
+Once the value of the autocalibration is retrieved, just put it in the corresponding [`XML`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file.
 
-For the value retrieved above we need to modify hte `joint 0` column of [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
+For the value retrieved above we need to modify the `joint 0` column of [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
 
-The column order in the file follows the joint order in the file-name, in this case for `right_leg-eb10-j0_1-mec.xml` the first column is the `joint 0` and the second one is for `joint 1`.
-
+The column order in the file follows the joint order in the file-name; in the case of `right_leg-eb10-j0_1-mec.xml`, the first column is for `joint 0` and the second one is for `joint 1`.
 
 ```xml
 <group name="2FOC">
