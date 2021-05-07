@@ -17,8 +17,8 @@ Accordingly to the joint you have to calibrate, select the corresponding file an
         <param name="HasRotorEncoder">       1             1       </param>
         <param name="HasRotorEncoderIndex">  1             1       </param>
         <param name="HasSpeedEncoder">       0             0       </param>
-        <param name="RotorIndexOffset">      0             0      </param>
-        <param name="MotorPoles">            12            8      </param>
+        <param name="RotorIndexOffset">      0             0       </param>
+        <param name="MotorPoles">            12            8       </param>
    </group>
 ```
 
@@ -72,7 +72,7 @@ The column order in the file follows the joint order in the file-name; in the ca
         <param name="HasRotorEncoderIndex">  1             1          </param>
         <param name="HasSpeedEncoder">       0             0          </param>
         <param name="RotorIndexOffset">      121           358        </param>
-        <param name="MotorPoles">            12            8        </param>
+        <param name="MotorPoles">            12            8          </param>
    </group>
 ```
 
