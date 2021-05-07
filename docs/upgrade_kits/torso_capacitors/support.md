@@ -1,4 +1,4 @@
-# KIT_002 Update of capacitor support (front and rear) iCub2.5 with battery backpack
+# KIT_002 Update of capacitor support (front and rear) iCub 2.5 with battery backpack
 
 ## Content material
 
