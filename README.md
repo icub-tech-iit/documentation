@@ -46,7 +46,7 @@ mkdocs serve
 
 In the next sections it will be described in detail how to install the required dependencies using different package managers.
 
-### conda
+### 🐍 conda
 You can use the [conda-forge](https://conda-forge.org/) distribution to install the required dependencies on Linux, macOS or Windows.
 First of all you need a conda distribution, for example [Miniforge3](https://github.com/conda-forge/miniforge).
 
