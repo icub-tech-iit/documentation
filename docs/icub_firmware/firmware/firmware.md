@@ -72,6 +72,3 @@ Below a list of usefull links :
 - Firmware [binaries](https://github.com/robotology/icub-firmware-build)
 - `FirmwareUpdater` [sources](https://github.com/robotology/icub-main/tree/master/src/tools/FirmwareUpdater) 
 
-### CanLoader Tool (deprecated)
-In the past the tool used to deal with firmware update operations was the [CanLoader](./../canLoader/canLoader.md) tool that has been removed since this [PR](https://github.com/robotology/icub-main/pull/659)
-
