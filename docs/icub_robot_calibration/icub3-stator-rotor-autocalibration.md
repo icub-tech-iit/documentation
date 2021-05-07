@@ -41,7 +41,9 @@ Once `yarprobotinterface` is running check the log messages an look for a `DEBUG
 
 Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degrees; this is the value to save in the file (see next steps). 
 
-The 8 leftmost digits (in the example `0xffcc0042`) must be not `0` or the calibration is failed/not completed. 
+!!!warning
+    The 8 leftmost digits (in the example `0xffcc0042`) must be not `0`!<br>
+    Otherwise the calibration is failed/not completed. 
 
 !!!note
     The joint number is determined by its `2FOC` can address, taking care that `adr` can be [1-4]: 
@@ -56,7 +58,10 @@ The 8 leftmost digits (in the example `0xffcc0042`) must be not `0` or the calib
 ## Put the values in the `.xml` files
 Once the value of the autocalibration is retrieved, just put it in the correspondant [.xml](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file
 
-For the value retrieved above we need to modify hte `joint 0` column of the respective [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
+For the value retrieved above we need to modify hte `joint 0` column of [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
+
+The column order in the file follows the joint order in the file-name, in this case for `right_leg-eb10-j0_1-mec.xml` the first column is the `joint 0` and the second one is for `joint 1`.
+
 
 ```xml
 <group name="2FOC">

@@ -177,11 +177,12 @@ nav:
         - CanLoader: icub_firmware/canLoader/canLoader.md
       - iCub Microphones:
         - How to use microphones: icub_microphones/icub_microphones.md
-      - iCub Robot Calibration:
-        - Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
+      - Robot Calibration:
+        - iCub 2.X Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
         - Stereo Calibration: icub_robot_calibration/icub-stereo-calib.md
         - iCub3 Stator-Rotor auto-calibration: icub_robot_calibration/icub3-stator-rotor-autocalibration.md
-      - iCub/R1 Calibration Types:
-        - Calibration types: icub_r1_calibration_types/icub_r1_calibration_types.md
+      - Calibration Types:
+        - iCub/R1 Calibration types: icub_r1_icub3_calibration_types/icub_r1_calibration_types.md
+        - iCub3 Calibration types: icub_r1_icub3_calibration_types/icub3_calibration_types.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md
