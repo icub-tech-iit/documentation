@@ -1,8 +1,8 @@
 # iCub 3 - Stator/Rotor auto-calibration
 This page shows how to run the autocalibration procedure of the rotor/stator alignement on iCub 3.
 
-## Prepare the `.xml` files
-In order to get the values to put in the `.xml` files we need to modify the file enabling the autocalibration.
+## Prepare the `XML` files
+In order to get the values to put in the `XML` files we need to modify the file enabling the autocalibration.
 
 The files are located in this [folder](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals)
 
@@ -23,7 +23,7 @@ Accordingly to the joint you have to calibrate, select the corrsponding file and
 ```
 
 ## Run `yarprobotinterface` 
-In order to get the value to be written in the `.xml` file above, `yarprobotinterface` needs to run.
+In order to get the value to be written in the `XML` file above, `yarprobotinterface` needs to run.
 
 !!!info
     In order to get less messages from the `yarprobotinterface` log it is better to enable the calibration only for the joint that needs to be calibrated.
@@ -55,8 +55,8 @@ Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degree
     `(right_leg-eb11-j2_3), src CAN1, adr 2` -> adr 2 is the second joint defined in `right_leg-eb11-j2_3`, so `joint 3`
 
 
-## Put the values in the `.xml` files
-Once the value of the autocalibration is retrieved, just put it in the correspondant [.xml](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file
+## Put the values in the `XML` files
+Once the value of the autocalibration is retrieved, just put it in the correspondant [`XML`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file.
 
 For the value retrieved above we need to modify hte `joint 0` column of [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
 
