@@ -1,5 +1,5 @@
 !!! missing
-     `Canloader` is no longer available since [PR](https://github.com/robotology/icub-main/pull/659).
+     `Canloader` is no longer available since this [overhaul of the codebase](https://github.com/robotology/icub-main/pull/659).
 
 # CanLoader
 The canLoader application allows flashing the firmware of the dsp boards using the canbus interface.
