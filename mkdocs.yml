@@ -116,7 +116,6 @@ nav:
         - iCub 3 joints specs: icub3/icub3-joints.md
       - Custom components: custom_components/custom_components.md
 
-
     - iCub SW:
       - Summary: icub_sw.md
       - Software Installation:
