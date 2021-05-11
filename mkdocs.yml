@@ -25,7 +25,7 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  
 
 markdown_extensions:
-  - markdown.extensions.admonition
+  - admonition
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -116,7 +116,6 @@ nav:
         - iCub 3 joints specs: icub3/icub3-joints.md
       - Custom components: custom_components/custom_components.md
 
-
     - iCub SW:
       - Summary: icub_sw.md
       - Software Installation:
@@ -174,13 +173,16 @@ nav:
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
-        - CanLoader: icub_firmware/canLoader/canLoader.md
+        - Old Tools:
+          - CanLoader: icub_firmware/canLoader/canLoader.md
       - iCub Microphones:
         - How to use microphones: icub_microphones/icub_microphones.md
-      - iCub Robot Calibration:
-        - Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
+      - Robot Calibration:
+        - iCub 2.X Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
         - Stereo Calibration: icub_robot_calibration/icub-stereo-calib.md
-      - iCub/R1 Calibration Types:
-        - Calibration types: icub_r1_calibration_types/icub_r1_calibration_types.md
+        - iCub 3 Stator-Rotor auto-calibration: icub_robot_calibration/icub3-stator-rotor-autocalibration.md
+      - Calibration Types:
+        - iCub 2.X and R1 Calibration types: icub_r1_icub3_calibration_types/icub_r1_calibration_types.md
+        - iCub 3 Calibration types: icub_r1_icub3_calibration_types/icub3_calibration_types.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md

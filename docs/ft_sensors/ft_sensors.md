@@ -1,7 +1,11 @@
 # F/T Sensors
 The F/T sensor (6-dof) has also been specially designed to fit the iCub. However, the size of the sensor has been made compatible with an existing commercial product. On the other hand the signal conditioning electronics has been made to fit the sensor itself, consequently reducing the space required. The F/T sensor is based on a classical [Wheatstone bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge) design employing 12 semiconductor strain gauges arranged in a 6 half-bridges configuration.ed robots
 
-![F/T Sensor](./img/ft-sensor.png)
+<center>
+  <figure>
+    <img src="../img/ft-sensor.png"/>
+  </figure>
+</center>
 
 ## **Mechanical specifications**
 
@@ -18,9 +22,17 @@ Table 1: Physical specifications of the sensor
 
 ### Measurement frame specifications
 ----
-![F/T Sensor Frame](./img/ft-frame.png)
 
-he F/T sensor reference frame. Please notice that key elements to localize the reference frame on the sensor are two: (1) the hole where the CAN exits the sensor and (2) the thick VS the thin sensor cover.
+<center>
+  <figure>
+    <img src="../img/ft-frame.png"/>
+    <figcaption><b>The F/T sensor reference frame</b></figcaption>
+  </figure>
+</center>
+
+Please notice that key elements to localize the reference frame on the sensor are two:
+1. the hole where the CAN exits the sensor;
+2. the thick VS the thin sensor cover.
 
 The sensor is calibrated to measure the Force/Torque applied by the upper (blue) part of the sensor on the lower (red) part of sensor, and express it on the F/T sensor reference frame.
 
@@ -67,8 +79,11 @@ Firmware source code:
 | **12491**   |    FT45\_M1\_E2     | \-      | FT45 M1 cod. <span style="color:#ff0000;">**?**</span> - **STRAIN2** cod.**11996.B** + **Wiring materials** cod.**12478.0.0** | <span style="color:#ff0000;">Mech. assembly (with strain-gauge code) missing</span> |
 | **12031**   |   FT45\_M1\_E1.5    | \-      | **iCub, assembly - Force/Torque sensor (5x gain), with mechanical parts, strain-gauge, strain board and cabling**             |                                                                                     |
 | **12621**   |    FT58\_M2\_E2     | \-      | FT58 M2 cod.**12176.A1 - IC\_005\_A\_001** + **STRAIN2** cod.**11996.B** + **Wiring materials** cod.**12478.0.0**             |                                                                             
-
-![Assembly Variants](./img/assemby-variants.png)
+<center>
+  <figure>
+    <img src="../img/assemby-variants.png"/>
+  </figure>
+</center>
 
 ### FT45 Mechanical variants
 ---
@@ -120,23 +135,43 @@ The drawing code is depends on the sensor to be assebled (refer to the table in 
 
 The top interface is fixed with 6 M4x10 UNI 5931 counterbore hex. screws (cod. V4-10--_-_U5931_GC).
 The recommended tightening torque is 2.8Nm.
-![image-1](img/img-1.png)
+
+<center>
+  <figure>
+    <img src="../img/img-1.png"/>
+  </figure>
+</center>
 
 The bottom interface is fixed with 6 M4x10 UNI 5931 counterbore hex. screws (cod. V4-10--_-_U5931_GC).
 The recommended tightening torque is 2.8Nm.
-![image-1](img/img-2.png)
 
-### FT58 assembly on iCub3
+<center>
+  <figure>
+    <img src="../img/img-2.png"/>
+  </figure>
+</center>
+
+### FT58 assembly on iCub 3
 ---
 
-The FT58 sensor is assembled on iCub3 as represented in th following pictures.
+The FT58 sensor is assembled on iCub 3 as represented in th following pictures.
 The top interface is fixed with 6 M4x12 UNI 5933 countersunk hex. screws (cod. V4-12--_-_U5933_C).
 The recommended tightening torque is 2Nm.
-![image-1](img/img-3.jpeg)
+
+<center>
+  <figure>
+    <img src="../img/img-3.jpeg"/>
+  </figure>
+</center>
 
 The bottom interface is fixed with 6 M4x12 UNI 5933 countersunk hex. screws (cod. V4-12--_-_U5933_C).
 The recommended tightening torque is 2Nm.
-![image-1](img/img-4.png)
+
+<center>
+  <figure>
+    <img src="../img/img-4.png"/>
+  </figure>
+</center>
 
 ## FT Sensor Electronics Variants
 ---
@@ -186,17 +221,30 @@ There are three cards for reading six axis F/T Sensors:
 
 \*\* if removing the central ring 
 
-![image-1](img/img-5.png)
-
-![image-1](img/img-6.png)
+<center>
+  <figure>
+    <img src="../img/img-5.png"/>
+    <img src="../img/img-6.png"/>
+  </figure>
+</center>
 
 ## Cable connections
 ---
 ### STRAIN
-![STRAIN](img/cabling-strain.png)
+
+<center>
+  <figure>
+    <img src="../img/cabling-strain.png"/>
+  </figure>
+</center>
 
 ### STRAIN2
-![STRAIN2](img/cabling-strain2.png)
+
+<center>
+  <figure>
+    <img src="../img/cabling-strain2.png"/>
+  </figure>
+</center>
 
 ## Summarized usable codes
 ---
