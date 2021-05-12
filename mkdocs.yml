@@ -161,7 +161,7 @@ nav:
               - Installation from scratch: icub_operating_systems/other-machines/icub-server-from-scratch.md
             - The laptop used as icub server: icub_operating_systems/other-machines/icub-server-laptop.md
           - The CUDA workstation: icub_operating_systems/other-machines/cuda-workstation.md
-          - OS Images dowload: icub_operating_systems/download.md
+          - OS images dowload page: icub_operating_systems/download.md
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
