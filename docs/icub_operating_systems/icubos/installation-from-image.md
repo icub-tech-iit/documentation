@@ -23,13 +23,9 @@ The imaging tool used to create and restore icub-head disk images is [CloneZilla
 2. Get a USB 3 drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
-## Where to get the latest iCub server image
-
-Please open an issue in the [iCub Tech Support Repository on GithHub](https://github.com/robotology/icub-tech-support/issues)
-
 ## Download the latest iCubOS image
 
-Get the lastest iCubOS image and put it on a external USB drive (not the same were is CloneZilla LIVE)
+Get the lastest iCubOS image on [this page](../download.md) and put it on a external USB drive (not the same were is CloneZilla LIVE)
 
 ## Connect the icub-head
 
