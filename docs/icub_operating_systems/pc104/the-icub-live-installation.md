@@ -23,12 +23,13 @@ This image has persistence activate, this means that the written or modified fil
 # Burn the Debian image version 7.x (latest)
 Starting from version 6.0 images come in a compressed archive file containing the USB image to write to an USB memory.
 
-## Where to download the ZIP archive
-Compressed archives can be downloaded [here](http://wiki.icub.org/iCub/downloads/pc104-images/)
+## Download the latest iCubLive image
+
+Get the lastest iCubLive image on [this page](../download.md)
 
 ## How to create the bootable USB drive with the live image
 
-1.  Download the latest image from the [above link](http://wiki.icub.org/iCub/downloads/pc104-images/)
+1.  Download the latest image from the [above link](../download.md)
 2.  Extract the image
 3.  Take an USB-2 drive at least of 16 GB size (please note that using an USB3 disk or a huge disk, eg. 32 GB, may not work depending on the version of your PC104)
 4. burn the image file (it has the .img extension), you can use the follwing tools:
