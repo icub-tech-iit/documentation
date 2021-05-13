@@ -175,12 +175,12 @@ For the iCub, it could be useful to explicitly state the frame used for defining
 | r\_foot\_dh\_frame | r\_foot                   | Right foot frame, as defined in [ICubForwardKinematics](./../icub-forward-kinematics/icub-forward-kinematics.md)                            |
 | l\_eye\_frame      | — (missing at the moment) | Left eye frame, as defined in [ICubForwardKinematics](./../icub-forward-kinematics/icub-forward-kinematics.md)                              |
 | r\_eye\_frame      | — (missing at the moment) | Right eye frame, as defined in [ICubForwardKinematics](./../icub-forward-kinematics/icub-forward-kinematics.md)                             |
-| l\_arm\_ft\_frame  | l\_upper\_arm,l\_arm      | Left Arm FT sensor frame, as defined in [FT_sesors](./../../ft-sensors/ft-sensors.md)                                   |
-| r\_arm\_ft\_frame  | r\_upper\_arm,r\_arm      | Right Arm FT sensor frame, as defined in [FT_sesors](./../../ft-sensors/ft-sensors.md)                                 |
-| l\_leg\_ft\_frame  | l\_hip\_2,l\_hip\_3       | Left Leg FT sensor frame, as defined in [FT_sesors](./../../ft-sensors/ft-sensors.md)                                  |
-| l\_foot\_ft\_frame | l\_upper\_foot,l\_foot    | Left Foot FT sensor frame, as defined in [FT_sesors](./../../ft-sensors/ft-sensors.md)                                 |
-| r\_leg\_ft\_frame  | r\_hip\_2,r\_hip\_3       | Right Leg FT sensor frame, as defined in [FT_sesors](./../../ft-sensors/ft-sensors.md)                                 |
-| r\_foot\_ft\_frame | r\_upper\_foot,r\_foot    | Right Foot FT sensor frame, as defined in [FT_sesors](./../../ft-sensors/ft-sensors.md)                               |
+| l\_arm\_ft\_frame  | l\_upper\_arm,l\_arm      | Left Arm FT sensor frame, as defined in [FT_sesors](./../../ft_sensors/ft_sensors.md)                                   |
+| r\_arm\_ft\_frame  | r\_upper\_arm,r\_arm      | Right Arm FT sensor frame, as defined in [FT_sesors](./../../ft_sensors/ft_sensors.md)                                 |
+| l\_leg\_ft\_frame  | l\_hip\_2,l\_hip\_3       | Left Leg FT sensor frame, as defined in [FT_sesors](./../../ft_sensors/ft_sensors.md)                                  |
+| l\_foot\_ft\_frame | l\_upper\_foot,l\_foot    | Left Foot FT sensor frame, as defined in [FT_sesors](./../../ft_sensors/ft_sensors.md)                                 |
+| r\_leg\_ft\_frame  | r\_hip\_2,r\_hip\_3       | Right Leg FT sensor frame, as defined in [FT_sesors](./../../ft_sensors/ft_sensors.md)                                 |
+| r\_foot\_ft\_frame | r\_upper\_foot,r\_foot    | Right Foot FT sensor frame, as defined in [FT_sesors](./../../ft_sensors/ft_sensors.md)                               |
 
 ### Skin Frames
 An interesting set of frame is the frame defined by the iKin convention ( [ICubForwardKinematics](./../icub-forward-kinematics/icub-forward-kinematics.md) ). This reference frames are used by the skin system to express contact points, force and torques (in skinDynLib data structures) and taxel positions. The one currently used by the skin system are:

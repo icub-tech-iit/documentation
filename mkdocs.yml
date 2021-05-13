@@ -16,9 +16,18 @@ theme:
   icon:
     logo: material/robot
 
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 markdown_extensions:
-  - markdown.extensions.admonition
-  - pymdownx.arithmatex
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
@@ -86,7 +95,10 @@ nav:
         - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
         - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
       - F/T Sensors:
-        - F/T Sensors: ft-sensors/ft-sensors.md
+        - Summary: ft_sensors/index.md
+        - F/T Sensors: ft_sensors/ft_sensors.md
+        - F/T Onboard IMU: ft_sensors/ft_onboard_imu.md
+        - Study on change of frame for accelerometer measurements: ft_sensors/change_of_frame_accelerometer.md
       - iCub Kinematics:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
@@ -102,6 +114,7 @@ nav:
         - iCub FW Kinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
+      - Custom components: custom_components/custom_components.md
 
     - iCub SW:
       - Summary: icub_sw.md
@@ -124,7 +137,7 @@ nav:
           - Manual Installation:
             - icub-head: sw_installation/icub_head_manual.md
       - Software Versioning Table: sw_versioning_table/index.md
-      - The OS for the iCub enviroment:
+      - The OS for the iCub environment:
         - Summary: icub_operating_systems/index.md
         - The OS on icub-head:
           - Introduction: icub_operating_systems/icubos/icubos.md
@@ -148,6 +161,7 @@ nav:
               - Installation from scratch: icub_operating_systems/other-machines/icub-server-from-scratch.md
             - The laptop used as icub server: icub_operating_systems/other-machines/icub-server-laptop.md
           - The CUDA workstation: icub_operating_systems/other-machines/cuda-workstation.md
+        - OS images download: icub_operating_systems/download.md
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
@@ -160,13 +174,16 @@ nav:
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
-        - CanLoader: icub_firmware/canLoader/canLoader.md
+        - Old Tools:
+          - CanLoader: icub_firmware/canLoader/canLoader.md
       - iCub Microphones:
         - How to use microphones: icub_microphones/icub_microphones.md
-      - iCub Robot Calibration:
-        - Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
+      - Robot Calibration:
+        - iCub 2.X Robot Calibration: icub_robot_calibration/icub-robot-calibration.md
         - Stereo Calibration: icub_robot_calibration/icub-stereo-calib.md
-      - iCub/R1 Calibration Types:
-        - Calibration types: icub_r1_calibration_types/icub_r1_calibration_types.md
+        - iCub 3 Stator-Rotor auto-calibration: icub_robot_calibration/icub3-stator-rotor-autocalibration.md
+      - Calibration Types:
+        - iCub 2.X and R1 Calibration types: icub_r1_icub3_calibration_types/icub_r1_calibration_types.md
+        - iCub 3 Calibration types: icub_r1_icub3_calibration_types/icub3_calibration_types.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md

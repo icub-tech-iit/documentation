@@ -1,14 +1,33 @@
 # Introduction
 
 This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the icub-head.
-We assume you have installed a working Debian or Ubuntu on the laptop.
-You can freely decide to install 32 bit or 64 bit, the code compiles on both architectures. Be aware that if you plan to share the repository with other machines, all machines need to have the same architecture (32 versus 64 bits, same versions of the libraries). A possibility would be to share the same code directory and different builds.
 
 # *Prerequisite* : basic system setup for a iCub machine
 
 Please follow the instructions on page [Generic iCub machine installation instructions](generic-machine.md), in order to prepare a generic machine for the iCub network.
 
-**NOTE** : set user as "*icub*" and hostname as "*icubsrv*" (not mandatory, but suggested)
+## NOTE 1 - about Newtwork configuration
+Usually, the laptop network conection are used as follows
+
+- **Cabled connection (internal)** - Connection to the robot; this port is used to connect to the icub-head, both directly (a network cable connect the robot and the laptop) or through a switch
+- **Wireless connection (external)** - Connection to the ouside world, to reach internet; this connection is used also by the robot as _Gateway_ (see "IP forwarding and NAT below)
+
+The above network connection can be configured using the Network Manager GUI with the following parameters:
+
+### Cabled (internal) Network parameters
+- **IP Address** : 10.0.0.1
+- **Netmash** : 255.255.255.0
+
+### Wireles (external) Network parameters
+This configuration depends on your network, but usually it uses **DHCP**
+
+_Of course, this configuration is not mandatory, but this guide assumes that you are usign it._
+
+## NOTE 2 - about username and hostname
+Set user as "*icub*" and hostname as "*icubsrv*" (not mandatory, but suggested)
+
+
+# Customization
 
 Then follow the below steps to customize it as the iCub Laptop
 
@@ -118,57 +137,39 @@ ssh-copy-id -i /home/icub/.ssh/id_rsa.pub icub@icub-head
 Enable NAT and port forwarding so that the icub-head (and other machines on the network) have internet access (using wlan0 as external network
 interface)
 
-- Enable IP forwarding : edit the file `/etc/sysctl.conf` by modifying the below line as follows
+### Enable IP forwarding
+Edit the file `/etc/sysctl.conf` by modifying the below line as follows
 
 ```
 net.ipv4.ip_forward = 1
 ```
 
-- Setup Network Address Translation :
-
-  1. add the IPTABLES rules
-  ```
-  sudo iptables --table nat --append POSTROUTING --out-interface wlan0 -j MASQUERADE
-  sudo iptables --append FORWARD --in-interface eth0 -j ACCEPT
-  ```
-  2. make the above rules persistent, by installing the `iptables-persistent` package
-  ```
-  sudo apt install iptables-persistent
-  ```
-  Oce you installed the package `iptables-persistent` it will asks you to save the current ipv4 and ipv6 iptables rules, answer yes to save it. Otherwise you can save it later witrh the command
-  ```
-  sudo iptables-save > /etc/iptables/rules.v4
-  ```
-
-### Note about natting
-
-Please check that:
-
-1.  The name of your network interfaces are correct (in the above commands
-    *wlan0* is the EXTERNAL interface - connecting to the external
-    world - and *eth0* is the INTERNAL interface - connection to the
-    icub-head)
-2.  The above script must be executable, otherwise you can made it
-    executuable by
-```
-chmod a+x /etc/network/if-up.d/natting
-```
-
-## Fix IP and DNS
-
-Use the following configuration for the _internal (cabled)_ network in netplan (usually the file `/etc/netplanmn/01-network-manager-all.yaml` )
+### Setup Network Address Translation
+First take note of the names of you network connections by checking the output f the following command:
 
 ```
-    eth0:
-      dhcp4: no
-      dhcp6: no
-      addresses: [10.0.0.1/24]
-      optional: true
+ip addr
 ```
 
-*NOTES*:
-  1. The configuration above assumes that the name of you internal interface is `eth0`, please check the actual name and change the above accordingly
-  2. When you setup netplan to manage a network interface, this will prevent the default Network configuration GUI (NetworkManager) to change it. This is an expected behavior and it is correct.
+Let's now assume that
+- the cabled (internal) network connection is `eth0`
+- the cabled (internal) network connection is `wlan0`
+
+#### 1. Add the IPTABLES rules
+```
+sudo iptables --table nat --append POSTROUTING --out-interface wlan0 -j MASQUERADE
+sudo iptables --append FORWARD --in-interface eth0 -j ACCEPT
+```
+
+####  2. Make the above rules persistent
+Installing the `iptables-persistent` package
+```
+sudo apt install iptables-persistent
+```
+Oce you installed the package `iptables-persistent` it will asks you to save the current ipv4 and ipv6 iptables rules, answer yes to save it. Otherwise you can save it later witrh the command
+```
+sudo iptables-save > /etc/iptables/rules.v4
+```
 
 ## Clock synchronization
 
@@ -187,3 +188,67 @@ broadcastdelay  0.008
 ```
 
 In general it is a good idea if all the machines on the iCub network have synchronized clock via NTP
+
+# Tweaks
+
+## How to change the network card used to connect to the robot
+This section explains how to change the network card used to connect the laptop to the robot, eg. if you need to replace the internal one with an ETH2USB adapter.
+
+The instruction below can be easily adapted if you need to change the External (Wireless) network connection.
+
+### Note
+If you are replacing the network card with an ETH2USB adapter this procedure must be executed any time you use a new adapter, in other words if you replace the adapter with a different one, this procedure must be executed again.
+
+### 1. Take note of the new network interface name
+The first thing is to know which is the name that the system has assigne to the new interface.
+Before adding the new interface, please issue this command:
+
+`ip link`
+
+This will return a line each ethernet connection available, eg:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+```
+
+then add the new ethernet card, issue the command `ip link` and check the differences, eg:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+3: enx3c8cf8fba684: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
+    link/ether 3c:8c:f8:fb:a6:84 brd ff:ff:ff:ff:ff:ff
+```
+
+In the above example, the new ethernet card name is **enx3c8cf8fba684**
+
+### 2. Update the IP Table rules
+Edit the file `/etc/iptables/rules.v4` by replacing the old internal network name (in this example `eth0`) with the new one (in this example `enx3c8cf8fba684`). It can be a good idea to _comment the old lines and add new ones with updated parameters_, eg:
+```
+# Generated by iptables-save v1.6.1 on Mon Nov 11 13:58:02 2019
+*filter
+:INPUT ACCEPT [48:2917]
+:FORWARD ACCEPT [8:455]
+:OUTPUT ACCEPT [45:6652]
+#-A FORWARD -i wlan0 -o eth0 -j ACCEPT
+-A FORWARD -i wlan0 -o enx3c8cf8fba684 -j ACCEPT
+COMMIT
+# Completed on Mon Nov 11 13:58:02 2019
+# Generated by iptables-save v1.6.1 on Mon Nov 11 13:58:02 2019
+*nat
+:PREROUTING ACCEPT [4:540]
+:INPUT ACCEPT [3:449]
+:OUTPUT ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+#-A POSTROUTING -o eth0 -j MASQUERADE
+-A POSTROUTING -o enx3c8cf8fba684 -j MASQUERADE
+COMMIT
+# Completed on Mon Nov 11 13:58:02 2019
+```
+
+### 3. Reboot the laptop

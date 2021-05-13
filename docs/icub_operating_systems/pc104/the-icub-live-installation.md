@@ -2,6 +2,11 @@
 
 Here you can find the instruction on how to create a new USB memory stick with the lastest version of the OS running on the PC104.
 
+## System Description
+The image contains a LIVE Debian GNU/Linux OS with iCub customizations, drivers and a RT kernel.
+
+The system supports _persistence_, this means that (unlike normal LIVE system) any modification on file system is permanent.
+
 ## Which version do I need?
 This question is quite common whenever the number of versions and revisions start to become... more than one.
 The Debian image to use depends on the iCub version:
@@ -9,17 +14,22 @@ The Debian image to use depends on the iCub version:
 - iCub from version 1.2 on can use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 9.x @ November 2020). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.
 
 ## Warning
-When you install (or "_burn_") the new PC104 image, installation procedure will overwrite the data already present on the USB disk your are using, so all data will be deleted.
+### Before you create the bootable USB
+When you install (or "_burn_") the new PC104 image, _the installation procedure will overwrite the data already present on the USB disk your are using_, so all data will be deleted.
+
+### Just after you create the bootable USB
+This image has persistence activate, this means that the written or modified files are written on the USB, in a separate partition. Since the first time it boots on a system, some hardware-related files are written in order to speedup the process, this means that, if you insert a just created USB memory on a different system from iCub's PC104 when you'll plug it on iCub the system could not work (due to potential differences in hardware). So _please do not connect an USB with a just burned image on any system other system_
 
 # Burn the Debian image version 7.x (latest)
 Starting from version 6.0 images come in a compressed archive file containing the USB image to write to an USB memory.
 
-## Where to download the ZIP archive
-Compressed archives can be downloaded [here](http://wiki.icub.org/iCub/downloads/pc104-images/)
+## Download the latest iCubLive image
+
+Get the lastest iCubLive image on [this page](../download.md)
 
 ## How to create the bootable USB drive with the live image
 
-1.  Download the latest image from the [above link](http://wiki.icub.org/iCub/downloads/pc104-images/)
+1.  Download the latest image from the [above link](../download.md)
 2.  Extract the image
 3.  Take an USB-2 drive at least of 16 GB size (please note that using an USB3 disk or a huge disk, eg. 32 GB, may not work depending on the version of your PC104)
 4. burn the image file (it has the .img extension), you can use the follwing tools:

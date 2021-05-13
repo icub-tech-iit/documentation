@@ -1,6 +1,6 @@
 ## iCub 3.x Wiring 
 
-The system architecture of iCub3 is depicted in the following image:
+The system architecture of iCub 3 is depicted in the following image:
 
 
 
