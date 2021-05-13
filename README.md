@@ -10,6 +10,13 @@ iCub Tech Docs
 # Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
 
+### 👨🏻‍💻 Maintainers
+This repository is maintained by:
+
+| | |
+|:---:|:---:|
+| [<img src="https://github.com/pattacini.png" width="40">](https://github.com/pattacini) | [@pattacini](https://github.com/pattacini) |
+
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
