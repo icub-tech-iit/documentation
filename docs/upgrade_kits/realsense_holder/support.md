@@ -33,11 +33,8 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 
 |  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
-|   1     |    XXXXXX 	 |      	 | XXXXXX |XXXX |
-
-
-!!! note "note"
-    [link to harness schematics](XXX) 
+|   1     |    15365 	 |      	 | USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 15365 |
+|   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
 
 ## Historical review:
@@ -67,7 +64,7 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
 -<center> ![imagine view](img/3.PNG) </center>
 
-- Third step, fix the chosen RealSense model to the holder usign the screws V3-8--_-_U5933_C. At this point is possible to plug the USB Type-C cable and use the cable ties to fix it around the head.
+- Third step, fix the chosen RealSense model to the holder usign the screws V3-8--_-_U5933_C. At this point is possible to plug the USB Type-C cable cod. 15365 and use the cable ties cod. 531 to fix it around the head.
 
 -<center> ![imagine view](img/4.PNG) </center>
 -<center> ![imagine view](img/5.PNG) </center>
