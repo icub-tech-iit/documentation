@@ -1,4 +1,4 @@
-# Introductrion
+# Introduction
 
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it
 
