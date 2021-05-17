@@ -5,7 +5,7 @@
 
 This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. 
 
--<center> ![imagine view](img/1.PNG) </center>
+-<center> ![imagine view](img/8.PNG) </center>
 
 |       |       	          |
 |   :--- |    :-----------           |
@@ -39,6 +39,9 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 
 ## Historical review:
 This upgrade kit has been developed together DIC team as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
+
+-<center> ![imagine view](img/8.PNG) </center>
+
 The holder has been designed to be compatible with the two following RealSense models:
 
 |     Alias        |  Description       |  Cod. Wgst |
