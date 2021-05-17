@@ -36,6 +36,9 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |   1     |    15365 	 |      	 | USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 15365 |
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
+!!! note "note"
+    [link to harness schematics](TBD) 
+
 
 ## Historical review:
 This upgrade kit has been developed together DIC team as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
