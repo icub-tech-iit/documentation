@@ -39,7 +39,7 @@ jobs:
           ./update-sw-distros.rb          
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@master
+        uses: peter-evans/create-pull-request@main
         with:
           commit-message: Automatic update of docs for Distro ${SUPERBUILD_TAG}
           branch: automatic-update-docs-distro-${SUPERBUILD_TAG}
