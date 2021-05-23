@@ -48,8 +48,6 @@ jobs:
           reviewers: pattacini
           assignees: ${{ github.actor }}
           body: |
-            This is the **automatic update** of the Docs for Distro.
-            
             This PR has been triggered with the following options:
             - Superbuild tag: `${SUPERBUILD_TAG}`
             - Initial distro to document: `${INITIAL_DISTRO}`.
