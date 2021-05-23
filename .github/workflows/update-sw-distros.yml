@@ -27,7 +27,7 @@ jobs:
           echo "INITIAL_DISTRO=${{ github.event.inputs.initial_distro }}" >> ${GITHUB_ENV}
           echo "SUPERBUILD_RELEASES_PATH=${{ github.workspace }}/../robotology-superbuild/releases" >> ${GITHUB_ENV}
           echo "SW_VERSIONING_TABLE_PATH=${{ github.workspace }}/docs/sw_versioning_table" >> ${GITHUB_ENV}
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - name: Download Robotology Superbuild
         run: |
           cd ../
