@@ -36,25 +36,19 @@ jobs:
         run: |
           rm -Rf ${SW_VERSIONING_TABLE_PATH}
           cd scripts/sw-distros
-          ./update-sw-distros.rb
-      - name: Configure Git
-        run: |
-          git config --global push.default upstream
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-      - name: Commit and push
-        run: |
-          git add .
-          git commit -m "update SW versioning table to ${SUPERBUILD_TAG}"
-          git push
-      - name: Publish Documentation through dispatching
-        env:
-          BOT_TRIGGER_GH_PAGES: ${{ secrets.BOT_TRIGGER_GH_PAGES }}
-        if: env.BOT_TRIGGER_GH_PAGES != null
-        uses: peter-evans/repository-dispatch@v1.1.1
+          ./update-sw-distros.rb          
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@master
         with:
-          token: ${{ secrets.BOT_TRIGGER_GH_PAGES }}
-          repository: ${{ github.repository }}
-          event-type: build_documentation
-
+          commit-message: Automatic update of docs for Distro ${SUPERBUILD_TAG}
+          branch: automatic-update-docs-distro-${SUPERBUILD_TAG}
+          delete-branch: true
+          title: 'Automatic update of Docs for Distro `${SUPERBUILD_TAG}`'
+          reviewers: pattacini
+          body: |
+            This is the **automatic update** of the Docs for Distro `${SUPERBUILD_TAG}`.
+      - name: Check outputs
+        run: |
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"          
+          
