@@ -25,14 +25,14 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Password** : icub
 
 ## Operative System
-- **Installed OS** : Ubuntu Server 20.04.1 LTS
-- Language : english
-- Country : Italy
-- Locale : en_US.UTF-8
-- Keyboard : english (US)
-- Hostname : icub-srv
-- Partions : single - 237Gb EXT4 (plus EFI) _Please disable LVM configuration during the partitioning step of installation procedure_
-- Kernel version :  5.4.0-73-generic x86_64
+**Installed OS** : Ubuntu Server 20.04.1 LTS
+Language : english
+Country : Italy
+Locale : en_US.UTF-8
+Keyboard : english (US)
+Hostname : icub-srv
+Partions : single - 237Gb EXT4 (plus EFI) _Please disable LVM configuration during the partitioning step of installation procedure_
+Kernel version :  5.4.0-73-generic x86_64
 
 ## Network configuration
 
