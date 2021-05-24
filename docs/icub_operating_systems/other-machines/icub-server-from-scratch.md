@@ -4,6 +4,9 @@ Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the d
 # Latest versions
 Latest version is based on Ubuntu Server 20.04.1
 
+# Prerequisite
+Please check that the BIOS configuration allows to boot from USB drive.
+
 # Create the USB installer
 The first step is download the [official Ubuntu 20.04 LTS Server install media](https://releases.ubuntu.com/focal/ubuntu-20.04.1-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/focal/)
 
@@ -28,8 +31,8 @@ Country : Italy
 Locale : en_US.UTF-8
 Keyboard : english (US)
 Hostname : icub-srv
-Partions : single - 237Gb EXT4 (plus EFI)
-Kernel version :  5.4.0-56-generic x86_64
+Partions : single - 237Gb EXT4 (plus EFI) _Please disable LVM configuration during the partitioning step of installation procedure_
+Kernel version :  5.4.0-73-generic x86_64
 
 ## Network configuration
 
@@ -46,7 +49,7 @@ enp1s0:
 enp2s0:
   dhcp4: no
   dhcp6: no
-  addresses: [10.0.10.1/24]
+  addresses: [10.0.0.1/24]
 ```
 
 See file `/etc/netplan/50-icub-srv.yaml` for configuration details
@@ -72,7 +75,7 @@ sudo iptables --append FORWARD --in-interface enp2s0 --out-interface enp1s0 -j A
 
 Install the package iptables-persistent
 ```
-sudo apt install iptables-persistent`
+sudo apt install iptables-persistent
 ```
 
 See file `/etc/iptables/rules.v4` for persistent rules details
@@ -80,7 +83,7 @@ See file `/etc/iptables/rules.v4` for persistent rules details
 ## DNS Server
 Install package bind9
 ```
-sudo apt install bind9 bind9utils`
+sudo apt install bind9 bind9utils
 ```
 
 See configuration files in `/etc/bind` for further deatils
@@ -146,9 +149,11 @@ Install the package nfs-kernel-server
 ```
 sudo apt install nfs-kernel-server
 ```
-Create the exports target paths
+Create the exports target paths and change ownership to _icub_ user
 ```
 sudo mkdir -p /exports/code /exports/local_yarp
+sudo chown icub:icub /exports/code
+sudo chown icub:icub /exports/local_yarp
 ```
 Edit the exports configuration file /etc/exports as follows
 ```
