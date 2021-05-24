@@ -25,14 +25,14 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Password** : icub
 
 ## Operative System
-**Installed OS** : Ubuntu Server 20.04.1 LTS
-Language : english
-Country : Italy
-Locale : en_US.UTF-8
-Keyboard : english (US)
-Hostname : icub-srv
-Partions : single - 237Gb EXT4 (plus EFI) _Please disable LVM configuration during the partitioning step of installation procedure_
-Kernel version :  5.4.0-73-generic x86_64
+- **Installed OS** : Ubuntu Server 20.04.1 LTS
+- Language : english
+- Country : Italy
+- Locale : en_US.UTF-8
+- Keyboard : english (US)
+- Hostname : icub-srv
+- Partions : single - 237Gb EXT4 (plus EFI) _Please disable LVM configuration during the partitioning step of installation procedure_
+- Kernel version :  5.4.0-73-generic x86_64
 
 ## Network configuration
 
@@ -41,6 +41,7 @@ Kernel version :  5.4.0-73-generic x86_64
 enp1s0:
   dhcp4: yes
   dhcp6: no
+  dhcp-identifier: mac
   optional: true
 ```
 
@@ -85,8 +86,14 @@ Install package bind9
 ```
 sudo apt install bind9 bind9utils
 ```
-
 See configuration files in `/etc/bind` for further deatils
+
+## Fix logging configuration
+create the folder `/var/log/named/` and set correct ownerhip
+```
+mkdir /var/log/named/
+chown bind:bind /var/log/named/
+```
 
 ## DHCP Client
 Edit the file `/etc/dhcp/dhclient.conf`  adding the following lines
@@ -100,7 +107,7 @@ Install package isc-dhcp-server
 ```
 sudo apt install isc-dhcp-server
 ```
-Edit the file /etc//default/isc-dhcp-server as follows
+Edit the file /etc/default/isc-dhcp-server as follows
 ```
 INTERFACESv4="enp2s0"
 ```
