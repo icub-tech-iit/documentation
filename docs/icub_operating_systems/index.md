@@ -4,7 +4,10 @@ This manual describes how to install and customize the linux operating systems r
 
 ## Robot OS
 
-There are two versions of the customized OS that runs on the machine inside iCub head:
+There are two versions of the customized OS that run on the machine inside iCub head.
+
+!!! note
+    For further details, please refer to the [iCub CPU boards](../icub_cpu_boards/icub_cpu_boards.md)
 
 - [_The iCub LIVE for PC104_](./pc104/icub-live.md) - based on Debian LIVE environment, it is for old iCub version with a PC104 board (without onboard Hard Drive) and it is distribuited usign a pre-built image.
 - [_The iCub OS_](./icubos/icubos.md) - based on Ubuntu Server, it is for latest iCub versions with a COM-Express board (with onboard Hard Drive) and can be installed starting from a pre-built image or we provide instructions to install and custommize a standard Ubuntu server installation.
