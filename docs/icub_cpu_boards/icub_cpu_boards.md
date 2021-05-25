@@ -1,8 +1,5 @@
-# Introduction
-
-The table below reports all possible boards installed on iCub 
-
-## CPU boards
+# CPU boards
+The table below reports all CPU boards installed on iCub.
 
 | Internal name    |   | Vendor Model            | Vendor         | Description                                                                                              | Board Form factor   | iCub version              | CPU                       | RAM       | HardDisk            | OTHER / BIOS                                                              |
 |------------------|---|-------------------------|----------------|----------------------------------------------------------------------------------------------------------|---------------------|---------------------------|---------------------------|-----------|---------------------|---------------------------------------------------------------------------|
@@ -13,4 +10,3 @@ The table below reports all possible boards installed on iCub
 | COMEXPRESS CONGATEC  |   | conga-TC87/i7-4650U     | Congatec       | COM-Express Type6, Congatec TC87/i7-4650U (Core i7-4650U 1.7GHz) p/n 46901                               | COM-Express Type6   | iCub 2.5, iCub 3.0    | Core i7-4650U             | 8GB       | external SATA 32GB  |                                                                           |
 | COMEXPRESS KONTRON   |   | COMe-cKL6i7-7600 8GB32S | Kontron        | COM-Express Type6, Kontron COMe-cKL6i7-7600 8GB RAM onboard and 32GB SLC eMMC 5.0 (Core i7-7600U 1.7GHz) | COM-Express Type6   | iCub 2.5-2.6 and 2.7  | Core i7-7600U             | 8+8GB RAM | onboard 32GB        |                                                                           |
 |                  |   |                         |                |                                                                                                          |                     |                           |                           |           |                     |                                                                           |
-
