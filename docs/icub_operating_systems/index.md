@@ -21,6 +21,3 @@ Once you customized your machine, you can proceed with further setup for special
 - [_CUDA workstation_](./other-machines/cuda-workstation.md) - a GPU-equipped machine with CUDA software installed
 - [_The iCub Server_](./other-machines/icub-server-from-scratch.md) - a machine acting only as server (for Network gateway, NTP, NFS, DHCP and DNS services)
 - [_The iCub Laptop Server_](./other-machines/icub-server-laptop.md) - a single machine, usually a laptop, acting both as server (for Network Gateway, ntp and NFS serviceas) as well as robot console
-
-
-* for details please refer to [iCub CPU boards](./icub_cpu_boards/icub_cpu_boards.md)
