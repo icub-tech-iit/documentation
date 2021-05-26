@@ -2,7 +2,7 @@
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it.
 
 # Latest versions
-Latest version is based on Ubuntu Server 20.04.1
+Latest version is based on Ubuntu Server 20.04.2
 
 # Prerequisite
 Please check that the BIOS configuration allows to boot from USB drive.
@@ -25,23 +25,25 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Password** : icub
 
 ## Operative System
-- **Installed OS** : Ubuntu Server 20.04.1 LTS
+- **Installed OS** : Ubuntu Server 20.04.2 LTS
 - **Language** : english
 - **Country** : Italy
 - **Locale** : en_US.UTF-8
 - **Keyboard** : english (US)
 - **Hostname** : icub-srv
-- **Partions** : single - 237Gb EXT4 (plus EFI)
-  _Please disable LVM configuration during the partitioning step of installation procedure_
 - **Kernel version** :  5.4.0-73-generic x86_64
+- **Partions** : single - 237Gb EXT4 (plus EFI)
+
+!!! note
+  _Please disable LVM configuration during the partitioning step of installation procedure_
 
 ## Network configuration
 
 ### external connection
 ```
 enp1s0:
-  dhcp4: yes
-  dhcp6: no
+  dhcp4: true
+  dhcp6: false
   dhcp-identifier: mac
   optional: true
 ```
@@ -49,12 +51,13 @@ enp1s0:
 ###  internal connection
 ```
 enp2s0:
-  dhcp4: no
-  dhcp6: no
+  dhcp4: false
+  dhcp6: false
   addresses: [10.0.0.1/24]
 ```
 
-See file `/etc/netplan/50-icub-srv.yaml` for configuration details
+!!! note
+  See file `/etc/netplan/50-icub-srv.yaml` for configuration details
 
 ## Cloud Init
 Please remove cloud init package
@@ -80,14 +83,17 @@ Install the package iptables-persistent
 sudo apt install iptables-persistent
 ```
 
-See file `/etc/iptables/rules.v4` for persistent rules details
+!!! note
+  See file `/etc/iptables/rules.v4` for persistent rules details
 
 ## DNS Server
 Install package bind9
 ```
 sudo apt install bind9 bind9utils
 ```
-See configuration files in `/etc/bind` for further deatils
+
+!!! note
+  See configuration files in `/etc/bind` for further deatils
 
 ## Fix logging configuration
 create the folder `/var/log/named/` and set correct ownerhip
@@ -114,7 +120,8 @@ INTERFACESv4="enp2s0"
 ```
 Enable logging and update apparmor configuration according
 
-See configurations files in `/etc/dhcp` for configuration details
+!!! note
+  See configurations files in `/etc/dhcp` for configuration details
 
 ### RNDC fix
 To fix the RNDC please use the following commands
