@@ -175,3 +175,15 @@ Edit the exports configuration file /etc/exports as follows
 /exports/code           10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
 /exports/local_yarp     10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
 ```
+
+## Disable unattended-upgrades
+In order to avod automatic system updates you can edit the file `etc/apt/apt.conf.d/20auto-upgrades by changing the follow lines
+```
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "0";
+```
+
+_Alternatively_ you can uninstall the package `unattended-upgrades`
+```
+sudo apt remove unattended-upgrades
+```
