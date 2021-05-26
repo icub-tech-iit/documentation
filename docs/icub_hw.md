@@ -21,6 +21,9 @@ Here you can find informations about iCub's kinematics.
 ## [iCub 3](./icub3/icub3-joints.md)
 Here are described the elctrical and mechanical specifications for each joint.
 
+## [iCub CPU boards](./icub_cpu_boards/icub_cpu_boards.md)
+Here's reported info about CPU boards installed on iCub.
+
 ## [F/T Sensors](./ft_sensors/index.md)
 Here's reported info about `F/T sensors`.
 
