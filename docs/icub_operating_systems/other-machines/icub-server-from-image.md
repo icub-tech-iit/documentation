@@ -78,7 +78,8 @@ If you want to change the default password simply execute (*this works only if y
 
 `passwd icub`
 
-**NOTE**: As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
+!!! note
+  As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
 
 `sudo su - `
 

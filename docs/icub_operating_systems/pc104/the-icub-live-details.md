@@ -1,8 +1,8 @@
 # Introduction
 This page is ment to describe how a icub-live differs from a _vanilla_ debian live systems
 
-## Note
-_This page is valid ONLY for the PC104 image with version 5.0 and above_
+!!! note
+  _This page is valid ONLY for the PC104 image with version 5.0 and above_
 
 # Additional Packages
 The image is (at the moment of writing, version 7.10) based on a default Debian Buster (10) LIVE image, but with some additional packages:
