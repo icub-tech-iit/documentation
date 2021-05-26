@@ -16,7 +16,7 @@ The Debian image to use depends on the iCub version:
 - iCub from version 1.2 on use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 10.x @ May 2021). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.
 
 !!! note
-    For further details, please refer to the [iCub Versions](../../icub_versions/index.md).
+  For further details, please refer to the [iCub Versions](../../icub_versions/index.md).
 
 ## Warning
 ### Before you create the bootable USB
@@ -47,7 +47,10 @@ Linux users can  use the dd command to directly write an IMG file’s contents t
 
 `sudo dd if=/home/user/icub-live_7.10-201126_rt-amd64.img of=/dev/sdX bs=1M`
 
-Replace `/home/user/icub-live_7.10-201126_rt-amd64.img` with the correct name of USB image and `/dev/sdX` with the path to your USB or SD card device. **Be very careful to specify the correct disk path here — if you specify the path to your system drive instead, you’ll write the contents of the image to your operating system drive and corrupt it**
+Replace `/home/user/icub-live_7.10-201126_rt-amd64.img` with the correct name of USB image and `/dev/sdX` with the path to your USB or SD card device.
+
+!!! note
+  **Be very careful to specify the correct disk path here — if you specify the path to your system drive instead, you’ll write the contents of the image to your operating system drive and corrupt it**
 
 ### Linux (GUI tool)
 There is a GUI available in Ubuntu, called _"Disks"_ (gnome-disks) and comes default in later Ubuntu: connect the USB drive and just right-click on the image file and select _"Open with Disk Image Writer"_, then select the drive USB drive you just inserted.
@@ -69,7 +72,9 @@ ISO images and the script can be downloaded [here](http://wiki.icub.org/iCub/dow
 
 Please use the icub_iso2usb.sh script: this script will create a working bootable USB from the ISO file and ensure compatibility on some old PC104.
 This scripts will also enable file persistence (see below).
-**NOTE : this script is compatible ONLY with Debian GNU/Linux 7 wheezy and Ubuntu 14.04.3 LTS Trusty**
+
+!!! note
+  This script is compatible ONLY with Debian GNU/Linux 7 wheezy and Ubuntu 14.04.3 LTS Trusty**
 
 ### What is file persistence and how to use it
 
