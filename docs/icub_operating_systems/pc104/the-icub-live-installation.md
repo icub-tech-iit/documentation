@@ -9,9 +9,14 @@ The system supports _persistence_, this means that (unlike normal LIVE system) a
 
 ## Which version do I need?
 This question is quite common whenever the number of versions and revisions start to become... more than one.
+
 The Debian image to use depends on the iCub version:
+
 - iCub up to version 1.1 ***must*** use a Etch and a Half distribution (image version 1.x). Persistent filesystem allows deep system configuration; if you are happy with the current configuration you can skip this update, while if you really need to change system configuration now you can by applying this update.
-- iCub from version 1.2 on can use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 9.x @ November 2020). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.
+- iCub from version 1.2 on use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 10.x @ May 2021). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.
+
+!!! note
+    For further details, please refer to the [iCub Versions](../../icub_versions/index.md).
 
 ## Warning
 ### Before you create the bootable USB
