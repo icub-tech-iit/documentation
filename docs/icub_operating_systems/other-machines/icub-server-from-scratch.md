@@ -123,6 +123,18 @@ Enable logging and update apparmor configuration according
 !!! note
   See configurations files in `/etc/dhcp` for configuration details
 
+### Zones automatic update fix
+In order to allow the zone files to be updated automatically by DHCP you need to
+ - **change the permission for zone folder**
+ ```
+ sudo chmod g+w /etc/bind
+ ```
+ - change AppArmor configuration in file `` by adding the follow lines
+ ```
+ /etc/bind/ rw,
+ /etc/bind/** rw,
+ ```
+
 ### RNDC fix
 To fix the RNDC please use the following commands
 ```
