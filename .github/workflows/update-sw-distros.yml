@@ -41,16 +41,16 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@main
         with:
-          commit-message: Automatic update of docs for Distro ${SUPERBUILD_TAG}
-          branch: automatic-update-docs-distro-${SUPERBUILD_TAG}
+          commit-message: Automatic update of docs for Distro ${{ github.event.inputs.superbuild_tag }}
+          branch: automatic-update-docs-distro-${{ github.event.inputs.superbuild_tag }}
           delete-branch: true
-          title: 'Automatic update of Docs for Distro `${SUPERBUILD_TAG}`'
+          title: 'Automatic update of Docs for Distro `${{ github.event.inputs.superbuild_tag }}`'
           reviewers: pattacini
           assignees: ${{ github.actor }}
           body: |
             This PR has been triggered with the following options:
-            - Superbuild tag: `${SUPERBUILD_TAG}`
-            - Initial distro to document: `${INITIAL_DISTRO}`.
+            - Superbuild tag: `${{ github.event.inputs.superbuild_tag }}`
+            - Initial distro to document: `${{ github.event.inputs.initial_distro }}`.
       - name: Check outputs
         run: |
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"          
