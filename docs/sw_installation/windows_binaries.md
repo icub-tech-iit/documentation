@@ -1,10 +1,10 @@
 # Install iCub software from pre-compiled binaries on Windows
 
-We support installation on Windows using the pre-compiled Windows installer available for the robotology-superbuild. For more info, check [the `robotology-superbuild` documentation](https://github.com/robotology/robotology-superbuild#windows-from-binaries). This page contains a recap of the instructions necessary to use this installer.
+We support installation on Windows using the pre-compiled Windows installer available for the robotology-superbuild. For more info, check the [`robotology-superbuild` documentation](https://github.com/robotology/robotology-superbuild#windows-from-binaries). This page contains a recap of the instructions necessary to use this installer.
 
 ## Instructions
 
-Download and execute the Robotology installer available from [[Downloads]]. Pick up the binaries containing the `full-installer` file. When prompted with the dialog below, **do not change the destination directory** as the archive still contains a few packages that are not fully relocatable.
+Download and execute the Robotology installer available from [`robotology-superbuild` releases](https://github.com/robotology/robotology-superbuild/releases). Pick up the binaries containing the `full-installer` file. When prompted with the dialog below, **do not change the destination directory** as the archive still contains a few packages that are not fully relocatable.
 
 ![robotology-installer-1.png](img/robotology-installer-1.png "robotology-installer-1.png")
 
