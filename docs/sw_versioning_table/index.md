@@ -30,6 +30,7 @@ This table has been generated automatically by processing data available in [`ro
 
 Click on the distros below to explore their package versions:
 
+- [📦 Distro **2021.05**](./2021.05.md)
 - [📦 Distro **2021.02**](./2021.02.md)
 - [📦 Distro **2021.02.feat-01**](./2021.02.feat-01.md)
 - [📦 Distro **2020.11**](./2020.11.md)
