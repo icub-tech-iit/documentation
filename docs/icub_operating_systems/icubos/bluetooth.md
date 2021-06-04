@@ -8,7 +8,7 @@ The icub-head board has an onboard BT controller and antenna, so no external don
 The BT configuration relies on hardware address, so it is to be done on each robot after you installed iCubOS.
 
 ## Generic Bluetooth device configuration
-This procedure shows how to pair a bluetooth device on icub-head. 
+This procedure shows how to pair a bluetooth device on icub-head.
 
 1. Install the following packages
   ```
@@ -63,7 +63,7 @@ This procedure shows how to pair the bluetooth on icub-head with the BCB board t
 
 2. After a while, you should see the BT address of the battery (it look very similar to a MAC address), please take note of it. Usually, the range of these devices is large, hence the BCB board of other robots may also be visible.
 
-3. Follow the instructions from point 2 to 4 of the [above section](#generic-bluetooth-device-configuration). If you attempt also point 5, you will get the following error: 
+3. Follow the instructions from point 2 to 4 of the [above section](#generic-bluetooth-device-configuration). If you attempt also point 5, you will get the following error:
 ```
 Failed to connect: org.bluez.Error.NotAvailable
 ```
@@ -86,7 +86,7 @@ Press CTRL-C for hangup
 ```
 On the robot side, whenever we connect to the BCB board, a blue LED should light up between the "Motors" and "CPU" button. By pressing ``CTRL+C``, the connection is interrupted.
 
-The problem with ``rfcomm connect`` is that it keeps the connection with the Bluetooth board even when not necessary, and it is blocking for the terminal that called it. Alternatively, it is possible to use 
+The problem with ``rfcomm connect`` is that it keeps the connection with the Bluetooth board even when not necessary, and it is blocking for the terminal that called it. Alternatively, it is possible to use
 ```
 sudo rfcomm bind 0 RNBT
 sudo stty -F /dev/rfcomm0 raw
@@ -97,116 +97,34 @@ The connections made via ``rfcomm`` get reset when shutting down. In order to ha
 
 ### Connect to the BCB board automatically
 
-The connections made via ``rfcomm`` get reset when shutting down. In order to have them working at startup, create a system service as follows. First create the file ``battery_bluetooth.service`` in the folder ``/etc/systemd/system/`` as follows
-<details>
-<summary><code>battery_bluetooth.service</code> content</summary>
-<p>
+The connections made via ``rfcomm`` get reset when shutting down. In order to have them working at startup, create a system service as follows. First create the file ``bt-battery.service`` in the folder ``/etc/systemd/system/`` as [here](https://github.com/icub-tech-iit/icub-os-files/blob/master/scripts/bt-battery.service)
 
-```
-[Unit]
-Description=Connect to the BCB board via bluetooth using rfcomm
-After=bluetooth.service
-
-[Service]
-Type=oneshot
-ExecStart=/bin/bash /home/icub/battery_bluetooth.sh
-
-[Install]
-WantedBy=multi-user.target
-```
-</p>
-
-</details>
-
-This service runs once the ``battery_bluetooth.sh`` script at startup after running the ``bluetooth`` service. The script is as follows, and needs to be saved in the ``/home/icub/`` folder. ⚠️ You need to change _RNBT_ADDRESS_ with the address you noted, keeping the ``"``. 
-
-<details>
-<summary><code>battery_bluetooth.sh</code> content</summary>
-<p>
-
-```bash
-#!/bin/bash
-
-address="RNBT_ADDRESS"
-
-connected=0
-i=0
-
-echo Started
-
-while (( connected == 0 && i < 10 ))
-do
-    echo Attempt $i
-    rfcomm release 0 # Close eventual previous connections
-    rfcomm -r connect 0 $address > /tmp/connect_out 2>&1 & #executes rfcomm in background to check that bluetooth is working
-    sleep 5
-    pid=$! #stores executed process id in pid
-    count=$(ps -A| grep $pid |wc -l) #check whether process is still running
-    if [[ $count -eq 0 ]] #if process is already terminated, then there were issues in connecting
-    then
-        cat /tmp/connect_out
-        echo Connect failed
-        if grep -q "No route to host" /tmp/connect_out; then # There are issues with the bluetooth
-            echo "There might be a problem with the bluetooth. If it persists, try running sudo service bluetooth restart"
-        fi
-    else
-        rfcomm release 0
-        echo Released connection
-        sleep 1
-        cat /tmp/connect_out
-        if grep -q "$address" /tmp/connect_out; then # If the connection was successfull, the address should be displayed in the output
-            echo Connect successfull
-            rfcomm bind 0 $address > /tmp/bind_out 2>&1
-            cat /tmp/bind_out
-            if [[ -s /tmp/bind_out ]]; then #if bind is successfull does not print anything
-                echo  Bind returned error
-            else
-                echo Bind successfull
-                sleep 1
-                echo Calling stty
-                stty -F /dev/rfcomm0 raw
-                stty_return=$?
-                if [[ $stty_return -eq 0 ]]
-                then
-                    echo stty successfull
-                    connected=1
-                else
-                    echo stty failed
-                fi
-            fi
-        else
-            echo Connect failed
-        fi
-    fi
-    i=$((i+1))
-done
-
-```
-</p>
-
-</details>
+This service runs once the ``bt-battery_connect.sh`` script at startup after running the ``bluetooth`` service.
+You can find the script [here](https://github.com/icub-tech-iit/icub-os-files/blob/master/scripts/bt-battery_connect.sh), and it needs to be saved in the ``/etc/rc.iCub.d`` system folder.
+⚠️ You need to change _RNBT_ADDRESS_ with the address you noted, keeping the ``"``.
 
 The scripts first tries to connect using ``rfcomm connect``. If it works (hence ``rfcomm connect`` is still alive), releases the connection. Then it tries running ``rfcomm bind`` and ``stty`` checking the outputs in case of errors. If there is any error, it tries again at most 10 times.
-Try to run this script with the command
+
+You can try to run this script with the command
 ```
-sudo bash ~/battery_bluetooth.sh
+sudo bash ~/bt-battery_connect.sh
 ```
+
 If the connections was successfull, you should see ``stty successfull`` and the ``/dev/rfcomm0`` should be available.
 
-This service can be enabled at startup with 
+This service can be enabled at startup with
 ```
-sudo systemctl enable battery_bluetooth.service
+sudo systemctl enable bt-battery.service
 ```
-and started with 
+and started with
 ```
-sudo systemctl enable battery_bluetooth.service
+sudo systemctl start bt-battery.service
 ```
-In case there were errors starting the service, it is possible to inspect the output of the script with 
+In case there were errors starting the service, it is possible to inspect the output of the script with
 ```
-systemctl status battery_bluetooth.service
+systemctl status bt-battery.service
 ```
-This script can also be run after startup in case the connection is not working, with 
+This script can also be run after startup in case the connection is not working, with
 ```
-sudo bash ~/battery_bluetooth.sh
+sudo bash ~/bt-bluetooth_connect.sh
 ```
-
