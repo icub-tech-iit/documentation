@@ -73,3 +73,4 @@ Add the user icub to the following groups
 - tty
 - dialout
 - i2c
+- bluetooth
