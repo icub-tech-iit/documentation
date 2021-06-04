@@ -2,6 +2,26 @@
 
 Once you configured the iCubOS there are other task to complete in order to prepare the robot to run your software.
 
+# Remove Cloud Init package
+
+Uninstall the cloud init packages as follows
+```
+sudo apt purge cloud-guest-utils cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf
+```
+
+# Disable unattended-upgrades
+
+In order to avoid automatic system updates you can edit the file `/etc/apt/apt.conf.d/20auto-upgrades by` changing the following lines
+```
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "0";
+```
+
+_Alternatively_ you can uninstall the package `unattended-upgrades` as follows
+```
+sudo apt remove unattended-upgrades
+```
+
 # Source Path
 
 On the latest versions of iCub (the ones  with a COM-Express board) we store robot source code on the icub-head, instead of storing remotely on the icub-server and mounting via nfs.

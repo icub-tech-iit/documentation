@@ -59,8 +59,8 @@ enp2s0:
 !!! note
   See file `/etc/netplan/50-icub-srv.yaml` for configuration details
 
-## Cloud Init
-Please remove cloud init package
+## Remove Cloud Init package
+Remove cloud init package
 ```
 sudo apt purge cloud-guest-utils cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf
 ```
@@ -189,13 +189,13 @@ Edit the exports configuration file /etc/exports as follows
 ```
 
 ## Disable unattended-upgrades
-In order to avod automatic system updates you can edit the file `etc/apt/apt.conf.d/20auto-upgrades by changing the follow lines
+In order to avoid automatic system updates you can edit the file `/etc/apt/apt.conf.d/20auto-upgrades by` changing the following lines
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Unattended-Upgrade "0";
 ```
 
-_Alternatively_ you can uninstall the package `unattended-upgrades`
+_Alternatively_ you can uninstall the package `unattended-upgrades` as follows
 ```
 sudo apt remove unattended-upgrades
 ```
