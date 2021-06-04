@@ -61,9 +61,9 @@ this behavior can be used to create several different configurations to choose f
 
 In icub-head we have many files in the `/etc/netplan` path
 
-- `50-icub-static.yaml.notload` - a configuration file that uses **STATIC IP** for cabled network configuration (**no bonding, no wifi**)
+- `50-icub-static.yaml.notload` - a configuration file that uses **STATIC IP** for cabled network configuration (**no bonding, no wifi** - _THIS IS THE DEFAULT_ )
 - `50-icub-dhcp.yaml.notload` - a configuration file that get IP for cabled network configuration from **DHCP server** (**no bonding, no wifi**)
-- `50-icub-bonding-static.yaml.notload` - a configuration that **creates a bonding** with cabled network and WiFi and uses a **static IP** for the bonded connection ( _THIS IS THE DEFAULT_ )
+- `50-icub-bonding-static.yaml.notload` - a configuration that **creates a bonding** with cabled network and WiFi and uses a **static IP** for the bonded connection
 - `50-icub-bonding-dhcp.yaml.notload` - a configuration that **creates a bonding** with cabled network and WiFi and gets the IP for the bonded connection from **DHCP** server
 - `50-icub.yaml` - a symbolic link that points to the active configuration
 
