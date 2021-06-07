@@ -14,7 +14,8 @@
 | v2.5.5| This version is a v2.5 + a backpack for batteries | | 
 | v2.6 | v2.5.5 with new face expression (RFE master board) | |
 | v2.7 | v2.6 with high-performance IMU on the waist | |
-
+| v2.8 | v2.7 with beam-splitter in the eye for hosting event driven and frame based sensors | |
+| v2.9 | **v2.7** with hands mk4 | |   
 
 |Special Version |	Features | Notes |
 | :---:| :---| :---|
