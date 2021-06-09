@@ -11,7 +11,7 @@ The F/T sensor reference frame and the IMU default reference frame are rigidly c
 The F/T reference frame can be determined by visual inspection (see Figure 1):
 
 - the connection cable exits the sensor in the $-x$ direction.
-- the thick sensor cover indicates the $+z$ direction.
+- the thin sensor cover (blue) indicates the $+z$ direction.
 - the $y$ axis is determined according to a right-handed convention.
 
 <center>
