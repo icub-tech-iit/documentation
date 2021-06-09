@@ -1,4 +1,4 @@
-# Introduction
+# Generic iCub environment machines
 
 This page contains instructions on how to prepare a machine to work in the iCub Subnet environment. This is a basic setup, useful as a starting point to prepare any kind of machine of the iCub ecosystem.
 
@@ -235,6 +235,10 @@ Usually it is derived from the domain name mentioned in
 ` /etc/resolv.conf`
 
 so both, server and client must match.
+
+# Customize the system
+
+What now you need to do is to customize the installation with your hardware and enviroment (see [_User Environment_](../icubos/user-env.md) chapter)
 
 # Special computers
 

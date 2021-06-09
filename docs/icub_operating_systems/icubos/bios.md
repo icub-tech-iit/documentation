@@ -1,4 +1,4 @@
-# Introduction
+# The OS on icub-head - BIOS tweaks
 
 Some tweaks to the bios are necessary to setup the icub-head board (*Kontron COMe-cKL6*).
 They are directly realted to icubOS installation and it's necessary to perform the tweaks below only once, regadless if the operating systems is reinstalled.
