@@ -1,4 +1,4 @@
-# Configure the Bluetooth
+# The OS on icub-head - Configure the Bluetooth
 
 ## Introduction
 

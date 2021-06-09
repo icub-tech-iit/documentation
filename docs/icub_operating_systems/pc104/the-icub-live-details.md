@@ -1,4 +1,5 @@
-# Introduction
+# The OS on PC104 (live USB) - Details
+
 This page is ment to describe how a icub-live differs from a _vanilla_ debian live systems
 
 !!! note

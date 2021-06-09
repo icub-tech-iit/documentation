@@ -1,4 +1,4 @@
-# Introduction
+# The CUDA workstation
 
 This page contains guidelines to install the iCub nVidia CUDA
 Workstation.
