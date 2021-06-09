@@ -1,4 +1,4 @@
-# **ICub Model naming conventions**
+# **iCub Model naming conventions**
 ---
 For sharing models of the iCub kinematics and dynamics structure (for example in URDF and SDF format) we try to agree on a a set of names for links, joints, degrees of freedom and frames. At the moment this convention does not handle the eyes and the hands, because this degrees of freedom are not currently modeled in the URDF/SDF models of the iCub.
 
