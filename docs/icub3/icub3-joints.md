@@ -101,7 +101,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Motor type|Brushless C2900576 8 poles|
 |Motor Encoder|Lcore optical encoder on motor shaft|
 |Harmonic drive|1/100|
-|Joint encoder|Magnetic encoder & AMOboard at the joint|
+|Joint encoder|Magnetic target 64/63 & AMO board (MU7S_64-63N PWB 103839)|
 |HW limits|-45/+45 (degrees)|
 
 ### Joint 1 - shoulder pitch
@@ -111,7 +111,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Motor type|Brushless C2900576 8 poles|
 |Motor Encoder|Lcore optical encoder on motor shaft|
 |Harmonic drive|1/100|
-|Joint encoder|Magnetic encoder & AMOboard at the joint|
+|Joint encoder|Magnetic target 64/63 & AMO board (MU7S_64-63N PWB 103839)|
 |HW limits|-5/+100 (degrees)|
 
 ### Joint 2 - shoulder roll
@@ -121,7 +121,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Motor type|Brushless C2900576 8 poles|
 |Motor Encoder|Lcore optical encoder on motor shaft|
 |Harmonic drive|1/100|
-|Joint encoder|Magnetic encoder & AMOboard at the joint|
+|Joint encoder|Magnetic target 64/63 & AMO board (MU7S_64-63N PWB 103839)|
 |HW limits|-15/+150 (degrees)|
 
 ### Joint 3 - upperarm yaw
@@ -131,7 +131,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Motor type|Brushless C2900576 8 poles|
 |Motor Encoder|Lcore optical encoder on motor shaft|
 |Harmonic drive|1/100|
-|Joint encoder|Magnetic encoder & AMOboard at the joint|
+|Joint encoder|magnetic target 64/63 & AMO board (MU7S_64-63N PWB 103839)|
 |HW limits|-52/+82 (degrees)|
 
 ### Joint 4 - elbow
@@ -141,7 +141,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Motor type|Brushless C2900576 8 poles|
 |Motor Encoder|Lcore optical encoder on motor shaft|
 |Harmonic drive|1/100|
-|Joint encoder|Magnetic encoder & AMOboard at the joint|
+|Joint encoder|magnetic target MU7S_25-32N & AMO board (MU7S_64-63N PWB 103839)|
 |HW limits|-5/+115 (degrees)|
 
 ## Forearm Joints specs
@@ -249,7 +249,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-1](./img/lower-1.png) | |
 |Motor type|MOOG_C2900576 Moog BLDC motor, OD 49.2, ID 15.5, L 24.7 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
 |HW limits|+65/-25 front/rear (degrees)|
 |SW limits|-|
@@ -260,7 +260,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-2](./img/lower-2.png) | |
 |Motor type|MOOG_C2900576 Moog BLDC motor, OD 49.2, ID 15.5, L 24.7 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
 |HW limits|+25/-25 (degrees)|
 |SW limits|-|
@@ -271,18 +271,18 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-3](./img/lower-3.png) |![lower-4](./img/lower-4.png) |
 |Motor type|MOOG_C2900580 Moog BLDC motor, OD 72.4, ID 15.5, L 27.5 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
 |HW limits|+130/-55 front/rear (degrees)|
 |SW limits|+125/-40 proposal (degrees)|
 
-### Joint 8, 14 - left, right hip pitch
+### Joint 8, 14 - left, right hip roll
 |   |   |
 |---|---|
 |![lower-5](./img/lower-5.png) |![lower-6](./img/lower-6.png) |
 |Motor type|MOOG_C2900576 Moog BLDC motor, OD 49.2, ID 15.5, L 24.7 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
 |HW limits|-116/+20 front/rear (degrees)|
 |SW limits|-|
@@ -293,7 +293,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-7](./img/lower-7.png) |![lower-8](./img/lower-8.png) |
 |Motor type|MOOG_C2900576 Moog BLDC motor, OD 49.2, ID 15.5, L 24.7 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
 |HW limits|-67.5/+67.5 (degrees)|
 |SW limits|-|
@@ -304,7 +304,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-9](./img/lower-9.png) |![lower-10](./img/lower-10.png) |
 |Motor type|MOOG_C2900580 Moog BLDC motor, OD 72.4, ID 15.5, L 27.5 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-25-100-2UH_CS (1:100)|
 |HW limits|+105/-5 (degrees)|
 |SW limits|-|
@@ -315,7 +315,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-11](./img/lower-11.png) |![lower-12](./img/lower-12.png) |
 |Motor type|MOOG_C2900580 Moog BLDC motor, OD 72.4, ID 15.5, L 27.5 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (103839)|
+|Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-25-100-2UH_CS (1:100)|
 |HW limits|+45/-45 (degrees)|
 |SW limits|-|
@@ -326,7 +326,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |![lower-13](./img/lower-13.png) |![lower-14](./img/lower-14.png) |
 |Motor type|MOOG_C2900575 Moog BLDC motor, OD 49.2, ID 15.5, L 17.7 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
-|Slow shaft sensor drive|AMO board  - magnetic Encoder  (1MU7S_25-32N)|
+|Slow shaft sensor drive|AMO board  - magnetic Encoder  (MU7S_25-32N)|
 |Harmonic drive|CSD-17-160-2A_FS (1:160)|
 |HW limits|+25/-25 (degrees)|
 |SW limits|-|
