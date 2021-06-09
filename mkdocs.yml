@@ -59,7 +59,7 @@ nav:
     - iCub HW:
       - Summary: icub_hw.md
       - The iCub Versions Table:
-        - Versions Table: icub_versions/index.md
+        - iCub versions Table: icub_versions/index.md
       - The iCub Wiring:
         - Summary: icub_wiring/index.md
         - iCub 1.x: icub_wiring/icub1_x.md
@@ -155,7 +155,7 @@ nav:
           - Installation: icub_operating_systems/pc104/the-icub-live-installation.md
           - Details: icub_operating_systems/pc104/the-icub-live-details.md
         - The OS on other machines (not on robot):
-          - Generic iCub enviroment machines (eg. laptop): icub_operating_systems/other-machines/generic-machine.md
+          - Generic iCub environment machines: icub_operating_systems/other-machines/generic-machine.md
           - The iCub server:
             - The "real" iCub server:
               - Installation from pre-built image: icub_operating_systems/other-machines/icub-server-from-image.md
@@ -163,6 +163,7 @@ nav:
             - The laptop used as icub server: icub_operating_systems/other-machines/icub-server-laptop.md
           - The CUDA workstation: icub_operating_systems/other-machines/cuda-workstation.md
         - OS images download: icub_operating_systems/download.md
+        - iCub Setup startup procedure: icub_operating_systems/startup-procedure.md
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md

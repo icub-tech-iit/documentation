@@ -1,4 +1,4 @@
-# Introduction
+# The OS on PC104 (live USB) - Installation
 
 Here you can find the instruction on how to create a new USB memory stick with the lastest version of the OS running on the PC104.
 
