@@ -1,4 +1,4 @@
-# Introduction
+#  The "real" iCub server - Installation from pre-built image
 
 This method uses a pre-built disk image to install the icub-server, this image is a 1:1 copy of a working system: once the image is written on the icub-server disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](icub-server-from-scratch.md).

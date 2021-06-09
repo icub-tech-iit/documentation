@@ -1,4 +1,4 @@
-# Introduction
+# The OS on icub-head - Further tasks
 
 Once you configured the iCubOS there are other task to complete in order to prepare the robot to run your software.
 

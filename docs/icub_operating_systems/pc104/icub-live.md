@@ -1,4 +1,5 @@
-# Introduction
+# The OS on PC104 (live USB) - Introduction
+
 The pc104 located inside the iCub head runs a full Debian distribution.
 This version of Linux has been customized for the specific application and to boot from an USB key. As the iCub (project) grows up, many updates have been performed to this Linux usb-key image to follow the hardware as well as the Debian distribution changes. Stable versions are frozen into image files and uploaded to the iCub webserver.
 

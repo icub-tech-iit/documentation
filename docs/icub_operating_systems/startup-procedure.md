@@ -1,4 +1,4 @@
-# Introduction
+# iCub Setup startup procedure
 
 This section describes how to properly connect (by the network poit of view) and startup all the machines in a iCub setup
 
@@ -8,7 +8,7 @@ This section describes how to properly connect (by the network poit of view) and
 
 ![image.png](https://images.zenhubusercontent.com/5d7f8b9bedbc510001816991/23880cac-d650-45e0-9312-e02c5f43b3a8)
 
-See [iCubOS Networking](./icubos/netwo.md) section for further details
+See [iCubOS Networking](./icubos/networking.md) section for further details
 
 ## Network configuration
 
@@ -28,13 +28,13 @@ Before turning on the iCub setup, you should setup network connections properly 
 
 1. if you want to provide _internet access_ to the setup, you have to connect a network cable to the Ethernet port marked as **EXT** (_external_) on the `icub-server`
 2. connect the Ethernet port marked as **INT** (_internal_) on the `icub-server` to an Ethernet port on the `icub-switch` with an ethernet cable
-3. connect an Ethernet port on the `icub-wifi` (**do not** use the port marked as `INTERNET`) to an Ethernet port on the `icub-switch` with an Ethernet cable
+3. connect an Ethernet port on the `icub-wifi` (**do not** use any port marked as `INTERNET` or `WAN`) to an Ethernet port on the `icub-switch` with an Ethernet cable
 4. connect the Ethernet port on the back of the robot to an Ethernet port on the `icub-switch` with an Ethernet cable
 5. connect Ethernet ports on the remaining PCs of the setup to Ethernet ports on the `icub-switch` with Ethernet cables
 
 # iCub setup startup procedure
 
-The iCub setup relies on several different network protocols and services, so **it's mandatory to startup the machines with the correct sequence** to allow all machines and services to operate correcly, _if you do not follow it you can face problems and unexpected behaviours_.
+The iCub setup relies on several different network protocols and services, so **it's mandatory to startup the machines with the correct sequence** to allow the setup to operate correcly, _if you do not follow it you can face problems or unexpected behaviours_.
 
 ## Startup sequence
 
@@ -47,4 +47,3 @@ This is the correct startup procedure to follow every time you need to turn the 
 5. (_optional_) Switch the `icub-wifi` ON and wait at for the POST procedure to complete, the POWER LED blinks while the POST procedure is on and turns solid white when it's over and the AP is ready. This step takes about 2 minutes to complete.
 6. Turn the laptops on and login.
 7. _Now you can power the robot CPU ON (the `icub-head` takes about one minute to boot up) and then start playing with your software, have fun!_
-8.
