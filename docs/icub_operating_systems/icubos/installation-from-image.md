@@ -66,4 +66,4 @@ Power down the icub-head and unplug the USB hub, then restart.
 
 ## Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md) and [_User Environment_](user-env.md) chapters)
+What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md) and [_Bluetooth_](bluetooth.md) chapters)

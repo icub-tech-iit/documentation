@@ -199,3 +199,6 @@ _Alternatively_ you can uninstall the package `unattended-upgrades` as follows
 ```
 sudo apt remove unattended-upgrades
 ```
+## Customize the system
+
+What now yoo need to do is to customize the installation with your hardware and enviroment

@@ -1,6 +1,10 @@
 # Introduction
 
-The main user configured on  icub-head is `icub` (SID: 1000 - GID 1000). All the enviroment configurations required for this user are stored in a separate file that is loaded every time a bash session is started.
+The main user configured on  icub-head is `icub` (SID: 1000 - GID 1000).
+All the enviroment configurations required for this user are stored in a separate file that is loaded every time a bash session is started.
+
+## Note
+If you installed your system starting from an image (see the [iCubOS - Installation from image](installation-from-image.md) chapter), the below steps have been already done for you.
 
 # The bashrc
 
@@ -8,7 +12,7 @@ The user enviroment configurations (for bash sessions) are stored in the file
 
 `~/.bashrc_iCub`
 
-## Online updated
+## Online updated version
 
 You can find the updated default .bashrc_iCub file online.
 There are two versions of the iCub enviroment file:
