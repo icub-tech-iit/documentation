@@ -1,6 +1,9 @@
-# Introduction
+# The OS on icub-head - Further tasks
 
 Once you configured the iCubOS there are other task to complete in order to prepare the robot to run your software.
+
+## Note
+If you installed your system starting from an image (see the [iCubOS - Installation from image](installation-from-image.md) chapter), the below steps have been already done for you.
 
 # Remove Cloud Init package
 

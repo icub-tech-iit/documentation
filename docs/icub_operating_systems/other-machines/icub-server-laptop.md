@@ -1,4 +1,4 @@
-# Introduction
+# The laptop used as icub server
 
 This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the icub-head.
 

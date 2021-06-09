@@ -1,4 +1,4 @@
-# Introduction
+#  The "real" iCub server - Installation from pre-built image
 
 This method uses a pre-built disk image to install the icub-server, this image is a 1:1 copy of a working system: once the image is written on the icub-server disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](icub-server-from-scratch.md).
@@ -82,7 +82,3 @@ If you want to change the default password simply execute (*this works only if y
   As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
 
 `sudo su - `
-
-## Customize the system
-
-What now yoo need to do is to customize the installation with your hardware and enviroment

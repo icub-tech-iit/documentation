@@ -1,4 +1,4 @@
-# Introductrion
+# The "real" iCub server - Installation from scratch
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it.
 
 # Latest versions
@@ -199,3 +199,6 @@ _Alternatively_ you can uninstall the package `unattended-upgrades` as follows
 ```
 sudo apt remove unattended-upgrades
 ```
+## Customize the system
+
+What now yoo need to do is to customize the installation with your hardware and enviroment
