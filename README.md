@@ -40,7 +40,7 @@ We use [GitHub Actions](https://docs.github.com/en/actions) to publish the websi
 Thus, follow the steps below, where you have to correctly fill up the signature `your-fork`:
 - Browse to https://github.com/your-fork/documentation/actions and enable the actions.
 - Browse to https://github.com/your-fork/documentation/actions/workflows/gh-pages.yml and click on the <kbd>Run workflow</kbd> button.
-- Browse to https://github.com/your-fork/documentation/settings/pages, select the `gh-pages` branch and wait until the GitHub Pages link is green to click on! Be careful as some URL point to the original upstream repository. 
+- Browse to https://github.com/your-fork/documentation/settings/pages, select the `gh-pages` branch and wait until the GitHub Pages link is green to click on!
 
 # 🔽 Local Workflow
 
