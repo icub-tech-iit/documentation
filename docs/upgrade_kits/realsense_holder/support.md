@@ -17,7 +17,8 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  15363  | MKIT_008  |   | Pieces  |  1  |iCub 2.7, head, RealSense holder |
-|  2  |	   XXXXX  |		WKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (wiring parts) |
+|  2 |	  15389  |		EKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (electronic parts) |
+|  3  |	  15393  |		WKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (wiring parts) |
 
 ## Content material  MKIT_008
 
@@ -28,6 +29,13 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |    2   |	V3-8--_-_U5933_C  |   | screw – M 3 x 8 – UNI5933 , DIN7991  , ISO10642 – SS A2 – hexagon socket countersunk head  | 2468 |
 |     2  | V4-16--_-_ISO7045_CZ|   | screw - M4 x 16 - UNI7687 , DIN7985A , ISO7045 - SS A2 - pozidriv cross recessed pan head |11963|
 
+## Content material  EKIT_008
+
+
+|  Pieces |     Alias        | Rev.|  Description       |  Cod. Wgst |
+|   :---: |    :-----------: |:---:|     :------------: |   :---:   |
+|    1   |	INTEL_REALSENSE_D435i  |  |Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de | 14567 |
+
 
 ## Content material  WKIT_008 
 
@@ -37,7 +45,8 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
 !!! note "note"
-    [link to harness schematics](TBD) 
+    [Logic schematics](https://github.com/icub-tech-iit/fix/files/6630942/iCub2.5.Head.RealSense.upgrade.kit.Electronic.parts.Logic_15389_0.0.0.pdf) 
+    [Harness schematics](https://github.com/icub-tech-iit/fix/files/6630941/iCub2.5.Head.RealSense.upgrade.kit.wiring.Harness_15393_0.0.0.pdf) 
 
 
 ## Historical review:
