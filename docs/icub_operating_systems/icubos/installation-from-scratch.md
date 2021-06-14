@@ -1,4 +1,4 @@
-# Introductrion
+# The OS on icub-head - Installation from scratch
 
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it
 
@@ -221,4 +221,4 @@ sudo sshfs -o allow_other,IdentityFile=/home/icub/.ssh/id_rsa icub@10.0.0.2:/usr
 
 # Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md) and [_User Environment_](user-env.md) chapters)
+What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md), [_User Environment_](user-env.md) chapters as well as [_Further Tasks_ chapter](further-tasks.md) )

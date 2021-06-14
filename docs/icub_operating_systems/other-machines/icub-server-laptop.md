@@ -1,4 +1,4 @@
-# Introduction
+# The laptop used as icub server
 
 This page contains guidelines for installation of the iCub server laptop so that it matches the requirements of the Linux on the icub-head.
 
@@ -74,8 +74,8 @@ sudo chown icub:icub -R /exports/local_yarp
 Add these lines to /etc/exports:
 
 ```
-/exports/code 10.0.0.0/255.255.255.0(rw,sync,no_root_squash,no_subtree_check)
-/exports/local_yarp 10.0.0.0/255.255.255.0(rw,sync,no_root_squash,no_subtree_check)
+/exports/code 10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
+/exports/local_yarp 10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
 ```
 
 You might need to restart the nfs server.

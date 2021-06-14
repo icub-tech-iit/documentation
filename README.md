@@ -10,6 +10,13 @@ iCub Tech Docs
 # Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
 
+### 👨🏻‍💻 Maintainers
+This repository is maintained by:
+
+| | |
+|:---:|:---:|
+| [<img src="https://github.com/pattacini.png" width="40">](https://github.com/pattacini) | [@pattacini](https://github.com/pattacini) |
+
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
@@ -27,6 +34,13 @@ Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-
 | Click to enlarge |
 | :---: |
 | ![](./assets/codespaces.gif) |
+
+## [GitHub Pages](https://pages.github.com) on Forks
+We use [GitHub Actions](https://docs.github.com/en/actions) to publish the website on the GitHub Pages. However, GitHub Actions are disabled by default on forks.
+Thus, follow the steps below, where you have to correctly fill up the signature `your-fork`:
+- Browse to https://github.com/your-fork/documentation/actions and enable the actions.
+- Browse to https://github.com/your-fork/documentation/actions/workflows/gh-pages.yml and click on the <kbd>Run workflow</kbd> button.
+- Browse to https://github.com/your-fork/documentation/settings/pages, select the `gh-pages` branch and wait until the GitHub Pages link becomes green to click on!
 
 # 🔽 Local Workflow
 

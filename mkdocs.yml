@@ -1,5 +1,6 @@
 # Project information
 site_name: iCub Tech Docs
+site_url: https://icub-tech-iit.github.io/documentation
 site_description: Documentation resources for the iCub & R1 robots
 site_author: iCub Tech
 copyright: BSD 3-Clause License
@@ -22,10 +23,10 @@ extra_css:
 extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js  
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
-  - markdown.extensions.admonition
+  - admonition
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -59,7 +60,7 @@ nav:
     - iCub HW:
       - Summary: icub_hw.md
       - The iCub Versions Table:
-        - Versions Table: icub_versions/index.md
+        - iCub versions Table: icub_versions/index.md
       - The iCub Wiring:
         - Summary: icub_wiring/index.md
         - iCub 1.x: icub_wiring/icub1_x.md
@@ -95,11 +96,6 @@ nav:
         - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
         - KIT_007 Ankle for climbing stairs : upgrade_kits/ankle_for_stairs/support.md
         - KIT_008 RealSense Holder : upgrade_kits/realsense_holder/support.md
-      - F/T Sensors:
-        - Summary: ft_sensors/index.md
-        - F/T Sensors: ft_sensors/ft_sensors.md
-        - F/T Onboard IMU: ft_sensors/ft_onboard_imu.md
-        - Study on change of frame for accelerometer measurements: ft_sensors/change_of_frame_accelerometer.md
       - iCub Kinematics:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
@@ -115,8 +111,13 @@ nav:
         - iCub FW Kinematics Inertial:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-inertial.md
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
+      - iCub CPU boards: icub_cpu_boards/icub_cpu_boards.md
+      - F/T Sensors:
+        - Summary: ft_sensors/index.md
+        - F/T Sensors: ft_sensors/ft_sensors.md
+        - F/T Onboard IMU: ft_sensors/ft_onboard_imu.md
+        - Study on change of frame for accelerometer measurements: ft_sensors/change_of_frame_accelerometer.md
       - Custom components: custom_components/custom_components.md
-
 
     - iCub SW:
       - Summary: icub_sw.md
@@ -156,13 +157,16 @@ nav:
           - Installation: icub_operating_systems/pc104/the-icub-live-installation.md
           - Details: icub_operating_systems/pc104/the-icub-live-details.md
         - The OS on other machines (not on robot):
-          - Generic iCub enviroment machines (eg. laptop): icub_operating_systems/other-machines/generic-machine.md
+          - Generic iCub environment machines: icub_operating_systems/other-machines/generic-machine.md
           - The iCub server:
             - The "real" iCub server:
+              - Summary: icub_operating_systems/other-machines/icub-server-os.md
               - Installation from pre-built image: icub_operating_systems/other-machines/icub-server-from-image.md
               - Installation from scratch: icub_operating_systems/other-machines/icub-server-from-scratch.md
             - The laptop used as icub server: icub_operating_systems/other-machines/icub-server-laptop.md
           - The CUDA workstation: icub_operating_systems/other-machines/cuda-workstation.md
+        - OS images download: icub_operating_systems/download.md
+        - iCub Setup startup procedure: icub_operating_systems/startup-procedure.md
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
@@ -175,7 +179,8 @@ nav:
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
-        - CanLoader: icub_firmware/canLoader/canLoader.md
+        - Old Tools:
+          - CanLoader: icub_firmware/canLoader/canLoader.md
       - iCub Microphones:
         - How to use microphones: icub_microphones/icub_microphones.md
       - Robot Calibration:

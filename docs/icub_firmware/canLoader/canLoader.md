@@ -1,9 +1,8 @@
+!!! missing
+     `Canloader` is no longer available since this [overhaul of the codebase](https://github.com/robotology/icub-main/pull/659).
+
 # CanLoader
-
-!!! warning
-     `Canloader` is deprecated since this [PR](https://github.com/robotology/icub-main/pull/659)
-
-The canLoader application allows to flash the firmware of the dsp boards using the canbus interface.
+The canLoader application allows flashing the firmware of the dsp boards using the canbus interface.
 It can be also used to determine which boards are up and running.
 The canLoader allows to either use plx canbus boards or esd canbus boards (actually any device implementing an ICanBus interface in YARP).
 Detailed [CANLoader protocol](./assets/RC_DIST_100_D_15_01_CANLOADER_PROTOCOL.pdf).

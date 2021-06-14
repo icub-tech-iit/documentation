@@ -1,7 +1,10 @@
-# Introduction
+#  The "real" iCub server - Installation from pre-built image
 
 This method uses a pre-built disk image to install the icub-server, this image is a 1:1 copy of a working system: once the image is written on the icub-server disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](icub-server-from-scratch.md).
+
+# Prerequisite
+Please check that the BIOS configuration allows to boot from USB drive.
 
 # Installation procedure
 
@@ -23,13 +26,9 @@ The imaging tool used to create and restore icub-head disk images is [CloneZilla
 2. Get a USB 3 USB drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
-## Where to get the latest iCub server image
-
-Please open an issue in the [iCub Tech Support Repository on GithHub](https://github.com/robotology/icub-tech-support/issues)
-
 ## Download the latest iCub server image
 
-Get the lastest iCubServer image and put it on a external USB drive (not the same were is CloneZilla LIVE)
+Get the lastest iCubServerOS image on [this page](../download.md) and put it on a external USB drive (not the same were is CloneZilla LIVE)
 
 ## Connect the icub-server
 
@@ -79,10 +78,7 @@ If you want to change the default password simply execute (*this works only if y
 
 `passwd icub`
 
-**NOTE**: As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
+!!! note
+  As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
 
 `sudo su - `
-
-## Customize the system
-
-What now yoo need to do is to customize the installation with your hardware and enviroment

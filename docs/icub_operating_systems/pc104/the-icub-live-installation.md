@@ -1,4 +1,4 @@
-# Introduction
+# The OS on PC104 (live USB) - Installation
 
 Here you can find the instruction on how to create a new USB memory stick with the lastest version of the OS running on the PC104.
 
@@ -9,9 +9,14 @@ The system supports _persistence_, this means that (unlike normal LIVE system) a
 
 ## Which version do I need?
 This question is quite common whenever the number of versions and revisions start to become... more than one.
+
 The Debian image to use depends on the iCub version:
+
 - iCub up to version 1.1 ***must*** use a Etch and a Half distribution (image version 1.x). Persistent filesystem allows deep system configuration; if you are happy with the current configuration you can skip this update, while if you really need to change system configuration now you can by applying this update.
-- iCub from version 1.2 on can use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 9.x @ November 2020). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.
+- iCub from version 1.2 on use the latest version: we kindly recommend you to keep Debian system updated to the last version (at the time of writing it means the 10.x @ May 2021). For persistent filesystem this configuration can be changed without re-burning a new image, you can just edit the configuration files of the network as you would normally do with Linux system.
+
+!!! note
+  For further details, please refer to the [iCub Versions](../../icub_versions/index.md).
 
 ## Warning
 ### Before you create the bootable USB
@@ -23,12 +28,13 @@ This image has persistence activate, this means that the written or modified fil
 # Burn the Debian image version 7.x (latest)
 Starting from version 6.0 images come in a compressed archive file containing the USB image to write to an USB memory.
 
-## Where to download the ZIP archive
-Compressed archives can be downloaded [here](http://wiki.icub.org/iCub/downloads/pc104-images/)
+## Download the latest iCubLive image
+
+Get the lastest iCubLive image on [this page](../download.md)
 
 ## How to create the bootable USB drive with the live image
 
-1.  Download the latest image from the [above link](http://wiki.icub.org/iCub/downloads/pc104-images/)
+1.  Download the latest image from the [above link](../download.md)
 2.  Extract the image
 3.  Take an USB-2 drive at least of 16 GB size (please note that using an USB3 disk or a huge disk, eg. 32 GB, may not work depending on the version of your PC104)
 4. burn the image file (it has the .img extension), you can use the follwing tools:
@@ -41,7 +47,10 @@ Linux users can  use the dd command to directly write an IMG file’s contents t
 
 `sudo dd if=/home/user/icub-live_7.10-201126_rt-amd64.img of=/dev/sdX bs=1M`
 
-Replace `/home/user/icub-live_7.10-201126_rt-amd64.img` with the correct name of USB image and `/dev/sdX` with the path to your USB or SD card device. **Be very careful to specify the correct disk path here — if you specify the path to your system drive instead, you’ll write the contents of the image to your operating system drive and corrupt it**
+Replace `/home/user/icub-live_7.10-201126_rt-amd64.img` with the correct name of USB image and `/dev/sdX` with the path to your USB or SD card device.
+
+!!! note
+  **Be very careful to specify the correct disk path here — if you specify the path to your system drive instead, you’ll write the contents of the image to your operating system drive and corrupt it**
 
 ### Linux (GUI tool)
 There is a GUI available in Ubuntu, called _"Disks"_ (gnome-disks) and comes default in later Ubuntu: connect the USB drive and just right-click on the image file and select _"Open with Disk Image Writer"_, then select the drive USB drive you just inserted.
@@ -63,7 +72,9 @@ ISO images and the script can be downloaded [here](http://wiki.icub.org/iCub/dow
 
 Please use the icub_iso2usb.sh script: this script will create a working bootable USB from the ISO file and ensure compatibility on some old PC104.
 This scripts will also enable file persistence (see below).
-**NOTE : this script is compatible ONLY with Debian GNU/Linux 7 wheezy and Ubuntu 14.04.3 LTS Trusty**
+
+!!! note
+  This script is compatible ONLY with Debian GNU/Linux 7 wheezy and Ubuntu 14.04.3 LTS Trusty**
 
 ### What is file persistence and how to use it
 

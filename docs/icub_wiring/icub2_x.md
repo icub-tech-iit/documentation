@@ -13,7 +13,7 @@
 
 ### **ETHERNET backbone**
 
-The system architecture of iCub2.x with ETHERNET backbone is depicted in the following image:
+The system architecture of iCub 2.x with ETHERNET backbone is depicted in the following image:
 
 <center> <img src ="../img/Architecture_iCub2.5-E3.2.png" width=500>
          

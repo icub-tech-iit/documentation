@@ -1,8 +1,11 @@
-# Introductrion
+# The "real" iCub server - Installation from scratch
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it.
 
 # Latest versions
-Latest version is based on Ubuntu Server 20.04.1
+Latest version is based on Ubuntu Server 20.04.2
+
+# Prerequisite
+Please check that the BIOS configuration allows to boot from USB drive.
 
 # Create the USB installer
 The first step is download the [official Ubuntu 20.04 LTS Server install media](https://releases.ubuntu.com/focal/ubuntu-20.04.1-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/focal/)
@@ -22,37 +25,42 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Password** : icub
 
 ## Operative System
-**Installed OS** : Ubuntu Server 20.04.1 LTS
-Language : english
-Country : Italy
-Locale : en_US.UTF-8
-Keyboard : english (US)
-Hostname : icub-srv
-Partions : single - 237Gb EXT4 (plus EFI)
-Kernel version :  5.4.0-56-generic x86_64
+- **Installed OS** : Ubuntu Server 20.04.2 LTS
+- **Language** : english
+- **Country** : Italy
+- **Locale** : en_US.UTF-8
+- **Keyboard** : english (US)
+- **Hostname** : icub-srv
+- **Kernel version** :  5.4.0-73-generic x86_64
+- **Partions** : single - 237Gb EXT4 (plus EFI)
+
+!!! note
+  _Please disable LVM configuration during the partitioning step of installation procedure_
 
 ## Network configuration
 
 ### external connection
 ```
 enp1s0:
-  dhcp4: yes
-  dhcp6: no
+  dhcp4: true
+  dhcp6: false
+  dhcp-identifier: mac
   optional: true
 ```
 
 ###  internal connection
 ```
 enp2s0:
-  dhcp4: no
-  dhcp6: no
-  addresses: [10.0.10.1/24]
+  dhcp4: false
+  dhcp6: false
+  addresses: [10.0.0.1/24]
 ```
 
-See file `/etc/netplan/50-icub-srv.yaml` for configuration details
+!!! note
+  See file `/etc/netplan/50-icub-srv.yaml` for configuration details
 
-## Cloud Init
-Please remove cloud init package
+## Remove Cloud Init package
+Remove cloud init package
 ```
 sudo apt purge cloud-guest-utils cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf
 ```
@@ -72,18 +80,27 @@ sudo iptables --append FORWARD --in-interface enp2s0 --out-interface enp1s0 -j A
 
 Install the package iptables-persistent
 ```
-sudo apt install iptables-persistent`
+sudo apt install iptables-persistent
 ```
 
-See file `/etc/iptables/rules.v4` for persistent rules details
+!!! note
+  See file `/etc/iptables/rules.v4` for persistent rules details
 
 ## DNS Server
 Install package bind9
 ```
-sudo apt install bind9 bind9utils`
+sudo apt install bind9 bind9utils
 ```
 
-See configuration files in `/etc/bind` for further deatils
+!!! note
+  See configuration files in `/etc/bind` for further deatils
+
+## Fix logging configuration
+create the folder `/var/log/named/` and set correct ownerhip
+```
+mkdir /var/log/named/
+chown bind:bind /var/log/named/
+```
 
 ## DHCP Client
 Edit the file `/etc/dhcp/dhclient.conf`  adding the following lines
@@ -97,13 +114,26 @@ Install package isc-dhcp-server
 ```
 sudo apt install isc-dhcp-server
 ```
-Edit the file /etc//default/isc-dhcp-server as follows
+Edit the file /etc/default/isc-dhcp-server as follows
 ```
 INTERFACESv4="enp2s0"
 ```
 Enable logging and update apparmor configuration according
 
-See configurations files in `/etc/dhcp` for configuration details
+!!! note
+  See configurations files in `/etc/dhcp` for configuration details
+
+### Zones automatic update fix
+In order to allow the zone files to be updated automatically by DHCP you need to
+ - **change the permission for zone folder**
+ ```
+ sudo chmod g+w /etc/bind
+ ```
+ - change AppArmor configuration in file `` by adding the follow lines
+ ```
+ /etc/bind/ rw,
+ /etc/bind/** rw,
+ ```
 
 ### RNDC fix
 To fix the RNDC please use the following commands
@@ -146,12 +176,29 @@ Install the package nfs-kernel-server
 ```
 sudo apt install nfs-kernel-server
 ```
-Create the exports target paths
+Create the exports target paths and change ownership to _icub_ user
 ```
 sudo mkdir -p /exports/code /exports/local_yarp
+sudo chown icub:icub /exports/code
+sudo chown icub:icub /exports/local_yarp
 ```
 Edit the exports configuration file /etc/exports as follows
 ```
 /exports/code           10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
 /exports/local_yarp     10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
 ```
+
+## Disable unattended-upgrades
+In order to avoid automatic system updates you can edit the file `/etc/apt/apt.conf.d/20auto-upgrades by` changing the following lines
+```
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "0";
+```
+
+_Alternatively_ you can uninstall the package `unattended-upgrades` as follows
+```
+sudo apt remove unattended-upgrades
+```
+## Customize the system
+
+What now yoo need to do is to customize the installation with your hardware and enviroment

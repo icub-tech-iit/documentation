@@ -1,4 +1,4 @@
-# Introduction
+# The OS on icub-head - Installation from pre-built image
 
 This method uses a pre-built disk image to install the icub-head, this image is a 1:1 copy of a working system: once the image is written on the icub-head disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](installation-from-scratch.md).
@@ -23,13 +23,9 @@ The imaging tool used to create and restore icub-head disk images is [CloneZilla
 2. Get a USB 3 drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
-## Where to get the latest iCub server image
-
-Please open an issue in the [iCub Tech Support Repository on GithHub](https://github.com/robotology/icub-tech-support/issues)
-
 ## Download the latest iCubOS image
 
-Get the lastest iCubOS image and put it on a external USB drive (not the same were is CloneZilla LIVE)
+Get the lastest iCubOS image on [this page](../download.md) and put it on a external USB drive (not the same were is CloneZilla LIVE)
 
 ## Connect the icub-head
 
@@ -70,4 +66,4 @@ Power down the icub-head and unplug the USB hub, then restart.
 
 ## Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md) and [_User Environment_](user-env.md) chapters)
+What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md) and [_Bluetooth_](bluetooth.md) chapters)

@@ -1,6 +1,29 @@
-# Introduction
+# The OS on icub-head - Further tasks
 
 Once you configured the iCubOS there are other task to complete in order to prepare the robot to run your software.
+
+## Note
+If you installed your system starting from an image (see the [iCubOS - Installation from image](installation-from-image.md) chapter), the below steps have been already done for you.
+
+# Remove Cloud Init package
+
+Uninstall the cloud init packages as follows
+```
+sudo apt purge cloud-guest-utils cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf
+```
+
+# Disable unattended-upgrades
+
+In order to avoid automatic system updates you can edit the file `/etc/apt/apt.conf.d/20auto-upgrades by` changing the following lines
+```
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Unattended-Upgrade "0";
+```
+
+_Alternatively_ you can uninstall the package `unattended-upgrades` as follows
+```
+sudo apt remove unattended-upgrades
+```
 
 # Source Path
 
