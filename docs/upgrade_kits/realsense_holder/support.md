@@ -5,7 +5,7 @@
 
 This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. 
 
--<center> ![imagine view](img/8.PNG) </center>
+-<center> ![](img/8.PNG) </center>
 
 |       |       	          |
 |   :--- |    :-----------           |
@@ -36,6 +36,9 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |   :---: |    :-----------: |:---:|     :------------: |   :---:   |
 |    1   |	INTEL_REALSENSE_D435i  |  |Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de | 14567 |
 
+!!! note "note"
+    [Logic schematics]() 
+
 
 ## Content material  WKIT_008 
 
@@ -45,14 +48,13 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
 !!! note "note"
-    [Logic schematics](https://github.com/icub-tech-iit/fix/files/6630942/iCub2.5.Head.RealSense.upgrade.kit.Electronic.parts.Logic_15389_0.0.0.pdf) 
-    [Harness schematics](https://github.com/icub-tech-iit/fix/files/6630941/iCub2.5.Head.RealSense.upgrade.kit.wiring.Harness_15393_0.0.0.pdf) 
+    [Harness schematics]() 
 
 
-## Historical review:
-This upgrade kit has been developed together DIC team as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
+## Historical review
+This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.it/web/humanoid-sensing-and-perception) research line as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
 
--<center> ![imagine view](img/1.PNG) </center>
+-<center> ![](img/1.PNG) </center>
 
 The holder has been designed to be compatible with the two following RealSense models:
 
@@ -62,24 +64,24 @@ The holder has been designed to be compatible with the two following RealSense m
 |	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
 
 
-## Assembly instruction.
+## Assembly instruction
 
 The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit. <br>
 
--<center> ![imagine view](img/6.PNG) </center>
+-<center> ![](img/6.PNG) </center>
 
-**Assembly sequence** :<br>
+**Assembly sequence**<br>
 
 *Perform the assembly sequence as shown in the following images.*<br>
 
 - First step, remove the two screws V4-12--_-_U5933_C from the side of the face cover as can be seen in the image. Set them aside, just in case you want to successively unmount the RealSense holder.
--<center> ![imagine view](img/2.PNG) </center>
+-<center> ![](img/2.PNG) </center>
 
 - Second step, fix the holder IG_027_P_002 with the respective screws V4-16--_-_ISO7045_CZ as shown in the image, and fix the hook to the backward cover air vents.
 
--<center> ![imagine view](img/3.PNG) </center>
+-<center> ![](img/3.PNG) </center>
 
 - Third step, fix the chosen RealSense model to the holder usign the screws V3-8--_-_U5933_C. At this point is possible to plug the USB Type-C cable cod. 15365 and use the cable ties cod. 531 to fix it around the head.
 
--<center> ![imagine view](img/4.PNG) </center>
--<center> ![imagine view](img/5.PNG) </center>
+-<center> ![](img/4.PNG) </center>
+-<center> ![](img/5.PNG) </center>
