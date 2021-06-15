@@ -17,3 +17,6 @@
 
 ### KIT_007 iCub Upgrade Kit: ankle for climbing stairs
 [iCub ankle for climbing stairs UpKit](./ankle_for_stairs/support.md) describes how to perform an upgrade on the feet in order to  increase the step length and climb some stairs.
+
+### KIT_008 iCub Upgrade Kit: RealSense holder
+[iCub RealSense holder UpKit](./realsense_holder/support.md) describes how to perform an upgrade on the head in order to add a RealSense camera holder in order to help 3D perception during manipulation tasks.
