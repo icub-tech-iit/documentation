@@ -37,7 +37,7 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |    1   |	INTEL_REALSENSE_D435i  |  |Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de | 14567 |
 
 !!! note "note"
-    [Logic schematics]() 
+    [Logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15389%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(electronic%20parts)) 
 
 
 ## Content material  WKIT_008 
@@ -48,7 +48,7 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
 !!! note "note"
-    [Harness schematics]() 
+    [Harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15393%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(wiring%20parts)) 
 
 
 ## Historical review
