@@ -24,7 +24,7 @@ sudo apt update
 Import the repository public key (this needs to be done only once)
 
 ~~~
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6`
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6
 ~~~
 
 ### Dependencies
