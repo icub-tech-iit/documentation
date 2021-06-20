@@ -1,4 +1,4 @@
-# **ICubForwardKinematics**
+# **iCub Forward Kinematics**
 The iCub forward kinematics are described with respect to a (root) reference frame which is positioned at the level of the waist in the center of the robot as represented in the following pic (colored cylinders: the x axis is in red, the y axis is in green, the z axis is in blue).
 
 |   |   |
@@ -55,9 +55,3 @@ Each of these matrices is constructed with two steps. The first consists in a ri
 Finally, the following image shows the root reference frame and all other coordinate systems at each joint of the robot (no hands included), along with the fixed transformation matrices from limbs to base reference frames. The Upper/Lower Torso division has been made according to the iDyn library convention (which is different the one found in iKin).
 
 ![iCub Reference Frames](./img/1104px-NewiCubRefFrames1.png)
-
-## **Code**
-Here is a list of known projects that encode the kinematics in various formats.  None of them are guaranteed to be accurate or up-to-date.
-
-* https://github.com/robotology/icub-main/tree/master/src/simulators/iCubSimulation (see also configuration files https://github.com/robotology/icub-main/tree/master/app/simConfig)
-* https://github.com/robotology/icub-main/tree/master/src/tools/iCubGui (see configuration files https://github.com/robotology/icub-main/tree/master/app/iCubGui)
