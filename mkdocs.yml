@@ -101,7 +101,7 @@ nav:
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
         - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
         - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md
-        - ICub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md
+        - iCub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md
         - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
         - iCub FW Kinematics: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md
         - iCub FW Kinematics Arms:  icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md
