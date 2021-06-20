@@ -1,4 +1,4 @@
-# ICubInertiaSensorKinematics
+# iCub Forward Kinematics - IMU
 
 ## V1
 Here's described how to construct the matrix T_RoIs whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrix is constructed in three steps i.e. `T_RoIs = T_Ro0 * T_0n * T_nIs`. The first matrix T_Ro0 describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case T_Ro0 is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrix T_0n correspond to the Denavit-Hartenberg description of the waist and neck forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic T_0n in this case includes the waist and the neck forward kinematics.
