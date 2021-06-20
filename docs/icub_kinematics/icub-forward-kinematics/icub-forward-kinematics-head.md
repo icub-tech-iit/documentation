@@ -1,4 +1,4 @@
-# ICubHeadKinematics
+# iCub Forward Kinematics - Head
 
 ## V1
 Here's described how to construct the matrices T_RoLe and T_RoRe whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrices are constructed in two steps i.e. `T_RoRe = T_Ro0 * T_0n and T_RoLe = T_Ro0 * T'_0n`. The first matrix T_Ro0 describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case T_Ro0 is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrices T_0n and T'_0n correspond to the Denavit-Hartenberg description of the right and left eye forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic T_0n in this case includes the waist and the right eye forward kinematics. The forward kinematic T'_0n in this case includes the waist and the left eye forward kinematics.
