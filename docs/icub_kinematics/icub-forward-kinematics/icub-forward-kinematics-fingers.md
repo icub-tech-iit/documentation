@@ -1,4 +1,4 @@
-# **ICubFowardKinematics - fingers**
+# **iCub Foward Kinematics - Fingers**
 
 ## Left
 This page provides the forward kinematics of the thumb, the index and the middle fingers of the left hand. It describes how to construct all the finger matrices T_RoLt (thumb), T_RoLi (index) and T_RoLm (middle). Each matrix is constructed in two steps i.e. T_RoLfin = T_Ro0fin * T_0nfin (where fin is t for the thumb, i for the index and m for the middle). The first matrix T_Ro0 describes the rigid roto-translation from the end effector reference frame (described in [ICubFowardKinematics](icub-forward-kinematics-arms.md#left)) to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). The second matrix T_0n corresponds to the Denavit-Hartenberg description of the forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom.
