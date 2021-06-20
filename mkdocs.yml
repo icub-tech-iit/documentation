@@ -100,6 +100,7 @@ nav:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
         - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
+        - Range of Motion of the iCub Shoulders: icub_kinematics/icub-shoulders-range-of-motion/icub-shoulders-range-of-motion.md
         - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md
         - iCub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md
         - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
