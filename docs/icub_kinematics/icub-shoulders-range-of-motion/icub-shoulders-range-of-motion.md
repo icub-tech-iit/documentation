@@ -8,7 +8,7 @@ The range of motion of the shoulders of **iCub 2.x** is constrained by the lengt
     By contrast, when controlling the arm in the **Cartesian Space** by means of the [Cartesian Controller](https://robotology.github.io/robotology-documentation/doc/html/icub_cartesian_interface.html), the software will always find solutions for the reaching task that **comply with the cable length constraints**. 
 
 ## Correct Limits
-Each tendon imposes the following constraints on the shoulder's joints:
+The length of the tendons imposes the following constraints on the shoulder's joints:
 
 $$
 \begin{equation}
