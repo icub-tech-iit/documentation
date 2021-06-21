@@ -53,11 +53,11 @@ you need to install the following software packages:
 * [PyMdown Extensions](https://facelessuser.github.io/pymdown-extensions/)
 
 Once you have installed them, just clone this repo, navigate to it and serve its content with the `mkdocs serve` command:
-~~~
+```console
 git clone https://github.com/icub-tech-iit/documentation
 cd documentation
 mkdocs serve
-~~~
+```
 
 ## 📦 Rely on package managers
 In the next sections, we will describe in detail how to install the required dependencies using different package managers.
@@ -67,15 +67,15 @@ You can use the [conda-forge](https://conda-forge.org/) distribution to install 
 First of all you need a conda distribution, for example [Miniforge3](https://github.com/conda-forge/miniforge).
 
 If you already have a conda distribution, just create a new [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (for example called `mkdocs-env`) and install in it the require dependencies:
-~~~
+```console
 conda create -n mkdocs-env
 conda activate mkdocs-env
 conda install --channel conda-forge mkdocs-material mkdocs-material-extensions pymdown-extensions
-~~~
+```
 
 After the installation, whenever you need to test the website just activate the `mkdocs-env` environment and call `mkdocs serve` in the `documentation` directory:
-~~~
+```console
 cd documentation
 conda activate mkdocs-env
 mkdocs serve
-~~~
+```
