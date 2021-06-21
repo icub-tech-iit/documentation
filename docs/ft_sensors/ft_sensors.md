@@ -312,14 +312,6 @@ There are three cards for reading six axis F/T Sensors:
 	</tbody>
 </table>
 
-## Additional material
-
-- [FT45 - without Temp. Compensation](./assets/FT45%20-%20without%20Temp.%20Compensation.pdf)
-- [FT45 - Temp. Compensation included](./assets/FT45%20-%20Temp.%20Compensation%20included.pdf)
-- [FT45 - Temp. Compensation included 2](./assets/FT45%20-%20Temp.%20Compensation%20included-2.pdf)
-- [FT58 - without Temp. Compensation](./assets/FT58%20-%20without%20Temp.%20Compensation.pdf)
-- [FT58 - Temp. Compensation included](./assets/FT58%20-%20Temp.%20Compensation%20included.pdf)
-
 ## More information
 ---
 - F/T sensors are mounted by [Micron Instruments](http://www.microninstruments.com/)
