@@ -14,8 +14,8 @@ The joint numbers are used when calling methods of the motor control device inte
 | 1            | 3           | neck\_roll     | Neck roll     | --                                                                                                                                                |
 | 2            | 3           | neck\_yaw      | Neck yaw      | --                                                                                                                                                |
 | 3            | 1           | eyes\_tilt     | Eyes tilt     | Common tilt of the eyes                                                                                                                           |
-| 4            | 1           | eyes\_version  | Eyes version  | Common version, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version\.md))                                         |
-| 5            | 1           | eyes\_vergence | Eyes vergence | Vergence control, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version\.md))                                       |
+| 4            | 1           | eyes\_version  | Eyes version  | Common version, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version.md))                                         |
+| 5            | 1           | eyes\_vergence | Eyes vergence | Vergence control, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version.md))                                       |
 
 ## Head 2.0
 The head has 6 joints in the standard configuration (without the facial features).
@@ -26,8 +26,8 @@ The head has 6 joints in the standard configuration (without the facial features
 | 1            | 1           | 0M0-0M1 | neck\_roll     | Neck roll     | --                                                                                                                                                |
 | 2            | 3           | 1M0     | neck\_yaw      | Neck yaw      | --                                                                                                                                                |
 | 3            | 3           | 1M1     | eyes\_tilt     | Eyes tilt     | Common tilt of the eyes                                                                                                                           |
-| 4            | 4           | 1M2-1M3 | eyes\_version  | Eyes version  | Common version, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version\.md))                                         |
-| 5            | 4           | 1M2-1M3 | eyes\_vergence | Eyes vergence | Vergence control, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version\.md))                                       |
+| 4            | 4           | 1M2-1M3 | eyes\_version  | Eyes version  | Common version, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version.md))                                         |
+| 5            | 4           | 1M2-1M3 | eyes\_vergence | Eyes vergence | Vergence control, the eyes move together, synchronized in the DSP controller (see also [Vergence Version](./../icub-vergence-version/icub-vergence-version.md))                                       |
 
 ## Left Arm
 The arm includes the hand for a total of 16 controlled degrees of freedom.
