@@ -11,11 +11,9 @@ cd robotology-superbuild
 git checkout v<YYYY.MM>
 ~~~
 
-If you are installing the superbuild on an [**iCub robot laptop** following the official iCub instructions](../icub_operating_systems/other-machines/generic-machine/), you should clone it in the `/usr/local/src/robot` directory.
+If you are installing the superbuild on an [**iCub robot laptop** following the official iCub instructions](../icub_operating_systems/other-machines/generic-machine.md), you should clone it in the `/usr/local/src/robot` directory.
 
 Then follow the Linux instructions in [robotology-superbuild documentation](https://github.com/robotology/robotology-superbuild#linux-from-source).
-
-
 
 ## Check your installation
 After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](./check_your_installation.md) page.
