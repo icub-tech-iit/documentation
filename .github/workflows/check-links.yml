@@ -1,0 +1,20 @@
+name: Check Links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * MON" 
+
+jobs:
+  docs:
+    name: "Check"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dependencies
+        run: |
+          pip3 install git+https://github.com/linkchecker/linkchecker.git
+        
+      - name: Run checker
+        run: |
+          linkchecker https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
