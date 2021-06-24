@@ -80,7 +80,7 @@ Here the sequence you need to follow to restore the 2 little cables from the bas
 | pictures                                       | step by step procedure                                       |
 | ---------------------------------------------- | ------------------------------------------------------------ |
 | <img src ="../img/wrist/Passive_cabling.png">  | !!!KEEP IN MIND - whenever you need to replace one of the 2 cables you **FIRST** need to release the tensioners . <br> Just put one side of the crimp of each cable inside its tensioner and follow the path until its blue stopper. </br></br> The **X** (cross) in the pictures represents a **knot** at the end of the cable. |
-| <img src ="../img/wrist/FIG20.PNG">            | Cable 9 needs to be inserted inside the hole H1, while cable 10 in the hole H2. |
+| <img src ="../img/wrist/FIG20.png">            | Cable 9 needs to be inserted inside the hole H1, while cable 10 in the hole H2. |
 | <img src ="../img/wrist/Stoppers.png">         | To block the cable ends you first need to unscrew the stopper (red circles), then insert the cable and screw it back. Tie in a knot in order to prevent any cable slippage. |
 | <img src ="../img/wrist/Tensioner_screws.png"> | Once done: tighten the screws of both tensioners until you reach a strict tensing on the cables. |
 
