@@ -1,4 +1,4 @@
-# ICUB UNPACKING AND INSTALLATION
+# iCub Unpacking and Installation
 
 ### 1. Open the box
 
