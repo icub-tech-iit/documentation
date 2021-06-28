@@ -15,10 +15,11 @@ jobs:
         run: |
           pip3 install git+https://github.com/linkchecker/linkchecker.git
           
-      - name: Get repository name
+      - name: Fetch repository name
+        id: repo-name
         run: |
-          echo "REPOSITORY_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> ${GITHUB_ENV}
+          echo "::set-output name=REPOSITORY_NAME::$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')"
         
       - name: Run checker
         run: |
-          linkchecker https://${{ github.repository_owner }}.github.io/${{ env.REPOSITORY_NAME }}
+          linkchecker https://${{ github.repository_owner }}.github.io/${{ steps.repo-name.outputs.REPOSITORY_NAME }}
