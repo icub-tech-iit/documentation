@@ -93,13 +93,13 @@ sudo apt install bind9 bind9utils
 ```
 
 !!! note
-  See configuration files in `/etc/bind` for further deatils
+  See configuration files in `/etc/bind` and `/var/lib/bind` for further deatils
 
-## Fix logging configuration
-create the folder `/var/log/named/` and set correct ownerhip
+### Fix logging configuration
+create the folder `/var/log/bind/` and set correct ownerhip
 ```
-mkdir /var/log/named/
-chown bind:bind /var/log/named/
+mkdir /var/log/bind/
+chown bind:bind /var/log/bind/
 ```
 
 ## DHCP Client
@@ -118,22 +118,16 @@ Edit the file /etc/default/isc-dhcp-server as follows
 ```
 INTERFACESv4="enp2s0"
 ```
-Enable logging and update apparmor configuration according
 
 !!! note
   See configurations files in `/etc/dhcp` for configuration details
 
-### Zones automatic update fix
-In order to allow the zone files to be updated automatically by DHCP you need to
- - **change the permission for zone folder**
- ```
- sudo chmod g+w /etc/bind
- ```
- - change AppArmor configuration in file `` by adding the follow lines
- ```
- /etc/bind/ rw,
- /etc/bind/** rw,
- ```
+### Fix logging configuration
+Create the folder `/var/log/dhcpd/` and set correct ownerhip
+```
+mkdir /var/log/dhcpd/
+chown bind:bind /var/log/named/
+```
 
 ### RNDC fix
 To fix the RNDC please use the following commands
@@ -141,6 +135,52 @@ To fix the RNDC please use the following commands
 sudo cp /etc/bind/rndc.key /etc/dhcp/ddns-keys/
 sudo chown root:root /etc/dhcp/ddns-keys/rndc.key
 sudo chmod 640 /etc/dhcp/ddns-keys/rndc.key
+```
+
+## AppArmor profiles update
+In order to allow DCHPD and Bind services to read in write their configuration fiels and logs, you shoud add some lines in the _local_ apparmod configuration
+
+ - `/etc/apparmor.d/local/usr.sbin.dhcpd`
+ ```
+/var/log/dhcpd/** rw,
+/var/log/dhcpd/ rw,
+ ```
+ - `/etc/apparmor.d/local/usr.sbin.named`
+ ```
+ /var/log/bind/** rw,
+ /var/log/bind/ rw,
+ ```
+
+ !!! note
+   See configurations files in `/etc/apparmo.d` for configuration details
+
+## Logrotate configuration
+You should add the lograte configuration for the log files from DHCPD and Bind service by adding the following files
+
+- `/etc/logrotate.d/dhcpd`
+```
+/var/log/dhcpd/dhcpd.log {
+  rotate 4
+  daily
+  create
+  compress
+  missingok
+  notifempty
+}
+```
+- `/etc/logrotate.d/named`
+```
+/var/log/bind/default.log
+/var/log/bind/ddns.log
+/var/log/bind/query.log
+/var/log/bind/query-errors.log {
+  rotate 4
+  daily
+  create
+  compress
+  missingok
+  notifempty
+},
 ```
 
 ## Set correct timezone
