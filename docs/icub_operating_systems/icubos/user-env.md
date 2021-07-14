@@ -63,7 +63,7 @@ if [ -f "$ICUBRC_FILE" ]; then
   source $ICUBRC_FILE
 fi
 ```
-at the beginning of file `~/.bashrc_iCub` just _BEFORE_ the following lines:
+at the beginning of file `~/.bashrc` just _BEFORE_ the following lines:
 ```
 # If not running interactively, don't do anything
 case $- in
