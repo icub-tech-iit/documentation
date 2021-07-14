@@ -1,6 +1,7 @@
 iCub Tech Docs
 ==============
 
+[![GitHub Pages](https://github.com/icub-tech-iit/documentation/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/icub-tech-iit/documentation/actions/workflows/gh-pages.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 🌐 Browse our [online documentation](https://icub-tech-iit.github.io/documentation).
