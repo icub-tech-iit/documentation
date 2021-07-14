@@ -68,10 +68,6 @@ The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bash
 
 In order to customize the above user enviroment you shuld manually make some changes:
 
-- **The build path** - the folder name where you object are created by cmake, in the following line and remove the leading "#"
-```
-#export OBJ_SUBDIR="build"
-```
 - **The YARP_ROBOT_NAME** - you must insert your robot name, in the following line and remove the leading "#"
 ```
 #export YARP_ROBOT_NAME=
