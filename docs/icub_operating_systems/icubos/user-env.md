@@ -62,7 +62,7 @@ case $- in
 esac
 ```
 
-The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bashrc` is that file must be loaded every time a bash session is started, no matter if the session is interactive or not (this is required when we want to start our programs remotely), and the line of code after `# If not running interactively, don't do anything` make the `~/.bashrc` file exit it executed in a non-interactive shell.
+The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bashrc` is that file must be loaded every time a bash session is started, no matter if the session is interactive or not (this is required when we want to start our programs remotely), and the line of code after `# If not running interactively, don't do anything` make the `~/.bashrc` file exit if executed in a non-interactive shell.
 
 ## Required configuration
 
