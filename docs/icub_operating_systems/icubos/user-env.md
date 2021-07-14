@@ -41,17 +41,7 @@ the above files must be renamed to `.bashrc_iCub` and saved in the user home dir
 
 ## How to setup the enviroment properly
 
-This file must be loaded every time a bash session is started, no matter if the session is interactive or not (this is required when we want to start our programs remotely).
-Usually the .bashrc is not executed for not-interactive session, that's why the default `.bashrc` file starts with the following lines:
-```
-# If not running interactively, don't do anything
-case $- in
-   *i*) ;;
-     *) return;;
-esac
-```
-These lines forces to skip execution of bashrc in case of not-interactive session, by exiting from the file.
-So, if we want that our enviroment is loaded no matter if the session is interactive or not, we must put the following lines
+To use the `~/.bashrc_iCub` file to setup the environment, the following lines:
 ```
 #Load the iCub custom bashrc
 if [ "$HOME" != "" ]; then
@@ -63,7 +53,7 @@ if [ -f "$ICUBRC_FILE" ]; then
   source $ICUBRC_FILE
 fi
 ```
-at the beginning of file `~/.bashrc` just _BEFORE_ the following lines:
+should be added at the beginning of file `~/.bashrc` just _BEFORE_ the following lines:
 ```
 # If not running interactively, don't do anything
 case $- in
@@ -71,6 +61,8 @@ case $- in
      *) return;;
 esac
 ```
+
+The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bashrc` is that file must be loaded every time a bash session is started, no matter if the session is interactive or not (this is required when we want to start our programs remotely), and the line of code after `# If not running interactively, don't do anything` make the `~/.bashrc` file exit if executed in a non-interactive shell.
 
 ## Required configuration
 
