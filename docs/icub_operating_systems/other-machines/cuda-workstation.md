@@ -37,7 +37,7 @@ installation instructions](generic-machine.md), in order to prepare a generic ma
 Install the package for your distribuition and architecture from
 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 
-## Install SiftGPU library and its dependancies
+## Install SiftGPU library and its dependencies
 
 -   get SiftGPU from [SiftGPU
     website](http://cs.unc.edu/~ccwu/siftgpu/)
