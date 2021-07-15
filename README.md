@@ -24,7 +24,7 @@ This repository is maintained by:
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
-## [Gitpod](https://www.gitpod.io) 
+## 🔘 [Gitpod](https://www.gitpod.io) 
 First off, sign up for Gitpod using your GitHub credentials. You'll have 50 hours/month of free usage on public repositories. Also, remember to visit the [Gitpod Integrations](https://gitpod.io/integrations) to make sure that all GitHub options are ticked in.
 
 Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-extension).
@@ -33,13 +33,13 @@ Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-
 | :---: |
 | ![](./assets/gitpod.gif) |
 
-## [GitHub Codespaces](https://github.com/features/codespaces)
+## 🔘 [GitHub Codespaces](https://github.com/features/codespaces)
 
 | Click to enlarge |
 | :---: |
 | ![](./assets/codespaces.gif) |
 
-## [GitHub Pages](https://pages.github.com) on Forks
+## 🔘 [GitHub Pages](https://pages.github.com) on Forks
 We use [GitHub Actions](https://docs.github.com/en/actions) to publish the website on the GitHub Pages. However, GitHub Actions are disabled by default on forks.
 Thus, follow the steps below, where you have to correctly fill up the signature `your-fork`:
 - Browse to https://github.com/your-fork/documentation/actions and enable the actions.
