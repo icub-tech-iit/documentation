@@ -36,11 +36,3 @@ installation instructions](generic-machine.md), in order to prepare a generic ma
 
 Install the package for your distribuition and architecture from
 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
-
-## Install SiftGPU library and its dependencies
-
--   get SiftGPU from [SiftGPU
-    website](http://cs.unc.edu/~ccwu/siftgpu/)
--   extract SiftGPU in `/usr/loca/src/robot`
--   install dependancies (DevIL and GLEW), by installing the following packages `libdevil-dev libglew-dev`
--   compile SiftGPU
