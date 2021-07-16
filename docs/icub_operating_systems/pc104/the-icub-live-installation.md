@@ -58,69 +58,6 @@ There is a GUI available in Ubuntu, called _"Disks"_ (gnome-disks) and comes def
 
 See also [this guide](https://www.howtogeek.com/191054/how-to-create-bootable-usb-drives-and-sd-cards-for-every-operating-system/#:~:text=From%20an%20IMG%20File&text=Use%20Win32%20Disk%20Imager%20to,USB%20drives%20and%20SD%20cards)
 
-## Burn the Debian image version 5.x (old)
-
-From version 5.0 on, the image is based on a Debian LIVE system. Version 5.x images come into a standard ISO Hybrid image file and there is a script to write the image to a USB memory
-
-### Where to download the ISO image and burn script
-
-ISO images and the script can be downloaded [here](http://wiki.icub.org/iCub/downloads/pc104-images/) Some images are compressed, if so uncompress it before proceeding. To verify the file has been successfully downloaded, the md5 code can be verified by placing the .md5 file in the same folder as the uncompressed image and typing the following command:
-
-`md5sum --check MD5FILE.md5`
-
-### How to put the iso on a USB memory
-
-Please use the icub_iso2usb.sh script: this script will create a working bootable USB from the ISO file and ensure compatibility on some old PC104.
-This scripts will also enable file persistence (see below).
-
-!!! note
-  This script is compatible ONLY with Debian GNU/Linux 7 wheezy and Ubuntu 14.04.3 LTS Trusty**
-
-### What is file persistence and how to use it
-
-File persistence is used to write the changes you made to the live filesystem (i.e. if you modify a file or write a new one) to a separate partition on the USB memory, allowing those changes to survive a reboot.
-The bigger is the USB memory, the more space you have for the new files, so we suggest at least a 4 Gb USB memory. If you mount an USB memory which persistence enable on a normal PC, you will see two partitions:
-
--   LIVE partition, which contains the live image files
--   PERSITENCE partition, which contains all the modified or new files
-
-### How to use the icub_iso2usb.sh script
-
-This script takes a iCub PC104 live image and write it to an USB memory,
-optionally enabling file persistence. The script run on a Linux system and requires the following commands to be installed:
-
--   parted
--   mkdiskimage
--   mkdosfs
--   mkfs.ext4
--   install-mbr
--   syslinux
--   p7zip
-
-On a Debian 7 system, this means that you must install the following packages
-
-`parted syslinux syslinux-common syslinux-utils dosfstools e2fsprogs p7zip mbr`
-
-The script usage is the following
-
-`icub_iso2usb.sh -f LIVE_ISO_FILE -t USB_TARGET_DEVICE [-p PERSISTENCE_SIZE]`
-
-where:
-
--   **LIVE_ISO_FILE** is the live filename (mandatory parameter)
--   **USB_TARGET_DEVICE** is the device to write to the iso image -     *important: USE a device not a partition* (mandatory parameter)
--   **PERSISTENCE_SIZE** is the size of overlay partition (in MB) - set to 0 to disable overlay, the default persistence size is 1024 MB
-
-Example:
-
-` icub_iso2usb.sh -f icub-live_4.0-14.11.12-rt-amd64.iso -t sdc`
-
-There is also an inline help for the script, available with
-
-`icub_icub2usb.sh -h`
-
-The image requires an amount of space which is bigger than the the ISO size of a 10%, so setup the persistence partition size accordingly. The script checks if the target USB memory has enough space for live system and persistence (if not disabled), so don't worry.
-
 # Required customizations
 
 ## Set RobotName variable
