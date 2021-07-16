@@ -48,13 +48,15 @@ Also install (optional, but very useful) the following packages:
 
 # Debian Software repository
 
-**NOTE** : this step is required only for a Debian machine.
+!!! note
+    this step is required only for a Debian machine.
 
 Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/sources.list`
 
 # iCub software repository and common packages
 
-**NOTE** : skip this step in case of icub server
+!!! note
+    skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Configure the iCub software repository, by creating the file `/etc/apt/sources.list.d/icub.list` as following example
 
@@ -82,7 +84,7 @@ Install the following packages from icub repository
 
 You have two options:
 
-- Static IP address (this option is **mandatory**  if there is no DHCP in your subnet - like in the case of [the iCub server laptop](icub-server-laptop.md) - or if your machine is the DHCP server - this is the case of  [the "real" iCub server](icub-server-from-image.md) )
+- Static IP address (this option is **mandatory**  if there is no DHCP in your subnet - like in the case of the [iCub Console Server](icub-server-laptop.md) - or if your machine is the DHCP server - this is the case of  the [iCub Dedicated Server](icub-server-from-scratch.md) )
 - Dynamic DHCP IP address
 
 ## Configuration methods
@@ -102,7 +104,8 @@ where **MACHINE_HOSTNAME** is the hostname of you machine, that should match the
 
 ## Mount remote NFS shares
 
-**NOTE** : skip this step in case of [iCub server LAPTOP](icub-server-laptop.md) or [iCub server](icub-server-from-image.md)
+!!! note
+    Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
 To mount the remote NFS shares, edit `/etc/fstab`, by adding the folowing lines
 
@@ -123,7 +126,8 @@ Then create the two above mountpoints as follows
 
 # NTP configuration
 
-**NOTE** : skip this step in case of icub server (both "real" and "laptop" versions)
+!!! note
+    Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Edit the file `/etc/ntp.conf` by adding the following line
 
@@ -139,7 +143,8 @@ server 10.0.0.1
 
 # iCub user environment variables
 
-**NOTE** : skip this step in case of [iCub server](icub-server-from-image.md)
+!!! note
+    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Please see [this section](../icubos/user-env.md)
 
@@ -157,6 +162,9 @@ There are several customization you need to apply to the file `.bashrc\_iCub`:
 
 # _Optional_ - Configure remote desktop
 
+!!! note
+    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
+
 If you want to setup a VNC remote desktop, execute from a graphical session the following command
 
 ` vino-preferences`
@@ -167,6 +175,9 @@ If you get this error _The authentication mechanism requested can not be provide
 
 # _Optional_ - Disable the screen power off
 
+!!! note
+    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
+
 Using the gnome3 control panel, it is not possible to avoid the system has to be idle for the monitor to be turned off, the maximum time is "1 hour", "never" is not possible. From the command line execute the following commands
 
 `gsettings set org.gnome.settings-daemon.plugins.power sleep-display-ac 0`
@@ -176,6 +187,9 @@ Using the gnome3 control panel, it is not possible to avoid the system has to be
 `gsettings set org.gnome.desktop.session idle-delay 0`
 
 # _Optional_ - install nVidia video drivers
+
+!!! note
+    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 1. Check if you have nvidia hardware
 
@@ -208,7 +222,8 @@ For further details, please read [this guide](https://help.ubuntu.com/community/
 
 # _Optional_ - Fix the the .local domains resolution problems
 
-**NOTE**: only on clients, NOT on icub server.
+!!! note
+    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Edit `/etc/nsswitch` replacing the following line
 
@@ -225,6 +240,9 @@ In case of lag in SSH connections, disable DNS lookup on ssh server, edit the fi
 `UseDNS no`
 
 # _Optional_ - how to fix the \"nobody:nobody\" NFS mount issue
+
+!!! note
+    This skip is valid only for machines were you mount a NFS repository, so you must skip it in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
 If the NFS mounts shows NOBODY as UID and GUID, this mean that the client and the server are not in the same domain, check the file
 
@@ -244,6 +262,6 @@ What now you need to do is to customize the installation with your hardware and 
 
 In case of special machines (such as the cuda workstation or icub laptop) you must follow further steps in order to complete the installation:
 
--   [The iCub server](icub-server-from-image.md)
--   [The iCub server laptop](icub-server-laptop.md)
+-   [iCub Dedicated Server](icub-server-from-scratch.md)
+-   [iCub Console Server](icub-server-laptop.md)
 -   [The nVidia CUDA workstation](cuda-workstation.md)
