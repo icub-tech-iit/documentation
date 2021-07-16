@@ -20,9 +20,9 @@ There are two versions of the customized OS running on the machine inside the iC
 
 Once you customized your machine, you can proceed with further setup for special machines, such as:
 
-- [_CUDA workstation_](./other-machines/cuda-workstation.md) - a GPU-equipped machine with CUDA software installed
-- [_The iCub Server_](./other-machines/icub-server-os.md) - a machine acting only as server (for Network gateway, NTP, NFS, DHCP and DNS services)
-- [_The iCub Laptop Server_](./other-machines/icub-server-laptop.md) - a single machine, usually a laptop, acting both as server (for Network Gateway, ntp and NFS serviceas) as well as robot console
+- [_The iCub Dedicated Server_](./other-machines/icub-server-os.md) - the machine that works as _network infrastructure server_ (for Network gateway, NTP, NFS, DHCP and DNS services) only, this machine is not supposed to be used to run your software (i.e. you can't install YARP here), but acts as backend server for all networking services
+- [_The iCub Console Server_](./other-machines/icub-server-laptop.md) - in the minimal iCub setup configuration there is only the robot and a single machine, usually a laptop, acting both as (limited) _network infrastructure server_ (for Network Gateway, ntp and NFS serviceas) as well as _robot console_ were you can run your software (i.e. YARP is installed here)
+- [_CUDA workstation_](./other-machines/cuda-workstation.md) - a GPU-equipped machine with CUDA software installed, usually a workstation
 
 # The iCub setup startup procedure
 
