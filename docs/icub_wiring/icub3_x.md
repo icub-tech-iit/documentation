@@ -8,7 +8,7 @@ The system architecture of iCub 3 is depicted in the following image:
     the documentation is still incomplete
     
 
-<center> <img src ="../img/Architecture_iCub3.0.png" width=500>
+<center> <img src ="../img/Architecture_iCub3.2.png" width=800>
          
 </center>
 
