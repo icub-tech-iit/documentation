@@ -37,8 +37,9 @@ yarp write /portwrite
 and on yet another terminal:
 
 ~~~
-yarp connect /portwrite /portread`
+yarp connect /portwrite /portread
 ~~~
+
 you'll see the effect on the name server:
 
 ~~~
