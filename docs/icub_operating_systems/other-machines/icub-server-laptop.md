@@ -6,7 +6,7 @@ This page contains guidelines for installation of the iCub Console Server, a lap
 
 Please follow the instructions on page [Generic iCub machine installation instructions](generic-machine.md), in order to prepare a generic machine for the iCub network.
 
-## NOTE 1 - about Newtwork configuration
+## NOTE 1 - about Network configuration
 Usually, the laptop network conection are used as follows
 
 - **Cabled connection (internal)** - Connection to the robot; this port is used to connect to the icub-head, both directly (a network cable connect the robot and the laptop) or through a switch
