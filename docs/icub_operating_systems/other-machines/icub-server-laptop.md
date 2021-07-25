@@ -94,16 +94,8 @@ Create a symbolic link to the code export path as follows (as root)
 sudo ln -s /exports/code /usr/local/src/robot
 ```
 
-Then clone the icub software repositories into `/exports/code`, as follows
-
-```
-cd /exports/code
-git clone https://github.com/robotology/yarp.git
-git clone https://github.com/robotology/icub-main.git
-git clone https://github.com/robotology/icub-firmware-shared
-git clone https://github.com/robotology/icub-firmware
-git clone https://github.com/robotology/icub-firmware-build
-```
+You can then follow the [instructions to clone the robotology-superbuild](../../sw_installation/linux_from_sources_superbuild.md)
+repository into `/exports/code` and build the ecosystem.
 
 # YARP local path
 
