@@ -1,6 +1,6 @@
 # The iCub Console Server
 
-This page contains guidelines for installation of the iCub Dedicated Server, a laptop used both as console and as network server, so that it matches the requirements of the Linux on the icub-head.
+This page contains guidelines for installation of the iCub Console Server, a laptop used both as console and as network server, so that it matches the requirements of the Linux on the icub-head.
 
 # *Prerequisite* : basic system setup for a iCub machine
 
