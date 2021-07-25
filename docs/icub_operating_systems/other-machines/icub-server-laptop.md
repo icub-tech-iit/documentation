@@ -107,6 +107,40 @@ mkdir -p /home/icub/.local/share
 ln -s /exports/local_yarp /home/icub/.local/share/yarp
 ```
 
+# How to configure the `yarpserver` in the iCub setup
+
+The iCub Console Server is generally the unit of the iCub setup devoted to hosting the `yarpserver`.
+Therefore, on the iCub Console Server, one needs to properly set up the YARP namespace, to then launch
+the server:
+
+```
+yarp namespace /icub
+yarpserver
+```
+
+The namespace needs to be set up only once; the default namespace is `/root`, but `/icub` (or similar names)
+tends to be a better choice as it enforces a policy for connecting to the robot network.  
+
+Analougously, on all the other machines connected to the iCub network running the YARP infrastructure,
+one needs to do the following:
+
+```
+yarp namespace /icub
+yarp detect --write 
+```
+
+The commands above allow a machine to talk to the YARP server.
+
+If `yarp detect` fails to detect the server, the following command should narrow down the search:
+
+```
+yarp conf ip socketport
+```
+
+where `ip` is the iCub Console Server IP and `socketport` is the port retained by the YARP server (usually, `10000`).
+
+To find out more on the YARP CLI, refer to the [YARP official documentation](http://yarp.it/latest/yarp.html). 
+
 # Install the ssh keys for password-less login on icub-head
 
 Log in as icub and create an ssh key.
