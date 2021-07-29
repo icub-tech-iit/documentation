@@ -156,6 +156,7 @@ nav:
         - The OS on PC104 (live USB):
           - Introduction: icub_operating_systems/pc104/icub-live.md
           - Installation: icub_operating_systems/pc104/the-icub-live-installation.md
+          - 32 bits version: icub_operating_systems/pc104/icub-live-32bits.md
           - Details: icub_operating_systems/pc104/the-icub-live-details.md
         - The OS on other machines (not on robot):
           - Generic iCub environment machines: icub_operating_systems/other-machines/generic-machine.md

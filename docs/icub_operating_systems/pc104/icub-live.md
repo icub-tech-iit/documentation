@@ -12,7 +12,6 @@ At any time to determine the version of the image is running on your iCub, the f
 The latest version is 7.10 based on [Debian 10 (Buster)](https://www.debian.org/releases/buster/).
 
 # Versioning
-
 - 1.x This is an Etch'n'half based distribution, built on a Debian LIVE system.
 - 2.x This is a Debian Lenny based distribution, built on a Debian LIVE system.
 - 3.x This is a Debian Squeeze based distribution, contains a kernel with [Real-Time patch](https://rt.wiki.kernel.org/index.php/Main_Page)).
@@ -30,6 +29,9 @@ For example, `icub-live_5.0-14.11.12-rt-amd64.iso` is:
 - **`0`** is the minor release
 - **`14.11.12`** is the build release (Year.Month.Day)
 - **`rt-amd64`** is the kernel flavour
+
+# 32 bits vs 64 bits
+As can be seen in the previous section, iCub LIVE versions starting from 5.x all require a 64 bits architecture. However, it is possible to build 32 bits versions by following the guidelines described [here](./icub-live-32bits.md).
 
 # Users and Passwords
 Starting from version 5.0, the default user account is
