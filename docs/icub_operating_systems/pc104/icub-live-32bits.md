@@ -32,7 +32,7 @@ The image we want to create is based on Debian LIVE build. However, a number of 
 - Clone the repository: `git clone https://github.com/icub-tech-iit/icub-os-files.git`
 - Go to the folder containing our scripts: `cd icub-os-files/scripts/icub-live`
 - Make the scripts executable: `chmod u+x ./*.sh`
-- Adapt the files for a 32 bits architecture based on [this PR](https://github.com/icub-tech-iit/icub-os-files/pull/4). Until the PR has been included in the scripts, you can do the changes manually, or cherry-pick the commit.
+- Adapt the files for a 32 bits architecture based on the changes pointed out from within [this PR](https://github.com/icub-tech-iit/icub-os-files/pull/4). To this end, you may cherry-pick the commit.
 
 # Build and flash the image
 From there, you can follow the procedure described at the bottom of [the iCub LIVE details page](./the-icub-live-details.md). In short:
