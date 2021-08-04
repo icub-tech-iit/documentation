@@ -25,7 +25,9 @@ The imaging tool used to create and restore icub-head disk images is [CloneZilla
 
 ## Download the latest iCubOS image
 
-Get the lastest iCubOS image on [this page](../download.md) and put it on a external USB drive (not the same were is CloneZilla LIVE)
+Get the lastest iCubOS image on [this page](../download.md) and put it on a external USB drive (not the same were is CloneZilla LIVE).
+The iCubOS archive will contained a directory, just copy the directory itself (not its contents) on the external USB drive. 
+The USB drive can be formatted in any filesystem that can be natively ready by Linux.
 
 ## Connect the icub-head
 
