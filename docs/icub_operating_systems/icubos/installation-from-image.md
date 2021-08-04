@@ -66,8 +66,8 @@ Power down the icub-head and unplug the USB hub, then restart.
 
 ## Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment, in particular see the "_Required configuration_" section in [_Networking_](networking.md).
+What you need now to do is to customize the installation with your hardware and enviroment; in particular, see the "_Required configuration_" section in [_Networking_](networking.md).
 
 If you need to connect the icub-head to any Bluetooth device, please check the steps described in [_Bluetooth_](bluetooth.md).
 
-After you correctly setup your network, you can proceed in installing the required YARP and iCub software by following the guide on [Superbuild installation on icub-head](../../sw_installation/icub_head_superbuild.md).
+After you correctly set up your network, you can proceed with installing the required YARP and iCub software by following the guide on [Superbuild installation on icub-head](../../sw_installation/icub_head_superbuild.md).
