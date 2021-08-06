@@ -1,23 +1,18 @@
 ## iCub 2.x Wiring 
 
-
 - The logic schematics consist of the logical and electrical connections between boards, sensors and motors. 
 - The harness schematics are the drawings of all the cables and bundles.
 - In the image below, you will find the position of all the harnesses that you find in the pdf. 
 - In order to find a cable in the Harness file of your robot, you should start looking at this picture to find out where you have to look at. 
 - The Motor&Board_Placement is the document where you can find the wireframe of the robot with all the electronic boards, motors and sensors labels.
 
-
-<center> <img src ="../img/Harness_position.png" width=500>       
-</center>
+<center> <img src ="../img/Harness_position.png" width=500> </center>
 
 ### **ETHERNET backbone**
 
 The system architecture of iCub 2.x with ETHERNET backbone is depicted in the following image:
 
-<center> <img src ="../img/Architecture_iCub2.5-E3.2.png" width=500>
-         
-</center>
+<center> <img src ="../img/Architecture_iCub2.5-E3.2.png" width=500> </center>
 
 ### Logic and Harness iCub 2.5-E3.3 (ETH) - Full robot with **COM-EXP** and **MC4-PLUS**
  
@@ -33,7 +28,6 @@ The system architecture of iCub 2.x with ETHERNET backbone is depicted in the fo
 
 
 ### **CAN backbone**
-
 
 ### Logic and Harness iCub 2.x-E2.0.0 
 - [iCub 2 Logic](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub2/icub-2.0.0/pdf/iCub%202_2.0.0_XXXX_Logic.pdf)

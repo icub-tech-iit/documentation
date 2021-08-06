@@ -6,7 +6,7 @@
 !!! note "note"
     The wiring schematics of iCub 1.x has been designed by using Orcad. You can find all the docs at the link below:
 
-- [iCub1.x Wiring ](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub1/iCubWiring_Ver.1.3.0)
+- [iCub1.x Wiring](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub1/iCubWiring_Ver.1.3.0)
 
 ### Logic and Harness iCub 1.7
 
