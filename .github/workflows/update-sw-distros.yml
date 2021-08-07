@@ -12,6 +12,10 @@ on:
         required: true
         default: '0000.00'
 
+concurrency:
+  group: update_sw_distros
+  cancel-in-progress: true
+
 jobs:
   Update:
     name: "Update"

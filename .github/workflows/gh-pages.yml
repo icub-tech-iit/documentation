@@ -8,6 +8,10 @@ on:
   repository_dispatch:
     types: [build_documentation]
 
+concurrency:
+  group: publish_gh_pages
+  cancel-in-progress: true
+
 jobs:
   docs:
     name: "Deploy"
