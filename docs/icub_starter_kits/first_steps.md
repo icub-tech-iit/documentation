@@ -1,4 +1,6 @@
-# iCub Unpacking and Installation
+# iCub First Steps
+
+## iCub Unpacking and Installation
 
 ### 1. Open the box
 
@@ -58,15 +60,15 @@ After turning on the power supply, you should see the two buttons in the backpac
 <img src ="../img/Picture5.png"/>
 </center>
 
-# FIRST START WITH ICUB
+## First Start with the iCub
 
-## Basic recommandations
+### Basic recommandations
 
 Make sure you have connected the robot and the laptop server together with an ethernet cable.
 
 Turn both CPU and motors switches from icub at the level of the backpack.
 
-## Laptop commands
+### Laptop commands
 
 !!! note
     the password for icub user is **icub** as simple as that
@@ -148,7 +150,7 @@ Both TV icon should turn from RED to GREEN
 !!! note
     This will create a new window to log messages from every applications that you will run and give us feedback – VERY USEFUL for debugging)
 
-## Robot calibration
+### Robot Calibration
 
 Now go back to yarpmanager window:
 
@@ -168,7 +170,7 @@ When you know what you should expect to get, you may start the real robot.
 
  - right click on yarprobotinterface and click RUN
 
-## Cameras
+### Cameras
 
  - double click on 2/Calib cameras:
 
@@ -196,7 +198,7 @@ Four windows should pop-up: 2 for the cameras and 2 for settings on the cameras.
 <img src ="../img/clip_image033.png"/>
 </center>
 
-## Face Expressions
+### Face Expressions
 
  - double click on 3/FACE EXPRESSIONS: 
 
@@ -216,7 +218,7 @@ The face should turn from picture 1 to picture 2 (all the connections are OK if 
 | --- | --- |
 |<img src ="../img/clip_image037.jpg"/>|<img src ="../img/clip_image039.jpg"/>|
 
-## Skin
+### Skin
 
  - Double click on Skin_Gui to create the new tab 
 
@@ -249,7 +251,9 @@ You can now start touching the robot everywhere the skin patched are present.
 !!! note
     Once done using the robot (to do not over use the CPU for the server side– icubsrv – please close the applications – by clicking on DISCONNECT ALL and STOP ALL for the applications skin)
 
-## Demo Yoga
+## iCub Basic Demos
+
+### Demo Yoga
 
  - double click on Demo Yoga – it creates a new tab. 
 
@@ -264,7 +268,7 @@ You can now start touching the robot everywhere the skin patched are present.
 
 When finished STOP the application.
 
-## Demo RedBall
+### Demo RedBall
 
 (You may try to fetch a spongy red ball of diameter 6cm) 
 
