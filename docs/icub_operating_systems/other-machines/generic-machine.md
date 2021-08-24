@@ -129,7 +129,9 @@ Then create the two above mountpoints as follows
 !!! note
     Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
-You should configure this machine as a NTP client configure the ntp service to point to `icub-srv` as a NTP server. You can use several different packages to install an NTP client, but we recommend to use `ntpdate` and to remove the package `ntp`, as follows
+You should configure this machine as an NTP client and then configure the NTP service to point to `icub-srv` as an NTP server.
+
+You can use several different packages to install an NTP client, but we recommend using `ntpdate` and removing the package `ntp`, as in the following.
 
 1. Remove `ntp` package if installed
 
