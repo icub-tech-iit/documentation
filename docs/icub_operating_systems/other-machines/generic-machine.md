@@ -129,17 +129,28 @@ Then create the two above mountpoints as follows
 !!! note
     Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
-Edit the file `/etc/ntp.conf` by adding the following line
+You should configure this machine as an NTP client and then configure the NTP service to point to `icub-srv` as an NTP server.
 
-```
-server NTP_SERVER_IP
-```
+You can use several different packages to install an NTP client, but we recommend using `ntpdate` and removing the package `ntp`, as in the following.
 
-and replace **NTP_SERVER_IP** with the appropriate value for your network. As example, in case of a machine in an environment with the icub server the above configuration will be
+1. Remove `ntp` package if installed
 
-```
-server 10.0.0.1
-```
+  `sudo apt purge ntp`
+
+2. Install `ntpdate` package
+
+  `sudo apt install ntpdate`
+
+3. edit `ntpdate` configurations
+
+  `sudo vim /etc/default/ntpdate`
+
+  by changing the following lines
+
+`NTPDATE_USE_NTP_CONF=no`
+
+`NTPSERVERS="10.0.0.1 ntp.ubuntu.com"`
+
 
 # iCub user environment variables
 
