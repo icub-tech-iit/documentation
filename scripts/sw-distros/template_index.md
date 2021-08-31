@@ -7,7 +7,7 @@ Software Distros
 - 🆓 The feature-freeze lasts **one month**.
 - 📛 Naming convention adheres therefore to **YYYY.MM**: e.g. 2020.02, 2020.05...
 - 📝 Repositories stay on their usual release convention in order to enable proper **semantic versioning**. To link repos tags to SW Distro and run CI, we rely on the infrastructure provided in [`robotology/robotology-superbuild`](https://github.com/robotology/robotology-superbuild).
-- 📦 Exceptionally, we may deliver **feature-based releases** (only tags/branches, no binaries) as **YYYY.MM.feat-nn**.
+- 📦 Occasionally, we may deliver **feature-based releases** (only tags/branches, no binaries) as **YYYY.MM.feat-nn**.
 - 🐞 **Patches** are coded as **YYYY.MM.patch-nn** and, like the feature-based releases, are shipped only in terms of tags/branches.
 - 📢 We make **announcements** of the distros and their content on a dedicated channel of [Robotology Community](https://github.com/robotology/community/discussions/categories/releases).
 
