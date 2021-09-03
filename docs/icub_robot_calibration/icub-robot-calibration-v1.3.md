@@ -154,7 +154,7 @@ Run `yarprobotinterface` and wait for the robot calibration (press Enter multipl
     Use a `Windows` pc with `Microsoft Office` installed to have the correct behaviour of the `.xls` file macros.
 
 ### Head calibration (only head V2)
-Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent cells.
+Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent `value read at zeros` column cells.
 
 ![head](img/calib-v1-3-head.png)
 
@@ -162,14 +162,26 @@ Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLon
     Take care that the `Delta` column has all values set to 0.
 
 ### Torso
-Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent cells.
+Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent `value read at zeros` column cells.
 
 ![torso](img/calib-v1-3-torso.png)
 
 !!!warning
     Take care that the `Delta` column has all values set to 0.
 
-## Hands calibration
+### Wrist calibration (only for wrist V2)
+Place the wrist in the `zero position` :
+
+|   |   |
+|---|---|
+|![img-3](./img/img-3.png) | ![img-4](./img/img-4.png)|
+
+Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent `value read at zeros` column cells.
+
+![wrist](img/calib-v1-3-wrist.png)
+
+    
+### Hands calibration
 Referring to the table below, using a screwdriver read the values `Min` and `Max` :
 
 |Part|Joint#|Motor|Min|Max|
@@ -189,22 +201,22 @@ Referring to the table below, using a screwdriver read the values `Min` and `Max
     Take care that values read respect the relationship :`Min` < `Max`
     Otherwise you have to move the magnet until you reach the above situation.
 
-Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent cells.
+Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent `value read at zeros` column cells.
 
 ![hand](img/calib-v1-3-hand.png)
 
 !!!warning
     Take care that the `Delta` column has all values set to 0.
 
-## Legs calibration 
-Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent cells.
+### Legs calibration 
+Open the `.xls` file in your robot folder (i.e. `iCub_Calibration_V1_3_1_iCubLondon01.xls`), and put the values read from `yarpmotorgui` in the correspondent `value read at zeros` column cells.
 
 ![leg](img/calib-v1-3-leg.png)
 
 !!!warning
     Take care that the `Delta` column has all values set to 0.
 
-## Arms Fine Calibration
+### Arms Fine Calibration
 Here's described how to correct small errors in the calibration of the iCub. It applies mainly to the shoulder and elbow joints (joint0...joint3) but can be applied also for the other joints of the arm.
 
 !!!info
@@ -218,7 +230,7 @@ Put the iCub in a suitable posture and let's call this configuration `theta_desi
 
 The aim is to insert the calibration deltas in each arm's `Delta` column cells of the `.xls` file using the formula: `Delta = Theta - Theta_Desired`.
 
-## Eyes calibration (only head V2)
+### Eyes calibration (only head V2)
 The eyes mechanism has a total of three degrees of freedom. Both eyes can pan (independently) and tilt (simultaneously).
 
 ![eyes-1](./img/eyes-1.png)
@@ -233,92 +245,28 @@ While the tilt can be calibrated by directly inserting the delta value in the `D
 
 with sign to be chosen accordingly.
 
-## Generate the new `.xml` files
+## Update `xml` files
+
+### Generate the new `.xml` files - automated
+!!!warning
+    If you updated the SW (i.e. updated to https://github.com/robotology/robotology-superbuild), avoid to follow this steps and do the manual procedure
+
 In order to get the new `.xml` files you need to :
 
 - Press`Generate Calibrators` button 
+- Press`Generate All` button 
 
-## Cameras calibration
-
-### Get GUID from camera
-Open a terminal on the pc104 and type :
-
-```xml
-  icub@pc104:~$ yarpdev --device grabberDual --subdevice dragonfly2 --name /cam0 --d 0 --allow-deprecated-devices
-```
-
-and you’ll get the info below
-
-![cameras-calib-1](./img/cameras-calib-1.png)
-
-Now open a terminal on the server and type :
-
-```xml
-  icub@icubsrv:~$ yarpview --name /view0
-  icub@icubsrv:~$ yarp connect /cam0 /view0
-```
-
-Check which camera is working and then put the “Unique ID” in the respective files in
-
-```xml
-$ROBOT_CODE/robots-configuration/<$YARP_ROBOT_NAME>/camera
-```
-
-![cameras-calib-2](./img/cameras-calib-2.png)
-
-Do all steps above again for the other camera, changing the `--d 0` parameter to `--d 1` in the first command.
-
-
-### Calibrating cameras
-Now you need to ensure that the 2 cameras are perfectly aligned with each other. In order to do this, show a black cross to the robot at a specific distance (see pictures below) and adjust the cameras until reaching the correct alignment.
-
-![cam-3](./img/cameras-calib-3.png)
-
-![cam-4](./img/cameras-calib-4.png)
-
-- Run `yarprobotinterface` and wait for robot calibration.
-
-- Run `yarpmanager`, open `Cameras` entity then run the 2 `yarpdev` modules and connect.
-
-- Open and run ONLY the 2 yarpview modules and connect.
-
-- In a terminal on the server type:
-
-```xml
-$ stereoCalib --from icubEyes.ini
-
-```
-
-!!!warning
-    DO NOT open the StereoCalibration app directly from yarpmanager otherwise you will not be able to see the result of the calibration process.
-
-- Then type:
-
-```xml
-$ yarp rpc /stereoCalibration/cmd
-```
-
-hen type “start”, a message “Starting Calibration…” will appear.
-
-Now show the chess to the robot taking care to move it with a different inclination for each acquisition (30 in total). Stay still and just move the chessboard around. The chess needs to fit all the screen and be in landscape view. The system only acquire data if the colored lines appear over the chessboard.
-
-In the terminal of the stereoCalib you should see:
-
-```xml 
-  Running Left Camera Calibration... 
-  RMS error reported by calibrateCamera: 0.592978  
-  Running Right Camera Calibration... 
-  RMS error reported by calibrateCamera: 0.147403
-  30 pairs have been successfully detected.
-  Running stereo calibration ...
-  done with RMS error= 0.717102
-  average reprojection err = 0.958607
-  Saving Calibration Results... 
-  ```
-
+### Generate the new `.xml` files - manual
 !!!info
-    To get good parameters you should see errors below 1.
+    Follow this procedure to manual edit the xml files if you updated the SW on your setup since the template inside the xls may contain outaded/missing params
 
-❗ After calibration, you need to MANUALLY copy the calibration data inside the file iCubEyes.ini
+- Manually copy only the highlighted lines below and paste them inside the corresponding `xml` file inside `calibrators` folder
+ 
+![calib](img/calib-v1-3-calib.png)
 
-📚 For additional info look [here](./icub-stereo-calib.md).
+- Manually copy only the highlighted lines below and paste them inside the corresponding `xml` file inside `hardware/motorcontrol` folder
+
+![mc](img/calib-v1-3-mc.png)
+
+Obviously, you have to do the same for each robot part
+
