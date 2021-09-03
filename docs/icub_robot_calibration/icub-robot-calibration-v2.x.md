@@ -1,4 +1,4 @@
-# Robot Calibration
+# Robot Calibration of iCub v2.X
 This page shows how to calibrate the robot.
 
 ## Preliminary actions

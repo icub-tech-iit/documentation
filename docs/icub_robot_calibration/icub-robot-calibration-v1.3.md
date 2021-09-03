@@ -1,4 +1,4 @@
-# Robot Calibration
+# Robot Calibration of iCub v1.3
 This page shows how to calibrate the v1.3 CAN based robot.
 
 ## Preliminary actions
