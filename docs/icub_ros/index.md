@@ -1,6 +1,6 @@
-# Using `iCub` with ROS
+# Using `iCub` with ROS 1
 
-This page's goal is to centralise different resources showing how to control `iCub` using ROS.
+This page's goal is to centralise different resources showing how to control `iCub` using ROS 1. ROS 2 support is not yet covered.
 
 # Required setup
 
@@ -9,10 +9,10 @@ Make sure that you read [YARP's documentation about ROS](http://www.yarp.it/late
 # Using ROS TF to manage the coordinate transforms
 
 ## What is ROS TF?
-[ROS TF](http://wiki.ros.org/tf) (and its more recent version [TF2](http://wiki.ros.org/tf2)) is a package used to keep track of the different sets of coordinates in a robot, and easily switch between them. It can for instance be used to transform the coordinates of an object in `iCub`'s depth image to coordinates that can be used by the `cartesianInterface`. 
+[ROS TF2](http://wiki.ros.org/tf2) is a package used to keep track of the different sets of coordinates in a robot, and easily switch between them. It can for instance be used to transform the coordinates of an object in `iCub`'s depth image to coordinates that can be used by the `cartesianInterface`. 
 
 To keep track of the various sets of coordinates, ROS TF requires 2 things:
-- a `URDF` file that describes the physical properties and the agencement of all the pieces ("links") that make up the robot. This can be found in [the icub-model repository](https://github.com/robotology/icub-models/)
+- a `URDF` file that describes the physical properties and the structure of all the pieces ("links") that make up the robot. This can be found in [the icub-model repository](https://github.com/robotology/icub-models/)
 - something to periodically publish the state of all the joints (in `iCub`'s case, that means the angles that all the motors are currently at). This is provided by the `controlboardwrapper2` or `controlBoard_nws_ros` modules.
 
 ## Publishing `iCub`'s joints state: the `controlboardwrapper2` and `controlBoard_nws_ros` modules
