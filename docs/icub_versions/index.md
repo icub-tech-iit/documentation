@@ -20,3 +20,5 @@
 |Special Version |	Features | Notes |
 | :---:| :---| :---|
 | v1.x.1 | where x > 1 This is the relative 1.x (x>1) version with a V2 head assembly mounted onto a V1 body | |
+| v1.x.2 | where x > 1 This is the relative 1.x (x>1) version with a V2 hands assembly mounted onto a V1 body with V1 head | | 
+| v1.x.3 | where x > 1 This is the relative 1.x (x>1) version with a V2 head and V2 hands assemblies mounted onto a V1 body  | | 
