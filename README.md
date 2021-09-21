@@ -33,7 +33,7 @@ Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-
 | :---: |
 | ![](./assets/gitpod.gif) |
 
-## 🔘 [GitHub Codespaces](https://github.com/features/codespaces)
+## 🔘 [GitHub Codespaces](https://github.com/features/codespaces) (if available)
 
 | Click to enlarge |
 | :---: |
