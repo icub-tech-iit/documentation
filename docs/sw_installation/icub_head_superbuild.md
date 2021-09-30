@@ -58,7 +58,7 @@ If you need to use other *superbuild profiles*, they can be easily enabled with 
 
 **Important: If you are using an old iCub that still uses the CAN internal bus, you also need to enable the `ROBOTOLOGY_USES_CFW2CAN` CMake option. Note that in this case the `.bashrc_iCub` file should also contain the definition of the
 `CFW2CANAPI_DIR` environmental variables, in addition to all the environmental variable already defined  in that file.
-See the main robotology-superbuild README for more detailed information.**
+Refer to the [`robotology-superbuild` documentation](https://github.com/robotology/robotology-superbuild/blob/master/doc/cmake-options.md#icub-head) for more detailed information.**
 
 After the compilation finished, you can check that the compilation ended correctly by opening a new terminal and executing:
 ~~~
