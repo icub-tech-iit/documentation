@@ -110,13 +110,13 @@ where **MACHINE_HOSTNAME** is the hostname of you machine, that should match the
 To mount the remote NFS shares, edit `/etc/fstab`, by adding the folowing lines
 
 ```
-NFS_SERVER_IP:/exports/code /usr/local/src/robot nfs soft,retry=1,timeo=60,_netdev,auto  0 0
-NFS_SERVER_IP:/exports/local_yarp    /home/icub/.local/share/yarp nfs soft,retry=1,timeo=60,_netdev,auto 0 0
+NFS_SERVER_IP:/exports/code /usr/local/src/robot nfs _netdev,auto,bg 0 0
+NFS_SERVER_IP:/exports/local_yarp    /home/icub/.local/share/yarp nfs _netdev,auto,bg 0 0
 ```
 and replace **NFS_SERVER_IP** with the appropriate value for your network. As example, in case of a machine in an environment with the icub server the above configuration will be
 
-` 10.0.0.1:/exports/code /usr/local/src/robot nfs soft,retry=1,timeo=60,_netdev,auto  0 0`\
-` 10.0.0.1:/exports/local_yarp    /home/icub/.local/share/yarp nfs soft,retry=1,timeo=60,_netdev,auto 0 0`
+` 10.0.0.1:/exports/code /usr/local/src/robot nfs soft,retry=1,timeo=60,_netdev,auto,bg 0 0`
+` 10.0.0.1:/exports/local_yarp    /home/icub/.local/share/yarp nfs _netdev,auto,bg 0 0`
 
 Then create the two above mountpoints as follows
 
