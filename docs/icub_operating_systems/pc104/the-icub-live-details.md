@@ -214,8 +214,8 @@ The mount.list file used by the mount script is as follows
 ```
 # Source Dest_mountpoint FS_type options
 # (please do not use blank spaces)
-10.0.0.1:/exports/code /usr/local/src/robot nfs _netdev,auto 0 0
-10.0.0.1:/exports/local_yarp /home/icub/.local/share/yarp nfs  _netdev,auto 0 0
+10.0.0.1:/exports/code /usr/local/src/robot nfs _netdev,auto
+10.0.0.1:/exports/local_yarp /home/icub/.local/share/yarp nfs  _netdev,auto
 ```
 
 # Kernel modules
@@ -275,8 +275,8 @@ STARTUP_DISABLED='yes'
 # NFS configuration
 we mount the following two remote NFS shares from icub-srv
 ```
-10.0.0.1:/exports/code /usr/local/src/robot nfs _netdev,auto  0 0
-10.0.0.1:/exports/local_yarp /home/icub/.local/share/yarp nfs  _netdev,auto  0 0
+10.0.0.1:/exports/code /usr/local/src/robot nfs _netdev,auto  
+10.0.0.1:/exports/local_yarp /home/icub/.local/share/yarp nfs  _netdev,auto
 ```
 
 So, the startup script is use to try to mount those shares, see `/etc/rc_iCub.d/s90_mount-remote-fs.sh`
