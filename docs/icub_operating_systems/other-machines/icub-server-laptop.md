@@ -119,14 +119,14 @@ yarpserver
 ```
 
 The namespace needs to be set up only once; the default namespace is `/root`, but `/icub` (or similar names)
-tends to be a better choice as it enforces a policy for connecting to the robot network.  
+tends to be a better choice as it enforces a policy for connecting to the robot network.
 
 Analougously, on all the other machines connected to the iCub network running the YARP infrastructure,
 one needs to do the following:
 
 ```
 yarp namespace /icub
-yarp detect --write 
+yarp detect --write
 ```
 
 The commands above allow a machine to talk to the YARP server.
@@ -139,7 +139,7 @@ yarp conf ip socketport
 
 where `ip` is the IP address of the iCub Console Server and `socketport` is the port retained by the YARP server (usually, `10000`).
 
-To find out more on the YARP CLI, refer to the [YARP official documentation](http://yarp.it/latest/yarp.html). 
+To find out more on the YARP CLI, refer to the [YARP official documentation](http://yarp.it/latest/yarp.html).
 
 # Install the ssh keys for password-less login on icub-head
 
@@ -217,10 +217,8 @@ In general it is a good idea if all the machines on the iCub network have synchr
 
 # Tweaks
 
-## How to change the network card used to connect to the robot
+## How to change the network card used to connect to the robot (aka INTERNAL network)
 This section explains how to change the network card used to connect the laptop to the robot, eg. if you need to replace the internal one with an ETH2USB adapter.
-
-The instruction below can be easily adapted if you need to change the External (Wireless) network connection.
 
 ### Note
 If you are replacing the network card with an ETH2USB adapter this procedure must be executed any time you use a new adapter, in other words if you replace the adapter with a different one, this procedure must be executed again.
@@ -238,6 +236,9 @@ This will return a line each ethernet connection available, eg:
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
     link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+3: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master main-bond state DOWN mode DORMANT group default qlen 1000
+    link/ether 6a:7f:5b:a6:7e:5e brd ff:ff:ff:ff:ff:ff
+
 ```
 
 then add the new ethernet card, issue the command `ip link` and check the differences, eg:
@@ -247,11 +248,13 @@ then add the new ethernet card, issue the command `ip link` and check the differ
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
     link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
-3: enx3c8cf8fba684: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
+3: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master main-bond state DOWN mode DORMANT group default qlen 1000
+    link/ether 6a:7f:5b:a6:7e:5e brd ff:ff:ff:ff:ff:ff
+4: enx3c8cf8fba684: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
     link/ether 3c:8c:f8:fb:a6:84 brd ff:ff:ff:ff:ff:ff
 ```
 
-In the above example, the new ethernet card name is **enx3c8cf8fba684**
+In the above example, the new ethernet card name is **enx3c8cf8fba684** and the one to replace is **eth0**
 
 ### 2. Update the IP Table rules
 Edit the file `/etc/iptables/rules.v4` by replacing the old internal network name (in this example `eth0`) with the new one (in this example `enx3c8cf8fba684`). It can be a good idea to _comment the old lines and add new ones with updated parameters_, eg:
@@ -273,6 +276,69 @@ COMMIT
 :POSTROUTING ACCEPT [0:0]
 #-A POSTROUTING -o eth0 -j MASQUERADE
 -A POSTROUTING -o enx3c8cf8fba684 -j MASQUERADE
+COMMIT
+# Completed on Mon Nov 11 13:58:02 2019
+```
+
+### 3. Reboot the laptop
+
+## How to change the network card used to connect to internet (aka EXTERNAL network)
+This section explains how to change the network card used to connect the laptop to the external word (_internet_), usually a wifi, eg. if you need to replace the wifi with an ETH2USB adapter (cabled).
+
+### Note
+If you are replacing the network connection with an ETH2USB adapter this procedure must be executed any time you use a new adapter, in other words if you replace the adapter with a different one, this procedure must be executed again.
+
+### 1. Take note of the new network interface name
+The first thing is to know which is the name that the system has assigne to the new interface.
+Before adding the new interface, please issue this command:
+
+`ip link`
+
+This will return a line each ethernet connection available, eg:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+3: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master main-bond state DOWN mode DORMANT group default qlen 1000
+    link/ether 6a:7f:5b:a6:7e:5e brd ff:ff:ff:ff:ff:ff
+```
+
+then add the new ethernet card, issue the command `ip link` and check the differences, eg:
+
+```
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether d8:9e:f3:0d:3b:af brd ff:ff:ff:ff:ff:ff
+3: wlan0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc mq master main-bond state DOWN mode DORMANT group default qlen 1000
+    link/ether 6a:7f:5b:a6:7e:5e brd ff:ff:ff:ff:ff:ff
+4: enx3c8cf8fba684: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN mode DEFAULT group default qlen 1000
+    link/ether 3c:8c:f8:fb:a6:84 brd ff:ff:ff:ff:ff:ff
+```
+
+In the above example, the new ethernet card name is **enx3c8cf8fba684** and the one to replace is **wlan0**
+
+### 2. Update the IP Table rules
+Edit the file `/etc/iptables/rules.v4` by replacing the wifi network name (in this example `wlan0`) with the new one (in this example `enx3c8cf8fba684`). It can be a good idea to _comment the old lines and add new ones with updated parameters_, eg:
+```
+# Generated by iptables-save v1.6.1 on Mon Nov 11 13:58:02 2019
+*filter
+:INPUT ACCEPT [48:2917]
+:FORWARD ACCEPT [8:455]
+:OUTPUT ACCEPT [45:6652]
+#-A FORWARD -i wlan0 -o eth0 -j ACCEPT
+-A FORWARD -i enx3c8cf8fba684 -o eth0 -j ACCEPT
+COMMIT
+# Completed on Mon Nov 11 13:58:02 2019
+# Generated by iptables-save v1.6.1 on Mon Nov 11 13:58:02 2019
+*nat
+:PREROUTING ACCEPT [4:540]
+:INPUT ACCEPT [3:449]
+:OUTPUT ACCEPT [0:0]
+:POSTROUTING ACCEPT [0:0]
+-A POSTROUTING -o eth0 -j MASQUERADE
 COMMIT
 # Completed on Mon Nov 11 13:58:02 2019
 ```
