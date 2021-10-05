@@ -1,11 +1,11 @@
 # ⚙ iCub HW Documentation
 First draft of iCub HW documentation.
 
-### main github hw repos
-- [mcad files](https://github.com/icub-tech-iit/cad-mechanics-public)
-- [mcad libraries files](https://github.com/icub-tech-iit/cad-libraries)
-- [electronics boards](https://github.com/icub-tech-iit/electronics-boards-public)
-- [wiring schematics](https://github.com/icub-tech-iit/electronics-wiring-public)
+### Main HW Repositories
+- [Mechanical CAD Libraries](https://github.com/icub-tech-iit/cad-libraries)
+- [Mechanical CAD](https://github.com/icub-tech-iit/cad-mechanics-public)
+- [Electronics Boards](https://github.com/icub-tech-iit/electronics-boards-public)
+- [Wiring Schematics](https://github.com/icub-tech-iit/electronics-wiring-public)
 
 ## [The iCub Versions Table](./icub_versions/index.md)
 [iCub Versions Table](./icub_versions/index.md) is a table containing the current known iCub versions.
