@@ -66,13 +66,13 @@ The holder has been designed to be compatible with the two following RealSense m
 
 ## Assembly instruction
 
-The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit. <br>
+The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit.
 
 -<center> ![](img/6.PNG) </center>
 
-**Assembly sequence**<br>
+**Assembly sequence**
 
-*Perform the assembly sequence as shown in the following images.*<br>
+*Perform the assembly sequence as shown in the following images.*
 
 - First step, remove the two screws V4-12--_-_U5933_C from the side of the face cover as can be seen in the image. Set them aside, just in case you want to successively unmount the RealSense holder.
 -<center> ![](img/2.PNG) </center>
@@ -85,3 +85,6 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
 -<center> ![](img/4.PNG) </center>
 -<center> ![](img/5.PNG) </center>
+
+## CAlibration of the RealSense Holder
+The software tool used to estimate the extrinsic parameters of the RealSense camera when mounted with the holder with respect to the robot known frames is [`realsense-holder-calibration`](https://github.com/robotology/realsense-holder-calibration). Find therein the relative documentation.
