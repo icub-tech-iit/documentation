@@ -86,6 +86,9 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 -<center> ![](img/4.PNG) </center>
 -<center> ![](img/5.PNG) </center>
 
+## Print the RealSense Holder yourself
+Find the STL and STEP files of the holder's variants within this [repository](assets/realsense_holder.zip). 
+
 ## Calibration of the RealSense Holder
 The software tool used to estimate the extrinsic parameters of the RealSense camera when mounted with the holder with respect to the robot known frames is [`realsense-holder-calibration`](https://github.com/robotology/realsense-holder-calibration).
 
