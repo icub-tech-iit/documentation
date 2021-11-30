@@ -69,7 +69,7 @@ Below you'll find a detailed description of the various robot versions, in parti
 
 Running `FirmwareUpdater -h` you'll be prompted to the list of all available options : 
 
-<img src ="./img/cli-options.png" height = 480px>
+<img src ="../img/cli-options.png" height = 480px>
 
 ## CLI options to change CAN ID and IP address
 Here's described the capability to change : 
@@ -88,7 +88,7 @@ where :
 - `-g -e SOCKETCAN -i 0 -c 0` is need to use a `SOCKETCAN` device (i.e. `ESD CAN/USB`) with `ID=0` and `canline=0`
 - `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
 
-<img src ="./img/canId-socketcan.gif" height = 480px>
+<img src ="../img/canId-socketcan.gif" height = 480px>
 
 
 ### Change CAN ID via ETH
@@ -101,7 +101,7 @@ where :
 - `-g -e ETH -i eth1 -t 10.0.1.1 -c 1` is need to use a `ETH` device (i.e. `ems4`) with `ip address = 10.0.1.1` and `canline=1`
 - `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
 
-<img src ="./img/canId-eth.gif" height = 480px>
+<img src ="../img/canId-eth.gif" height = 480px>
 
 
 ### Change IP address of an ETH board
@@ -114,12 +114,12 @@ where :
 - ` -g -e ETH -i eth1` is need to use a `ETH` device (i.e. `ems4`) 
 - `-t 10.0.1.1 -2 10.0.1.2` changes old i`IP address` 10.0.1.1 to 10.0.1.2
 
-<img src ="./img/change-ip-address.gif" height = 480px>
+<img src ="../img/change-ip-address.gif" height = 480px>
 
-## HOW TO USE ETH BOARDS WITH A DIFFERENT IP SUBNET
+## How to use ETH boards with a different IP subnet
 Here is the instruction about using ETH boards with a different subnet from the standard one (10.0.1.X)
 
-### CHANGE IP TO THE BOARD
+### Change IP to the board
 Assuming the board we are going to use have the `10.0.1.1` IP at the moment and want to move to `10.0.2.1`, follow the steps :
 
 1. Run `FirmwareUpdater -a` 
@@ -128,7 +128,7 @@ Assuming the board we are going to use have the `10.0.1.1` IP at the moment and 
 4. Select `Upload Application` and flash the new firmware (`icub-firmware-build` on branch `devel`)
 4. Select `Change IP Address` and input `10.0.2.1`
  
-### CONFIGURE THE SYSTEM
+### Configure the system
 1. Change the IP address of your ETH interface to `10.0.2.104`
 2. Change the `firmwareupdater.ini` file including this line
 ```xml
@@ -197,17 +197,44 @@ ETH "10.0.2.104:3333"
 </params>
 ```
 
-### RUN YARPROBOTINTERFACE
+### Run yarprobotinterace
 Finally, if all operations above went well you're able to run `yarprobotinterface` using the new subnet `10.0.2.X`
 
-### TEST
+### Test
 The software has been compiled also on the Linux machine running `yarprobotinterface` and it works.
 
 Below an example of `yarprobotinterface` running with a gateway set to `10.0.2.104` connected to an `ems4` board with address `10.0.2.1` and an `F/T` sensor (`strain2`) connected to it
 
 
-<img src ="./img/use-different-subnet.png" height = 340px>
+<img src ="../img/use-different-subnet.png" height = 340px>
 
+## Strain2 dedicated CLI Options
+
+The `CLI` options implemented for the strain2 (F/T sensors) are : 
+
+-   `-z` or `--load-dat-file` : Loads the calibration .dat file into  STRAIN2 eeprom (pass the file.dat with -l or --file option)
+```
+example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -z -l calibrationDataSN003.dat
+```
+-   `-w` or `--set-strain-sn <sn>` : Sets the passed serialNumber (i.e. SN001) on STRAIN2
+```
+example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -w SN001
+```
+- `-j` or ``--set-strain-gains`` :  Sets on STRAIN2 default gains to (8,24,24,10,10,24) , adjust the offset and check if some channel saturates
+```
+example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -j
+```
+- `-b` or `--get-canboard-version <saveFile>` :  Gets Bootloader or Application version (<saveFile> must be y or n to save or        not a file containing fw info)
+```
+example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -b y
+```
+- `-u` or `--save-dat-file` : Saves the calibration .dat file from STRAIN2 EEPROM
+```
+example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -u
+```
+
+!!!info
+    **All the example are running on a setup with an `EMS4` board with `IP=10.0.1.1` and a `STRAIN2` board attached to it in the `CAN1` line with `ID=13`**
 
 
 ## Usefull Resources
