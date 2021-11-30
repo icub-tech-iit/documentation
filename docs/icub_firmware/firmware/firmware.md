@@ -64,7 +64,153 @@ For how to operate in this mode please refer to [this](https://github.com/roboto
 ### Robot Versions and Firmware
 Below you'll find a detailed description of the various robot versions, in particular for the `board` type-`id` or `ip address`-`firmware` associations. and the services offered by each board.
 
-### Usefull Resources
+## Command Line Interface (CLI)
+`FirmwareUpdater` provides a CLI with a set of options to do operation via command line.
+
+Running `FirmwareUpdater -h` you'll be prompted to the list of all available options : 
+
+<img src ="./img/cli-options.png" height = 480px>
+
+## CLI options to change CAN ID and IP address
+Here's described the capability to change : 
+
+- CAN board ID via `SOCKETCAN` device
+- CAN board ID via `ETH` device  
+- IP address of an ETH board
+
+### Change CAN ID via SOCKETCAN
+In this example, we change the `CAN ID` on an `mtb` board connected via `SOCKETCAN` from 1 to 2.
+The syntax of the command is the following : 
+```bash
+FirmwareUpdater -g -e SOCKETCAN -i 0 -c 0 -n 1 -k 2
+```
+where : 
+- `-g -e SOCKETCAN -i 0 -c 0` is need to use a `SOCKETCAN` device (i.e. `ESD CAN/USB`) with `ID=0` and `canline=0`
+- `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
+
+<img src ="./img/canId-socketcan.gif" height = 480px>
+
+
+### Change CAN ID via ETH
+In this example, we change the `CAN ID` on an `mtb` board connected via `ETH ` through an `ems4` board w/ `IP address = 10.0.1.1` from 1 to 2.
+The syntax of the command is the following : 
+```bash
+FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 1 -k 2
+```
+where : 
+- `-g -e ETH -i eth1 -t 10.0.1.1 -c 1` is need to use a `ETH` device (i.e. `ems4`) with `ip address = 10.0.1.1` and `canline=1`
+- `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
+
+<img src ="./img/canId-eth.gif" height = 480px>
+
+
+### Change IP address of an ETH board
+In this example, we change the `IP address on an `ems4` board from `10.0.1.1` to 110.0.1.21.
+The syntax of the command is the following : 
+```bash
+ FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -2 10.0.1.2
+```
+where : 
+- ` -g -e ETH -i eth1` is need to use a `ETH` device (i.e. `ems4`) 
+- `-t 10.0.1.1 -2 10.0.1.2` changes old i`IP address` 10.0.1.1 to 10.0.1.2
+
+<img src ="./img/change-ip-address.gif" height = 480px>
+
+## HOW TO USE ETH BOARDS WITH A DIFFERENT IP SUBNET
+Here is the instruction about using ETH boards with a different subnet from the standard one (10.0.1.X)
+
+### CHANGE IP TO THE BOARD
+Assuming the board we are going to use have the `10.0.1.1` IP at the moment and want to move to `10.0.2.1`, follow the steps :
+
+1. Run `FirmwareUpdater -a` 
+2. Select the eth interface and then `Discover`
+3. Select the board and then ` Force ETH Maintenance`
+4. Select `Upload Application` and flash the new firmware (`icub-firmware-build` on branch `devel`)
+4. Select `Change IP Address` and input `10.0.2.1`
+ 
+### CONFIGURE THE SYSTEM
+1. Change the IP address of your ETH interface to `10.0.2.104`
+2. Change the `firmwareupdater.ini` file including this line
+```xml
+ETH "10.0.2.104:3333"
+```
+3. Reset the board and check if it is discoverable with the `FirmwareUpdater`
+4. Change the following `xml` files : 
+
+**/hardware/electronics/pc104.xml**
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE params PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
+
+<params xmlns:xi="http://www.w3.org/2001/XInclude" robot="single-ETH-2FOC-motor" build="1">
+
+    <group name="PC104">
+        <param name="PC104IpAddress">           10.0.2.104      </param>
+        <param name="PC104IpPort">              12345           </param>
+        <param name="PC104TXrate">              1               </param> 
+        <param name="PC104RXrate">              5               </param>
+    </group>
+
+</params>
+```
+
+**hardware/electronics/knee-eb10-j0-eln.xml**
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE params PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
+
+<params xmlns:xi="http://www.w3.org/2001/XInclude" robot="single-ETH-2FOC-motor" build="1">
+
+    <xi:include href="./pc104.xml" />
+    
+    <group name="ETH_BOARD">
+   
+        <group name="ETH_BOARD_PROPERTIES">
+            <param name="IpAddress">                10.0.2.1              </param>
+            <param name="IpPort">                   12345                   </param>
+            <param name="Type">                     mc4plus                    </param>
+            <param name="maxSizeRXpacket">          768                     </param>
+            <param name="maxSizeROP">               384                     </param>
+        </group>
+
+        <group name="ETH_BOARD_SETTINGS">
+            <param name="Name">                     "knee-eb10-j0"    </param> 
+            <group name="RUNNINGMODE">
+                <param name="period">                   1000                </param>
+                <param name="maxTimeOfRXactivity">      400                 </param>
+                <param name="maxTimeOfDOactivity">      300                 </param>   
+                <param name="maxTimeOfTXactivity">      300                 </param>                
+                <param name="TXrateOfRegularROPs">      5                   </param> 
+            </group>              
+        </group>                 
+        
+        <group name="ETH_BOARD_ACTIONS">
+            <group name="MONITOR_ITS_PRESENCE">
+                <param name="enabled">                  true                </param> 
+                <param name="timeout">                  0.020               </param> 
+                <param name="periodOfMissingReport">    60.0                </param> 
+            </group>
+        </group>
+
+    </group>  
+    
+</params>
+```
+
+### RUN YARPROBOTINTERFACE
+Finally, if all operations above went well you're able to run `yarprobotinterface` using the new subnet `10.0.2.X`
+
+### TEST
+The software has been compiled also on the Linux machine running `yarprobotinterface` and it works.
+
+Below an example of `yarprobotinterface` running with a gateway set to `10.0.2.104` connected to an `ems4` board with address `10.0.2.1` and an `F/T` sensor (`strain2`) connected to it
+
+
+<img src ="./img/use-different-subnet.png" height = 340px>
+
+
+
+## Usefull Resources
 Below a list of usefull links :
 
 - Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
