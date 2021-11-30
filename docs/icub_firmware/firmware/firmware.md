@@ -120,7 +120,7 @@ where :
 We provide here the instructions to use ETH boards with a subnet different from the standard 10.0.1.X.
 
 ### Change IP to the board
-Assuming the board we are going to use have the `10.0.1.1` IP at the moment and want to move to `10.0.2.1`, follow the steps :
+Let's assume that the board we use has the `10.0.1.1` IP and that we aim to switch to `10.0.2.1`. You ought to follow these steps:
 
 1. Run `FirmwareUpdater -a` 
 2. Select the eth interface and then `Discover`
