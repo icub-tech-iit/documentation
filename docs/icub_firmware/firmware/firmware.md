@@ -111,7 +111,7 @@ The syntax of the command is the following :
  FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -2 10.0.1.2
 ```
 where : 
-- ` -g -e ETH -i eth1` is need to use a `ETH` device (i.e. `ems4`) 
+- ` -g -e ETH -i eth1` is required to use a `ETH` device (i.e. `ems4`) 
 - `-t 10.0.1.1 -2 10.0.1.2` changes old i`IP address` 10.0.1.1 to 10.0.1.2
 
 <img src ="../img/change-ip-address.gif" height = 480px>
