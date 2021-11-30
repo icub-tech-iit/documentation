@@ -98,7 +98,7 @@ The syntax of the command is the following :
 FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 1 -k 2
 ```
 where : 
-- `-g -e ETH -i eth1 -t 10.0.1.1 -c 1` is need to use a `ETH` device (i.e. `ems4`) with `ip address = 10.0.1.1` and `canline=1`
+- `-g -e ETH -i eth1 -t 10.0.1.1 -c 1` is required to use a `ETH` device (i.e. `ems4`) with `ip address = 10.0.1.1` and `canline=1`
 - `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
 
 <img src ="../img/canId-eth.gif" height = 480px>
