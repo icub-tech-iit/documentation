@@ -237,9 +237,8 @@ example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -u
     **All the example are running on a setup with an `EMS4` board with `IP=10.0.1.1` and a `STRAIN2` board attached to it in the `CAN1` line with `ID=13`**
 
 
-## Usefull Resources
-Below a list of usefull links :
-
+## Useful Resources
+Below a list of useful links:
 - Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
 - Firmware [sources](https://github.com/robotology/icub-firmware)
 - Firmware [binaries](https://github.com/robotology/icub-firmware-build)
