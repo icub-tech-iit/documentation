@@ -67,7 +67,7 @@ Below you'll find a detailed description of the various robot versions, in parti
 ## Command Line Interface (CLI)
 `FirmwareUpdater` provides a CLI with a set of options to do operations via the command line.
 
-Running `FirmwareUpdater -h` you'll be prompted to the list of all available options : 
+By running `FirmwareUpdater -h`, you'll be prompted with the list of all available options: 
 
 <img src ="../img/cli-options.png" height = 480px>
 
