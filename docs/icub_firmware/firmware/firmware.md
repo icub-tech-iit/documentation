@@ -203,7 +203,7 @@ Finally, if all the operations above came off, you're then able to run `yarprobo
 ### Test
 The software has been compiled also on the Linux machine running `yarprobotinterface` and it works.
 
-Below an example of `yarprobotinterface` running with a gateway set to `10.0.2.104` connected to an `ems4` board with address `10.0.2.1` and an `F/T` sensor (`strain2`) connected to it
+See below an example of `yarprobotinterface` running with a gateway set to `10.0.2.104` connected to an `ems4` board with address `10.0.2.1` and an `F/T` sensor (`strain2`) connected to it.
 
 
 <img src ="../img/use-different-subnet.png" height = 340px>
