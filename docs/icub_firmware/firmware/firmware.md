@@ -72,7 +72,7 @@ By running `FirmwareUpdater -h`, you'll be prompted with the list of all availab
 <img src ="../img/cli-options.png" height = 480px>
 
 ## CLI options to change CAN ID and IP address
-Here's described the capability to change : 
+Here's below a summary of the CLI functionalities: 
 
 - CAN board ID via `SOCKETCAN` device
 - CAN board ID via `ETH` device  
