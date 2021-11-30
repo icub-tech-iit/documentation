@@ -198,7 +198,7 @@ ETH "10.0.2.104:3333"
 ```
 
 ### Run yarprobotinterace
-Finally, if all operations above went well you're able to run `yarprobotinterface` using the new subnet `10.0.2.X`
+Finally, if all the operations above came off, you're then able to run `yarprobotinterface` using the new subnet `10.0.2.X`.
 
 ### Test
 The software has been compiled also on the Linux machine running `yarprobotinterface` and it works.
