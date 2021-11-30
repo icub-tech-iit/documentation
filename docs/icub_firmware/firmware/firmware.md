@@ -85,7 +85,7 @@ The syntax of the command is the following :
 FirmwareUpdater -g -e SOCKETCAN -i 0 -c 0 -n 1 -k 2
 ```
 where : 
-- `-g -e SOCKETCAN -i 0 -c 0` is need to use a `SOCKETCAN` device (i.e. `ESD CAN/USB`) with `ID=0` and `canline=0`
+- `-g -e SOCKETCAN -i 0 -c 0` is required to use a `SOCKETCAN` device (i.e. `ESD CAN/USB`) with `ID=0` and `canline=0`
 - `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
 
 <img src ="../img/canId-socketcan.gif" height = 480px>
