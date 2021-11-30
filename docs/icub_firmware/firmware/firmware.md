@@ -117,7 +117,7 @@ where :
 <img src ="../img/change-ip-address.gif" height = 480px>
 
 ## How to use ETH boards with a different IP subnet
-Here is the instruction about using ETH boards with a different subnet from the standard one (10.0.1.X)
+We provide here the instructions to use ETH boards with a subnet different from the standard 10.0.1.X.
 
 ### Change IP to the board
 Assuming the board we are going to use have the `10.0.1.1` IP at the moment and want to move to `10.0.2.1`, follow the steps :
