@@ -65,7 +65,7 @@ For how to operate in this mode please refer to [this](https://github.com/roboto
 Below you'll find a detailed description of the various robot versions, in particular for the `board` type-`id` or `ip address`-`firmware` associations. and the services offered by each board.
 
 ## Command Line Interface (CLI)
-`FirmwareUpdater` provides a CLI with a set of options to do operation via command line.
+`FirmwareUpdater` provides a CLI with a set of options to do operations via the command line.
 
 Running `FirmwareUpdater -h` you'll be prompted to the list of all available options : 
 
