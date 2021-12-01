@@ -130,6 +130,20 @@ If for some reason it insn't enough, the calibration fails.
 |`calibrationDelta`| defined by user expressed in degree|
 
 
+### Calibration 10
+This calibration is used for joint with relative encoders, that are calibrated by moving against hard stop limit. It is used for example in R1 lower arm pronosupination and in iCub 3 lower body when AMO sensors are used as relative encoders.
+
+|   |   |
+|---|---|
+|`Calibration type`| 10|
+|`calibration1`| PWM used to move to hard stop limit|
+|`calibration2`| not used|
+|`calibration3`| not used|
+|`calibration4`| not used|
+|`calibration5`| not used|
+|`calibrationZero`| position (in degrees) at the hard stop limit|
+|`calibrationDelta`| defined by user expressed in degree|
+
 ### Calibration 12
 This calibration is used for joint with absolute encoder, it is the newest version of calibration 3 and it simplifies the calibration procedure for the user; in fact the user needs only to write in calibration1 parameter the raw value read when jont is in 0.0 position and the firmware calculates the correct offset.
 
