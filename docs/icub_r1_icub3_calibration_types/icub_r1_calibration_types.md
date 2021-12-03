@@ -110,11 +110,11 @@ This calibration is used for joint with absolute analog sensor. On iCub robot, t
 ### Calibration 8, 9
 Calibration `type 8` and `type 9` are similar since they are used in R1 tripod joints, which are actuated by linear actuators with incremental encoders. 
 
-They are both hard stop calibrations, but the difference is that `type 8` calibration (wrist) makes use of limit switches readable by the `MC4+` control board, while the torso tripod linear actuators (`type 9`) have limit switches as well, but they aren't readable by the control board. 
+They are both hard-stop calibrations, but the difference is that `type 8` calibration (wrist) makes use of limit switches readable by the `MC4+` control board, while the torso tripod linear actuators (`type 9`) have limit switches as well, but they aren't readable by the control board. 
 
-So, when the motor stops during the calibration, it is assumed that the hard stop is reached.
+So, when the motor stops during the calibration, it is assumed that the hard-stop is reached.
 
-In both `type 8` and `type 9` hard stop calibration a counter reaction mechanism prevents some joints to move much farther than others in order to prevent damages to the structure.
+In both `type 8` and `type 9` hard-stop calibration a counter reaction mechanism prevents some joints to move much farther than others in order to prevent damages to the structure.
 So a joint is slowed down if it is going faster than the others. 
 If for some reason it insn't enough, the calibration fails.
 
@@ -138,12 +138,12 @@ Regarding iCub 3 and the AMO boards, the AMO magnetic target is subdivided into 
 |   |   |
 |---|---|
 |`Calibration type`| 10|
-|`calibration1`| PWM used to move to hard stop limit|
+|`calibration1`| PWM used to move to hard-stop limit|
 |`calibration2`| not used|
 |`calibration3`| not used|
 |`calibration4`| not used|
 |`calibration5`| not used|
-|`calibrationZero`| position (in degrees) at the hard stop limit|
+|`calibrationZero`| position (in degrees) at the hard-stop limit|
 |`calibrationDelta`| defined by user expressed in degree|
 
 ### Calibration 12
