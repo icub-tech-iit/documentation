@@ -14,6 +14,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y python3-wheel python3-setuptools
+          pip3 install --upgrade Jinja2
           pip3 install --user mkdocs mkdocs-material pymdown-extensions
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
         
