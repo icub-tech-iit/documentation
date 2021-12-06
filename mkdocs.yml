@@ -18,7 +18,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.tracking
     - navigation.sections
-    - navigation.indexes
     - navigation.top
   icon:
     logo: material/robot
