@@ -324,7 +324,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |   |   |
 |---|---|
 |![lower-13](./img/lower-13.png) |![lower-14](./img/lower-14.png) |
-|Motor type|MOOG_C2900575 Moog BLDC motor, OD 49.2, ID 15.5, L 17.7 , W/O HALL SENSOR|
+|Motor type|MOOG_C2900576 Moog BLDC motor, OD 49.2, ID 15.5, L 24.7 , W/O HALL SENSOR|
 |Fast shaft sensor|Lcore 5 – optical disk 004|
 |Slow shaft sensor drive|AMO board  - magnetic Encoder  (MU7S_25-32N)|
 |Harmonic drive|CSD-17-160-2A_FS (1:160)|
