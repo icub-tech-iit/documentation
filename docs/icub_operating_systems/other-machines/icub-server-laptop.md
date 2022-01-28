@@ -156,6 +156,12 @@ Upload this key file to icub-head
 ssh-copy-id -i /home/icub/.ssh/id_rsa.pub icub@icub-head
 ```
 
+You have to create a ssh connection also between icubsrv and icubsrv itself in order to let yarp run as server automatically through yarpmanager:
+
+```
+ssh-copy-id -i /home/icub/.ssh/id_rsa.pub icub@icubsrv
+```
+
 ## Other configurations
 
 ## IP forwarding and NAT
