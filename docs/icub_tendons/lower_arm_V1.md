@@ -121,11 +121,19 @@ Here you can find the procedure for the cabling of the motor side - responsible 
 
 | Pictures                                           | Steb by step guide                                           |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| <img src ="../img/hand/Motor_ball.png">            | Take one meter of cable IITCODE 1815 and start cabling along the pulley with cage already on:<br/>   - 1 turn around the pulley for the motor side<br/>   - 3 turns around pulley for the ball bearing side </br> Make sure that the cables goes out of the pulley from both holes tangentially to the pulley. |
-| <img src ='../img/hand/avvolgimento motore_1.jpg' width = 400>| <img src ='../img/hand/avvolgimento motore_2.jpg' width = 400> | <img src ='..img/hand/avvolgimento motore_3.jpg' width = 400>|
-|                                                    | Insert the sheaths 0+S (ball bearing side) and 0-S (motor side). |
-| <img src ="../img/hand/0-S_H5.png">                | Assembly the motor passing the cable with 0-S sheath in the Ergal part - central hole, hand side (H5). |
-| <img src ="../img/hand/0+S_H4.png">                | Pass the cable with the 0+L sheath through the two motors under the slider, put a tensioner and the 0+S sheath and pass through the central hole of the Ergal part (cable should get out from H4), elbow side. </br> At that moment the 2 sides of the cable get out, one from H4 and other side out of the Ergal part H5. |
+| <img src ="../img/hand/descrizione_motore_1.jpg" width = 500> | Take one meter of cable IITCODE 1815 and start cabling along the pulley with cage already on:<br/>   - 1 turn around the pulley for the motor side<br/>   - 3 turns around pulley for the ball bearing side </br> -4 Make sure that the cables goes out of the pulley from both holes tangentially to the pulley <br/>     ///   <img src ="../img/hand/viti motore.jpg" width = 450> |
+
+##### 
+| 1 | 2   | 3                                                 |
+| ------- | -------- | ------------------------------------------------------------ |
+|  <img src ='../img/hand/avvolgimento motore_1.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_2.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_3.jpg' width = 400> |
+
+
+|                                         |                                          |
+|  |  |
+|                                                    | Insert the 1815 cable in the sheaths 0+S (ball bearing side) and 0-S (motor side). |
+| <img src ="../img/hand/avvolgimento motore con guaine.jpg" width = 500>                | The blue one is 0-S sheath and the red one is 0+S. |
+| <img src ="../img/hand/motore nella sua sede.jpg" width = 500>                | Now you have to put back the motor in your site. |
 | <img src ="../img/hand/H6_H7.png">                 | Now pass the cables inside the slider superior and inferior holes: from H5 to H7 and from H4 to H6. |
 | <img src ="../img/hand/Knot1.png">                 | Keeping straight the fingers with the piece of about 6 mm thickness inserted, tension the (0+S) cable and mark it with a pen, afterwards pull the slider backwards (the finger getting closed) and make a knot where there is the pen mark. |
 | <img src ="../img/hand/Knot2.png">                 | Close the fingers (electrically) with the motor providing +/- 5.5 Volt and make the knot nearer than possible to the slider. |
