@@ -117,22 +117,6 @@ The 2 fingers are so actuated by 3 wires - 2 for the distal cables inside the fi
 ##### 2.2.5a Cabling for the fingers
 
 
-
-
-| Pictures | step by step guide       |
-| ------------ | ---------- |
-| | 1. Prepare 2 cables of 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
-| <img src ="../img/lowerArm/R&P_V1.png" width= 600> | 2.  The starting points of the cabling are the 2 holes of the slider |
-| <img src ="../img/lowerArm/R_P_st_pt.png" width=400> | 3 .pass both cables inside the parallel holes |
-| <img src ="../img/lowerArm/P_R.png" width= 300> | 4. the exit of both cables is at the base of the phalange |
-| <img src ="../img/lowerArm/R_P_cabling.png" width=800> | 5. cable routing (same rules as other fingers). <br />To be able to pass the cable at the base of the nail it is important to create space by removing the nail (plastic cover) and moving forward the fingertip for 1 cm from its base. |
-| | 6. please write with a marker at the base of the nails where the knot should be in order to have a perfect synchronous closing for both fingers. |
-| |7. Now close manually the 2 fingers to get some slack to the cable and pull it out a bit to see where you should create the knot - at the very end of the mark on the cable.|
-| | 8. If you did good, when releasing the fingers they should be symmetrical |
-| |**FINISHED!!!**|
-
-##### 2.2.5b Cabling for the motor side
-
 Here you can find the procedure for the cabling of the motor side - responsible for the slider movement:
 
 | Pictures                                           | Steb by step guide                                           |
@@ -147,6 +131,21 @@ Here you can find the procedure for the cabling of the motor side - responsible 
 | <img src ="../img/hand/Knot2.png">                 | Close the fingers (electrically) with the motor providing +/- 5.5 Volt and make the knot nearer than possible to the slider. |
 
 
+
+##### 2.2.5b Cabling for the motor side
+
+
+| Pictures | step by step guide       |
+| ------------ | ---------- |
+| | 1. Prepare 2 cables of 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
+| <img src ="../img/lowerArm/R&P_V1.png" width= 600> | 2.  The starting points of the cabling are the 2 holes of the slider |
+| <img src ="../img/lowerArm/R_P_st_pt.png" width=400> | 3 .pass both cables inside the parallel holes |
+| <img src ="../img/lowerArm/P_R.png" width= 300> | 4. the exit of both cables is at the base of the phalange |
+| <img src ="../img/lowerArm/R_P_cabling.png" width=800> | 5. cable routing (same rules as other fingers). <br />To be able to pass the cable at the base of the nail it is important to create space by removing the nail (plastic cover) and moving forward the fingertip for 1 cm from its base. |
+| | 6. please write with a marker at the base of the nails where the knot should be in order to have a perfect synchronous closing for both fingers. |
+| |7. Now close manually the 2 fingers to get some slack to the cable and pull it out a bit to see where you should create the knot - at the very end of the mark on the cable.|
+| | 8. If you did good, when releasing the fingers they should be symmetrical |
+| |**FINISHED!!!**|
 
 
 
