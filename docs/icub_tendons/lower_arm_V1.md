@@ -121,26 +121,27 @@ Here you can find the procedure for the cabling of the motor side - responsible 
 
 | Pictures                                           | Steb by step guide                                           |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-| <img src ="../img/hand/descrizione_motore_1.jpg" width = 500> | Take one meter of cable IITCODE 1815 and start cabling along the pulley with cage already on:<br/>   - 1 turn around the pulley for the motor side<br/>   - 3 turns around pulley for the ball bearing side </br> -4 Make sure that the cables goes out of the pulley from both holes tangentially to the pulley <br/>       <img src ="../img/hand/viti motore.jpg" width = 450> |
+|Take one meter of cable IITCODE 1815 and start cabling along the pulley with cage already on:<br/>   - 1 turn around the pulley for the motor side<br/>   - 3 turns around pulley for the ball bearing side </br> -4 Make sure that the cables goes out of the pulley from both holes tangentially to the pulley <br/>|
+
+ <img src ="../img/hand/descrizione_motore_1.jpg" width = 500>  <img src ="../img/hand/viti motore.jpg" width = 450> Identify the motor and remove the screws
 
  
-| 1 | 2   | 3                                                 |
+| 1       | 2        | 3        |
 | ------- | -------- | ------------------------------------------------------------ |
 |  <img src ='../img/hand/avvolgimento motore_1.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_2.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_3.jpg' width = 400> |
 
 
 |                                         |                                          |
-|  |  |
-|                                                    | Insert the 1815 cable in the sheaths 0+S (ball bearing side) and 0-S (motor side). |
-| <img src ="../img/hand/avvolgimento motore con guaine.jpg" width = 500>  | The blue one is 0-S sheath and the red one is 0+S. |
+|                                         |                                          |                                       
+| <img src ="../img/hand/avvolgimento motore con guaine.jpg" width = 500>  | Insert the 1815 cable in the sheaths 0+S (ball bearing side) and 0-S (motor side). The blue one is 0-S sheath and the red one is 0+S. |
 | <img src ="../img/hand/motore nella sua sede.jpg" width = 500>           | Now you have to put back the motor in your site. |
 | <img src ="../img/hand/Knot2.png"  width = 500>                          | Pass the 0+ and 0- cables through the guide holes as described in the image
 | 
 | <img src ="../img/hand/dettaglio passaggio 0-0- slitta.jpg" width = 500> | Detail of 0- cable passage.
 | <img src ="../img/hand/Fig_4-41bis.PNG" width=700>                       | Put an about 6 mm thickness piece in between the slider and the Ergal part (yellow). |
-| <img src ="../img/hand/dettaglio cavi da marcare.jpg" width = 500>       |
-| <img src ="../img/lowerArm/tirare cavi proma di marcare.jpg" width = 500>| pull the cables that have been passed through the sled. |
-| <img src ="../img/lowerArm/ingrandimento cavi da marcare.jpg">           | mark the exit point of the cables from the slide with a felt-tip pen, keeping the cables under tension. The marked points will indicate the exact position of the cable retention node,for this reason it is necessary to mark them as close as possible to the outlet holes of the slide. |
+| <img src ="../img/hand/dettaglio cavi da marcare.jpg" width = 500>       | Detail of the slide in position 0 with the cables 0+ and 0- passed through the holes.
+| <img src ="../img/lowerArm/tirare cavi proma di marcare.jpg" width = 500>| Pull the cables that have been passed through the sled. |
+| <img src ="../img/lowerArm/ingrandimento cavi da marcare.jpg">           | Mark the exit point of the cables from the slide with a felt-tip pen, keeping the cables under tension. The marked points will indicate the exact position of the cable retention node,for this reason it is necessary to mark them as close as possible to the outlet holes of the slide. |
 
 |                                         |                                       |                                                 |
 | ----------------------------------------| --------------------------------------| ----------------------------------------------- |
