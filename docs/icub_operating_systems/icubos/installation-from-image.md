@@ -58,8 +58,8 @@ Please, note that the instructions below refers to the lastest clonezilla releas
 4. select the `Start_clonezilla` option
 5. select the `device-image` option
 6. select the `local_dev` option
-7. remove the USB drive with Clonezilla live form the USB hub
-8. ensure that the USB with the disk image is connected to the USB hub
+7. do **NOT** remove the USB drive with Clonezilla live form the USB hub
+8. connect the USB with the disk image to the USB hub
 9. wait for the USB drive (as in step 8) is shown and press `CTRL-C`
 10. select the correct drive and partition for the USB drive (as in step 8) (usually partition is n.1)
 

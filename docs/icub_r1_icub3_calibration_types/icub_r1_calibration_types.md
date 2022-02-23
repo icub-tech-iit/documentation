@@ -110,11 +110,11 @@ This calibration is used for joint with absolute analog sensor. On iCub robot, t
 ### Calibration 8, 9
 Calibration `type 8` and `type 9` are similar since they are used in R1 tripod joints, which are actuated by linear actuators with incremental encoders. 
 
-They are both hard stop calibrations, but the difference is that `type 8` calibration (wrist) makes use of limit switches readable by the `MC4+` control board, while the torso tripod linear actuators (`type 9`) have limit switches as well, but they aren't readable by the control board. 
+They are both hard-stop calibrations, but the difference is that `type 8` calibration (wrist) makes use of limit switches readable by the `MC4+` control board, while the torso tripod linear actuators (`type 9`) have limit switches as well, but they aren't readable by the control board. 
 
-So, when the motor stops during the calibration, it is assumed that the hard stop is reached.
+So, when the motor stops during the calibration, it is assumed that the hard-stop is reached.
 
-In both `type 8` and `type 9` hard stop calibration a counter reaction mechanism prevents some joints to move much farther than others in order to prevent damages to the structure.
+In both `type 8` and `type 9` hard-stop calibration a counter reaction mechanism prevents some joints to move much farther than others in order to prevent damages to the structure.
 So a joint is slowed down if it is going faster than the others. 
 If for some reason it insn't enough, the calibration fails.
 
@@ -129,6 +129,22 @@ If for some reason it insn't enough, the calibration fails.
 |`calibrationZero`| 0.0 (only value corrected)|
 |`calibrationDelta`| defined by user expressed in degree|
 
+
+### Calibration 10
+This calibration is used for joints with relative encoders, which are calibrated by moving against the hard-stop limit. It is used for example in R1 lower arm pronosupination and in iCub 3 lower body when AMO sensors are used as relative encoders.
+
+Regarding iCub 3 and the AMO boards, the AMO magnetic target is subdivided into 64 or 32 sectors. The AMO sensor provides a 14-bit resolution per sector, for a total of 14+6=20 or 14+5=19 bits per revolution resolution, respectively. The `Gearbox_E2J` parameter must be configured with the number of sectors in the corresponding `mechanicals/part-mec.xml` file.
+
+|   |   |
+|---|---|
+|`Calibration type`| 10|
+|`calibration1`| PWM used to move to hard-stop limit|
+|`calibration2`| not used|
+|`calibration3`| not used|
+|`calibration4`| not used|
+|`calibration5`| not used|
+|`calibrationZero`| position (in degrees) at the hard-stop limit|
+|`calibrationDelta`| defined by user expressed in degree|
 
 ### Calibration 12
 This calibration is used for joint with absolute encoder, it is the newest version of calibration 3 and it simplifies the calibration procedure for the user; in fact the user needs only to write in calibration1 parameter the raw value read when jont is in 0.0 position and the firmware calculates the correct offset.
