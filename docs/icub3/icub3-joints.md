@@ -112,7 +112,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Motor Encoder|Lcore optical encoder on motor shaft|
 |Harmonic drive|1/100|
 |Joint encoder|Magnetic target 64/63 & AMO board (MU7S_64-63N PWB 103839)|
-|HW limits|-5/+100 (degrees)|
+|HW limits|-25/+180 (degrees)|
 
 ### Joint 2 - shoulder roll
 |   |   |
