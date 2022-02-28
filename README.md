@@ -7,9 +7,9 @@ iCub Tech Docs
 
 🌐 Browse our [online documentation](https://icub-tech-iit.github.io/documentation).
 
-This is an attempt to make available to the community useful information that are not present or easily accessible through our [official documentation](http://wiki.icub.org/wiki/Main_Page). Thus, at the time being, it is intended to be an ever-growing container that supports and integrates with the official resources.
+This is an attempt to make available to the community useful information that are not present or easily accessible through our [official documentation](http://wiki.icub.eu/wiki/Main_Page). Thus, at the time being, it is intended to be an ever-growing container that supports and integrates with the official resources.
 
-📝 Importantly, you can contribute to these docs by fixing typos and proposing new additions (see below). 
+📝 Importantly, you can contribute to these docs by fixing typos and proposing new additions (see below).
 
 # Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
@@ -24,7 +24,7 @@ This repository is maintained by:
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
-## 🔘 [Gitpod](https://www.gitpod.io) 
+## 🔘 [Gitpod](https://www.gitpod.io)
 First off, sign up for Gitpod using your GitHub credentials. You'll have 50 hours/month of free usage on public repositories. Also, remember to visit the [Gitpod Integrations](https://gitpod.io/integrations) to make sure that all GitHub options are ticked in.
 
 Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-extension).
@@ -49,8 +49,8 @@ Thus, follow the steps below, where you have to correctly fill up the signature 
 # 🔽 Local Workflow
 
 ## 💻 Install the environment yourself
-If you prefer to work on the documentation on your own computer without using Cloud IDEs as described in the previous section, 
-you need to install the following software packages: 
+If you prefer to work on the documentation on your own computer without using Cloud IDEs as described in the previous section,
+you need to install the following software packages:
 * [mkdocs](https://www.mkdocs.org/)
 * [mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 * [mkdocs-material-extensions](https://pypi.org/project/mkdocs-material-extensions/)

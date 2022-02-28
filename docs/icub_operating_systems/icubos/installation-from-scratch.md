@@ -77,9 +77,9 @@ sudo systemctl disable gdm
 
 2. Edit as follows
   ```
-  deb http://www.icub.org/ubuntu focal contrib/science
+  deb http://www.icub.eu/ubuntu focal contrib/science
   ```
-  Where you can substitute `focal` with the codename of the distribution that you are using. 
+  Where you can substitute `focal` with the codename of the distribution that you are using.
 
 3. Import the icub SSH key
   ```

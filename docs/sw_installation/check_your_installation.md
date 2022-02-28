@@ -111,4 +111,4 @@ during a simple experiment. Follow the instructions here [http://www.yarp.it/gro
 "datasetplayer-example.jpg")
 
 ## Tutorials
-Now you are ready to try our tutorials available at [http://www.icub.org/doc/icub-main/icub_tutorials.html](http://www.icub.org/doc/icub-main/icub_tutorials.html).
+Now you are ready to try our tutorials available at [http://www.icub.eu/doc/icub-main/icub_tutorials.html](http://www.icub.eu/doc/icub-main/icub_tutorials.html).
