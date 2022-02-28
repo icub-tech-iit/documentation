@@ -62,11 +62,11 @@ Configure the iCub software repository, by creating the file `/etc/apt/sources.l
 
 -   for a Debian 10 (Buster) machine :
 
-`deb http://www.icub.org/debian buster contrib/science`
+`deb http://www.icub.eu/debian buster contrib/science`
 
 -   for a Ubuntu 20.04 LTS (Focal) machine :
 
-`deb http://www.icub.org/ubuntu focal contrib/science`
+`deb http://www.icub.eu/ubuntu focal contrib/science`
 
 Download the packages signature
 
