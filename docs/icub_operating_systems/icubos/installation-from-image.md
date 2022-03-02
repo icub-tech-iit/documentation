@@ -67,10 +67,12 @@ Please, note that the instructions below refers to the lastest clonezilla releas
 
 Power down the icub-head and unplug the USB hub, then restart.
 
-## Customize the system
+## Customize and update the system
 
 What you need now to do is to customize the installation with your hardware and enviroment; in particular, see the "_Required configuration_" section in [_Networking_](networking.md).
 
+After you correctly set up your network, it is necessary to update the system by entering in a terminal `sudo apt update` and `sudo apt upgrade`. This will update all packages and tools needed later to compile the superbuild.
+
 If you need to connect the icub-head to any Bluetooth device, please check the steps described in [_Bluetooth_](bluetooth.md).
 
-After you correctly set up your network, you can proceed with installing the required YARP and iCub software by following the guide on [Superbuild installation on icub-head](../../sw_installation/icub_head_superbuild.md).
+Now you can proceed with installing the required YARP and iCub software by following the guide on [Superbuild installation on icub-head](../../sw_installation/icub_head_superbuild.md).
