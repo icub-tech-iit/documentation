@@ -8,10 +8,10 @@ We provide binaries apt binary packages for the software contained in the [`ycm`
 
 ### Setting up your source list
 
-Add `www.icub.org` to your `sources.list`. Below, replace `ubuntu` with `debian`, depending on your system.
+Add `www.icub.eu` to your `sources.list`. Below, replace `ubuntu` with `debian`, depending on your system.
 
 ~~~
-sudo sh -c 'echo "deb http://www.icub.org/ubuntu `lsb_release -cs` contrib/science" > /etc/apt/sources.list.d/icub.list'
+sudo sh -c 'echo "deb http://www.icub.eu/ubuntu `lsb_release -cs` contrib/science" > /etc/apt/sources.list.d/icub.list'
 sudo apt update
 ~~~
 
