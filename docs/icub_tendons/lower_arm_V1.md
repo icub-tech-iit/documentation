@@ -121,14 +121,15 @@ Here you can find the procedure for the cabling of the motor side - responsible 
 
 | Pictures                                           | Steb by step guide                                           |
 | -------------------------------------------------- | ------------------------------------------------------------ |
-|Take one meter of cable IITCODE 1815 and start cabling along the pulley with cage already on:<br/>   - 1 turn around the pulley for the motor side<br/>   - 3 turns around pulley for the ball bearing side </br> -4 Make sure that the cables goes out of the pulley from both holes tangentially to the pulley <br/>|
+|Take one meter of cable IITCODE 1815 and after removing the broken cable (s) from the mechanism, follow the steps below that show the photos below:<br/>   - 1 img. identify the motor<br/>   - img. 2 unscrew the 2 screws that hold it in place</br> - img. 3 pass the cable 1815 (1m) through the appropriate hole in the motor pulley. <br/> - img. 4-5-6 once the 1815 cable has been passed through the motor, make sure that the final result of the winding is as shown in figure 6.<br/>|
 
- <img src ="../img/hand/descrizione_motore_1.jpg" width = 500>  <img src ="../img/hand/viti motore.jpg" width = 450> Identify the motor and remove the screws
+ 1<img src ="../img/hand/descrizione_motore_1.jpg" width = 500>    <img src ="../img/hand/viti motore.jpg" width = 450> 2
 
  
-| 1       | 2        | 3        |
+| 3       | 4        | 5        |
 | ------- | -------- | ------------------------------------------------------------ |
-|  <img src ='../img/hand/avvolgimento motore_1.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_2.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_3.jpg' width = 400> |
+|  <img src ='../img/hand/avvolgimento motore_1.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_2.jpg' width = 400> | <img src ='../img/lowerArm/avvolgimento motore ring and pinkie V1_1.jpg' width = 450> |
+|  <img src ='../img/lowerArm/start_pinkie_1.png' width = 400>6
 
 
 |                                         |                                          |
