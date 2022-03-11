@@ -123,30 +123,30 @@ Here you can find the procedure for the cabling of the motor side - responsible 
 | -------------------------------------------------- | ------------------------------------------------------------ |
 |Take one meter of cable IITCODE 1815 and after removing the broken cable (s) from the mechanism, follow the steps below that show the photos below:<br/>   - 1 img. identify the motor<br/>   - img. 2 unscrew the 2 screws that hold it in place</br> - img. 3 pass the cable 1815 (1m) through the appropriate hole in the motor pulley. <br/> - img. 4-5-6 once the 1815 cable has been passed through the motor, make sure that the final result of the winding is as shown in figure 6.<br/>|
 
- 1<img src ="../img/hand/descrizione_motore_1.jpg" width = 500>    <img src ="../img/hand/viti motore.jpg" width = 450> 2
+ 1<img src ="../img/hand/motor description_1.jpg" width = 400>    <img src ="../img/hand/motor screws.jpg" width = 400> 2
 
  
 | 3       | 4        | 5        |
 | ------- | -------- | ------------------------------------------------------------ |
-|  <img src ='../img/hand/avvolgimento motore_1.jpg' width = 400> | <img src ='../img/hand/avvolgimento motore_2.jpg' width = 400> | <img src ='../img/lowerArm/avvolgimento motore ring and pinkie V1_1.jpg' width = 450> |
-|  <img src ='../img/lowerArm/start_pinkie_1.png' width = 400>6
+|  <img src ='../img/hand/motor involvement_1.jpg' width = 375> | <img src ='../img/hand/motor involvement_2.jpg' width = 440> | <img src ='../img/lowerArm/involvement ring and pinkie V1_1.jpg' width = 480> |
+|  <img src ='../img/lowerArm/start_pinkie_1.png' width = 435>6
 
 
 |                                         |                                          |
 |                                         |                                          |                                       
-| <img src ="../img/hand/avvolgimento motore con guaine.jpg" width = 500>  | Insert the 1815 cable in the sheaths 0+S (ball bearing side) and 0-S (motor side). The blue one is 0-S sheath and the red one is 0+S. |
-| <img src ="../img/hand/motore nella sua sede.jpg" width = 500>           | Now you have to put back the motor in your site. |
-| <img src ="../img/hand/Knot2.png"  width = 500>                          | Pass the 0+ and 0- cables through the guide holes as described in the image
+| <img src ="../img/hand/motor involvement with sheat.jpg" width = 450>  | Insert the 1815 cable in the sheaths 0+S (ball bearing side) and 0-S (motor side). The blue one is 0-S sheath and the red one is 0+S. |
+| <img src ="../img/hand/motor in your site.jpg" width = 450>            | Now you have to put back the motor in your site. |
+| <img src ="../img/hand/Knot2.png"  width = 450>                          | Pass the 0+ and 0- cables through the guide holes as described in the image
 | 
-| <img src ="../img/hand/dettaglio passaggio 0-0- slitta.jpg" width = 500> | Detail of 0- cable passage.
-| <img src ="../img/hand/Fig_4-41bis.PNG" width=700>                       | Put an about 6 mm thickness piece in between the slider and the Ergal part (yellow). |
-| <img src ="../img/hand/dettaglio cavi da marcare.jpg" width = 500>       | Detail of the slide in position 0 with the cables 0+ and 0- passed through the holes.
-| <img src ="../img/lowerArm/tirare cavi proma di marcare.jpg" width = 500>| Pull the cables that have been passed through the sled. |
-| <img src ="../img/lowerArm/ingrandimento cavi da marcare.jpg">           | Mark the exit point of the cables from the slide with a felt-tip pen, keeping the cables under tension. The marked points will indicate the exact position of the cable retention node,for this reason it is necessary to mark them as close as possible to the outlet holes of the slide. |
+| <img src ="../img/hand/detail slide 0-0-.jpg" width = 450>             | Detail of 0- cable passage.
+| <img src ="../img/hand/Fig_4-41bis.PNG" width=700>                     | Put an about 6 mm thickness piece in between the slider and the Ergal part (yellow). |
+| <img src ="../img/hand/detail cables to mark.jpg" width = 450>         | Detail of the slide in position 0 with the cables 0+ and 0- passed through the holes.
+| <img src ="../img/hand/tight the cables.jpg" width = 450>              | Pull the cables that have been passed through the sled. |
+| <img src ="../img/lowerArm/detail of cables to mark.jpg">              | Mark the exit point of the cables from the slide with a felt-tip pen, keeping the cables under tension. The marked points will indicate the exact position of the cable retention node,for this reason it is necessary to mark them as close as possible to the outlet holes of the slide. |
 
 |                                         |                                       |                                                 |
 | ----------------------------------------| --------------------------------------| ----------------------------------------------- |
-| <img src ="../img/lowerArm/nodo 0+ con segno .jpg" width = 700> | <img src ="../img/lowerArm/dettaglio nodo 0+.jpg" width = 700> | Move the slide in the opposite direction to that of the 6mm thickness in order to leave the point previously marked for the knot on the 0+ cable visible and tie the knot. Now it is possible to move the slide back to the previous position by making the knot on the cable 0- |
+| <img src ="../img/lowerArm/knot 0+ marked.jpg" width = 700> | <img src ="../img/lowerArm/knot detail 0+.jpg" width = 700> | Move the slide in the opposite direction to that of the 6mm thickness in order to leave the point previously marked for the knot on the 0+ cable visible and tie the knot. Now it is possible to move the slide back to the previous position by making the knot on the cable 0- |
 | 
 
 
@@ -158,7 +158,7 @@ Here you can find the procedure for the cabling of the motor side - responsible 
 | ------------ | ---------- |
 | | 1. Prepare 2 cables of 40 cm of IITCODE 2391 and make sure you make the knot as taught above |
 | <img src ="../img/lowerArm/R&P_V1.png" width= 600> | 2.  The starting points of the cabling are the 2 holes of the slider |
-| <img src ="../img/lowerArm/ring e pinkie posizione_0.jpg" width= 500> |  3 .pass both cables inside the parallel holes and then in thiers sheats |
+| <img src ="../img/lowerArm/ring e pinkie position_0.jpg" width= 500> |  3 .pass both cables inside the parallel holes and then in thiers sheats |
 | <img src ="../img/lowerArm/P_R.png" width= 300> | 4. the exit of both cables is at the base of the phalange |
 | <img src ="../img/lowerArm/R_P_cabling.png" width=800> | 5. cable routing (same rules as other fingers). <br />To be able to pass the cable at the base of the nail it is important to create space by removing the nail (plastic cover) and moving forward the fingertip for 1 cm from its base. |
 | | 6. please write with a marker at the base of the nails where the knot should be in order to have a perfect synchronous closing for both fingers. |
