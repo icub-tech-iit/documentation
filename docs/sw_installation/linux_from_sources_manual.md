@@ -4,12 +4,12 @@ The page contains instructions for compiling YARP and the iCub software. We reco
 
 ## Getting all dependencies
 
-Add `www.icub.org` to your sources.list.
+Add `www.icub.eu` to your sources.list.
 
 Below, replace `ubuntu` with `debian`, depending on your system.
 
 ~~~
-sudo sh -c 'echo "deb http://www.icub.org/ubuntu `lsb_release -cs` contrib/science" > /etc/apt/sources.list.d/icub.list'
+sudo sh -c 'echo "deb http://www.icub.eu/ubuntu `lsb_release -cs` contrib/science" > /etc/apt/sources.list.d/icub.list'
 sudo apt update
 ~~~
 
