@@ -141,21 +141,21 @@ wholeBodyDynamics and `yarprobotinterface` communicate through yarp ports:
 
 iCub ports are:
 
-`/icub/inertial` provides 3DOF orientation tracker measurements
-`/icub/<part>/analog:o` provides calibrated F/T measurements (an offset is present, due to the stresses of mounting)
-`/icub/joint_vsens/<part>:i` acquires joint torque estimation from wholeBodyDynamics module
+- `/icub/inertial` provides 3DOF orientation tracker measurements
+- `/icub/<part>/analog:o` provides calibrated F/T measurements (an offset is present, due to the stresses of mounting)
+- `/icub/joint_vsens/<part>:i` acquires joint torque estimation from wholeBodyDynamics module
 
 wholeBodyDynamics ports are:
 
-`/wholeBodyDynamics/inertial:i` receive inertial data
-`/wholeBodyDynamics/<part>/FT:i` reads F/T data from the analog ports
-`/wholeBodyDynamics/<part>/Torques:o` provides joint torque measurements
+- `/wholeBodyDynamics/inertial:i` receive inertial data
+- `/wholeBodyDynamics/<part>/FT:i` reads F/T data from the analog ports
+- `/wholeBodyDynamics/<part>/Torques:o` provides joint torque measurements
 
 The port connections required to run force control are thus:
 
-`/icub/inertial `-> `/wholeBodyDynamics/inertial:i`
-`/icub/<part>/analog:o` -> `/wholeBodyDynamics/<part>/FT:i`
-`/icub/joint_vsens/<part>:i` -> `/wholeBodyDynamics/<part>/Torques:o`
+- `/icub/inertial `-> `/wholeBodyDynamics/inertial:i`
+- `/icub/<part>/analog:o` -> `/wholeBodyDynamics/<part>/FT:i`
+- `/icub/joint_vsens/<part>:i` -> `/wholeBodyDynamics/<part>/Torques:o`
 
 Connecting all these ports for all the robot parts (left_arm, right_arm, left_leg, right_leg) is a laborious process and it's easy to make mistakes while typing the port names. For this reason, it's not recommended to make the connections manually, using the yarp connect command. Instead you can easily make all the necessary connections using the provided automated scripts.
 
