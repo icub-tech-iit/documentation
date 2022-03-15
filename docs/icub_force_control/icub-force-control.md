@@ -169,7 +169,7 @@ Position control is the standard control mode. In this control mode, the motors 
 
 Note that when you command a new joint position, you are not instantaneously assigning the reference qd in the above formula. Instead, a mimum jerk trajectory generator takes in input your commanded position and the desired velocity, and produces a smooth movement creating a sequence of position references qd tracked by the PID controller.
 
-#### Velocity control mode <font color="#96beff">███</font></li></ul>
+#### Velocity control mode
 (Typical input parameters: desired velocity, acceleration)
 Velocity control mode allows you to control the robot by assigning a desired volocity/acceleration to a joint. The control law is the same of position control, but in this case qd is not directly controlled by the user, but it is obtained from the integration of the commanded user velocity. Also in this case a minimum jerk profile generator is used.
 
