@@ -160,7 +160,7 @@ The key concept to comprehend how force control works and how to use it is the c
 
 Five different control modes are currently implemented in the firmware of the control boards:
 
-#### Position control mode <font color="#95ddba">███</font></li></ul>
+#### Position control mode
 
 (Typical input parameters: desired position, trajectory velocity)
 Position control is the standard control mode. In this control mode, the motors PWM is computed using a PID controller the receives in input the desired joint position and the current measurement from the joint encoders:
