@@ -54,14 +54,17 @@ Note that you can avoid to preprend the `YARP_ROBOT_NAME=icubGazeboSim` environm
 Here you can find hot to run [wholebodydynamics](https://github.com/robotology/whole-body-estimators/blob/master/devices/wholeBodyDynamics/README.md) 
 
 #### Using yarpmanager
-On the server run `yarpmanager` and run the nodes
+On the server run `yarpmanager` and run : 
 
-![yman](./img/run-nodes.png)
+
+<img src="../img/run-icubsrv.png" width="800">
+
+<img src="../img/run-nodes.png" width="800">
+
 
 Open the `iCubStarup` application amd run `yarprobointerface` , `yarplogger` (optional to log messages) `wholeBodyDynamics` and `gravityCompensator` modules
 
-![yman](./img/startup1.png)
-
+<img src="../img/startup1.png" width="800">
 
 #### Using configuration file
 **Please note that this configuration is not officially supported by the iCub Facility support team, so please request support only from this repo.**
@@ -101,7 +104,7 @@ Repeat the command above for all parts having a sensor (typically left_arm, righ
 - In the yarpmanager, double click on **iCubStartup**
 - Select `wholeBodyDynamics` and `gravityCompensator` modules, right click and run
 
-![image](./img/force-control1.png)
+<img src="../img/force-control1.png" width="800">
 
 ⚠️ If you have problems opening the WholeBodyDynamics module, double check that in the file _icub_all.xml_ there is:
 
@@ -124,7 +127,7 @@ If values are not close to the table above, stop running and check sensors.
 
 🔴 **Do not apply force to the torso (experimental)!**
 
-![image](./img/force-control2.png)
+<img src="../img/force-control2.png" width="800">
 
 For each part to test, first select soft spring, move it by hand checking a right force response. Then repeat with medium and hard spring.
 
