@@ -141,7 +141,7 @@ wholeBodyDynamics and `yarprobotinterface`` communicate through yarp ports:
 
 iCub ports are:
 
-/icub/inertial provides 3DOF orientation tracker measurements
+`/icub/inertial` provides 3DOF orientation tracker measurements
 /icub/<part>/analog:o provides calibrated F/T measurements (an offset is present, due to the stresses of mounting)
 /icub/joint_vsens/<part>:i acquires joint torque estimation from wholeBodyDynamics module
 wholeBodyDynamics ports are:
