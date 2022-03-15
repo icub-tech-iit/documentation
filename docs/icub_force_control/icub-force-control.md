@@ -142,18 +142,21 @@ wholeBodyDynamics and `yarprobotinterface` communicate through yarp ports:
 iCub ports are:
 
 `/icub/inertial` provides 3DOF orientation tracker measurements
-/icub/<part>/analog:o provides calibrated F/T measurements (an offset is present, due to the stresses of mounting)
-/icub/joint_vsens/<part>:i acquires joint torque estimation from wholeBodyDynamics module
+`/icub/<part>/analog:o` provides calibrated F/T measurements (an offset is present, due to the stresses of mounting)
+`/icub/joint_vsens/<part>:i` acquires joint torque estimation from wholeBodyDynamics module
+
 wholeBodyDynamics ports are:
 
-/wholeBodyDynamics/inertial:i receive inertial data
-/wholeBodyDynamics/<part>/FT:i reads F/T data from the analog ports
-/wholeBodyDynamics/<part>/Torques:o provides joint torque measurements
+`/wholeBodyDynamics/inertial:i` receive inertial data
+`/wholeBodyDynamics/<part>/FT:i` reads F/T data from the analog ports
+`/wholeBodyDynamics/<part>/Torques:o` provides joint torque measurements
+
 The port connections required to run force control are thus:
 
-/icub/inertial -> /wholeBodyDynamics/inertial:i
-/icub/<part>/analog:o -> /wholeBodyDynamics/<part>/FT:i
-/icub/joint_vsens/<part>:i -> /wholeBodyDynamics/<part>/Torques:o
+`/icub/inertial `-> `/wholeBodyDynamics/inertial:i`
+`/icub/<part>/analog:o` -> `/wholeBodyDynamics/<part>/FT:i`
+`/icub/joint_vsens/<part>:i` -> `/wholeBodyDynamics/<part>/Torques:o`
+
 Connecting all these ports for all the robot parts (left_arm, right_arm, left_leg, right_leg) is a laborious process and it's easy to make mistakes while typing the port names. For this reason, it's not recommended to make the connections manually, using the yarp connect command. Instead you can easily make all the necessary connections using the provided automated scripts.
 
 The key concept to comprehend how force control works and how to use it is the concept of control mode. The control mode represents the current control algorithm that is running on the firmware of the control boards to control a specific joint. For example, the position control modes implements a PID control that tracks the commanded trajectories, while the impedance control realizes a compliant position control by computing the reference torque that an inner torque control loop has to track, given an equilibrium position and the stiffness of a simulated spring. The control mode of a joint can be changed online, during the execution of your application, using the apposite yarp interfaces. In this way you can assign different control modes to different joints in order to obtain the desired behaviour (e.g. you can set some joints in position control mode to obtain a 'stiff' behaviour and other joint in impedance control mode to obtain a compliant behaviour).
