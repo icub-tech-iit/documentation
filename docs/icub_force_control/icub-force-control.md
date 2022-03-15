@@ -185,7 +185,7 @@ In this case the motors PWM is computed using a PID controller the receives in i
 (Typical input parameters: motor PWM)
 Openloop control mode allows you to directly control the joint motor, assigning directly the PWM (bypassing the PID controller)
 
-#### Impedance Position control mode <font color="#dcbedc">███</font></li></ul>
+#### Impedance Position control mode
 (Typical input parameters: desired position, trajectory velocity + desired joint stiffness and damping)
 Impedance control mode allows you to control the joint position and its compliance. In particular, you can control the equilibrium position of a virtual spring (using the standard yarp::dev::IPositionControl interface) and its stiffness/damping (using the yarp::dev::IImpedanceControl interface).
 The control is implemented in the DSP firmware as follows:
