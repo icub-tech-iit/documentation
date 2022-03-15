@@ -194,7 +194,7 @@ Firstly, a reference torque is computed, accordingly to the input position and t
 
 ![pid-pos](./img/Pid_imp.jpg)
 
-#### Impedance Velocity control mode <font color="#dcbedc">███</font></li></ul>
+#### Impedance Velocity control mode
 (Typical input parameters: desired velocity, acceleration + desired joint stiffness and damping)
 The impedance velocity control mode is the corresponding impedance mode using velocity control. The control law is the same of the impedance position control, but in this case qd is not directly controlled by the user, but it is obtained from the integration of the commanded user velocity (also in this case minimum jerk profile generator is used).
 
