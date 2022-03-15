@@ -173,7 +173,7 @@ Note that when you command a new joint position, you are not instantaneously ass
 (Typical input parameters: desired velocity, acceleration)
 Velocity control mode allows you to control the robot by assigning a desired volocity/acceleration to a joint. The control law is the same of position control, but in this case qd is not directly controlled by the user, but it is obtained from the integration of the commanded user velocity. Also in this case a minimum jerk profile generator is used.
 
-#### Torque control mode <font color="#ff6464">███</font></li></ul>
+#### Torque control mode
 (Typical input parameters: reference torque)
 Torque control mode allows you to directly control the robot joints torque:
 Pid trq.jpg
