@@ -198,7 +198,7 @@ Firstly, a reference torque is computed, accordingly to the input position and t
 (Typical input parameters: desired velocity, acceleration + desired joint stiffness and damping)
 The impedance velocity control mode is the corresponding impedance mode using velocity control. The control law is the same of the impedance position control, but in this case qd is not directly controlled by the user, but it is obtained from the integration of the commanded user velocity (also in this case minimum jerk profile generator is used).
 
-#### Idle <font color="#f9ec8d">███</font></li></ul>
+#### Idle
 (Typical input parameters: none)
 This is not a real control mode, but represents the status of a joint in which the control is currently disabled (both because PWM has been deliberately turned off by the user or because a fault (e.g. overcurrent) occurred).
 
