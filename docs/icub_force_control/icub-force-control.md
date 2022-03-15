@@ -137,7 +137,7 @@ For each part to test, first select soft spring, move it by hand checking a righ
 
 
 ### Ports and connections
-wholeBodyDynamics and `yarprobotinterface`` communicate through yarp ports:
+wholeBodyDynamics and `yarprobotinterface` communicate through yarp ports:
 
 iCub ports are:
 
