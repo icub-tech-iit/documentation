@@ -181,7 +181,7 @@ In this case the motors PWM is computed using a PID controller the receives in i
 
 ![pid-pos](./img/Pid_trq.jpg)
 
-#### Openloop control mode <font color="#000000">░░░</font></li></ul>
+#### Openloop control mode
 (Typical input parameters: motor PWM)
 Openloop control mode allows you to directly control the joint motor, assigning directly the PWM (bypassing the PID controller)
 
