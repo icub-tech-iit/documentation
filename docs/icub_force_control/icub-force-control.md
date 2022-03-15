@@ -1,23 +1,6 @@
-# Force Control on iCub v2.X
+# Force Control on iCub
 
-**NOTE: This document was originally authored by Daniele Pucci, Silvio Traversaro and Francesco Romano. This document is directly ported from [robotology-legacy/codyco-modules/doc/force_control_on_icub.md](https://github.com/robotology-legacy/codyco-modules/blob/master/doc/force_control_on_icub.md).**
-
-This is a new and incomplete version of http://wiki.icub.org/wiki/Force_Control , updated with 
-the details on the new `wholeBodyDynamicsDevice` module, which is in charge of estimating mainly joint torques and external forces, developed for the CoDyCo European Project.
-
-# History of joint-level torque control on iCub 
-The first versions of iCub were not designed to perform joint-level torque control. 
-To enable joint-level torque control, the iCub v1.1 was modified to include 4 six-axis 
-force-torque sensors, embedded inside the arms and the legs of robot (2008-2010). [1]
-
-The original plan was to develop the iCub v2 with real strain-gauge based joint torque sensors, 
-but this process [2] was not successfull and all existing iCub's uses the embedded six-axis force-torque
-sensors to estimate the joint torques for low-level joint torque control.
-
-During the CoDyCo project (2013-2017), the software originally developed in [1] was rewritten to improve 
-its computational efficency and its generality (i.e. the possibility to run it on several different robots).
-
-# `wholebodydynamics` YARP device 
+## `wholebodydynamics` YARP device 
 The `wholebodydynamics` YARP device (contained in the C++ class [`yarp::dev::WholeBodyDynamicsDevice`](http://wiki.icub.org/codyco/dox/html/classyarp_1_1dev_1_1WholeBodyDynamicsDevice.html))
 is reading measurements of the embedded force-torque sensors, of the joint position and low-level estimates of joint velocity and accelerations and of 
 one IMU mounted in the robot, and from this reading is estimating the external force-torques and internal joint torques of the robot. 
@@ -68,6 +51,19 @@ YARP_ROBOT_NAME=icubGazeboSim yarprobotinterface --config launch-wholebodydynami
 Note that you can avoid to preprend the `YARP_ROBOT_NAME=icubGazeboSim` environmental variable.  
 
 ### Run `wholebodydynamics` on the robot 
+Here you can find hot to run [wholebodydynamics](https://github.com/robotology/whole-body-estimators/blob/master/devices/wholeBodyDynamics/README.md) 
+
+#### Using yarpmanager
+On the server run `yarpmanager` and run the nodes
+
+![yman](./img/run-nodes.png)
+
+Open the `iCubStarup` application amd run `yarprobointerface` , `yarplogger` (optional to log messages) `wholeBodyDynamics` and `gravityCompensator` modules
+
+![yman](./img/startup1.png)
+
+
+#### Using configuration file
 **Please note that this configuration is not officially supported by the iCub Facility support team, so please request support only from this repo.**
 
 This setup requires adding one configuration file to the robot `yarprobotinterface` configuration files as distributed in the [robots-configuration](https://github.com/robotology/robots-configuration) repository. For doing this, please import the configuration files for your robot on the `~/.local/share/yarp/robots/${YARP_ROBOT_NAME}` using the `yarp-config` utility program. 
@@ -88,50 +84,60 @@ yarprobotinterface --config icub_wbd.xml
 It may be convenient to create a modified version of the `iCubStartup.xml` `yarpmanager` application on the terminal PC on which you launch the `yarpmanager`, 
 called `iCubStartupWithWBD.xml`, in which the `--config icub_wbd.xml` parameter is explicitly added when launching the `yarprobotinterface`. 
 
-# Credits 
-The original iCub force control people: Matteo Fumagalli, Serena Ivaldi, Marco Randazzo, Francesco Nori.
-
-The people working on estimation during the CoDyCo project : Silvio Traversaro, Marco Randazzo, Daniele Pucci, Francesco Romano, Andrea Del Prete, Jorhabib Eljaik, Francisco Javier Andrade Chavez, Nuno Guedelha, Francesco Nori.   
-
-# Citations 
+### Citations 
 [1] : http://ieeexplore.ieee.org/abstract/document/6100813/
 
 [2] : http://ieeexplore.ieee.org/abstract/document/5379525/
 
-## Force control on old iCub (v1.X)
+## Force control 
 
-### Minimum Requirements for iCub v1.x
+- First of all check if torque sensors are correctly reading data; to do that (with the robot in the calibrated position) run this command on the laptop server:
 
-Hardware Requirements:
+       yarp read ... /icub/left_arm/analog:o
 
-In order to run force control, your iCub must be equipped with the four 6-axis F/T Sensors. These sensors have been installed on the robot since v1.1 of the platform.
+- You’ll see a data dumping in the shell, try to move the part by hand and see if numbers are changing.
+Repeat the command above for all parts having a sensor (typically left_arm, right_arm, left_leg, right_leg, left_foot, right_foot)
 
-Firmware Requirements:
+- In the yarpmanager, double click on **iCubStartup**
+- Select `wholeBodyDynamics` and `gravityCompensator` modules, right click and run
 
-The PID control algorithm responsible of tracking the commanded torque at joint level is executed inside the DSP control boards. This means that the firmware of your robot needs to be updated in order to run joint level torque control. The minimum requirements are:
+![image](./img/force-control1.png)
 
-- firmware build 50 for brushless control boards
-- firmware build 38 for 4DC control boards
+⚠️ If you have problems opening the WholeBodyDynamics module, double check that in the file _icub_all.xml_ there is:
 
-However it is strongly recommended to use the latest firmware available, since it implements a better control algorithm respect to these old versions. Please refer to the [firmware](../icub_firmware/index.md) section for a description of the firmware update procedure.
+     portprefix ='icub'
 
-Software Requirements:
+after the RobotName, in the first lines.
 
-Force control is one of the latest added feature of iCub. This means that even if your robot is equipped with the 6-axis F/T Sensors, maybe your .ini configuration files do not contains all the required parameters in order to run force control. In fact, new features have been recently added, and new configuration parameters have become mandatory. In order to check if the configuration files of your robot are properly updated, please refer to this section. One final remark: since iCub software is continuosly evolving, new features/improvements/bug fixes are constantly released, so it's a good idea to periodically update both your iCub and Yarp repository using SVN.
+- Open yarpmotorgui and check the torque value reading for affected joints, typically they should read as follow :
 
-### Joint-level torque Control in iCub v1.x
-iCub v1.x is not equipped with joint-level torque sensors, but only with four 6-axis F/T sensors mounted on the arms and on the legs. iCub v1.x thus exploits a model-based approach based on a modified Newton-Euler algorithm (Ref: iDyn library) in order to estimate joint-level torques from the four proximal sensors. The controller is thus distributed in three different levels:
+|Part|Joint 0|Joint 1| Joint 2  | Joint 3  | Joint 4 |
+|---|---|---|---|---|---|
+| Arms  | -1.5  |  +1.2 | -0.2  | +0.6  | 0 |
+| Legs | +0.2  |  +0.1 |  0 | +0.1  | / |
 
-![control-paths](./img/Control_paths.jpg)
+If values are not close to the table above, stop running and check sensors.
 
-- wholeBodyDynamics (application level): the modules takes the measurements from the 3DOF orientation tracker placed inside iCub's head and from the four F/T sensors of the robot limbs to make a model-based estimation of joint torques, with the hypothesis that external forces are applied only on the end-effector (wrist/ankle joints). For further information refer also to the wholeBodyDynamics documentation
+- Now run `demoForceControl`
 
-- iCubInterface (middleware): it sends (through yarp ports) the 6-axis F/T sensors measurements to the wholeBodyDynamics module and receives from it the computed joint torques. The estimated joint torque measurements are sent through the CAN bus to the DSP boards which perform the control.
+        icub@icubsrv:~$ demoForceControl
 
-- motor control boards (firmware level): The control boards receive the computed estimation of the joint torques from iCubInterface and implement different PID control algorithms in order to track the desired position/torque commands. The type of control (i.e. position/torque/impedance control etc.) of a specific joint can be changed runtime by sending an appropriate command to the control board.
+🔴 **Do not apply force to the torso (experimental)!**
+
+![image](./img/force-control2.png)
+
+For each part to test, first select soft spring, move it by hand checking a right force response. Then repeat with medium and hard spring.
+
+⚠️ Be sure to move the part applying the force by hand respecting the following :
+
+|Part|Point where to apply the force|
+|---|---|
+| Arms  | Forearm/wrist| 
+|  Legs | Ankle|
+
 
 ### Ports and connections
-wholeBodyDynamics and iCubInterface communicate through yarp ports:
+wholeBodyDynamics and `yarprobotinterface`` communicate through yarp ports:
 
 iCub ports are:
 
@@ -195,162 +201,7 @@ The impedance velocity control mode is the corresponding impedance mode using ve
 #### Idle <font color="#f9ec8d">███</font></li></ul>
 (Typical input parameters: none)
 This is not a real control mode, but represents the status of a joint in which the control is currently disabled (both because PWM has been deliberately turned off by the user or because a fault (e.g. overcurrent) occurred).
+
 NOTE 1: The control mode of a joint can be set using the yarp::dev::iControlMode interface.
 
 NOTE 2: When you send movement commands (i.e. position/velocity commands) to a joint, the obtained behaviour will change depending on the current control mode of the joint (e.g. a position command in position control mode will generate the standard stiff trajectory, while the same command executed in impedance control mode will change the equilibrium point of the simulated spring).
-
-Moreover some commands can also implicitly change the current control mode, even if no requests have been made using the yarp::dev::iControlMode interface. The following table summarizes the implemented behaviour [The implicit switch of control modes has been discussed many times and there is no general consensus on the fact that it should exist. This feature may change, in favor of an explicit control mode switch.]:
-
-<table border="1">
-<caption>
-</caption>
-<tbody><tr>
-<th>
-</th>
-<th bgcolor="#404040">
-</th>
-<th bgcolor="#95ddba">Send <i>IPositionControl::positionMove</i>  command
-</th>
-<th bgcolor="#96beff">Send <i>IVelocityControl::velocityMove</i> command
-</th>
-<th bgcolor="#ff6464">Send <i>ITorqueControl::setRefTorque</i> command
-</th>
-<th bgcolor="#c0c0c0">Send "enable PWM" command
-</th></tr>
-<tr>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#404040">
-</td></tr>
-<tr>
-<td bgcolor="#95ddba"><b>position control mode</b>
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#95ddba">
-<ul><li>move to the desired position.</li></ul>
-</td>
-<td bgcolor="#96beff">
-<ul><li>move with the desired velocity.</li>
-<li>Automatically switch to velocity control mode.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>command ignored.</li></ul>
-</td></tr>
-<tr>
-<td bgcolor="#96beff"><b>velocity control mode</b>
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#95ddba">
-<ul><li>move to the desired position.</li>
-<li>Automatically switch to position control mode.</li></ul>
-</td>
-<td bgcolor="#96beff">
-<ul><li>move with the desired velocity.</li></ul>
-</td>
-<td bgcolor="#96beff">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>Automatically switch to position control mode.</li></ul>
-</td></tr>
-<tr>
-<td bgcolor="#dcbedc"><b>impedance position control mode</b>
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#dcbedc">
-<ul><li>move to the desired position with compliant behaviour.</li></ul>
-</td>
-<td bgcolor="#dcbedc">
-<ul><li>move with the desired velocity with compliant behaviour.</li>
-<li>Automatically switch to impedeance velocity control mode.</li></ul>
-</td>
-<td bgcolor="#dcbedc">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>Automatically switch to position control mode.</li></ul>
-</td></tr>
-<tr>
-<td bgcolor="#dcbedc"><b>impedance velocity control mode</b>
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#dcbedc">
-<ul><li>move to the desired position with compliant behaviour.</li>
-<li>Automatically switch to impedance position control mode.</li></ul>
-</td>
-<td bgcolor="#dcbedc">
-<ul><li>move with the desired velocity with compliant behaviour.</li></ul>
-</td>
-<td bgcolor="#dcbedc">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>Automatically switch to position control mode.</li></ul>
-</td></tr>
-<tr>
-<td bgcolor="#ff6464"><b>torque control mode</b>
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#ff6464">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#ff6464">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#ff6464">
-<ul><li>Move the joint with the desired torque.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>Automatically switch to position control mode.</li></ul>
-</td></tr>
-<tr>
-<td bgcolor="#ffffff"><b>openloop control mode</b>
-</td>
-<td bgcolor="#ffffff">
-</td>
-<td bgcolor="#ffffff">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#ffffff">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#ffffff">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>Automatically switch to position control mode.</li></ul>
-</td></tr>
-<tr>
-<td bgcolor="#f9ec8d"><b>motor idle</b>
-</td>
-<td bgcolor="#404040">
-</td>
-<td bgcolor="#f9ec8d">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#f9ec8d">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#f9ec8d">
-<ul><li>command ignored.</li></ul>
-</td>
-<td bgcolor="#95ddba">
-<ul><li>PWM on.</li>
-<li>Automatically switch to position control mode.</li></ul>
-</td></tr></tbody></table>
