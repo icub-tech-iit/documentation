@@ -210,4 +210,4 @@ For example, if you want to run the `wholebodydynamics` for the Gazebo simulatio
 YARP_ROBOT_NAME=icubGazeboSim yarprobotinterface --config launch-wholebodydynamics.xml
 ~~~
 
-Note that you can avoid to preprend the `YARP_ROBOT_NAME=icubGazeboSim` environmental variable.  
+Note that you can avoid preprending the `YARP_ROBOT_NAME=icubGazeboSim` environmental variable.  
