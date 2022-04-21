@@ -5,7 +5,7 @@ The system architecture of iCub 3 is depicted in the following image:
 !!! note "note"
     the documentation is still incomplete
     
-<center> <img src ="https://media.githubusercontent.com/media/icub-tech-iit/electronics-wiring-public/master/icub3/pdf/Architecture_iCub3.3.png" width=800> </center>
+<center> <img src ="https://github.com/icub-tech-iit/electronics-wiring/blob/master/icub3/pdf/Architecture_iCub3.3.png" width=800> </center>
 
 ### Logic and Harness iCub 3.0 E0.0 Full Robot 
 
