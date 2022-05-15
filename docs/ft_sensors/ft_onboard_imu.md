@@ -32,7 +32,7 @@ Its orientation can be also defined in terms of the F/T frame:
 | $y_{IMU}$ | $-x_{FT}$ |
 | $z_{IMU}$ | $z_{FT}$  |
 
-Finally, the IMU origin in the F/T frame coordinates are $\left( 7.5, \; -8.6 \right)$ $mm$.
+Finally, the IMU origin in the F/T frame coordinates are $\left( 7.5, \; -8.6 \right)$ $\text{mm}$.
 
 <center>
   <figure>
@@ -51,7 +51,7 @@ We measure accelerations with the IMU in its proper reference frame *B*, and we 
 
 Given the two relevant quantities:
 
-- origin displacement of FT reference frame in IMU reference frame ${}^B o_S = (8.6, 7.5, 0)$
+- origin displacement of FT reference frame in IMU reference frame ${}^B o_S = (8.6, 7.5, 0)$ $\text{mm}$;
 - rotation matrix between the two reference frames ${}^SR_B$; 
 
 we can identify the transformation law as:
