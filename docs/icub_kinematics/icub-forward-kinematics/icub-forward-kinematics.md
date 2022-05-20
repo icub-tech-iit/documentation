@@ -18,7 +18,7 @@ For simpler visualization the root reference frame of the forward kinematics is 
 Seven additional reference frames are defined with respect to this common root reference frame. The reference frames are located as shown in the CAD figure. The x axis is in red. The y axis is in green. The z axis is in blue.
 
 - Left hand reference frame (see the CAD [picture](./img/LeftHandCADRefFrame.jpg))
-- Right hand reference frame (see the CAD [picture](./img/RightHandCADRefFrame.jpg)
+- Right hand reference frame (see the CAD [picture](./img/RightHandCADRefFrame.jpg))
 - Left Fingers reference frame (see the CAD [picture](./img/LeftHand.png))
 - Right Fingers reference frame (see the CAD [picture](./img/RightHand.png))
 - Left foot reference frame (see the CAD [picture](./img/LegsCADRefFrame.jpg))
