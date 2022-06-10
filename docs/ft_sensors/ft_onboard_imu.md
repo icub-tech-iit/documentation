@@ -28,11 +28,11 @@ Its orientation can be also defined in terms of the F/T frame:
 
 | IMU | F/T |
 |--|--|
-| $x_{IMU}$ | $y_{FT}$  |
+| $x_{IMU}$ | $-y_{FT}$  |
 | $y_{IMU}$ | $-x_{FT}$ |
-| $z_{IMU}$ | $z_{FT}$  |
+| $z_{IMU}$ | $-z_{FT}$  |
 
-Finally, the IMU origin in the F/T frame coordinates are $\left( 7.5, \; -8.6 \right)$ $\text{mm}$.
+Finally, the IMU origin in the F/T frame coordinates are $\left( 7.5, \; 8.6 \right)$ $\text{mm}$.
 
 <center>
   <figure>
@@ -86,25 +86,7 @@ To further pinpoint our assumption, we have evaluated the gravity vector as stre
 In the firmware, we can either directly remap the axes with a suitable method from the BNO055 library or define a macro to calculate explicitly the transformation. 
 We chose the latter option that does not require initializing the corresponding register. The perk is that we can have full control over the algorithm and insert higher order corrections. 
 
-Therefore, the acceleration remapping is located in the function used to fill in the CAN message ahead of the transmission.
-
-In detail, the snippet below:
-
-```c++
-bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::periodic::Message_DIGITAL_ACCELEROMETER::Info &info)
-{
-    bool ret = true;
-    
-    info.canaddress = embot::app::theCANboardInfo::getInstance().cachedCANaddress();
-    info.x = imuacquisition.data.acc.x;
-    info.y = imuacquisition.data.acc.y;
-    info.z = imuacquisition.data.acc.z;
-         
-    return ret;    
-}
-```
-
-is replaced by:
+Therefore, the acceleration remapping is located in the function of the FW used to fill in the CAN message ahead of the transmission.
 
 ```c++
 bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::periodic::Message_DIGITAL_ACCELEROMETER::Info &info)
@@ -114,8 +96,8 @@ bool embot::app::application::theIMU::Impl::fill(embot::prot::can::inertial::per
     info.canaddress = embot::app::theCANboardInfo::getInstance().cachedCANaddress();
 #if defined(STM32HAL_BOARD_STRAIN2)
     info.x = -imuacquisition.data.acc.y;
-    info.y = imuacquisition.data.acc.x;
-    info.z = imuacquisition.data.acc.z;         
+    info.y = -imuacquisition.data.acc.x;
+    info.z = -imuacquisition.data.acc.z;         
 #else
     info.x = imuacquisition.data.acc.x;
     info.y = imuacquisition.data.acc.y;
