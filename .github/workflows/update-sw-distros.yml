@@ -27,8 +27,8 @@ jobs:
           sudo gem install yaml
       - name: Set Env Variables
         run: |
-          echo "SUPERBUILD_TAG=${{ github.inputs.superbuild_tag }}" >> ${GITHUB_ENV}
-          echo "INITIAL_DISTRO=${{ github.inputs.initial_distro }}" >> ${GITHUB_ENV}
+          echo "SUPERBUILD_TAG=${{ inputs.superbuild_tag }}" >> ${GITHUB_ENV}
+          echo "INITIAL_DISTRO=${{ inputs.initial_distro }}" >> ${GITHUB_ENV}
           echo "SUPERBUILD_RELEASES_PATH=${{ github.workspace }}/../robotology-superbuild/releases" >> ${GITHUB_ENV}
           echo "SW_VERSIONING_TABLE_PATH=${{ github.workspace }}/docs/sw_versioning_table" >> ${GITHUB_ENV}
       - uses: actions/checkout@main
@@ -45,16 +45,16 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@main
         with:
-          commit-message: Automatic update of docs for Distro ${{ github.inputs.superbuild_tag }}
-          branch: automatic-update-docs-distro-${{ github.inputs.superbuild_tag }}
+          commit-message: Automatic update of docs for Distro ${{ inputs.superbuild_tag }}
+          branch: automatic-update-docs-distro-${{ inputs.superbuild_tag }}
           delete-branch: true
-          title: 'Automatic update of Docs for Distro `${{ github.inputs.superbuild_tag }}`'
+          title: 'Automatic update of Docs for Distro `${{ inputs.superbuild_tag }}`'
           reviewers: pattacini
           assignees: ${{ github.actor }}
           body: |
             This PR has been triggered with the following options:
-            - Superbuild tag: `${{ github.inputs.superbuild_tag }}`
-            - Initial distro to document: `${{ github.inputs.initial_distro }}`.
+            - Superbuild tag: `${{ inputs.superbuild_tag }}`
+            - Initial distro to document: `${{ inputs.initial_distro }}`.
       - name: Check outputs
         run: |
           echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"          
