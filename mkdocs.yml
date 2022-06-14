@@ -20,7 +20,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      accent: amber
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -28,20 +29,32 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      accent: amber
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    logo: material/robot
 
   features:
+    - content.code.annotate
+    - content.tooltips
     - tabs
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
     - navigation.sections
     - navigation.top
-  icon:
-    logo: material/robot
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
 
 extra_css:
   - stylesheets/extra.css
