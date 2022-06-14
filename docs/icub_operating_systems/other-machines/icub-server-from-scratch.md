@@ -34,8 +34,8 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Kernel version** :  5.4.0-73-generic x86_64
 - **Partions** : single - 237Gb EXT4 (plus EFI)
 
-!!! note
-  _Please disable LVM configuration during the partitioning step of installation procedure_
+!!! warning
+    _Please disable LVM configuration during the partitioning step of installation procedure_
 
 ## Network configuration
 
@@ -56,8 +56,8 @@ enp2s0:
   addresses: [10.0.0.1/24]
 ```
 
-!!! note
-  See file `/etc/netplan/50-icub-srv.yaml` for configuration details
+!!! note "configuration details"
+    See file `/etc/netplan/50-icub-srv.yaml` for configuration details
 
 ## Remove Cloud Init package
 Remove cloud init package
@@ -72,7 +72,7 @@ net.ipv4.ip_forward = 1
 ```
 
 ## Network Address Translation
-The folllowing IPTABLES rules enable the NAT
+The following IPTABLES rules enable the NAT
 ```
 sudo iptables --table nat --append POSTROUTING --out-interface enp1s0 -j MASQUERADE
 sudo iptables --append FORWARD --in-interface enp2s0 --out-interface enp1s0 -j ACCEPT
@@ -83,8 +83,8 @@ Install the package iptables-persistent
 sudo apt install iptables-persistent
 ```
 
-!!! note
-  See file `/etc/iptables/rules.v4` for persistent rules details
+!!! note "further details"
+    See file `/etc/iptables/rules.v4` for persistent rules details
 
 ## DNS Server
 Install package bind9
@@ -92,11 +92,11 @@ Install package bind9
 sudo apt install bind9 bind9utils
 ```
 
-!!! note
-  See configuration files in `/etc/bind` and `/var/lib/bind` for further deatils
+!!! note "further details"
+    See configuration files in `/etc/bind` and `/var/lib/bind` for further details
 
 ### Fix logging configuration
-create the folder `/var/log/bind/` and set correct ownerhip
+create the folder `/var/log/bind/` and set correct ownership
 ```
 mkdir /var/log/bind/
 chown bind:bind /var/log/bind/
@@ -119,8 +119,8 @@ Edit the file /etc/default/isc-dhcp-server as follows
 INTERFACESv4="enp2s0"
 ```
 
-!!! note
-  See configurations files in `/etc/dhcp` for configuration details
+!!! note "further details"
+    See configurations files in `/etc/dhcp` for configuration details
 
 ### Fix logging configuration
 Create the folder `/var/log/dhcpd/` and set correct ownerhip
@@ -138,7 +138,7 @@ sudo chmod 640 /etc/dhcp/ddns-keys/rndc.key
 ```
 
 ## AppArmor profiles update
-In order to allow DCHPD and Bind services to read in write their configuration fiels and logs, you shoud add some lines in the _local_ apparmod configuration
+In order to allow DCHPD and Bind services to read in write their configuration fields and logs, you should add some lines in the _local_ apparmod configuration
 
  - `/etc/apparmor.d/local/usr.sbin.dhcpd`
  ```
@@ -151,8 +151,8 @@ In order to allow DCHPD and Bind services to read in write their configuration f
  /var/log/bind/ rw,
  ```
 
- !!! note
-   See configurations files in `/etc/apparmo.d` for configuration details
+ !!! note "further details"
+     See configurations files in `/etc/apparmo.d` for configuration details
 
 ## Logrotate configuration
 You should add the lograte configuration for the log files from DHCPD and Bind service by adding the following files
@@ -198,14 +198,14 @@ add the following lines to the file /etc/ntp.conf
 ```
 server 10.255.8.30
 server 10.255.8.31
-# the folllowing lines make the server a master server
+# the following lines make the server a master server
 server          127.127.1.0 # local clock
 fudge           127.127.1.0 stratum 10
 broadcastdelay  0.008
 ```
 
 ## NFS Server
-The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the PC104 and by the laptop iteself :
+The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the PC104 and by the laptop itself :
 
 - /exports/code - this contains the robot software sources such as YARP, iCub Software.
 - /local/yarp - this contains the YARP configuration files, shared by all the machine in the network
@@ -241,4 +241,4 @@ sudo apt remove unattended-upgrades
 ```
 ## Customize the system
 
-What now yoo need to do is to customize the installation with your hardware and enviroment
+What now you need to do is to customize the installation with your hardware and enviroment

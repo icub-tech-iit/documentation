@@ -36,7 +36,7 @@ You need:
 
 - USB 3 hub
 - USB keyboard
-- The Bootlabe USB with the imaging tool (see above)
+- The Bootable USB with the imaging tool (see above)
 - The external USB drive with the iCubOS disk image
 - A monitor with DisplayPort input
 
@@ -50,7 +50,9 @@ Power on the icub-server and enter BIOS, the select drive with CloneZilla as fir
 ## Write the image
 
 Follow the steps below to write the image on the icub-head HD (detailed instruction about how to use CloneZilla can be found [here](https://clonezilla.org/clonezilla-usage/clonezilla-live-usage.php) ).
-_Please note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)
+
+!!! note
+    _Please note that the instructions below refers to the lastest clonezilla release available at the time of writing (2.6.6)_
 
 1. In boot menu, select the option `Clonezilla live (Defaut, To RAM)`
 2. choose your language
@@ -78,7 +80,7 @@ If you want to change the default password simply execute (*this works only if y
 
 `passwd icub`
 
-!!! note
-  As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
+!!! note "root login"
+    As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
 
 `sudo su - `

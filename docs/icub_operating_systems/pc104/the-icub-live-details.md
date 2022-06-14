@@ -1,9 +1,9 @@
 # The OS on PC104 (live USB) - Details
 
-This page is ment to describe how a icub-live differs from a _vanilla_ debian live systems
+This page is meant to describe how a icub-live differs from a _vanilla_ Debian live systems
 
 !!! note
-  _This page is valid ONLY for the PC104 image with version 5.0 and above_
+    _This page is valid ONLY for the PC104 image with version 5.0 and above_
 
 # Additional Packages
 The image is (at the moment of writing, version 7.10) based on a default Debian Buster (10) LIVE image, but with some additional packages:
@@ -80,7 +80,7 @@ The kernel used at the moment of writing is a x86 AMD64 kernel version  4.19.0-6
 # Custom files
 
 ## README, VERSION and ChangeLog
-The following files, available in the root filesystem contains various informations about the LIVE release
+The following files, available in the root filesystem contains various information about the LIVE release
 
 - **README** : contains useful info about the LIVE imag and its requirements
 - **VERSION** : contains version info (build version, build date and distro on which this build is created)
@@ -118,7 +118,7 @@ In this way, all the startup scripts in /etc/rciCub.d are executed at boot time.
 **Please note that some of the above scripts load kernel modules required by peripherals**
 
 ## The NTP script
-This script is used to syncronize the PC104 clock with the one provided by icub-server (via NTP):
+This script is used to synchronize the PC104 clock with the one provided by icub-server (via NTP):
 
 ```
 #!/bin/sh -e
@@ -254,7 +254,7 @@ auto eth1
 # SSH configuration
 In order to speed up SSH connection, the DNS lookup is disabled with parameter `UseDNS no` in SSH server configuration file `/etc/ssh/sshd_config`
 
-Because the live system disables the password authentication at system startup, the script `/lib/live/config/9100-openssh-login` is used to enable it on starup by attind the following line to `/etc/ssh/sshd_config`
+Because the live system disables the password authentication at system startup, the script `/lib/live/config/9100-openssh-login` is used to enable it on starup by adding the following line to `/etc/ssh/sshd_config`
 ```
  PasswordAuthentication yes
 ```
@@ -262,7 +262,7 @@ Because the live system disables the password authentication at system startup, 
 # NTP configuration
 We use icub-srv (10.0.0.1) as NTP server.
 
-The package ntp is installed but not executed, so we add the followng line to `/etc/ntp.conf`
+The package ntp is installed but not executed, so we add the following line to `/etc/ntp.conf`
 ```
 server 10.0.0.1
 ```
@@ -300,7 +300,7 @@ And the file `/etc/hosts` is as follows
 ```
 
 # User environment
-The SKEL `/etc/skel` files are used to generate the desired user environment for the icub user modfing the following files
+The SKEL `/etc/skel` files are used to generate the desired user environment for the icub user modifying the following files
 
 ## .bashrc
 ```
@@ -394,7 +394,7 @@ The iCub live ISO image is built with a custom script based on the Debian LIVE t
 
 ## The live-build script
 You can find the script here: <https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live>
-The script requires some additional packages to be installed (before starting, it checks for dependancies and if any is missing it installs the package).
+The script requires some additional packages to be installed (before starting, it checks for dependencies and if any is missing it installs the package).
 The script is based on the Debian live-build system and uses the configuration files and templates inside the folder [live-build](https://github.com/icub-tech-iit/icub-os-files/tree/master/scripts/icub-live/live-build). See the code on the [repository](https://github.com/icub-tech-iit/icub-os-files) for further details.
 
 The script syntax is the following:
