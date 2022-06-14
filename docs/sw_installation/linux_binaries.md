@@ -21,25 +21,22 @@ Update the list of packages.
 sudo apt update
 ~~~
 
-> **Note**
-> If you face the following **error**
->
-> ```
-> N: Skipping acquire of configured file 'contrib/science/binary-i386/Packages' as repository 'http://www.icub.eu/ubuntu jammy InRelease' doesn't support architecture 'i386'
-> ```
-> please add `[arch=amd64]` in the file `/etc/apt/sources.list.d/icub.list` as follows (eg. in case of Ubuntu Jammy Jellyfish)
->
-> ```
-> deb [arch=amd64] http://www.icub.eu/ubuntu jammy contrib/science
-> ```
+!!! note
+If you face the following **error**
+```
+N: Skipping acquire of configured file 'contrib/science/binary-i386/Packages' as repository 'http://www.icub.eu/ubuntu jammy InRelease' doesn't support architecture 'i386'
+```
+please add `[arch=amd64]` in the file `/etc/apt/sources.list.d/icub.list` as follows (eg. in case of Ubuntu Jammy Jellyfish)
+```
+deb [arch=amd64] http://www.icub.eu/ubuntu jammy contrib/science
+```
 
-> **Note**
-> If you face the following **warning**
->
-> ```
-> W: http://www.icub.eu/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
-> ```
-> Please _ignore it_.
+!!! note
+If you face the following **warning**
+```
+W: http://www.icub.eu/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+```
+Please _ignore it_.
 
 Import the repository public key (this needs to be done only once)
 
