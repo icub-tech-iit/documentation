@@ -10,13 +10,14 @@ repo_url: https://github.com/icub-tech-iit/documentation
 
 theme:
   name: material
+  logo: assets/head-solid.png
+  favicon: assets/head-solid.png
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -25,7 +26,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -38,9 +38,6 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-
-  icon:
-    logo: material/robot
 
   features:
     - content.code.annotate
