@@ -2,7 +2,6 @@
 iCub is not equipped with joint-level torque sensors, but only with four 6-axis F/T sensors mounted on the arms and on the legs. iCub thus exploits a model-based approach based on a modified Newton-Euler algorithm (Ref: [iDyn library](https://robotology.github.io/robotology-documentation/doc/html/idyn_introduction.html) ) in order to estimate joint-level torques from the four proximal sensors. The controller is thus distributed in three different levels:
 
 
-	
 - `wholeBodyDynamics` (application level): the modules takes the measurements from the 3DOF orientation tracker placed inside iCub's head and from the four F/T sensors of the robot limbs to make a model-based estimation of joint torques, with the hypothesis that external forces are applied only on the end-effector (wrist/ankle joints). For further information refer also to the wholeBodyDynamics documentation
 
 - `yarprobotinterface` (middleware): it sends (through yarp ports) the 6-axis F/T sensors measurements to the wholeBodyDynamics module and receives from it the computed joint torques. The estimated joint torque measurements are sent to the boards which perform the control.
@@ -42,7 +41,9 @@ Five different control modes are currently implemented in the firmware of the co
 (Typical input parameters: desired position, trajectory velocity)
 Position control is the standard control mode. In this control mode, the motors PWM is computed using a PID controller the receives in input the desired joint position and the current measurement from the joint encoders:
 
-![pid-pos](./img/Pid_pos.jpg)
+$$
+PWM = PID\left(q-q_d\right)+PWM_{offset}
+$$
 
 Note that when you command a new joint position, you are not instantaneously assigning the reference qd in the above formula. Instead, a mimum jerk trajectory generator takes in input your commanded position and the desired velocity, and produces a smooth movement creating a sequence of position references qd tracked by the PID controller.
 
@@ -56,7 +57,9 @@ Torque control mode allows you to directly control the robot joints torque:
 Pid trq.jpg
 In this case the motors PWM is computed using a PID controller the receives in input the desired joint torque and the current measured joint torque. Additionally, a PWM offset can be added to the output of the control algorithm. If both the commanded reference torque and the PWM offset is set to zero, the robot joint will be free to be moved in the space (eventually it will move down as an effect of the gravity acting on that joint).
 
-![pid-pos](./img/Pid_trq.jpg)
+$$
+PWM=PID\left(\tau-\tau_d\right)+PWM_{offset}
+$$
 
 #### Openloop control mode
 (Typical input parameters: motor PWM)
@@ -69,7 +72,12 @@ The control is implemented in the DSP firmware as follows:
 Pid imp.jpg
 Firstly, a reference torque is computed, accordingly to the input position and the commanded stiffness/damping parameters (Hooke's law). Secondly, the reference torque is tracked by a PID algorithm (same gains used by the torque control mode). By tuning the stiffness parameters, you can thus make the robot joint feeling like a hard or soft spring, while maintaining control on the desired joint position (note that the same mimum-jerk trajectory generator used by the position control is also used when position impedance control is running).
 
-![pid-pos](./img/Pid_imp.jpg)
+$$
+\begin{align}
+\tau_d &= -K_{stiffness}\left(q-q_d\right)-K_{damping}\dot{q}+\tau_{offset} \\
+PWM &= PID\left(\tau-\tau_d\right)+PWM_{offset}
+\end{align}
+$$
 
 #### Impedance Velocity control mode
 (Typical input parameters: desired velocity, acceleration + desired joint stiffness and damping)
