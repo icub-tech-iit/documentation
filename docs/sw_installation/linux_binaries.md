@@ -23,6 +23,7 @@ sudo apt update
 
 !!! note "Missing support for i386 architecture"
     If you face the following **error**
+    ```
     N: Skipping acquire of configured file 'contrib/science/binary-i386/Packages' as repository 'http://www.icub.eu/ubuntu jammy InRelease' doesn't support architecture 'i386'
     ```
     please add `[arch=amd64]` in the file `/etc/apt/sources.list.d/icub.list` as follows (eg. in case of Ubuntu Jammy Jellyfish)
