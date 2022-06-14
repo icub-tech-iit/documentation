@@ -19,11 +19,12 @@ If you want to change the default password simply execute (*this works only if y
 
 `passwd icub`
 
-**NOTE**: As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
+!!! note "root login"
+    As in any Ubuntu installation, the root user has no password, this means that the direct login (i.e. *ssh root\@icub-head*) is disabled, but you can always do
 
 `sudo su - `
 
-## Creation of the icub user
+## Creation of the iCub user
 
 You need to create the icub user. For nfs (see later) to work this user has to have the uid 1000 and guid 1000. In LINUX starting procedure, is asks to create the first user. By default uid is set at 1000. To make sure it is done do :
 
@@ -48,14 +49,14 @@ Also install (optional, but very useful) the following packages:
 
 # Debian Software repository
 
-!!! note
+!!! warning "for Debian systems"
     this step is required only for a Debian machine.
 
 Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/sources.list`
 
 # iCub software repository and common packages
 
-!!! note
+!!! warining "in case of icub dedicated server"
     skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Configure the iCub software repository, by creating the file `/etc/apt/sources.list.d/icub.list` as following example
@@ -90,10 +91,10 @@ You have two options:
 ## Configuration methods
 Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (eg. in Ubuntu 20.04 the tool is [Network Manager](https://help.ubuntu.com/community/NetworkManager) ).
 
-Otherwise, you can configure the network interfaces usign the commmand line configuration files (eg. in Ubuntu 20.40 you have to deal with [NETPLAN](https://netplan.io/) )
+Otherwise, you can configure the network interfaces using the command line configuration files (eg. in Ubuntu 20.40 you have to deal with [NETPLAN](https://netplan.io/) )
 
 ## the HOSTS file
-Please check that the file `/etc/hosts` looks asfollows:
+Please check that the file `/etc/hosts` looks as follows:
 
 ```
 127.0.0.1       localhost
@@ -107,7 +108,7 @@ where **MACHINE_HOSTNAME** is the hostname of you machine, that should match the
 !!! note
     Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
-To mount the remote NFS shares, edit `/etc/fstab`, by adding the folowing lines
+To mount the remote NFS shares, edit `/etc/fstab`, by adding the following lines
 
 ```
 NFS_SERVER_IP:/exports/code /usr/local/src/robot nfs _netdev,auto,bg 0 0
@@ -126,7 +127,7 @@ Then create the two above mountpoints as follows
 
 # NTP configuration
 
-!!! note
+!!! warning "in case of iCub server"
     Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
 You should configure this machine as an NTP client and then configure the NTP service to point to `icub-srv` as an NTP server.
@@ -154,7 +155,7 @@ You can use several different packages to install an NTP client, but we recommen
 
 # iCub user environment variables
 
-!!! note
+!!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Please see [this section](../icubos/user-env.md)
@@ -173,7 +174,7 @@ There are several customization you need to apply to the file `.bashrc\_iCub`:
 
 # _Optional_ - Configure remote desktop
 
-!!! note
+!!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 If you want to setup a VNC remote desktop, execute from a graphical session the following command
@@ -186,7 +187,7 @@ If you get this error _The authentication mechanism requested can not be provide
 
 # _Optional_ - Disable the screen power off
 
-!!! note
+!!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Using the gnome3 control panel, it is not possible to avoid the system has to be idle for the monitor to be turned off, the maximum time is "1 hour", "never" is not possible. From the command line execute the following commands
@@ -199,14 +200,14 @@ Using the gnome3 control panel, it is not possible to avoid the system has to be
 
 # _Optional_ - install nVidia video drivers
 
-!!! note
+!!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
-1. Check if you have nvidia hardware
+1. Check if you have nVidia hardware
 
 `sudo ubuntu-drivers devices`
 
-and check the command output. In case of nvidia hardare you should see somthing like the following example
+and check the command output. In case of nVidia hardware you should see somthing like the following example
 
 ```
 == /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
@@ -223,7 +224,7 @@ driver   : nvidia-331-updates - distro non-free
 
 The above example is showing that there are several different nVidia driver versions available, you should chose the **recommended** one (the `nvidia-331` in above example )
 
-2. Install the appropriate nvidia driver, as follows (for the example above)
+2. Install the appropriate nVidia driver, as follows (for the example above)
 
 `sudo apt install nvidia-331`
 
@@ -233,7 +234,7 @@ For further details, please read [this guide](https://help.ubuntu.com/community/
 
 # _Optional_ - Fix the the .local domains resolution problems
 
-!!! note
+!!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
 Edit `/etc/nsswitch` replacing the following line
@@ -252,7 +253,7 @@ In case of lag in SSH connections, disable DNS lookup on ssh server, edit the fi
 
 # _Optional_ - how to fix the \"nobody:nobody\" NFS mount issue
 
-!!! note
+!!! warning "in case of iCub server"
     This skip is valid only for machines were you mount a NFS repository, so you must skip it in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
 
 If the NFS mounts shows NOBODY as UID and GUID, this mean that the client and the server are not in the same domain, check the file
@@ -267,7 +268,7 @@ so both, server and client must match.
 
 # Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment (see [_User Environment_](../icubos/user-env.md) chapter)
+What now you need to do is to customize the installation with your hardware and environment (see [_User Environment_](../icubos/user-env.md) chapter)
 
 # Special computers
 

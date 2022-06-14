@@ -14,15 +14,15 @@ installation instructions](generic-machine.md), in order to prepare a generic ma
 
 # Note
 
-**In the following instructions, we assume that the installed OS is a Debian GNU/Linux Wheezy. If you are usign a different distribution os release, please modify the instructionsaccordingly.**
+**In the following instructions, we assume that the installed OS is a Debian GNU/Linux Wheezy. If you are using a different distribution os release, please modify the instructions accordingly.**
 
 # Installation steps
 
-## Install cuda toolkit
+## Install CUDA toolkit
 
 ### From Distribution repository (Debian / Ubuntu, quite old versions)
 
-- DEBIAN : from debian **non-free** repository, install the following
+- DEBIAN : from Debian **non-free** repository, install the following
     packages
 
 `nvidia-cuda-toolkit nvidia-cuda-dev`
@@ -34,5 +34,5 @@ installation instructions](generic-machine.md), in order to prepare a generic ma
 
 ### From the nVidia Developer website (Ubuntu, always the latest version)
 
-Install the package for your distribuition and architecture from
+Install the package for your distribution and architecture from
 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
