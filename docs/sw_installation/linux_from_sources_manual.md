@@ -13,12 +13,11 @@ sudo sh -c 'echo "deb http://www.icub.eu/ubuntu `lsb_release -cs` contri
 sudo apt update
 ~~~
 
-**NOTE** : if apt complains about missing public key, please import the
-repository public key (this needs to be done only once) as follows
-
-~~~
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6`
-~~~
+!!! note "Missing public key"
+    if apt complains about missing public key, please import the repository public key (this needs to be done only once) as follows
+    ```
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6`
+    ```
 
 Install only the package icub-common:
 ~~~
