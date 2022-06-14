@@ -8,18 +8,22 @@ We provide binaries apt binary packages for the software contained in the [`ycm`
 
 ### Setting up your source list
 
-Add `www.icub.eu` to your `sources.list`. Below, replace `ubuntu` with `debian`, depending on your system.
+Add `www.icub.eu` to your _APT sources_: see below, where you may replace `ubuntu` with `debian`, depending on your system.
 
 ~~~
 sudo sh -c 'echo "deb http://www.icub.eu/ubuntu `lsb_release -cs` contrib/science" > /etc/apt/sources.list.d/icub.list'
 sudo apt update
 ~~~
 
-Update the list of packages.
-
-~~~
-sudo apt update
-~~~
+!!! note "NO_PUBKEY"
+    If you face the following **error**
+    ```
+    The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 57A5ACB6110576A6
+    ```
+    Please add to your apt keystore the key 57A5ACB6110576A6 as follows
+    ~~~
+    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6
+    ~~~
 
 !!! note "Missing support for i386 architecture"
     If you face the following **error**
@@ -27,9 +31,10 @@ sudo apt update
     N: Skipping acquire of configured file 'contrib/science/binary-i386/Packages' as repository 'http://www.icub.eu/ubuntu jammy InRelease' doesn't support architecture 'i386'
     ```
     please add `[arch=amd64]` in the file `/etc/apt/sources.list.d/icub.list` as follows (eg. in case of Ubuntu Jammy Jellyfish)
-    ```
+
+    ~~~
     deb [arch=amd64] http://www.icub.eu/ubuntu jammy contrib/science
-    ```
+    ~~~
 
 !!! note "Legacy keyring deprecation"
     If you face the following **warning**
@@ -38,27 +43,20 @@ sudo apt update
     ```
     Please _ignore it_.
 
-Import the repository public key (this needs to be done only once)
-
-~~~
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6
-~~~
-
 ### Dependencies
 
 iCub packages needs a recent version of cmake (at least 3.12). Where this
 version is not available (such as Ubuntu 18.04 Bionic) when you try to
 install the icub-common package you'll see the following error:
 
-~~~
+```
 The following packages have unmet dependencies:
  icub-common : Depends: ycm-cmake-modules but it is not going to be installed
               Depends: cmake (>= 3.12.0)
 E: Unable to correct problems, you have held broken packages.
-~~~
+```
 
-To solve the above issue, you need to add the [official Kitware APT
-repository](https://apt.kitware.com/).
+To solve the above issue, you need to add the [official Kitware APT repository](https://apt.kitware.com/).
 
 ### Install the binaries
 
@@ -72,7 +70,6 @@ installs the latest version of the software contained in [`icub-main`](https://g
 
 ## Check your installation
 After you followed the installation instructions, you can check if your installation was successful by following the instructions in the [Check your installation](./check_your_installation.md) page.
-
 
 ## Uninstall
 
