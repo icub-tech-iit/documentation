@@ -3,10 +3,10 @@
 This method uses a pre-built disk image to install the icub-server, this image is a 1:1 copy of a working system: once the image is written on the icub-server disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](icub-server-from-scratch.md).
 
-# Prerequisite
+## Prerequisite
 Please check that the BIOS configuration allows to boot from USB drive.
 
-# Installation procedure
+## Installation procedure
 
 This procedure involves the following steps:
 
@@ -18,7 +18,7 @@ This procedure involves the following steps:
 6. Reboot icub-server
 7. Customize the system
 
-## Create the bootable USB with the imaging tool (CloneZilla)
+### Create the bootable USB with the imaging tool (CloneZilla)
 
 The imaging tool used to create and restore icub-head disk images is [CloneZilla LIVE](https://clonezilla.org/clonezilla-live.php).
 
@@ -26,11 +26,11 @@ The imaging tool used to create and restore icub-head disk images is [CloneZilla
 2. Get a USB 3 USB drive (at least 4 GB of size)
 3. Create the live USB following [this guide](https://clonezilla.org/liveusb.php)
 
-## Download the latest iCub server image
+### Download the latest iCub server image
 
 Get the lastest iCubServerOS image on [this page](../download.md) and put it on a external USB drive (not the same were is CloneZilla LIVE)
 
-## Connect the icub-server
+### Connect the icub-server
 
 You need:
 
@@ -43,11 +43,11 @@ You need:
 Connect the keyboard, the USB with clonezilla to the hub and the USB disk with the iCubOS disk image. Then connect the hub to a USB port in the iCub head.
 Connect the monitor to the DisplayPort socket in the iCub head.
 
-## Boot the USB disk
+### Boot the USB disk
 
 Power on the icub-server and enter BIOS, the select drive with CloneZilla as first in boot order, then boot from that drive.
 
-## Write the image
+### Write the image
 
 Follow the steps below to write the image on the icub-head HD (detailed instruction about how to use CloneZilla can be found [here](https://clonezilla.org/clonezilla-usage/clonezilla-live-usage.php) ).
 
@@ -65,11 +65,11 @@ Follow the steps below to write the image on the icub-head HD (detailed instruct
 9. wait for the USB drive (as in step 8) is shown and press `CTRL-C`
 10. select the correct drive and partition for the USB drive (as in step 8) (usually partition is n.1)
 
-## Restart icub-server
+### Restart icub-server
 
 Power down the server, then restart.
 
-## Users and Passwords
+### Users and Passwords
 
 The default user account is
 

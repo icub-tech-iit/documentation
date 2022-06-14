@@ -1,30 +1,30 @@
 # The iCub Dedicated Server - Installation from scratch
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it.
 
-# Latest versions
+## Latest versions
 Latest version is based on Ubuntu Server 20.04.2
 
-# Prerequisite
+## Prerequisite
 Please check that the BIOS configuration allows to boot from USB drive.
 
-# Create the USB installer
+## Create the USB installer
 The first step is download the [official Ubuntu 20.04 LTS Server install media](https://releases.ubuntu.com/focal/ubuntu-20.04.1-live-server-amd64.iso) from the [release page](https://releases.ubuntu.com/focal/)
 
 Then please create the USB installer using an USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
 On Ubuntu website, you can find further info about creating a bootable USB stick on [Windows](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows?_ga=2.181742695.1184983981.1588944309-600352565.1586438290), [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu?_ga=2.181742695.1184983981.1588944309-600352565.1586438290) or [macOS](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos?_ga=2.236980288.1184983981.1588944309-600352565.1586438290)
 
-# Install system
+## Install system
 Use the following details to install Ubuntu server on icub-server.
 You can find further details and guides on [the official Ubuntu Server installation guide](https://ubuntu.com/server/docs)
 
-## Basic Info
+### Basic Info
 - **Hostname** : icub-srv
 - **IP address** : 10.0.0.1
 - **Username** : icub
 - **Password** : icub
 
-## Operative System
+### Operative System
 - **Installed OS** : Ubuntu Server 20.04.2 LTS
 - **Language** : english
 - **Country** : Italy
@@ -37,9 +37,9 @@ You can find further details and guides on [the official Ubuntu Server installat
 !!! warning
     _Please disable LVM configuration during the partitioning step of installation procedure_
 
-## Network configuration
+### Network configuration
 
-### external connection
+#### external connection
 ```
 enp1s0:
   dhcp4: true
@@ -48,7 +48,7 @@ enp1s0:
   optional: true
 ```
 
-###  internal connection
+####  internal connection
 ```
 enp2s0:
   dhcp4: false
@@ -59,19 +59,19 @@ enp2s0:
 !!! note "configuration details"
     See file `/etc/netplan/50-icub-srv.yaml` for configuration details
 
-## Remove Cloud Init package
+### Remove Cloud Init package
 Remove cloud init package
 ```
 sudo apt purge cloud-guest-utils cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf
 ```
 
-##IP forwarding
+### IP forwarding
 To enable IP forwarding edit the file /etc/sysctl.conf by modifying the below line as follows
 ```
 net.ipv4.ip_forward = 1
 ```
 
-## Network Address Translation
+### Network Address Translation
 The following IPTABLES rules enable the NAT
 ```
 sudo iptables --table nat --append POSTROUTING --out-interface enp1s0 -j MASQUERADE
@@ -86,7 +86,7 @@ sudo apt install iptables-persistent
 !!! note "further details"
     See file `/etc/iptables/rules.v4` for persistent rules details
 
-## DNS Server
+### DNS Server
 Install package bind9
 ```
 sudo apt install bind9 bind9utils
@@ -95,21 +95,21 @@ sudo apt install bind9 bind9utils
 !!! note "further details"
     See configuration files in `/etc/bind` and `/var/lib/bind` for further details
 
-### Fix logging configuration
+#### Fix logging configuration
 create the folder `/var/log/bind/` and set correct ownership
 ```
 mkdir /var/log/bind/
 chown bind:bind /var/log/bind/
 ```
 
-## DHCP Client
+### DHCP Client
 Edit the file `/etc/dhcp/dhclient.conf`  adding the following lines
 ```
 supersede domain-name "icub.local";
 prepend domain-name-servers 127.0.0.1;
 ```
 
-## DHCP Server
+### DHCP Server
 Install package isc-dhcp-server
 ```
 sudo apt install isc-dhcp-server
@@ -122,14 +122,14 @@ INTERFACESv4="enp2s0"
 !!! note "further details"
     See configurations files in `/etc/dhcp` for configuration details
 
-### Fix logging configuration
+#### Fix logging configuration
 Create the folder `/var/log/dhcpd/` and set correct ownerhip
 ```
 mkdir /var/log/dhcpd/
 chown bind:bind /var/log/named/
 ```
 
-### RNDC fix
+#### RNDC fix
 To fix the RNDC please use the following commands
 ```
 sudo cp /etc/bind/rndc.key /etc/dhcp/ddns-keys/
@@ -137,7 +137,7 @@ sudo chown root:root /etc/dhcp/ddns-keys/rndc.key
 sudo chmod 640 /etc/dhcp/ddns-keys/rndc.key
 ```
 
-## AppArmor profiles update
+### AppArmor profiles update
 In order to allow DCHPD and Bind services to read in write their configuration fields and logs, you should add some lines in the _local_ apparmod configuration
 
  - `/etc/apparmor.d/local/usr.sbin.dhcpd`
@@ -154,7 +154,7 @@ In order to allow DCHPD and Bind services to read in write their configuration f
  !!! note "further details"
      See configurations files in `/etc/apparmo.d` for configuration details
 
-## Logrotate configuration
+### Logrotate configuration
 You should add the lograte configuration for the log files from DHCPD and Bind service by adding the following files
 
 - `/etc/logrotate.d/dhcpd`
@@ -183,13 +183,13 @@ You should add the lograte configuration for the log files from DHCPD and Bind s
 },
 ```
 
-## Set correct timezone
+### Set correct timezone
 Change the timezone to Europe/Rome
 ```
 ln -sf /usr/share/zoneinfo/Europe/Rome /etc/localtime
 ```
 
-## NTP Server
+### NTP Server
 Install the ntp package
 ```
 sudo apt install ntp
@@ -204,7 +204,7 @@ fudge           127.127.1.0 stratum 10
 broadcastdelay  0.008
 ```
 
-## NFS Server
+### NFS Server
 The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the PC104 and by the laptop itself :
 
 - /exports/code - this contains the robot software sources such as YARP, iCub Software.
@@ -228,7 +228,7 @@ Edit the exports configuration file /etc/exports as follows
 /exports/local_yarp     10.0.0.0/255.255.255.0(rw,sync,no_subtree_check)
 ```
 
-## Disable unattended-upgrades
+### Disable unattended-upgrades
 In order to avoid automatic system updates you can edit the file `/etc/apt/apt.conf.d/20auto-upgrades by` changing the following lines
 ```
 APT::Periodic::Update-Package-Lists "1";
@@ -241,4 +241,4 @@ sudo apt remove unattended-upgrades
 ```
 ## Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment
+What now you need to do is to customize the installation with your hardware and environment

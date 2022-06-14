@@ -2,13 +2,13 @@
 
 This page contains instructions on how to prepare a machine to work in the iCub Subnet environment. This is a basic setup, useful as a starting point to prepare any kind of machine of the iCub ecosystem.
 
-# Operating System
+## Operating System
 
 You can choose both a Debian or Ubuntu Linux, the currently suggested OS is [Ubuntu 20.04 (Focal Fossa)](http://releases.ubuntu.com/20.04/).
 
-# User account
+## User account
 
-## Users and Passwords
+### Users and Passwords
 
 The default user account is
 
@@ -24,7 +24,7 @@ If you want to change the default password simply execute (*this works only if y
 
 `sudo su - `
 
-## Creation of the iCub user
+### Creation of the iCub user
 
 You need to create the icub user. For nfs (see later) to work this user has to have the uid 1000 and guid 1000. In LINUX starting procedure, is asks to create the first user. By default uid is set at 1000. To make sure it is done do :
 
@@ -37,7 +37,7 @@ Add the icub user to the sudoers group, as follows
 
 `sudo usermod -aG sudo icub`
 
-# Required and useful Packages
+## Required and useful Packages
 
 Please install the following packages (names are correct for Ubuntu 18.04, please check the corresponding package in your distribution):
 
@@ -47,14 +47,14 @@ Also install (optional, but very useful) the following packages:
 
 `vim iperf`
 
-# Debian Software repository
+## Debian Software repository
 
 !!! warning "for Debian systems"
     this step is required only for a Debian machine.
 
 Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/sources.list`
 
-# iCub software repository and common packages
+## iCub software repository and common packages
 
 !!! warining "in case of icub dedicated server"
     skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
@@ -81,19 +81,19 @@ Install the following packages from icub repository
 
 ` icub-common`
 
-# Network configuration
+## Network configuration
 
 You have two options:
 
 - Static IP address (this option is **mandatory**  if there is no DHCP in your subnet - like in the case of the [iCub Console Server](icub-server-laptop.md) - or if your machine is the DHCP server - this is the case of  the [iCub Dedicated Server](icub-server-from-scratch.md) )
 - Dynamic DHCP IP address
 
-## Configuration methods
+### Configuration methods
 Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (eg. in Ubuntu 20.04 the tool is [Network Manager](https://help.ubuntu.com/community/NetworkManager) ).
 
 Otherwise, you can configure the network interfaces using the command line configuration files (eg. in Ubuntu 20.40 you have to deal with [NETPLAN](https://netplan.io/) )
 
-## the HOSTS file
+### the HOSTS file
 Please check that the file `/etc/hosts` looks as follows:
 
 ```
@@ -125,7 +125,7 @@ Then create the two above mountpoints as follows
 
 ` mkdir -p /usr/local/src/robot`
 
-# NTP configuration
+## NTP configuration
 
 !!! warning "in case of iCub server"
     Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
@@ -153,7 +153,7 @@ You can use several different packages to install an NTP client, but we recommen
 `NTPSERVERS="10.0.0.1 ntp.ubuntu.com"`
 
 
-# iCub user environment variables
+## iCub user environment variables
 
 !!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
@@ -198,7 +198,7 @@ Using the gnome3 control panel, it is not possible to avoid the system has to be
 
 `gsettings set org.gnome.desktop.session idle-delay 0`
 
-# _Optional_ - install nVidia video drivers
+## _Optional_ - install nVidia video drivers
 
 !!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
@@ -232,7 +232,7 @@ The above example is showing that there are several different nVidia driver vers
 
 For further details, please read [this guide](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia)
 
-# _Optional_ - Fix the the .local domains resolution problems
+## _Optional_ - Fix the the .local domains resolution problems
 
 !!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
@@ -245,13 +245,13 @@ with
 
 ` hosts:          files dns`
 
-# _Optional_ - how to fix ssh lag on connect
+## _Optional_ - how to fix ssh lag on connect
 
 In case of lag in SSH connections, disable DNS lookup on ssh server, edit the file `/etc/ssh/sshd_config` adding the following line
 
 `UseDNS no`
 
-# _Optional_ - how to fix the \"nobody:nobody\" NFS mount issue
+## _Optional_ - how to fix the \"nobody:nobody\" NFS mount issue
 
 !!! warning "in case of iCub server"
     This skip is valid only for machines were you mount a NFS repository, so you must skip it in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
@@ -266,11 +266,11 @@ Usually it is derived from the domain name mentioned in
 
 so both, server and client must match.
 
-# Customize the system
+## Customize the system
 
 What now you need to do is to customize the installation with your hardware and environment (see [_User Environment_](../icubos/user-env.md) chapter)
 
-# Special computers
+## Special computers
 
 In case of special machines (such as the cuda workstation or icub laptop) you must follow further steps in order to complete the installation:
 
