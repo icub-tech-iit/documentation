@@ -37,8 +37,9 @@ The key concept to comprehend how force control works and how to use it is the c
 Five different control modes are currently implemented in the firmware of the control boards:
 
 #### Position control mode
+!!! abstract "Typical Inputs"
+    desired position, trajectory velocity
 
-(Typical input parameters: desired position, trajectory velocity)
 Position control is the standard control mode. In this control mode, the motors PWM is computed using a PID controller the receives in input the desired joint position and the current measurement from the joint encoders:
 
 $$
@@ -48,11 +49,15 @@ $$
 Note that when you command a new joint position, you are not instantaneously assigning the reference qd in the above formula. Instead, a mimum jerk trajectory generator takes in input your commanded position and the desired velocity, and produces a smooth movement creating a sequence of position references qd tracked by the PID controller.
 
 #### Velocity control mode
-(Typical input parameters: desired velocity, acceleration)
+!!! abstract "Typical Inputs"
+    desired velocity, acceleration
+
 Velocity control mode allows you to control the robot by assigning a desired volocity/acceleration to a joint. The control law is the same of position control, but in this case qd is not directly controlled by the user, but it is obtained from the integration of the commanded user velocity. Also in this case a minimum jerk profile generator is used.
 
 #### Torque control mode
-(Typical input parameters: reference torque)
+!!! abstract "Typical Inputs"
+    reference torque
+
 Torque control mode allows you to directly control the robot joints torque:
 Pid trq.jpg
 In this case the motors PWM is computed using a PID controller the receives in input the desired joint torque and the current measured joint torque. Additionally, a PWM offset can be added to the output of the control algorithm. If both the commanded reference torque and the PWM offset is set to zero, the robot joint will be free to be moved in the space (eventually it will move down as an effect of the gravity acting on that joint).
@@ -62,11 +67,15 @@ PWM=PID\left(\tau-\tau_d\right)+PWM_{offset}
 $$
 
 #### Openloop control mode
-(Typical input parameters: motor PWM)
+!!! abstract "Typical Inputs"
+    motor PWM
+
 Openloop control mode allows you to directly control the joint motor, assigning directly the PWM (bypassing the PID controller)
 
 #### Impedance Position control mode
-(Typical input parameters: desired position, trajectory velocity + desired joint stiffness and damping)
+!!! abstract "Typical Inputs"
+    desired position, trajectory velocity + desired joint stiffness and damping
+
 Impedance control mode allows you to control the joint position and its compliance. In particular, you can control the equilibrium position of a virtual spring (using the standard yarp::dev::IPositionControl interface) and its stiffness/damping (using the yarp::dev::IImpedanceControl interface).
 The control is implemented in the DSP firmware as follows:
 Pid imp.jpg
@@ -80,11 +89,15 @@ PWM &= PID\left(\tau-\tau_d\right)+PWM_{offset}
 $$
 
 #### Impedance Velocity control mode
-(Typical input parameters: desired velocity, acceleration + desired joint stiffness and damping)
+!!! abstract "Typical Inputs"
+    desired velocity, acceleration + desired joint stiffness and damping
+
 The impedance velocity control mode is the corresponding impedance mode using velocity control. The control law is the same of the impedance position control, but in this case qd is not directly controlled by the user, but it is obtained from the integration of the commanded user velocity (also in this case minimum jerk profile generator is used).
 
 #### Idle
-(Typical input parameters: none)
+!!! abstract "Typical Inputs"
+    none
+
 This is not a real control mode, but represents the status of a joint in which the control is currently disabled (both because PWM has been deliberately turned off by the user or because a fault (e.g. overcurrent) occurred).
 
 NOTE 1: The control mode of a joint can be set using the yarp::dev::iControlMode interface.
