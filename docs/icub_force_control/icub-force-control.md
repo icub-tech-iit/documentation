@@ -83,7 +83,7 @@ Firstly, a reference torque is computed, accordingly to the input position and t
 
 $$
 \begin{align}
-\tau_d &= -K_{stiffness}\left(q-q_d\right)-K_{damping}\dot{q}+\tau_{offset} \\
+\tau_d &= -K_{stiffness} \cdot \left(q-q_d\right)-K_{damping} \cdot \dot{q}+\tau_{offset} \\
 PWM &= PID\left(\tau-\tau_d\right)+PWM_{offset}
 \end{align}
 $$
