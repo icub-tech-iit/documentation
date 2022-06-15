@@ -1,4 +1,4 @@
-# Welcome to iCub Tech Documentation
+# Welcome to the iCub Tech Documentation
 
 <center>
   <video controls autoplay muted loop width="800" height="530"> <source type="video/mp4" src="./assets/icub-rotate.mp4"> </video>
