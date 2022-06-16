@@ -9,4 +9,4 @@
 
 #### [:gear:{.blink} Documentation resources on the `iCub Hardware`](icub_hw.md)
 
-#### [:technologist:{.blink} Documentation resources on the `iCub Software`](icub_sw.md)
+#### [:computer:{.blink} Documentation resources on the `iCub Software`](icub_sw.md)
