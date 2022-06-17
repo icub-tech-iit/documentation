@@ -1,4 +1,4 @@
-# ⚙ iCub HW Documentation
+# :gear:{.blink} iCub HW Documentation
 First draft of iCub HW documentation.
 
 ### Main HW Repositories
