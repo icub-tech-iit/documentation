@@ -1,4 +1,4 @@
-# 👨🏻‍💻 iCub SW Documentation
+# :computer:{.blink} iCub SW Documentation
 
 - [`Software Installation`](./sw_installation/index.md)
 - [`Software Versioning Table`](./sw_versioning_table/index.md)
