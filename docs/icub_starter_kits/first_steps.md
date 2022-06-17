@@ -1,4 +1,4 @@
-# iCub First Steps
+# :one:{.blink} iCub First Steps
 
 ## iCub Unpacking and Installation
 
