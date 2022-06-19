@@ -5,11 +5,9 @@ iCub Tech Docs
 [![Check Links](https://github.com/icub-tech-iit/documentation/actions/workflows/check-links.yml/badge.svg)](https://github.com/icub-tech-iit/documentation/actions/workflows/check-links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-🌐 Browse our [online documentation](https://icub-tech-iit.github.io/documentation).
-
-This is an attempt to make available to the community useful information that are not present or easily accessible through our [official documentation](http://wiki.icub.eu/wiki/Main_Page). Thus, at the time being, it is intended to be an ever-growing container that supports and integrates with the official resources.
-
-📝 Importantly, you can contribute to these docs by fixing typos and proposing new additions (see below).
+- 🌐 Browse our [online documentation](https://icub-tech-iit.github.io/documentation).
+- ℹ️ You may consider checking out also our [old documentation](http://wiki.icub.eu/wiki/Main_Page), which might contain useful information that we haven't migrated yet.
+- 📝 Importantly, you can contribute to these docs by fixing typos and proposing new additions (see below).
 
 # Contributing
 Check out our [CONTRIBUTING guidelines](./.github/CONTRIBUTING.md).
