@@ -257,8 +257,8 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Fast shaft sensor|Lcore 5 – optical disk 004|
 |Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
-|HW limits|+130/-55 front/rear (degrees)|
-|SW limits|+125/-40 proposal (degrees)|
+|HW limits|+94/-47 front/rear (degrees)|
+|SW limits|-|
 
 ### Joint 1 - left, right hip roll
 |   |   |
@@ -268,7 +268,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Fast shaft sensor|Lcore 5 – optical disk 004|
 |Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
-|HW limits|-116/+20 front/rear (degrees)|
+|HW limits|+120/-20 front/rear (degrees)|
 |SW limits|-|
 
 ### Joint 2 - left, right yaw
@@ -279,7 +279,7 @@ Here's are described the elctrical and mechanical specifications for each joint
 |Fast shaft sensor|Lcore 5 – optical disk 004|
 |Slow shaft sensor drive|AMO board  - magnetic target 64/63  (MU7S_64-63N PWB 103839)|
 |Harmonic drive|CSD-20-100-2UH_CS (1:100)|
-|HW limits|-67.5/+67.5 (degrees)|
+|HW limits|-80.5/+80.5 (degrees)|
 |SW limits|-|
 
 ### Joint 3 - left, right knee
