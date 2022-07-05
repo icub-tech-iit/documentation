@@ -43,7 +43,7 @@ Add following lines in the file `/etc/hosts`
 
 ## NFS Server
 
-The laptop hosts two directories and export them using nfs. Both of the are mounted by the other machines on the network, by the icub-head and by the laptop iteself :
+The laptop hosts two directories and export them using nfs. Both of them are mounted by the other machines on the network, by the icub-head and by the laptop iteself :
 
 -   `/exports/code` - this contains the robot software sources such as
     YARP, iCub Software.
