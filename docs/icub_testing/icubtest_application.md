@@ -1,0 +1,2 @@
+# Robot Testing
+This page shows how to run tests on the robot using the iCubTest application.

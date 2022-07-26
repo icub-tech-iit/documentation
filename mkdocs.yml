@@ -237,6 +237,9 @@ nav:
       - Calibration Types:
         - iCub 2.X and R1 Calibration types: icub_r1_icub3_calibration_types/icub_r1_calibration_types.md
         - iCub 3 Calibration types: icub_r1_icub3_calibration_types/icub3_calibration_types.md
+      - Robot Testing:
+        - iCubTest Application: icub_testing/icubtest_application.md
+        - icub-tests and RobotTestingFramework: icub_testing/robot_testing_framework.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md
       - Using iCub with ROS: icub_ros/index.md
