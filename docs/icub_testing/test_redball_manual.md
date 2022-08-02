@@ -1,4 +1,4 @@
-# Test Demo Red Ball
+# Test Demo Red Ball (manual)
 
 📚 Additional  info [here](http://mediawiki.isr.ist.utl.pt/wiki/3D_ball_tracker).
 

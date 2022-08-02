@@ -241,7 +241,8 @@ nav:
         - iCubTest Application: icub_testing/icubtest_application.md
         - Encoders and Joint limits (manual): icub_testing/encoders_manual.md
         - Face Expressions: icub_testing/test_face_expressions.md
-        - RedBall: icub_testing/test_redball.md
+        - RedBall (App): icub_testing/test_redball_app.md
+        - RedBall (Manual): icub_testing/test_redball_manual.md
         - Skin: icub_testing/test_skin.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md
