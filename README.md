@@ -38,9 +38,8 @@ Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-
 | ![](./assets/codespaces.gif) |
 
 ## 🔘 [GitHub Pages](https://pages.github.com) on Forks
-We use [GitHub Actions](https://docs.github.com/en/actions) to publish the website on the GitHub Pages. However, GitHub Actions are disabled by default on forks.
-Thus, follow the steps below, where you have to correctly fill up the signature `your-fork`:
-- Browse to https://github.com/your-fork/documentation/actions and enable the actions.
+⚠️ When forking the repository, remember to copy out all the branches. Then, follow the steps below, where you have to correctly fill up the signature `your-fork`:
+- Browse to https://github.com/your-fork/documentation/actions and enable the actions if they got disabled.
 - Browse to https://github.com/your-fork/documentation/actions/workflows/gh-pages.yml and click on the <kbd>Run workflow</kbd> button.
 - Browse to https://github.com/your-fork/documentation/settings/pages, select the `gh-pages` branch and wait until the GitHub Pages link becomes green to click on!
 

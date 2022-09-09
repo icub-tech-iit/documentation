@@ -195,8 +195,8 @@ When the user shuts down [Yarprobotinterface](http://www.yarp.it/git-master/yarp
 Usually the robots in iCub Facility run developing software, that is, they use the same software modules, but on the development branch instead of the stable one (master).
 
 
-For these robots, the most recent configuration is available on development branch of robots configuration repository in the folder [iCubTemplates/iCubTemplateV5_0](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates/iCubTemplateV5_0).
+For these robots, the most recent configuration is available on development branch of robots configuration repository in the folder [iCubTemplates/iCubTemplateV6_0](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates/iCubTemplateV6_0).
 
 This mean that in the newest version may be available new parameters or there are some changes that are not described in the last stable version.
 
-If you are interesting in the meaning of this changes, please check [iCubTemplates/iCubTemplateV5_0](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates/iCubTemplateV5_0).
+If you are interesting in the meaning of this changes, please check [iCubTemplates/iCubTemplateV6_0](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates/iCubTemplateV6_0).
