@@ -1,12 +1,13 @@
 # Robot Testing - Encoders and Joints limit (manual)
 This page shows how to manually run tests on the robot using the icub-tests package and Robot Testing Framework.
 
-# Preliminary actions
+## Preliminary actions
 In order to use the tests available for icub, it is necessary to compile the robotology-superbuild with the `ROBOT_TESTING_FRAMEWORK` flag enabled. This will create a folder in the source code where you will find the suites to run for testing encoders and joint limits.
 
 ## Test Encoders
 
-**Optical Encoders Drift** = this test moves each joint for 1000 cycles and prints out the motor encoder sinusoid. It is important to check if the encoder eventually drifts -meaning that the optical disk is dirty and it needs to be cleaned. The drifting can be seen as a slope in the plot:
+### Optical Encoders Drift
+This test moves each joint for 1000 cycles and prints out the motor encoder sinusoid. It is important to check if the encoder eventually drifts -meaning that the optical disk is dirty and it needs to be cleaned. The drifting can be seen as a slope in the plot:
 
 ![image](https://user-images.githubusercontent.com/61685519/99657660-c37d6700-2a5e-11eb-9175-cf683e71121e.png)
 
@@ -14,8 +15,8 @@ A correct example of non-drift is:
 
 ![image](https://user-images.githubusercontent.com/61685519/99657902-0a6b5c80-2a5f-11eb-837b-7cfd8562c936.png)
 
-
-**Motor Encoder Consistency** = this test performs a comparison between the joint encoder and the motor encoder parameters. The resulting plots should be overlapped.
+### Motor Encoder Consistency
+This test performs a comparison between the joint encoder and the motor encoder parameters. The resulting plots should be overlapped.
 
 Go to the `icub-tests` directory:
 
