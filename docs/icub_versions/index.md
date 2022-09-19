@@ -15,7 +15,8 @@
 | v2.6 | v2.5.5 with new face expression (RFE master board) | |
 | v2.7 | v2.6 with high-performance IMU on the waist | |
 | v2.8 | v2.7 with beam-splitter in the eye for hosting event driven and frame based sensors | |
-| v2.9 | **v2.7** with hands mk4 | |   
+| v2.9 | **v2.7** with hands mk5 and forearm mk2 | |   
+| v2.10 | **v2.7** with hands mk5, forearm mk2, new 4k basler cameras, nvidia xavier and intel i7 11th on com express type 10 module (UKIT009)  | |   
 
 |Special Version |	Features | Notes |
 | :---:| :---| :---|
