@@ -37,7 +37,7 @@ In order to properly clean the various nodes in the cluster, it will be necessar
 2. Press the STOP button and wait for all nodes in the docker swarm to be cleaned/deleted
 3. Close the application GUI from the X present in the window
 
-!!! note "IMPORTANT" 
+!!! warning "IMPORTANT" 
     For any emergency always keep the FAULT button handy and press it to switch off power to the motors.
 
 
