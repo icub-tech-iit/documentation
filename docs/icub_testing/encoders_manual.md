@@ -9,11 +9,15 @@ In order to use the tests available for icub, it is necessary to compile the rob
 ### Optical Encoders Drift
 This test moves each joint for 1000 cycles and prints out the motor encoder sinusoid. It is important to check if the encoder eventually drifts -meaning that the optical disk is dirty and it needs to be cleaned. The drifting can be seen as a slope in the plot:
 
-![image](https://user-images.githubusercontent.com/61685519/99657660-c37d6700-2a5e-11eb-9175-cf683e71121e.png)
+<center>
+<img src ="../img/drift1.png"/>
+</center>
 
 A correct example of non-drift is:
 
-![image](https://user-images.githubusercontent.com/61685519/99657902-0a6b5c80-2a5f-11eb-837b-7cfd8562c936.png)
+<center>
+<img src ="../img/drift2.png"/>
+</center>
 
 ### Motor Encoder Consistency
 This test performs a comparison between the joint encoder and the motor encoder parameters. The resulting plots should be overlapped.
