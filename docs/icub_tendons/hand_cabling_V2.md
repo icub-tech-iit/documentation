@@ -264,8 +264,8 @@ Here is the list of the 10 tendons needed to build the wrist movements:
 | 6      | 6415    | 113 mm | RC_IIT_019_G_024 |
 | 7      | 6416    | 112 mm | RC_IIT_019_G_025 |
 | 8      | 6417    | 107mm  | RC_IIT_019_G_026 |
-| 9      | 6418    | 51 mm  | RC_IIT_019_G_027 |
-| 10     | 6419    | 43 mm  | RC_IIT_019_G_028 |
+| 9      | 6418    | 53 mm  | RC_IIT_019_G_027 |
+| 10     | 6419    | 45 mm  | RC_IIT_019_G_028 |
 
 </center>
 
