@@ -1,7 +1,7 @@
 {
 	"name": "iCub Tech Documentation",
 	"build": {
-		"dockerfile": "../gitpod.Dockerfile"
+		"dockerfile": "../.gitpod.Dockerfile"
 	},
 	"extensions": [],
 	"forwardPorts": [8000],
