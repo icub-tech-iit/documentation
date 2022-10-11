@@ -18,7 +18,7 @@ jobs:
       - name: Fetch repository name
         id: repo-name
         run: |
-          echo "::set-output name=REPOSITORY_NAME::$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')"
+          echo "REPOSITORY_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_OUTPUT
         
       - name: Run checker
         run: |
