@@ -102,7 +102,7 @@ nav:
     - iCub HW:
       - Summary: icub_hw.md
       - The iCub Versions Table:
-        - iCub versions Table: icub_versions/index.md
+        - iCub Versions Table: icub_versions/index.md
       - The iCub Wiring:
         - Summary: icub_wiring/index.md
         - iCub 1.x: icub_wiring/icub1_x.md
