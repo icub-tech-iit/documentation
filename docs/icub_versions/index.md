@@ -23,3 +23,5 @@
 | v1.x.1 | where x > 1 This is the relative 1.x (x>1) version with a V2 head assembly mounted onto a V1 body | |
 | v1.x.2 | where x > 1 This is the relative 1.x (x>1) version with a V2 hands assembly mounted onto a V1 body with V1 head | | 
 | v1.x.3 | where x > 1 This is the relative 1.x (x>1) version with a V2 head and V2 hands assemblies mounted onto a V1 body  | | 
+| v3.0 | Experimental iCub, 1.2 m high with serial kinematic chains in the shoulders and more powerfull motors in the legs | | 
+| v3.1 | **v3.0** with new 4k basler cameras, nvidia xavier and intel i7 11th on com express type 10 module (UKIT009) | |
