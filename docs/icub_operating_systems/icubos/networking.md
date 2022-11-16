@@ -78,7 +78,7 @@ The names assigned to the network interfaces by the OS are hardware dependant, s
 
 ## WiFi
 
-If wifi is used (see above), please change the Wifi configuration in the file  `/etc/netplan\50-icub.yaml` with youR _ESSID_ and _WiFi password_ in the lines below
+If wifi is used (see above), please change the Wifi configuration in the file  `/etc/netplan\50-icub.yaml` with your _ESSID_ and _WiFi password_ in the lines below
  ```
    wifis:
      ...
