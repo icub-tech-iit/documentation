@@ -53,11 +53,11 @@
 ## Historical review:
 In previous revisions of the covers, the mini cards were organized in the shape of hexagons. This largely caused the skin patch PCB to flex and break, because the patches took the high curvature of the cover (see image).
 
--<center> ![imagine view](img/12.PNG) </center>
+<center> ![imagine view](img/12.PNG) </center>
 
 To solve this problem, we reduced the number of PCBs by arranging a strip with 5 PCBs (skin patch) on the flat surface of the cover. (see image)
 
--<center> ![imagine view](img/10.PNG) </center>
+<center> ![imagine view](img/10.PNG) </center>
 
 
 ## Assembly instruction.
@@ -65,7 +65,7 @@ To solve this problem, we reduced the number of PCBs by arranging a strip with 5
 First of all, it must be said that the electronic part of the upper arm covers is already supplied, that is, the MTB4 cards and the hexagon shape (skin) are mounted, glued and connected together.
 Before starting assembly, check the orientation of the covers.<br>
 
--<center> ![imagine view](img/8.PNG) </center>
+<center> ![imagine view](img/8.PNG) </center>
 
 **Assembly sequence** :<br>
 
@@ -76,9 +76,9 @@ Before starting assembly, check the orientation of the covers.<br>
 
 - Second and third step, fix the cover using the respective screws as shown in the image. This applies to both positions TOP and BOTTOM.
 
--<center> ![imagine view](img/3.PNG) </center>
+<center> ![imagine view](img/3.PNG) </center>
 
 - Fourth step, close the covers of the upper arm by pushing the Lover cover inwards in order to align the attachment holes. After that fix the covers with the respective lives as shown in the pictures.  This applies to both positions TOP and BOTTOM.
 
--<center> ![imagine view](img/4.PNG) </center>
--<center> ![imagine view](img/5.PNG) </center>
+<center> ![imagine view](img/4.PNG) </center>
+<center> ![imagine view](img/5.PNG) </center>
