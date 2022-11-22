@@ -16,7 +16,7 @@ $$
 \end{equation}
 $$
 
-where $\mathbf{q}$ is the vector of the 3 shoulder's joints, whereas:
+where $\mathbf{q}$ is the vector of the 3 shoulder's joints expressed in ==radians==, whereas:
 
 $$
 \begin{equation}
@@ -38,7 +38,7 @@ $$
      0 & -1 & -1
 \end{pmatrix}
 \quad 
-\mathbf{b} =
+\mathbf{b} = \frac{\pi}{180} \cdot
 \begin{pmatrix}
      404   \\
       54.3 \\
@@ -73,7 +73,7 @@ $$
      0 & -1 & -1
 \end{pmatrix}
 \quad 
-\mathbf{b^*} =
+\mathbf{b^*} = \frac{\pi}{180} \cdot
 \begin{pmatrix}
      347    \\
      366.57 \\
