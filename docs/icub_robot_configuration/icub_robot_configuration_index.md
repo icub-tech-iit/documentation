@@ -14,20 +14,48 @@ Each robot has a main configuration file, usually named icub_all.xml, that conta
 [**Naming convention**](./naming_convention/naming_convention.md)
 
 
+[**Configuration of devices**](./devices_configuration/devices_configuration.md)
+
+
+[**Configuration of calibrator module**](./calibrator_configuration/calibrator_configuration.md)
+
+
+
+
+## Note for robots in iCub Facility (iit Genoa, Italy)
+Usually the robots in iCub Facility run developing software, that is, they use the same software modules, but on the development branch instead of the stable one (master).
+This mean that in the newest version may be available new parameters or there are some changes that are not described in the last stable version. You can find these difference in the changelog.
+
+If you are interesting in the meaning of this changes, please check iCubTemplates/iCubTemplateVX_0, where X is the last version in the devel branch.
+
+
+
 
 
 
 3.1	1.Rules for naming devices
+
 3.2	2.Rules for naming wrapper file
+
 3.3	3.Rules for naming joints
+
 4	Configuration of devices
+
 4.1	Motor control device
+
 4.2	Motor Control on iCub
+
 4.3	FT sensor device
+
 4.4	Mais device
+
 4.5	Skin device
+
 4.6	Inertial device
+
 5	Configuration of calibrator module
+
 6	Cartesian controller module
+
 7	Note for robots in iCub Facility (iit Genoa, Italy)
 
