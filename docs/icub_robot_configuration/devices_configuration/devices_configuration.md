@@ -4,7 +4,7 @@ To configure a device it is necessary some specific data depending on device typ
 ## Motor control device
 Configuration of a motor control device is composed by the wiring, mechanicals and obviously by motor control specification related to joints it manages. In Ethernet robots, a motor control device corresponds to a motor control electronic board that manages from one up to twelve joints.
 
-The entry point of motor control device configuration is the file named `body_part-ebX-jA_B-mc.xml`, that is included in icub_all.xml. This file contains all parameters that the robot's user can modify, for example PID and joints limits, and links other 4 files that only maintainers should modify. These other four files are:
+The entry point of motor control device configuration is the file named `body_part-ebX-jA_B-mc.xml`, that is included in `icub_all.xml`. This file contains all parameters that the robot's user can modify, for example PID and joints limits, and links other 4 files that only maintainers should modify. These other four files are:
 
  - `general.xml`: contains some flags that change behavior of the device
  - `body_part-ebX-jA_B-eln.xml`: contains description of electronic board , such as ip address, and specific parameters of communication protocol used by firmware and yarp devices.

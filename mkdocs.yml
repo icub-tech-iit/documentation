@@ -237,6 +237,12 @@ nav:
       - Calibration Types:
         - iCub 2.X and R1 Calibration types: icub_r1_icub3_calibration_types/icub_r1_calibration_types.md
         - iCub 3 Calibration types: icub_r1_icub3_calibration_types/icub3_calibration_types.md
+      - Robot Configuration: 
+         - Summary: icub_robot_configuration/icub_robot_configuration_index.md
+         - Structure of robot configuration data set: icub_robot_configuration/structure_robot_configuration_data_set/structure_robot_configuration_data_set.md
+         - Naming conventions: icub_robot_configuration/naming_convention/naming_convention.md
+         - Devices configuration: icub_robot_configuration/devices_configuration/devices_configuration.md
+         - Calibrator configuration: icub_robot_configuration/calibrator_configuration/calibrator_configuration.md
       - Robot Testing:
         - iCubTest Application: icub_testing/icubtest_application.md
         - Encoders and Joint limits (manual): icub_testing/encoders_manual.md
