@@ -17,7 +17,7 @@ This is the pattern of name of each device and its configuration file: `body_par
 
  For example, the configuration file of motor control device of joint 0 and 1 of head is named `head-eb20-j0_1-mc.xml` and inside it there is the name of device `head-eb20-j0_1-mc`:
 
- ```
+ ```xml
     <devices robot="robotName" build="1">
         <device name="head-eb20-j0_1-mc" type="embObjMotionControl">
             <params ....... />
