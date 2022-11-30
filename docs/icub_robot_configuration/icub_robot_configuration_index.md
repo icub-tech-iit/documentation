@@ -46,7 +46,7 @@ Each robot has a main configuration file, usually named `icub_all.xml`, that con
 Robots hosted at the iCub Tech Facility often run developing software, that is, they use the same software modules, but on the development branch instead of stable (master).
 This means that in the newest version new parameters may be available or there might be some changes that are not described in the latest stable version. You can find these differences in the changelog.
 
-If you are interesting in the meaning of this changes, please check iCubTemplates/iCubTemplateVX_0, where X is the last version in the devel branch.
+If you are interested in the rationale underlying these changes, please check the files `[iCubTemplates](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates)/iCubTemplateVX_0`, where `X` identifies the latest version in the devel branch.
 
 
 
