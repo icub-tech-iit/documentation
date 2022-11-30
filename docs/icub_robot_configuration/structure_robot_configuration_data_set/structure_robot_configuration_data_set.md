@@ -29,7 +29,7 @@ Each robot configuration folder has following structure:
 
 
 
-```
+```xml
     <devices file="hardware/motorControl/left_arm-eb1-j0_3-mc.xml" />         <!-- motion control device that controls joints numbered from 0 to 3 -->
     <devices file="hardware/motorControl/left_arm-eb1-j0_3-mc.xml" />         <!-- motion control device that controls joints numbered from 0 to 3 -->
     <devices file="hardware/motorControl/left_arm-eb1-j0_3-mc.xml" />         <!-- motion control device that controls joints numbered from 0 to 3 -->
