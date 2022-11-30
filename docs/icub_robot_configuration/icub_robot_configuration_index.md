@@ -42,9 +42,9 @@ Each robot has a main configuration file, usually named `icub_all.xml`, that con
 
 
 
-## Note for robots in iCub Facility (iit Genoa, Italy)
-Usually the robots in iCub Facility run developing software, that is, they use the same software modules, but on the development branch instead of the stable one (master).
-This mean that in the newest version may be available new parameters or there are some changes that are not described in the last stable version. You can find these difference in the changelog.
+## Note for robots hosted at the iCub Tech Facility
+Robots hosted at the iCub Tech Facility often run developing software, that is, they use the same software modules, but on the development branch instead of stable (master).
+This means that in the newest version new parameters may be available or there might be some changes that are not described in the latest stable version. You can find these differences in the changelog.
 
 If you are interesting in the meaning of this changes, please check iCubTemplates/iCubTemplateVX_0, where X is the last version in the devel branch.
 
