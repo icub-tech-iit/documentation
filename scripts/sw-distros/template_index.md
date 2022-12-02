@@ -9,7 +9,7 @@ Software Distros
 - 📝 Repositories stay on their usual release convention in order to enable proper **semantic versioning**. To link repos tags to SW Distro and run CI, we rely on the infrastructure provided in [`robotology/robotology-superbuild`](https://github.com/robotology/robotology-superbuild).
 - 📦 Occasionally, we may release **feature-based distros** and/or **patches** as a collection of tags/branches (i.e., no binaries). Naming convention follows the pattern **`YYYY.MM.P`**, where **`YYYY.MM`** identifies the major release used as baseline and the patch number **`P`** is simply increased also in the case of a feature or patch distro released after YYYY/MM.
 - ⚠ Distros released before `2021.11.0` may be named without the patch number **`P`** and may also be marked explicitly with `feat` or `patch` labels. 
-- 📢 We make **announcements** of the distros and their content on a dedicated channel of [Robotology Community](https://github.com/robotology/community/discussions/categories/releases).
+- 📢 We make **announcements** of the distros and their content on a dedicated channel of [Robotology Community](https://github.com/orgs/robotology/discussions/categories/releases).
 
 ## Software Versioning Table
 The table hereinafter reports on the versions of the packages (specified in terms of Git tags/branches/commits)
