@@ -24,7 +24,7 @@ The motor control on the iCub robots is managed by three kinds of boards: `EMS4`
 
 One of the major changes, starting from version 3.0, consists of introduction of CONTROLS tag: it allows the user to save in file different PID configurations and he/she can choose which configuration he/she wants to use depending on the experiment he/she wants to run on the robot. To do this, the user writes one or more sections of PID within the file and indicates the selected PID in the "CONTROLS" group.
 
-Anyway, the user must be careful to respect the hardware configuration he/she's using when choosing the PID to use in the control group. The control law is fixed to minimun jerk but the ouput of the PID depends from the HW configuration. Referring to the image above, we've two kinds of HW configurations available at the moment on the robot (see [here](../../icub_wiring/icub2_x.md/#ethernet-backbone)):
+Anyway, the user must be careful to respect the hardware configuration under use when tuning the PID gains in the control group. The control law is fixed to minimun jerk but the ouput of the PID depends on the HW configuration. Referring to the image above, we have currently [two kinds of HW configurations](../../../icub_wiring/icub2_x/#ethernet-backbone) available on the robot:
 
 ![motor_control](./img/motorcontrol.jpg "Motor control on iCub").
 
