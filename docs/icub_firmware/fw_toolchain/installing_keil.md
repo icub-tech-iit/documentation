@@ -12,7 +12,7 @@ with the installation!
 ### Download Keil
 
 You can download Keil at the following address: 
-[keil MDK Community]([https://www.keil.com/demo/eval/arm.htm](https://www2.keil.com/mdk5/install)). 
+[Keil MDK Community](https://www2.keil.com/mdk5/install). 
 This will require a registration, after which you will be provided with the download
 link:
 
