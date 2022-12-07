@@ -25,7 +25,7 @@ Run the installer that you downloaded on the previous step.
 
 ### Configuring your license
 
-To be able to use MDK-Community, you need a valid license. Go to keil.arm.com/mdk-community to receive a product serial number and learn how to convert it into a license.
+To be able to use MDK-Community, you need a valid license. Go to https://keil.arm.com/mdk-community to receive a product serial number and learn how to convert it into a license.
 
 Note:
 Use in commercial applications is not permitted
