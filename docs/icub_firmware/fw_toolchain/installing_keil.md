@@ -12,7 +12,7 @@ with the installation!
 ### Download Keil
 
 You can download Keil at the following address: 
-[https://www.keil.com/demo/eval/arm.htm](https://www.keil.com/demo/eval/arm.htm). 
+[keil MDK Community]([https://www.keil.com/demo/eval/arm.htm](https://www2.keil.com/mdk5/install)). 
 This will require a registration, after which you will be provided with the download
 link:
 
@@ -20,41 +20,15 @@ link:
 
 ### Installing Keil
 
-Run the installer that you downloaded on the previous step. During the installation
-you will be asked to input your data again, but instead of using your own email
-write Marco Accame's email: marco.accame@iit.it
-
-**Important Note:** At this point it is fundamental that Marco knows you are 
-installing Keil, and is expecting the email to arrive in his account, in order to
-speed up the process!
+Run the installer that you downloaded on the previous step. 
 
 
 ### Configuring your license
 
-Now that you have Keil installed, you need to configure your license. 
+To be able to use MDK-Community, you need a valid license. Go to keil.arm.com/mdk-community to receive a product serial number and learn how to convert it into a license.
 
-Open Keil, and navigate to the `File->License Management` menu:
-
-![keil_license_1.png](img/keil_license_1.png "keil_license_1.png")
-
-This will open the license management box, where you can manage all your licenses.
-To proceed with the configuration of your license, press the 
-`Get LIC via Internet...` button.
-
-![keil_license_2.png](img/keil_license_2.png "keil_license_2.png")
-
-In this form you will be asked to insert the name of your computer, and the PSN
-key. For the name of the computer, we strongly recommend you use your initials
-so it is easier to manage the licenses in the future. Marco Accame will provide you
-with the PSN key to complete the form.
-
-Once this form is completed you may request the license, which will be sent to
-Marco Accame, who will then forward to you. Once you have the key you can write 
-on the `New License ID Code (LIC)` box and add it to your licenses:
-
-![keil_license_3.png](img/keil_license_3.png "keil_license_3.png")
-
-This completes the Installation and license configuration for Keil!
+Note:
+Use in commercial applications is not permitted
 
 ## Configuring iCub-firmware
 
