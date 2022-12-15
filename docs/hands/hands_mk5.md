@@ -1,4 +1,4 @@
-# Hand Mk5 joint spec
+# Hand Mk5 joints Specs
 
 | Joint number  | Motors | Identifier    | Type | Parent link                 | Child link                  | Notes           |
 |---------------|--------|---------------|------|-----------------------------|-----------------------------|-----------------|
@@ -21,7 +21,7 @@
 
 
 <p align="center">
-  <img  src=    "./img/pitches.png"
+  <img  src=    "../img/pitches.png"
         title=  "pitches.png"
         width=  "750">
 </p>
@@ -30,7 +30,7 @@
 </p>
 
 <p align="center">
-  <img  src=    "./img/wrist-yaw-roll.png"
+  <img  src=    "../img/wrist-yaw-roll.png"
         title=  "wrist-yaw-roll.png"
         width=  "750">
 </p>
@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img  src=    "./img/hand-joints.png"
+  <img  src=    "../img/hand-joints.png"
         title=  "hand-joints.png"
         width=  "750">
 </p>
