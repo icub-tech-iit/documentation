@@ -1,3 +1,5 @@
+# Hand Mk5 joint spec
+
 | Joint number  | Motors | Identifier    | Type | Parent link                 | Child link                  | Notes           |
 |---------------|--------|---------------|------|-----------------------------|-----------------------------|-----------------|
 |               |        | l_elbow_pitch |  ROT | sim_ecub_l_upperarm         | sim_ecub_l_forearm          | E1 in figure    |
