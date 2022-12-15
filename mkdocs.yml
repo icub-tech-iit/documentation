@@ -155,6 +155,11 @@ nav:
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
       - iCub CPU boards: icub_cpu_boards/icub_cpu_boards.md
+      - Hands:
+        - Summary: hands/index.md
+        - Hands MK5:
+          - Overview: hands/hands_mk5.md
+          - Fingertip skin and MMA board: hands/fingertip_and_mma_mk5.md
       - F/T Sensors:
         - Summary: ft_sensors/index.md
         - F/T Sensors: ft_sensors/ft_sensors.md
