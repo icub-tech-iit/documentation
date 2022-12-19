@@ -9,7 +9,9 @@ This manual describes how to install and customize the linux operating systems r
 There are two versions of the customized OS running on the machine inside the iCub head:
 
 - [_The iCub LIVE for PC104_](./pc104/icub-live.md) - based on Debian LIVE environment, it is for old iCub version with a PC104 board (without onboard Hard Drive) and it is distribuited usign a pre-built image.
-- [_The iCub OS_](./icubos/icubos.md) - based on Ubuntu Server, it is for latest iCub versions with a COM-Express board (with onboard Hard Drive) and can be installed starting from a pre-built image or we provide instructions to install and custommize a standard Ubuntu server installation.
+- [_The iCub OS_](./icubos/icubos.md) - based on Ubuntu Server, it is for iCub versions with a COM-Express board (with onboard Hard Drive) and can be installed starting from a pre-built image or we provide instructions to install and custommize a standard Ubuntu server installation.
+
+[iCub version 2.9 or greater](../icub_versions/index.md) mounts also on the head a [NVIDIA Jetson board](https://www.nvidia.com/it-it/autonomous-machines/embedded-systems/), that has as OS [_The NVIDIA JetPack_](./icubos/jetpack.md).
 
 !!! note
     For further details, please refer to the [iCub CPU boards](../icub_cpu_boards/icub_cpu_boards.md).
