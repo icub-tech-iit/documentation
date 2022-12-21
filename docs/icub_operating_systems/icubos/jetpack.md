@@ -23,11 +23,13 @@ On the developer's host PC:
 - Nvidia JetPack installed through SDK Manager (instructions below)
 - Xavier [Connecttech BSP](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the `board_type` board (e.g. AGX, NX) and JetPack `jetpack_ver`(e.g 4.4.2, 5.0.2). (Not required if you already have the image ready to flash)
 
+
 # Intructions
 
 ## Carrier hardware configuration
 Make sure that the switches on the carrier are set like in the picture below, so that the unit can boot manually when pressing the power (PWR) button. DO NOT power on the unit until instructed.
-![](../img/switches.jpg)
+
+<img src="../img/switches.jpg" height="600">
 
 ## Hardware connection
 1. Connect the carrier to the power supply through the provided cable, and set the power supply to 16V / 2A
@@ -37,9 +39,11 @@ Make sure that the switches on the carrier are set like in the picture below, so
 
 ![](../img/usbotg.jpg)
 
+
 ## Flash a new image from scratch
 
 If you need to install an new JetPack image from scratch please follow the following steps.
+
 
 ### Jetpack setup on the host
 1. Download the Nvidia SDK manager from the [official website](https://developer.nvidia.com/embedded/jetpack) by clicking *Download Nvidia SDK Manager*
@@ -57,6 +61,7 @@ If you need to install an new JetPack image from scratch please follow the follo
 
 Before flashing the image, we need first to put the board in recovery mode.
 
+
 ### Booting the Xavier in Recovery mode
 1. Press the Force Recovery (FR) button on the carrier and keep it pressed
 2. Turn on the power supply (16V)
@@ -66,7 +71,7 @@ Before flashing the image, we need first to put the board in recovery mode.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
-```
+```bash
 watch lsusb
 ```
 
@@ -101,9 +106,9 @@ After booting into the OS, follow the OEM installation with the following option
 6. Allow login without password
 7. Let the installation process finish
 
-
 After rebooting into the graphical OS, run the following commands in a terminal to update the system:
-```
+
+```bash
 sudo apt install -f
 sudo apt update && sudo apt upgrade
 ```
@@ -114,12 +119,13 @@ Usually the Jetpack flashing procedure takes care of installing the Cuda toolkit
 
 For example **Jetpack 4.5.1**, which uses **Cuda 10.2** do:
 
-```
+```bash
 sudo apt install cuda-libraries-dev-10-1 cuda-nvcc-10-2
 ```
+
 Then, append to the  `.bashrc` file located in `/home/icub/`:
 
-```
+```bash
 export CUDA_HOME=/usr/local/cuda-10.2
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/extras/CUPTI/lib64
 export PATH=$PATH:$CUDA_HOME/bin
@@ -129,20 +135,26 @@ export PATH=$PATH:$CUDA_HOME/bin
 The latest Robotology superbuild version requires CMake >= 3.12, but Ubuntu 18.04 only provides CMake 3.10, so it needs to be upgraded.
 
 To download the latest version, first remove CMake with:
-```
+
+```bash
 sudo apt purge --auto-remove cmake
 ```
+
 Get a copy of the signing key:
-```
+
+```bash
 wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
 ```
+
 Add the repository:
-```
+
+```bash
 sudo apt-add-repository "deb https://apt.kitware.com/ubuntu/ $(lsb_release -cs) main"
 ```
 
 Update the repo index and install CMake:
-```
+
+```bash
 sudo apt update
 sudo apt install cmake
 ```
@@ -153,24 +165,27 @@ sudo apt install cmake
 After installing the [cuda libraries](#install-the-cuda-libraries-optional), we can make the Realsense camera use also the gpu resources for better performances, enabling the cuda support.
 
 In a terminal, clone the official repo with:
-```
+
+```bash
 git clone https://github.com/IntelRealSense/librealsense.git
 ```
 
 Install the librealsense required development packages:
-```
+
+```bash
 sudo apt install libssl-dev freeglut3-dev libusb-1.0-0-dev pkg-config libgtk-3-dev unzip -y
 ```
 
 Install the `udev` rules (the librealsense kernel patching procedure does not work with recent Jetpack versions):
-```
+
+```bash
 sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
 Now you are ready to compile librealsense with Cuda support:
 
-```
+```bash
 cd librealsense
 mkdir build && cd build
 cmake ../ -DFORCE_LIBUVC=BOOL:ON -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_CUDA=BOOL:ON -DBUILD_EXAMPLE=BOOL:OFF
@@ -189,7 +204,7 @@ For more information, refer to the [official documentation](https://github.com/I
 
 For installing it:
 
-```
+```bash
 sudo -H pip install -U jetson-stats
 ```
 
@@ -216,7 +231,3 @@ sudo mv bootloader/system.img* . #this save old image
 sudo mv backup.img.raw bootloader/system.img #rename new image
 sudo ./flash.sh -r jetson-xavier-nx-devkit-emmc mmcblk0p1
 ```
-
-
-
-
