@@ -1,13 +1,13 @@
 # iCub Forward Kinematics - Head
 
 ## V1
-Here's described how to construct the matrices T_RoLe and T_RoRe whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrices are constructed in two steps i.e. `T_RoRe = T_Ro0 * T_0n and T_RoLe = T_Ro0 * T'_0n`. The first matrix T_Ro0 describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case T_Ro0 is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrices T_0n and T'_0n correspond to the Denavit-Hartenberg description of the right and left eye forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic T_0n in this case includes the waist and the right eye forward kinematics. The forward kinematic T'_0n in this case includes the waist and the left eye forward kinematics.
+Here's described how to construct the matrices $T_{RoLe}$ and $T_{RoRe}$ whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrices are constructed in two steps i.e. $T_{RoRe} = T_{Ro0} * T_{0n} and T_{RoLe} = T_{Ro0} * T'_{0n}$. The first matrix $T_{Ro0}$ describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case $T_{Ro0}$ is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrices $T_{0n} and $T'_{0n}$ correspond to the Denavit-Hartenberg description of the right and left eye forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic $T_{0n}$ in this case includes the waist and the right eye forward kinematics. The forward kinematic $T'_{0n}$ in this case includes the waist and the left eye forward kinematics.
 
-The matrices T_0n and T'_0n are themselves the composition of n matrices as defined by the DH convention: `T_0n = T_01 T_12 ... T_(n-1)n` and `T'_0n = T'_01 T'_12 ... T'_(n-1)n`.
+The matrices $T_{0n}$ and $T'_{0n}$ are themselves the composition of n matrices as defined by the DH convention: $T_0n = T_{01} T_{12} ... T_{(n-1)n}$ and $T'_{0n} = T'_{01} T'_{12} ... T'_{(n-1)n}$.
 Here is the updated [matlab](./assets/ICubFwdKinNew.zip) code for computing the forward kinematics with the Denavit Hartenberg notation
 
 The eyes reference frames are located in the palm as shown in the CAD figure. 
-The <font color=#ff2e31>'''x'''</font> axis is in '''red'''. The <font color=#2BE01B>'''y'''</font> axis is in '''green'''. The <font color=#0030f2>'''z'''</font> axis is in blue. 
+The <font color=#ff2e31>$X$</font> axis is in red. The <font color=#2BE01B>$Y$</font> axis is in green. The <font color=#0030f2>$Z$</font> axis is in blue. 
 
 |   |   |
 |---|---|
@@ -22,8 +22,8 @@ Here is the matrix `T\_Ro0`:
 | 1   | 0   | 0   | 0   |
 | 0   | 0   | 0   | 1   |
 
-Here is the table of the actual DH parameters which describe `T\_01,
-T\_12, ... T\_(n-1)n`.
+Here is the table of the actual DH parameters which describe $T_{01},
+T_{12}, ... T_{(n-1)n}$.
 
 | Link i / H – D | Ai (mm) | d\_i (mm) | alpha\_i (rad) | theta\_i (deg)       |
 |----------------|---------|-----------|----------------|----------------------|
@@ -36,8 +36,8 @@ T\_12, ... T\_(n-1)n`.
 | i = 6          | 0       | 34        | -pi/2          | -35 -&gt; 15         |
 | i = 7          | 0       | 0         | pi/2           | -90 + (-50 -&gt; 50) |
 
-Here is the table of the actual DH parameters which describe `T'\_01,
-T'\_12, ... T'\_(n-1)n`.
+Here is the table of the actual DH parameters which describe $T'_{01},
+T'_{12}, ... T'_{(n-1)n}$.
 
 | Link i / H – D | Ai (mm) | d\_i (mm) | alpha\_i (rad) | theta\_i (deg)       |
 |----------------|---------|-----------|----------------|----------------------|
@@ -65,13 +65,13 @@ Right Eye (G\_sl8) = -62.81 34 340.8 0 1.57079 0
 Left Eye (Gp\_sl8) = -62.81 -34 340.8 0 1.57079 0
 ```
 ## V2
-Here's described how to construct the matrices $T_{RoLe}$ and $T_{RoRe}$ whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrices are constructed in three steps i.e. $ T_{RoRe} = T_{Ro0} * T_{0n} * T_{nE} $ and $ T_{RoLe} = T_{Ro0} * T'_{0n} * T_{nE}$. The first matrix $T_{Ro0}$ describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case $T_{Ro0}$ is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrices $T_{0n}$ and $T'_{0n}$ correspond to the Denavit-Hartenberg description of the right and left eye forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic $T_{0n}$ in this case includes the waist and the right eye forward kinematics. The forward kinematic $T'_{0n}$ in this case includes the waist and the left eye forward kinematics. The last matrix  $T_{nE}$ represents the roto-translation from the nth reference frame to the one placed on the camera sensor.
+Here's described how to construct the matrices $T_{RoLe}$ and $T_{RoRe}$ whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrices are constructed in three steps i.e. $T_{RoRe} = T_{Ro0} * T_{0n} * T_{nE}$ and $T_{RoLe} = T_{Ro0} * T'_{0n} * T_{nE}$. The first matrix $T_{Ro0}$ describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case $T_{Ro0}$ is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrices $T_{0n}$ and $T'_{0n}$ correspond to the Denavit-Hartenberg description of the right and left eye forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic $T_{0n}$ in this case includes the waist and the right eye forward kinematics. The forward kinematic $T'_{0n}$ in this case includes the waist and the left eye forward kinematics. The last matrix  $T_{nE}$ represents the roto-translation from the nth reference frame to the one placed on the camera sensor.
 
-The matrices $T_{0n}$ and $T'_{0n}$ are themselves the composition of n matrices as defined by the DH convention: $ T_{0n} = T_{01} T_{12} ... T_{(n-1)n}$  and  $ T'_{0n} = T'_{01} T'_{12} ... T'_{(n-1)n} $.
+The matrices $T_{0n}$ and $T'_{0n}$ are themselves the composition of n matrices as defined by the DH convention: $T_{0n} = T_{01} T_{12} ... T_{(n-1)n}$  and  $ T'_{0n} = T'_{01} T'_{12} ... T'_{(n-1)n}$.
 Here is the updated [matlab](./assets/ICubFwdKinNewV2.zip) code for computing the forward kinematics with the Denavit Hartenberg notation
 
 The eyes reference frames are located in the palm as shown in the CAD figure. 
-The <font color=#ff2e31>$ X $</font> axis is in red. The <font color=#2BE01B> $ Y $</font> axis is in green. The <font color=#0030f2> $ Z $</font> axis is in blue.
+The <font color=#ff2e31>$X$</font> axis is in red. The <font color=#2BE01B> $Y$</font> axis is in green. The <font color=#0030f2> $Z$</font> axis is in blue.
 
 |   |   |
 |---|---|
@@ -91,7 +91,7 @@ T_{Ro0} =
 \end{equation}
 $$
 
-Here is the table of the actual DH parameters which describe $T_{01},T_{12}, \dots T_{(n-1)n} $ :
+Here is the table of the actual DH parameters which describe $T_{01},T_{12}, \dots T_{(n-1)n}$ :
 
 | Link i / H – D | Ai (mm) | d\_i (mm) | alpha\_i (rad) | theta\_i (deg)       |
 |----------------|---------|-----------|----------------|----------------------|
@@ -104,7 +104,7 @@ Here is the table of the actual DH parameters which describe $T_{01},T_{12}, \do
 | i = 6          | 0       | 34        | -pi/2          | -15 -&gt; 15         |
 | i = 7          | 0       | 0         | pi/2           | -90 + (-30 -&gt; 30) |
 
-Here is the table of the actual DH parameters which describe $ T'_{01},T'_{12}, \dots T'_{(n-1)n} $ :
+Here is the table of the actual DH parameters which describe $T'_{01},T'_{12}, \dots T'_{(n-1)n}$ :
 
 | Link i / H – D | Ai (mm) | d\_i (mm) | alpha\_i (rad) | theta\_i (deg)       |
 |----------------|---------|-----------|----------------|----------------------|
@@ -117,7 +117,7 @@ Here is the table of the actual DH parameters which describe $ T'_{01},T'_{12}, 
 | i = 6          | 0       | -34       | -pi/2          | -15 -&gt; 15         |
 | i = 7          | 0       | 0         | pi/2           | -90 + (-30 -&gt; 30) |
 
-For both left and right eye, the end-effector matrix $ T_{nE} $ from the last link to the camera sensor is:
+For both left and right eye, the end-effector matrix $T_{nE}$ from the last link to the camera sensor is:
 
 $$
 \begin{equation}
