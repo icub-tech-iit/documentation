@@ -22,4 +22,4 @@
 [iCub RealSense holder UpKit](./realsense_holder/support.md) describes how to perform an upgrade on the head in order to add a RealSense camera holder in order to help 3D perception during manipulation tasks.
 
 ### 🔘 KIT_009 iCub Upgrade Kit: HEAD
-[inew head UpKit](./head_4k/support.md)
+[iCub new head UpKit](./head_4k/support.md)
