@@ -29,7 +29,8 @@ On the developer's host PC:
 ## Carrier hardware configuration
 Make sure that the switches on the carrier are set like in the picture below, so that the unit can boot manually when pressing the power (PWR) button. DO NOT power on the unit until instructed.
 
-<img src="../img/switches.jpg" height="600">
+![](../img/switches.jpg)
+
 
 ## Hardware connection
 1. Connect the carrier to the power supply through the provided cable, and set the power supply to 16V / 2A
@@ -123,7 +124,7 @@ For example **Jetpack 4.5.1**, which uses **Cuda 10.2** do:
 sudo apt install cuda-libraries-dev-10-1 cuda-nvcc-10-2
 ```
 
-Then, append to the  `.bashrc` file located in `/home/icub/`:
+Then, append to the `.bashrc` file located in `/home/icub/`:
 
 ```bash
 export CUDA_HOME=/usr/local/cuda-10.2
