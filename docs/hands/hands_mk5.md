@@ -2,7 +2,7 @@
 
 | Joint number  | Motors | Identifier    | Type | Parent link        | Child link         | Notes           |
 |---------------|--------|---------------|------|--------------------|--------------------|-----------------|
-|               |        | l_elbow_pitch |  ROT | l_upperarm         | l_forearm          | E1 in figure    |
+|               |        | l_elbow       |  ROT | l_upperarm         | l_forearm          | E1 in figure    |
 |               |        | l_wrist_yaw   |  ROT | l_forearm          | l_wrist_1          | W1 in fig.      |
 |               |        | l_wrist_roll  |  ROT | l_wrist_1          | l_wrist_2          | W2 in fig.      |
 |               |        | l_wrist_pitch |  ROT | l_wrist_2          | l_hand_palm        | W3 in fig.      |
