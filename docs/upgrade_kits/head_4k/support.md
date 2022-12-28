@@ -2,7 +2,9 @@
 
 ## Upgrade Kit
 
+This upgrade kit is meant to update the head with high resolution cameras, bigger FOV lenses, more reliable eyes' tilt mechanism and new computational units.
 
+-<center> ![](img/1.jpg) </center>
 
 
 |       |       	          |
