@@ -6,7 +6,6 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 
 <center> ![](img/1.JPG) </center>
 
-
 |       |       	          |
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_009 |
@@ -63,6 +62,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 ## Assembly instruction.
 
 **Assembly sequence** :<br>
+This upgrade kit is a radical change in the head. For the assembly sequence, refer to the repository  https://github.com/icub-tech-iit/cad-mechanics-public
 
 ## Kinematics
 
