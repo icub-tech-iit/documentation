@@ -10,105 +10,111 @@ First step is to have a yarpserver running.
 
 In a terminal type:
 
-~~~
+```console
 yarpserver
-~~~
+```
 
 Depending on the system the console will look something like this:
 
-![yarpserver.jpg](img/yarpserver.jpg "yarpserver.jpg")
+![](img/yarpserver.jpg)
 
-If you type on a web browser [http://127.0.0.1:10000](http://127.0.0.1:10000) you get
+If you type on a web browser http://127.0.0.1:10000 you get
 information about the name server (registered ports, info, etc.).
 
 We can just check functionality by running a simple example. On another
 terminal type:
 
-~~~
+```console
 yarp read /portread
-~~~
+```
 
 on a third terminal:
 
-~~~
+```console
 yarp write /portwrite
-~~~
+```
 
 and on yet another terminal:
 
-~~~
+```console
 yarp connect /portwrite /portread
-~~~
+```
 
 you'll see the effect on the name server:
 
-~~~
+```console
 yarp: registration name /portwrite ip 127.0.0.1 port 10012 type tcp
 yarp: registration name /portread ip 127.0.0.1 port 10002 type tcp
-~~~
+```
 
 Now, anything typed on the yarp write will be sent and printed on the
 read side.
 
 ## Check iCub
-You can run the iCub simulator.
+You can run the iCub simulator on Gazebo.
+To this end, we need to grab some Gazebo specific configuration files.
 
-Open a terminal and type:
+Open a terminal and type in the following to get configured:
 
-~~~
-iCub_SIM
-~~~
+```console
+git clone https://github.com/vvv-school/tutorial_joint-interface.git
+cd tutorial_joint-interface.git
+cmake -S . -B build
+cmake --build build --target install
+```
 
-The simulator should open in a new window:
+Finally, you can launch the simulator:
 
-![binaries-icub-simulator.jpg](img/binaries-icub-simulator.jpg
-"binaries-icub-simulator.jpg")
+```console
+gazebo tutorial_joint-interface.sdf
+```
+
+The simulator should open up in a new window:
+
+![](img/icub-gazebo-1.png)
 
 Now you can move each joint individually using the `yarpmotorgui` tool.
 
 On a different terminal type:
 
-~~~
-yarpmotorgui
-~~~
+```console
+yarpmotorgui --robot icubSim
+```
 
-Modify the name of the robot: type *icubSim* in the edit window (see
-below).
+Unselect the legs and click on <kbd>✔️ OK</kbd>
 
-![yarpmotorgui.png](img/yarpmotorgui.png "yarpmotorgui.png")
+![](img/yarpmotorgui-1.png)
 
 Select the `left_arm` and drag the position of each joint to move the
 arm:
 
-![yarpmotorgui\_2.png](img/yarpmotorgui_2.png "yarpmotorgui_2.png")
+![](img/yarpmotorgui-2.png)
 
-![icub-simulator.jpg](img/icub-simulator.jpg "icub-simulator.jpg")
+![](img/icub-gazebo-2.png)
 
 You can now view the output from the cameras. On different consoles, run
 two viewers:
 
-~~~
+```console
 yarpview --name /view/left
 yarpview --name /view/right
-~~~
+```
 
 and connect them:
 
-~~~
-yarp connect /icubSim/cam/left /view/left
-yarp connect /icubSim/cam/right /view/right
-~~~
+```console
+yarp connect /icubSim/cam/left/rgbImage:o /view/left
+yarp connect /icubSim/cam/right/rgbImage:o /view/right
+```
 
-![icubsimulator-viewers.jpg](img/icubsimulator-viewers.jpg
-"icubsimulator-viewers.jpg")
+![](img/icub-gazebo-3.png)
 
 ## Play a recorded sequence
 You can also use the dataSetPlayer to replay a recorded sequence. This
 will reproduce all the sensory information available on the real robot
-during a simple experiment. Follow the instructions here [http://www.yarp.it/group__yarpdataplayerExample.html](http://www.yarp.it/group__yarpdataplayerExample.html).
+during a simple experiment. Follow the instructions here http://www.yarp.it/group__yarpdataplayerExample.html.
 
-![datasetplayer-example.jpg](img/datasetplayer-example.jpg
-"datasetplayer-example.jpg")
+![](img/datasetplayer-example.jpg)
 
 ## Tutorials
-Now you are ready to try our tutorials available at [http://www.icub.eu/doc/icub-main/icub_tutorials.html](http://www.icub.eu/doc/icub-main/icub_tutorials.html).
+Now you are ready to try our tutorials available at http://www.icub.eu/doc/icub-main/icub_tutorials.html.
