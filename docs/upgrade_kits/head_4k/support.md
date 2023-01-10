@@ -5,6 +5,7 @@
 This upgrade kit is meant to update the head with high resolution cameras, bigger FOV lenses, more reliable eyes' tilt mechanism and new computational units.
 
 <center> ![](img/1.JPG) </center>
+
 |       |       	          |
 |   :---: |    :-----------:           |
 |    IIT alias (used as ordering reference)| KIT_009 |
@@ -88,6 +89,7 @@ This UKIT includes also an additional [NVIDIA Jetson Xavier NX](https://www.nvid
 The NVIDIA Jetson has to be configured following [the flash procedure](../../icub_operating_systems/icubos/jetpack.md).
 
 If the image has been [installed from scratch](../../icub_operating_systems/icubos/jetpack.md#flash-a-new-image-from-scratch) it is also needed an initial configuration that consists in:
+
 - Set the `icub` as `host` and `icub-head-cam` as `hostname`
 - [Configure the network bridge and wifi](https://github.com/icub-tech-iit/setups-os-configuration/tree/master/system-files/iCubOS/ubuntu_20.04_bridge)
 
