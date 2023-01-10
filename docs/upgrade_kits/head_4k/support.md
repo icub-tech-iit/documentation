@@ -84,3 +84,11 @@ $$
 
 ## Software instructions
 
+This UKIT includes also an additional [NVIDIA Jetson Xavier NX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) mounted on the top of the head, for handling the [Basler 4k cameras](https://docs.baslerweb.com/cameras) and perform on the on board gpu image processing.
+The NVIDIA Jetson has to be configured following [the flash procedure](../../icub_operating_systems/icubos/jetpack.md).
+
+If the image has been [installed from scratch](../../icub_operating_systems/icubos/jetpack.md#flash-a-new-image-from-scratch) it is also needed an initial configuration that consists in:
+- Set the `icub` as `host` and `icub-head-cam` as `hostname`
+- [Configure the network bridge and wifi](https://github.com/icub-tech-iit/setups-os-configuration/tree/master/system-files/iCubOS/ubuntu_20.04_bridge)
+
+For using the images provided by the new Basler camera over the YARP network it is need to compile and install [`yarp-device-pylon`](https://github.com/robotology/yarp-device-pylon#2-how-to-use-basler-pylon-cameras-as-a-yarp-device)
