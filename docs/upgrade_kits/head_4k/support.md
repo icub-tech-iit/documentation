@@ -6,7 +6,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 
 <center> ![](img/1.JPG) </center>
 |       |       	          |
-|   :--- |    :-----------           |
+|   :---: |    :-----------:           |
 |    IIT alias (used as ordering reference)| KIT_009 |
 |    Applicable to|iCub |
 |Available onboard ||
@@ -81,3 +81,6 @@ T_E =
 \end{bmatrix}
 \end{equation}
 $$
+
+## Software instructions
+
