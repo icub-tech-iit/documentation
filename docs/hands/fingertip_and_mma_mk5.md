@@ -93,7 +93,7 @@ The tactile sensors are connected to the MMA like in fig. 3. The fingers (index,
 ### Encoder connection
 
 
-The encoders are connected as reported in the table above and in the schematic snapshot ïn fig. 4.
+The encoders are connected as reported in the table above and in the schematic snapshot in fig. 4.
 
 ![figure](./img/encoders_connection.png)
 <p align = "center">
