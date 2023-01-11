@@ -8,7 +8,7 @@ The fingertip comprises a 3DMID piece with the patterned taxels and a convention
 
 The taxel mapping is represented in Fig. 1 
 
-![figure](./img/taxel_map.png)
+![figure](../img/taxel_map.png)
 
 <p align = "center">
 Fig.1 - Taxel mapping
@@ -21,7 +21,7 @@ The AD7147 hosted on the FT3D has configurable **I2C address**  to allow for mul
 
 The congfiguration is made through the jumpers **AD0** and **AD1** reported in fig. 2 by simply solder the desired connection on the dedicated jumper.
 
-![figure](./img/FT3D_Top.png) 
+![figure](../img/FT3D_Top.png) 
 <p align = "center">
 Fig.2 - Address configuration: the board represented has Address bits (AD0, AD1) = (0, 0)
 </p>
@@ -81,7 +81,7 @@ The schematic of the MMA reporting the
 ### Tactile sensors
 
 
-![figure](./img/fingertips_connection.png) 
+![figure](../img/fingertips_connection.png) 
 <p align = "center">
 Fig.3 - Skin connections. The fingers belonging to the same Data Line can be swapped)
 </p>
@@ -95,7 +95,7 @@ The tactile sensors are connected to the MMA like in fig. 3. The fingers (index,
 
 The encoders are connected as reported in the table above and in the schematic snapshot in fig. 4.
 
-![figure](./img/encoders_connection.png)
+![figure](../img/encoders_connection.png)
 <p align = "center">
 Fig.4 - FAPs connections. The FAP mapping should be reported in the configuration files for proper working of the joints. )
 </p>
