@@ -5,7 +5,6 @@
 This upgrade kit is meant to update the head with high resolution cameras, bigger FOV lenses, more reliable eyes' tilt mechanism and new computational units.
 
 <center> ![](img/1.JPG) </center>
-
 |       |       	          |
 |   :---: |    :-----------:           |
 |    IIT alias (used as ordering reference)| KIT_009 |
@@ -21,6 +20,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 
 ## Content material  MKIT_009
 
+<center> ![](img/3.JPG) </center>
 
 Alias | Descrizione | Codice | Rev. | Qtà
 -- | -- | -- | -- | --
