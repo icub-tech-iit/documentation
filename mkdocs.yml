@@ -40,6 +40,8 @@ theme:
     code: Roboto Mono
 
   features:
+    - content.action.edit
+    - content.action.view
     - content.code.annotate
     - content.tooltips
     - tabs
