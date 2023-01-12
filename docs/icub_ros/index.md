@@ -2,13 +2,13 @@
 
 This page's goal is to centralise different resources showing how to control `iCub` using ROS 1. ROS 2 support is not yet covered.
 
-# Required setup
+## Required setup
 
 Make sure that you read [YARP's documentation about ROS](http://www.yarp.it/latest/yarp_with_ros.html). More specifically, you need to [configure YARP to interact with ROS](http://www.yarp.it/latest/yarp_with_ros_nameservers.html).
 
-# Using ROS TF to manage the coordinate transforms
+## Using ROS TF to manage the coordinate transforms
 
-## What is ROS TF?
+### What is ROS TF?
 [ROS TF2](http://wiki.ros.org/tf2) is a package used to keep track of the different sets of coordinates in a robot, and easily switch between them. It can for instance be used to transform the coordinates of an object in `iCub`'s depth image to coordinates that can be used by the `cartesianInterface`. 
 
 To keep track of the various sets of coordinates, ROS TF requires 2 things:
