@@ -119,7 +119,7 @@ Draft Logic schematic
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [!()[img/2.JPG]](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/16519%20-%20iCub2.x%20Cameras%20upgrade%20kit%20(electronic%20parts)/16519_0.1_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
+| [![](img/2.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/16519%20-%20iCub2.x%20Cameras%20upgrade%20kit%20(electronic%20parts)/16519_0.1_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
 
 ## Assembly instruction
 
