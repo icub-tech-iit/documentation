@@ -119,7 +119,7 @@ The values for the mk2 fingertip are reported here, to be implemented in **.xml 
 |--|--|
 | Bitshift | 2 |
 | CDC offset | 0x0000 | 
-| No load value | see[^1] |
+| No load value | note[^1] |
 
 [^1]: the No load value can be choosen to be lower than 0xF0 (240) to allow for some room for opposite polarity signals to be recorded. In this case the set level must be forwarded to 
 high level tools such as SkinGUI etc. for a proper managing of events. A nice choice could be a value of about 0xC0 (192) to have ~60 ADC counts of headroom for oppposite sign forces 
