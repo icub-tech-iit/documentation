@@ -1,4 +1,4 @@
-# KIT_009 iCub new head
+# KIT_009 iCub Head with 4K Cameras
 
 ## Upgrade Kit
 
