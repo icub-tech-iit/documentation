@@ -22,8 +22,7 @@ Here is the matrix `T\_Ro0`:
 | 1   | 0   | 0   | 0   |
 | 0   | 0   | 0   | 1   |
 
-Here is the table of the actual DH parameters which describe $T_{01},
-T_{12}, ... T_{(n-1)n}$.
+Here is the table of the actual DH parameters which describe $T_{01}$ ,$T_{12}$, ... $T_{(n-1)n}$.
 
 | Link i / H – D | Ai (mm) | d\_i (mm) | alpha\_i (rad) | theta\_i (deg)       |
 |----------------|---------|-----------|----------------|----------------------|
