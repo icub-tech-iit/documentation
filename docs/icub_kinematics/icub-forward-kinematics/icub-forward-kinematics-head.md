@@ -50,19 +50,14 @@ T'_{12}, ... T'_{(n-1)n}$.
 | i = 7          | 0       | 0         | pi/2           | -90 + (-50 -&gt; 50) |
 
 ```
-xml
 Joint Poses (x y z, roll, pitch, yaw) w.r.t. root:
-
 Eyes tilt (G\_sl6) = -62.81 0 340.8 1.57079 0 0
-
 Right Eye (G\_sl7) = -62.81 34 340.8 -3.14159 0 0
-
 Left Eye (Gp\_sl7) = -62.81 -34 340.8 -3.14159 0 0
-
 Right Eye (G\_sl8) = -62.81 34 340.8 0 1.57079 0
-
 Left Eye (Gp\_sl8) = -62.81 -34 340.8 0 1.57079 0
 ```
+
 ## V2
 Here's described how to construct the matrices $T_{RoLe}$ and $T_{RoRe}$ whose definition is given in [ICubForwardKinematics](./icub-forward-kinematics.md). The matrices are constructed in three steps i.e. $T_{RoRe} = T_{Ro0} * T_{0n} * T_{nE}$ and $T_{RoLe} = T_{Ro0} * T'_{0n} * T_{nE}$. The first matrix $T_{Ro0}$ describes the rigid roto-translation from the root reference frame to points in the 0th reference frame as defined by the [Denavit-Hartenberg convention](./assets/chap3-forward-kinematics.pdf). In this case $T_{Ro0}$ is just a rigid rotation which aligns the z-axis with the first joint of the waist. The second matrices $T_{0n}$ and $T'_{0n}$ correspond to the Denavit-Hartenberg description of the right and left eye forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom. The forward kinematic $T_{0n}$ in this case includes the waist and the right eye forward kinematics. The forward kinematic $T'_{0n}$ in this case includes the waist and the left eye forward kinematics. The last matrix  $T_{nE}$ represents the roto-translation from the nth reference frame to the one placed on the camera sensor.
 
