@@ -76,7 +76,7 @@ The <font color=#ff2e31>$X$</font> axis is in red. The <font color=#2BE01B> $Y$<
 |---|---|
 |![img-1](./img/HeadFwdKinNew.jpg) | ![img-2](./img/HeadCADRefFrameV2.jpg)|
 
-Here is the matrix $ T_{Ro0} $:
+Here is the matrix $T_{Ro0}$:
 
 $$
 \begin{equation}
