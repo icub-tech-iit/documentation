@@ -1,9 +1,10 @@
-# Using `iCub` with ROS 1
+# Using `iCub` with ROS
+This page centralises different resources showing how to control `iCub` using ROS.
 
-This page's goal is to centralise different resources showing how to control `iCub` using ROS 1. ROS 2 support is not yet covered.
+!!! warning
+    At the moment we support ROS 1 only.
 
 ## Required setup
-
 Make sure that you read [YARP's documentation about ROS](http://www.yarp.it/latest/yarp_with_ros.html). More specifically, you need to [configure YARP to interact with ROS](http://www.yarp.it/latest/yarp_with_ros_nameservers.html).
 
 ## Using ROS TF to manage the coordinate transforms
