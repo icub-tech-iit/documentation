@@ -152,4 +152,4 @@ If the image has been [installed from scratch](../../icub_operating_systems/icub
 - Set the `icub` as `host` and `icub-head-cam` as `hostname`
 - [Configure the network bridge and wifi](https://github.com/icub-tech-iit/setups-os-configuration/tree/master/system-files/iCubOS/ubuntu_20.04_bridge)
 
-For using the images provided by the new Basler camera over the YARP network it is need to compile and install [`yarp-device-pylon`](https://github.com/robotology/yarp-device-pylon#2-how-to-use-basler-pylon-cameras-as-a-yarp-device)
+For using the images provided by the new Basler camera over the YARP network, it is needed to compile and install [`yarp-device-pylon`](https://github.com/robotology/yarp-device-pylon#2-how-to-use-basler-pylon-cameras-as-a-yarp-device).
