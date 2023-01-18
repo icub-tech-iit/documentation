@@ -21,6 +21,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 ## Content material  MKIT_009
 
 <center> ![](img/3.JPG) </center>
+
 Alias | Descrizione | Codice | Rev. | Qtà
 -- | -- | -- | -- | --
 V2_5-6--_-_ISO7045_CZ | screw – M2.5 x  6 – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2414 |   | 4
