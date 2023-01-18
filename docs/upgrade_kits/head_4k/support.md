@@ -5,7 +5,6 @@
 This upgrade kit is meant to update the head with high resolution cameras, bigger FOV lenses, more reliable eyes' tilt mechanism and new computational units.
 
 <center> ![](img/1.JPG) </center>
-
 | | |
 | :---: | :---: |
 | IIT alias (used as ordering reference) | KIT_009 |
@@ -16,13 +15,12 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |    | MKIT_009 |   | Pieces  |  1  |  |
-|  2  |	     |		WKIT_009	 |	 	| Pieces	| 1	|  |
+|  2  | 17018 |		WKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU and COM Express Type 10 (wiring) |
 |  3  | 16519 |		EKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU and COM Express Type 10 (electronics) |
 
 ## Content material  MKIT_009
 
 <center> ![](img/3.JPG) </center>
-
 Alias | Descrizione | Codice | Rev. | Qtà
 -- | -- | -- | -- | --
 V2_5-6--_-_ISO7045_CZ | screw – M2.5 x  6 – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2414 |   | 4
@@ -91,10 +89,32 @@ IC_032_P_018 | eyelid upper | 16545 |   | 1
 
 ## Content material  WKIT_009
 
-|  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
-|   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
-|        |       |      |             |           |
-|        |       |      |             |           |
+|  Cod  | BOM |  Alias | Rev |  Qta | Descrizione      |
+|:-----:|:---:|:--------------:|:---:|--------:|:------------------:|
+| 10132 |     | 10132                       |     |  20,000 | Housing, Microfit, 2 contacts, 1   row, male, p.3mm, Straight, w to w, lock, key, 5A                 |
+| 10879 |     | 10879                       |     |  20,000 | Crimp terminal, Pico-Lock,   female contacts, AWG24-28, 3A                                           |
+| 11146 |     | MOLEX_504051-0401           |     |  10,000 | Housing, Pico-Lock, 4 contacts,   1 row, female, p.1.5mm, Straight, w to w / w to b, lock, nokey, 3A |
+| 12070 |     | 12070                       |     |  0,1500 | FTP-LAN cable, Small Diameter   AWG28, CAT6                                                          |
+| 16288 |     | AMPHENOL-FCI_10073599-006LF |     |  20,000 | Housing, MiniTek, 6 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A   |
+| 328   |     | 328                         |     |  10,700 | PVC insulated cable, 1 pole,   0.25mmq, AWG23, 500V, black                                           |
+| 4155  |     | 4155                        |     |  10,700 | PVC insulated cable, 1 pole,   0.25mmq, AWG23, 500V, yellow                                          |
+| 4158  |     | 4158                        |     |  0,2000 | PVC insulated cable, 1 pole,   0.5mmq, AWG20, 500V, yellow                                           |
+| 4411  |     | 4411                        |     |  0,2000 | PVC insulated cable, 1 pole,   0.5mmq, AWG20, 500V, black                                            |
+| 502   |     | 502                         |     |  40,000 | Crimp terminal, Microfit, female   contacts, AWG20-24                                                |
+| 510   |     | 510                         |     |  10,000 | Housing, Varilok, 2 contacts, 1   rows, p.5.08mm, Straight, w to w, lock, key, 8.5A                  |
+| 5280  |     | SWITCHCRAFT-35RASMT4BHNTRX  |     |  10,000 | PCB connector, jack stereo, 5   contact, female, w to b, 90° nolock, nokey, diam 3.5mm, SMD          |
+| 66    |     | 66                          |     |  0,1500 | Teflon insulated cable, 1 pole,   AWG26, 600V, white, UL E20042                                      |
+| 68    |     | 68                          |     |  10,050 | Teflon insulated cable, 1 pole,   AWG26, 600V, black, UL E20042                                      |
+| 69    |     | 69                          |     |  0,1500 | Teflon insulated cable, 1 pole,   AWG26, 600V, green, UL E20042                                      |
+| 70    |     | 70                          |     |  0,2000 | Teflon insulated cable, 1 pole,   AWG26, 600V, yellow, UL E20042                                     |
+| 7141  |     | 7141                        |     | 330,000 | Crimp terminal, FCI MiniTek,   female contact, AWG26-30                                              |
+| 7142  |     | amphenol-fci_10073599-008LF |     |  10,000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A   |
+| 7143  |     | AMPHENOL-FCI_10073599-010LF |     |  20,000 | Housing, MiniTek, 10 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A  |
+| 72    |     | 72                          |     |  0,6550 | Teflon insulated cable, 1 pole,   AWG26, 600V, red, UL E20042                                        |
+
+| 🔘 Click to download the PDF |
+| :---: |
+| [![](img/4.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/17018_0.0.0_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
 
 
 
