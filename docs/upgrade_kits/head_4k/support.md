@@ -117,8 +117,6 @@ IC_032_P_018 | eyelid upper | 16545 |   | 1
 | :---: |
 | [![](img/4.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/17018_0.0.0_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
 
-
-
 ## Content material  EKIT_009 
 |  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
