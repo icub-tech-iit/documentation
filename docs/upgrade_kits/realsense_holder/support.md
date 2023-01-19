@@ -5,7 +5,7 @@
 
 This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. 
 
--<center> ![](img/8.PNG) </center>
+<center> ![](img/8.PNG) </center>
 
 |       |       	          |
 |   :--- |    :-----------           |
