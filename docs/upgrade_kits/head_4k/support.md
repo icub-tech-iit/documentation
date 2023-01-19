@@ -9,7 +9,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 | | |
 | :---: | :---: |
 | IIT alias (used as ordering reference) | KIT_009 |
-| Applicable to | iCub >= 2.x |
+| Applicable to | iCub versions ≥ 2.x |
 | Available onboard | – |
 
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
