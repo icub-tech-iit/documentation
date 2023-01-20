@@ -1,5 +1,9 @@
 # KIT_009 iCub Head with 4K Cameras
 
+!!! warning
+
+    This UKIT is still work in progress!
+
 ## Upgrade Kit
 
 This upgrade kit is meant to update the head with high resolution cameras, bigger FOV lenses, more reliable eyes' tilt mechanism and new computational units.
