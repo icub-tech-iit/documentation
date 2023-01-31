@@ -158,6 +158,15 @@ P.S. The parenthesis around some of the numbers in the table below are only for 
 | neck\_roll          | Revolute   | (-1)     | 0        | 0        |     |     |
 | neck\_yaw           | Revolute   | 0        | 0        | \(1\)    |     |     |
 
+## Sensors
+
+The names of the sensors mounted on `iCub` follows this convention:
+
+`<link>_<type>_<nr>`
+
+Where `link` is the name of the part the sensor is attached to (e.g., `head`), `type` is the type of sensor (e.g., `imu`), and `nr` is a number starting from **0**.
+
+
 ## Frames
 ---
 In literature and in robotics software, the links and frames concepts are often confused, because every link is usually associated with a frame rigidly attached to it. However this link frame definition is dependent on the formalism that one uses for describing the robot. For example, if the Denavit Hartenberg convention is used the link frame origin is required to be placed on the axis of the child joint, while if the Modified Denavit Hartenberg convention or the URDF format the link frame origin is required to be place on the axis of the parent joint. To avoid inconsistency, we clearly separate frame and link concepts.
