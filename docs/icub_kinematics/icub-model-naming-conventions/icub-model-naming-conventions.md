@@ -164,7 +164,7 @@ The names of the sensors mounted on `iCub` follows this convention:
 
 `<link>_<type>_<nr>`
 
-Where `link` is the name where the sensor is attached (e.g. `head`), `type` is the type of sensor (e.g. `imu`) and `nr` is a number starting from **0**.
+Where `link` is the name of the part the sensor is attached to (e.g., `head`), `type` is the type of sensor (e.g., `imu`), and `nr` is a number starting from **0**.
 
 
 ## Frames
