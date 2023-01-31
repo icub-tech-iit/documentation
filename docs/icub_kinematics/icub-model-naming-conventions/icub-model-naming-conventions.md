@@ -160,7 +160,7 @@ P.S. The parenthesis around some of the numbers in the table below are only for 
 
 ## Sensors
 
-The naming for the sensors mounted on `iCub` follows this naming convention:
+The names of the sensors mounted on `iCub` follows this convention:
 
 `<link>_<type>_<nr>`
 
