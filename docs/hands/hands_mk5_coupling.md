@@ -6,11 +6,11 @@ We report below a sketch of the finger's kinematics:
 
 <p align="center">
   <img  src=    "../img/mk5_coupling1.png"
-        width=  "500">
+        width=  "800">
   <img  src=    "../img/mk5_coupling2.png"
-        width=  "500">
+        width=  "800">
   <img  src=    "../img/mk5_coupling3.png"
-        width=  "500">
+        width=  "800">
 </p>
 <p align="center">
   <sub>Hand Mk5 leverism</sub>
