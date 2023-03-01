@@ -71,7 +71,7 @@ This calibration is used on joints with incremental encoder that needs to reach 
     **The hardstop could be out of range of user limits, but it needs to be inside hardware limits; so the hardstop could be a hardware limit and the joint is calibrated after reaching it, but the controller verifies that the first received setpoint is inside user limits, else limits it to the nearest user limit.**
 
 ### Calibration 6
-This calibration is used for joint with `MAIS` board encoders. On iCub robots, distal and proximal joints use this encoder.
+This calibration can be used for joint with `MAIS` and `FAP` board encoders. On iCub robots, distal and proximal joints use this encoder.
 
 |   |   |
 |---|---|
@@ -79,15 +79,18 @@ This calibration is used for joint with `MAIS` board encoders. On iCub robots, d
 |`calibration1`| not used|
 |`calibration2`| velocity expressed in iCubDegree/s|
 |`calibration3`| 1 if distal joint, -1 if proximal joint. (Any other value is not accepted)|
-|`calibration4`| mais raw value read with open hand|
-|`calibration5`| mais raw value read with closed hand|
+|`calibration4`| mais/fap raw value read with open hand|
+|`calibration5`| mais/fap raw value read with closed hand|
 |`calibrationZero`| 0.0 (only value corrected)|
 |`calibrationDelta`| defined by user expressed in degree|
 
 !!!info
-    **Calibration 6** uses mais raw values to calculate the joint encoder factor and the offset of 0.0 position.
-    Moreover, it calibrates the motor encoder that is an incremental and for this joints needs to move: the target position depends on value of calibration3 parameter:
-    if it is `-1` then the joint move to the position written in `calibration4` else to `calibration5`. 
+    **Calibration 6 MAIS** uses mais raw values to calculate the joint encoder factor and the offset of 0.0 position.
+    Moreover, it calibrates the motor encoder that is an incremental and for this joints needs to move: the target position depends on value of `calibration3` parameter:
+    if it is `-1` then the joint move to the position written in `calibration4` else to `calibration5`.
+    **Calibration 6 FAP** uses, instead, does not calculate neiher the joint encoder factor nor the offset of the 0.0 position because the calibration of the FAP absolute encoder is done manually. Therefore, the fingers are manually moved by checking the raw values and then the `offset`, the `rotation` and the `invertDirection` parameters are set up in the POS service configuration file, thus to have the fingers rotation from ~0 deg to ~90 deg in the desired direction.
+    Once the FAP is calibrated and works properly (the procedure described above should be done just one time after the hand is mounted), the calibration procedure can be started. The steps are basically the same as the ones in `calibration6 mais`.
+    Therefore, the motor encoder gets calibrated by moving the joint to the target position depending on the value of `calibration3` parameter: if it is `-1` then the joint move to the position written in `calibration4` else to `calibration5`. So, the core of this procedure is to find the zero and so the offset of the motor incremental encoder.
     The movement is performed using the velocity specified in `calibration2` parameter. Only if the joint can reach the target position then the calibration ends successfully.
 
 ### Calibration 7
