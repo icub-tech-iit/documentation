@@ -87,7 +87,7 @@ This calibration is used also to calibrate the motor encoder setting its zero to
 
 !!!info
     **Calibration 6 MAIS** uses `mais` raw values to calculate the joint encoder factor and the offset of 0.0 position.
-    Moreover, it calibrates the motor encoder that is an incremental and for this joints needs to move: the target position depends on value of `calibration3` parameter:
+    Moreover, it calibrates the motor incremental encoder moving the joint toward a target position in a way specified by the parameter `calibration3`.
     if it is `-1` then the joint move to the position written in `calibration4` else to `calibration5`.
 
     **Calibration 6 FAP** uses, instead, does not calculate neither the joint encoder factor nor the offset of the 0.0 position because of the calibration of the FAP absolute encoder is done manually. Therefore, the fingers are manually moved by checking the raw values and then the `offset`, the `rotation` and the `invertDirection` parameters are set up in the POS service configuration file, thus to have the fingers rotation from ~0 deg to ~90 deg in the desired direction.
