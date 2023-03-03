@@ -91,7 +91,7 @@ This calibration is used also to calibrate the motor encoder setting its zero to
     If it is `-1`, then the joint moves to the position written in `calibration4`, otherwise the joint moves to `calibration5`.
 
     **Calibration 6 FAP**, instead, does not calculate either the joint encoder factor or the offset of the 0.0 position because the calibration of the FAP absolute encoder is performed manually. Therefore, the fingers are manually moved by checking the raw values and then the `offset`, the `rotation`, and the `invertDirection` parameters are specified in the POS service configuration file, in order to have the fingers rotation comprised in the range [~0, ~90] deg, in the desired direction.
-    Once the FAP is calibrated and works properly (the procedure described above should be done just one time after the hand is mounted), the calibration 6 procedure can be started. The steps are basically the same as the ones in `calibration6 mais`.
+    When the FAP is calibrated and works properly (the procedure described above shall be done just once, after the hand is mounted), the calibration 6 procedure can start. The steps are the same as those in `calibration6 mais`.
     Therefore, the motor encoder gets calibrated by moving the joint to the target position depending on the value of `calibration3` parameter: if it is `-1` then the joint moves to the position written in `calibration4` else to `calibration5`. So, the core of this procedure is to find the zero and so the offset of the motor incremental encoder.
     The movement is performed using the velocity specified in `calibration2` parameter. If the joint reaches the target position then the calibration ends successfully.
 
