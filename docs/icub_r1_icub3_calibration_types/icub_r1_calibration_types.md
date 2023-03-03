@@ -71,7 +71,8 @@ This calibration is used on joints with incremental encoder that needs to reach 
     **The hardstop could be out of range of user limits, but it needs to be inside hardware limits; so the hardstop could be a hardware limit and the joint is calibrated after reaching it, but the controller verifies that the first received setpoint is inside user limits, else limits it to the nearest user limit.**
 
 ### Calibration 6
-This calibration is used for joint with `MAIS` board encoders. On iCub robots, distal and proximal joints use this encoder.
+This calibration can be used for joint with `MAIS` and `FAP` board encoders. On iCub robots, distal and proximal joints use `MAIS`, while `FAP` are employed on ergoCub fingers.
+This calibration is used also to calibrate the motor encoder setting its zero to a given position. In this way, the motor controller engine can check that the joint moves inside the rotor limits specified in the mechanical configuration file avoiding dangerous situations like winding to much cable and pushing against the hardware limit.
 
 |   |   |
 |---|---|
@@ -79,16 +80,20 @@ This calibration is used for joint with `MAIS` board encoders. On iCub robots, d
 |`calibration1`| not used|
 |`calibration2`| velocity expressed in iCubDegree/s|
 |`calibration3`| 1 if distal joint, -1 if proximal joint. (Any other value is not accepted)|
-|`calibration4`| mais raw value read with open hand|
-|`calibration5`| mais raw value read with closed hand|
+|`calibration4`| mais/fap raw value read with open hand|
+|`calibration5`| mais/fap raw value read with closed hand|
 |`calibrationZero`| 0.0 (only value corrected)|
 |`calibrationDelta`| defined by user expressed in degree|
 
 !!!info
-    **Calibration 6** uses mais raw values to calculate the joint encoder factor and the offset of 0.0 position.
-    Moreover, it calibrates the motor encoder that is an incremental and for this joints needs to move: the target position depends on value of calibration3 parameter:
-    if it is `-1` then the joint move to the position written in `calibration4` else to `calibration5`. 
-    The movement is performed using the velocity specified in `calibration2` parameter. Only if the joint can reach the target position then the calibration ends successfully.
+    **Calibration 6 MAIS** uses `mais` raw values to calculate the joint encoder factor and the offset of 0.0 position.
+    Moreover, it calibrates the motor incremental encoder moving the joint toward a target position in a way specified by the parameter `calibration3`.
+    If it is `-1`, then the joint moves to the position written in `calibration4`, otherwise the joint moves to `calibration5`.
+
+    **Calibration 6 FAP**, instead, does not calculate either the joint encoder factor or the offset of the 0.0 position because the calibration of the FAP absolute encoder is performed manually. Therefore, the fingers are manually moved by checking the raw values and then the `offset`, the `rotation`, and the `invertDirection` parameters are specified in the POS service configuration file, in order to have the fingers rotation comprised in the range [~0, ~90] deg, in the desired direction.
+    When the FAP is calibrated and works properly (the procedure described above shall be done just once, after the hand is mounted), the calibration 6 procedure can start. The steps are the same as those in `calibration6 mais`.
+    Therefore, the motor encoder gets calibrated by moving the joint to the target position depending on the value of `calibration3` parameter: if it is `-1`, then the joint moves to the position written in `calibration4`, otherwise the position expressed in `calibration5` is used as target. Thereby, the rationale of this procedure is to find the zero as well as the offset of the motor incremental encoder.
+    The movement is performed using the velocity specified in `calibration2` parameter. If the joint reaches the target position then the calibration ends successfully.
 
 ### Calibration 7
 This calibration is used for joint with absolute analog sensor. On iCub robot, this encoder is mounted on abduction fingers and on abduction thumb joints.
