@@ -55,7 +55,7 @@ If you need to install an new JetPack image from scratch please follow the follo
       - Target operating system: *Linux Jetpack `jetpack_ver`*.
    2. Check that everything is selected and continue
    3. The SDKManager will ask the user password to download all the components and it will install them into a local folder on the host (~12Gb of free space required); Remember, this is the password of the local Ubuntu host, not the Jetson Xavier.
-   4.  After the download, the SDK Manager will be ready to flash the OS image on the Xavier; **Do not preceed further!** Press SKIP to abort the installation and quit from the SDK Manager
+   4.  After the installation, the SDK Manager will be ready to flash the OS image on the Xavier; **Do not preceed further!** Press SKIP to abort the operation and quit from the SDK Manager
 3. Download the ConnectTech board support package from the [official website](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/): under Downloads click on the bsp you need, it will be downloaded as `.tgz` archive.
 4. At this point the `sdkManager` should have created a folder tree in `~/nvidia` containing all the files needed for the flash. Copy the `.tgz` package downloaded from Connectech website into `~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra/`
 5. Extract the BSP: `tar -xzf CTI-<*>.tgz`
@@ -64,11 +64,15 @@ Before flashing the image, we need first to put the board in recovery mode.
 
 
 ### Booting the Xavier in Recovery mode
+
+With the Nvidia Jetson Xavier AGX:
 1. Press the Force Recovery (FR) button on the carrier and keep it pressed
 2. Turn on the power supply (16V)
 3. Wait for several seconds, keeping the FR button pressed
 4. Press the power (PWR) button for at least one second. Wait for several seconds
 5. Release the FR button. Now the board is programming mode
+
+With a Nvidia Jetson Xavier NX, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
