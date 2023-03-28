@@ -30,6 +30,9 @@ Here are described the elctrical and mechanical specifications for each joint.
 ## [Hands](./hands/index.md)
 Here's reported info about the hands installed on the robots.
 
+## [Wrist](./wrists/index.md)
+Here's reported info about the wrists installed on the robots.
+
 ## [iCub CPU boards](./icub_cpu_boards/icub_cpu_boards.md)
 Here's reported info about CPU boards installed on iCub.
 
