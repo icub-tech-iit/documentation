@@ -39,7 +39,7 @@ Add the icub user to the sudoers group, as follows
 
 ## Required and useful Packages
 
-Please install the following packages (names are correct for Ubuntu 18.04, please check the corresponding package in your distribution):
+Please install the following packages (names are correct for Ubuntu 20.04, please check the corresponding package in your distribution):
 
 ` nfs-common python-tk libopencv-dev ntpdate ssh cmake-curses-gui`
 
@@ -59,7 +59,7 @@ Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/s
 !!! warining "in case of icub dedicated server"
     skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
-Configure the iCub software repository, by creating the file `/etc/apt/sources.list.d/icub.list` as following example
+Configure the iCub software repository, by creating the file `/etc/apt/sources.list.d/icub.list` and add the next line into it and save.
 
 -   for a Debian 10 (Buster) machine :
 
@@ -162,7 +162,7 @@ Please see [this section](../icubos/user-env.md)
 
 ## iCub bashrc customization
 
-There are several customization you need to apply to the file `.bashrc\_iCub`:
+There are several customization you need to apply to the file `~/.bashrc_iCub`:
 
 - The YARP_ROBOT_NAME - you must insert your robot name, in the    following line and remove comment
 
@@ -222,7 +222,7 @@ driver   : nvidia-331 - distro non-free recommended
 driver   : nvidia-331-updates - distro non-free
 ```
 
-The above example is showing that there are several different nVidia driver versions available, you should chose the **recommended** one (the `nvidia-331` in above example )
+The above example is showing that there are several different nVidia driver versions available, you should choose the **recommended** one (the `nvidia-331` in above example )
 
 2. Install the appropriate nVidia driver, as follows (for the example above)
 
