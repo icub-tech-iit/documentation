@@ -162,7 +162,7 @@ Please see [this section](../icubos/user-env.md)
 
 ## iCub bashrc customization
 
-There are several customization you need to apply to the file `~/.bashrc_iCub`:
+There are several customizations you need to apply to the file `~/.bashrc_iCub`:
 
 - The YARP_ROBOT_NAME - you must insert your robot name, in the    following line and remove comment
 
