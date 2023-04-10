@@ -86,6 +86,6 @@ Add the user icub to the following groups
 
 use the next command to perform that action
 ```
-usermod -aG audio,video,tty,dialout,i2c,bluetooth icub
+usermod -a -G video,audio,tty,dialout,i2c,bluetooth icub
 ```
 
