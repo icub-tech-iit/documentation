@@ -35,7 +35,6 @@ You can find the updated default .bashrc_iCub file online.
 There are two versions of the iCub environment file:
 
 - [`bashrc_iCub_superbuild`](https://raw.githubusercontent.com/icub-tech-iit/icub-os-files/master/user-environment/bashrc_iCub_superbuild) - a special version of icub user environment, in case of compilation of the repository [ROBOTOLOGY SUPERBUILD](https://github.com/robotology/robotology-superbuild)
-
 - [`bashrc_iCub`](https://raw.githubusercontent.com/icub-tech-iit/icub-os-files/master/user-environment/bashrc_iCub) - the standard version of icub user environment, if you DO NOT intend to use the repository ROBOTOLOGY-SUPERBUILD
 
 the above files must be renamed to `.bashrc_iCub` and saved in the user home directory, along with the `.bashrc` file.
