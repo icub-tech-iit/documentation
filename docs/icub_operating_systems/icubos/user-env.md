@@ -67,7 +67,7 @@ The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bash
 
 ## Required configuration
 
-In order to customize the above user environment you should manually make some changes:
+To customize the above user environment, you ought to manually make some changes:
 
 - The **YARP_ROBOT_NAME** - you must insert your robot name, in the following line and remove the leading "#"
 ```
