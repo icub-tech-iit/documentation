@@ -30,7 +30,7 @@ The following table describes the  finger mechanism's coupling variables of the 
 |         |     |         |        |  |  |  |  |  |
 | **q0off**   | deg | \-20.71 | \-7.54 | \-7.54 | \-7.54 | \-7.54 | Angle of the lever **ACD** respect to the vertical in position 0. | |
 | **q2bias**  | deg | 180     | 173.35 | 173.35 | 173.35 | 170.54 | Angle of **L1-P1** respect to the horizontal in position 0. | |
-| **q1off**   | deg | 4.29    | 2.86   | 2.86 | 2.86 | 6.03 | Angle of **P1-P0** respect to the horizontal in position 0.  | |
+| **q1off**   | deg | 4.29    | 2.86   | 2.86 | 2.86 | 3.43 | Angle of **P1-P0** respect to the horizontal in position 0.  | |
 | **q1bias**  | deg | 0       | 0      | 0 | 0 | 0 |  Angle of **B-P0** respect to the horizontal in position 0. Not drawn in the picture because null.  | |
 |         |     |         |        |  |  |  |  | |
 | **q0**      | deg | 45.32   | 78.03  | 78.03 | 78.03 | 78.03 | Absolute angle of the lever **ACD** respect the palm, which has its fulcrum at **C** and transmits motion to the connecting rod **AB** by reversing the motion of the cable connected at **D**.| |
@@ -84,7 +84,7 @@ $$A_{y} = C_{y} + f\sin\left( q_{0} + q_{0off} \right)$$
 We have **$q_{2}$**  that depends only on the
 variable **$q_{1}$** through the implicit dependence on **$P_{1}$** and **h**:
 
-$$q_{2} = \tan^{- 1}\left( \frac{P_{1y}(q_{1}) - L_{0y}}{P_{1x}(q_{1}) - L_{0x}} \right) + \cos^{- 1}{\left( \frac{l^{2} - k^{2} + h^{2}(q_{1})}{2lh(q_{1})} \right) - q_{2bias}}.$$
+$$q_{2} = \tan^{- 1}\left( \frac{P_{1y}(q_{1}) - L_{0y}}{P_{1x}(q_{1}) - L_{0x}} \right) + \cos^{- 1}{\left( \frac{l^{2} - k^{2} + h^{2}(q_{1})}{2lh(q_{1})} \right) + q_{2bias} - \pi}.$$
 
 The Jacobian that relates the variations of **$q_{2}$** to the variations of **$q_{1}$** is:
 
