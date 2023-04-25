@@ -1,8 +1,8 @@
 # The iCub Console Server
 
-This page contains guidelines for installation of the iCub Console Server, a laptop used both as console and as network server, so that it matches the requirements of the Linux on the icub-head.
+This page contains guidelines for the installation of the iCub Console Server, a laptop used both as console and as network server, so that it matches the requirements of the Linux on the icub-head.
 
-## *Prerequisite* : basic system setup for a iCub machine
+## *Prerequisites* : basic system setup for an iCub machine
 
 Please follow the instructions on page [Generic iCub machine installation instructions](generic-machine.md), in order to prepare a generic machine for the iCub network.
 
@@ -22,7 +22,7 @@ The above network connection can be configured using the Network Manager GUI wit
 - **IP Address** : 10.0.0.1
 - **Netmash** : 255.255.255.0
 
-### Wireles (external) Network parameters
+### Wireless (external) Network parameters
 This configuration depends on your network, but usually it uses **DHCP**
 
 ## Username and hostname
@@ -43,13 +43,13 @@ Add following lines in the file `/etc/hosts`
 
 ## NFS Server
 
-The laptop hosts two directories and export them using nfs. Both of them are mounted by the other machines on the network, by the icub-head and by the laptop iteself :
+The laptop hosts two directories and export them using nfs. Both of them are mounted by the other machines on the network, by the icub-head and by the laptop itself :
 
 -   `/exports/code` - this contains the robot software sources such as
     YARP, iCub Software.
 -   `/local/yarp` - this contains the YARP configuration files, shared by all the machine in the network.
 
-For this to work you need:
+For this to work you need to:
 
 -   install nfs server on the laptop:
 
@@ -57,7 +57,7 @@ For this to work you need:
 sudo apt-get install nfs-kernel-server nfs-common portmap
 ```
 
--   creates the directories that will be exported:
+-   create the directories that will be exported:
 
 ```
 sudo mkdir -p /exports/code
