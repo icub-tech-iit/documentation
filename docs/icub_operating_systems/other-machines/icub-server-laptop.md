@@ -167,14 +167,14 @@ Enable NAT and port forwarding so that the icub-head (and other machines on the 
 interface)
 
 ### Enable IP forwarding
-Edit the file `/etc/sysctl.conf` by modifying the below line as follows
+Edit the file `/etc/sysctl.conf` and UNcomment the following line to allow icub-head(pc104) to use the internet connection of the server
 
 ```
 net.ipv4.ip_forward = 1
 ```
 
 ### Setup Network Address Translation
-First take note of the names of you network connections by checking the output f the following command:
+First take note of the names of your network connections by checking the output of the following command:
 
 ```
 ip addr
@@ -182,7 +182,7 @@ ip addr
 
 Let's now assume that
 - the cabled (internal) network connection is `eth0`
-- the cabled (internal) network connection is `wlan0`
+- the wifi (external) network connection is `wlan0`
 
 1. Add the IPTABLES rules
 ```
@@ -195,7 +195,7 @@ Installing the `iptables-persistent` package
 ```
 sudo apt install iptables-persistent
 ```
-Once you installed the package `iptables-persistent` it will asks you to save the current ipv4 and ipv6 iptables rules, answer yes to save it. Otherwise you can save it later witrh the command
+Once you installed the package `iptables-persistent` it will asks you to save the current ipv4 and ipv6 iptables rules, answer yes to save it. Otherwise you can save it later with the command
 ```
 sudo iptables-save > /etc/iptables/rules.v4
 ```
