@@ -12,7 +12,7 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 
 |       |       	          |
 |   :--- |    :-----------           |
-|    IIT alias (used as ordering reference)| KIT_008  |
+|    IIT alias (used as ordering reference)| KIT_008 |
 |    Applicable to|iCub 2.7 | 
 |Available onboard |no, optional|
 
