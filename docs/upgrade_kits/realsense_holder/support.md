@@ -25,7 +25,7 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 
 |  Pieces |     Alias        | Rev.|  Description       |  Cod. Wgst |
 |   :---: |    :-----------: |:---:|     :------------: |   :---:   |
-|    1   |	IG_027_P_002  | A3 |iCub Head, RealSense setup, holder | 	15362 |
+|    1   |	IG_027_P_002  | A4 |iCub Head, RealSense setup, holder | 	15362 |
 |    2   |	V3-8--_-_U5933_C  |   | screw – M 3 x 8 – UNI5933 , DIN7991  , ISO10642 – SS A2 – hexagon socket countersunk head  | 2468 |
 |     2  | V4-16--_-_ISO7045_CZ|   | screw - M4 x 16 - UNI7687 , DIN7985A , ISO7045 - SS A2 - pozidriv cross recessed pan head |11963|
 
