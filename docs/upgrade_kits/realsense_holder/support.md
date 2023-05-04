@@ -3,9 +3,11 @@
 ## Upgrade Kit
 
 
-This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. The current version of the upgrade kit allows mounting two models of RealSense, the D435i and D405.
+This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. The current version of the upgrade kit allows mounting two models of RealSense, the first one is the D435i and the following is the D405.
 
 <center> ![](img/8.PNG) </center>
+
+<center> ![](img/9.PNG) </center>
 
 |       |       	          |
 |   :--- |    :-----------           |
