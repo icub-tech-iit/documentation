@@ -3,16 +3,24 @@
 ## Upgrade Kit
 
 
-This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. The current version of the upgrade kit allows mounting two models of RealSense, the first one is the D435i and the following is the D405.
+This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. 
+The holder has been designed to be compatible with the following RealSense models:
 
-|       |       | 
-| :---: | :---: | 
-| <img src="img\8.PNG" height=400 > | <img src="img\9.PNG" height=400 > |
-|                 |                |
+|     Alias        |  Description       |  Cod. Wgst |
+|    :-----------: |     :------------: |   :---:   |
+|	INTEL_REALSENSE_D415   |Intel Realsense D415, range from 0.3 to 10m, FOV 70 de | 	13038 |
+|	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
+|	INTEL_REALSENSE_D405 | 	Intel RealSense D405 with IMU, range from 7 cm to 50 cm, FOV 87°×58°  | 17231 |
+
+|       |       |      |
+| :---: | :---: | :---: |
+| <img src="img\11.PNG" height=250 > | <img src="img\8.PNG" height=250 > | <img src="img\9.PNG" height=250 > |
+|                 |                |         |
+
 
 |       |       	          |
 |   :--- |    :-----------           |
-|    IIT alias (used as ordering reference)| KIT_008 |
+|    IIT alias (used as ordering reference)| KIT_008  |
 |    Applicable to|iCub 2.7 | 
 |Available onboard |no, optional|
 
@@ -22,6 +30,7 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 | 1 |  15363  | MKIT_008  |   | Pieces  |  1  |iCub 2.7, head, RealSense holder |
 |  2 |	  15389  |		EKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (electronic parts) |
 |  3  |	  15393  |		WKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (wiring parts) |
+
 
 ## Content material  MKIT_008
 
@@ -59,12 +68,6 @@ This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.
 
  <img src="img/1.PNG" height=400 alignement=center >
 
-The holder has been designed to be compatible with the two following RealSense models:
-
-|     Alias        |  Description       |  Cod. Wgst |
-|    :-----------: |     :------------: |   :---:   |
-|	INTEL_REALSENSE_D415   |Intel Realsense D415, range from 0.3 to 10m, FOV 70 de | 	13038 |
-|	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
 
 
 ## Assembly instruction
