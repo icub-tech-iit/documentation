@@ -3,20 +3,14 @@
 ## Upgrade Kit
 
 
-This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras. 
-The holder has been designed to be compatible with the following RealSense models:
+This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras.
 
-|     Alias        |  Description       |  Cod. Wgst |
-|    :-----------: |     :------------: |   :---:   |
-|	INTEL_REALSENSE_D415   |Intel Realsense D415, range from 0.3 to 10m, FOV 70 de | 	13038 |
-|	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
-|	INTEL_REALSENSE_D405 | 	Intel RealSense D405 with IMU, range from 7 cm to 50 cm, FOV 87°×58°  | 17231 |
+It ensures the compatibility with more RealSense models.
 
 |       |       |      |
 | :---: | :---: | :---: |
 | <img src="img\11.PNG" height=250 > | <img src="img\8.PNG" height=250 > | <img src="img\9.PNG" height=250 > |
 |                 |                |         |
-
 
 |       |       	          |
 |   :--- |    :-----------           |
@@ -67,6 +61,22 @@ The holder has been designed to be compatible with the following RealSense model
 This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.it/web/humanoid-sensing-and-perception) research line as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
 
  <img src="img/1.PNG" height=400 alignement=center >
+
+The holder has been designed to be compatible with the following RealSense models:
+
+|     Alias        |  Description       |  Cod. Wgst |
+|    :-----------: |     :------------: |   :---:   |
+|	INTEL_REALSENSE_D415   |Intel Realsense D415, range from 0.3 to 10m, FOV 70 de | 	13038 |
+|	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
+|	INTEL_REALSENSE_D405 | 	Intel RealSense D405 with IMU, range from 7 cm to 50 cm, FOV 87°×58°  | 17231 |
+
+**NOTE**: Not all the RealSense cameras have the same EKIT material, some of them connect by using a different cable.
+
+|     RealSense model        |  associated cable      | Cable Wgst Code |
+|    :-----------: |     :------------: |   :---:   |
+|	INTEL_REALSENSE_D415   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	15365 |
+|	INTEL_REALSENSE_D435i   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	15365 |
+|	INTEL_REALSENSE_D405   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	XXXXX |
 
 
 
