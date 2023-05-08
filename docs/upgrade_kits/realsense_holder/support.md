@@ -84,6 +84,8 @@ The holder has been designed to be compatible with the following RealSense model
 
 The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit.
 
+**NOTE**: The following instructions are provided for assembling the D435i model of RealSense camera.
+
  <img src="img/6.PNG" height=400 alignement=center >
 
 **Assembly sequence**
@@ -102,6 +104,8 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
  <img src="img/4.PNG" height=400 alignement=center >
  <img src="img/5.PNG" height=400 alignement=center >
+
+ **NOTE:** As mentioned above, the RealSense D405 uses a different cable too.
 
 ## Print the RealSense Holder yourself
 Find the STL and STEP files of the holder's variants stored within this [repository](assets/realsense_holder.zip). 
