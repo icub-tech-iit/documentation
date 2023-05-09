@@ -76,7 +76,7 @@ The holder has been designed to be compatible with the following RealSense model
 |    :-----------: |     :------------: |   :---:   |
 |	INTEL_REALSENSE_D415   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	15365 |
 |	INTEL_REALSENSE_D435i   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	15365 |
-|	INTEL_REALSENSE_D405   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	XXXXX |
+|	INTEL_REALSENSE_D405   |USB Shielded I/O Cable Assembly, USB 3.2 Gen 1, Male A to Male Micro-B, 3.0m length, black | 17308 |
 
 
 
