@@ -53,6 +53,9 @@ It ensures the compatibility with more RealSense models.
 |   1     |    15365 	 |      	 | USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 15365 |
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
+
+**NOTE** : see also [historical review](https://github.com/Mick3Lozzo/documentation/blob/master/docs/upgrade_kits/realsense_holder/support.md#historical-review) for further details. 
+
 !!! note "note"
     [Harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15393%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(wiring%20parts)) 
 
