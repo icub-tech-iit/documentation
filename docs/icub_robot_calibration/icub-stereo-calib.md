@@ -12,15 +12,11 @@ numberOfImages N
 MonoCalib value
 ```
 
-The boardWidth W is the number of corners along the width direction of the chessboard pattern (e.g. 8 for the provided pattern).
-
-The boardHeight H is the number of corners along the width direction of the chessboard pattern (e.g. 6 for the provided pattern).
-
-The boardSize S specifies the length (in meters) of one side of the squares in the chessboard pattern.
-
-The numberOfImages N specifies the number of images used for the calibration procedure (usually 20-30).
-
-The parameter value identifies if the module has to run the stereo calibration (Val=0) or the mono calibration (Val=1). For the mono calibration connect only the camera that you want to calibrate.
+- The `boardWidth` W is the number of corners along the width direction of the chessboard pattern (e.g. 8 for the provided pattern).
+- The `boardHeight` H is the number of corners along the height direction of the chessboard pattern (e.g. 6 for the provided pattern).
+- The `boardSize` S specifies the length (in meters) of one side of the squares in the chessboard pattern.
+- The `numberOfImages` N specifies the number of images used for the calibration procedure (usually 20-30).
+- The `MonoCalib` value identifies if the module has to run the stereo calibration (Val=0) or the mono calibration (Val=1). For the mono calibration, connect only the camera that you want to calibrate.
 
 The group [STEREO_CALIBRATION_CONFIGURATION] is the only one used by the module, all the other groups in the config file will be ignored. As default the stereoCalib module uses the iCubEyes.ini located in $ICUB_ROOT/app/cameraCalibration/conf.
 
