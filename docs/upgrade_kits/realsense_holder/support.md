@@ -69,8 +69,7 @@ This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.
 
 <center> <img src="img/1.PNG" height=400> </center>
 
-n designed
-The holder has bee to be compatible with the following RealSense models:
+The holder has been designed to be compatible with the following RealSense models:
 
 |     Alias        |  Description       |  Cod. Wgst |
 |    :-----------: |     :------------: |   :---:   |
