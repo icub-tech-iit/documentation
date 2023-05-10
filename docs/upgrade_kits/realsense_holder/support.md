@@ -42,8 +42,9 @@ It ensures the compatibility with more RealSense models.
 |   :---: |    :-----------: |:---:|     :------------: |   :---:   |
 |    1   |	INTEL_REALSENSE_D435i  |  |Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de | 14567 |
 
-!!! note "note"
-    [Logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15389%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(electronic%20parts)) 
+> **Note 1**
+> 
+> [Logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15389%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(electronic%20parts)) 
 
 
 ## Content material  WKIT_008 
@@ -53,11 +54,13 @@ It ensures the compatibility with more RealSense models.
 |   1     |    15365 	 |      	 | USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 15365 |
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
+> **Note 2**
+> 
+> See also [historical review](https://github.com/Mick3Lozzo/documentation/blob/master/docs/upgrade_kits/realsense_holder/support.md#historical-review) for further details. 
 
-**NOTE** : see also [historical review](https://github.com/Mick3Lozzo/documentation/blob/master/docs/upgrade_kits/realsense_holder/support.md#historical-review) for further details. 
-
-!!! note "note"
-    [Harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15393%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(wiring%20parts)) 
+> **Note 3**
+> 
+> See [Harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15393%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(wiring%20parts)) 
 
 
 ## Historical review
@@ -73,7 +76,8 @@ The holder has been designed to be compatible with the following RealSense model
 |	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
 |	INTEL_REALSENSE_D405 | 	Intel RealSense D405 with IMU, range from 7 cm to 50 cm, FOV 87°×58°  | 17231 |
 
-**NOTE**: Not all the RealSense cameras have the same EKIT material, some of them connect by using a different cable.
+!!! note "note"
+    Not all the RealSense cameras have the same EKIT material, some of them connect by using a different cable.
 
 |     RealSense model        |  associated cable      | Cable Wgst Code |
 |    :-----------: |     :------------: |   :---:   |
@@ -87,9 +91,11 @@ The holder has been designed to be compatible with the following RealSense model
 
 The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit.
 
-**NOTE**: The following instructions are provided for assembling the D435i model of RealSense camera.
-
- <img src="img/6.PNG" height=400 alignement=center >
+> **Note 4**
+>
+>   The following instructions are provided for assembling the D435i model of RealSense camera.
+> 
+> <img src="img/6.PNG" height=400 alignement=center >
 
 **Assembly sequence**
 
