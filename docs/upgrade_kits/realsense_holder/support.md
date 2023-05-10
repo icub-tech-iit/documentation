@@ -113,7 +113,7 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 - Third step, fix the chosen RealSense model to the holder usign the screws V3-8--_-_U5933_C. At this point is possible to plug the USB Type-C cable cod. 15365 and use the cable ties cod. 531 to fix it around the head.
 
 <center> <img src="img/4.PNG" height=400> </center>
-<img src="img/5.PNG" height=500>
+<center> <img src="img/5.PNG" height=500> </center>
 
 !!! note  "Note 6" 
 
