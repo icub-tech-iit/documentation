@@ -9,7 +9,7 @@ It ensures the compatibility with more RealSense models.
 
 |       |       |      |
 | :---: | :---: | :---: |
-| <img src="img\11.PNG" height=250 > | <img src="img\8.PNG" height=250 > | <img src="img\9.PNG" height=250 > |
+| <img src="img/11.PNG" height=250 > | <img src="img/8.PNG" height=250 > | <img src="img/9.PNG" height=250 > |
 |                 |                |         |
 
 |       |       	          |
