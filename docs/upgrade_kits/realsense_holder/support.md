@@ -42,9 +42,9 @@ It ensures the compatibility with more RealSense models.
 |   :---: |    :-----------: |:---:|     :------------: |   :---:   |
 |    1   |	INTEL_REALSENSE_D435i  |  |Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de | 14567 |
 
-> **Note 1**
-> 
-> [Logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15389%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(electronic%20parts)) 
+!!! note  "Note 1"
+
+    [Logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15389%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(electronic%20parts)) 
 
 
 ## Content material  WKIT_008 
@@ -54,19 +54,21 @@ It ensures the compatibility with more RealSense models.
 |   1     |    15365 	 |      	 | USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 15365 |
 |   6     |    531       |           |  Cable tie, 100x2.5mm, nylon, black | 531 | 
 
-> **Note 2**
-> 
-> See also [historical review](https://github.com/Mick3Lozzo/documentation/blob/master/docs/upgrade_kits/realsense_holder/support.md#historical-review) for further details. 
 
-> **Note 3**
-> 
-> See [Harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15393%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(wiring%20parts)) 
+ !!! note  "Note 2"
+
+     See also [historical review](https://github.com/Mick3Lozzo/documentation/blob/master/docs/upgrade_kits/realsense_holder/support.md#historical-review) for further details. 
+
+!!! note  "Note 3"
+
+    See [Harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_008/15393%20-%20iCub2.5%20Head%20RealSense%20upgrade%20kit%20(wiring%20parts)) 
 
 
 ## Historical review
 This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.it/web/humanoid-sensing-and-perception) research line as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
 
- <img src="img/1.PNG" height=400 alignement=center >
+ <img src="img/1.PNG" height=400>
+
 
 The holder has been designed to be compatible with the following RealSense models:
 
@@ -91,11 +93,11 @@ The holder has been designed to be compatible with the following RealSense model
 
 The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit.
 
-> **Note 4**
->
->   The following instructions are provided for assembling the D435i model of RealSense camera.
-> 
-> <img src="img/6.PNG" height=400 alignement=center >
+!!! note  "Note 5"
+
+    The following instructions are provided for assembling the D435i model of RealSense camera.
+
+ <img src="img/6.PNG" height=500>
 
 **Assembly sequence**
 
@@ -103,16 +105,16 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
 - First step, remove the two screws V4-12--_-_U5933_C from the side of the face cover as can be seen in the image. Set them aside, just in case you want to successively unmount the RealSense holder.
 
- <img src="img/2.PNG" height=400 alignement=center >
+<img src="img/2.PNG" height=500>
 
 - Second step, fix the holder IG_027_P_002 with the respective screws V4-16--_-_ISO7045_CZ as shown in the image, and fix the hook to the backward cover air vents.
 
- <img src="img/3.PNG" height=400 alignement=center >
+<img src="img/3.PNG" height=500>
 
 - Third step, fix the chosen RealSense model to the holder usign the screws V3-8--_-_U5933_C. At this point is possible to plug the USB Type-C cable cod. 15365 and use the cable ties cod. 531 to fix it around the head.
 
- <img src="img/4.PNG" height=400 alignement=center >
- <img src="img/5.PNG" height=400 alignement=center >
+<img src="img/4.PNG" height=500>
+<img src="img/5.PNG" height=500>
 
  **NOTE:** As mentioned above, the RealSense D405 uses a different cable too.
 
