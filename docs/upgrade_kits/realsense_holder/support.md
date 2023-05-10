@@ -116,7 +116,9 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 <img src="img/4.PNG" height=500>
 <img src="img/5.PNG" height=500>
 
- **NOTE:** As mentioned above, the RealSense D405 uses a different cable too.
+!!! note  "Note 6" 
+
+    As mentioned above, the RealSense D405 uses a different cable too.
 
 ## Print the RealSense Holder yourself
 Find the STL and STEP files of the holder's variants stored within this [repository](assets/realsense_holder.zip). 
