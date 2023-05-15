@@ -9,9 +9,8 @@ It ensures the compatibility with more RealSense models.
 
 |       |       |      |
 | :---: | :---: | :---: |
-| <img src="img/11.PNG" height=250 > | <img src="img/8.PNG" height=250 > | <img src="img/9.PNG" height=250 > |
+| <img src="../img/11.PNG"> | <img src="../img/8.PNG"> | <img src="../img/9.PNG"> |
 |                 |                |         |
-
 |       |       	          |
 |   :--- |    :-----------           |
 |    IIT alias (used as ordering reference)| KIT_008  |
@@ -39,7 +38,7 @@ It ensures the compatibility with more RealSense models.
 ## Historical review
 This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.it/web/humanoid-sensing-and-perception) research line as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
 
-<center> <img src="img/1.PNG" height=400> </center>
+<center> <img src="../img/1.PNG" height=400> </center>
 
 The holder has been designed to be compatible with the following RealSense models:
 
@@ -68,7 +67,7 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
     The following instructions are provided for assembling the D435i model of RealSense camera.
 
-<center> <img src="img/6.PNG" height=400> </center>
+<center> <img src="../img/6.PNG" height=400> </center>
 
 **Assembly sequence**
 
@@ -76,16 +75,16 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
 - First step, remove the two screws V4-12--_-_U5933_C from the side of the face cover as can be seen in the image. Set them aside, just in case you want to successively unmount the RealSense holder.
 
-<center> <img src="img/2.PNG" height=400> </center>
+<center> <img src="../img/2.PNG" height=400> </center>
 
 - Second step, fix the holder IG_027_P_002 with the respective screws V4-16--_-_ISO7045_CZ as shown in the image, and fix the hook to the backward cover air vents.
 
-<center> <img src="img/3.PNG" height=400> </center>
+<center> <img src="../img/3.PNG" height=400> </center>
 
 - Third step, fix the chosen RealSense model to the holder usign the screws V3-8--_-_U5933_C. At this point is possible to plug the USB Type-C cable cod. 15365 and use the cable ties cod. 531 to fix it around the head.
 
-<center> <img src="img/4.PNG" height=400> </center>
-<center> <img src="img/5.PNG" height=500> </center>
+<center> <img src="../img/4.PNG" height=400> </center>
+<center> <img src="../img/5.PNG" height=500> </center>
 
 !!! note  "Note 6" 
 
