@@ -7,13 +7,13 @@ This upgrade kit is meant to improve iCub's 3D perception and grasping capabilit
 
 It ensures the compatibility with more RealSense models.
 
-|       |       |      |
+|  |  |  |
 | :---: | :---: | :---: |
 | <img src="../img/11.PNG"> | <img src="../img/8.PNG"> | <img src="../img/9.PNG"> |
-|                 |                |         |
-|       |       	          |
-|   :--- |    :-----------           |
-|    IIT alias (used as ordering reference)| KIT_008  |
+
+|  |  |
+| :--- | :--- |
+|  IIT alias (used as ordering reference) | KIT_008  |
 |    Applicable to|iCub 2.7 | 
 |Available onboard |no, optional|
 
