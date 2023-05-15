@@ -1,8 +1,6 @@
 # KIT_008 iCub RealSense holder
 
 ## Upgrade Kit
-
-
 This upgrade kit is meant to improve iCub's 3D perception and grasping capabilities by adding a RealSense camera plugged on the head, in addition to the other eye cameras.
 
 It ensures the compatibility with more RealSense models.
@@ -17,23 +15,17 @@ It ensures the compatibility with more RealSense models.
 |    Applicable to|iCub 2.7 | 
 |Available onboard |no, optional|
 
-
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  15363  | MKIT_008  |   | Pieces  |  1  |iCub 2.7, head, RealSense holder |
-|  2 |	  15389  |		EKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (electronic parts) |
-|  3  |	  15393  |		WKIT_008	 |	 	| Pieces	| 1	| iCub 2.7, head, RealSense holder (wiring parts) |
-
 
 ## Content material  MKIT_008
-
 
 |  Pieces |     Alias        | Rev.|  Description       |  Cod. Wgst |
 |   :---: |    :-----------: |:---:|     :------------: |   :---:   |
 |    1   |	IG_027_P_002  | A4 |iCub Head, RealSense setup, holder | 	15362 |
 |    2   |	V3-8--_-_U5933_C  |   | screw – M 3 x 8 – UNI5933 , DIN7991  , ISO10642 – SS A2 – hexagon socket countersunk head  | 2468 |
 |     2  | V4-16--_-_ISO7045_CZ|   | screw - M4 x 16 - UNI7687 , DIN7985A , ISO7045 - SS A2 - pozidriv cross recessed pan head |11963|
-
 
 ## Historical review
 This upgrade kit has been developed together with the [HSP@IIT](https://www.iit.it/web/humanoid-sensing-and-perception) research line as an optional plug-in support to improve iCub perception and facilitate it in grasping tasks iCub. For reference, see also the page [design holder realsense](https://github.com/icub-tech-iit/design-holder-realsense).
@@ -57,10 +49,7 @@ The holder has been designed to be compatible with the following RealSense model
 |	INTEL_REALSENSE_D435i   |USB Shielded I/O Cable Assembly, Type C/M to C/M, USB 3.1 GEN4, 3.0m Length, Black | 	15365 |
 |	INTEL_REALSENSE_D405   |USB Shielded I/O Cable Assembly, USB 3.2 Gen 1, Male A to Male Micro-B, 3.0m length, black | 17308 |
 
-
-
 ## Assembly instruction
-
 The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit.
 
 !!! note  "Note 5"
