@@ -58,7 +58,7 @@ Open a terminal and type in the following to get configured:
 
 ```console
 git clone https://github.com/vvv-school/tutorial_joint-interface.git
-cd tutorial_joint-interface.git
+cd tutorial_joint-interface
 cmake -S . -B build
 cmake --build build --target install
 ```
