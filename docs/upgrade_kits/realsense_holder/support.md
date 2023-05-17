@@ -12,18 +12,19 @@ It ensures the compatibility with more RealSense models.
 |  |  |
 | :--- | :--- |
 |  IIT alias (used as ordering reference) | KIT_008  |
+|  IIT Code  | 17314 |
 |    Applicable to|iCub 2.7 | 
 |Available onboard |no, optional|
 
 |  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
-| 1 |  15363  | MKIT_008  |   | Pieces  |  1  |iCub 2.7, head, RealSense holder |
+| 1 |  15363  | MKIT_008  | A1  | Pieces  |  1  |iCub 2.7, head, RealSense holder |
 
 ## Content material  MKIT_008
 
 |  Pieces |     Alias        | Rev.|  Description       |  Cod. Wgst |
 |   :---: |    :-----------: |:---:|     :------------: |   :---:   |
-|    1   |	IG_027_P_002  | A4 |iCub Head, RealSense setup, holder | 	15362 |
+|    1   |	IG_027_P_010  |  |iCub Head, RealSense setup, holder | 	17315 |
 |    2   |	V3-8--_-_U5933_C  |   | screw – M 3 x 8 – UNI5933 , DIN7991  , ISO10642 – SS A2 – hexagon socket countersunk head  | 2468 |
 |     2  | V4-16--_-_ISO7045_CZ|   | screw - M4 x 16 - UNI7687 , DIN7985A , ISO7045 - SS A2 - pozidriv cross recessed pan head |11963|
 
@@ -66,7 +67,7 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 
 <center> <img src="../img/2.PNG" height=400> </center>
 
-- Second step, fix the holder IG_027_P_002 with the respective screws V4-16--_-_ISO7045_CZ as shown in the image, and fix the hook to the backward cover air vents.
+- Second step, fix the holder IG_027_P_010 with the respective screws V4-16--_-_ISO7045_CZ as shown in the image, and fix the hook to the backward cover air vents.
 
 <center> <img src="../img/3.PNG" height=400> </center>
 
