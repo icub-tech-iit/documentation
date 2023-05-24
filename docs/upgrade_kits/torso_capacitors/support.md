@@ -9,7 +9,7 @@
 |Available onboard |since iCub SN 043 (August 2020)|
 
 
-|  Pieces |     Alias    	        |          Description                        |  Cod. Wgst |
+|  Pieces |     Alias    	        |          Description                        |  Code Wgst |
 |   :---: |    :-----------:      |     :---:                                   |   :---:   |
 |    4   | RC_TLR_003_P_060_00    |CAPACITOR HOLDING PLATE                      | 2035 |
 |    4   | V2-5--_-_ISO7046-1_CH   |CROSS RECESSED SCREW ISO7046-1 M2X5 H        |2430|
