@@ -13,7 +13,7 @@
 |Available onboard |since iCub SN 043 (August 2020)|
 
 
-|  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
+|  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  14589  | MKIT_004  |   | Pieces  |  1  | iCub, Upper arms, fix skin breaking |
 |  2  |	   14767  |		WKIT_004	 |	 	| Pieces	| 1	| iCub 2, Upperarms, fix skin breaking (wiring parts) |
@@ -22,7 +22,7 @@
 ## Content material  MKIT_004
 
 
-|  Pieces |     Alias    |  Description       |  Cod. Wgst |
+|  Pieces |     Alias    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |
 |    1   |RC_IIT_017_P_023  | Right UA UPPER COVER iCub2.5 | 5253 |
 |    1   |RC_IIT_017_P_022  | Left  UA UPPER COVER iCub2.5 | 5252 |
@@ -33,7 +33,7 @@
 
 ## Content material  WKIT_004 
 
-|  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
+|  Pieces |     Alias    |    REV    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
 |   1     |    10301  	 |      	 | iCub 2.5, subassembly - Right Upperarm Skin Harness, wiring materials |10301 |
 |   1     |    10273 	 |     	 | 	iCub 2.5, subassembly - Left Upperarm Skin Harness, wiring materials |10273 |
@@ -42,7 +42,7 @@
     [link to harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14767%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(wiring%20parts)) 
 
 ## Content material  EKIT_004 
-|  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
+|  Pieces |     Alias    |    REV    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
 |  1 |   13475     |        | iCubSkin 2.5, Right Upper Arm Skin, RUGGED Electronic boards   |    13475  |
 |  1 |   13476     |        | 	iCubSkin 2.5, Left Upper Arm Skin, RUGGED Electronic boards  |    13476  |
