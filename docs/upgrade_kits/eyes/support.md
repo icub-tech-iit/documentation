@@ -9,7 +9,7 @@
 
 ## Content material
 
-|  Pieces |     Alias           |          Description                        |  Cod. Wgst |
+|  Pieces |     Alias           |          Description                        |  Code Wgst |
 |   :---: |    :---:            |     :---:                                   |   :---:   |
 |    2   | RC_IIT_010_P_038 | EYE_ACTUATING-JOINT_BASE | 2617 |
 |     1   | RC_IIT_010_P_047 | V2 eye tilt brace A | 2626 |
