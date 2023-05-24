@@ -16,7 +16,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 | Applicable to | iCub versions ≥ 2.x |
 | Available onboard | – |
 
-|  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
+|  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |    | MKIT_009 |   | Pieces  |  1  |  |
 |  2  | 17018 |		WKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU and COM Express Type 10 (wiring) |
