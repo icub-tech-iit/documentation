@@ -12,7 +12,7 @@ It is possible to work with leaving the head attached to the robot or not.
 
 ## Content material
 
-|  Pieces |     Alias    	          |          Description                        |  Cod. Wgst |
+|  Pieces |     Alias    	          |          Description                        |  Code Wgst |
 |   :---: |    :-----------:            |     :---:                                   |   :---:   |
 |    2   | RC_IIT_010_P_071   | Differential neck HFUC pulley                       | 6791 |
 |    4   | V2-3--_-_ISO7045_CZ |       M 2 x 3 – ISO7045 – SS A2              |2425|
