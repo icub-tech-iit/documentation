@@ -9,7 +9,7 @@
 
 ## Content material
 
-|  Pieces |     Alias           | Position | Rev |          Description                              |  Cod. Wgst |
+|  Pieces |     Alias           | Position | Rev |          Description                              |  Code Wgst |
 |   :---: |    :---:            |  :---:   |:---:|             :---:                                 |   :---:   |
 |     1   |  RC_IIT_011_P_063   |          |     |      Left support for Mais                        | 14357 |
 |     1   | RC_IIT_011_G_017    |          |     |      Left support for FTC                         | 14354 | 
