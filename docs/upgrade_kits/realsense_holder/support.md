@@ -41,7 +41,7 @@ The holder has been designed to be compatible with the following RealSense model
 |	INTEL_REALSENSE_D435i | 	Intel Realsense D435i with IMU, range from 0.2 to 10m, FOV 90 de i  | 14567 |
 |	INTEL_REALSENSE_D405 | 	Intel RealSense D405 with IMU, range from 7 cm to 50 cm, FOV 87°×58°  | 17231 |
 
-!!! note "note"
+!!! note "Note"
     Not all the RealSense cameras have the same interface, some of them connect by using a different cable.
 
 |     RealSense model        |  associated cable      | Cable Wgst Code |
@@ -53,7 +53,7 @@ The holder has been designed to be compatible with the following RealSense model
 ## Assembly instruction
 The RealSense holder can be mounted on the top of iCub head by replacing two side screws fixing the face cover, and in the kit are included and USB Type-C cable, screws and cable ties. The kit does NOT include the RealSense. It is recommended to replace the short cable included in the RealSense retail package with the longer one provided with the upgrade kit.
 
-!!! note  "Note 5"
+!!! note "Note"
 
     The following instructions are provided for assembling the D435i model of RealSense camera.
 
@@ -76,7 +76,7 @@ The RealSense holder can be mounted on the top of iCub head by replacing two sid
 <center> <img src="../img/4.PNG" height=400> </center>
 <center> <img src="../img/5.PNG" height=500> </center>
 
-!!! note  "Note 6" 
+!!! note  "Note" 
 
     As mentioned above, the RealSense D405 uses a different cable too.
 
