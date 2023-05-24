@@ -29,26 +29,30 @@ Seven additional reference frames are defined with respect to this common root r
 
 The roto-translation which converts a point in one of these reference frames to the root reference frame are given by the following SE(3) matrices:
 
-| End effector      |       | Reference frame | SE(3) Matrix                  | Description                                                                                | Matlab files                    |
-|-------------------|-------|-----------------|-------------------------------|--------------------------------------------------------------------------------------------|---------------------------------|
-|                   |       |                 |                               |                                                                                            |                                 |
-| All               | -&gt; | Root            | **-**                         | Whole body (all reference frames)                                                          | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)     |
-|                   |       |                 |                               |                                                                                            |                                 |
-| Left arm          | -&gt; | Root            | **T\_RoLa**                   | [iCub Left Arm Forward Kinematics](./icub-forward-kinematics-arms.md#left)                                                      | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Right arm         | -&gt; | Root            | **T\_RoRa**                   | [ iCub Right Arm Forward Kinematics](./icub-forward-kinematics-arms.md#right)                                                     | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Left hand         | -&gt; | Root            | **T\_RoLt, T\_RoLi, T\_RoLm** | [ iCub Left Fingers Forward Kinematics](./icub-forward-kinematics-fingers.md#left)                                                  | -                            |
-| Right hand        | -&gt; | Root            | **T\_RoRt, T\_RoRi, T\_RoRm** | [ iCub Right Fingers Forward Kinematics](./icub-forward-kinematics-fingers.md#right)                                             | -                            |
-| Left foot V1      | -&gt; | Root            | **T\_RoLf**                   | [ iCub Left Leg Forward Kinematics V1](./icub-forward-kinematics-legs.md#left-v1)                                                  | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Left foot V2.5    | -&gt; | Root            | **T\_RoLf**                   | [ iCub Left Leg Forward Kinematics V2.5](./icub-forward-kinematics-legs.md#left-v2_5)                                                 | [ICubFwdKinNewV2.5.zip](./assets/ICubFwdKinNewV2.5.zip)  |
-| Right foot V1     | -&gt; | Root            | **T\_RoRf**                   | [ iCub Right Leg Forward Kinematics V1](./icub-forward-kinematics-legs.md#rigt-v1)                                                   | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Right foot V2.5   | -&gt; | Root            | **T\_RoRf**                   | [ iCub Right Leg Forward Kinematics V2.5](./icub-forward-kinematics-legs.md#right-v2_5)                                           | [ICubFwdKinNewV2.5.zip](./assets/ICubFwdKinNewV2.5.zip) |
-| Left eye V1       | -&gt; | Root            | **T\_RoLe**                   | [ iCub Head Forward Kinematics (left eye) V1](./icub-forward-kinematics-head.md#v1)                                            | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Left eye V2       | -&gt; | Root            | **T\_RoLe**                   | [ iCub Head Forward Kinematics (left eye) V2](./icub-forward-kinematics-head.md#v2)                                            | [ICubFwdKinNewV2.zip](./assets/ICubFwdKinNewV2.zip)   |
-| Right eye V1      | -&gt; | Root            | **T\_RoRe**                   | [ iCub Head Forward Kinematics (right eye) V1](./icub-forward-kinematics-head.md#v1) | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Right eye V2      | -&gt; | Root            | **T\_RoRe**                   | [ iCub Head Forward Kinematics (right eye) V2](./icub-forward-kinematics-head.md#v2) | [ICubFwdKinNewV2.zip](./assets/ICubFwdKinNewV2.zip)   |
-| Inertia sensor V1 | -&gt; | Root            | **T\_RoIs**                   | [ iCub Inertial Sensor Forward Kinematics V1](./icub-forward-kinematics-imu.md#v1)                                            | [ICubFwdKinNew.zip](./assets/ICubFwdKinNew.zip)      |
-| Inertia sensor V2 | -&gt; | Root            | **T\_RoIs**                   | [ iCub Inertial Sensor Forward Kinematics V2](./icub-forward-kinematics-imu.md#v2)                                            | [ICubFwdKinNewV2.zip](./assets/ICubFwdKinNewV2.zip)   |
+| End effector      |       | Reference frame | SE(3) Matrix                  | Description                                                                                | Matlab files                               |
+|-------------------|-------|-----------------|-------------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------|
+|                   |       |                 |                               |                                                                                            |                                            |
+| All               | -&gt; | Root            | **-**                         | Whole body (all reference frames)                                                          | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+|                   |       |                 |                               |                                                                                            |                                            |
+| Left arm          | -&gt; | Root            | **T\_RoLa**                   | [iCub Left Arm Forward Kinematics](./icub-forward-kinematics-arms.md#left)                 | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Right arm         | -&gt; | Root            | **T\_RoRa**                   | [ iCub Right Arm Forward Kinematics](./icub-forward-kinematics-arms.md#right)              | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Left hand         | -&gt; | Root            | **T\_RoLt, T\_RoLi, T\_RoLm** | [ iCub Left Fingers Forward Kinematics](./icub-forward-kinematics-fingers.md#left)         | -                                          |
+| Right hand        | -&gt; | Root            | **T\_RoRt, T\_RoRi, T\_RoRm** | [ iCub Right Fingers Forward Kinematics](./icub-forward-kinematics-fingers.md#right)       | -                                          |
+| Left foot V1      | -&gt; | Root            | **T\_RoLf**                   | [ iCub Left Leg Forward Kinematics V1](./icub-forward-kinematics-legs.md#left-v1)          | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Left foot V2.5    | -&gt; | Root            | **T\_RoLf**                   | [ iCub Left Leg Forward Kinematics V2.5](./icub-forward-kinematics-legs.md#left-v2_5)      | [ICubFwdKinNewV2.5.zip][ICubFwdKinNewV2.5] |
+| Right foot V1     | -&gt; | Root            | **T\_RoRf**                   | [ iCub Right Leg Forward Kinematics V1](./icub-forward-kinematics-legs.md#rigt-v1)         | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Right foot V2.5   | -&gt; | Root            | **T\_RoRf**                   | [ iCub Right Leg Forward Kinematics V2.5](./icub-forward-kinematics-legs.md#right-v2_5)    | [ICubFwdKinNewV2.5.zip][ICubFwdKinNewV2.5] |
+| Left eye V1       | -&gt; | Root            | **T\_RoLe**                   | [ iCub Head Forward Kinematics (left eye) V1](./icub-forward-kinematics-head.md#v1)        | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Left eye V2       | -&gt; | Root            | **T\_RoLe**                   | [ iCub Head Forward Kinematics (left eye) V2](./icub-forward-kinematics-head.md#v2)        | [ICubFwdKinNewV2.zip][ICubFwdKinNewV2]     |
+| Right eye V1      | -&gt; | Root            | **T\_RoRe**                   | [ iCub Head Forward Kinematics (right eye) V1](./icub-forward-kinematics-head.md#v1)       | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Right eye V2      | -&gt; | Root            | **T\_RoRe**                   | [ iCub Head Forward Kinematics (right eye) V2](./icub-forward-kinematics-head.md#v2)       | [ICubFwdKinNewV2.zip][ICubFwdKinNewV2]     |
+| Inertia sensor V1 | -&gt; | Root            | **T\_RoIs**                   | [ iCub Inertial Sensor Forward Kinematics V1](./icub-forward-kinematics-imu.md#v1)         | [ICubFwdKinNew.zip][ICubFwdKinNew]         |
+| Inertia sensor V2 | -&gt; | Root            | **T\_RoIs**                   | [ iCub Inertial Sensor Forward Kinematics V2](./icub-forward-kinematics-imu.md#v2)         | [ICubFwdKinNewV2.zip][ICubFwdKinNewV2]     |
 
+
+[ICubFwdKinNew]: https://github.com/icub-tech-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNew.zip
+[ICubFwdKinNewV2]: https://github.com/icub-tech-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNewV2.zip
+[ICubFwdKinNewV2.5]: https://github.com/icub-tech-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNewV2.5.zip
 
 Each of these matrices is constructed with two steps. The first consists in a rigid roto-translation from the points in the root reference frame to points in the 0th reference frame as defined by the Denavit-Hartenberg convention. The second step corresponds to the Denavit-Hartenberg description of the forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom.
 
