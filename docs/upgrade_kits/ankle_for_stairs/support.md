@@ -14,7 +14,7 @@ We are going to replace iCub feet plates in order to increase the step length an
 
 ## Content material
 
-|  Pieces |     Alias    	          |          Description                        |  Cod. Wgst |
+|  Pieces |     Alias    	          |          Description                        |  Code Wgst |
 |   :---: |    :-----------:            |     :---:                                   |   :---:   |
 |   1   | RC_IIT_028_P_001 | left foot shaped plate | 15058 |
 |   1   | RC_IIT_028_P_002 | right foot shaped plate |15059|
