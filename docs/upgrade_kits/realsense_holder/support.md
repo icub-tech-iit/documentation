@@ -16,7 +16,7 @@ It ensures the compatibility with more RealSense models.
 |    Applicable to|iCub 2.7 | 
 |Available onboard |no, optional|
 
-|  #  |     Cod    |   Alias  |  Rev | UM |  Qta  |  Description |
+|  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |  15363  | MKIT_008  | A1  | Pieces  |  1  |iCub 2.7, head, RealSense holder |
 
