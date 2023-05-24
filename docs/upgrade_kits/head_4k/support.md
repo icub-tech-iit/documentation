@@ -26,7 +26,7 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 
 <center> ![](img/3.JPG) </center>
 
-Alias | Descrizione | Codice | Rev. | Qtà
+Alias | Description | Code | Rev | Qty
 -- | -- | -- | -- | --
 V2_5-6--_-_ISO7045_CZ | screw – M2.5 x  6 – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2414 |   | 4
 V2-5--_-_ISO7045_CZ | screw – M 2 x 5 – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2429 |   | 5
@@ -94,7 +94,7 @@ IC_032_P_018 | eyelid upper | 16545 |   | 1
 
 ## Content material  WKIT_009
 
-|  Cod  | BOM |  Alias | Rev |  Qta | Descrizione      |
+|  Code  | BOM |  Alias | Rev |  Qty | Description      |
 |:-----:|:---:|:--------------:|:---:|--------:|:------------------:|
 | 10132 |     | 10132                       |     |  20,000 | Housing, Microfit, 2 contacts, 1   row, male, p.3mm, Straight, w to w, lock, key, 5A                 |
 | 10879 |     | 10879                       |     |  20,000 | Crimp terminal, Pico-Lock,   female contacts, AWG24-28, 3A                                           |
@@ -122,7 +122,7 @@ IC_032_P_018 | eyelid upper | 16545 |   | 1
 | [![](img/4.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/17018_0.0.0_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
 
 ## Content material  EKIT_009 
-|  Pieces |     Alias    |    REV    |  Description       |  Cod. Wgst |
+|  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
 | 1 |PUIAUDIO_AS04004PO-2-R_SPKR|      |   Miniature speaker, 4R, 82dBA,200Hz, 3W,          | 12035 |
 | 1 | 13463 |      | HMC mini PCIE to M.2 KEY E adapter | 13463 |
