@@ -112,7 +112,7 @@ The first step to achieve joint level torque control / playing with torque & imp
 ### Run `gravityCompensator` on the robot 
 The `gravityCompensator` is included in the same script used to launch the `wholeBodyDynamics` module (i.e. wholeBodyDynamics.xml). The module estimates the gravitational term acting on joints due to links weight and generates a feed-forward term which can be used to compensate the gravity when the joint is torque/impedance control mode. This module is particular useful if you want to control the robot in impedance position mode with low stiffness values. In this case, in fact, the accuracy of position control loop will be poor, because the gravity will act on the low-stiffness joint preventing it to reach the commanded position. On the contrary, if the gravity compensation module is running, the feed-forward term will help the joint to reach the commanded position even with low stiffness values.
 
-Additional notes:
+#### Additional notes
 
 The torques estimation is perfomed by the iDyn library which includes a mechanical model of the iCub robot based on the CAD parameters. This means that a small drift can be present, due to the fact that the model obtained from the CAD slightly differs from the real iCub (consider the weight of the power cables, the additional skin etc.)
 If the joint stiffness is zero and `gravityCompensator` is off, the gravity will make the joint to fall down regardless the commanded position. In this case, running the `gravityCompensator` is the only way to track to commanded position.
