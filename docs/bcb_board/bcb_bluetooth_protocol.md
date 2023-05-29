@@ -1,4 +1,4 @@
-# BCB Bluethoot Protocol
+# BCB Bluetooth Protocol
 
 ## Introduction
 This page describes the Bluetooth communication protocol for the control and diagnostics of the iCub battery backpack system.
