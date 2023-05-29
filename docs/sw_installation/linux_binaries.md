@@ -1,4 +1,7 @@
-# Install iCub software from pre-compiled binaries on Linux (Debian/Ubuntu)
+# (DEPRECATED) Install iCub software from pre-compiled binaries on Linux (Debian/Ubuntu)
+
+!!! Warning
+    The debian packages have been deprecated in favor of the conda packages, please refer the [dedicated section](./conda_binaries.md)
 
 We provide binaries apt binary packages for the software contained in the [`ycm`](https://github.com/robotology/ycm), [`yarp`](https://github.com/robotology/yarp) and [`icub-main`](https://github.com/robotology/icub-main) repositories.
 
