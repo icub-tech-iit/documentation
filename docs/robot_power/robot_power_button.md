@@ -19,5 +19,5 @@ On iCub3 and on R1 there is also a display that shows the voltage and current pr
 
 | iCub 3 | R1 |
 |:---:|:---:|
-| <img src="./assets/fig-icub3-4.png" height="200"> | <img src="./assets/fig-r1-1.png" height="200"> |
+| <img src="../assets/fig-icub3-4.png" height="200"> | <img src="../assets/fig-r1-1.png" height="200"> |
 
