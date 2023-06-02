@@ -12,8 +12,8 @@ The power push buttons on the iCub 2.5 backpack and on the iCub3 back have diffe
 
 | iCub 2.5 | iCub 3 |
 |:---:|:---:|
-|<img src="./assets/fig-icub2.5-1.png" height="400"> | <img src="./assets/fig-icub3-1.png" height="400"> |
-|<img src="./assets/fig-icub2.5-2.png" height="150"> <img src="./assets/fig-icub2.5-3.png" height="150"> | <img src="./assets/fig-icub3-2.png" height="150"> <img src="./assets/fig-icub3-3.png" height="150"> |
+|<img src="../assets/fig-icub2.5-1.png" height="400"> | <img src="../assets/fig-icub3-1.png" height="400"> |
+|<img src="../assets/fig-icub2.5-2.png" height="150"> <img src="../assets/fig-icub2.5-3.png" height="150"> | <img src="../assets/fig-icub3-2.png" height="150"> <img src="../assets/fig-icub3-3.png" height="150"> |
 
 On iCub3 and on R1 there is also a display that shows the voltage and current present, even the red/green icon with the same meaning as the push button LEDs (R1 doesn't have the colored buttons).
 
