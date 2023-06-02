@@ -39,5 +39,8 @@ Here's reported info about CPU boards installed on iCub.
 ## [F/T Sensors](./ft_sensors/index.md)
 Here's reported info about `F/T sensors`.
 
+## [Power push buttons](./robot_power/robot_power_button.md)
+Here's reported info about `power push buttons`.
+
 ## [Custom components](./custom_components/custom_components.md)
 Here's reported info about `third-party custom components`.

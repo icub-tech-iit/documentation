@@ -176,6 +176,7 @@ nav:
       - Tactile Sensors:
         - Summary: tactile_sensors/index.md
         - Physical Sensors: tactile_sensors/hardware/physical_sensors.md
+      - Power push buttons: robot_power/robot_power_button.md
       - Custom components: custom_components/custom_components.md
 
     - iCub SW:
