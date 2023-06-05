@@ -180,7 +180,7 @@ This calibration is used for joints with the absolute encoder at the joint (whic
 |`calibrationDelta`| defined by user expressed in degree |
 
 !!!note
-    **The `calibration14` rotation parameter cannot be any values fed by the user. Possible values are: 0, 32768, 16384 -16384 that are values expressed in iCubDegrees, as specified in the table above. Specifically, those values correspond respectively to the following values in normal degrees: 0, 180, 90, -90. (It should be noted that values are only accepted without decimal part, therefore only integer value is checked. As a matter of fact multiplying the degrees by the conversion factor, defined in the [Legend](#legend) section, will generate a values with decimal part. Thus it has been decided to round up that value).**
+    **The `calibration14` rotation parameter cannot assume any value. Allowed values are: `0`, `32768`, `16384`, `-16384`, expressed in `iCubDegrees` as specified in the table above. Specifically, these values correspond to the following numbers in degrees: `0`, `180`, `90`, `-90`. Notice how these values are only accepted without decimals; therefore, only integer parts are checked. In fact, multiplying the degrees by the conversion factor, defined in the [Legend](#legend) section, generates outputs with decimals. Thus, it has been decided to round them up.**
 
 !!!info
       Considering that this calibration works in close relation with absolute encoders it is necessary to keep in mind the following note.
