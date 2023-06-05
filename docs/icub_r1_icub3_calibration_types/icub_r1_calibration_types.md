@@ -165,6 +165,31 @@ This calibration is used for joint with absolute encoder, it is the newest versi
 |`calibrationZero`| 0.0 (only value corrected)|
 |`calibrationDelta`| defined by user expressed in degree|
 
+### Calibration 14
+This calibration is used for joints with the absolute encoder at the joint (which currently works with POS service / FAP encoder sensor) and with incremental encoder at the motor. Moreover, it is applied to joints whose motor is provided with hard-stop mechanical limits. Specifically, this type of calibration is used when the user needs to reach one of the two mechanical limits on the joint motor, aiming at calibrating the incremental encoder at the motor and accurately setting the hardware limits between which the rotor can move.
+
+|   |   |
+|---|---|
+|`Calibration type`| 14|
+|`calibration1`| PWM used to move to hard-stop limit |
+|`calibration2`| Final position (in iCubDegrees) at the hard-stop limit [motor zero] |
+|`calibration3`| Invert direction boolean parameter |
+|`calibration4`| Rotation (in iCubDegrees) parameter |
+|`calibration5`| Offset (in iCubDegrees) parameter |
+|`calibrationZero`| 0.0 (only value corrected) |
+|`calibrationDelta`| defined by user expressed in degree |
+
+!!!note
+    **The `calibration14` rotation parameter cannot assume any value. Allowed values are: `0`, `32768`, `16384`, `-16384`, expressed in `iCubDegrees` as specified in the table above. Specifically, these values correspond to the following numbers in degrees: `0`, `180`, `90`, `-90`. Notice how these values are only accepted without decimals; therefore, only integer parts are checked. In fact, multiplying the degrees by the conversion factor, defined in the [Legend](#legend) section, generates outputs with decimals. Thus, it has been decided to round them up.**
+
+!!!info
+      Considering that this calibration works in close relation with absolute encoders, it is necessary to keep in mind the following note.
+      First, `calibration type 14` has been designed to work with finger joints and specifically it is currently tested on joints that use `FAP` encoders. However, it should work similarly with other types of absolute encoders. In particular, the parameters that should be modified are `calibration3`, `calibration4`, and `calibration5`.
+      Another detail to cite is also related to the aforementioned `FAP` parameters. Specifically, it has been chosen to pass those data in `iCubDegree`, but it is known that `POS` service, which manages the `FAP` encoder, use different datatype, especially for the rotation parameter that is defined by an `enum type`. Therefore, in the firmware, this conversion is managed. 
+      In this manner, during the calibration phase, the absolute encoder is calibrated first, by setting the `offset` and adjusting it using `invertdirection` and `rotation` if different than zero. 
+      Then, the algorithm moves the incremental encoder at the motor to the `hard limit` (at open or closed finger based on the PWM sign) at setting `calibration2` as the `motor zero`. 
+      After that, `rotorPosMin`, and `rotorPosMax` passed in the mechanical configuration file, are set as the rotor limits. Thus, the motor will move only between those limits (expressed in degrees at motor).
+
 ## Legend
 - `iCubDegree`: the firmware uses iCubDegree instead of degree in order to use more resolution.
       
