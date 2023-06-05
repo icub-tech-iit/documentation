@@ -166,7 +166,7 @@ This calibration is used for joint with absolute encoder, it is the newest versi
 |`calibrationDelta`| defined by user expressed in degree|
 
 ### Calibration 14
-This calibration is used for joints with absolute encoder at the joint (which currently works with POS service/ FAP encoder sensor) and with incremental encoder at the motor, moreover it is applied to joints whose motor is provided with hard-stop mechanical limits. Specifically, this type of calibration is used when the user needs to reach one of the two mechanical limits on the joint motor, aiming at calibrate the incremental encoder at the motor and setting accurately the hardware limits between which the rotor can move.
+This calibration is used for joints with the absolute encoder at the joint (which currently works with POS service / FAP encoder sensor) and with incremental encoder at the motor. Moreover, it is applied to joints whose motor is provided with hard-stop mechanical limits. Specifically, this type of calibration is used when the user needs to reach one of the two mechanical limits on the joint motor, aiming at calibrating the incremental encoder at the motor and accurately setting the hardware limits between which the rotor can move.
 
 |   |   |
 |---|---|
