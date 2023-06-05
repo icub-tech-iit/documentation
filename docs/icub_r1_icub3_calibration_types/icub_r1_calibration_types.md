@@ -188,7 +188,7 @@ This calibration is used for joints with the absolute encoder at the joint (whic
       Another detail to cite is also related to the aforementioned `FAP` parameters. Specifically, it has been chosen to pass those data in `iCubDegree`, but it is known that `POS` service, which manages the `FAP` encoder, use different datatype, especially for the rotation parameter that is defined by an `enum type`. Therefore, in the firmware, this conversion is managed. 
       In this manner, during the calibration phase, the absolute encoder is calibrated first, by setting the `offset` and adjusting it using `invertdirection` and `rotation` if different than zero. 
       Then, the algorithm moves the incremental encoder at the motor to the `hard limit` (at open or closed finger based on the PWM sign) at setting `calibration2` as the `motor zero`. 
-      After that, `rotorPosMin`and `rotorPosMax` passed in the mechanical configuration file, are set as the rotor limits. Thus, the motor will move only between those limits (expressed in degree at motor).
+      After that, `rotorPosMin`, and `rotorPosMax` passed in the mechanical configuration file, are set as the rotor limits. Thus, the motor will move only between those limits (expressed in degrees at motor).
 
 ## Legend
 - `iCubDegree`: the firmware uses iCubDegree instead of degree in order to use more resolution.
