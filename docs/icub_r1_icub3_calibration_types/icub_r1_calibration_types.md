@@ -184,7 +184,7 @@ This calibration is used for joints with the absolute encoder at the joint (whic
 
 !!!info
       Considering that this calibration works in close relation with absolute encoders, it is necessary to keep in mind the following note.
-      First of all this `calibration type 14` has been designed to work with finger joints and specifically it is currently tested on joints that use `FAP` encoders but it should work similarly with other types of absolute encoders. In particular, the parameters that should be modifed are `calibration3`, `calibration4` and `calibration5`.
+      First, `calibration type 14` has been designed to work with finger joints and specifically it is currently tested on joints that use `FAP` encoders. However, it should work similarly with other types of absolute encoders. In particular, the parameters that should be modified are `calibration3`, `calibration4`, and `calibration5`.
       Another detail to cite is also related to the aforementioned `FAP` parameters. Specifically, it has been chosen to pass those data in `iCubDegree`, but it is known that `POS` service, which manages the `FAP` encoder, use different datatype, especially for the rotation parameter that is defined by an `enum type`. Therefore, in the firmware, this conversion is managed. 
       In this manner, during the calibration phase, the absolute encoder is calibrated first, by setting the `offset` and adjusting it using `invertdirection` and `rotation` if different than zero. 
       Then, the algorithm moves the incremental encoder at the motor to the `hard limit` (at open or closed finger based on the PWM sign) at setting `calibration2` as the `motor zero`. 
