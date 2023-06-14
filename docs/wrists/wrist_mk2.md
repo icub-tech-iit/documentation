@@ -1,6 +1,6 @@
 # Wrist Mk2.0 vs Wrist Mk2.1
 <p align="center">
-  <img  src=    "./img/mk2.0_vs_mk2.1.png"
+  <img  src=    "../img/mk2.0_vs_mk2.1.png"
         title=  "mk2.0_vs_mk2.1.png"
         width=  "">
 </p>
