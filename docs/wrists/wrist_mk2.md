@@ -1,6 +1,6 @@
 # Wrist Mk2.0 vs Wrist Mk2.1
 <p align="center">
-  <img  src=    "../img/mk2.0_vs_mk2.1.png"
+  <img  src=    "./img/mk2.0_vs_mk2.1.png"
         title=  "mk2.0_vs_mk2.1.png"
         width=  "">
 </p>
@@ -13,12 +13,12 @@
 | Joint number | Motors | Identifier    | Type | Parent link | Child link  | Mk2.0 lower limit | Mk2.0 upper limit | Mk2.1 low. l. | Mk2.1 upp. l. | Notes        |
 |--------------|--------|---------------|------|-------------|-------------|-------------------|-------------------|---------------|---------------|--------------|
 |              |        | l_elbow       | ROT  | l_upperarm  | l_forearm   | -                 | -                 | -             | -             | E1 in fig.   |
-|              |        | l_wrist_yaw   | ROT  | l_forearm   | l_wrist_1   | -90°              | 90°               | -90°          | 90°           | W1 in fig.   |
+|              |        | l_wrist_yaw   | ROT  | l_forearm   | l_wrist_1   | -92°              | 92°               | -92°          | 92°           | W1 in fig.   |
 |              |        | l_wrist_roll  | ROT  | l_wrist_1   | l_wrist_2   | -62°              | 52°               | -33°          | 40°           | W2 in fig.   |
 |              |        | l_wrist_pitch | ROT  | l_wrist_2   | l_hand_palm | -32°              | 32°               | -20°          | 20°           | W3 in fig.   |
 
 <p align="center">
-  <img  src=    "../img/pitches.png"
+  <img  src=    "./img/pitches.png"
         title=  "pitches.png"
         width=  "750">
 </p>
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img  src=    "../img/wrist-yaw-roll.png"
+  <img  src=    "./img/wrist-yaw-roll.png"
         title=  "wrist-yaw-roll.png"
         width=  "750">
 </p>
