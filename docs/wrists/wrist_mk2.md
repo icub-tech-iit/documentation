@@ -18,7 +18,7 @@
 |              |        | l_wrist_pitch | ROT  | l_wrist_2   | l_hand_palm | -32°              | 32°               | -20°          | 20°           | W3 in fig.   |
 
 <p align="center">
-  <img  src=    "./img/pitches.png"
+  <img  src=    "../img/pitches.png"
         title=  "pitches.png"
         width=  "750">
 </p>
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img  src=    "./img/wrist-yaw-roll.png"
+  <img  src=    "../img/wrist-yaw-roll.png"
         title=  "wrist-yaw-roll.png"
         width=  "750">
 </p>
