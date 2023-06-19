@@ -1,4 +1,4 @@
-# iCub and Friends sensors interfaces
+# Sensors interfaces
 
 ## YARP network wrapper servers convention
 
@@ -28,7 +28,7 @@ Next, we will list the convention used for each type of functionality. For each 
 
 ### ControlBoards
 
-The `ControlBoard` functionality is exposed via the [`controlBoard_nws_yarp`](https://www.yarp.it/latest/classControlBoard__nws__yarp.html) device. It can be used to get and set input-output quantities associated to the part's joints.
+The `ControlBoard` functionality is exposed via the [`controlBoard_nws_yarp`](https://www.yarp.it/latest/classControlBoard__nws__yarp.html) device. It can be used to get and set input-output quantities associated to the part's joints, by communicating with the ETH boards of the robot.
 
 For each part, there will be a `controlBoard_nws_yarp` device that will open the following YARP ports:
 
@@ -44,7 +44,7 @@ For each part, there will be a `controlBoard_nws_yarp` device that will open the
 
 ### Inertial Measurements Units (IMUs)
 
-Inertial Measurements Units functionalities are exposed via the [`multipleanalogsensorsserver`](https://www.yarp.it/latest//classMultipleAnalogSensorsServer.html) YARP device. The `inertials` string added to the YARP port name, to identify the functionality: `/<robotPortPrefix>/<partName>/inertials`.
+Inertial Measurements Units functionalities are exposed via the [`multipleanalogsensorsserver`](https://www.yarp.it/latest//classMultipleAnalogSensorsServer.html) YARP device. The `inertials` string added to the YARP port name, to identify the device: `/<robotPortPrefix>/<partName>/inertials`.
 
 For each part, there will be a `multipleanalogsensorsserver` device that will open the following YARP ports:
 
@@ -66,20 +66,42 @@ The client device will expose sensors related to the following [Multiple Analog 
 
 ### Force-Torque Sensors
 
-Force-Torque Sensors functionalities are exposed via the [`multipleanalogsensorsserver`](https://www.yarp.it/latest//classMultipleAnalogSensorsServer.html) YARP device. The `name` parameter passed to this device is: `/<robotPortPrefix>/<partName>/FT`.
+Force-Torque Sensors functionalities are exposed via the [`multipleanalogsensorsserver`](https://www.yarp.it/latest//classMultipleAnalogSensorsServer.html) YARP device. The `FT` string added to the YARP port name, to identify the device: `/<robotPortPrefix>/<partName>/FT`.
 
-This means that for each part there will be a `multipleanalogsensorsserver` device that will open the following YARP ports:
+For each part, there will be a `multipleanalogsensorsserver` device that will open the following YARP ports:
 
-- `/<robotPortPrefix>/<partName>/FT/measures:o` : that publishes sensors information for the part, using the structure defined in [robotology/yarp@`master`/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z)
+- `/<robotPortPrefix>/<partName>/FT/measures:o` : Publishes sensors information for the part, using the structure defined in [robotology/yarp@`master`/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z)
 
-- `/<robotPortPrefix>/<partName>/FT/rpc:o` : that expose several information related to the part via a YARP RPC port
+- `/<robotPortPrefix>/<partName>/FT/rpc:o` : Exposes several information related to the part via a YARP RPC port
 
 **Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.**
 
-This device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html):
+The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html):
 
 - [`yarp::dev::ISixAxisForceTorqueSensors`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1ISixAxisForceTorqueSensors.html)
 
 - [`yarp::dev::ITemperatureSensors`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1ITemperatureSensors.html)
 
 ### Cameras
+
+#### Eyes
+RGB cameras mounted in the eyes of iCub are exposed via the [`frameGrabber_nws_yarp`](https://www.yarp.it/latest//classFrameGrabber__nws__yarp.html) YARP device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/cam/<side>`. the `side` string can be either `left` or `right`, depending on the eye.
+
+For each eye, there will be a `frameGrabber_nws_yarp` that will open the following YARP ports:
+
+- `/<robotPortPrefix>/cam/<side>`: Publishes the camera's RGB image
+- `/<robotPortPrefix>/cam/<side>/rpc` : Exposes several information related to the part via a YARP RPC port
+
+**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest//classRemoteControlBoard.html) device.**
+
+#### Depth cameras
+
+Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the `RgbdSensor_nws_yarp` device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
+
+The `RgbdSensor_nws_yarp` device will open the following YARP ports:
+
+- `/<robotPortPrefix>/<cameraName>/image:o`: Publishes the camera's RGB image
+- `/<robotPortPrefix>/<cameraName>/depth:o` : Publishes the camera's depth image as a list of floating point values
+- `/<robotPortPrefix>/<cameraName>/rpc` : Exposes several information related to the part via a YARP RPC port
+
+**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest//classRemoteControlBoard.html) device.**
