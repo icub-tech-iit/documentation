@@ -104,4 +104,4 @@ The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 - `/<robotPortPrefix>/<cameraName>/depth:o` : Publishes the camera's depth image as a list of floating point values
 - `/<robotPortPrefix>/<cameraName>/rpc` : Exposes several information related to the part via a YARP RPC port
 
-**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest//classRemoteControlBoard.html) device.**
+**Note: At the moment no client device is available for depth cameras, so the server needs to be accessed directly from the above ports.**
