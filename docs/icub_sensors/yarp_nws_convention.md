@@ -22,7 +22,7 @@ To maintain generality, we will use the string `robotPortPrefix`, which can have
 - `ergoCub` for physical ergoCub robots
 - `ergoCubSim` for simulated ergoCub robots
 
-Next, we will list the convention used for each type of functionality. For each part, the `name` string is used. The YARP port will then be composed as: `/<robotPortPrefix>/<partName>/...`. For example, functionalities associated to the iCub head start as `/icub/head`.
+Next, we will list the port convention for each type of functionality. For each part, the `name` string is used. The YARP port will then be composed as: `/<robotPortPrefix>/<partName>/...`. For example, functionalities associated to the iCub head start as `/icub/head`.
 
 ## Controlboards
 
@@ -32,7 +32,7 @@ For each part, there will be a `controlBoard_nws_yarp` device that will open the
 
 - `/<robotPortPrefix>/<partName>/state:o` : Publishes encoders' information for the part
 
-- `/<robotPortPrefix>/<partName>/stateExt:o` : Publishes extended joint-level sensors information for the part (e.g. joint encoders, motor encoders, pwm values), using the structure defined in [robotology/yarp@`master`/src/libYARP_dev/src/idl/stateExt.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/stateExt.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z)
+- `/<robotPortPrefix>/<partName>/stateExt:o` : Publishes extended joint-level sensors information for the part (e.g. joint encoders, motor encoders, pwm values), using the structure defined in [stateExt.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/stateExt.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z)
 
 - `/<robotPortPrefix>/<partName>/rpc:i` : Exposes several information related to the part via a YARP RPC port
 
@@ -48,7 +48,7 @@ Inertial Measurements Units functionalities are exposed via the [`multipleanalog
 
 For each part, there will be a `multipleanalogsensorsserver` device that will open the following YARP ports:
 
-- `/<robotPortPrefix>/<partName>/inertials/measures:o` : Publishes sensors information for the part, using the structure defined in [robotology/yarp@`master`/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z)
+- `/<robotPortPrefix>/<partName>/inertials/measures:o` : Publishes sensors information for the part, using the structure defined in [multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z)
 
 - `/<robotPortPrefix>/<partName>/inertials/rpc:o` : Exposes several information related to the part via a YARP RPC port
 
