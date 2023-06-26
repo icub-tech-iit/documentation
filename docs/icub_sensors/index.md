@@ -5,6 +5,6 @@ For details on the types of sensors and interfaces available see the [YARP Netwo
 
 ## List of sensors for each robot
 
-- [iCub 2.7](./icub27_sensors.md)
+- [iCub 2.7](./icub2.7_sensors.md)
 - [iCub 3](./icub3_sensors.md)
 - [ergoCub](./ergocub_sensors.md)
