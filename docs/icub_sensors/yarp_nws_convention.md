@@ -24,7 +24,7 @@ To maintain generality, we will use the string `robotPortPrefix`, which can have
 
 Next, we will list the convention used for each type of functionality. For each part, the `name` string is used. The YARP port will then be composed as: `/<robotPortPrefix>/<partName>/...`. For example, functionalities associated to the iCub head start as `/icub/head`.
 
-### ControlBoards
+## Controlboards
 
 The `ControlBoard` functionality is exposed via the [`controlBoard_nws_yarp`](https://www.yarp.it/latest/classControlBoard__nws__yarp.html) device. It can be used to get and set input-output quantities associated to the part's joints, by communicating with the ETH boards of the robot.
 
@@ -38,11 +38,9 @@ For each part, there will be a `controlBoard_nws_yarp` device that will open the
 
 - `/<robotPortPrefix>/<partName>/command:i` : Takes in input references for the low-level control loops
 
-### How to access the controlboards
+### Controlboard client device
 
-**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_controlboard`](https://www.yarp.it/latest//classRemoteControlBoard.html) device.**
-
-The client device will expose sensors thanks to the related [Motor interfaces](https://www.yarp.it/latest//group__dev__iface__motor.html).
+The YARP ports are not meant to be accessed directly, but should be accessed instead via the client device [`remote_controlboard`](https://www.yarp.it/latest//classRemoteControlBoard.html). The device will expose sensors data and actuator commands thanks to the related [Motor interfaces](https://www.yarp.it/latest//group__dev__iface__motor.html).
 
 ## Inertial Measurements Units (IMUs)
 
@@ -54,7 +52,9 @@ For each part, there will be a `multipleanalogsensorsserver` device that will op
 
 - `/<robotPortPrefix>/<partName>/inertials/rpc:o` : Exposes several information related to the part via a YARP RPC port
 
-**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.**
+### IMU Client device
+
+These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.
 
 The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html), so they can be easily queried:
 
@@ -76,6 +76,8 @@ For each part, there will be a `multipleanalogsensorsserver` device that will op
 
 - `/<robotPortPrefix>/<partName>/FT/rpc:o` : Exposes several information related to the part via a YARP RPC port
 
+### FT Client device
+
 **Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.**
 
 The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html):
@@ -94,11 +96,13 @@ For each eye, there will be a `frameGrabber_nws_yarp` that will open the followi
 - `/<robotPortPrefix>/cam/<side>`: Publishes the camera's RGB image
 - `/<robotPortPrefix>/cam/<side>/rpc` : Exposes several information related to the part via a YARP RPC port
 
+### Camera client device
+
 **Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest/classRemoteFrameGrabber.html) device.**
 
 The client device will expose the sensors thanks to the related [Media Interfaces](https://www.yarp.it/latest/group__dev__iface__media.html).
 
-### Depth cameras
+#### Depth cameras
 
 Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the [`RgbdSensor_nws_yarp`](https://www.yarp.it/latest/classRgbdSensor__nws__yarp.html) device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
 
@@ -108,4 +112,11 @@ The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 - `/<robotPortPrefix>/<cameraName>/depth:o` : Publishes the camera's depth image as a list of floating point values
 - `/<robotPortPrefix>/<cameraName>/rpc` : Exposes several information related to the part via a YARP RPC port
 
+#### RGBD Camera client device
+
 **Note: At the moment no client device is available for depth cameras, so the server needs to be accessed directly from the above ports.**
+
+Even though client devices are not available, YARP provides interfaces to create a client application:
+- [`yarp::dev::IRGBDSensor`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IRGBDSensor.html)
+- [`yarp::dev::IDepthVisualParams`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IDepthVisualParams.html)
+- [`yarp::dev::IRgbVisualParams`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IRgbVisualParams.html)
