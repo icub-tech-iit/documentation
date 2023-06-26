@@ -54,7 +54,8 @@ For each part, there will be a `multipleanalogsensorsserver` device that will op
 
 ### IMU Client device
 
-These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.
+!!! note
+    These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.
 
 The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html), so they can be easily queried:
 
@@ -78,7 +79,9 @@ For each part, there will be a `multipleanalogsensorsserver` device that will op
 
 ### FT Client device
 
-**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.**
+!!! note
+
+    These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.
 
 The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html):
 
@@ -89,6 +92,7 @@ The client device will expose sensors related to the following [Multiple Analog 
 ## Cameras
 
 ### Eyes
+
 RGB cameras mounted in the eyes of iCub are exposed via the [`frameGrabber_nws_yarp`](https://www.yarp.it/latest//classFrameGrabber__nws__yarp.html) YARP device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/cam/<side>`. the `side` string can be either `left` or `right`, depending on the eye.
 
 For each eye, there will be a `frameGrabber_nws_yarp` that will open the following YARP ports:
@@ -98,7 +102,9 @@ For each eye, there will be a `frameGrabber_nws_yarp` that will open the followi
 
 ### Camera client device
 
-**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest/classRemoteFrameGrabber.html) device.**
+!!! note
+
+    These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest/classRemoteFrameGrabber.html) device.
 
 The client device will expose the sensors thanks to the related [Media Interfaces](https://www.yarp.it/latest/group__dev__iface__media.html).
 
@@ -114,9 +120,12 @@ The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 
 #### RGBD Camera client device
 
-**Note: At the moment no client device is available for depth cameras, so the server needs to be accessed directly from the above ports.**
+!!! note
+
+    At the moment no client device is available for depth cameras, so the server needs to be accessed directly from the above ports.
 
 Even though client devices are not available, YARP provides interfaces to create a client application:
+
 - [`yarp::dev::IRGBDSensor`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IRGBDSensor.html)
 - [`yarp::dev::IDepthVisualParams`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IDepthVisualParams.html)
 - [`yarp::dev::IRgbVisualParams`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IRgbVisualParams.html)
