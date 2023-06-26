@@ -271,7 +271,7 @@ nav:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md
       - Using iCub with ROS: icub_ros/index.md
       - iCub Force Control: icub_force_control/icub-force-control.md
-      - iCub Sensors: icub_sensors/sensors.md
+      - Sensor interfaces: icub_sensors/index.md
       - Tactile Sensors:
         - Summary: tactile_sensors/index.md
         - Reading Tactile Data: tactile_sensors/software/reading_data.md

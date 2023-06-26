@@ -1,10 +1,8 @@
-# Sensors interfaces
+# YARP network wrapper servers convention
 
-## YARP network wrapper servers convention
+## Introduction
 
-### Introduction
-
-The iCub robot exposes its functionalities (sensors and actuators) via YARP devices called [YARP's Network Wrapper Servers (NWSs)](https://www.yarp.it/latest//group__nws__and__nwc__architecture.html) that publish information over YARP ports. For historical reasons, for each type of functionality such as "controlboards" (i.e measure of joint-related sensors and capability of setting setpoints of low-level control loops), inertial measurement units, force torque sensors, multiple devices are used, one for each iCub's "part".
+The iCub robot (and all the other models) exposes its functionalities (sensors and actuators) via YARP devices called [YARP's Network Wrapper Servers (NWSs)](https://www.yarp.it/latest//group__nws__and__nwc__architecture.html) that publish information over YARP ports. For historical reasons, for each type of functionality such as "controlboards" (i.e measure of joint-related sensors and capability of setting setpoints of low-level control loops), inertial measurement units, force torque sensors, multiple devices are used, one for each iCub's "part".
 
 The "parts" of iCub are:
 
@@ -40,9 +38,13 @@ For each part, there will be a `controlBoard_nws_yarp` device that will open the
 
 - `/<robotPortPrefix>/<partName>/command:i` : Takes in input references for the low-level control loops
 
+### How to access the controlboards
+
 **Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_controlboard`](https://www.yarp.it/latest//classRemoteControlBoard.html) device.**
 
-### Inertial Measurements Units (IMUs)
+The client device will expose sensors thanks to the related [Motor interfaces](https://www.yarp.it/latest//group__dev__iface__motor.html).
+
+## Inertial Measurements Units (IMUs)
 
 Inertial Measurements Units functionalities are exposed via the [`multipleanalogsensorsserver`](https://www.yarp.it/latest//classMultipleAnalogSensorsServer.html) YARP device. The `inertials` string added to the YARP port name, to identify the device: `/<robotPortPrefix>/<partName>/inertials`.
 
@@ -64,7 +66,7 @@ The client device will expose sensors related to the following [Multiple Analog 
 
 - [`yarp::dev::IThreeAxisMagnetometers`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1IThreeAxisMagnetometers.html)
 
-### Force-Torque Sensors
+## Force-Torque Sensors
 
 Force-Torque Sensors functionalities are exposed via the [`multipleanalogsensorsserver`](https://www.yarp.it/latest//classMultipleAnalogSensorsServer.html) YARP device. The `FT` string added to the YARP port name, to identify the device: `/<robotPortPrefix>/<partName>/FT`.
 
@@ -82,9 +84,9 @@ The client device will expose sensors related to the following [Multiple Analog 
 
 - [`yarp::dev::ITemperatureSensors`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1ITemperatureSensors.html)
 
-### Cameras
+## Cameras
 
-#### Eyes
+### Eyes
 RGB cameras mounted in the eyes of iCub are exposed via the [`frameGrabber_nws_yarp`](https://www.yarp.it/latest//classFrameGrabber__nws__yarp.html) YARP device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/cam/<side>`. the `side` string can be either `left` or `right`, depending on the eye.
 
 For each eye, there will be a `frameGrabber_nws_yarp` that will open the following YARP ports:
@@ -92,11 +94,13 @@ For each eye, there will be a `frameGrabber_nws_yarp` that will open the followi
 - `/<robotPortPrefix>/cam/<side>`: Publishes the camera's RGB image
 - `/<robotPortPrefix>/cam/<side>/rpc` : Exposes several information related to the part via a YARP RPC port
 
-**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest//classRemoteControlBoard.html) device.**
+**Note: these YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest/classRemoteFrameGrabber.html) device.**
 
-#### Depth cameras
+The client device will expose the sensors thanks to the related [Media Interfaces](https://www.yarp.it/latest/group__dev__iface__media.html).
 
-Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the `RgbdSensor_nws_yarp` device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
+### Depth cameras
+
+Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the [`RgbdSensor_nws_yarp`](https://www.yarp.it/latest/classRgbdSensor__nws__yarp.html) device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
 
 The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 
