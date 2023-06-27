@@ -1,5 +1,5 @@
 # F/T Sensors
-The F/T sensor (6-dof) has also been specially designed to fit the iCub. However, the size of the sensor has been made compatible with an existing commercial product. On the other hand the signal conditioning electronics has been made to fit the sensor itself, consequently reducing the space required. The F/T sensor is based on a classical [Wheatstone bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge) design employing 12 semiconductor strain gauges arranged in a 6 half-bridges configuration.ed robots
+The F/T sensor (6-dof) has also been specially designed to fit the iCub. However, the size of the sensor has been made compatible with an existing commercial product. On the other hand, the signal conditioning electronics has been made to fit the sensor itself, consequently reducing the space required. The F/T sensor is based on a classical [Wheatstone bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge) design employing 12 semiconductor strain gauges arranged in a 6 half-bridges configuration.
 
 <center>
   <figure>
@@ -30,11 +30,11 @@ Table 1: Physical specifications of the sensor
   </figure>
 </center>
 
-Please notice that key elements to localize the reference frame on the sensor are two:
+Please notice that the key elements to localize the reference frame on the sensor are two:
 1. the hole where the CAN exits the sensor;
 2. the thick VS the thin sensor cover.
 
-The sensor is calibrated to measure the Force/Torque applied by the upper (blue) part of the sensor on the lower (red) part of sensor, and express it on the F/T sensor reference frame.
+The sensor is calibrated to measure the Force/Torque applied by the upper (blue) part of the sensor on the lower (red) part and express it on the F/T sensor reference frame.
 
 ### Calibration specifications
 ---
@@ -50,7 +50,7 @@ Table 2: typical values after sensor calibration
 ---
 The CAD model of FTSens is available in the hardware [repository](https://github.com/icub-tech-iit/cad-mechanics-public/tree/master/projects/common/ic_008_ft45_M4) of the `icub-tech-iit` organization on `GitHub`.
 
-In particular the FT sensor assembly name is `ic_008_a_001.asm.1`.
+In particular, the FT sensor assembly name is `ic_008_a_001.asm.1`.
 
 ### Additional info
 ---
@@ -58,9 +58,9 @@ For more info on how to flash the firmware and the calibration matrix on a FT se
 
 ### Electronics
 ---
-There are three versions of the electronic board of the iCub's FT sensor: STRAIN (also known as STRAIN1), STRAIN1.5 or STRAIN2. All this electronic boards sample the analog strain gauges voltages, and expose the measurements over a CAN interface.
+There are three versions of the electronic board of the iCub's FT sensor: STRAIN (also known as STRAIN1), STRAIN1.5 or STRAIN2. All these electronic boards sample the analog strain gauges voltages, and expose the measurements over a CAN interface.
 
-Low-level documentation and materials about the `STRAIN2` board is available [here](https://github.com/icub-tech-iit/electronics-boards-public/tree/master/sensor-boards/strain2) .
+Low-level documentation and materials about the `STRAIN2` board are available [here](https://github.com/icub-tech-iit/electronics-boards-public/tree/master/sensor-boards/strain2).
 
 Firmware source code:
 
@@ -174,7 +174,7 @@ The recommended tightening torque is 2Nm.
 ## FT Sensor Electronics Variants
 ---
 
-There are three cards for reading six axis F/T Sensors:
+There are three cards for reading six-axis F/T Sensors:
 
 <table border="1" cellpadding="1" cellspacing="1">
 	<thead>
