@@ -100,7 +100,7 @@ For each eye, there will be a `frameGrabber_nws_yarp` that will open the followi
 - `/<robotPortPrefix>/cam/<side>`: Publishes the camera's RGB image
 - `/<robotPortPrefix>/cam/<side>/rpc` : Exposes several information related to the part via a YARP RPC port
 
-### Camera client device
+#### Camera client device
 
 !!! warning
 
@@ -108,7 +108,7 @@ For each eye, there will be a `frameGrabber_nws_yarp` that will open the followi
 
 The client device will expose the sensors thanks to the related [Media Interfaces](https://www.yarp.it/latest/group__dev__iface__media.html).
 
-#### Depth cameras
+### Depth cameras
 
 Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the [`RgbdSensor_nws_yarp`](https://www.yarp.it/latest/classRgbdSensor__nws__yarp.html) device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
 
