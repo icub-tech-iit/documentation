@@ -31,13 +31,32 @@ Since the **IMU** is not equipped with similar configurable address pins, we nee
 
 The complete configuration set is as follow:
 
-| finger |  AD0 | AD1 | IMU | I2C dataline | 
-|:--:|:--:|:--:|:--:|:--:|
-|thumb   | 0    | 0   | yes | 0            |
-|index   | 0    | 0   | yes | 1            |
-|middle  | 1    | 0   | no  | 1            |
-|ring    | 0    | 1   | no  | 1            |
-|pink    | 1    | 0   | no  | 0            |
+#### ergoCub SN000
+
+
+| finger |  AD0 | AD1 | IMU | I2C dataline | IIT code | 
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|thumb   | 0    | 0   | LSM6DSLTR | 0            | 17544.A | 
+|index   | 0    | 0   | LSM6DSLTR | 1            | 17544.A |
+|middle  | 1    | 0   | no  | 1            | 17545.B |
+|ring    | 0    | 1   | no  | 1            | 17546 |
+|pink    | 1    | 0   | no  | 0            | 17545.B |
+
+#### ergoCub SN001
+
+
+| finger |  AD0 | AD1 | IMU | I2C dataline |  IIT code |   
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|thumb   | 0    | 0   |  IIM-42652 | 0     | 17544 |   
+|index   | 0    | 0   |  IIM-42652 | 1     | 17544 |  
+|middle  | 1    | 0   |  LSM6DSLTR | 1     | 17545 | 
+|ring    | 0    | 1   |  no        | 1     | 17546 |   
+|pink    | 1    | 0   |  LSM6DSLTR | 0     | 17545 | 
+
+
+#### ergoCub equipped with MMA rev. B
+
+
 
 I2C dataline is decided at the MMA level through the connector assignment.
 
