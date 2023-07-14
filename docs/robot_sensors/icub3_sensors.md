@@ -8,7 +8,7 @@ This page lists all the sensors mounted on iCub 3, and how to access their infor
 |**ControlBoard** | `head` | MC4PLUS | `/icub/head/state:o` | (joint_encoders) | 100 |
 | - | - | - | `/icub/head/stateExt:o` | Defined in [stateExt.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/stateExt.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100 |
 |**IMU** | `head/imu` | RFE board, Bosch BNO055 IMU | `/icub/head/imu/measures:o` | Defined in  [multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100 |
-|**Eyes cameras** | `head/cam` | Basler | `/icub/head/cam/left` | ( (R channel)  (G channel)  (B channel) ) | 30 |
+|**Eyes cameras** | `head/cam` | Basler daA4200-30mci | `/icub/head/cam/left` | ( (R channel)  (G channel)  (B channel) ) | 30 |
 | - | - | - | `/icub/head/cam/right` | ( (R channel)  (G channel)  (B channel) ) | 30 |
 
 ## Torso
@@ -17,7 +17,7 @@ This page lists all the sensors mounted on iCub 3, and how to access their infor
 | --- | --- | --- | --- | --- | --- |
 |**ControlBoards** | `torso` | EMS+2FOC | `/icub/torso/state:o` | (joint_encoders) | 100|
 | - | - | - | `/icub/torso/stateExt:o` | Defined in [stateExt.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/stateExt.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100|
-| **Battery** | `batttery` | BAT | `/icub/battery` | | 1 |
+| **Battery** | `batttery` | BMS | `/icub/battery` | | 1 |
 ## Left Arm
 |Type |Sensor name| Device | YARP Port |Data pattern | Publish Rate (Hz) |
 | --- | --- | --- | --- | --- | --- |

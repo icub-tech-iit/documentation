@@ -18,7 +18,7 @@ This page lists all the sensors mounted on ergoCub, and how to access their info
 | --- | --- | --- | --- | --- | --- |
 |**ControlBoards** | `torso` | EMS+2FOC | `/ergocub/torso/state:o` | (joint_encoders) | 100|
 | - | - | - | `/ergocub/torso/stateExt:o` | Defined in [stateExt.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/stateExt.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100|
-| **Battery** | `batttery` | BAT | `/ergocub/battery` | (voltage current charge temperature status) | 1 |
+| **Battery** | `batttery` | BMS | `/ergocub/battery` | (voltage current charge temperature status) | 1 |
 ## Left Arm
 |Type |Sensor name| Device | YARP Port |Data pattern | Publish Rate (Hz) |
 | --- | --- | --- | --- | --- | --- |
