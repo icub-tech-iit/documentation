@@ -36,22 +36,22 @@ The complete configuration set is as follow:
 
 | finger |  AD0 | AD1 | IMU | I2C dataline | IIT code | 
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|thumb   | 0    | 0   | LSM6DSLTR | 0            | 17544.A | 
-|index   | 0    | 0   | LSM6DSLTR | 1            | 17544.A |
-|middle  | 1    | 0   | no  | 1            | 17545.B |
+|thumb   | 0    | 0   | LSM6DSLTR | 0            | 17544 | 
+|index   | 0    | 0   | LSM6DSLTR | 1            | 17544 |
+|middle  | 1    | 0   | no  | 1            | 17545 |
 |ring    | 0    | 1   | no  | 1            | 17546 |
-|pink    | 1    | 0   | no  | 0            | 17545.B |
+|pink    | 1    | 0   | no  | 0            | 17545 |
 
 #### ergoCub SN001
 
 
 | finger |  AD0 | AD1 | IMU | I2C dataline |  IIT code |   
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|thumb   | 0    | 0   |  IIM-42652 | 0     | 17544 |   
-|index   | 0    | 0   |  IIM-42652 | 1     | 17544 |  
-|middle  | 1    | 0   |  LSM6DSLTR | 1     | 17545 | 
+|thumb   | 0    | 0   |  IIM-42652 | 0     | 17544.A |   
+|index   | 0    | 0   |  IIM-42652 | 1     | 17544.A |  
+|middle  | 1    | 0   |  LSM6DSLTR | 1     | 17545.A | 
 |ring    | 0    | 1   |  no        | 1     | 17546 |   
-|pink    | 1    | 0   |  LSM6DSLTR | 0     | 17545 | 
+|pink    | 1    | 0   |  LSM6DSLTR | 0     | 17545.A | 
 
 
 #### ergoCub equipped with MMA rev. B
@@ -122,14 +122,27 @@ To use correctly the data from the sensors we need to have the following informa
 For the configuration of the **Wrapper file** in the robots-configuration tree, for streaming through the **YARP** 
 services and signal visualization, the mapping of the signals is reported in the table below:
 
-| Finger | Source Index | Destination Index |
+#### ergoCub SN000 & SN001
+
+| Finger | board nr. |Source Index | Destination Index |
 |-- |--|--|
-| Thumb  | 48-59  |  0-11   |
-| Index  | 0-11   |  12-23  |
-| Middle | 12-23  |  24-35  |
-| Ring   | 24-35  |  36-47  |
-| Pink   | 60-71  |  48-59  |
-| Palm   | 96-191 |  96-191 |
+| Thumb  | 4 | 48-59  |  0-11   |
+| Index  | 0 | 0-11   |  12-23  |
+| Middle | 1 | 12-23  |  24-35  |
+| Ring   | 2 | 24-35  |  36-47  |
+| Pink   | 5 | 60-71  |  48-59  |
+| Palm   | TBD |TBD |  TBD |
+
+#### ergoCub SN000 & SN001
+
+| Finger | board nr. | 
+|-- |--|--|
+| Thumb  | 0 | 
+| Index  | 1 | 
+| Middle | 2 | 
+| Ring   | 3 | 
+| Pink   | 4 | 
+| Palm   | TBD | 
 
 ### AD7147 configuration
 The values for the mk2 fingertip are reported here, to be implemented in **.xml files** with the proper labeling:
