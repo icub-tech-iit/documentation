@@ -124,25 +124,25 @@ services and signal visualization, the mapping of the signals is reported in the
 
 #### ergoCub SN000 & SN001
 
-| Finger | board nr. |Source Index | Destination Index |
+| Finger | board nr. | Taxel Index | 
 |-- |--|--|
-| Thumb  | 4 | 48-59  |  0-11   |
-| Index  | 0 | 0-11   |  12-23  |
-| Middle | 1 | 12-23  |  24-35  |
-| Ring   | 2 | 24-35  |  36-47  |
-| Pink   | 5 | 60-71  |  48-59  |
-| Palm   | TBD |TBD |  TBD |
+| Thumb  | 4 | 48-59  | 
+| Index  | 0 | 0-11   | 
+| Middle | 1 | 12-23  | 
+| Ring   | 2 | 24-35  | 
+| Pink   | 5 | 60-71  | 
+| Palm   | TBD |TBD |  
 
 #### ergoCub SN000 & SN001
 
-| Finger | board nr. | 
+| Finger | board nr. | Taxel Index |
 |-- |--|--|
-| Thumb  | 0 | 
-| Index  | 1 | 
-| Middle | 2 | 
-| Ring   | 3 | 
-| Pink   | 4 | 
-| Palm   | TBD | 
+| Thumb  | 0 | 0-11  | 
+| Index  | 1 | 12-23 |
+| Middle | 2 | 24-35 |
+| Ring   | 3 | 36-47 |
+| Pink   | 4 | 48-59 |
+| Palm   | TBD | TBD |
 
 ### AD7147 configuration
 The values for the mk2 fingertip are reported here, to be implemented in **.xml files** with the proper labeling:
