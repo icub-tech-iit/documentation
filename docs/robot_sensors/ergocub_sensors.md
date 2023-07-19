@@ -20,7 +20,7 @@ This page lists all the sensors mounted on ergoCub, and how to access their info
 |**ControlBoards** | `torso` | EMS+2FOC | `/ergocub/torso/state:o` | (joint_encoders) | 100|
 | - | - | - | `/ergocub/torso/stateExt:o` | Defined in [stateExt.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/stateExt.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100|
 | **Battery** | `battery` | BMS | `/ergocub/battery` | (voltage current charge temperature status) | 1 |
-| IMU | `waist/inertials` | XSense MTi-600 | `/ergocub/waist/inertials/measures:o` | Defined in  [multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100 |
+| **IMU** | `waist/inertials` | XSense MTi-600 | `/ergocub/waist/inertials/measures:o` | Defined in  [multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100 |
 
 ## Left Arm
 
