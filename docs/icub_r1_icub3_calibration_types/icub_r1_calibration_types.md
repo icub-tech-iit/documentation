@@ -166,7 +166,18 @@ This calibration is used for joint with absolute encoder, it is the newest versi
 |`calibrationDelta`| defined by user expressed in degree|
 
 ### Calibration 14
-This calibration is used for joints with the absolute encoder at the joint (which currently works with POS service / FAP encoder sensor) and with incremental encoder at the motor. Moreover, it is applied to joints whose motor is provided with hard-stop mechanical limits. Specifically, this type of calibration is used when the user needs to reach one of the two mechanical limits on the joint motor, aiming at calibrating the incremental encoder at the motor and accurately setting the hardware limits between which the rotor can move.
+This calibration is used for joints with the absolute encoder at the joint (which currently works with POS service / FAP encoder sensor) and with incremental encoder at the motor. Moreover, it is applied to joints whose motor is provided with hard-stop mechanical limits. Specifically, this type of calibration is used when you need to reach one of the two mechanical limits on the joint motor, aiming at calibrating the incremental encoder at the motor and accurately setting the hardware limits between which the rotor can move.
+
+Find below some steps aimed to help you determine the correct values of the parameters to be set in the calibration sections of the configuration files.
+First, set to `true` the boolean variables `skipCalibration` and `useRawEncoderData` in the file `general.xml`. This is meant to disable calibration at `yarprobotinterface` startup. Also, this will make the port `/ergocub/left_arm/state:o` print the raw values (i.e., uncalibrated) for the finger joint encoders. 
+Once done, you should check the values printed out by the port running in a terminal the command:
+
+```console
+yarp read ... /ergocub/left_arm/state:o
+```
+
+and by doing this you can observe which should be the raw value of the offset for the encoder joint when the finger is at the hard-stop position (ideally finger full open). Thus, you should set this value (with the same sign of the value printed by the port) as the value for the parameter `calibration5`.
+After that, by observing how the values printed out by the port change, you would check if the `invert direction`, i.e. `calibration3` value, should be `1` or `0` and if a specific value of rotation should be added at `calibration4` in order to prevent the encoder from crossing the zero while finger joint is moving.
 
 |   |   |
 |---|---|
