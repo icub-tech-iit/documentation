@@ -507,12 +507,12 @@ $ stereoCalib --from icubEyes.ini
 ```
 
 !!!warning
-    DO NOT open the StereoCalibration app directly from yarpmanager otherwise you will not be able to see the result of the calibration process.
+    DO NOT open the `StereoCalibration` app directly from yarpmanager otherwise you will not be able to see the result of the calibration process.
 
 - Then type:
 
 ```xml
-$ yarp rpc /stereoCalibration/cmd
+$ yarp rpc /stereoCalib/cmd
 ```
 
 hen type “start”, a message “Starting Calibration…” will appear.
