@@ -7,7 +7,10 @@ RUN apt update && \
     apt install -y sudo apt-utils bash-completion wget ruby git magic-wormhole \
                    python3 python3-pip python3-setuptools python3-wheel
 
-RUN pip3 install mkdocs mkdocs-material pymdown-extensions
+RUN pip install mkdocs && \
+    wget https://raw.githubusercontent.com/icub-tech-iit/documentation/master/mkdocs.yml && \
+    pip install $(mkdocs get-deps) && \
+    rm mkdocs.yml
 
 RUN gem install yaml
 

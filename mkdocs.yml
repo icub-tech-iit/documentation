@@ -91,8 +91,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist
   - pymdownx.tilde
-  - markdown.extensions.toc:
-      permalink: true
+
+not_in_nav: |
+  /sw_versioning_table/[0-9]*.md
 
 nav:
   - iCub Tech Docs:
