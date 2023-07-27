@@ -113,7 +113,7 @@ if distro_files then
         distro_files.sort.reverse.each { |file|
             name = file.rpartition('.').first
             process_distro(name, file)
-            mkd.write "- [📦 Distro **#{name}**](./#{name}.md)\n"
+            mkd.write "- [📦 Distro **#{name}**](./#{name}.md){:target=\"_blank\"}\n"
         }
     }
 end
