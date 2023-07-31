@@ -52,20 +52,38 @@ The basic idea is that to setup a [network bonding](https://docs.oracle.com/cd/E
 
 ## Netplan
 
-Latest ubuntu uses [NETPLAN](https://netplan.io/) to configure the network via command line, so I setup netplan to create the above network bonding: netplan uses the configuration files it founds in the path
-```
+Latest Ubuntu makes use of [NETPLAN](https://netplan.io) to configure the network via command line. Therefore, we set up `netplan` to create the above network bonding. `Netplan` relies on the configuration files found in the path:
+
+```console
 /etc/netplan/
 ```
-on startup, netplan load all files in the above path **with the `.yaml` extension**
-this behavior can be used to create several different configurations to choose from.
 
-In icub-head we have many files in the `/etc/netplan` path
+At startup, `netplan` loads all files in the above path with the **`.yaml` extension**.
 
-- `50-icub-static.yaml.notload` - a configuration file that uses **STATIC IP** for cabled network configuration (**no bonding, no wifi** - _THIS IS THE DEFAULT_ )
-- `50-icub-dhcp.yaml.notload` - a configuration file that get IP for cabled network configuration from **DHCP server** (**no bonding, no wifi**)
-- `50-icub-bonding-static.yaml.notload` - a configuration that **creates a bonding** with cabled network and WiFi and uses a **static IP** for the bonded connection
-- `50-icub-bonding-dhcp.yaml.notload` - a configuration that **creates a bonding** with cabled network and WiFi and gets the IP for the bonded connection from **DHCP** server
-- `50-icub.yaml` - a symbolic link that points to the active configuration
+This behavior can be used to create several configurations to choose from.
+To this end, we stored several files in the `/etc/netplan` path on `icub-head`, as follows:
+
+- `50-icub-static.yaml.notload`: to use **STATIC IP** for cabled network configuration (**no bonding, no wifi** - _THIS IS THE DEFAULT_ ).
+- `50-icub-dhcp.yaml.notload`: to get IP for cabled network configuration from **DHCP server** (**no bonding, no wifi**).
+- `50-icub-bonding-static.yaml.notload`: to **create a bonding** with cabled network and WiFi and use a **static IP** for the bonded connection.
+- `50-icub-bonding-dhcp.yaml.notload`: to **create a bonding** with cabled network and WiFi and get the IP for the bonded connection from **DHCP** server.
+
+To enable one specific configuration, we rely on the following **symbolic link**:
+
+- `50-icub.yaml`: pointing to the active configuration (see section below).
+
+### How to switch among `netplan` configurations
+To check what configuration variant is actually symlinked, do:
+```console
+cd /etc/netplan
+ls -la 
+```
+
+To switch among the available `netplan` configurations, it suffices to update the symbolic link:
+```console
+cd /etc/netplan
+sudo ln -fs <variant_that_you_actually_want_to_use>.yaml.notload 50-icub.yaml
+```
 
 # Required configuration
 
