@@ -206,7 +206,7 @@ The technical specifications of the electro-mechanical components for the joints
 | Speed Reducer        | Planetary Gearhead, Maxon GPX10, Reduction 256:1 (integrated with motor) |
 | Transmission         | Linkage (variable reduction)                                             | 
 | Joint Encoder        | FAP board with finger absolute position sensor                           |
-| Range of Motion (HW) | +0/+90 (degrees)                                                         |
+| Range of Motion (HW) | +0/+100 (degrees)                                                         |
 | Range of Motion (SW) | +0/+85 (degrees)                                                         |
 
 ### Joint 12 - index adduction/abduction 
