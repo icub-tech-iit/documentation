@@ -17,7 +17,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | -45/+22 (degrees)                                    |
 | Range of Motion (SW) | -40/+22 (degrees)                                    |
 
-> PS: `neck_pitch` joint is coupled in a differential mechanism with `neck_roll`
+!!! note 
+    `neck_pitch` joint is coupled in a differential mechanism with `neck_roll`
 
 ### Joint 1 - neck roll
 
@@ -32,7 +33,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | -20/+20 (degrees)                                    |
 | Range of Motion (SW) | -20/+20 (degrees)                                    |
 
-> PS: `neck_roll` joint is coupled in a differential mechanism with `neck_pitch`
+!!! note 
+    `neck_roll` joint is coupled in a differential mechanism with `neck_pitch`
 
 ### Joint 2 - neck yaw 
 
@@ -117,7 +119,9 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | -92/+92 (degrees)                                                             |
 | Range of Motion (SW) | -90/+90 (degrees)                                                             |
 
-> PS: all wrist joints are coupled into a co-axial spherical parallel mechanism
+!!! note 
+    all wrist joints are coupled into a co-axial spherical parallel mechanism
+
 ### Joint 5 - wrist roll 
 
 | Joint identifier(s)  | `r_wrist_roll` , `l_wrist_roll`                                               |
@@ -130,7 +134,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | -62/+52 (degrees)                                                             |
 | Range of Motion (SW) | -60/+50 (degrees)                                                             |
 
-> PS: all wrist joints are coupled into a co-axial spherical parallel mechanism
+!!! note 
+    all wrist joints are coupled into a co-axial spherical parallel mechanism
 
 ### Joint 6 - wrist pitch 
 
@@ -144,7 +149,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | -32/+32 (degrees)                                                             |
 | Range of Motion (SW) | -30/+30 (degrees)                                                             |
 
-> PS: all wrist joints are coupled into a co-axial spherical parallel mechanism
+!!! note 
+    all wrist joints are coupled into a co-axial spherical parallel mechanism
 
 ---
 ## Arm - Hand
