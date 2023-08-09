@@ -155,7 +155,19 @@ The technical specifications of the electro-mechanical components for the joints
 ---
 ## Arm - Hand
 
-### Joint 7 - thumb open & close
+### Joint 7 - thumb adduction/abduction 
+
+| Joint identifier(s)  | `r_thumb_add` , `l_thumb_add`                                            |
+|:-------------------- |:------------------------------------------------------------------------ |
+| Motor                | DC, Maxon DCX10S EB KL 9V, OD 10                                         |
+| Motor Encoder        | None                                                                     |
+| Speed Reducer        | Planetary Gearhead, Maxon GPX10, Reduction 256:1 (integrated with motor) |
+| Transmission         | Linkage (variable reduction)                                             | 
+| Joint Encoder        | FAP board with finger absolute position sensor                           |
+| Range of Motion (HW) | +0/+100 (degrees)                                                        |
+| Range of Motion (SW) | +0/+85 (degrees)                                                         |
+
+### Joint 8 - thumb open & close
 
 | Joint identifier(s)  | `r_thumb_oc` , `l_thumb_oc`                                                 |
 |:-------------------- |:--------------------------------------------------------------------------- |
@@ -167,7 +179,19 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | +0/+90 (degrees)                                                            |
 | Range of Motion (SW) | +4/+70 (degrees)                                                            | 
 
-### Joint 8 - index finger open & close 
+### Joint 9 - index adduction/abduction 
+
+| Joint identifier(s)  | `r_index_add` , `l_index_add`                          |
+|:-------------------- |:------------------------------------------------------ |
+| Motor                | DC Gearmotor, Faulhaber 1512U012SR 324:1, OD 15        |
+| Motor Encoder        | None                                                   |
+| Speed Reducer        | Spur Gearhead, Reduction 324:1 (integrated with motor) |
+| Transmission         | Linkages (variable reduction)                          |
+| Joint Encoder        | FAP board with finger absolute position sensor         |
+| Range of Motion (HW) | +6/+20 (degrees)                                       |
+| Range of Motion (SW) | +7/+18 (degrees)                                       | 
+
+### Joint 10 - index finger open & close 
 
 | Joint identifier(s)  | `r_index_oc` , `l_index_oc`                                                 |
 |:-------------------- |:--------------------------------------------------------------------------- |
@@ -179,7 +203,7 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | +0/+90 (degrees)                                                            |
 | Range of Motion (SW) | +4/+85 (degrees)                                                            | 
 
-### Joint 9 - middle finger open & close 
+### Joint 11 - middle finger open & close 
 
 | Joint identifier(s)  | `r_middle_oc` , `l_middle_oc`                                               |
 |:-------------------- |:--------------------------------------------------------------------------- |
@@ -191,7 +215,7 @@ The technical specifications of the electro-mechanical components for the joints
 | Range of Motion (HW) | +0/+90 (degrees)                                                            |
 | Range of Motion (SW) | +4/+85 (degrees)                                                            | 
 
-### Joint 10 - ring & pinky finger open & close
+### Joint 12 - ring & pinky finger open & close
 
 | Joint identifier(s)  | `r_ring_pinky_oc` , `l_ring_pinky_oc`                                       |
 |:-------------------- |:--------------------------------------------------------------------------- |
@@ -202,30 +226,6 @@ The technical specifications of the electro-mechanical components for the joints
 | Joint Encoder        | FAP board with finger absolute position sensor                              |
 | Range of Motion (HW) | +0/+90 (degrees)                                                            |
 | Range of Motion (SW) | +4/+85 (degrees)                                                            | 
-
-### Joint 11 - thumb adduction/abduction 
-
-| Joint identifier(s)  | `r_thumb_add` , `l_thumb_add`                                            |
-|:-------------------- |:------------------------------------------------------------------------ |
-| Motor                | DC, Maxon DCX10S EB KL 9V, OD 10                                         |
-| Motor Encoder        | None                                                                     |
-| Speed Reducer        | Planetary Gearhead, Maxon GPX10, Reduction 256:1 (integrated with motor) |
-| Transmission         | Linkage (variable reduction)                                             | 
-| Joint Encoder        | FAP board with finger absolute position sensor                           |
-| Range of Motion (HW) | +0/+100 (degrees)                                                         |
-| Range of Motion (SW) | +0/+85 (degrees)                                                         |
-
-### Joint 12 - index adduction/abduction 
-
-| Joint identifier(s)  | `r_index_add` , `l_index_add`                          |
-|:-------------------- |:------------------------------------------------------ |
-| Motor                | DC Gearmotor, Faulhaber 1512U012SR 324:1, OD 15        |
-| Motor Encoder        | None                                                   |
-| Speed Reducer        | Spur Gearhead, Reduction 324:1 (integrated with motor) |
-| Transmission         | Linkages (variable reduction)                          |
-| Joint Encoder        | FAP board with finger absolute position sensor         |
-| Range of Motion (HW) | +6/+20 (degrees)                                       |
-| Range of Motion (SW) | +7/+18 (degrees)                                       | 
 
 ---
 ## Torso 
