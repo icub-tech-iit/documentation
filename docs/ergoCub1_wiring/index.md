@@ -6,7 +6,7 @@ The purpose of this document is to provide detailed documentation about the elec
 
 Please click on any of the link below to go to the right page.
 
-[**ergoCub 1.0**](ergoCubub1_0.md)
+[**ergoCub 1.0**](ergoCub1_0.md)
 
 [**ergoCub 1.1**](ergoCub1_1.md)
 
