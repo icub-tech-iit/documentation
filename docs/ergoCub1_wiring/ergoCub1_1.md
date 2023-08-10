@@ -3,7 +3,7 @@
 The system architecture of ergoCub1.1 is depicted in the following image:
 
 
-<center> <img src ="../img/ergoCub1.1_architecture.png" width=500>
+<center> <img src ="../img/ergoCub1.1_architecture.png" width=1000>
          
 </center>
 
