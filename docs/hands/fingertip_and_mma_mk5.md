@@ -7,7 +7,7 @@ The fingertip comprises a 3DMID piece with the patterned taxels and a convention
 The taxel mapping is represented in Fig. 1.
 
 <p align="center">
-    <img  src=    "../img/taxel_map.jpg"
+    <img  src=    "./img/taxel_map.jpg"
           width=  "750">
 </p>
 <p align="center">
@@ -20,7 +20,7 @@ The AD7147 hosted on the FT3D has configurable **I2C address**  to allow for mul
 The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 2 by simply soldering the desired connection on the dedicated jumper.
 
 <p align="center">
-    <img  src=    "../img/FT3D_Top.jpg"
+    <img  src=    "./img/FT3D_Top.jpg"
           width=  "750">
 </p>
 <p align="center">
@@ -60,6 +60,113 @@ The complete configuration set is as follow:
 
 I2C dataline is decided at the MMA level through the connector assignment.
 
+### Mounting the 3DMID 
+
+#### Needed material (for one hand):
+
+
+|IITCODE | description | quantity |
+|--|--|--|
+| 17628 | support for soldering | 5 |
+| 17627 | base for soldering support | 1 |
+| 16619 | 3DMID shells| 5| 
+| 15467 | FT3D board| 5 | 
+| 17377 | rubber fingertip | 5 |
+| | 1.6x6mm screws | 5 | 
+| | 1.6x8mm screws | 5 | 
+
+plus:
+1. low temperature solder
+2. dedicated tips for the soldering iron
+3. dedicated flux for LTS
+4. screwdriver
+
+<p align="center">
+    <img  src=    "./img/list_material.png"
+          width=  "750">
+</p>
+<p align="center">
+    <sub>Fig.3 – Some material needed to mount the fingertips.</sub>
+</p>
+
+
+
+#### Procedure
+
+1. fix the 3DMID to the soldering support with 1.6x6mm screw
+<p align="center">
+    <img  src=    "./img/3dMID_fixed.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.4 - fixing the 3DMID to the soldering support.</sub>
+</p>
+
+2. plug the soldering support on the base
+<p align="center">
+    <img  src=    "./img/3dmid_plugged.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.5 – soldering support plugged into the base.</sub>
+</p>
+
+
+
+3. set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID
+4. apply flux and pre-tin the castellated holes on FT3DB
+5. configure the FT3DB jumpers (see section above)
+5. place the FT3DB on the 3DMID aligning the soldering pads
+6. apply some flux if needed and solder a couple of pads holding the FT3DB in position
+7. go on and solder all the pads
+<p align="center">
+    <img  src=    "./img/soldered.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.6 – soldered FT3DB on the 3DMID shell.</sub>
+</p>
+
+at this point the device is ready for testing, just connect it to the MMA with the dedicated cable. 
+To fully mount the fingertip proceed with the next steps
+
+9. put on the rubber fingertip cod. 17377 
+
+<p align="center">
+    <img  src=    "./img/3DMIDwCap.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.7 – adjusted rubber fingertip on 3DMID shell.</sub>
+</p>
+
+
+10. you can test the fingertip in this condition:
+
+<p align="center">
+    <img  src=    "./img/3DMIDwCap_support.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.8 – 3DMID fingertips with and without the rubber cap.</sub>
+</p>
+
+11. to mount on the finger distal phalanx (fig. 9):
+  a. connect the cable (**not shown here**)
+  b. slide the rear of the assembly into the bore with a small inclination
+  c. push up and ahead to insert the locking clip into its slot
+
+at this point the assembly should look sturdy and precisely fit. 
+You can fix it with **1.6x8 mm screw**
+<p align="center">
+    <img  src=    "./img/insertion.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.9 – 3DMID fingertip insertion procedure, right: 3DMID device inserted into the distal phalanx.</sub>
+</p>
+
+
 ### Encoders
 The finger position (closing and adduction angles) are read out by a set of FAP cards (Finger Absolute Position), each one coupled with a small magnet rigidly connected to the corresponding joint.
 Each FAP has the same I2C address, thus **one I2C data line is needed for one FAP**. This is implemented at the PCB level. 
@@ -95,7 +202,7 @@ The schematic of the MMA is shown below.
 
 ### Tactile sensors
 <p align="center">
-    <img  src=    "../img/fingertips_connection.png"
+    <img  src=    "./img/fingertips_connection.png"
           width=  "750">
 </p>
 <p align="center">
@@ -108,7 +215,7 @@ The tactile sensors are connected to the MMA as in Fig. 3. The fingers (index, m
 The encoders are connected as reported in the table above and in the schematic snapshot in Fig. 4.
 
 <p align="center">
-    <img  src=    "../img/encoders_connection.png"
+    <img  src=    "./img/encoders_connection.png"
           width=  "750">
 </p>
 <p align="center">
