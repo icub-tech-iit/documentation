@@ -5,10 +5,10 @@
 Below, a sketch of the finger kinematics is reported:
 
 <p align="center">
-  <img  src=    "../img/finger-scheme-1_mod.png"
+  <img  src=    "./img/finger-scheme-1_mod.png"
         width=  "">
-  <img  src=    "../img/finger-scheme-2_mod.png"
-        width=  "650">
+  <img  src=    "./img/finger-scheme-2_mod.png"
+        width=  "">
 </p>
 <p align="center">
   <sub>Hand Mk5 leverism</sub>
