@@ -44,7 +44,8 @@ This allow you tu force the board in maintenance mode and do operations such as 
 
 - In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
 - Select the `ETH` driver in the devices list
-- Select the board by selecting its checkbox
+- Click on `Discover`
+- Select the board by checking its checkbox
 - Click on `Force ETH Maintenance`
 
 You should see the board running in the `eUpdater` process and related version.
@@ -56,21 +57,26 @@ This allow you tu force the board in application mode.
 
 - In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
 - Select the `ETH` driver in the devices list
-- Select the board by selecting its checkbox
+- Click on `Discover`
+- Select the board by checking its checkbox
 - Click on `Force ETH Application`
 
 You should see the board running in the `eApplication` process and related version.
 
 **TBD inserire img application**
 
+
+
 #### Upload Application
 This allow you to upload a new application binary onto the board uP.
 
 - In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
 - Select the `ETH` driver in the devices list
-- Select the board by selecting its checkbox
+- Click on `Discover`
+- Select the board by checking its checkbox
 - Click on `Force ETH Maintenance`
 - Click on `Upload Application` and browse to the correct binary application file (official FW binaries are located at https://github.com/robotology/icub-firmware-build)
+- Click on `Set Def Boot eApplication` (this will jump to the app after the 5sec in `eLoader`)
 
 **TBD inserire img per upload**
 
@@ -79,17 +85,36 @@ This allow you to change the IP address of the board.
 
 - In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
 - Select the `ETH` driver in the devices list
-- Select the board by selecting its checkbox
+- Click on `Discover`
+- Select the board by checking its checkbox
 - Click on `Force ETH Maintenance`
 - Click on `Change IP Address` and insert the wanted new IP address in the dialog box.
 
 **TBD inserire img per change IP**
 
-!!!warning
-    Pay attention to give to the board a proper IP address in the domain of the configured IP subnet (i.e. 10.0.1.X)
-    Otherwise you'll be not able to discover it any more since you re-flash the board using a debugger, see :
+#### Update of the eLoader
+This allow you to update the eLoader.
 
-    - https://icub-tech-iit.github.io/procedures/tp-boards-programming/
+!!!warning
+    This is a critical operation! Do this only if strictly necessary and pay attention to respect the steps described!
+    If the procedure fails you'll have to flash the board using the debugger, this means that probably you'll have to unmount the board from the robot if not accessible.
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the board by checking its checkbox 
+  
+!!!warning 
+    select only a board at once!
+
+- Click on `Upload eLoader` and browse to the respective binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusLoader.hex))
+- Verify that the new eLoader has been flashed : 
+    - Select the `ETH` driver in the devices list
+    - Click on `Discover`
+    - Check the version in the `Board Properties` panel 
+
+**TBD inserire img per upd eLoader**
+
 
 
 ## Command Line Interface (CLI)
@@ -97,7 +122,7 @@ This allow you to change the IP address of the board.
 
 By running `FirmwareUpdater -h`, you'll be prompted with the list of all available options: 
 
-<img src ="../img/cli-options.png" height = 480px>
+<img src ="../../firmware/img/cli-options.png" height = 480px>
 
 ### CLI options to change CAN ID and IP address
 Here's below a summary of the CLI functionalities: 
@@ -116,7 +141,7 @@ where :
 - `-g -e SOCKETCAN -i 0 -c 0` is required to use a `SOCKETCAN` device (i.e. `ESD CAN/USB`) with `ID=0` and `canline=0`
 - `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
 
-<img src ="../img/canId-socketcan.gif" height = 480px>
+<img src ="../../firmware/img/canId-socketcan.gif" height = 480px>
 
 
 ### Change CAN ID via ETH
@@ -129,7 +154,7 @@ where :
 - `-g -e ETH -i eth1 -t 10.0.1.1 -c 1` is required to use a `ETH` device (i.e. `ems4`) with `ip address = 10.0.1.1` and `canline=1`
 - `-n 1 -k 2` changes old id 1 (-n 1) to 2 (-k 2)
 
-<img src ="../img/canId-eth.gif" height = 480px>
+<img src ="../../firmware/img/canId-eth.gif" height = 480px>
 
 
 ### Change IP address of an ETH board
@@ -142,7 +167,7 @@ where :
 - ` -g -e ETH -i eth1` is required to use a `ETH` device (i.e. `ems4`) 
 - `-t 10.0.1.1 -2 10.0.1.2` changes old i`IP address` 10.0.1.1 to 10.0.1.2
 
-<img src ="../img/change-ip-address.gif" height = 480px>
+<img src ="../../firmware/img/change-ip-address.gif" height = 480px>
 
 ## How to use ETH boards with a different IP subnet
 We provide here the instructions to use ETH boards with a subnet different from the standard 10.0.1.X.
@@ -234,9 +259,9 @@ The software has been compiled also on the Linux machine running `yarprobotinter
 See below an example of `yarprobotinterface` running with a gateway set to `10.0.2.104` connected to an `ems4` board with address `10.0.2.1` and an `F/T` sensor (`strain2`) connected to it.
 
 
-<img src ="../img/use-different-subnet.png" height = 340px>
+<img src ="../../firmware/img/use-different-subnet.png" height = 340px>
 
-## Strain2 dedicated CLI Options
+### Strain2 dedicated CLI Options
 
 The `CLI` options implemented for the strain2 (F/T sensors) are : 
 
@@ -267,8 +292,10 @@ example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -u
 
 ## Useful Resources
 Below a list of useful links:
+
 - Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
 - Firmware [sources](https://github.com/robotology/icub-firmware)
 - Firmware [binaries](https://github.com/robotology/icub-firmware-build)
-- `FirmwareUpdater` [sources](https://github.com/robotology/icub-main/tree/master/src/tools/FirmwareUpdater) 
+- Firmware [binaries docs](https://github.com/robotology/icub-firmware-build/tree/master/docs)
+- FirmwareUpdater [sources](https://github.com/robotology/icub-main/tree/master/src/tools/FirmwareUpdater) 
 
