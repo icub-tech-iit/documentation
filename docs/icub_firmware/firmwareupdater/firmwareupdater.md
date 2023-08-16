@@ -423,9 +423,8 @@ example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -u
 ## Useful Resources
 Below a list of useful links:
 
-- Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
-- Firmware [sources](https://github.com/robotology/icub-firmware)
-- Firmware [binaries](https://github.com/robotology/icub-firmware-build)
 - Firmware [binaries docs](https://github.com/robotology/icub-firmware-build/tree/master/docs)
-- FirmwareUpdater [sources](https://github.com/robotology/icub-main/tree/master/src/tools/FirmwareUpdater) 
+- Firmware [binaries](https://github.com/robotology/icub-firmware-build)
+- Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
+
 
