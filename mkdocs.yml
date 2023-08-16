@@ -160,6 +160,10 @@ nav:
         - iCub 3 joints specs: icub3/icub3-joints.md
       - ergoCub 1: 
         - ergoCub 1 joint specs: ergoCub1/ergoCub1-joints.md
+        - ergoCub 1 wiring:
+          - Summary: ergoCub1_wiring/index.md
+          - ergoCub 1.0: ergoCub1_wiring/ergoCub1_0.md
+          - ergoCub 1.1: ergoCub1_wiring/ergoCub1_1.md
       - iCub CPU boards: icub_cpu_boards/icub_cpu_boards.md
       - Hands:
         - Summary: hands/index.md
