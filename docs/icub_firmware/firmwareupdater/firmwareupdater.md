@@ -224,13 +224,28 @@ This allow you to upload a new application to a `CAN` board connected to a selec
 - Click on `Discover`
 - Select the `CAM` board on which you want to upload the new application
 - Click on `Upload Application`
-- Browse to the wanted binary file (i.e. for a MTB4 board select this [file](https://github.com/robotology/icub-firmware-build/blob/master/CAN/mtb4/mtb4.hex))
+- Browse to the wanted binary file (i.e. for a `MTB4` board select this [file](https://github.com/robotology/icub-firmware-build/blob/master/CAN/mtb4/mtb4.hex))
  
 
 You should see the new application version set.
 
+**TBD inserire img per CAN application**
 
-**TBD inserire img per CAN upload app**
+### Access Strain/Strain2/Strain2c calibration data
+In order to acces the GUI containing the calibration data for F/T sensors do the following.
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the `ETH` board under which the `Strain/Strain2/Strain2c` is attached by checking its checkbox
+- Click on `Force ETH Maintenance`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Discover`
+- Select the `Strain/Strain2/Strain2c` board on which you want to visualize calibation data by checking its checkbox
+- Click on `Calibrate`
+
+
+**TBD inserire img per strain**
 
 ## Command Line Interface (CLI)
 `FirmwareUpdater` provides a CLI with a set of options to do operations via the command line.
