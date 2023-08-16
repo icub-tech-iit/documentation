@@ -1,4 +1,4 @@
-# FirmwareUpdater Documentation
+# FirmwareUpdater How To
 With the `FirmwareUpdater` application it is possible to perform GUI-based FW update on both CAN- and ETH-based robots; the commonly used functionalities are:
 
 - Upload `application` firmware both on `ETH` boards and `CAN` boards
@@ -65,7 +65,18 @@ You should see the board running in the `eApplication` process and related versi
 
 **TBD inserire img application**
 
+#### Change board IP address
+This allow you to change the IP address of the board.
 
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the board by checking its checkbox
+- Click on `Force ETH Maintenance`
+- Select the board by checking its checkbox
+- Click on `Change IP Address` and insert the wanted new IP address in the dialog box.
+
+**TBD inserire img per change IP**
 
 #### Upload Application
 This allow you to upload a new application binary onto the board uP.
@@ -75,22 +86,11 @@ This allow you to upload a new application binary onto the board uP.
 - Click on `Discover`
 - Select the board by checking its checkbox
 - Click on `Force ETH Maintenance`
+- Select the board by checking its checkbox
 - Click on `Upload Application` and browse to the correct binary application file (official FW binaries are located at https://github.com/robotology/icub-firmware-build)
-- Click on `Set Def Boot eApplication` (this will jump to the app after the 5sec in `eLoader`)
+- Click on `Set Def Boot eApplication`
 
 **TBD inserire img per upload**
-
-#### Change board IP address
-This allow you to change the IP address of the board.
-
-- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
-- Select the `ETH` driver in the devices list
-- Click on `Discover`
-- Select the board by checking its checkbox
-- Click on `Force ETH Maintenance`
-- Click on `Change IP Address` and insert the wanted new IP address in the dialog box.
-
-**TBD inserire img per change IP**
 
 #### Update of the eLoader
 This allow you to update the eLoader.
@@ -107,6 +107,8 @@ This allow you to update the eLoader.
 !!!warning 
     select only a board at once!
 
+- Click on `Force ETH Maintenance`
+- Select the board by checking its checkbox
 - Click on `Upload eLoader` and browse to the respective binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusLoader.hex))
 - Verify that the new eLoader has been flashed : 
     - Select the `ETH` driver in the devices list
@@ -115,7 +117,37 @@ This allow you to update the eLoader.
 
 **TBD inserire img per upd eLoader**
 
+#### Update of the eUpdater
+This allow you to update the eLoader.
 
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the board by checking its checkbox
+
+!!!warning 
+    select only a board at once!
+
+
+- Click on `Force ETH Maintenance`
+- Select the board by checking its checkbox
+- Click on `Upload Application` and browse to the binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusApplPROGupdater.hex))
+- Select the board by checking its checkbox
+- Click on `Restart ETH Board(s)`
+- wait at least 5 sec
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- The GUI will show that the executing process is `eApplPROGupdater`
+- Select the board by checking its checkbox
+- Click on `Upload eUpdater` and browse to the binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusUpdater.hex))
+- Click on `Set Def Boot eUpdater`
+- Click on `Restart ETH Board(s)`
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- The board has Startup, Default, and Running processed all set to value eUpdater (see the right panel called `Board Properties`,group `Bootstrap Processes`). 
+- Select the board by checking its checkbox
+- Click on `Upload Application` and browse to the correct binary application file (official FW binaries are located at https://github.com/robotology/icub-firmware-build)
+- Click on `Set Def Boot eApplication`
 
 ## Command Line Interface (CLI)
 `FirmwareUpdater` provides a CLI with a set of options to do operations via the command line.
