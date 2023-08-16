@@ -65,6 +65,28 @@ You should see the board running in the `eApplication` process and related versi
 
 **TBD inserire img application**
 
+#### Set default boot process eUpdater
+This allow you tu force the default boot process to eUpdater
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the board by checking its checkbox
+- Click on `Set Def Boot eUpdater`
+
+**TBD inserire img def boot updater**
+
+#### Set default boot process eApplication
+This allow you tu force the default boot process to eApplication
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the board by checking its checkbox
+- Click on `Set Def Boot eApplication`
+
+**TBD inserire img def boot app**
+
 #### Change board IP address
 This allow you to change the IP address of the board.
 
@@ -149,6 +171,67 @@ This allow you to update the eLoader.
 - Click on `Upload Application` and browse to the correct binary application file (official FW binaries are located at https://github.com/robotology/icub-firmware-build)
 - Click on `Set Def Boot eApplication`
 
+**TBD inserire img per upd eUpdater**
+
+### Operations on CAN boards
+Here are the main operations on the CAN based boards connected to ETH boards.
+
+#### Discover
+This allow you to discover all `CAN` boards connected to a selected `ETH` board
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Force ETH Maintenance`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Discover`
+
+You should see all `CAN` boards connected to the slected `ETH` board.
+
+
+**TBD inserire img per CAN discover**
+
+#### Change CAN ID
+This allow you to change the ID to a `CAN` board connected to a selected `ETH` board
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Force ETH Maintenance`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Discover`
+- Select the `CAM` board on which you want to change the ID
+- Click on `Chanhe CAN address`
+- Type the new ID (1-14) int the dialog box an hit OK
+ 
+
+You should see the new board `CAN` ID set.
+
+
+**TBD inserire img per CAN change ID**
+
+#### Upload CAN application
+This allow you to upload a new application to a `CAN` board connected to a selected `ETH` board
+
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Force ETH Maintenance`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- Click on `Discover`
+- Select the `CAM` board on which you want to upload the new application
+- Click on `Upload Application`
+- Browse to the wanted binary file (i.e. for a MTB4 board select this [file](https://github.com/robotology/icub-firmware-build/blob/master/CAN/mtb4/mtb4.hex))
+ 
+
+You should see the new application version set.
+
+
+**TBD inserire img per CAN upload app**
+
 ## Command Line Interface (CLI)
 `FirmwareUpdater` provides a CLI with a set of options to do operations via the command line.
 
@@ -163,7 +246,7 @@ Here's below a summary of the CLI functionalities:
 - CAN board ID via `ETH` device  
 - IP address of an ETH board
 
-### Change CAN ID via SOCKETCAN
+#### Change CAN ID via SOCKETCAN
 In this example, we change the `CAN ID` on an `mtb` board connected via `SOCKETCAN` from 1 to 2.
 The syntax of the command is the following : 
 ```bash
@@ -176,7 +259,7 @@ where :
 <img src ="../../firmware/img/canId-socketcan.gif" height = 480px>
 
 
-### Change CAN ID via ETH
+#### Change CAN ID via ETH
 In this example, we change the `CAN ID` on an `mtb` board connected via `ETH ` through an `ems4` board w/ `IP address = 10.0.1.1` from 1 to 2.
 The syntax of the command is the following : 
 ```bash
@@ -189,7 +272,7 @@ where :
 <img src ="../../firmware/img/canId-eth.gif" height = 480px>
 
 
-### Change IP address of an ETH board
+#### Change IP address of an ETH board
 In this example, we change the `IP address on an `ems4` board from `10.0.1.1` to 110.0.1.21.
 The syntax of the command is the following : 
 ```bash
