@@ -17,8 +17,9 @@ The taxel mapping is represented in Fig. 1.
 ### FT3D board configuration - rev. 2 
 The AD7147 hosted on the FT3D has configurable **I2C address**  to allow for multiple devices. 
 
-The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 2 by simply soldering the desired connection on the dedicated jumper.
-
+The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 2 by simply soldering 
+the desired connection on the dedicated jumper. Also **R1** is to be removed in this revision. 
+Depending on the connection (see below) the **IMU** also needs to be removed.
 <p align="center">
     <img  src=    "./img/FT3D_Top.jpg"
           width=  "750">
@@ -33,6 +34,7 @@ The complete configuration set is as follow:
 
 #### ergoCub SN000
 
+**Note: in ergoCub SN000 currently the fingertips are not wired to the MMA board**
 
 | finger |  AD0 | AD1 | IMU | I2C dataline | IIT code | 
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -160,11 +162,13 @@ at this point the assembly should look sturdy and precisely fit.
 You can fix it with **1.6x8 mm screw**
 <p align="center">
     <img  src=    "./img/insertion.png"
-          width=  "500">
+          width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.9 – 3DMID fingertip insertion procedure, right: 3DMID device inserted into the distal phalanx.</sub>
+    <sub>Fig.9 – 3DMID fingertip insertion procedure, left: connection, center: insertion of the device,  right: 3DMID device inserted into the distal phalanx.</sub>
 </p>
+
+Again, at this point one can test the fingertip looking at the signals from the AD7147.
 
 
 ### Encoders
