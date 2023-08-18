@@ -7,7 +7,7 @@ The fingertip comprises a 3DMID piece with the patterned taxels and a convention
 The taxel mapping is represented in Fig. 1.
 
 <p align="center">
-    <img  src=    "./img/taxel_map.jpg"
+    <img  src=    "../img/taxel_map.jpg"
           width=  "750">
 </p>
 <p align="center">
@@ -21,7 +21,7 @@ The congfiguration is made through the jumpers **AD0** and **AD1** reported in F
 the desired connection on the dedicated jumper. Also **R1** is to be removed in this revision. 
 Depending on the connection (see below) the **IMU** also needs to be removed.
 <p align="center">
-    <img  src=    "./img/FT3D_Top.jpg"
+    <img  src=    "../img/FT3D_Top.jpg"
           width=  "750">
 </p>
 <p align="center">
@@ -34,7 +34,9 @@ The complete configuration set is as follow:
 
 #### ergoCub SN000
 
-**Note: in ergoCub SN000 currently the fingertips are not wired to the MMA board**
+!!! note: 
+
+in ergoCub SN000 currently the fingertips are not wired to the MMA board
 
 | finger |  AD0 | AD1 | IMU | I2C dataline | IIT code | 
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -78,13 +80,13 @@ I2C dataline is decided at the MMA level through the connector assignment.
 | | 1.6x8mm screws | 5 | 
 
 plus:
-1. low temperature solder
+1. low temperature solder (LTS)
 2. dedicated tips for the soldering iron
 3. dedicated flux for LTS
 4. screwdriver
 
 <p align="center">
-    <img  src=    "./img/list_material.png"
+    <img  src=    "../img/list_material.png"
           width=  "750">
 </p>
 <p align="center">
@@ -97,7 +99,7 @@ plus:
 
 1. fix the 3DMID to the soldering support with 1.6x6mm screw
 <p align="center">
-    <img  src=    "./img/3dMID_fixed.png"
+    <img  src=    "../img/3dMID_fixed.png"
           width=  "500">
 </p>
 <p align="center">
@@ -106,7 +108,7 @@ plus:
 
 2. plug the soldering support on the base
 <p align="center">
-    <img  src=    "./img/3dmid_plugged.png"
+    <img  src=    "../img/3dmid_plugged.png"
           width=  "500">
 </p>
 <p align="center">
@@ -122,7 +124,7 @@ plus:
 6. apply some flux if needed and solder a couple of pads holding the FT3DB in position
 7. go on and solder all the pads
 <p align="center">
-    <img  src=    "./img/soldered.png"
+    <img  src=    "../img/soldered.png"
           width=  "500">
 </p>
 <p align="center">
@@ -135,7 +137,7 @@ To fully mount the fingertip proceed with the next steps
 9. put on the rubber fingertip cod. 17377 
 
 <p align="center">
-    <img  src=    "./img/3DMIDwCap.png"
+    <img  src=    "../img/3DMIDwCap.png"
           width=  "500">
 </p>
 <p align="center">
@@ -146,7 +148,7 @@ To fully mount the fingertip proceed with the next steps
 10. you can test the fingertip in this condition:
 
 <p align="center">
-    <img  src=    "./img/3DMIDwCap_support.png"
+    <img  src=    "../img/3DMIDwCap_support.png"
           width=  "500">
 </p>
 <p align="center">
@@ -158,17 +160,15 @@ To fully mount the fingertip proceed with the next steps
   b. slide the rear of the assembly into the bore with a small inclination
   c. push up and ahead to insert the locking clip into its slot
 
-at this point the assembly should look sturdy and precisely fit. 
-You can fix it with **1.6x8 mm screw**
+at this point the assembly should look sturdy and precisely fit, in addition you can tighten it with **1.6x8 mm screw**. Now it's ready for testing the signals. 
 <p align="center">
-    <img  src=    "./img/insertion.png"
+    <img  src=    "../img/insertion.png"
           width=  "750">
 </p>
 <p align="center">
     <sub>Fig.9 – 3DMID fingertip insertion procedure, left: connection, center: insertion of the device,  right: 3DMID device inserted into the distal phalanx.</sub>
 </p>
 
-Again, at this point one can test the fingertip looking at the signals from the AD7147.
 
 
 ### Encoders
@@ -184,7 +184,7 @@ The power suppy and signals are then routed to the connectors towards the FAPs a
 - **JST SURS** 5 contacts for the fingertips.
 - **JST XRS** 4 contacts for the FAPs.
 
-The family of connectors on the same device are identified with the REF DES: i.e., Picoblade **J1** goes to connectors **J1**1, **J1**2 and so on; Picoblade **J2** goes to **J2**1 etc. 
+The family of connectors on the same device are identified with the REF DES: i.e., Picoblade **J1** goes to connectors **J1** 1, **J1** 2 and so on; Picoblade **J2** goes to **J2** 1 etc. 
 Details are summarized in the table below:
 
 | connector | description | sensor | 
@@ -206,7 +206,7 @@ The schematic of the MMA is shown below.
 
 ### Tactile sensors
 <p align="center">
-    <img  src=    "./img/fingertips_connection.png"
+    <img  src=    "../img/fingertips_connection.png"
           width=  "750">
 </p>
 <p align="center">
@@ -219,7 +219,7 @@ The tactile sensors are connected to the MMA as in Fig. 3. The fingers (index, m
 The encoders are connected as reported in the table above and in the schematic snapshot in Fig. 4.
 
 <p align="center">
-    <img  src=    "./img/encoders_connection.png"
+    <img  src=    "../img/encoders_connection.png"
           width=  "750">
 </p>
 <p align="center">
