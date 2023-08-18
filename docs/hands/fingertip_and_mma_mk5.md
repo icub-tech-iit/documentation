@@ -34,7 +34,7 @@ The complete configuration set is as follow:
 
 #### ergoCub SN000
 
-!!! note: 
+!!!note: 
 
 in ergoCub SN000 currently the fingertips are not wired to the MMA board
 
@@ -108,6 +108,7 @@ plus:
 </p>
 
 2. plug the soldering support on the base
+
 <p align="center">
     <img  src=    "../img/3dmid_plugged.png"
           width=  "500">
@@ -115,8 +116,6 @@ plus:
 <p align="center">
     <sub>Fig.5 – soldering support plugged into the base.</sub>
 </p>
-
-
 
 3. set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID
 
