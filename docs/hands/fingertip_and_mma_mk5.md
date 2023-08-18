@@ -34,7 +34,7 @@ The complete configuration set is as follow:
 
 #### ergoCub SN000
 
-!!!note: 
+!!! note: 
 
     in ergoCub SN000 currently the fingertips are not wired to the MMA board
 
@@ -107,8 +107,9 @@ plus:
 </p>
 
 
-1 fix the 3DMID to the soldering support with 1.6x6mm screw
-2. plug the soldering support on the base
+- fix the 3DMID to the soldering support with 1.6x6mm screw
+- plug the soldering support on the base
+
 <p align="center">
     <img  src=    "../img/3dmid_plugged.png"
           width=  "500">
@@ -116,12 +117,14 @@ plus:
 <p align="center">
     <sub>Fig.5 – soldering support plugged into the base.</sub>
 </p>
-3. set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID
-4. apply flux and pre-tin the castellated holes on FT3DB
-6. configure the FT3DB jumpers (see section above)
-5. place the FT3DB on the 3DMID aligning the soldering pads
-6. apply some flux if needed and solder a couple of pads holding the FT3DB in position
-7. go on and solder all the pads
+
+- set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID
+- apply flux and pre-tin the castellated holes on FT3DB
+-  configure the FT3DB jumpers (see section above)
+-  place the FT3DB on the 3DMID aligning the soldering pads
+-  apply some flux if needed and solder a couple of pads holding the FT3DB in position
+- go on and solder all the pads
+
 <p align="center">
     <img  src=    "../img/soldered.png"
           width=  "500">
@@ -130,10 +133,10 @@ plus:
     <sub>Fig.6 – soldered FT3DB on the 3DMID shell.</sub>
 </p>
 
-8. at this point the device is ready for testing, just connect it to the MMA with the dedicated cable. 
+At this point the device is ready for testing, just connect it to the MMA with the dedicated cable. 
 To fully mount the fingertip proceed with the next steps
 
-9. put on the rubber fingertip cod. 17377 
+- put on the rubber fingertip cod. 17377 
 
 <p align="center">
     <img  src=    "../img/3DMIDwCap.png"
@@ -142,7 +145,8 @@ To fully mount the fingertip proceed with the next steps
 <p align="center">
     <sub>Fig.7 – adjusted rubber fingertip on 3DMID shell.</sub>
 </p>
-10. you can test the fingertip in this condition.
+
+- you can test the fingertip in this condition.
 
 <p align="center">
     <img  src=    "../img/3DMIDwCap_support.png"
@@ -152,12 +156,13 @@ To fully mount the fingertip proceed with the next steps
     <sub>Fig.8 – 3DMID fingertips with and without the rubber cap.</sub>
 </p>
 
-11. to mount on the finger distal phalanx (fig. 9):
-  a. connect the cable exiting from the phalanx
-  b. slide the rear of the assembly into the bore with a small inclination
-  c. push up and ahead to insert the locking clip into its slot
+- to mount on the finger distal phalanx (fig. 9):
+   a. connect the cable exiting from the phalanx
+   b. slide the rear of the assembly into the bore with a small inclination
+   c. push up and ahead to insert the locking clip into its slot
 
 at this point the assembly should look sturdy and precisely fit, in addition you can tighten it with **1.6x8 mm screw**. Now it's ready for testing the signals. 
+
 <p align="center">
     <img  src=    "../img/insertion.png"
           width=  "750">
@@ -165,7 +170,6 @@ at this point the assembly should look sturdy and precisely fit, in addition you
 <p align="center">
     <sub>Fig.9 – 3DMID fingertip insertion procedure, left: connection, center: insertion of the device,  right: 3DMID device inserted into the distal phalanx.</sub>
 </p>
-
 
 
 ### Encoders
