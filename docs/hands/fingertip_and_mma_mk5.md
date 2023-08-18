@@ -34,7 +34,7 @@ The complete configuration set is as follow:
 
 #### ergoCub SN000
 
-!!! note: 
+!!! note 
 
     in ergoCub SN000 currently the fingertips are not wired to the MMA board
 
