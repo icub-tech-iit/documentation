@@ -80,6 +80,7 @@ I2C dataline is decided at the MMA level through the connector assignment.
 | | 1.6x8mm screws | 5 | 
 
 plus:
+
 1. low temperature solder (LTS)
 2. dedicated tips for the soldering iron
 3. dedicated flux for LTS
@@ -118,8 +119,9 @@ plus:
 
 
 3. set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID
+
 4. apply flux and pre-tin the castellated holes on FT3DB
-5. configure the FT3DB jumpers (see section above)
+6. configure the FT3DB jumpers (see section above)
 5. place the FT3DB on the 3DMID aligning the soldering pads
 6. apply some flux if needed and solder a couple of pads holding the FT3DB in position
 7. go on and solder all the pads
