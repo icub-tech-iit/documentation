@@ -17,8 +17,9 @@ The taxel mapping is represented in Fig. 1.
 ### FT3D board configuration - rev. 2 
 The AD7147 hosted on the FT3D has configurable **I2C address**  to allow for multiple devices. 
 
-The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 2 by simply soldering the desired connection on the dedicated jumper.
-
+The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 2 by simply soldering 
+the desired connection on the dedicated jumper. Also **R1** is to be removed in this revision. 
+Depending on the connection (see below) the **IMU** also needs to be removed.
 <p align="center">
     <img  src=    "../img/FT3D_Top.jpg"
           width=  "750">
@@ -33,17 +34,19 @@ The complete configuration set is as follow:
 
 #### ergoCub SN000
 
+!!! note 
+
+    In ergoCub SN000 currently the fingertips are not wired to the MMA board.
 
 | finger |  AD0 | AD1 | IMU | I2C dataline | IIT code | 
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|thumb   | 0    | 0   | LSM6DSLTR | 0            | 17544 | 
-|index   | 0    | 0   | LSM6DSLTR | 1            | 17544 |
+|thumb   | 0    | 0   | LSM6DSLTR | 0      | 17544 | 
+|index   | 0    | 0   | LSM6DSLTR | 1      | 17544 |
 |middle  | 1    | 0   | no  | 1            | 17545 |
 |ring    | 0    | 1   | no  | 1            | 17546 |
 |pink    | 1    | 0   | no  | 0            | 17545 |
 
 #### ergoCub SN001
-
 
 | finger |  AD0 | AD1 | IMU | I2C dataline |  IIT code |   
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -53,12 +56,112 @@ The complete configuration set is as follow:
 |ring    | 0    | 1   |  no        | 1     | 17546 |   
 |pink    | 1    | 0   |  LSM6DSLTR | 0     | 17545.A | 
 
-
 #### ergoCub equipped with MMA rev. B
 
-
-
 I2C dataline is decided at the MMA level through the connector assignment.
+
+### Mounting the 3DMID 
+
+#### Needed material (for one hand):
+
+|IITCODE | description | quantity |
+|--|--|--|
+| 17628 | support for soldering | 5 |
+| 17627 | base for soldering support | 1 |
+| 16619 | 3DMID shells| 5| 
+| 15467 | FT3D board| 5 | 
+| 17377 | rubber fingertip | 5 |
+| | 1.6x6mm screws | 5 | 
+| | 1.6x8mm screws | 5 | 
+
+Plus:
+
+1. low temperature solder (LTS)
+2. dedicated tips for the soldering iron
+3. dedicated flux for LTS
+4. screwdriver
+
+<p align="center">
+    <img  src=    "../img/list_material.png"
+          width=  "750">
+</p>
+<p align="center">
+    <sub>Fig.3 – Some material needed to mount the fingertips.</sub>
+</p>
+
+#### Procedure
+
+<p align="center">
+    <img  src=    "../img/3dMID_fixed.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.4 - fixing the 3DMID to the soldering support.</sub>
+</p>
+
+- Fix the 3DMID to the soldering support with 1.6x6mm screw.
+- Plug the soldering support on the base.
+
+<p align="center">
+    <img  src=    "../img/3dmid_plugged.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.5 – soldering support plugged into the base.</sub>
+</p>
+
+- Set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID.
+- Apply flux and pre-tin the castellated holes on FT3DB.
+- Configure the FT3DB jumpers (see section above).
+- Place the FT3DB on the 3DMID aligning the soldering pads.
+- Apply some flux if needed and solder a couple of pads holding the FT3DB in position.
+- Go on and solder all the pads.
+
+<p align="center">
+    <img  src=    "../img/soldered.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.6 – soldered FT3DB on the 3DMID shell.</sub>
+</p>
+
+At this point the device is ready for testing, just connect it to the MMA with the dedicated cable. 
+To fully mount the fingertip, proceed with the next steps:
+
+- Put on the rubber fingertip cod. 17377.
+
+<p align="center">
+    <img  src=    "../img/3DMIDwCap.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.7 – adjusted rubber fingertip on 3DMID shell.</sub>
+</p>
+
+- Test the fingertip in this condition.
+
+<p align="center">
+    <img  src=    "../img/3DMIDwCap_support.png"
+          width=  "500">
+</p>
+<p align="center">
+    <sub>Fig.8 – 3DMID fingertips with and without the rubber cap.</sub>
+</p>
+
+- To mount on the finger distal phalanx (fig. 9):
+    1. Connect the cable exiting from the phalanx.
+    2. Slide the rear of the assembly into the bore with a small inclination.
+    3. Push up and ahead to insert the locking clip into its slot.
+
+At this point, the assembly should look sturdy and precisely fit, in addition you can tighten it with **1.6x8 mm screw**. Now it's ready for testing the signals. 
+
+<p align="center">
+    <img  src=    "../img/insertion.png"
+          width=  "750">
+</p>
+<p align="center">
+    <sub>Fig.9 – 3DMID fingertip insertion procedure, left: connection, center: insertion of the device,  right: 3DMID device inserted into the distal phalanx.</sub>
+</p>
 
 ### Encoders
 The finger position (closing and adduction angles) are read out by a set of FAP cards (Finger Absolute Position), each one coupled with a small magnet rigidly connected to the corresponding joint.
@@ -73,7 +176,7 @@ The power suppy and signals are then routed to the connectors towards the FAPs a
 - **JST SURS** 5 contacts for the fingertips.
 - **JST XRS** 4 contacts for the FAPs.
 
-The family of connectors on the same device are identified with the REF DES: i.e., Picoblade **J1** goes to connectors **J1**1, **J1**2 and so on; Picoblade **J2** goes to **J2**1 etc. 
+The family of connectors on the same device are identified with the REF DES: i.e., Picoblade **J1** goes to connectors **J1** 1, **J1** 2 and so on; Picoblade **J2** goes to **J2** 1 etc. 
 Details are summarized in the table below:
 
 | connector | description | sensor | 
