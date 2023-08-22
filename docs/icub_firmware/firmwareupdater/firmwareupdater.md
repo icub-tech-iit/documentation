@@ -9,14 +9,14 @@ With the `FirmwareUpdater` application it is possible to perform GUI-based FW up
 - Change `bootstrap` mode
 - Access to the `F/T` sensors calibration data of the `STTRAIN`/`STRAIN2`/`STRAIN2C`
   
-**TBD inserire img di FU con drivers**
-
 
 To launch `FirmwareUpdater` GUI just open a terminal and type :
 
 ```sh
 FrimwareUpdater
 ```
+
+![image](img/fu.png)
 
 !!!info
     In order to have all possible drivers that `FirmwareUpdater` can use to communicate with the boards, make sure you have the [firmwareupdater.ini](https://github.com/robotology/icub-main/blob/master/src/tools/FirmwareUpdater/firmwareupdater.ini) file in the place where you launch the GUI 
@@ -37,7 +37,7 @@ This allow you to discover all `ETH` boards in the current `IP subnet` (titpical
 If any ETH boards are availabe they'll be listed prompting board info.
 Detailed processesinfo of each board are available in the `Board Properties` box clicking on the board.
 
-**TBD inserire img di discover+board properties**
+![image](img/fu-discover.png)
 
 #### Force ETH Maintenance
 This allow you tu force the board in maintenance mode and do operations such as upload FW, change IP, change bootstrap mode etc..
@@ -50,7 +50,7 @@ This allow you tu force the board in maintenance mode and do operations such as 
 
 You should see the board running in the `eUpdater` process and related version.
 
-**TBD inserire img maintenance**
+![image](img/fu-maintenance.png)
 
 #### Force ETH Application
 This allow you tu force the board in application mode.
@@ -63,7 +63,7 @@ This allow you tu force the board in application mode.
 
 You should see the board running in the `eApplication` process and related version.
 
-**TBD inserire img application**
+![image](img/fu-app.png)
 
 #### Set default boot process eUpdater
 This allow you tu force the default boot process to eUpdater
@@ -74,7 +74,7 @@ This allow you tu force the default boot process to eUpdater
 - Select the board by checking its checkbox
 - Click on `Set Def Boot eUpdater`
 
-**TBD inserire img def boot updater**
+![image](img/fu-defupdater.png)
 
 #### Set default boot process eApplication
 This allow you tu force the default boot process to eApplication
@@ -85,7 +85,7 @@ This allow you tu force the default boot process to eApplication
 - Select the board by checking its checkbox
 - Click on `Set Def Boot eApplication`
 
-**TBD inserire img def boot app**
+![image](img/fu-defapp.png)
 
 #### Change board IP address
 This allow you to change the IP address of the board.
@@ -98,7 +98,7 @@ This allow you to change the IP address of the board.
 - Select the board by checking its checkbox
 - Click on `Change IP Address` and insert the wanted new IP address in the dialog box.
 
-**TBD inserire img per change IP**
+![image](img/fu-change-ip.png)
 
 #### Upload Application
 This allow you to upload a new application binary onto the board uP.
@@ -112,7 +112,7 @@ This allow you to upload a new application binary onto the board uP.
 - Click on `Upload Application` and browse to the correct binary application file (official FW binaries are located at https://github.com/robotology/icub-firmware-build)
 - Click on `Set Def Boot eApplication`
 
-**TBD inserire img per upload**
+![image](img/fu-upload.png)
 
 #### Update of the eLoader
 This allow you to update the eLoader.
@@ -131,13 +131,13 @@ This allow you to update the eLoader.
 
 - Click on `Force ETH Maintenance`
 - Select the board by checking its checkbox
-- Click on `Upload eLoader` and browse to the respective binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusLoader.hex))
+- Click on `Upload eLoader` and browse to the respective binary file (i.e. for a EMS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/EMS/bin/environment/emsLoader.hex))
 - Verify that the new eLoader has been flashed : 
     - Select the `ETH` driver in the devices list
     - Click on `Discover`
     - Check the version in the `Board Properties` panel 
 
-**TBD inserire img per upd eLoader**
+![image](img/fu-updeloader.png)
 
 #### Update of the eUpdater
 This allow you to update the eLoader.
@@ -153,7 +153,10 @@ This allow you to update the eLoader.
 
 - Click on `Force ETH Maintenance`
 - Select the board by checking its checkbox
-- Click on `Upload Application` and browse to the binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusApplPROGupdater.hex))
+- Click on `Upload Application` and browse to the binary file (i.e. for a EMS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/EMS/bin/environment/emsApplPROGupdater.hex))
+  
+![image](img/fu-updeupdater-1.png)
+
 - Select the board by checking its checkbox
 - Click on `Restart ETH Board(s)`
 - wait at least 5 sec
@@ -161,7 +164,10 @@ This allow you to update the eLoader.
 - Click on `Discover`
 - The GUI will show that the executing process is `eApplPROGupdater`
 - Select the board by checking its checkbox
-- Click on `Upload eUpdater` and browse to the binary file (i.e. for a MC4PLUS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/MC4PLUS/bin/environment/mc4plusUpdater.hex))
+- Click on `Upload eUpdater` and browse to the binary file (i.e. for a EMS select this [file](https://github.com/robotology/icub-firmware-build/blob/master/ETH/EMS/bin/environment/emsUpdater.hex))
+
+![image](img/fu-updeupdater-2.png)
+
 - Click on `Set Def Boot eUpdater`
 - Click on `Restart ETH Board(s)`
 - Select the `ETH` driver in the devices list
@@ -170,8 +176,6 @@ This allow you to update the eLoader.
 - Select the board by checking its checkbox
 - Click on `Upload Application` and browse to the correct binary application file (official FW binaries are located at https://github.com/robotology/icub-firmware-build)
 - Click on `Set Def Boot eApplication`
-
-**TBD inserire img per upd eUpdater**
 
 ### Operations on CAN boards
 Here are the main operations on the CAN based boards connected to ETH boards.
@@ -189,8 +193,7 @@ This allow you to discover all `CAN` boards connected to a selected `ETH` board
 
 You should see all `CAN` boards connected to the slected `ETH` board.
 
-
-**TBD inserire img per CAN discover**
+![image](img/fu-candiscover.png)
 
 #### Change CAN ID
 This allow you to change the ID to a `CAN` board connected to a selected `ETH` board
@@ -209,8 +212,7 @@ This allow you to change the ID to a `CAN` board connected to a selected `ETH` b
 
 You should see the new board `CAN` ID set.
 
-
-**TBD inserire img per CAN change ID**
+![image](img/fu-canaddr.png)
 
 #### Upload CAN application
 This allow you to upload a new application to a `CAN` board connected to a selected `ETH` board
@@ -229,7 +231,7 @@ This allow you to upload a new application to a `CAN` board connected to a selec
 
 You should see the new application version set.
 
-**TBD inserire img per CAN application**
+![image](img/fu-canupload.png)
 
 ### Access Strain/Strain2/Strain2c calibration data
 In order to acces the GUI containing the calibration data for F/T sensors do the following.
@@ -244,8 +246,8 @@ In order to acces the GUI containing the calibration data for F/T sensors do the
 - Select the `Strain/Strain2/Strain2c` board on which you want to visualize calibation data by checking its checkbox
 - Click on `Calibrate`
 
-
-**TBD inserire img per strain**
+![image](img/fu-calib1.png)
+![image](img/fu-calib2.png)
 
 ## Command Line Interface (CLI)
 `FirmwareUpdater` provides a CLI with a set of options to do operations via the command line.
