@@ -76,7 +76,7 @@ I2C dataline is decided at the MMA level through the connector assignment.
 
 Plus:
 
-1. low temperature solder (LTS)
+1. low temperature solder (LTS): used Indium solder wire SMDIN52SN48 [^111]
 2. dedicated tips for the soldering iron
 3. dedicated flux for LTS
 4. screwdriver
@@ -88,6 +88,8 @@ Plus:
 <p align="center">
     <sub>Fig.3 – Some material needed to mount the fingertips.</sub>
 </p>
+
+[^111]: see [link](https://www.chipquik.com/store/product_info.php?products_id=630003)
 
 #### Procedure
 
