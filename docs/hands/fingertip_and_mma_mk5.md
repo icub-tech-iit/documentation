@@ -58,7 +58,10 @@ The complete configuration set is as follow:
 
 #### ergoCub equipped with MMA rev. B
 
-I2C dataline is decided at the MMA level through the connector assignment.
+I2C dataline is decided at the MMA level through the connector assignment. 
+The MTB to be mounted should be equipped with a dedicated firmware to enable the use of **PIN 7** 
+in the connector as an additional I2C line.
+
 
 ### Mounting the 3DMID 
 
@@ -76,7 +79,7 @@ I2C dataline is decided at the MMA level through the connector assignment.
 
 Plus:
 
-1. low temperature solder (LTS): used Indium solder wire SMDIN52SN48 [^111]
+1. low temperature solder (LTS): used Indium solder wire **SMDIN52SN48** [^111]
 2. dedicated tips for the soldering iron
 3. dedicated flux for LTS
 4. screwdriver
@@ -89,7 +92,7 @@ Plus:
     <sub>Fig.3 – Some material needed to mount the fingertips.</sub>
 </p>
 
-[^111]: see [link](https://www.chipquik.com/store/product_info.php?products_id=630003)
+[^111]: see [link](https://www.chipquik.com/store/product_info.php?products_id=630003) or buy from usual suppliers of electronics goods.
 
 #### Procedure
 
@@ -194,7 +197,7 @@ The encoders are connected with the following logic:
 - Finger position encoders are to be routed to one MTB-FAP.
 - Adduction encoders are to be routed to the other MTB-FAP.
 
-The choice of the MTB-FAP can be made allowing for the simplest layout.
+The connection of the MTB-FAP can be made allowing for the simplest layout **and reported here and in the wiring scheme**.
 
 The schematic of the MMA is shown below.
 
@@ -238,15 +241,15 @@ services and signal visualization, the mapping of the signals is reported in the
 | Pink   | 5 | 60-71  | 
 | Palm   | TBD |TBD |  
 
-#### ergoCub SN000 & SN001
+#### ergoCub with MMA rev.B
 
 | Finger | board nr. | Taxel Index |
 |-- |--|--|
 | Thumb  | 0 | 0-11  | 
-| Index  | 1 | 12-23 |
-| Middle | 2 | 24-35 |
-| Ring   | 3 | 36-47 |
-| Pink   | 4 | 48-59 |
+| Index  | 4 | 48-59 |
+| Middle | 8 | 96-107 |
+| Ring   | 12 | 144-155 |
+| Pink   | 16 | 192-203 |
 | Palm   | TBD | TBD |
 
 ### AD7147 configuration
