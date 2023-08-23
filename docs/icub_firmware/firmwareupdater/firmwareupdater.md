@@ -1,4 +1,4 @@
-# FirmwareUpdater How To
+# FirmwareUpdater Walkthrough
 With the `FirmwareUpdater` application it is possible to perform GUI-based FW update on both CAN- and ETH-based robots; the commonly used functionalities are:
 
 - Upload `application` firmware both on `ETH` boards and `CAN` boards
