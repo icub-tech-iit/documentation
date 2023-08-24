@@ -96,13 +96,13 @@ not_in_nav: |
   /sw_versioning_table/[0-9]*.md
 
 nav:
-  - iCub Tech Docs:
-    - Home Page: index.md
+  - 🟦 iCub Tech Docs:
+    - 🏠 Home Page: index.md
 
-    - iCub Starter Kits:
+    - 1️⃣ iCub Starter Kits:
       - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
 
-    - iCub HW:
+    - ⚙️ iCub HW:
       - Summary: icub_hw.md
       - The iCub Versions Table:
         - iCub Versions Table: icub_versions/index.md
@@ -187,7 +187,7 @@ nav:
       - Power push buttons: robot_power/robot_power_button.md
       - Custom components: custom_components/custom_components.md
 
-    - iCub SW:
+    - 💻 iCub SW:
       - Summary: icub_sw.md
       - Software Installation:
         - Summary: sw_installation/index.md
