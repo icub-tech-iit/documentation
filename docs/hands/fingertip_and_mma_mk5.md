@@ -58,7 +58,9 @@ The complete configuration set is as follow:
 
 #### ergoCub equipped with MMA rev. B
 
-I2C dataline is decided at the MMA level through the connector assignment.
+I2C dataline is decided at the MMA level through the connector assignment. 
+The MTB to be mounted should be equipped with a dedicated firmware to enable the use of **PIN 7** 
+in the connector as an additional I2C line.
 
 ### Mounting the 3DMID 
 
@@ -76,7 +78,7 @@ I2C dataline is decided at the MMA level through the connector assignment.
 
 Plus:
 
-1. low temperature solder (LTS)
+1. low temperature solder (LTS): used Indium solder wire **SMDIN52SN48**[^1]
 2. dedicated tips for the soldering iron
 3. dedicated flux for LTS
 4. screwdriver
@@ -88,6 +90,8 @@ Plus:
 <p align="center">
     <sub>Fig.3 – Some material needed to mount the fingertips.</sub>
 </p>
+
+[^1]: See [link](https://www.chipquik.com/store/product_info.php?products_id=630003) or buy from usual suppliers of electronics goods.
 
 #### Procedure
 
@@ -192,7 +196,7 @@ The encoders are connected with the following logic:
 - Finger position encoders are to be routed to one MTB-FAP.
 - Adduction encoders are to be routed to the other MTB-FAP.
 
-The choice of the MTB-FAP can be made allowing for the simplest layout.
+The connection of the MTB-FAP can be made allowing for the simplest layout **and reported here and in the wiring scheme**.
 
 The schematic of the MMA is shown below.
 
@@ -236,15 +240,15 @@ services and signal visualization, the mapping of the signals is reported in the
 | Pink   | 5 | 60-71  | 
 | Palm   | TBD |TBD |  
 
-#### ergoCub SN000 & SN001
+#### ergoCub with MMA rev.B
 
 | Finger | board nr. | Taxel Index |
 |-- |--|--|
 | Thumb  | 0 | 0-11  | 
-| Index  | 1 | 12-23 |
-| Middle | 2 | 24-35 |
-| Ring   | 3 | 36-47 |
-| Pink   | 4 | 48-59 |
+| Index  | 4 | 48-59 |
+| Middle | 8 | 96-107 |
+| Ring   | 12 | 144-155 |
+| Pink   | 16 | 192-203 |
 | Palm   | TBD | TBD |
 
 ### AD7147 configuration
@@ -254,11 +258,9 @@ The values for the mk2 fingertip are reported here, to be implemented in **.xml 
 |--|--|
 | Bitshift | 2 |
 | CDC offset | 0x0000 | 
-| No load value | note[^1] |
+| No load value | note[^2] |
 
-[^1]: the No load value can be choosen to be lower than 0xF0 (240) to allow for some room for opposite polarity signals to be recorded. In this case the set level must be forwarded to 
-high level tools such as SkinGUI etc. for a proper managing of events. A nice choice could be a value of about 0xC0 (192) to have ~60 ADC counts of headroom for oppposite sign forces 
-i.e. shear forces to be measured with the lateral taxels or elastic effects for non-touched taxels to improve force measurement.
+[^2]: The No load value can be choosen to be lower than 0xF0 (240) to allow for some room for opposite polarity signals to be recorded. In this case, the set level must be forwarded to high level tools such as SkinGUI etc. for a proper managing of events. A nice choice could be a value of about 0xC0 (192) to have ~60 ADC counts of headroom for opposite sign forces, i.e., shear forces, to be measured with the lateral taxels or elastic effects for non-touched taxels to improve force measurement.
 
 ### Encoders mapping in the configuration files
 TO BE FILLED AFTER FW WORK DONE.
