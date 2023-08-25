@@ -38,7 +38,7 @@ If you rely on [`robotology-superbuild`](https://github.com/robotology/robotolog
  We can connect the two modules with the command:
  
  ```
- yarp connect /audioPlayerRecorder/audio:o /audioPlayerWrapper/audio:i tcp_fast
+ yarp connect /audioRecorderWrapper/audio:o /audioPlayerWrapper/audio:i fast_tcp
  ```
  
  The option --start will automatically enable the devices on startup; otherwise, we can start/stop the recording/playback by sending the command on the corresponding RPC ports.
