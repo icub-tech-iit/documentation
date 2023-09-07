@@ -31,7 +31,7 @@
 | Joint number | Motors | Identifier    | Type | Parent link     | Child link      | HW lower limit | HW upper limit | SW low. l. | SW upp. l. | Notes      |
 |--------------|--------|---------------|------|-----------------|-----------------|----------------|----------------|------------|------------|------------|
 |              |        | l_thumb_add   | ROT  | l_hand_palm     | l_hand_thumb_1  | 0°             | 90°            |            |            | T1 in fig. |
-|              |        | l_thumb_prox  | ROT  | l_hand_thumb_1  | l_hand_thumb_2  | 0°             | 90°            |            |            | T2 in fig. |
+|              |        | l_thumb_prox  | ROT  | l_hand_thumb_1  | l_hand_thumb_2  | 0°             | 82.1°          |            |            | T2 in fig. |
 |              |        | l_thumb_dist  | ROT  | l_hand_thumb_2  | l_hand_thumb_3  | 0°             | 59.2°          |            |            | T3 in fig. |
 |              |        | l_index_add   | ROT  | l_hand_palm     | l_hand_index_1  | 0°             | 15°            |            |            | I1 in fig. |
 |              |        | l_index_prox  | ROT  | l_hand_index_1  | l_hand_index_2  | 0°             | 90°            |            |            | I2 in fig. |
