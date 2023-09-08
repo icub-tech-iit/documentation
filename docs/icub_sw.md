@@ -14,4 +14,7 @@
 - [`Calibration Types`](./icub_r1_icub3_calibration_types/icub_r1_calibration_types.md)
 - [`iCub and R1 Calibration Types`](./icub_r1_icub3_calibration_types/icub_r1_calibration_types.md)
 - [`Configure IP on a setup for ETH boards`](./configure_static_ip/configure-static-ip.md)
+- [`Using iCub with ROS`](./icub_ros/index.md)
 - [`iCub Force Control`](./icub_force_control/icub-force-control.md)
+- [`Sensor Interfaces`](./robot_sensors/index.md)
+- [`Tactile Sensors`](./tactile_sensors/index.md)
