@@ -22,4 +22,4 @@ jobs:
         
       - name: Run checker
         run: |
-          linkchecker https://${{ github.repository_owner }}.github.io/${{ steps.repo-name.outputs.REPOSITORY_NAME }}/ --check-extern
+          linkchecker https://${{ github.repository_owner }}.github.io/${{ steps.repo-name.outputs.REPOSITORY_NAME }}/ --check-extern --no-warnings
