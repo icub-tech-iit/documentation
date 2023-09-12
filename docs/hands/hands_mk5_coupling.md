@@ -69,33 +69,33 @@ $$q_{1} = \tan^{- 1}\left( \frac{A_{y}(q_{0}) - P_{0y}}{A_{x}(q_{0}) - P_{0x}} \
 
 The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.1**.
 
-| Name        | UoM |           |           | Values     |          |           | Description                                                                        |   |   |   |
-|-------------|-----|-----------|-----------|------------|----------|-----------|------------------------------------------------------------------------------------|---|---|---|
-|             |     | **THUMB** | **INDEX** | **MIDDLE** | **RING** | **PINKY** |                                                                                    |   |   |   |
-| $L_{0x}$    | mm  | -5        | -5        | -5         | -5       | -5        | $x$ coordinate of the first end of   the leverism                                  |   |   |   |
-| $L_{0y}$    | mm  | 4         | 4         | 4          | 4        | 4         | $y$ coordinate of the the first end   of the leverism                              |   |   |   |
-| $L_{1x}$    | mm  | 29        | 34        | 34         | 34       | 29        | $x$ coordinate of the second end of   the leverism                                 |   |   |   |
-| $L_{1y}$    | mm  | 0.8       | 0.8       | 0.8        | 0.8      | 0.5       | $y$ coordinate of the second end of   the leverism                                 |   |   |   |
-| $P_{1x}$    | mm  | 35        | 40        | 40         | 40       | 35        | $x$ coordinate of the axis of the   joint between the first and the second phalanx |   |   |   |
-| $P_{1y}$    | mm  | 1.5       | 1.5       | 1.5        | 1.5      | 1.5       | $y$ coordinate of the axis of the   joint between the first and the second phalanx |   |   |   |
-|             |     |           |           |            |          |           |                                                                                    |   |   |   |
-| $q_{0off}$  | deg | -97.54    | -97.54    | -97.54     | -97.54   | -97.52    | Angle of $A-C$ when the finger is   fully open                                     |   |   |   |
-| $q_{2bias}$ | deg | -173.35   | -173.35   | -173.35    | -173.35  | -170.53   | Angle of $L_1-P_1$ when the finger   is fully open                                 |   |   |   |
-| $q_{1off}$  | deg | 2.45      | 2.15      | 2.15       | 2.15     | 2.46      | Angle of $P_1-P_0$  when the finger is fully open                                  |   |   |   |
-| $q_{1bias}$ | deg | -90       | -90       | -90        | -90      | -90       | Angle of $B-P_0$  when the finger is fully open                                    |   |   |   |
-|             |     |           |           |            |          |           |                                                                                    |   |   |   |
-| $q_{0max}$  | deg | -12       | -12       | -12        | -12      | -11.97    | Max value of $q_0$, i.e. when the   finger is fully closed                         |   |   |   |
-| $q_{1max}$  | deg | 90        | 90        | 90         | 90       | 90        | Max value of $q_1$, same as above                                                  |   |   |   |
-| $q_{2max}$  | deg | 191.44    | 193.06    | 193.06     | 193.06   | 188.7     | Max value of $q_2$, same as above                                                  |   |   |   |
-|             |     |           |           |            |          |           |                                                                                    |   |   |   |
-| $k$         | mm  | 17.1      | 29.18     | 29.18      | 29.18    | 24.25     | Connecting rod length, $\|L_1-L_0\|$                                               |   |   |   |
-| $d$         | mm  | 20.06     | 30.04     | 30.04      | 30.04    | 25.04     | Distance between the two joints,   $P_1$ and $P_0$                                 |   |   |   |
-| $l$         | mm  | 8.5       | 6.04      | 6.04       | 6.04     | 6.08      | Distance between $L_1$ and $P_1$                                                   |   |   |   |
-| $b$         | mm  | 6.24      | 6.4       | 6.4        | 6.4      | 6.4       | Distance between $L_0$ and $P_0$                                                   |   |   |   |
-| $s$         | mm  | 6.52      | 5.5       | 5.5        | 5.5      | 5.5       | Distance between joint $B$ of the   connecting rod $A-B$ and joint $P_0$           |   |   |   |
-| $t$         | mm  | 13        | 14.5      | 14.5       | 14.5     | 14.5      | Length of the connecting rod $A-B$                                                 |   |   |   |
-| $f$         | mm  | 6         | 5.5       | 5.5        | 5.5      | 5.5       | Length of the connecting rod $A-C$                                                 |   |   |   |
-| $r$         | mm  | 7.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod $D-C$                                                 |   |   |   |
+| Name        | UoM |           |           | Values     |          |           | Description                                                                        |
+|-------------|-----|-----------|-----------|------------|----------|-----------|------------------------------------------------------------------------------------|
+|             |     | **THUMB** | **INDEX** | **MIDDLE** | **RING** | **PINKY** |                                                                                    |
+| $L_{0x}$    | mm  | -5        | -5        | -5         | -5       | -5        | $x$ coordinate of the first end of   the leverism                                  |
+| $L_{0y}$    | mm  | 4         | 4         | 4          | 4        | 4         | $y$ coordinate of the the first end   of the leverism                              |
+| $L_{1x}$    | mm  | 29        | 34        | 34         | 34       | 29        | $x$ coordinate of the second end of   the leverism                                 |
+| $L_{1y}$    | mm  | 0.8       | 0.8       | 0.8        | 0.8      | 0.5       | $y$ coordinate of the second end of   the leverism                                 |
+| $P_{1x}$    | mm  | 35        | 40        | 40         | 40       | 35        | $x$ coordinate of the axis of the   joint between the first and the second phalanx |
+| $P_{1y}$    | mm  | 1.5       | 1.5       | 1.5        | 1.5      | 1.5       | $y$ coordinate of the axis of the   joint between the first and the second phalanx |
+|             |     |           |           |            |          |           |                                                                                    |
+| $q_{0off}$  | deg | -97.54    | -97.54    | -97.54     | -97.54   | -97.52    | Angle of $A-C$ when the finger is   fully open                                     |
+| $q_{2bias}$ | deg | -173.35   | -173.35   | -173.35    | -173.35  | -170.53   | Angle of $L_1-P_1$ when the finger   is fully open                                 |
+| $q_{1off}$  | deg | 2.45      | 2.15      | 2.15       | 2.15     | 2.46      | Angle of $P_1-P_0$  when the finger is fully open                                  |
+| $q_{1bias}$ | deg | -90       | -90       | -90        | -90      | -90       | Angle of $B-P_0$  when the finger is fully open                                    |
+|             |     |           |           |            |          |           |                                                                                    |
+| $q_{0max}$  | deg | -12       | -12       | -12        | -12      | -11.97    | Max value of $q_0$, i.e. when the   finger is fully closed                         |
+| $q_{1max}$  | deg | 90        | 90        | 90         | 90       | 90        | Max value of $q_1$, same as above                                                  |
+| $q_{2max}$  | deg | 191.44    | 193.06    | 193.06     | 193.06   | 188.7     | Max value of $q_2$, same as above                                                  |
+|             |     |           |           |            |          |           |                                                                                    |
+| $k$         | mm  | 34.15     | 39.13     | 39.13      | 39.13    | 34.18     | Connecting rod length, $\|L_1-L_0\|$                                               |
+| $d$         | mm  | 35.03     | 40.03     | 40.03      | 40.03    | 35.03     | Distance between the two   joints,   $P_1$ and $P_0$                               |
+| $l$         | mm  | 6.04      | 6.04      | 6.04       | 6.04     | 6.08      | Distance between $L_1$ and   $P_1$                                                 |
+| $b$         | mm  | 6.4       | 6.4       | 6.4        | 6.4      | 6.4       | Distance between $L_0$ and   $P_0$                                                 |
+| $s$         | mm  | 5.5       | 5.5       | 5.5        | 5.5      | 5.5       | Distance between joint $B$ of   the   connecting rod $A-B$ and joint   $P_0$       |
+| $t$         | mm  | 14.5      | 14.5      | 14.5       | 14.5     | 14.5      | Length of the connecting rod   $A-B$                                               |
+| $f$         | mm  | 5.5       | 5.5       | 5.5        | 5.5      | 5.5       | Length of the connecting rod   $A-C$                                               |
+| $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
 
 
 
