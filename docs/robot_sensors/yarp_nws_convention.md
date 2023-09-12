@@ -26,7 +26,7 @@ Next, we will list the port convention for each type of functionality. For each 
 
 ## Controlboards
 
-The `ControlBoard` functionality is exposed via the [`controlBoard_nws_yarp`](https://www.yarp.it/latest/classControlBoard__nws__yarp.html) device. It can be used to get and set input-output quantities associated to the part's joints, by communicating with the ETH boards of the robot.
+The `ControlBoard` functionality is exposed via the [`controlBoard_nws_yarp`](https://yarp.it/latest/classControlBoard__nws__yarp.html) device. It can be used to get and set input-output quantities associated to the part's joints, by communicating with the ETH boards of the robot.
 
 For each part, there will be a `controlBoard_nws_yarp` device that will open the following YARP ports:
 
@@ -57,15 +57,15 @@ For each part, there will be a `multipleanalogsensorsserver` device that will op
 !!! warning
     These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`multipleanalogsensorsclient`](https://www.yarp.it/git-master/classMultipleAnalogSensorsClient.html) device.
 
-The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://www.yarp.it/latest/group__dev__iface__multiple__analog.html), so they can be easily queried:
+The client device will expose sensors related to the following [Multiple Analog Sensors Interfaces](https://yarp.it/latest/group__dev__iface__multiple__analog.html), so they can be easily queried:
 
 - [`yarp::dev::IOrientationSensors`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IOrientationSensors.html)
 
-- [`yarp::dev::IThreeAxisGyroscopes`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1IThreeAxisGyroscopes.html)
+- [`yarp::dev::IThreeAxisGyroscopes`](https://yarp.it/latest/classyarp_1_1dev_1_1IThreeAxisGyroscopes.html)
 
-- [`yarp::dev::IThreeAxisLinearAccelerometers`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1IThreeAxisLinearAccelerometers.html)
+- [`yarp::dev::IThreeAxisLinearAccelerometers`](https://yarp.it/latest/classyarp_1_1dev_1_1IThreeAxisLinearAccelerometers.html)
 
-- [`yarp::dev::IThreeAxisMagnetometers`](https://www.yarp.it/git-master/classyarp_1_1dev_1_1IThreeAxisMagnetometers.html)
+- [`yarp::dev::IThreeAxisMagnetometers`](https://yarp.it/latest/classyarp_1_1dev_1_1IThreeAxisMagnetometers.html)
 
 ## Force-Torque Sensors
 
@@ -110,7 +110,7 @@ The client device will expose the sensors thanks to the related [Media Interface
 
 ### Depth cameras
 
-Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the [`RgbdSensor_nws_yarp`](https://www.yarp.it/latest/classRgbdSensor__nws__yarp.html) device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
+Depth cameras, such as the Intel Realsense series of devices, have their capabilities exposed by the [`RgbdSensor_nws_yarp`](https://yarp.it/latest/classRgbdSensor__nws__yarp.html) device. The port names do not follow the convention mentioned above, but use the naming `/<robotPortPrefix>/<cameraName>`. `<cameraName>` is a string that is set as `depthCamera` if only one RGBD device is mounted on the robot.
 
 The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 
@@ -126,6 +126,6 @@ The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 
 Even though client devices are not available, YARP provides interfaces to create a client application:
 
-- [`yarp::dev::IRGBDSensor`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IRGBDSensor.html)
-- [`yarp::dev::IDepthVisualParams`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IDepthVisualParams.html)
-- [`yarp::dev::IRgbVisualParams`](https://www.yarp.it/latest/classyarp_1_1dev_1_1IRgbVisualParams.html)
+- [`yarp::dev::IRGBDSensor`](https://yarp.it/latest/classyarp_1_1dev_1_1IRGBDSensor.html)
+- [`yarp::dev::IDepthVisualParams`](https://yarp.it/latest/classyarp_1_1dev_1_1IDepthVisualParams.html)
+- [`yarp::dev::IRgbVisualParams`](https://yarp.it/latest/classyarp_1_1dev_1_1IRgbVisualParams.html)

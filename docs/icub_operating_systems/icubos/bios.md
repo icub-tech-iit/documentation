@@ -1,6 +1,6 @@
 # The OS on icub-head - BIOS tweaks
 
-Some tweaks to the bios are necessary to setup the icub-head board (*Kontron COMe-cKL6*).
+Some tweaks to the BIOS are necessary to setup the icub-head board (*Kontron COMe-cKL6*).
 They are directly realted to icubOS installation and it's necessary to perform the tweaks below only once, regadless if the operating systems is reinstalled.
 
 ## How to access BIOS
@@ -10,8 +10,7 @@ Then, power on the board and press a key (it is different on each model of the i
 
 ## How to set the max power (TDP) of the processor
 
-Set the TDP to 10000 (10w). See page 65 of the user manual of the board for more details https://www.kontron.com/downloads/manuals/c/come-ckl6_user-guide_rev-1.5_2020-07-23.pdf?product=146491
-
+Set the TDP to 10000 (10w). See page 65 of the user manual of the board for more details, which you can download from https://www.kontron.com/en/products/come-ckl6/p146491.
 
 ## USB Legacy support
 

@@ -117,9 +117,7 @@ This must be done from each machine you want to connect to the PC104.
 *See also [this link](http://askubuntu.com/questions/9800/remote-host-identification-has-changed-warning-when-connecting-over-ssh)*
 
 ## I used the live USB first on a computer, then when I plugged it into the PC104 it does not work anymore
-
-Probably the PC104 booted correctly, but the network is not reachable (you can check it by [connecting a vga cable to the PC104](https://svn.robotology.eu/repos/iCubHardware-pub/trunk/mechanics/public/doc/howTo/Connect_VGA_to_PC104.pd)
-inside iCub's head)
+Probably the PC104 booted correctly, but the network is not reachable (you can check it by connecting a VGA cable to the PC104 inside iCub's head).
 
 Live systems write some info about the network card the first time they boot on a machine. This implies that if you boot the live on a desktop and then you plug it to a different machine the network may not work (since the network card is different).
 
