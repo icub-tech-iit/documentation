@@ -85,4 +85,4 @@ The user gets the data from a specific YARP port defined in the configuration fi
 - Status is displayed as a 16-bit integer (only the first 10 bits are valid), whose mapping adheres to the tables above.
 
 Moreover, at start-up, a **DEBUG** message with the initial values of the status (converted to the description strings) is sent to `yarprobotinterface`. 
-Then, each time the status changes a **DEBUG** message is send to the `yarprobotinterface` that shows only, as description strings, the value of the bits changed with respect to the previous status.
+Then, each time the status changes, a **DEBUG** message is sent to `yarprobotinterface`, which in turn prints out a description only about the values of those bits that have switched.
