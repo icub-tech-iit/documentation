@@ -6,7 +6,7 @@ When an iCub model is spawned in gazebo, all the ports that are opened take the 
 
 `gazeboYarpPluginsRobotName icubSim`
 
-The **model name** displayed in gazebo is taken `iCub` from the [icub.sdf](https://github.com/robotology/icub-gazebo/blob/ab22fdc34c0a9faa6f72428c2abdb6afc3145872/icub/icub.sdf#L3) file and the gazebo-yarp-plugin motor control board ports and ports of the other gazebo-yarp-plugins you placed in your iCub model are opened with the portprefix `/icubSim`.
+The **model name** displayed in gazebo is taken `iCub` from the [icub.sdf](https://github.com/robotology/icub-gazebo/blob/master/icub/icub.sdf#L3) file and the gazebo-yarp-plugin motor control board ports and ports of the other gazebo-yarp-plugins you placed in your iCub model are opened with the portprefix `/icubSim`.
 
 <img src ="../img/single_icub_gazebo.png" width=400>
 
