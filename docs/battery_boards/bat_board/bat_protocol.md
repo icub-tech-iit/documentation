@@ -20,7 +20,7 @@ Specifically, at the current status of the development (July 2023), the `BAT` bo
 
 ### Communication characteristics
 
-The pieces of information detailed above are sent by the `BAT` board with a FIFO cycle of 1ms. Then, the `EMS` board handles the CAN frames sent by the `BAT`, parses them and finally forwards them to the higher level of the `yarprobotinterface` at the specific port defined in the configuration files with a frequence o 1Hz.
+The pieces of information detailed above are sent by the `BAT` board with a FIFO cycle of 1 ms. Then, the `EMS` board handles the CAN frames sent by the `BAT`, parses them, and finally forwards them to the higher level of the `yarprobotinterface` at the specific port defined in the configuration files with a frequency of 1 Hz.
 Furthermore, those info are also sent directly from the `BAT` to the display attached to the robot, every 10ms.
 
 ### Types of data transmitted
