@@ -11,11 +11,11 @@ In general, as shown in the figures below (illustrating the connection between t
 </tr></table>
 </center>
 
-Specifically, at the current status of the developments (July 2023), the `BAT` board can send the following data:
+Specifically, at the current status of the development (July 2023), the `BAT` board can send the following data:
 
-- Battery Pack Voltage in Volt
-- Battery Pack Charge in $\%$
-- Battery Pack Status (details about it will follow)
+- Battery Pack Voltage in Volt.
+- Battery Pack Charge in $\%$.
+- Battery Pack Status (detail will follow).
 
 
 ### Communication characteristics
