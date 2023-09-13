@@ -78,7 +78,7 @@ where:
 
 ### Data displayed on the yarp port
 
-The user gets the data from a specific YARP port defined in the configuration file as follows:
+The user gets the data from a specific YARP port defined in the configuration file. Here's the format:
 
 - Voltage is displayed in the Volts.
 - Battery charge is displayed in $\%$.
