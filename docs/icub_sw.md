@@ -3,7 +3,7 @@
 - [`Software Installation`](./sw_installation/index.md)
 - [`Software Versioning Table`](./sw_versioning_table/index.md)
 - [`The OS for the iCub environment`](./icub_operating_systems/index.md)
-- [`The YARP Documentation`](https://yarp.it/latest)
+- [`The YARP Documentation`](https://yarp.it/latest/)
 - [`The iCub Software Documentation`](https://robotology.github.io/robotology-documentation/doc/html/index.html)
 - [`How to set up multiple iCubs on the same network`](./icub_setup_multiple_robots/index.md)
 - [`iCub Firmware`](./icub_firmware/index.md)

@@ -17,7 +17,7 @@ For this reason, if the calibration needs a particular value of `calibrationZero
 ## General procedure for retrieving calibration parameters
 1. First off, you need to make sure that the boards have been reset after last calibration. If not, please swich off and swich on the boards.
 
-2. In the [general.xml](https://github.com/robotology/robots-configuration/blob/master/CER01/general.xml) file set both `useRawEncoderValue` and `skipCalibration` parameters to `true`
+2. In the [general.xml](https://github.com/robotology/robots-configuration/blob/master/R1SN003/general.xml) file set both `useRawEncoderValue` and `skipCalibration` parameters to `true`
 
 3. Press the fault button, so that you are sure that the procedure runs safely.
 

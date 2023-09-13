@@ -141,7 +141,7 @@ yarp conf ip socketport
 
 where `ip` is the IP address of the iCub Console Server and `socketport` is the port retained by the YARP server (usually, `10000`).
 
-To find out more on the YARP CLI, refer to the [YARP official documentation](http://yarp.it/latest/yarp.html).
+To find out more on the YARP CLI, refer to the [YARP official documentation](https://yarp.it/latest/).
 
 ## Install the ssh keys for password-less login on icub-head
 

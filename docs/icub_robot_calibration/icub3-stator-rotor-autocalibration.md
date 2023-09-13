@@ -58,7 +58,7 @@ Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degree
 ## Put the values in the `XML` files
 Once the value of the autocalibration is retrieved, just put it in the corresponding [`XML`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file.
 
-For the value retrieved above we need to modify the `joint 0` column of [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
+For the value retrieved above we need to modify the `joint 0` column of [file](https://github.com/robotology/robots-configuration/blob/master/robots-icebox/iCubGenova09/hardware/mechanicals/right_leg-eb11-j0_2-mec.xml) and set `AutoCalibration` back to `0`:
 
 The column order in the file follows the joint order in the file-name; in the case of `right_leg-eb10-j0_1-mec.xml`, the first column is for `joint 0` and the second one is for `joint 1`.
 
