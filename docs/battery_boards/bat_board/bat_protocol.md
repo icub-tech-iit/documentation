@@ -78,11 +78,11 @@ where:
 
 ### Data displayed on the yarp port
 
-It should be noted that as things now the user will see the data at the specific yarp port defined in the configuration file as follows:
+The user gets the data from a specific YARP port defined in the configuration file as follows:
 
-- Voltage will be displayed in the Volts
-- Battery charge will be displayed in $\%$
-- Status will be displayed as an integer of 16 bits (where we fill only the first 10), which can be interpreted following the tables above
+- Voltage is displayed in the Volts.
+- Battery charge is displayed in $\%$.
+- Status is displayed as a 16-bit integer (only the first 10 bits are valid), whose mapping adheres to the tables above.
 
 Moreover, when the boards start a **DEBUG** message with the initial values of the status (converted to the description strings) is send to the `yarprobotinterface`. 
 Then, each time the status changes a **DEBUG** message is send to the `yarprobotinterface` that shows only, as description strings, the value of the bits changed with respect to the previous status.
