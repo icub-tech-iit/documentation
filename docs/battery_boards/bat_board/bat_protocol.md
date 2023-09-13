@@ -1,7 +1,7 @@
 # BAT board Protocol
 
 ## Introduction
-This page describes the `BAT` board and its protocol. Basically, this board is responsible for the management of the data and signals coming from the battery pack in `R1`, `iCub` and `ergoCub` robots. Moreover, it should be noted that in the latter robots mentioned, it is always coupled with the `BMS` baord, which is responsible for a more fine tuning and managing of the battery pack status.
+This page describes the `BAT` board and its protocol. Basically, this board is responsible for the management of the data and signals provided by the battery pack in `R1`, `iCub`, and `ergoCub` robots. Moreover, it should be noted that in these robots it is always coupled with the `BMS` baord, which is responsible for fine-tuning and managing the battery pack status.
 In general, as shown in the figures below (which actually show the connection between the BAT and EMS board in the base of `R1/SN003`), the `BAT` board can be connected to an EMS board through the specific `CAN` connector, which is responsible for reading the CAN frames coming from the `BAT`.
 
 <center>
