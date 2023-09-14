@@ -1,0 +1,8 @@
+[checking]
+sslverify=0
+
+[output]
+warnings=0
+
+[filtering]
+checkextern=1
