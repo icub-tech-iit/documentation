@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Dependencies
         run: |
-          pip3 install git+https://github.com/linkchecker/linkchecker.git
+          pip install git+https://github.com/linkchecker/linkchecker.git
           
       - name: Fetch repository name
         id: repo-name
