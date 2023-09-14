@@ -174,7 +174,7 @@ The NVIDIA Jetson has to be configured following [the flash procedure](../../icu
 
 If the image has been [installed from scratch](../../icub_operating_systems/icubos/jetpack.md#flash-a-new-image-from-scratch), an initial configuration is also required, which consists in:
 
-- Set the `icub` as `host` and `icub-head-cam` as `hostname`
-- [Configure the network bridge and wifi](https://github.com/icub-tech-iit/setups-os-configuration/blob/master/system-files/iCubOS/ubuntu_20.04_bridge/README.md)
+- Set the `icub` as `host` and `icub-head-cam` as `hostname`.
+- [Configure the network bridge and wifi](https://github.com/icub-tech-iit/setups-os-configuration/blob/master/system-files/iCubOS/ubuntu_20.04_bridge/README.md).
 
 For using the images provided by the new Basler camera over the YARP network, it is needed to compile and install [`yarp-device-pylon`](https://github.com/robotology/yarp-device-pylon#2-how-to-use-basler-pylon-cameras-as-a-yarp-device).

@@ -11,15 +11,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@main
       - name: Dependencies
         run: |
-          pip install git+https://github.com/linkchecker/linkchecker.git
+          pip install --user git+https://github.com/linkchecker/linkchecker.git
+          echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
           
       - name: Fetch repository name
         id: repo-name
         run: |
-          echo "REPOSITORY_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_OUTPUT
+          echo "REPOSITORY_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> ${GITHUB_OUTPUT}
         
       - name: Run checker
         run: |
-          linkchecker https://${{ github.repository_owner }}.github.io/${{ steps.repo-name.outputs.REPOSITORY_NAME }}/ --check-extern --no-warnings
+          linkchecker --config=./scripts/linkchecker/linkcheckerrc https://${{ github.repository_owner }}.github.io/${{ steps.repo-name.outputs.REPOSITORY_NAME }}/

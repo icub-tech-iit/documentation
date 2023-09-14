@@ -104,7 +104,7 @@ For each eye, there will be a `frameGrabber_nws_yarp` that will open the followi
 
 !!! warning
 
-    These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`remote_framegrabber`](https://www.yarp.it/latest/classRemoteFrameGrabber.html) device.
+    These YARP ports are not meant to be accessed directly, but should be accessed instead via the `remote_framegrabber` device.
 
 The client device will expose the sensors thanks to the related [Media Interfaces](https://www.yarp.it/latest/group__dev__iface__media.html).
 

@@ -32,7 +32,7 @@ For this reason, if the calibration needs a particular value of `calibrationZero
 
 ## The available calibrations in details
 ---
-Here are described the usage of the various calibration types; the `param` are in the [calibrators files](https://github.com/robotology/robots-configuration/tree/master/iCubHongKong01/calibrators) where you'll find a file for each part of the robot and looks like :
+Here are described the usage of the various calibration types; the `param` are in the [calibrators files](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators) where you'll find a file for each part of the robot and looks like :
 
 ```xml
  <group name="CALIBRATION">
