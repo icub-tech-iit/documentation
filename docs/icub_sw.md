@@ -2,6 +2,7 @@
 
 - [`Software Installation`](./sw_installation/index.md)
 - [`Software Versioning Table`](./sw_versioning_table/index.md)
+- [`The OS for the ergoCub environment`](./ergocub_operating_systems/index.md)
 - [`The OS for the iCub environment`](./icub_operating_systems/index.md)
 - [`The YARP Documentation`](https://yarp.it/latest/)
 - [`The iCub Software Documentation`](https://robotology.github.io/robotology-documentation/doc/html/index.html)

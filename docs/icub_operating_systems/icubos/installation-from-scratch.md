@@ -38,7 +38,7 @@ Install the system by choosing the default options, except the follow steps:
 ### Identity
 
 - **Your name** : `icub`
-- **Your Server's name** : `icub-head'
+- **Your Server's name** : `icub-head`
 - **Pick a username** : `icub`
 - **Choose a password** : `icub`
 

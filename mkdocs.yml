@@ -294,3 +294,12 @@ nav:
         - Reading Tactile Data: tactile_sensors/software/reading_data.md
         - Visualizing Tactile Data: tactile_sensors/software/visualizing_data.md
         - Tactile Data Flow: tactile_sensors/software/dataflow.md
+    - 💻 ergoCub SW:
+      - Summary: ergocub_sw.md
+      - ergoCub environment: 
+        - Summary: ergocub_operating_systems/index.md
+        - Network: ergocub_operating_systems/network.md
+        - ergocub-head: 
+          - Jetpack installation: ergocub_operating_systems/ergocub_head/install_procedure.md
+        - ergocub-torso:
+          - Install from scratch: ergocub_operating_systems/ergocub_torso/install_from_scratch.md
