@@ -8,7 +8,7 @@ The ergoCub robot relies on two machines: `ergocub-head`, a [`NVIDIA Jetson Xavi
 
 The following guides will help you to properly configure the OS for the specific board.
 
-- [ergocub-head](ergocub_head/install_procedure.md)
+- [ergocub-head](ergocub_head/jetpack_installation.md)
 - [ergocub-torso](ergocub_torso/install_from_scratch.md)
 
 Alternatively, you can download the OS pre-built images [here](../icub_operating_systems/download.md).

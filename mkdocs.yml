@@ -300,6 +300,7 @@ nav:
         - Summary: ergocub_operating_systems/index.md
         - Network: ergocub_operating_systems/network.md
         - ergocub-head: 
-          - Jetpack installation: ergocub_operating_systems/ergocub_head/install_procedure.md
+          - Jetpack installation: ergocub_operating_systems/ergocub_head/jetpack_installation.md
+          - Post-flashing operations: ergocub_operating_systems/ergocub_head/post_flashing.md
         - ergocub-torso:
           - Install from scratch: ergocub_operating_systems/ergocub_torso/install_from_scratch.md
