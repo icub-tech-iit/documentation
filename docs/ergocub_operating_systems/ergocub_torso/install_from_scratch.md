@@ -60,4 +60,3 @@ NTPDATE_USE_NTP_CONF="no"
 ...
 NTPSERVERS="10.0.2.1 ntp.ubuntu.com"
 ```
-

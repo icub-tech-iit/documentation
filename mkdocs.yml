@@ -209,6 +209,14 @@ nav:
           - Manual Installation:
             - icub-head: sw_installation/icub_head_manual.md
       - Software Versioning Table: sw_versioning_table/index.md
+      - The OS for the ergoCub environment:
+        - Summary: ergocub_operating_systems/index.md
+        - Network: ergocub_operating_systems/network.md
+        - ergocub-head:
+          - Jetpack installation: ergocub_operating_systems/ergocub_head/jetpack_installation.md
+          - Post-flashing operations: ergocub_operating_systems/ergocub_head/post_flashing.md
+        - ergocub-torso:
+          - Installation from scratch: ergocub_operating_systems/ergocub_torso/install_from_scratch.md
       - The OS for the iCub environment:
         - Summary: icub_operating_systems/index.md
         - The OS on icub-head:
@@ -294,13 +302,3 @@ nav:
         - Reading Tactile Data: tactile_sensors/software/reading_data.md
         - Visualizing Tactile Data: tactile_sensors/software/visualizing_data.md
         - Tactile Data Flow: tactile_sensors/software/dataflow.md
-    - 💻 ergoCub SW:
-      - Summary: ergocub_sw.md
-      - ergoCub environment: 
-        - Summary: ergocub_operating_systems/index.md
-        - Network: ergocub_operating_systems/network.md
-        - ergocub-head: 
-          - Jetpack installation: ergocub_operating_systems/ergocub_head/jetpack_installation.md
-          - Post-flashing operations: ergocub_operating_systems/ergocub_head/post_flashing.md
-        - ergocub-torso:
-          - Install from scratch: ergocub_operating_systems/ergocub_torso/install_from_scratch.md
