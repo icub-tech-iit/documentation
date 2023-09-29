@@ -75,7 +75,7 @@ where:
 
     `(DCDC_status_B << 8 ) | DCDC_status_A`
 
-Therefore the end user will see a decimal number on the Display of the BAT, that can be translated in BITs and analyzed as defined by the tables above and summmed up here:
+Thereby, the end user sees a decimal number on the BAT Display, which can be transformed in BITs and analyzed as described below:
 
 ```console
 
