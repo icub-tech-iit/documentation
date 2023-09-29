@@ -68,7 +68,7 @@ where:
     Position | BIT[3] | BIT[2] | BIT[1] | BIT[0] |
     |:---|:---:|:---:|:---:|:---:|
     Value | HSM_SW_F | HSM_HW_F | PB1_restart | PB2_restart |
-    Description | OC Fault on the HSM triggered by overcoming the MAX current defined in FW | OC Fault on the HSM triggered by FLT Pin on the HSM micro | Restart phase of the push button 1 | Restart phase of the push button 2 |
+    Description | OC Fault on the HSM triggered by overcurrent (threshold defined in the FW) | OC Fault on the HSM triggered by FLT Pin on the HSM micro | Restart phase of the push button 1 | Restart phase of the push button 2 |
     Possible status | FAULT_OFF(0)/FAULT_ON(1) | FAULT_OFF(0)/FAULT_ON(1) | Start-up phase(1)/stable operation(0) | Start-up phase/stable operation |
 
 - Final status shown at the port is equal to: 
