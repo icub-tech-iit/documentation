@@ -21,3 +21,15 @@ On iCub3 and on R1 there is also a display that shows the voltage and current pr
 |:---:|:---:|
 | <img src="../assets/fig-icub3-4.png" height="200"> | <img src="../assets/fig-r1-1.png" height="200"> |
 
+
+## Display Interface
+
+Lately has been released a new version of the Display UX/UI.
+The main screen is as described in the image below for both iCub3, ergoCub and R1:
+
+<img src="../assets/display-screen-131.png" width="500" height="500">
+
+
+Then, if a fault occurs the Display will switch to another screen descring the occurred fault by a string, which summarizes the error type, and the last values of voltage and currents accured at the moment of the fault as shown below (on the right hand side we have errors related to BOARDS/MOTORS line, instead on the left hand side errors related to CPU line):
+
+<img src="../assets/display-fault-screen-131.png" width="500" height="500">
