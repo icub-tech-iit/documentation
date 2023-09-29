@@ -25,7 +25,7 @@ On iCub3 and on R1 there is also a display that shows the voltage and current pr
 ## Display Interface
 
 Lately, we released a new version of the Display UX/UI.
-The main screen is as described in the image below for both iCub3, ergoCub and R1:
+The main screen is described in the image below for both iCub3, ergoCub, and R1:
 
 <img src="../assets/display-screen-131.png" width="500" height="500">
 
