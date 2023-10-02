@@ -1,7 +1,7 @@
 # BAT board Protocol
 
 ## Introduction
-This page describes the `BAT` board and its protocol. Basically, this board is responsible for the management of the data and signals provided by the battery pack in `R1`, `iCub`, and `ergoCub` robots. Moreover, it should be noted that in these robots it is always coupled with the `BMS` baord, which is responsible for fine-tuning and managing the battery pack status.
+This page describes the `BAT` board and its protocol. Basically, this board is responsible for the management of the data and signals provided by the battery pack in `R1`, `iCub`, and `ergoCub` robots. Moreover, it should be noted that in these robots it is always coupled with the `BMS` board, which is responsible for fine-tuning and managing the battery pack status.
 In general, as shown in the figures below (illustrating the connection between the BAT and EMS boards in the base of `R1/SN003`), the `BAT` can be connected to an EMS board through the `CAN` connector devoted to receiving the CAN frames sent out by the `BAT`.
 
 <center>
@@ -17,10 +17,8 @@ Specifically, at the current status of the development (July 2023), the `BAT` bo
 - Battery Pack Charge in $\%$.
 - Battery Pack Status (detail will follow).
 
-
 ### Communication characteristics
-
-The pieces of information detailed above are sent by the `BAT` board with a FIFO cycle of 1 ms. Then, the `EMS` board handles the CAN frames sent by the `BAT`, parses them, and finally forwards them to the higher level of the `yarprobotinterface` at the specific port defined in the configuration files with a frequency of 1 Hz.
+The `BAT` board sends the pieces of information detailed above with a FIFO cycle of 1 ms. Then, the `EMS` board handles the CAN frames sent by the `BAT`, parses them, and finally forwards them to the higher level of the `yarprobotinterface` at the specific port defined in the configuration files with a frequency of 1 Hz.
 Furthermore, that info is also sent directly from the `BAT` to the display attached to the robot, every 10 ms.
 
 ### Types of data transmitted
@@ -75,31 +73,27 @@ where:
 
     `(DCDC_status_B << 8 ) | DCDC_status_A`
 
-Thereby, the end user sees a decimal number on the BAT Display, which can be transformed in BITs and analyzed as described below:
+Thereby, the end user sees a decimal number on the BAT Display, which can be transformed into BITs and analyzed as described below:
+
+| BIT Position | 15 | 14 | 13 | 12 | 11 | 10 | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+| :--- | :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: | 
+| VALUE   | NAN | NAN | NAN | NAN | HSM_SW_F |  HSM_HW_F | PB1 | PB2 | V12board | V12board_F | V12motor | V12motor_F | HSM | HSM_PG | HSM_F | HSM_broken |
 
 ```console
+Example:
 
-**BIT_POS**:  15    14   13   12    11         10      9    8      7          6          5         4         3     2      1        0
-
-**VALUE**:    NAN  NAN  NAN  NAN  HSM_SW_F  HSM_HW_F  PB1  PB2  V12board  V12board_F  V12motor  V12motor_F  HSM  HSM_PG  HSM_F  HSM_broken
-
-E.g.
-
-If we get 172 as decimal value, then we will have in bits: 
+If we get 172 as a decimal value, then we will have in bits: 
 
     0000 0000 1010 1100  
 
-meaning that we have on the bits related to:
-
+The active bits are thus related to:
 - HSM_PG
 - HSM
 - V12motor
 - V12board
-
 ```
 
-### Data displayed on the yarp port
-
+### Data displayed on the YARP port
 The user gets the data from a specific YARP port defined in the configuration file. Here's the format:
 
 - Voltage is displayed in the Volts.
