@@ -30,6 +30,8 @@ The main screen is described in the image below for both iCub3, ergoCub, and R1:
 <img src="../assets/display-screen-131.png" width="500" height="500">
 
 
-Then, if a fault occurs the Display will switch to another screen descring the occurred fault by a string, which summarizes the error type, and the last values of voltage and currents accured at the moment of the fault as shown below (on the right hand side we have errors related to BOARDS/MOTORS line, instead on the left hand side errors related to CPU line):
+If a fault occurs, the Display will switch to a different mode displaying a string that includes the error type and the last values of voltage and currents acquired at the moment of the fault.
+
+An example is shown below. On the left, the errors are related to CPU line, whereas on the right, we have errors related to BOARDS/MOTORS line.
 
 <img src="../assets/display-fault-screen-131.png" width="500" height="500">
