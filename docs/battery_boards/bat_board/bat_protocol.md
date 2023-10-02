@@ -65,16 +65,38 @@ where:
 
 - DCDC_status_B:
 
-    Position | BIT[1] | BIT[0] |
-    |:---|:---:|:---:|
-    Value | PB1_restart | PB2_restart |
-    Description | Restart phase of the push button 1 | Restart phase of the push button 2 |
-    Possible status | Start-up phase(1)/stable operation(0) | Start-up phase/stable operation |
+    Position | BIT[3] | BIT[2] | BIT[1] | BIT[0] |
+    |:---|:---:|:---:|:---:|:---:|
+    Value | HSM_SW_F | HSM_HW_F | PB1_restart | PB2_restart |
+    Description | OC Fault on the HSM triggered by overcurrent (threshold defined in the FW) | OC Fault on the HSM triggered by FLT Pin on the HSM micro | Restart phase of the push button 1 | Restart phase of the push button 2 |
+    Possible status | FAULT_OFF(0)/FAULT_ON(1) | FAULT_OFF(0)/FAULT_ON(1) | Start-up phase(1)/stable operation(0) | Start-up phase/stable operation |
 
 - Final status shown at the port is equal to: 
 
     `(DCDC_status_B << 8 ) | DCDC_status_A`
 
+Thereby, the end user sees a decimal number on the BAT Display, which can be transformed in BITs and analyzed as described below:
+
+```console
+
+**BIT_POS**:  15    14   13   12    11         10      9    8      7          6          5         4         3     2      1        0
+
+**VALUE**:    NAN  NAN  NAN  NAN  HSM_SW_F  HSM_HW_F  PB1  PB2  V12board  V12board_F  V12motor  V12motor_F  HSM  HSM_PG  HSM_F  HSM_broken
+
+E.g.
+
+If we get 172 as decimal value, then we will have in bits: 
+
+    0000 0000 1010 1100  
+
+meaning that we have on the bits related to:
+
+- HSM_PG
+- HSM
+- V12motor
+- V12board
+
+```
 
 ### Data displayed on the yarp port
 
