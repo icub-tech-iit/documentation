@@ -218,6 +218,9 @@ If you already set the passwordless SSH login, you can skip the password:
 sudo sshfs -o allow_other,IdentityFile=/home/icub/.ssh/id_rsa icub@10.0.0.2:/usr/local/src/robot/ /home/icub/icub-head_fs
 ```
 
+### Enable the CPU `performance` mode
+By default, the CPU is configured in `powersave` mode, which causes critical processes to run somewhat slowly. Therefore, switch the CPU default mode to `performance` by following these [instructions](https://askubuntu.com/questions/929884/how-to-set-performance-instead-of-powersave-as-default).
+
 ## Customize the system
 
 What now you need to do is to customize the installation with your hardware and environment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md), [_User Environment_](user-env.md) chapters as well as [_Further Tasks_ chapter](further-tasks.md) )
