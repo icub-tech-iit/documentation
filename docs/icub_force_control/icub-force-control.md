@@ -155,7 +155,7 @@ Repeat the command above for all parts having a sensor (typically left_arm, righ
 
 after the RobotName, in the first lines.
 
-- Open yarpmotorgui and check the torque value reading for affected joints, typically they should read as follow :
+- Open yarpmotorgui and check the torque value reading for affected joints, typically they should read as follows:
 
 |Part|Joint 0|Joint 1| Joint 2  | Joint 3  | Joint 4 |
 |---|---|---|---|---|---|
@@ -192,8 +192,8 @@ one IMU mounted in the robot, and from this reading is estimating the external f
 From the user perpective, the main differences w.r.t. to the wholeBodyDynamics YARP module are: 
 * The estimation is performed using the iDynTree library, replacing the use of the iDyn library.
 * The model of the robot and of the sensor is loaded from a URDF model, as documented in https://github.com/robotology/idyntree/blob/master/doc/model_loading.md. 
-  This permits to run the estimation algorithm on arbitrary robot without modifyng the code, as in the case of the iCubHeidelberg01 that w.r.t. to normal iCub is missing the head and the arms. 
-* The RPC interface is implemented using [YARP Thrift](http://www.yarp.it/thrift_tutorial_simple.html).
+  This permits running the estimation algorithm on arbitrary robots without modifying the code, as in the case of the iCubHeidelberg01 that w.r.t. to normal iCub is missing the head and the arms. 
+* The RPC interface is implemented using [YARP Thrift](https://yarp.it/latest//thrift_tutorial_simple.html).
   This means that the `0` shorthand for performing the calibration of the force-torque offset is not supported anymore. The `calib` command however is compatible between the wholeBodyDynamics 
   YARP module and the `wholebodydynamics` YARP device, so please use that one in your code to be compatible with both interfaces. 
 * The functionality of the gravityCompensator module are now integrated in the `wholebodydynamics` device, and can be enabled/disabled using the parameters in the `GRAVITY_COMPENSATION` group. 
