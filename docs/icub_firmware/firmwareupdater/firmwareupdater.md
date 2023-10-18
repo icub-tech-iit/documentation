@@ -235,7 +235,7 @@ You should see the new application version set.
 
 
 #### Discover hidden CAN boards
-This section describe the procedure that should be used when any `CAN` board, connected to a specific `ETH` board, cannot be discovered even if the `ETH` board has been set to the `maintenance` status and the user is sure that there's no hardware issues related to the cabling.
+This section describes the procedure that you should use when you cannot discover a `CAN` board connected to a specific `ETH` board, even if the master `ETH` board is in `maintenance` mode and you checked that there are no hardware issues related to the cabling.
 Here follows the step-by-step procedure (which is also shown by a video at the end of the section):
 
 - Supposed that the you have already tried to set the specific `ETH` board in the `maintenance` status and triggered the `Discover` button without finding any `CAN` board connected to the `ETH` board, proceed as illustarted by the following steps
