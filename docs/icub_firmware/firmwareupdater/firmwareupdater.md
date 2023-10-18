@@ -233,6 +233,27 @@ You should see the new application version set.
 
 ![image](img/fu-canupload.png)
 
+
+#### Discover hidden CAN boards
+This section describe the procedure that should be used when any `CAN` board, connected to a specific `ETH` board, cannot be discovered even if the `ETH` board has been set to the `maintenance` status and the user is sure that there's no hardware issues related to the cabling.
+Here follows the step-by-step procedure (which is also shown by a video at the end of the section):
+
+- Supposed that the you have already tried to set the specific `ETH` board in the `maintenance` status and triggered the `Discover` button without finding any `CAN` board connected to the `ETH` board, proceed as illustarted by the following steps
+- In a terminal type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`)
+- Select the `ETH` driver in the devices list
+- Click on `Discover`
+- Select the `ETH` board under which you want discover `CAN` boards by checking its checkbox
+- If the `ETH` board shows under `Status` the value `application (IDLE)` press the button `Force ETH Maintenance` and wait that the board has changed the `Status` value to `maintenance`
+- **INTERNAL NOTE 1**: for the following two operations it is important that you do them fast, just one after the other, in a time interval of around `5 seconds`
+- Click on `Restart ETH Board(s)` 
+- Just after it click on `Discover`
+- **INTERNAL NOTE 2**: these 2 steps are fundamental for sending the discovery signal while the `CAN` boards are booting meaning that, at the restart, the boards which were not discoverable (`strain2` in the example case) are in the status `canBootloader` and not `canApplication`. Forcing the reset is important because this will restart the `ETH` boards removing the power supply from the `CAN` boards and giving it back just a the restart. The discovery command should be sent in that moment since it will remain in the bootloader of the `CAN` board making it discoverable at the end of the restarting procedure
+- Update the `CAN` board as usual
+
+
+<img src ="../img/procedure-discover-hidden-can-boards.gif" height = 480px>
+
+
 ### Access Strain/Strain2/Strain2c calibration data
 In order to acces the GUI containing the calibration data for F/T sensors do the following.
 
