@@ -209,7 +209,6 @@ This allow you to change the ID to a `CAN` board connected to a selected `ETH` b
 - Click on `Chanhe CAN address`
 - Type the new ID (1-14) int the dialog box an hit OK
  
-
 You should see the new board `CAN` ID set.
 
 ![image](img/fu-canaddr.png)
@@ -228,11 +227,9 @@ This allow you to upload a new application to a `CAN` board connected to a selec
 - Click on `Upload Application`
 - Browse to the wanted binary file (i.e. for a `MTB4` board select this [file](https://github.com/robotology/icub-firmware-build/blob/master/CAN/mtb4/mtb4.hex))
  
-
 You should see the new application version set.
 
 ![image](img/fu-canupload.png)
-
 
 #### Discover hidden CAN boards
 This section describes the procedure that you should use when you cannot discover a `CAN` board connected to a specific `ETH` board, even if the master `ETH` board is in `maintenance` mode and you checked that there are no hardware issues related to the cabling.
@@ -253,7 +250,7 @@ Here is the step-by-step procedure (also shown in the animated GIF at the end of
 !!! note
     These two steps are fundamental for sending the discovery signal while the `CAN` boards are booting. In the animated GIF below, the boards that are not discoverable (e.g., `strain2`) are in the status `canBootloader` and not `canApplication`. Forcing the restart of the `ETH` boards is crucial as it will power-cycle the `CAN` boards too. The discovery command should be then sent at that right moment, that is when the `CAN` board is in `canBootloader`.
 
-8. Update the `CAN` board as usual.
+- Update the `CAN` board as usual.
 
 <img src ="../img/procedure-discover-hidden-can-boards.gif" height = 480px>
 
