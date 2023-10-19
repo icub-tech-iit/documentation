@@ -233,6 +233,30 @@ You should see the new application version set.
 
 ![image](img/fu-canupload.png)
 
+
+#### Discover hidden CAN boards
+This section describes the procedure that you should use when you cannot discover a `CAN` board connected to a specific `ETH` board, even if the master `ETH` board is in `maintenance` mode and you checked that there are no hardware issues related to the cabling.
+Here is the step-by-step procedure (also shown in the animated GIF at the end of the section):
+
+- In a terminal, type `FirmwareUpdater -a` (or `FirmwareUpdater --admin`).
+- Select the `ETH` driver in the devices list.
+- Click on `Discover`.
+- Select the `ETH` board under which you aim to discover the `CAN` board by ticking in its checkbox.
+- If the `ETH` board `Status` is `application (IDLE)`, press the button `Force ETH Maintenance` and wait until the board `Status` has changed to `maintenance`.
+
+!!! warning
+    It is important that you run the following two points in a row quickly, just one after the other, without waiting more than `5 seconds` in between.
+
+- Click on `Restart ETH Board(s)`. 
+- Click on `Discover`.
+
+!!! note
+    These two steps are fundamental for sending the discovery signal while the `CAN` boards are booting. In the animated GIF below, the boards that are not discoverable (e.g., `strain2`) are in the status `canBootloader` and not `canApplication`. Forcing the restart of the `ETH` boards is crucial as it will power-cycle the `CAN` boards too. The discovery command should be then sent at that right moment, that is when the `CAN` board is in `canBootloader`.
+
+8. Update the `CAN` board as usual.
+
+<img src ="../img/procedure-discover-hidden-can-boards.gif" height = 480px>
+
 ### Access Strain/Strain2/Strain2c calibration data
 In order to acces the GUI containing the calibration data for F/T sensors do the following.
 
