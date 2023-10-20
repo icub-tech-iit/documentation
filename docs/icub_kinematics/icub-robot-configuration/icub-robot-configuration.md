@@ -4,9 +4,9 @@ The aim of this page is to explain the configuration of a Ethernet based robot a
 
 ## Introduction
 ---
-[Yarprobotinterface](http://www.yarp.it/git-master/yarprobotinterface.html) application starts all devices and modules required by a robot to work properly. Any device needs a configuration data set that could differs from robot to robot, so each robot has own configuration, saved in xml files contained in a folder called with robot's name in the repository [robots-configuration](https://github.com/robotology/robots-configuration).
+[yarprobotinterface](https://yarp.it/latest/group__yarprobotinterface.html) application starts all devices and modules required by a robot to work properly. Any device needs a configuration data set that could differs from robot to robot, so each robot has own configuration, saved in xml files contained in a folder called with robot's name in the repository [robots-configuration](https://github.com/robotology/robots-configuration).
 
-Each robot has a main configuration file, usually named icub_all.xml, that contains the list of all devices and other modules, like Calibrators and Cartesian, that [Yarprobotinterface](http://www.yarp.it/git-master/yarprobotinterface.html) starts.
+Each robot has a main configuration file, usually named icub_all.xml, that contains the list of all devices and other modules, like Calibrators and Cartesian, that [yarprobotinterface](https://yarp.it/latest/group__yarprobotinterface.html starts.
 
 (Note: here "device" means DeviceDriver of Yarp. The reader is supposed to have knowledge about a driver and a wrapper of yarp. If not, please see [YARP documentation](http://www.yarp.it/).)
 
@@ -33,7 +33,7 @@ RobotNameFolder:
     - Mechanicals: description of mechanical features involved in motion control
 - Wrappers: configuration of yarp wrappers of devices
 - Some .ini files. Among .ini files, there is yarprobotinterface.ini that specifies which is the file containing list of devices to start, usually its name is [icub_all.xml](https://github.com/robotology/robots-configuration/blob/master/iCubTemplates/iCubTemplateV3_0/icub_all.xml).
-- [general.xml](https://github.com/robotology/robots-configuration/blob/master/iCubTemplates/iCubTemplateV3_0/general.xml): contains some flags that change behavior of [Yarprobotinterface](http://www.yarp.it/git-master/yarprobotinterface.html).
+- [general.xml](https://github.com/robotology/robots-configuration/blob/master/iCubTemplates/iCubTemplateV3_0/general.xml): contains some flags that change behavior of [yarprobotinterface](https://yarp.it/latest/group__yarprobotinterface.html).
 
 In the following snippet there is typical main configuration file: it shows the configuration of left arm only. If you desire to have look at the entire file, see icub_all.xml in a robot folder.
 
@@ -188,7 +188,7 @@ The calibrator in the startup phase launches the calibration procedure: after a 
 - If the joint completes the calibration sucessfully, then it tries to move it to the “startupPosition” using “startupVelocity” specified in calibration file. If an error occurred in calibration phase, the joint is in fault error.
 - If the “startupPosition” is reached, then the joint is ready, else is in fault error.
 
-When the user shuts down [Yarprobotinterface](http://www.yarp.it/git-master/yarprobotinterface.html), the calibrator moves all joints to the park position, that is the position specified in “positionHome” parameter using “velocityHome”.
+When the user shuts down [yarprobotinterface](https://yarp.it/latest/group__yarprobotinterface.html), the calibrator moves all joints to the park position, that is the position specified in “positionHome” parameter using “velocityHome”.
 
 ## Note for robots in iCub Tech (IIT Genoa, Italy)
 ---

@@ -19,8 +19,6 @@ This page shows how to calibrate the robot.
 
 `icub@icubsrv:~$ ssh -X icub-head`
 
-
-
 ## Run yarprobotinterface in calibration mode
 First turn on the motors. Go to the robot folder:
 
@@ -169,7 +167,7 @@ Run `yarprobotinterface` and wait for the robot calibration (press Enter multipl
     After running yarprobotinterface you will see some errors messages related to the fault button pressed. 
 
 ## Calibration
-For the calibration of every part of the robot, there is a specific `.xml` file located in the `calibrators` folder (see [here for an example](https://github.com/robotology/robots-configuration/tree/master/iCubHongKong01/calibrators)). 
+For the calibration of every part of the robot, there is a specific `.xml` file located in the `calibrators` folder (see [here for an example](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators)). 
 
 ### Calibration types
 There are different types of joints calibration, specified in the calibrationType parameter:
@@ -232,7 +230,7 @@ There are different types of joints calibration, specified in the calibrationTyp
 ![yarpmoorgui](./img/yarpmotorgui.png)
 
 ### Head calibration (only V2)
-Open the [calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/head-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2,3` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
+Open the [calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/head-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2,3` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
 
 !!!info
     The joints params in the `xml` files are organized as:
@@ -260,7 +258,7 @@ Open the [calibrator file](https://github.com/robotology/robots-configuration/bl
     Take care that the `<param name="calibrationDelta"> ` has all values seto to 0.
 
 ### Torso
-Open the [calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/torso-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
+Open the [calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/torso-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
 
 !!!info
     The joints params in the `xml` files are organized as:
@@ -288,7 +286,7 @@ Open the [calibrator file](https://github.com/robotology/robots-configuration/bl
     Take care that the `<param name="calibrationDelta"> ` param has all values seto to 0.
 
 ## Arms calibration 
-Open the [letf arm calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/left_arm-calib.xml) or  [right arm calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/right_arm-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2,3` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
+Open the [letf arm calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/left_arm-calib.xml) or  [right arm calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/right_arm-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2,3` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
 
 !!!info
     The joints params in the `xml` files are organized as:
@@ -322,7 +320,7 @@ Place the wrist in the `zero position` :
 |---|---|
 |![img-3](./img/img-3.png) | ![img-4](./img/img-4.png)|
 
-Open the [letf arm calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/left_arm-calib.xml) or  [right arm calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/right_arm-calib.xml), and put the values read from `yarpmotorgui` for the `joints 5,6` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
+Open the [letf arm calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/left_arm-calib.xml) or  [right arm calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/right_arm-calib.xml), and put the values read from `yarpmotorgui` for the `joints 5,6` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
 
 !!!info
     The joints params in the `xml` files are organized as:
@@ -369,7 +367,7 @@ Referring to the table below, using a screwdriver read the values `Min` and `Max
     Take care that values read respect the relationship :`Min` < `Max`s
     Otherwise you have to move the magnet until you reach the above situation.
 
-Open the [letf arm calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/left_arm-calib.xml) or  [right arm calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/right_arm-calib.xml), and put the values `Min` and `Max` read from `yarpmotorgui` respectively in the `<param name="calibration4">` and `<param name="calibration5">` inside the `<group name="CALIBRATION">` for each joint in the table above.
+Open the [letf arm calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/left_arm-calib.xml) or  [right arm calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/right_arm-calib.xml), and put the values `Min` and `Max` read from `yarpmotorgui` respectively in the `<param name="calibration4">` and `<param name="calibration5">` inside the `<group name="CALIBRATION">` for each joint in the table above.
 
 !!!info
     The joints params in the `xml` files are organized as:
@@ -397,7 +395,7 @@ Open the [letf arm calibrator file](https://github.com/robotology/robots-configu
     Take care that the `<param name="calibrationDelta"> ` param has all values seto to 0.
 
 ## Legs calibration 
-Open the [letf leg calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/left_leg-calib.xml) or  [right leg calibrator file](https://github.com/robotology/robots-configuration/blob/master/iCubHongKong01/calibrators/right_leg-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2,3,4,5` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
+Open the [letf leg calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/left_leg-calib.xml) or  [right leg calibrator file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators/right_leg-calib.xml), and put the values read from `yarpmotorgui` for the `joints 0,1,2,3,4,5` in the `<param name="calibration1">` inside the `<group name="CALIBRATION">`.
 
 !!!info
     The joints params in the `xml` files are organized as:

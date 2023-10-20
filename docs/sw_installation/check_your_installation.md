@@ -18,7 +18,7 @@ Depending on the system the console will look something like this:
 
 ![](img/yarpserver.jpg)
 
-If you type on a web browser http://127.0.0.1:10000 you get
+If you type on a web browser `http://127.0.0.1:10000` you get
 information about the name server (registered ports, info, etc.).
 
 We can just check functionality by running a simple example. On another
@@ -112,7 +112,7 @@ yarp connect /icubSim/cam/right/rgbImage:o /view/right
 ## Play a recorded sequence
 You can also use the dataSetPlayer to replay a recorded sequence. This
 will reproduce all the sensory information available on the real robot
-during a simple experiment. Follow the instructions here http://www.yarp.it/group__yarpdataplayerExample.html.
+during a simple experiment. Follow the instructions at https://yarp.it/latest/group__yarpdataplayer__example.html.
 
 ![](img/datasetplayer-example.jpg)
 

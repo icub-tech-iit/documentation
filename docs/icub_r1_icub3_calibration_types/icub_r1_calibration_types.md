@@ -17,7 +17,7 @@ For this reason, if the calibration needs a particular value of `calibrationZero
 ## General procedure for retrieving calibration parameters
 1. First off, you need to make sure that the boards have been reset after last calibration. If not, please swich off and swich on the boards.
 
-2. In the [general.xml](https://github.com/robotology/robots-configuration/blob/master/CER01/general.xml) file set both `useRawEncoderValue` and `skipCalibration` parameters to `true`
+2. In the [general.xml](https://github.com/robotology/robots-configuration/blob/master/R1SN003/general.xml) file set both `useRawEncoderValue` and `skipCalibration` parameters to `true`
 
 3. Press the fault button, so that you are sure that the procedure runs safely.
 
@@ -32,7 +32,7 @@ For this reason, if the calibration needs a particular value of `calibrationZero
 
 ## The available calibrations in details
 ---
-Here are described the usage of the various calibration types; the `param` are in the [calibrators files](https://github.com/robotology/robots-configuration/tree/master/iCubHongKong01/calibrators) where you'll find a file for each part of the robot and looks like :
+Here are described the usage of the various calibration types; the `param` are in the [calibrators files](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubHongKong01/calibrators) where you'll find a file for each part of the robot and looks like :
 
 ```xml
  <group name="CALIBRATION">
@@ -68,7 +68,7 @@ This calibration is used on joints with incremental encoder that needs to reach 
 |`calibrationDelta`| defined by user expressed in degree|
 
 !!!note
-    **The hardstop could be out of range of user limits, but it needs to be inside hardware limits; so the hardstop could be a hardware limit and the joint is calibrated after reaching it, but the controller verifies that the first received setpoint is inside user limits, else limits it to the nearest user limit.**
+    The hardstop could be out of range of user limits, but it needs to be inside hardware limits; so the hardstop could be a hardware limit and the joint is calibrated after reaching it, but the controller verifies that the first received setpoint is inside user limits, else limits it to the nearest user limit.
 
 ### Calibration 6
 This calibration can be used for joint with `MAIS` and `FAP` board encoders. On iCub robots, distal and proximal joints use `MAIS`, while `FAP` are employed on ergoCub fingers.
@@ -136,7 +136,7 @@ If for some reason it insn't enough, the calibration fails.
 
 
 ### Calibration 10
-This calibration is used for joints with relative encoders, which are calibrated by moving against the hard-stop limit. It is used for example in R1 lower arm pronosupination and in iCub 3 lower body when AMO sensors are used as relative encoders.
+This calibration is used for joints with relative encoders, which are calibrated by moving against the hard-stop limit. It is used for example in R1 lower arm pronosupination and in iCub 3 when AMO sensors are used as relative encoders.
 
 Regarding iCub 3 and the AMO boards, the AMO magnetic target is subdivided into 64 or 32 sectors. The AMO sensor provides a 14-bit resolution per sector, for a total of 14+6=20 or 14+5=19 bits per revolution resolution, respectively. The `Gearbox_E2J` parameter must be configured with the number of sectors in the corresponding `mechanicals/part-mec.xml` file.
 
@@ -150,6 +150,9 @@ Regarding iCub 3 and the AMO boards, the AMO magnetic target is subdivided into 
 |`calibration5`| not used|
 |`calibrationZero`| position (in degrees) at the hard-stop limit|
 |`calibrationDelta`| defined by user expressed in degree|
+
+!!!note
+    On AMO-based robots (e.g., iCub 3, ergoCub), the AMO sensors can be completely disabled to favor the use of the quadrature encoders only by changing the value of the `amo` parameter to `none` within the `hardware/motorControl/*service.html` files.
 
 ### Calibration 12
 This calibration is used for joint with absolute encoder, it is the newest version of calibration 3 and it simplifies the calibration procedure for the user; in fact the user needs only to write in calibration1 parameter the raw value read when jont is in 0.0 position and the firmware calculates the correct offset.
@@ -191,7 +194,7 @@ After that, by observing how the values printed out by the port change, you woul
 |`calibrationDelta`| defined by user expressed in degree |
 
 !!!note
-    **The `calibration14` rotation parameter cannot assume any value. Allowed values are: `0`, `32768`, `16384`, `-16384`, expressed in `iCubDegrees` as specified in the table above. Specifically, these values correspond to the following numbers in degrees: `0`, `180`, `90`, `-90`. Notice how these values are only accepted without decimals; therefore, only integer parts are checked. In fact, multiplying the degrees by the conversion factor, defined in the [Legend](#legend) section, generates outputs with decimals. Thus, it has been decided to round them up.**
+    The `calibration14` rotation parameter cannot assume any value. Allowed values are: `0`, `32768`, `16384`, `-16384`, expressed in `iCubDegrees` as specified in the table above. Specifically, these values correspond to the following numbers in degrees: `0`, `180`, `90`, `-90`. Notice how these values are only accepted without decimals; therefore, only integer parts are checked. In fact, multiplying the degrees by the conversion factor, defined in the [Legend](#legend) section, generates outputs with decimals. Thus, it has been decided to round them up.
 
 !!!info
       Considering that this calibration works in close relation with absolute encoders, it is necessary to keep in mind the following note.
@@ -205,7 +208,7 @@ After that, by observing how the values printed out by the port change, you woul
 - `iCubDegree`: the firmware uses iCubDegree instead of degree in order to use more resolution.
       
 !!!info
-    1 Degree = 182.044 iCubDegree, where 182.044 is 65535/360; The value 182.044 is contained in the parameter “Encoder” of mechanicals configuration files of each robot.
+    1 Degree = 182.044 iCubDegree, where 182.044 is 65535/360; The value 182.044 is contained in the parameter “Encoder” of mechanical configuration files of each robot.
 
 - `Encoder conversion` factor: is the factor used by firmware to convert the value read from encoder to iCubDegree.
 

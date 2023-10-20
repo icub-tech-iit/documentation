@@ -11,7 +11,7 @@ This page lists all the sensors mounted on ergoCub, and how to access their info
 |**IMU** | `head/imu` | RFE, BNO055 | `/ergocub/head/imu/measures:o` | Defined in  [multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift?rgh-link-date=2023-05-10T12%3A50%3A28Z) | 100 |
 |**Depth Camera** | `depthCamera` | Intel Realsense D450 | `/ergocub/depthCamera/rgbImage:o` | ( (R channel)  (G channel)  (B channel) ) | 30 |
 | - | - | - | `/ergocub/depthCamera/depthImage:o` | (depth_pixels_list) | 30 |
-|**Lidar** | `laser` | Slamtec RP Lidar S2 | `/ergocub/laser:o` | Defined in [LaserScan2D.thrift](https://github.com/robotology/yarp/blob/2d3aacc1493b9f1813afecbc1a272f21f358915d/src/libYARP_dev/src/idl/LaserScan2D.thrift#L15-L34) | 100 |
+|**Lidar** | `laser` | Slamtec RP Lidar S2 | `/ergocub/laser:o` | Defined in [LaserScan2D.thrift](https://github.com/robotology/yarp/blob/master/src/libYARP_dev/src/idl/LaserScan2D.thrift#L15-L34) | 100 |
 
 ## Torso
 

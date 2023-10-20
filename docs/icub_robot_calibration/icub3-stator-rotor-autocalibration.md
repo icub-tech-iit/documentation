@@ -4,7 +4,7 @@ This page shows how to run the autocalibration procedure of the rotor/stator ali
 ## Prepare the `XML` files
 In order to get the values to put in the `XML` files, we need to modify the file enabling the autocalibration.
 
-The files are located in [`robots-configuration/iCubGenova09/hardware/mechanicals`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals).
+The files are located in [`robots-configuration/robots-icebox/iCubGenova09/hardware/mechanicals`](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubGenova09/hardware/mechanicals).
 
 Accordingly to the joint you have to calibrate, select the corresponding file and set `AutoCalibration` param to 1 and `RotorIndexOffset` to 0:
 
@@ -27,7 +27,7 @@ In order to get the value to be written in the `XML` file above, `yarprobotinter
 
 !!!info
     In order to get less messages from the `yarprobotinterface` log, better off enabling the calibration only for the joint that needs to be calibrated.
-    To do that in the corresponding [calibration file](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/calibrators), edit the `CALIB_ORDER` param to contain only the number of the joint you need:
+    To do that in the corresponding [calibration file](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubGenova09/calibrators), edit the `CALIB_ORDER` param to contain only the number of the joint you need:
     ```xml
                 <param name="CALIB_ORDER"> (0) (1) (2) (3) (4) (5) </param>
     ```
@@ -56,9 +56,9 @@ Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degree
 
 
 ## Put the values in the `XML` files
-Once the value of the autocalibration is retrieved, just put it in the corresponding [`XML`](https://github.com/robotology/robots-configuration/tree/master/iCubGenova09/hardware/mechanicals) file.
+Once the value of the autocalibration is retrieved, just put it in the corresponding [`XML`](https://github.com/robotology/robots-configuration/tree/master/robots-icebox/iCubGenova09/hardware/mechanicals) file.
 
-For the value retrieved above we need to modify the `joint 0` column of [file](https://github.com/davidetome/robots-configuration/blob/master/iCubGenova09/hardware/mechanicals/right_leg-eb10-j0_1-mec.xml) and set `AutoCalibration` back to `0`:
+For the value retrieved above we need to modify the `joint 0` column of [file](https://github.com/robotology/robots-configuration/blob/master/robots-icebox/iCubGenova09/hardware/mechanicals/right_leg-eb11-j0_2-mec.xml) and set `AutoCalibration` back to `0`:
 
 The column order in the file follows the joint order in the file-name; in the case of `right_leg-eb10-j0_1-mec.xml`, the first column is for `joint 0` and the second one is for `joint 1`.
 
