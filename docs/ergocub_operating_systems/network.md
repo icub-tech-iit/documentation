@@ -30,7 +30,7 @@ This configuration depends deeply on the motor control board firmware and thus i
 - **IP address** : 10.0.1.104 - _STATIC_
 - **Netmask** : 255.255.255.0
 
-since this is a segregated network, there is no default gateway.
+Since this is a segregated network, there is no default gateway.
 
 ### External network configurations
 
