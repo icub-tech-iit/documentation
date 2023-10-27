@@ -1,6 +1,6 @@
 # The NVIDIA JetPack - Introduction
 
-This guide is intended for a developer that wants to flash and setup the [Nvidia Jetson Xavier boards](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/) (i.e. AXG, NX).
+This guide is intended for developers who want to flash and set up the [Nvidia Jetson Xavier boards](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/) (i.e., AXG, NX).
 
 These units use a ConnectTech carrier board ([Quark](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the Xavier NX, [Rogue](https://connecttech.com/product/rogue-carrier-nvidia-jetson-agx-xavier/) for the AGX), so the preliminary instructions will be focused on that specific hardware.
 
