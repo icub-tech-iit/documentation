@@ -25,7 +25,7 @@ Below you can find the default network parameters of the ergoCub networks.
 
 ### Internal network configurations
 
-This configuration depends deeply from the motor control board firmware and thus it can't be changed.
+This configuration depends deeply on the motor control board firmware and thus it can't be changed.
 
 - **IP address** : 10.0.1.104 - _STATIC_
 - **Netmask** : 255.255.255.0
