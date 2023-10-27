@@ -7,5 +7,5 @@ The system architecture of ergoCub1.0 is depicted in the following image:
 
 ### Logic and Harness ergoCub 1.0 E1.0 Full Robot 
 
-- [ergoCub1.0 Logic_1.0.0](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/ergocub1/ergocub1.0/pdf/ergoCub1.0_E1.0_16963_1.0.0_Logic.pdf)
-- [ergoCub1.0 Harness_1.0.0](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/ergocub1/ergocub1.0/pdf/ergoCub1.0_E1.0_16965_1.0.0_Harness.pdf)
+- [ergoCub1.0 Logic_1.0.0](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/ergocub1/ergocub1.0/pdf/ergoCub1.0_Logic_16963_1.0.0.pdf)
+- [ergoCub1.0 Harness_1.0.0](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/ergocub1/ergocub1.0/pdf/ergoCub1.0_Harness_16965_1.0.0.pdf)
