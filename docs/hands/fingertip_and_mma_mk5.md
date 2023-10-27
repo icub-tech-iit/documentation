@@ -46,21 +46,24 @@ The complete configuration set is as follow:
 |ring    | 0    | 1   | no  | 1            | 17546 |
 |pink    | 1    | 0   | no  | 0            | 17545 |
 
-#### ergoCub SN001
+#### ergoCub equipped with MMA rev. B (from ergoCub SN001)
+
+These robots are equipped with the MMA rev. B **IITCODE 16872.B**
 
 | finger |  AD0 | AD1 | IMU | I2C dataline |  IIT code |   
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|thumb   | 0    | 0   |  IIM-42652 | 0     | 17544.A |   
-|index   | 0    | 0   |  IIM-42652 | 1     | 17544.A |  
-|middle  | 1    | 0   |  LSM6DSLTR | 1     | 17545.A | 
-|ring    | 0    | 1   |  no        | 1     | 17546 |   
-|pink    | 1    | 0   |  LSM6DSLTR | 0     | 17545.A | 
+|thumb   | 0    | 0   |  IIM-42652 | 0     | 15467.B |  
+|index   | 0    | 0   |  IIM-42652 | 1     | 15467.B  |
+|middle  | 0    | 0   |  IIM-42652 | 2     | 15467.B  |
+|ring    | 0    | 0   |  IIM-42652 | 3     | 15467.B  |
+|pink    | 0    | 0   |  IIM-42652 | 4     | 15467.B  |
 
-#### ergoCub equipped with MMA rev. B
+No customization of the boards is needed. They are purchased with the correct jumper configuration.
+
 
 I2C dataline is decided at the MMA level through the connector assignment. 
-The MTB to be mounted should be equipped with a dedicated firmware to enable the use of **PIN 7** 
-in the connector as an additional I2C line.
+The MTB to be mounted should be equipped with a **dedicated firmware** to enable the use of **PIN 7** 
+in the connector as an additional I2C line (SDA_4).
 
 ### Mounting the 3DMID 
 
@@ -103,7 +106,7 @@ Plus:
     <sub>Fig.4 - fixing the 3DMID to the soldering support.</sub>
 </p>
 
-- Fix the 3DMID to the soldering support with 1.6x6mm screw.
+- Fix the 3DMID to the soldering support with **1.6x6mm** screw.
 - Plug the soldering support on the base.
 
 <p align="center">
