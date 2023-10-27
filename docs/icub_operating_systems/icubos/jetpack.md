@@ -1,7 +1,8 @@
 # The NVIDIA JetPack - Introduction
 
-This guide is intended for a developer that wants to flash and setup the Nvidia Jetson Xavier board for the iCub head.
-The unit uses a [ConnectTech carrier board](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/), so the preliminary instructions will be focused on that specific hardware.
+This guide is intended for developers who want to flash and set up the [Nvidia Jetson Xavier boards](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/) (i.e., AXG, NX).
+
+These units use a ConnectTech carrier board ([Quark](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the Xavier NX, [Rogue](https://connecttech.com/product/rogue-carrier-nvidia-jetson-agx-xavier/) for the AGX), so the preliminary instructions will be focused on that specific hardware.
 
 # Requirements
 
@@ -9,7 +10,7 @@ The unit uses a [ConnectTech carrier board](https://connecttech.com/product/quar
 - x86 PC/laptop for downloading Jetpack and flashing the OS
 - USB-C to USB-A (or USB-C to USB-C) cable to connect the PC to the ConnecTech carrier
 - Power supply cable
-- Bench/System/ATE programmable DC power supply, capable of supplying 20V / 2A
+- Bench/System/ATE programmable DC power supply, capable of supplying 20V/2A
 - (optional) Ethernet cable to connect the Xavier to access it with SSH
 
 To use the Xavier directly without SSHing into it:
@@ -23,8 +24,7 @@ On the developer's host PC:
 - Nvidia JetPack installed through SDK Manager (instructions below)
 - Xavier [Connecttech BSP](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the `board_type` board (e.g. AGX, NX) and JetPack `jetpack_ver`(e.g 4.4.2, 5.0.2). (Not required if you already have the image ready to flash)
 
-
-# Intructions
+# Instructions
 
 ## Carrier hardware configuration
 Make sure that the switches on the carrier are set like in the picture below, so that the unit can boot manually when pressing the power (PWR) button. DO NOT power on the unit until instructed.
@@ -33,10 +33,10 @@ Make sure that the switches on the carrier are set like in the picture below, so
 
 
 ## Hardware connection
-1. Connect the carrier to the power supply through the provided cable, and set the power supply to 16V / 2A
+1. Connect the carrier to the power supply through the provided cable, and set the power supply to 16V/2A.
 2. Keep the power supply OFF.
 3. Connect the HDMI cable, and the mouse/keyboard to the carrier.
-4. Use the USB-C cable to connect the PC to the OTG USB port on the carrier
+4. Use the USB-C cable to connect the PC to the OTG USB port on the carrier.
 
 ![](../img/usbotg.jpg)
 
@@ -48,16 +48,15 @@ If you need to install an new JetPack image from scratch please follow the follo
 
 ### Jetpack setup on the host
 1. Download the Nvidia SDK manager from the [official website](https://developer.nvidia.com/embedded/jetpack) by clicking *Download Nvidia SDK Manager*
-
 2. Run SDKManager and login with developer.nvidia.com credentials, and follow these steps:
    1. Set the following options:
       - Target Hardware: Jetson Xavier `board_type`
       - Target operating system: *Linux Jetpack `jetpack_ver`*.
    2. Check that everything is selected and continue
-   3. The SDKManager will ask the user password to download all the components and it will install them into a local folder on the host (~12Gb of free space required); Remember, this is the password of the local Ubuntu host, not the Jetson Xavier.
-   4.  After the installation, the SDK Manager will be ready to flash the OS image on the Xavier; **Do not preceed further!** Press SKIP to abort the operation and quit from the SDK Manager
-3. Download the ConnectTech board support package from the [official website](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/): under Downloads click on the bsp you need, it will be downloaded as `.tgz` archive.
-4. At this point the `sdkManager` should have created a folder tree in `~/nvidia` containing all the files needed for the flash. Copy the `.tgz` package downloaded from Connectech website into `~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra/`
+   3. The SDKManager will ask the user password to download all the components and it will install them into a local folder on the host (~12Gb of free space required); remember: this is the password of the local Ubuntu host, not the Jetson Xavier.
+   4. After the installation, the SDK Manager will be ready to flash the OS image on the Xavier; **Do not preceed further!** Press SKIP to abort the operation and quit from the SDK Manager
+3. Download the ConnectTech board support package from the [official website](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/): under Downloads click on the BSP you need, it will be downloaded as `.tgz` archive.
+4. At this point the `sdkManager` should have created a folder tree in `~/nvidia` containing all the files needed for the flash. Copy the `.tgz` package downloaded from ConnectTech website into `~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra/`
 5. Extract the BSP: `tar -xzf CTI-<*>.tgz`
 
 Before flashing the image, we need first to put the board in recovery mode.
@@ -65,14 +64,17 @@ Before flashing the image, we need first to put the board in recovery mode.
 
 ### Booting the Xavier in Recovery mode
 
-With the Nvidia Jetson Xavier AGX:
+With the **Nvidia Jetson Xavier AGX**:
+
 1. Press the Force Recovery (FR) button on the carrier and keep it pressed
 2. Turn on the power supply (16V)
 3. Wait for several seconds, keeping the FR button pressed
 4. Press the power (PWR) button for at least one second. Wait for several seconds
-5. Release the FR button. Now the board is programming mode
+5. Release the FR button.
 
-With a Nvidia Jetson Xavier NX, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
+Now the board is programming mode.
+
+With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
@@ -92,7 +94,7 @@ At this point we are ready to flash, in the host:
 1. Change into the CTI-L4T directory: `cd ./CTI-L4T`
 2. Run the install script (as root or sudo) to automatically install the BSP files to the correct locations: `sudo ./install.sh`
 
-[Here](https://connecttech.com/resource-center/kdb373/) you can find the tutorial about the procedure by Connecttech.
+[Here](https://connecttech.com/resource-center/kdb373/) you can find the tutorial about the procedure by ConnectTech.
 
 
 ### Verify the installation
@@ -103,11 +105,12 @@ After configuring the system, the Xavier should boot normally and be ready to us
 
 #### Complete the OEM installation
 After booting into the OS, follow the OEM installation with the following options:
+
 1. Accept the license agreement
 2. Select English language
 3. Select the English (US) keyboard layout
 4. Select the preferred time zone
-5. User the user name `icub` with the hostname `icub-head-cam`
+5. Set the user name to `icub` with the hostname `icub-head-cam` or `ergocub` with hostname `ergocub-head`, depending on the robot the board will be mounted on
 6. Allow login without password
 7. Let the installation process finish
 
@@ -128,7 +131,7 @@ For example **Jetpack 4.5.1**, which uses **Cuda 10.2** do:
 sudo apt install cuda-libraries-dev-10-1 cuda-nvcc-10-2
 ```
 
-Then, append to the `.bashrc` file located in `/home/icub/`:
+Then, within the `.bashrc`:
 
 ```bash
 export CUDA_HOME=/usr/local/cuda-10.2

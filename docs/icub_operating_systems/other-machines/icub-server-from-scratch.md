@@ -1,5 +1,5 @@
 # The iCub Dedicated Server - Installation from scratch
-Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and the we manually costimize it.
+Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and then we manually customize it.
 
 ## Latest versions
 Latest version is based on Ubuntu Server 20.04.2

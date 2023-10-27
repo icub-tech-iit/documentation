@@ -1,6 +1,6 @@
 # The OS on icub-head - Installation from scratch
 
-Since iCubOS is based on the Ubuntu server, we will install it from the default installer and then manually customize it.
+Since iCubOS is based on the Ubuntu server, we will install the latter from the default installer and then manually customize it.
 
 ## Latest versions
 
@@ -40,7 +40,7 @@ Install the system by choosing the default options, except for the following ste
 #### Identity
 
 - **Your name** : `icub`
-- **Your Server's name** : `icub-head'
+- **Your Server's name** : `icub-head`
 - **Pick a username** : `icub`
 - **Choose a password** : `icub`
 
