@@ -24,7 +24,7 @@ On the developer's host PC:
 - Nvidia JetPack installed through SDK Manager (instructions below)
 - Xavier [Connecttech BSP](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the `board_type` board (e.g. AGX, NX) and JetPack `jetpack_ver`(e.g 4.4.2, 5.0.2). (Not required if you already have the image ready to flash)
 
-# Intructions
+# Instructions
 
 ## Carrier hardware configuration
 Make sure that the switches on the carrier are set like in the picture below, so that the unit can boot manually when pressing the power (PWR) button. DO NOT power on the unit until instructed.
@@ -64,7 +64,8 @@ Before flashing the image, we need first to put the board in recovery mode.
 
 ### Booting the Xavier in Recovery mode
 
-With the *Nvidia Jetson Xavier AGX*:
+With the **Nvidia Jetson Xavier AGX**:
+
 1. Press the Force Recovery (FR) button on the carrier and keep it pressed
 2. Turn on the power supply (16V)
 3. Wait for several seconds, keeping the FR button pressed
@@ -73,7 +74,7 @@ With the *Nvidia Jetson Xavier AGX*:
 
 Now the board is programming mode.
 
-With a *Nvidia Jetson Xavier NX*, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
+With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
@@ -109,7 +110,7 @@ After booting into the OS, follow the OEM installation with the following option
 2. Select English language
 3. Select the English (US) keyboard layout
 4. Select the preferred time zone
-5. Set the user name to `icub` with the hostname `icub-head-cam` for the Xavier NX, while `ergocub` with hostname `ergocub-head` for the AGX board
+5. Set the user name to `icub` with the hostname `icub-head-cam` or `ergocub` with hostname `ergocub-head`, depending on the robot the board will be mounted on
 6. Allow login without password
 7. Let the installation process finish
 
