@@ -1,74 +1,75 @@
 # The OS on icub-head - Installation from scratch
 
-Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and then we manually customize it
+Since iCubOS is based on the Ubuntu server, we will install the latter from the default installer and then manually customize it.
 
-# Latest versions
+## Latest versions
 
-Latest version is based on Ubuntu Server 20.04.1
+The latest version is based on Ubuntu Server 20.04.1
 
-# Create the USB installer
+## Create the USB installer
 
 The first step is to download the **official Ubuntu 20.04 LTS Server install media** from the [release page](https://releases.ubuntu.com/focal). Search for `ubuntu-20.04.x-live-server-amd64.iso`.
 
-Then please create the USB installer using an USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
+Then, please create the USB installer using a USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
-On Ubuntu website, you can find further informations about creating a bootable USB stick on [Windows](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows?_ga=2.181742695.1184983981.1588944309-600352565.1586438290), [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu?_ga=2.181742695.1184983981.1588944309-600352565.1586438290) or [macOS](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos?_ga=2.236980288.1184983981.1588944309-600352565.1586438290)
+On the Ubuntu website, you can find further information about creating a bootable USB stick on [Windows](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows?_ga=2.181742695.1184983981.1588944309-600352565.1586438290), [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu?_ga=2.181742695.1184983981.1588944309-600352565.1586438290) or [macOS](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos?_ga=2.236980288.1184983981.1588944309-600352565.1586438290)
 
-# Install Ubuntu
+## Install Ubuntu
 
-Follow the below steps to install Ubuntu server on icub-head.
+Follow the below steps to install the Ubuntu server on icub-head.
 
-Please note that the installation procedure can be slight different in each release, you can see the [Ubuntu server official install guide](https://ubuntu.com/tutorials/tutorial-install-ubuntu-server)
+Please, note that the installation procedure can be slightly different in each release, you can see the [Ubuntu server official install guide](https://ubuntu.com/tutorials/tutorial-install-ubuntu-server)
 
-**WARNING** : the installation procedure will overwrite the disk of your icub-head, so all data will be deleted.
+!!! warning
 
-## Ubuntu Installer configuration
+    The installation procedure will overwrite the disk of your icub-head, so all data will be deleted.
 
-Install the system by choosing the default options, except the follow steps:
+### Ubuntu Installer configuration
 
-### Keyboard and language
+Install the system by choosing the default options, except for the following steps:
+
+#### Keyboard and language
 
 - **Layout** : `US`
 - **Variant** : `US`
 
-### Storage configuration
+#### Storage configuration
 
 - _**Disable** the following option_ : `Setup this disk as an LVM group`
 
-### Identity
+#### Identity
 
 - **Your name** : `icub`
 - **Your Server's name** : `icub-head`
 - **Pick a username** : `icub`
 - **Choose a password** : `icub`
 
-### SSH
+#### SSH
 
 - _**Enable** the following option_ : `Install SSH server`
 
-
-# Required Packages
+## Required Packages
 
 Install the following packages
 ```
 nfs-common python-tk libopencv-dev ntpdate vim ssh cmake-curses-gui iperf libportaudio2 portaudio19-dev linux-sound-base alsa-base alsa-utils gdb meld bmon libi2c-dev expect libgfortran10-dev qml-module-qt-labs-folderlistmodel qml-module-qt-labs-settings
 ```
 
-## Low Latency kernel
+### Low Latency kernel
 
 Install the following packages
 ```
 linux-image-lowlatency linux-headers-lowlatency
 ```
 
-## Disable X server at startup
+### Disable X server at startup
 
 The x server is started automatically at startup by GDM, so please disable GDM
 ```
 sudo systemctl disable gdm
 ```
 
-## iCub repository and package
+### iCub repository and package
 
 1. Add the file
   ```
@@ -91,9 +92,9 @@ sudo systemctl disable gdm
   icub-common
   ```
 
-# Configuration steps
+## Configuration steps
 
-## SSH configuration
+### SSH configuration
 
 1. Configure passwordless ssh: see this [link](https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login)
 2. Disable reverse DNS lookup in SSH server: add the following line to the file `/etc/ssh/sshd_config`
@@ -101,26 +102,26 @@ sudo systemctl disable gdm
   UseDNS no
   ```
 
-## Network performances tweaks
+### Network performances tweaks
 
-1. Install the following packages :
+1. Install the following packages
   ```
   sudo apt install linux-image-lowlatency linux-headers-lowlatency
   ```
 
-2. Modify the real time priority of process, add the file  `/etc/security/limits.d/icub.conf ` as follows
+2. Modify the real-time priority of the process, add the file  `/etc/security/limits.d/icub.conf ` as follows
   ```
   icub    soft    rtprio    99
   icub    hard    rtprio    99
   ```
 
-3. Set the max OS receive buffer size for all types of connections, by adding the file `/etc/sysctl.d/20-net-rbuffer.conf` as follows
+3. Set the max OS receive-buffer size for all types of connections, by adding the file `/etc/sysctl.d/20-net-rbuffer.conf` as follows
   ```
-  # This sets the max OS receive buffer size for all types of connections
+  # This sets the max OS receive-buffer size for all types of connections
   net.core.rmem_max=8388608
   ```
 
-## NTP
+### NTP
 
 Edit the file `/etc/default/ntpdate` by changing the following lines
 ```
@@ -129,9 +130,9 @@ NTPDATE_USE_NTP_CONF="no"
 NTPSERVERS="10.0.0.1 ntp.ubuntu.com"
 ```
 
-## IMU Bosch
+### IMU Bosch
 
-### Installation
+#### Installation
 
 To use the IMU Bosch BNO055 through the i2c bus these additional steps are required:
 
@@ -146,7 +147,7 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
  make
  sudo make install
  ```
- {ver} is the linux version (see uname -r). Ignore ssl errors during installation.
+ {ver} is the Linux version (see uname -r). Ignore ssl errors during installation.
 
 4. Load the required kernel module(the best should be add them at the startup):
  ```
@@ -159,67 +160,64 @@ To use the IMU Bosch BNO055 through the i2c bus these additional steps are requi
  usermod -a -G i2c icub
  ```
 
-### Test the configuration of i2c and BNO055
+#### Test the configuration of i2c and BNO055
 
 To test the installation with the [python script BNO055](https://github.com/icub-tech-iit/icub-os-files/blob/master/drivers/imu-bosch/BNO055.zip):
 ```
 python BNO055.py
 ```
 
-Note that to make it work you might change script at line 195:
+Note that to make it work you might change the script at line 195:
 ```
 # Open I2C bus
 self._bus = smbus.SMBus(1)
 ```
 
-specifing the right number instead of 1 the correct number that can be found throught:
+specifying the right number: instead of 1, specify the correct number that can be found through:
 
 ```
 i2cdetect -l
 ```
-Another possible troubleshooting could be change in the script BNO055.py (line 187) the default address from 0x28 to 0x29
+Another possible troubleshooting could be to change in the script BNO055.py (line 187) the default address from 0x28 to 0x29
 
-## fixed USB resources names
+### Fixed USB resource names
 
 In order to get a fixed device name for some USB resources such as IMU and USB2SERIAL, you have to create the following UDEV rules
 
-- IMU BOSCH : adde the file `/etc/udev/rules.d/88-bosch-i2c-imu.rules` as follows
+- IMU BOSCH: add the file `/etc/udev/rules.d/88-bosch-i2c-imu.rules` as follows
   ```
   # iCub Bosch i2c IMU
   SUBSYSTEM=="i2c-dev", ATTRS{name}=="i2c-kempld", SYMLINK+="bosch-i2c-imu", MODE="0660", GROUP="i2c"
   ```
 
-- USB to Serial interface : add the file `/etc/udev/rules.d/99-usb-serial.rules` as follows
+- USB to Serial interface: add the file `/etc/udev/rules.d/99-usb-serial.rules` as follows
   ```
   # tty Xsens
   SUBSYSTEM=="tty", ATTRS{idVendor}=="2639", SYMLINK+="ttyXsens", MODE="0660", GROUP="tty"
-    ```
+  ```
 
-Further installation steps and configuration
+## Further installation steps and configuration
 
-# Tweaks
+### Mount via SSH
 
-## Mount via SSH
-
-On the icub-head, graphics-based tools have not been installed (except the ones required for firmware interfaces) and it is better not to install them. Anyway, to use graphic tools (like editors, files managers, etc..) is very useful and sometimes essential. Instead of running remotely a tool and displaying it locally (like we did in old PC104), we can mount locally via SSH the icub-head filesystem and run locally all the tools we need.
+On the icub-head, graphics-based tools have not been installed (except the ones required for firmware interfaces) and it is better not to install them. Anyway, using graphic tools (like editors, file managers, etc..) is very useful and sometimes essential. Instead of running remotely a tool and displaying it locally (like we did in old PC104), we can mount locally the icub-head filesystem via SSH and run locally all the tools we need.
 In order to mount locally the icub-head filesystem on your client:
 
 1. install the sshfs package
   ```
   sudo apt-get install sshfs
   ```
-
 2. create a mount point for the remote filesystem (eg.) `mkdir /home/icub/icub-head_fs`
 3. mount the remote `/usr/local/src/robot` via SSH
   ```
   sudo sshfs -o allow_other icub@10.0.0.2:/usr/local/src/robot/ /home/icub/icub-head_fs
   ```
 
-If you already setup the passwordless SSH login, you can skip the password:
+If you already set the passwordless SSH login, you can skip the password:
 ```
 sudo sshfs -o allow_other,IdentityFile=/home/icub/.ssh/id_rsa icub@10.0.0.2:/usr/local/src/robot/ /home/icub/icub-head_fs
 ```
 
-# Customize the system
+## Customize the system
 
-What now you need to do is to customize the installation with your hardware and enviroment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md), [_User Environment_](user-env.md) chapters as well as [_Further Tasks_ chapter](further-tasks.md) )
+What now you need to do is to customize the installation with your hardware and environment (see the "_Required configuration_" paragraph in [_Networking_](networking.md), [_Bluetooth_](bluetooth.md), [_User Environment_](user-env.md) chapters as well as [_Further Tasks_ chapter](further-tasks.md) )

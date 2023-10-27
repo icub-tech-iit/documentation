@@ -1,6 +1,9 @@
 FROM ubuntu:latest
 LABEL org.opencontainers.image.authors="Ugo Pattacini <ugo.pattacini@iit.it>"
 
+# Increment this variable to force Docker to build the image for the sections below w/o relying on cache
+ENV INVALIDATE_DOCKER_CACHE_ALL=0
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
