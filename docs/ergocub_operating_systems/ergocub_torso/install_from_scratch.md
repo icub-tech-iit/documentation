@@ -1,6 +1,6 @@
 # Install from scratch
 
-`ergocub-torso` is based on Ubuntu server 22.04, we will install it from the default installer and the we manually customize it.
+`ergocub-torso` is based on Ubuntu server 22.04, we will install it from the default installer and then we manually customize it.
 
 To install the OS from scratch, please follow [this guide](../../icub_operating_systems/icubos/installation-from-scratch.md), being carefull to install the [**Ubuntu 22.04 LTS Server**](https://releases.ubuntu.com/focal).
 
