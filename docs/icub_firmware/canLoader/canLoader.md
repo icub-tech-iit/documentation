@@ -27,7 +27,7 @@ The device type is the software module that wraps the can bus device you are usi
 ## Standard firmware update (DSP)
 The firmware upgrade of the whole robot is performed using a script based on a command line version of the [CanLoader](../canLoader/canLoader.md) module. Before you try to use this script please check that this module is compiled on the pc104. You should also make sure that the hardware modules it needs (controlboard, canmotioncontrol, ecan/pcan/cfw2can) are compiled and liked correctly (this is usually the case on the robot pc104).
 
-Please notice that the firmware upgrade is delicate procedure which changes one of the core parts of the iCub robot software (and therefore requires a corresponding update of the yarp and iCub modules). If you decide to perform a firmware upgrade, be aware that this might change the robot motor behaviour quite a lot. Nevertheless, a firmware upgrade is always recommended because it usually corresponds to improvements in the control board performances. Finally, remember to perform the firmware update with your robot in a 'clean' state (i.e. control boards have been just turned on, and iCubinterface has not run yet).
+Please, notice that the firmware upgrade is delicate procedure which changes one of the core parts of the iCub robot software (and therefore requires a corresponding update of the yarp and iCub modules). If you decide to perform a firmware upgrade, be aware that this might change the robot motor behaviour quite a lot. Nevertheless, a firmware upgrade is always recommended because it usually corresponds to improvements in the control board performances. Finally, remember to perform the firmware update with your robot in a 'clean' state (i.e. control boards have been just turned on, and iCubinterface has not run yet).
 
 Here are the steps to perform the firmware update:
 
@@ -56,7 +56,7 @@ The .txt file simply contains a list of board addresses and associated firmware 
 
 where:
 
-- canModule can be either pcan (if you are using the PLX custom board) or ecan (if you are using the commercial usb to can interface produced by [ESD](http://www.esd-electronics.com/)) or cfw2can (if you are using the custom CFW2 board).
+- canModule can be either pcan (if you are using the PLX custom board) or ecan (if you are using the commercial usb to can interface produced by [ESD](https://esd.eu/) or cfw2can (if you are using the custom CFW2 board).
 - canDeviceNum is the CAN line identifier (i.e: 0 for the head, 1 for the left arm, 2 for the right arm, etc..)
 - boardID is the board address (0...14) on the selected CAN line.
 - firmware is the firmware binary file (*.s for motorola-based boards, *.hex for DSPIC-based board)
