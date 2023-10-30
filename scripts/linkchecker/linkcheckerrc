@@ -1,5 +1,6 @@
 [checking]
 threads=20
+timeout=300
 sslverify=0
 
 [output]
