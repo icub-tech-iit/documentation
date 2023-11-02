@@ -89,7 +89,7 @@ The following files, available in the root filesystem contains various informati
 ## iCub startup scripts
 Some scripts must to be executed at startup time, so we need to modify the rc.local file as follows
 
-```
+```bash
 #!/bin/sh
 #
 # rc.local
@@ -129,7 +129,7 @@ exit 0
 
 The above scrits only executes the following script in background
 
-```
+```bash
 #!/bin/sh
 sleep 30
 for TRIALS in 0 1 2 3 4 5 6 7 8 9 ; do
@@ -150,7 +150,7 @@ exit 1
 
 This script is used to mount the remote NFS shares _only when the icub-server that exports them is reachable_
 
-```
+```bash
 #! /bin/bash
 # Mount remote filesystems
 MOUNTS_FILE="/etc/rciCub.d/mounts.list"
@@ -303,50 +303,52 @@ And the file `/etc/hosts` is as follows
 The SKEL `/etc/skel` files are used to generate the desired user environment for the icub user modifying the following files
 
 ### .bashrc
-```
-#Load the iCub custom bashrc
-ICUBRC_FILE="${HOME}/.bashrc_iCub"
-if [ -f "$ICUBRC_FILE" ]; then
-  source $ICUBRC_FILE
-fi
-.bashrc_iCub
-# .bashrc_iCub
-# setup the iCub enviroment
-if [ "$ICUBRC_FILE_LOADED" ]; then
- return
-fi
-export ICUBRC_FILE_LOADED="true"
-if [ "$PS1" ]; then
-  echo "Setting up yarp and iCub env vars"
-fi
-# YARP and iCub enviroment variables
-export ROBOT_CODE=/usr/local/src/robot
-export ICUBcontrib_DIR=$ROBOT_CODE/iCubContrib
-export YARP_ROOT=$ROBOT_CODE/yarp
-export YARP_DIR=$YARP_ROOT/build
-export ICUB_ROOT=${ROBOT_CODE}/icub-main
-export ICUB_DIR=${ICUB_ROOT}/build
-export icub_firmware_shared_DIR=${ROBOT_CODE}/icub-firmware-shared/build
-export YARP_DATA_DIRS=${YARP_DIR}/share/yarp:${ICUB_DIR}/share/iCub:${ICUBcontrib_DIR}/share/ICUBcontrib
-export FIRMWARE_BIN=${ROBOT_CODE}/icub-firmware/build
-# Set the name of your robot here.
-# Please change also the root user password
- export YARP_ROBOT_NAME=
- if [ "$YARP_ROBOT_NAME" = "" ] && [ -f "${ROBOT_CODE}/yarp_robot_name.txt" ]
- then
-   export YARP_ROBOT_NAME=$( head --lines=1 ${ROBOT_CODE}/yarp_robot_name.txt )
- fi
-# Set-up optimizations
-export CMAKE_BUILD_TYPE=Release
-export PATH=$PATH:$ICUB_DIR/bin:$YARP_DIR/bin
-# DebugStream customization
-export YARP_VERBOSE_OUTPUT=0
-export YARP_COLORED_OUTPUT=1
-export YARP_TRACE_ENABLE=0
-export YARP_FORWARD_LOG_ENABLE=0
-# To enable tab completion on yarp port names
-if [ -f $YARP_ROOT/scripts/yarp_completion ]; then
-  source $YARP_ROOT/scripts/yarp_completion
+```bash
+if [[ $- == *i* ]] || [[ -n "$SSH_CLIENT" ]] || [[ -n "$SSH_TTY" ]]; then
+    #Load the iCub custom bashrc
+    ICUBRC_FILE="${HOME}/.bashrc_iCub"
+    if [ -f "$ICUBRC_FILE" ]; then
+      source $ICUBRC_FILE
+    fi
+    .bashrc_iCub
+    # .bashrc_iCub
+    # setup the iCub enviroment
+    if [ "$ICUBRC_FILE_LOADED" ]; then
+     return
+    fi
+    export ICUBRC_FILE_LOADED="true"
+    if [ "$PS1" ]; then
+      echo "Setting up yarp and iCub env vars"
+    fi
+    # YARP and iCub enviroment variables
+    export ROBOT_CODE=/usr/local/src/robot
+    export ICUBcontrib_DIR=$ROBOT_CODE/iCubContrib
+    export YARP_ROOT=$ROBOT_CODE/yarp
+    export YARP_DIR=$YARP_ROOT/build
+    export ICUB_ROOT=${ROBOT_CODE}/icub-main
+    export ICUB_DIR=${ICUB_ROOT}/build
+    export icub_firmware_shared_DIR=${ROBOT_CODE}/icub-firmware-shared/build
+    export YARP_DATA_DIRS=${YARP_DIR}/share/yarp:${ICUB_DIR}/share/iCub:${ICUBcontrib_DIR}/share/ICUBcontrib
+    export FIRMWARE_BIN=${ROBOT_CODE}/icub-firmware/build
+    # Set the name of your robot here.
+    # Please change also the root user password
+     export YARP_ROBOT_NAME=
+     if [ "$YARP_ROBOT_NAME" = "" ] && [ -f "${ROBOT_CODE}/yarp_robot_name.txt" ]
+     then
+       export YARP_ROBOT_NAME=$( head --lines=1 ${ROBOT_CODE}/yarp_robot_name.txt )
+     fi
+    # Set-up optimizations
+    export CMAKE_BUILD_TYPE=Release
+    export PATH=$PATH:$ICUB_DIR/bin:$YARP_DIR/bin
+    # DebugStream customization
+    export YARP_VERBOSE_OUTPUT=0
+    export YARP_COLORED_OUTPUT=1
+    export YARP_TRACE_ENABLE=0
+    export YARP_FORWARD_LOG_ENABLE=0
+    # To enable tab completion on yarp port names
+    if [ -f $YARP_ROOT/scripts/yarp_completion ]; then
+      source $YARP_ROOT/scripts/yarp_completion
+    fi
 fi
 ```
 
