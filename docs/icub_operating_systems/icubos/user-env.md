@@ -44,11 +44,11 @@ the above files must be renamed to `.bashrc_iCub` and saved in the user home dir
 To use the `~/.bashrc_iCub` file to setup the environment, the following lines:
 ```bash
 if [[ $- == *i* ]] || [[ -n "$SSH_CLIENT" ]] || [[ -n "$SSH_TTY" ]]; then
-  #Load the ergoCub custom bashrc
+  #Load the iCub custom bashrc
   if [ "$HOME" != "" ]; then
-      ICUBRC_FILE="${HOME}/.bashrc_ergoCub"
+      ICUBRC_FILE="${HOME}/.bashrc_iCub"
   else
-      ICUBRC_FILE="/home/icub/.bashrc_ergoCub"
+      ICUBRC_FILE="/home/icub/.bashrc_iCub"
   fi
   if [ -f "$ICUBRC_FILE" ]; then
       source $ICUBRC_FILE
