@@ -42,19 +42,21 @@ the above files must be renamed to `.bashrc_iCub` and saved in the user home dir
 ## How to setup the enviroment properly
 
 To use the `~/.bashrc_iCub` file to setup the environment, the following lines:
-```
-#Load the iCub custom bashrc
-if [ "$HOME" != "" ]; then
-  ICUBRC_FILE="${HOME}/.bashrc_iCub"
-else
-  ICUBRC_FILE="/home/icub/.bashrc_iCub"
-fi
-if [ -f "$ICUBRC_FILE" ]; then
-  source $ICUBRC_FILE
+```bash
+if [[ $- == *i* ]] || [[ -n "$SSH_CLIENT" ]] || [[ -n "$SSH_TTY" ]]; then
+  #Load the ergoCub custom bashrc
+  if [ "$HOME" != "" ]; then
+      ICUBRC_FILE="${HOME}/.bashrc_ergoCub"
+  else
+      ICUBRC_FILE="/home/icub/.bashrc_ergoCub"
+  fi
+  if [ -f "$ICUBRC_FILE" ]; then
+      source $ICUBRC_FILE
+  fi
 fi
 ```
 should be added at the beginning of file `~/.bashrc` just _BEFORE_ the following lines:
-```
+```bash
 # If not running interactively, don't do anything
 case $- in
    *i*) ;;
@@ -62,14 +64,14 @@ case $- in
 esac
 ```
 
-The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bashrc` is that file must be loaded every time a bash session is started, no matter if the session is interactive or not (this is required when we want to start our programs remotely), and the line of code after `# If not running interactively, don't do anything` make the `~/.bashrc` file exit if executed in a non-interactive shell.
+The reason why the `.bashrc_iCub` needs to be added at the beginning of `~/.bashrc` is that file must be loaded every time an interactive or ssh bash sessions are started. The lines of code after `# If not running interactively, don't do anything` make the `~/.bashrc` file exit if executed in a non-interactive shell.
 
 ## Required configuration
 
 To customize the above user environment, you ought to manually make some changes:
 
 - The **YARP_ROBOT_NAME** - you must insert your robot name, in the following line and remove the leading "#"
-```
+```bash
 #export YARP_ROBOT_NAME=
 ```
 
