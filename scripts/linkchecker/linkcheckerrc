@@ -2,6 +2,7 @@
 threads=20
 timeout=300
 sslverify=0
+maxrequestspersecond=1
 
 [output]
 warnings=0
