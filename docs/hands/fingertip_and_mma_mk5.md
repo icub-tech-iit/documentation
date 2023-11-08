@@ -266,4 +266,4 @@ The values for the mk2 fingertip are reported here, to be implemented in **.xml 
 [^2]: The No load value can be choosen to be lower than 0xF0 (240) to allow for some room for opposite polarity signals to be recorded. In this case, the set level must be forwarded to high level tools such as SkinGUI etc. for a proper managing of events. A nice choice could be a value of about 0xC0 (192) to have ~60 ADC counts of headroom for opposite sign forces, i.e., shear forces, to be measured with the lateral taxels or elastic effects for non-touched taxels to improve force measurement.
 
 ### Encoders mapping in the configuration files
-TO BE FILLED AFTER FW WORK DONE.
+🚧 WIP 🚧
