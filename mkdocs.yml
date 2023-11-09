@@ -97,9 +97,9 @@ not_in_nav: |
 
 nav:
   - 🟦 iCub Tech Docs:
-    - 🏠 Home Page: index.md
+    - 0️⃣ Home Page: index.md
 
-    - 1️⃣ iCub Starter Kits:
+    - 1️⃣ iCub Starter Kit:
       - First steps with the Humanoid iCub: icub_starter_kits/first_steps.md
 
     - ⚙️ iCub HW:
