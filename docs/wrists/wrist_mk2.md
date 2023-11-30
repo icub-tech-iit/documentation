@@ -25,7 +25,7 @@
 
 
 <p align="center">
-  <img  src=    "./img/pitches.png"
+  <img  src=    "../img/pitches.png"
         title=  "pitches.png"
         width=  "750">
 </p>
@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img  src=    "./img/wrist-yaw-roll.png"
+  <img  src=    "../img/wrist-yaw-roll.png"
         title=  "wrist-yaw-roll.png"
         width=  "750">
 </p>
