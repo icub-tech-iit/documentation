@@ -12,13 +12,20 @@
 
 | Joint number | Motors | Identifier    | Type | Parent link | Child link  | Mk2.0 lower limit | Mk2.0 upper limit | Mk2.1 low. l. | Mk2.1 upp. l. | Notes        |
 |--------------|--------|---------------|------|-------------|-------------|-------------------|-------------------|---------------|---------------|--------------|
-|              |        | l_elbow       | ROT  | l_upperarm  | l_forearm   | -                 | -                 | -             | -             | E1 in fig.   |
-|              |        | l_wrist_yaw   | ROT  | l_forearm   | l_wrist_1   | -92°              | 92°               | -92°          | 92°           | W1 in fig.   |
-|              |        | l_wrist_roll  | ROT  | l_wrist_1   | l_wrist_2   | -62°              | 52°               | -33°          | 40°           | W2 in fig.   |
-|              |        | l_wrist_pitch | ROT  | l_wrist_2   | l_hand_palm | -32°              | 32°               | -20°          | 20°           | W3 in fig.   |
+|              |        | l_elbow       | ROT  | l_upperarm  | l_forearm   | -                 | -                 | -             | -             | E1l in fig.  |
+|              |        | l_wrist_yaw   | ROT  | l_forearm   | l_wrist_1   | -92°              | 92°               | -92°          | 92°           | W1l in fig.  |
+|              |        | l_wrist_roll  | ROT  | l_wrist_1   | l_wrist_2   | -62°              | 52°               | -33°          | 40°           | W2l in fig.  |
+|              |        | l_wrist_pitch | ROT  | l_wrist_2   | l_hand_palm | -32°              | 32°               | -20°          | 20°           | W3l in fig.  |
+|              |                        |      |             |             |                   |                   |               |               |              |
+|              |        | r_elbow       | ROT  | r_upperarm  | r_forearm   | -                 | -                 | -             | -             | E1r in fig.  |
+|              |        | r_wrist_yaw   | ROT  | r_forearm   | r_wrist_1   | -                 | -                 | -92°          | 92°           | W1r in fig.  |
+|              |        | r_wrist_roll  | ROT  | r_wrist_1   | r_wrist_2   | -                 | -                 | -40°          | 33°           | W2r in fig.  |
+|              |        | r_wrist_pitch | ROT  | r_wrist_2   | r_hand_palm | -                 | -                 | -20°          | 20°           | W3r in fig.  |
+
+
 
 <p align="center">
-  <img  src=    "../img/pitches.png"
+  <img  src=    "./img/pitches.png"
         title=  "pitches.png"
         width=  "750">
 </p>
@@ -27,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img  src=    "../img/wrist-yaw-roll.png"
+  <img  src=    "./img/wrist-yaw-roll.png"
         title=  "wrist-yaw-roll.png"
         width=  "750">
 </p>
