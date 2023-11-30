@@ -41,3 +41,5 @@
 <p align="center">
   <sub>Wrist Mk2 and Elbow joints 2/2</sub>
 </p>
+
+> **Note:** rotation signs follow the right-hand rule according to the reference system in figure.
