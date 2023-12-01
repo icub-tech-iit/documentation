@@ -7,7 +7,8 @@ When one desire to update the `BAT` firmware version the correct `.hex` version 
 - `bat.hex` which is the version to be used on `iCub` and `ergoCub`
 
 It should be noted that we are developing two different versions for the `BAT` because the `dcdc_management` phase is done different between `R1` and `iCub` or `ergoCub`. 
-Specifically, in `iCub` and `ergoCub` the management of the cpu and motors lines is done separately and they can work detached. Differently, in `R1` cpu and boards lines work always together. 
+Specifically, in `iCub` and `ergoCub` the management of the cpu and motors lines is done separately and they can work detached. Differently, in `R1` cpu and boards lines work always together.
+Moreover, since `R1` and `iCub` and `ergoCub` works with different battery packs, the voltage thresholds are set differently on the two firmwares.
 
 In general, as shown in the figures below (illustrating the connection between the BAT and EMS boards in the base of `R1/SN003`), the `BAT` can be connected to an EMS board through the `CAN` connector devoted to receiving the CAN frames sent out by the `BAT`.
 
