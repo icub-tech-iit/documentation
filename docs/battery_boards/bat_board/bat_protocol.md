@@ -6,9 +6,9 @@ When one aims to update the `BAT` firmware, the correct `.hex` version ought be 
 - `bat.r1.hex`: it addresses R1 robot.
 - `bat.hex`: it addresses `iCub` and `ergoCub` robots.
 
-It should be noted that we are developing two different versions for the `BAT` because the `dcdc_management` phase is done different between `R1` and `iCub` or `ergoCub`. 
-Specifically, in `iCub` and `ergoCub` the management of the cpu and motors lines is done separately and they can work detached. Differently, in `R1` cpu and boards lines work always together.
-Moreover, since `R1` and `iCub` and `ergoCub` works with different battery packs, the voltage thresholds are set differently on the two firmwares.
+There exist two different versions of the `BAT` FW because the `dcdc_management` phase is done differently between `R1` and `iCub`/`ergoCub`. 
+Specifically, in `iCub` and `ergoCub` robots, CPU and motors are handled separately, and they can work detached. By contrast, in `R1`, they work always together.
+Moreover, these robots do have different battery packs, hence the voltage thresholds are customized in the two FW versions.
 
 In general, as shown in the figures below (illustrating the connection between the BAT and EMS boards in the base of `R1/SN003`), the `BAT` can be connected to an EMS board through the `CAN` connector devoted to receiving the CAN frames sent out by the `BAT`.
 
