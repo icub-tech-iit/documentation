@@ -2,6 +2,14 @@
 
 ## Introduction
 This page describes the `BAT` board and its protocol. Basically, this board is responsible for the management of the data and signals provided by the battery pack in `R1`, `iCub`, and `ergoCub` robots. Moreover, it should be noted that in these robots it is always coupled with the `BMS` board, which is responsible for fine-tuning and managing the battery pack status.
+When one aims to update the `BAT` firmware, the correct `.hex` version ought be selected from the `BAT` folder. Specifically, there are two different `BAT` executables:
+- `bat.r1.hex`: it addresses R1 robot.
+- `bat.hex`: it addresses `iCub` and `ergoCub` robots.
+
+There exist two different versions of the `BAT` FW because the `dcdc_management` phase is done differently between `R1` and `iCub`/`ergoCub`. 
+Specifically, in `iCub` and `ergoCub` robots, CPU and motors are handled separately, and they can work detached. By contrast, in `R1`, they work always together.
+Moreover, these robots do have different battery packs, hence the voltage thresholds are customized in the two FW versions.
+
 In general, as shown in the figures below (illustrating the connection between the BAT and EMS boards in the base of `R1/SN003`), the `BAT` can be connected to an EMS board through the `CAN` connector devoted to receiving the CAN frames sent out by the `BAT`.
 
 <center>
