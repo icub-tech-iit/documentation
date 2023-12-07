@@ -5,7 +5,7 @@ Currently we can configure 2 types of sensors: `PT100` and `PT1000`.
 When regarding raw values, we have that usually, for the `PT100` the temperatures generally ranges between `0` and `3500`, instead for the `PT1000` the temperatures ranges between `0` and `8000`. Anyhow, it should be noted that negative temperatures are accepted, even if it would be extremely rare to get them in normal working conditions. 
 Finally, we have that higher the temperature and higher the raw output value.
 
-## Reading Compensated Temperature Data
+## Reading compensated motor temperature data
 
 Regarding the correlation between raw temperature data and Celsius degree values here follows a brief description.
 First of all, in order to reduce the effort of the end-user and at the same time remain compliant with the rest of the firmware, we have decided to work with values in Celsius degree on `embObjMotionControl` and, instead, use the raw value in the firmware part.
@@ -43,9 +43,10 @@ Finally, the last calculation that outputs the value of the got temperature in C
     double res = (tmp * (_first_res_coeff) / den) + ((_second_res_coeff) / den);
 
 where:
+- _ptc_offset: is the offset of the PTXXX line, thus it is 1000 in the case of PT1000 and 100 in the other case.
+- r1: the other of the two upper resistors in the voltage divider bridge, which for us is equal to 4700 [Ohm]
 - _first_res_coeff  = _r_1*_r_2 + _r_1*_r_3 + _ptc_offset*_r_2 + _ptc_offset*_r_3
 - _second_res_coeff = _r_3*_r_1 - _r_2*_ptc_offset
-- _ptc_offset: is the offset of the PTXXX line, thus it is 1000 in the case of PT1000 and 100 in the other case.
 
 It should be noted that those offsets are used to have the PTXXX line passes through zero at 0 Celsius Degree.
 
