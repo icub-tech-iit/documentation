@@ -36,7 +36,7 @@ The use the calculated temporary value for evaluate the denominator of the final
 where:
 - _ptc_gradient: slope of the PTXXX line
 - _r_2: one of the two upper resistors in the voltage divider bridge, which for us is equal to 4700 [Ohm]
-- _r_3: lower resistor of the bridge, which it should be set equal to the value, in Ohm, of the PTXXX at zero degree. Thererfore, if we are using the PT100 it should be equal to 100
+- _r_3: lower resistor of the bridge, which it should be set equal to the value, in Ohm, of the PTXXX at zero degree. Therefore, if we are using the PT100 it should be equal to 100
 
 Finally, the last calculation that outputs the value of the got temperature in Celsius Degree is:
 
