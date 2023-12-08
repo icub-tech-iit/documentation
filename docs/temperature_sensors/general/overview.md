@@ -6,7 +6,7 @@ In a nutshell, most of the `ergoCub` motors are provided with an internal resist
 
 ### How to update the configuration files
 
-Regarding the robot configuration files, whose templates can be seen at [this link](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates/iCubTemplateV6_0), in order to enable correctly the use of the temperature sensors it is necessary to fill the following fields:
+To correctly enable the use of the temperature sensors inside the configuration files ([templates](https://github.com/robotology/robots-configuration/tree/devel/iCubTemplates/iCubTemplateV6_0) are available), it is necessary to fill in the following fields:
 
 - under `hardware/motorControl/body_part--ebX-jA_B-mc.xml` you need to add the two parameters `hardwareTemperatureLimits` and `warningTemperatureLimits` in the `LIMITS` group.
 - under `hardware/mechanicals/body_part-ebX-jA_B-mec.xml` you need to add the parameter `TemperatureSensorType` in the `2FOC` group, and remove the soon deprecated `HasTempSensor` parameter in the same area.
