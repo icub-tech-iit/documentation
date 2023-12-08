@@ -9,7 +9,7 @@ Finally, we have that the higher the temperature the higher the raw output value
 
 Regarding the correlation between raw temperature data and Celsius degree values here follows a brief description.
 First of all, in order to reduce the effort of the end-user and at the same time remain compliant with the rest of the firmware, we have decided to work with values in Celsius degree on `embObjMotionControl` and, instead, use the raw value in the firmware part.
-Anyhow, the configuration files are always filled with values in Celsius degree and simultaneously the values printed on the yarp port will be in the same format.
+However, the configuration files are always filled with values in Celsius degrees; likewise, the values printed on the YARP port are in the same format.
 Contrarily, on the board level, we are working with raw values, but this stands out from the scope of this document.
 The reader should just now that all of those conversions are based on the principle of the voltage divider and on the some factors depends directly on the type of resistance temperature detector mounted on the motor and on the model of the ADC we are using on the TDB.
 
