@@ -301,3 +301,8 @@ nav:
         - Reading Tactile Data: tactile_sensors/software/reading_data.md
         - Visualizing Tactile Data: tactile_sensors/software/visualizing_data.md
         - Tactile Data Flow: tactile_sensors/software/dataflow.md
+      - Motor Temperature Sensors:
+        - Summary: temperature_sensors/index.md
+        - Overview of Temperature Sensors: temperature_sensors/general/overview.md
+        - Motor Temperature Data Flow: temperature_sensors/software/dataflow.md
+        - Reading Motor Temperature Data: temperature_sensors/software/reading_data.md
