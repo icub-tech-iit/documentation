@@ -11,7 +11,7 @@ Regarding the correlation between raw temperature data and Celsius degree values
 First of all, in order to reduce the effort of the end-user and at the same time remain compliant with the rest of the firmware, we have decided to work with values in Celsius degree on `embObjMotionControl` and, instead, use the raw value in the firmware part.
 However, the configuration files are always filled with values in Celsius degrees; likewise, the values printed on the YARP port are in the same format.
 By contrast, on the board level, we use raw values.
-The reader should just now that all of those conversions are based on the principle of the voltage divider and on the some factors depends directly on the type of resistance temperature detector mounted on the motor and on the model of the ADC we are using on the TDB.
+All the applied conversions strictly depend on the physical components involved, including the voltage divider, the resistance thermometer as well as the ADC stage of the TDB board.
 
 ### Data conversion from raw value to Celsius degree value
 
