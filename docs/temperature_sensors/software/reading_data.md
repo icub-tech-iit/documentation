@@ -2,7 +2,7 @@
 
 Each temperature sensor outputs an integer raw value whose range depends on the type of resistance thermometer mounted on the motor.
 Currently we can configure 2 types of sensors: `PT100` and `PT1000`.
-When regarding raw values, we have that usually, for the `PT100` the temperatures generally ranges between `0` and `3500`, instead for the `PT1000` the temperatures ranges between `0` and `8000`. Anyhow, it should be noted that negative temperatures are accepted, even if it would be extremely rare to get them in normal working conditions. 
+For `PT100`, raw values typically range from `0` to `3500`. Instead, for `PT1000`, the range is between `0` and `8000`. At any rate, it should be noted that negative temperatures are accepted, even if it would be extremely rare to obtain them in normal working conditions. 
 Finally, we have that the higher the temperature the higher the raw output value.
 
 ## Reading compensated motor temperature data
