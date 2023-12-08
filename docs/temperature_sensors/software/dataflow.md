@@ -14,7 +14,7 @@ It is important to note that in the whole pipeline we are doing two different ch
 
 ### Main Flow of Information
 
-Here's a small yet exhaustive sequence diagram showing the whole dataflow as summarized above. In it, it is possible to observe how the different actors that takes part to the pipeline of this feature interact among each other, starting from the lower level up to the higher level.
+Here's a small yet exhaustive sequence diagram showing the whole dataflow as summarized above. It is possible to observe how the different actors that take part in the pipeline interact with each other, starting from the lower level up to the higher level.
 
 <p align="center">
     <img  src="../img/MotorTemperature-Feature.png" width="700">
