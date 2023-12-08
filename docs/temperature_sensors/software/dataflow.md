@@ -10,7 +10,7 @@ Upon reception of the motor temperature, `embObjMotionControl` converts the valu
 It is important to note that in the whole pipeline we are doing two different checks for the temperature:
 
 1. when reading the raw temperature value the `2FOC` board checks that it is not higher than the `hardwareTemperatureLimits`, otherwise it triggers the `overHeating` error and sends the fault state to the robot
-2. when the temperature is received and converted to Celsius degree by the `embObjMotionControl`, this checks that the passed value is not beyond the `warningTemperatureLimit`, otherwise it prints a warning log until the temperature drops. 
+2. when the temperature is received, `embObjMotionControl` converts it to Celsius degree and checks that the result is not beyond the `warningTemperatureLimit`, otherwise it prints a warning log until the temperature drops. 
 
 ### Main Flow of Information
 
