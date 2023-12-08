@@ -54,7 +54,7 @@ It should be noted that those offsets are used to have the PTXXX line passes thr
 
 ### Data conversion from Celsius degree value to raw value
 
-Similarly to what defined above, for converting from Celsius to raw the steps follow:
+Similarly, for converting from Celsius degree to raw value:
 
 ```console
 
