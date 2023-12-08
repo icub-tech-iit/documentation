@@ -19,4 +19,4 @@ The correct configuration ensures that the motor temperature is read and forward
 
 In addition, the user module can retrieve the `warningTemperatureLimits` and check if the temperature exceeds that limit to put the motor in a safer state with lower current consumption.
 Is it important to notice that the firmware puts the motor in fault when the temperature goes beyond the `hardwareTemperatureLimits`.
-More details on the temperature flow are available in the section [data flow](../software/dataflow.md)
+More details on the temperature flow are available in the section [data flow](../software/dataflow.md).
