@@ -11,7 +11,7 @@ To correctly enable the use of the temperature sensors inside the configuration 
 - under `hardware/motorControl/body_part--ebX-jA_B-mc.xml` you need to add the two parameters `hardwareTemperatureLimits` and `warningTemperatureLimits` in the `LIMITS` group.
 - under `hardware/mechanicals/body_part-ebX-jA_B-mec.xml` you need to add the parameter `TemperatureSensorType` in the `2FOC` group, and remove the soon deprecated `HasTempSensor` parameter in the same area.
 
-Thus, once that is done, and keeping in mind the points defined at the previous section, it should be possible to use correctly the feature of the temperature sensors.
+That being done, it should be possible to use the features of the temperature sensors.
 
 ### How to read the motor temperature
 The user need to update the robot configuration files accordingly as described in the [configuration section](#how-to-update-the-configuration-files), after ensuring that the sensor has been mounted on the desired motors.
