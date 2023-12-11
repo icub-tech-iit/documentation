@@ -14,7 +14,7 @@ The process described here is very similar to the one used to build 64 bits imag
 You can use a PC with Debian installed, but using a Virtualbox VM enables you to isolate your build fron everything else running on the computer.
 To set up your VM:
 
-- [Download and install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- [Download and install VirtualBox](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html)
 - [Download a 32bits Debian ISO](https://www.debian.org/distrib/index.html), preferably the version that you want to build
 - Launch VirtualBox
 - Create a new Debian 32bits VM. Make sure you give enough cores / RAM for the VM to work properly (e.g. 2 cores and 4-8 GB RAM)
