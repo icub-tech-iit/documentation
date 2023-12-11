@@ -20,7 +20,7 @@ To set up your VM:
 - Create a new Debian 32bits VM. Make sure you give enough cores / RAM for the VM to work properly (e.g. 2 cores and 4-8 GB RAM)
 - Select the VM you just created; click on "Settings > Storage", and mount a new CD/DVD. WHen asked, select the file you just downloaded.
 - Turn the VM on; follow the usual Debian installation steps
-- You will probably need to install the VirtualBox Extension Pack to give the guest VM USB 2/3 access. The pack can be downloaded on [the same page as VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- You will probably need to install the VirtualBox Extension Pack to give the guest VM USB 2/3 access. The pack can be downloaded on [the same page as VirtualBox](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html)
 
 Once this is done, you have a working Debian environment. We can now build the iCub LIVE image
 
