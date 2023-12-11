@@ -73,7 +73,7 @@ Force-Torque Sensors functionalities are exposed via the [`multipleanalogsensors
 
 For each part, there will be a `multipleanalogsensorsserver` device that will open the following YARP ports:
 
-- `/<robotPortPrefix>/<partName>/FT/measures:o` : Publishes sensors information for the part, using the structure defined in [robotology/yarp@`master`/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift)
+- `/<robotPortPrefix>/<partName>/FT/measures:o` : Publishes sensors information for the part, using the structure defined in [robotology/yarp@`master`/src/devices/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift](https://github.com/robotology/yarp/blob/master/src/devices/messages/multipleAnalogSensorsMsgs/multipleAnalogSensorsSerializations.thrift)
 
 - `/<robotPortPrefix>/<partName>/FT/rpc:o` : Exposes several information related to the part via a YARP RPC port
 
