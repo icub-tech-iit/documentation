@@ -1,7 +1,7 @@
 # CPU boards
-The table below reports all CPU boards installed on iCub.
+The table below reports all CPU boards installed on the robots.
 
-| Internal name    |   | Vendor Model            | Vendor         | Description                                                                                              | Board Form factor   | iCub version              | CPU                       | RAM       | HardDisk            | OTHER / BIOS  |
+| Internal name    |   | Vendor Model            | Vendor         | Description                                                                                              | Board Form factor   | Robot version              | CPU                       | RAM       | HardDisk            | OTHER / BIOS  |
 |------------------|---|-------------------------|----------------|----------------------------------------------------------------------------------------------------------|---------------------|---------------------------|---------------------------|-----------|---------------------|---------------|
 | PC104 PB-855+    |   | PB-855+ 1400PM          | Embedded Logic | PC104plus Motherboard PB855+, with Intel M processor 1,8 GHz                                             | PC104 Plus Standard | iCub 1.0                  | Intel M processor 1,8 GHz |           | n.a. (*) USB pen    |               |
 | PC104 PB945+     |   | PB945+ T7400            | Embedded Logic | PC104 Motherboard PB945+, with Intel Core 2Duo 2,16 Ghz                                                  | PC104 Plus Standard | iCub 1.0 and iCub 2.0     | Intel Core 2Duo 2,16 Ghz  |           | n.a. (*) USB pen    |               |
@@ -10,5 +10,8 @@ The table below reports all CPU boards installed on iCub.
 | COMEXPRESS CONGATEC  |   | conga-TC87/i7-4650U     | Congatec       | COM-Express Type6, Congatec TC87/i7-4650U (Core i7-4650U 1.7GHz) p/n 46901                           | COM-Express Type6   | iCub 2.5, iCub 3.0        | Core i7-4650U             | 8GB       | external SATA 32GB  |               |
 | COMEXPRESS KONTRON   |   | COMe-cKL6i7-7600 8GB32S | Kontron        | COM-Express Type6, Kontron COMe-cKL6i7-7600 8GB RAM onboard and 32GB SLC eMMC 5.0 (Core i7-7600U 1.7GHz) | COM-Express Type6   | iCub 2.5-2.6 and 2.7  | Intel i7-7600U            | 8+8GB RAM | onboard 32GB        |               |
 | COMEXPRESS Advantech |   |  ADVANTECH_SOM-7583C7-S8A1  |   Advantech  |  COM-Express Type10, Advantech SOM i7-1185G7E 16GB DDR4, 64GB SSD                                  |  Com-Express Type 10    | ergoCub 1.x           | Intel i7-1185G7E 4 cores 2.8GHz  |  16GB RAM DDR4  |  onboard 64GB NVMe SSD |  | 
+| Xavier NX | | Jetson Xavier NX | NVIDIA® | NVIDIA Jetson Xavier NX Series (21 TOPS) | Connect Tech Quark Carrier Board | iCub 2.10, iCub 3.0, iRonCub 3.0 | 384-core Volta GPU, 6-core Carmel Arm 64-bit CPU | 16GB RAM | 16GB eMMC | |
+| Xavier AGX | | Jetson Xavier AGX | NVIDIA® | NVIDIA Jetson Xavier AGX Series (32 TOPS) | Connect Tech Rogue Carrier Board | ergoCub 1.x | 512-core Volta GPU, 8-core Carmel Arm 64-bit CPU | 16GB RAM | 32 GB eMMC + external M.2 SSD | |
+| Orin NX | | Jetson Orin NX | NVIDIA® | NVIDIA Jetson Orin NX Series (50 TOPS) | Connect Tech Boson for FRAMOS Carrier Board | ergoCub 1.1 | 1024-core Ampere GPU, 8-core Arm Cortex-A78AE 64-bit CPU | 16GB RAM | 64GB external M.2 SSD | |
 
 [manual-cm2-bt2]: https://www.mouser.it/datasheet/2/452/CM1-BT1_Datasheet_en_1-347744.pdf
