@@ -12,7 +12,7 @@ The first step is to download the **official Ubuntu 20.04 LTS Server install med
 
 Then, please create the USB installer using a USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
-On the Ubuntu website, you can find further information about creating a bootable USB stick on [Windows](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows?_ga=2.181742695.1184983981.1588944309-600352565.1586438290), [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu?_ga=2.181742695.1184983981.1588944309-600352565.1586438290) or [macOS](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos?_ga=2.236980288.1184983981.1588944309-600352565.1586438290)
+Find further information about creating a bootable USB stick on [Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview), [Ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview) or [macOS](https://support.apple.com/en-us/101578).
 
 ## Install Ubuntu
 
