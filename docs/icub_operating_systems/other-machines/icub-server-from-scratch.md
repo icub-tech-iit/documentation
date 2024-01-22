@@ -2,17 +2,17 @@
 Since iCubOS is based on Ubuntu server, we will install Ubuntu server from the default installer and then we manually customize it.
 
 ## Latest versions
-Latest version is based on Ubuntu Server 20.04.2
+The latest version is based on Ubuntu Server 20.04.2
 
 ## Prerequisite
-Please check that the BIOS configuration allows to boot from USB drive.
+Please check that the BIOS configuration allows booting from a USB drive.
 
 ## Create the USB installer
-The first step is to download the **official Ubuntu 20.04 LTS Server install media** from the [release page](https://releases.ubuntu.com/focal). Search for `ubuntu-20.04.x-live-server-amd64.iso`.
+The first step is downloading the **official Ubuntu 20.04 LTS Server install media** from the [release page](https://releases.ubuntu.com/focal). Search for `ubuntu-20.04.x-live-server-amd64.iso`.
 
-Then please create the USB installer using an USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
+Then please create the USB installer using a USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
-On Ubuntu website, you can find further info about creating a bootable USB stick on [Windows](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows?_ga=2.181742695.1184983981.1588944309-600352565.1586438290), [Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu?_ga=2.181742695.1184983981.1588944309-600352565.1586438290) or [macOS](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos?_ga=2.236980288.1184983981.1588944309-600352565.1586438290)
+Find further information about creating a bootable USB stick on [Windows](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview), [Ubuntu](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview) or [macOS](https://support.apple.com/en-us/101578).
 
 ## Install system
 Use the following details to install Ubuntu server on icub-server.
@@ -35,7 +35,7 @@ You can find further details and guides on [the official Ubuntu Server installat
 - **Partions** : single - 237Gb EXT4 (plus EFI)
 
 !!! warning
-    _Please disable LVM configuration during the partitioning step of installation procedure_
+    _Please disable LVM configuration during the partitioning step of the installation procedure_
 
 ### Network configuration
 
