@@ -1,8 +1,8 @@
 ## Reading Raw Temperature Data
 
 Each temperature sensor outputs an integer raw value whose range depends on the type of resistance thermometer mounted on the motor.
-Currently we can configure 2 types of sensors: `PT100` and `PT1000`.
-For `PT100`, raw values typically range from `0` to `3500`. Instead, for `PT1000`, the range is between `0` and `8000`. At any rate, it should be noted that negative temperatures are accepted, even if it would be extremely rare to obtain them in normal working conditions. 
+Currently, we can configure 2 types of sensors: `PT100` and `PT1000`.
+For `PT100`, raw values typically range from `0` to `3500`. Instead, for `PT1000`, the range is between `0` and `8000`. At any rate, it should be noted that negative temperatures are accepted, but it is impossible to obtain them in normal working conditions. For this, we use them for notify error situations to the user. 
 Finally, we have that the higher the temperature the higher the raw output value.
 
 ## Reading compensated motor temperature data
@@ -11,7 +11,14 @@ Regarding the correlation between raw temperature data and Celsius degree values
 First of all, in order to reduce the effort of the end-user and at the same time remain compliant with the rest of the firmware, we have decided to work with values in Celsius degree on `embObjMotionControl` and, instead, use the raw value in the firmware part.
 However, the configuration files are always filled with values in Celsius degrees; likewise, the values printed on the YARP port are in the same format.
 By contrast, on the board level, we use raw values.
-All the applied conversions strictly depend on the physical components involved, including the voltage divider, the resistance thermometer as well as the ADC stage of the TDB board.
+All the applied conversions strictly depend on the physical components involved, including the voltage divider, the resistance thermometer as well as the ADC stage of the TDB board. 
+One important note to highlight is that even if we know that the conversion between raw and Celsius degree values is not exactly linear, we have decided to linearize the conversion by accepting an error of around ±1.5 ℃ over the 100 ℃. 
+Anyways, if you are interested in the specific insight regarding the conversion you can check [this repository](https://github.com/MSECode/temperatureConversionTester), which has been mainly used for two scopes:
+
+- to check the validity of the linearization done and understand the magnitude of the error inside the working conditions, which are typically between 20 and 80 ℃
+- to evaluate the exact raw values needed for setting the defined error values to be used in the firmware, so that we can have an accurate conversion (related to our formula) on the high level. (See [error values](./dataflow.md) for more details).
+
+
 
 ### Data conversion from raw value to Celsius degree value
 
