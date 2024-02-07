@@ -16,7 +16,7 @@ control system client. The git client was already installed in the previous step
 
 ## Compile YCM
 
-To compile YCM clone and build the tag associated with
+To compile YCM, clone and build the tag associated with
 the distro at hand as specified in [Software Versioning
 Table](../sw_versioning_table/index.md).
 
