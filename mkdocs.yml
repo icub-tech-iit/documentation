@@ -200,7 +200,6 @@ nav:
             - Linux (Debian/Ubuntu): sw_installation/linux_from_sources_manual.md
         - Installation from pre-compiled binaries:
           - Windows: sw_installation/windows_binaries.md
-          - (DEPRECATED) Linux (Debian/Ubuntu): sw_installation/linux_binaries.md
           - Conda packages: sw_installation/conda_binaries.md
         - Check your installation: sw_installation/check_your_installation.md
         - Installation on specific systems on iCub setup:

@@ -4,36 +4,19 @@ The page contains instructions for compiling YARP and the iCub software. We reco
 
 ## Getting all dependencies
 
-Add `www.icub.eu` to your sources.list.
-
-Below, replace `ubuntu` with `debian`, depending on your system.
-
+Install the required dependencies:
 ~~~
-sudo sh -c 'echo "deb http://www.icub.eu/ubuntu `lsb_release -cs` contrib/science" > /etc/apt/sources.list.d/icub.list'
-sudo apt update
-~~~
-
-!!! note "Missing public key"
-    if apt complains about missing public key, please import the repository public key (this needs to be done only once) as follows
-    ```
-    sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6`
-    ```
-
-Install only the package icub-common:
-~~~
-sudo apt install icub-common
+sudo apt install libace-dev libc6 python libgsl0-dev libncurses5-dev libsdl1.2-dev subversion git gfortran libxmu-dev libode-dev wget unzip qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5svg5 libqt5opengl5-dev libopencv-dev freeglut3-dev libtinyxml-dev libblas-dev coinor-libipopt-dev liblapack-dev libmumps-dev qml-module-qtmultimedia qml-module-qtquick-dialogs qml-module-qtquick-controls libedit-dev libeigen3-dev libjpeg-dev libsimbody-dev libxml2-dev libjs-underscore
 ~~~
 
 ## Setting up revision control systems
 
 To download sources from our repositories you need to set up a revision
-control system client. The git client was already installed with the
-icub-common package.
+control system client. The git client was already installed in the previous step.
 
-## Compile YCM (optional)
+## Compile YCM
 
-Although [YCM](https://github.com/robotology/ycm) is already contained in `icub-common`, you might want to get
-the latest release. To do so, clone and build the tag associated with
+To compile YCM, clone and build the tag associated with
 the distro at hand as specified in [Software Versioning
 Table](../sw_versioning_table/index.md).
 
@@ -46,7 +29,7 @@ sudo make install
 
 ## Compile YARP
 
-Follow instructions provided in the [official YARP documentatipn](http://www.yarp.it/install_yarp_linux.html),
+Follow instructions provided in the [official YARP documentation](http://www.yarp.it/install_yarp_linux.html),
 follow the section **Install from sources -- Compiling YARP** (skip
 installation of packages).
 

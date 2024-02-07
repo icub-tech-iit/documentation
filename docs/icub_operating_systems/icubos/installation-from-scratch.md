@@ -69,29 +69,6 @@ The x server is started automatically at startup by GDM, so please disable GDM
 sudo systemctl disable gdm
 ```
 
-### iCub repository and package
-
-1. Add the file
-  ```
-  /etc/apt/sources.list.d/icub.list
-  ```
-
-2. Edit as follows
-  ```
-  deb http://www.icub.eu/ubuntu focal contrib/science
-  ```
-  Where you can substitute `focal` with the codename of the distribution that you are using.
-
-3. Import the icub SSH key
-  ```
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6
-  ```
-
-4. Install the package
-  ```
-  icub-common
-  ```
-
 ## Configuration steps
 
 ### SSH configuration
