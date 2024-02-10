@@ -15,7 +15,7 @@ All the applied conversions strictly depend on the physical components involved,
 One important note to highlight is that even if we know that the conversion between raw and Celsius degree values is not exactly linear, we have decided to linearize the conversion by accepting an error of around ±1.5 ℃ over the 100 ℃. 
 Anyways, if you are interested in the specific insight regarding the conversion you can check [this repository](https://github.com/MSECode/temperatureConversionTester), which has been mainly used for two scopes:
 
-- to check the validity of the linearization done and understand the magnitude of the error inside the working conditions, which are typically between 20 and 80 ℃
+- to check the validity of the linearization done and understand the magnitude of the error inside the working conditions, which are typically between 20 and 80 ℃.
 - to evaluate the exact raw values needed for setting the defined error values to be used in the firmware, so that we can have an accurate conversion (related to our formula) on the high level. (See [error values](./dataflow.md) for more details).
 
 
