@@ -17,7 +17,7 @@ Here's a small yet exhaustive sequence diagram showing the whole dataflow as sum
 
 
 ### Error handling
-Mainly the error management is performed by the `2FOC`.
+The error management is mainly performed by the `2FOC`.
 It performs some checks while reading the temperature from the `I2C` and specific negative values (defined in the code) are set to notify the user. The TDB sends 3 bytes on the I2C bus: the temperature value (2 bytes) and its configuration (1 byte). The `2FOC` performs the check mainly on the configuration byte.
 
 
