@@ -12,7 +12,7 @@ First of all, in order to reduce the effort of the end-user and at the same time
 However, the configuration files are always filled with values in Celsius degrees; likewise, the values printed on the YARP port are in the same format.
 By contrast, on the board level, we use raw values.
 All the applied conversions strictly depend on the physical components involved, including the voltage divider, the resistance thermometer as well as the ADC stage of the TDB board. 
-One important note to highlight is that even if we know that the conversion between raw and Celsius degree values is not exactly linear, we have decided to linearize the conversion by accepting an error of around ±1.5 ℃ over the 100 ℃. 
+One important note to highlight is that even if we know that the conversion between raw and Celsius degree values is not exactly linear, we have decided to linearize the conversion by accepting an error of around ±1.5 ℃ over 100 ℃. 
 Anyways, if you are interested in the specific insight regarding the conversion you can check [this repository](https://github.com/MSECode/temperatureConversionTester), which has been mainly used for two scopes:
 
 - to check the validity of the linearization done and understand the magnitude of the error inside the working conditions, which are typically between 20 and 80 ℃.
