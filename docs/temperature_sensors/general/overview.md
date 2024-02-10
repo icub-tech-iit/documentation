@@ -15,7 +15,7 @@ That being done, it should be possible to use the features of the temperature se
 
 ### How to read the motor temperature
 First off, the user ought to make sure that the sensor is mounted on the desired motors, and then needs to update the robot configuration files accordingly, as described in the [configuration section](#how-to-update-the-configuration-files). 
-The correct configuration enables the motor temperature reading and sending the values to the yarprobotinterface, but, currently, these measures are not published on the yarp `stateExt` port. Therefore the user needs to develop a module application similar to [this one](https://github.com/MSECode/motionControlModule), to read the temperature.
+The correct configuration allows reading and sending the motor temperature values to the `yarprobotinterface`. However, these measurements are not currently published on the YARP `stateExt` port. Therefore, the user needs to devise a module application, similar to [this one](https://github.com/MSECode/motionControlModule), to read the temperature.
 
 In addition, the user module can retrieve the `warningTemperatureLimits` and check if the temperature exceeds that limit to put the motor in a safer state with lower current consumption.
 !!! warning "HW Fault due to overheating"
