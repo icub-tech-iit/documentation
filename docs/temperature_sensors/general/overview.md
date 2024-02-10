@@ -1,7 +1,7 @@
 ## Motor temperature Sensors
 
 The Motor Temperature Sensors are simple sensors made of a specific type of resistor (PT100 or PT1000) and of a small board defined as the **Temperature Detection Board (TDB)**, which has the goal of decoding the value read by the resistor giving out a raw output code, which can be then translated to Celsius Degree so that it can be easily understood by the end-user.
-In a nutshell, most of the `ergoCub` motors are provided with an internal resistance temperature detector, which is then connected to a TDB board. This one is then linked to a `2FOC` board, which elaborates that data coming from the `I2C` and sends them via `CAN` to an `EMS` board. Finally, this one streams the raw temperature values via `ETH` to `embObjMotionControl` which updates and stores all of these data, ready to be requested by a user external module.
+In a nutshell, most of the `ergoCub` motors are provided with an internal resistance temperature detector, which is then connected to a TDB board. The TDB board is then linked to a `2FOC` board, which elaborates the data acquired via `I2C` bus and sends it via the `CAN` bus to an `EMS` board. Finally, the EMS board streams the raw temperature values via the `ETH` bus to `embObjMotionControl`, which in turn updates and stores these acquisitions that the user can readily request from an external module.
 
 
 ### How to update the configuration files
