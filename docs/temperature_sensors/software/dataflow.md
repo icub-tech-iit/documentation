@@ -24,7 +24,7 @@ It performs some checks while reading the temperature from the `I2C` and specifi
 The possible errors currently managed are the following:
 
 - `-90` : the `2FOC` cannot read from the `I2C`, meaning that the `ACK` is not received from the `TDB`
-- `-70` :  the reading cannot be done for 10 consecutive seconds. An overheating fault is triggered.
+- `-70` : the reading cannot be done for 10 consecutive seconds. An overheating fault is triggered.
 - `-50` : the TDB loses the given configuration and uses the default one. In this case, the 2FOC restores the desired configuration.
 - `-30` : the `TDB` sets any configuration value different from both the desired and the default one.
 
