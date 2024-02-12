@@ -9,17 +9,17 @@
   <sub>Wrist Mk2</sub>
 </p>
 
-It seems impossible to find the **analytic solution** in closed form of the *direct geometric problem* (i.e. given the motor angles, find the orientation of the platform), but it is quite easy to calculate the analytic form of the inverse Jacobian if we express the problem in a smart way. The **numeric solution** of the *direct geometric problem* is quite easy as well.
+It seems impossible to find the **analytic solution** in the closed form of the *direct geometric problem* (i.e. given the motor angles, find the orientation of the platform), but it is quite easy to calculate the analytic form of the inverse Jacobian if we express the problem in a smart way. The **numeric solution** of the *direct geometric problem* is quite easy as well.
 
 ## Premise
 - The platform rotates without translation around the origin $O$.
 - The length of the arms, equal to the platform radius, is normalized as 1.
 - Let's call $q_i$ the positions of the joints on the platform and $p_i$ the positions of the joints in the arms.
-- The "L" shape of the connetcting rods forces each vector $q_i$ to be always orthogonal to its respective vector $p_i$ in all configurations.
+- The "L" shape of the connecting rods forces each vector $q_i$ to be always orthogonal to its respective vector $p_i$ in all configurations.
 - The euclidean distance $L$ between the $q_i$ and the respective $p_i$ is imposed to be constant by the connecting rod.
 - In the case of symmetrical structure, the coordinates of the platform joints in the rest configuration are $q_1=(1,0,0)$, $q_2=(-\frac{1}{2},\frac{\sqrt{3}}{2},0)$ and $q_3=(-\frac{1}{2},-\frac{\sqrt{3}}{2},0)$
-- The coordinates of the arm joints, that rotates around the vertical axis, are $p_1=(\cos{\theta_1},\sin{\theta_1},-h)$, $p_2=(\cos{\theta_2},\sin{\theta_2},-h)$ and $p_3=(\cos{\theta_3},\sin{\theta_3},-h)$ with $h$ constant and with $\theta_i$ = rotations of the three motors. In the case of symmetrical structure, at rest we have $\theta_1=60^\circ$, $\theta_2=180^\circ$ and $\theta_3=240^\circ$.
-- The above numbers are referred to the **left** employment of the wrist mechanism. In order to use it in the **right** configuration, an offset of $180^\circ$ must be added so that the whole mechanism kinematics will result symmetrically reflected, maintaining the meaning of *roll, pitch and yaw* under the chosen convention. Thus, at rest, the arm angles will be $\theta_1=240^\circ$, $\theta_2=0^\circ$ and $\theta_3=60^\circ$. This implies that the rest position must be set by properly calibrating the arm position sensors on the software side, while the hand interface must be rotated by $180^\circ$ with respect to the platform on the hardware side.
+- The coordinates of the arm joints, that rotate around the vertical axis, are $p_1=(\cos{\theta_1},\sin{\theta_1},-h)$, $p_2=(\cos{\theta_2},\sin{\theta_2},-h)$ and $p_3=(\cos{\theta_3},\sin{\theta_3},-h)$ with $h$ constant and with $\theta_i$ = rotations of the three motors. In the case of symmetrical structure, at rest we have $\theta_1=60^\circ$, $\theta_2=180^\circ$ and $\theta_3=240^\circ$.
+- The above numbers are referred to the **left** employment of the wrist mechanism. In order to use it in the **right** configuration, an offset of $180^\circ$ must be added so that the whole mechanism kinematics will result symmetrically reflected, maintaining the meaning of *roll, pitch, and yaw* under the chosen convention. Thus, at rest, the arm angles will be $\theta_1=240^\circ$, $\theta_2=0^\circ$ and $\theta_3=60^\circ$. This implies that the rest position must be set by properly calibrating the arm position sensors on the software side, while the hand interface must be rotated by $180^\circ$ with respect to the platform on the hardware side.
 
 ## Analytic inverse Jacobian
 The distance between the platform joints and the arm joints remains constant during the motion:
@@ -46,7 +46,7 @@ $$
 (p_i-q_i)\cdot\dot{p_i}=(p_i-q_i)\cdot(\omega\times q_i)=p_i\cdot(\omega\times q_i)-q_i\cdot(\omega\times q_i)=p_i\cdot(\omega\times q_i)
 $$
 
-because the second term $q_i\cdot(\omega\times q_i)$ is null because scalar triple product of coplanar vectors.
+because the second term $q_i\cdot(\omega\times q_i)$ is null due to the scalar triple product of coplanar vectors.
 
 $p_i$ rotates around the vertical axis, thus its angular velocity is $\dot{p_i}=(e_z\dot{\theta_i})\times p_i$. Let's substitute this relation into the equation above, obtaining:
 
@@ -54,7 +54,7 @@ $$
 (p_i-q_i)\cdot(e_z\times p_i)\dot{\theta_i}=(\omega\times q_i)\cdot p_i,
 $$
 
-but $p_i\cdot(e_z\times p_i)=0$ because scalar triple product of coplanar vectors, so it remains:
+but $p_i\cdot(e_z\times p_i)=0$ thanks to the scalar triple product of coplanar vectors, so it remains:
 
 $$
 -q_i\cdot(e_z\times p_i)\dot{\theta_i}=(\omega\times q_i)\cdot p_i
@@ -78,9 +78,9 @@ $$
 \begin{pmatrix} \dot{\theta_1} \\\ \dot{\theta_2} \\\ \dot{\theta_3} \end{pmatrix}= \begin{pmatrix} \frac{(q_1\times p_1)^T}{(q_1\times p_1)\cdot e_z} \\\ \frac{(q_2\times p_2)^T}{(q_2\times p_2)\cdot e_z} \\\ \frac{(q_3\times p_3)^T}{(q_3\times p_3)\cdot e_z} \end{pmatrix}\omega.
 $$
 
-Singularity occurs when one of the three divisors $(q_i\times p_i)\cdot e_z$ is null, i.e. when the joint $q_i$ lies in the same vertical plane that contains the origin and the joint $p_i$.
+Singularity occurs when one of the three divisors $(q_i\times p_i)\cdot e_z$ is null, i.e., when the joint $q_i$ lies in the same vertical plane that contains the origin and the joint $p_i$.
 
-From the inverse Jacobian we can obtain the transposed direct Jacobian by numeric inversion, required to project the torque acting on the end effector backwards to the motors. Given an algebraic three-vector of angular velocities Roll, Pitch and Yaw, the geometric angular velocity vector $\omega$ is obtained by the known Jacobian transoformation from algebric to geometric representation:
+From the inverse Jacobian, we can obtain the transposed direct Jacobian by numeric inversion, required to project the torque acting on the end effector backward to the motors. Given an algebraic three-vector of angular velocities Roll, Pitch and Yaw, the geometric angular velocity vector $\omega$ is obtained by the known Jacobian transformation from algebraic to geometric representation:
 
 $$
 \omega=J_{GEO} \begin{pmatrix} \dot{\phi_r} \\\ \dot{\phi_p} \\\ \dot{\phi_3} \end{pmatrix}.
@@ -93,7 +93,7 @@ $$
 F_i=\frac{(p_i-q_i)}{\lvert p_i-q_i\rvert}\left(\lvert p_i-q_i\rvert-L\right).
 $$
 
-For simplicity, and in order to obtain more rapid and precise convergence, we use a non linear (quadratic) spring law:
+For simplicity, and in order to obtain more rapid and precise convergence, we use a nonlinear (quadratic) spring law:
 
 $$
 F_i=(p_i-q_i)\left(\lvert p_i-q_i\rvert^2-L^2\right).
