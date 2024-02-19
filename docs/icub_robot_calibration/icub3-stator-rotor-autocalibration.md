@@ -44,6 +44,7 @@ Looking at par64, the rightmost 4 digits are the offset: `0x0079` = `121` degree
 !!!warning
     The 8 leftmost digits (in the example `0xffcc0042`) must be not `0`!<br>
     Otherwise the calibration is failed/not completed. 
+    It should be noted that the default value is `0xffff`.
 
 !!!note
     The joint number is determined by its `2FOC` CAN address, considering that `adr` can be in [1-4]: 
