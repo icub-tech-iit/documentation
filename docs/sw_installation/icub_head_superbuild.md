@@ -42,7 +42,7 @@ directories.
 ## Compile robotology-superbuild
 ~~~sh
 cd /usr/local/src/robot/robotology-superbuild
-mkdir build
+mkdir build && cd build
 cmake -DROBOTOLOGY_USES_GAZEBO:BOOL=OFF -DROBOTOLOGY_ENABLE_ICUB_HEAD:BOOL=ON ..
 make
 ~~~
