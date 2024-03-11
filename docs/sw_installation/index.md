@@ -13,5 +13,3 @@ Regardless of how you installed your software, you can check if it has been inst
 
 The standard installation procedure is appropriate for normal developers system, but some machines on the iCub setup, in particular the `icub-head` system that is installed in the head of the iCub robot, requires specific software installation instructions. You may find those in the "Installation on specific systems on iCub setup" menu section.
 
-Finally, if you are not interested in developing new applications, but rather to deploy existing applications on the iCub, check out the [Robot Bazaar](https://robot-bazaar.iit.it) website and the [RAPID docker-based deployment system](https://github.com/icub-tech-iit/appsAway).
-
