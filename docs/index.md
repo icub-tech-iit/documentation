@@ -11,4 +11,4 @@
 
 #### [:computer:{.blink} Documentation resources on the `iCub Software`](icub_sw.md)
 
-#### [:books:{.blink} The main `iCub Website`](https://icub.iit.it/)
+#### [:globe_with_meridians:{.blink} The main `iCub Website`](https://icub.iit.it/)
