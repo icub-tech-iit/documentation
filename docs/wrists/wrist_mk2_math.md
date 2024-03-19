@@ -110,3 +110,14 @@ We also assume that the momentum of inertia of the platform is negligible with r
 - At runtime, we use as initial configuration the orientation obtained in the previous control cycle, so that we are sure to be starting from a configuration close to the real one.
 - If no variations occured in the encoder readings, there is no need for any calculation. 
 - For better numeric stability it is better to represent internally the platform orientation with a quaternion, normalizing it periodically.
+
+The algorithm can always find a solution if the gap between two arms is less that 180 deg. This is taken into account by the inverse geometrical problem solver, so that it never produces motor angle targets that lead to such singularities.
+
+## Algorithm backtraking
+The direct geometric problem solver uses variable gradient descent step and backtraking in order to improve performance by reducing the steps required to converge, as well as to improve rubusteness.
+It works in this way:
+
+- the gradient descent step $S$ is initialised to $S_{max}$, and the YPR configuration is initialised with that calculated in the previous control cycle, that should be close to the new solution
+- if the algorithm can't converge (singularity) then it performs backtraking to the last good YPR configuration, and divides the step by 2, and continues
+- if the step runs below $S_{min}$ then we have reinitialization to (0,0,0) know position, and the step is reinitialized to $S_{max}$.
+
