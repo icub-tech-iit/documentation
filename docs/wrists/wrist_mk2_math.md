@@ -115,9 +115,8 @@ The algorithm can always find a solution if the gap between two arms is less tha
 
 ## Algorithm backtraking
 The direct geometric problem solver uses variable gradient descent step and backtracking in order to improve performance by reducing the steps required to converge, as well as to improve robustness.
+
 It works in this way:
-
-- the gradient descent step $S$ is initialised to $S_{max}$, and the YPR configuration is initialised with that calculated in the previous control cycle, that should be close to the new solution
-- if the algorithm can't converge (singularity) then it performs backtraking to the last good YPR configuration, and divides the step by 2, and continues
-- if the step runs below $S_{min}$ then we have reinitialization to (0,0,0) know position, and the step is reinitialized to $S_{max}$.
-
+- The gradient descent step $S$ is initialized to $S_{max}$, and the YPR configuration is initialized with that calculated in the previous control cycle, which should be close to the new solution.
+- If the algorithm can't converge (singularity), then it performs backtracking to the last good YPR configuration, divides the step by 2, and continues.
+- If the step runs below $S_{min}$, then a reinitialization to the known position (0,0,0) takes place, and the step is reinitialized to $S_{max}$.
