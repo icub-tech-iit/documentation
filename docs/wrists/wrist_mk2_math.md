@@ -114,7 +114,7 @@ We also assume that the momentum of inertia of the platform is negligible with r
 The algorithm can always find a solution if the gap between two arms is less that 180 deg. This is taken into account by the inverse geometrical problem solver, so that it never produces motor angle targets that lead to such singularities.
 
 ## Algorithm backtraking
-The direct geometric problem solver uses variable gradient descent step and backtraking in order to improve performance by reducing the steps required to converge, as well as to improve rubusteness.
+The direct geometric problem solver uses variable gradient descent step and backtracking in order to improve performance by reducing the steps required to converge, as well as to improve robustness.
 It works in this way:
 
 - the gradient descent step $S$ is initialised to $S_{max}$, and the YPR configuration is initialised with that calculated in the previous control cycle, that should be close to the new solution
