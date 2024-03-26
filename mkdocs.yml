@@ -266,7 +266,9 @@ nav:
         - BCB Board:
           - Bluetooth Protocol: battery_boards/bcb_board/bcb_bluetooth_protocol.md
         - BAT Board:
-          - BAT board Protocol: battery_boards/bat_board/bat_protocol.md
+          - BAT board: battery_boards/bat_board/bat_board.md
+        - BMS Board:
+          - BMS board: battery_boards/bms_board/bms_board.md
       - Robot Calibration:
         - iCub 2.X Robot Calibration: icub_robot_calibration/icub-robot-calibration-v2.x.md
         - iCub 1.3 Robot Calibration: icub_robot_calibration/icub-robot-calibration-v1.3.md
