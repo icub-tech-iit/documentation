@@ -16,6 +16,11 @@
 |              |        | l_wrist_yaw   | ROT  | l_forearm   | l_wrist_1   | -92°              | 92°               | -92°          | 92°           | W1 in fig.   |
 |              |        | l_wrist_roll  | ROT  | l_wrist_1   | l_wrist_2   | -62°              | 52°               | -33°          | 40°           | W2 in fig.   |
 |              |        | l_wrist_pitch | ROT  | l_wrist_2   | l_hand_palm | -32°              | 32°               | -20°          | 20°           | W3 in fig.   |
+|              |                        |      |             |             |                   |                   |               |               |              |
+|              |        | r_elbow       | ROT  | r_upperarm  | r_forearm   | -                 | -                 | -             | -             |              |
+|              |        | r_wrist_yaw   | ROT  | r_forearm   | r_wrist_1   | -                 | -                 | -92°          | 92°           |              |
+|              |        | r_wrist_roll  | ROT  | r_wrist_1   | r_wrist_2   | -                 | -                 | -33°          | 40°           |              |
+|              |        | r_wrist_pitch | ROT  | r_wrist_2   | r_hand_palm | -                 | -                 | -20°          | 20°           |              |
 
 <p align="center">
   <img  src=    "../img/pitches.png"
