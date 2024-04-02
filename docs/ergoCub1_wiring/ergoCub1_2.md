@@ -2,7 +2,7 @@
 The system architecture of ergoCub1.2 is depicted in the following image:
 
 <center>
-  <img src ="../img/ergoCub1.1_architecture.png" width=1000>      
+  <img src ="../img/ergoCub1.2_architecture.png" width=1000>      
 </center>
 
 ### Logic and Harness ergoCub 1.2 Full Robot 
