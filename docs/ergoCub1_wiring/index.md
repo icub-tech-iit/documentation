@@ -6,3 +6,4 @@ Please click on any of the link below to go to the right page.
 
 - [**ergoCub 1.0**](ergoCub1_0.md)
 - [**ergoCub 1.1**](ergoCub1_1.md)
+- [**ergoCub 1.2**](ergoCub1_2.md)
