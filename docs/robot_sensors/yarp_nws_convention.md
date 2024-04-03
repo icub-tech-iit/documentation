@@ -120,12 +120,11 @@ The `RgbdSensor_nws_yarp` device will open the following YARP ports:
 
 #### RGBD Camera client device
 
-!!! note
+!!! warning
 
-    At the moment no client device is available for depth cameras, so the server needs to be accessed directly from the above ports.
+    These YARP ports are not meant to be accessed directly, but should be accessed instead via the [`RGBDSensorClient`](https://www.yarp.it/latest/classRGBDSensorClient.html) device.
 
-Even though client devices are not available, YARP provides interfaces to create a client application:
-
+The client device will expose sensors related to the following interfaces:
 - [`yarp::dev::IRGBDSensor`](https://yarp.it/latest/classyarp_1_1dev_1_1IRGBDSensor.html)
 - [`yarp::dev::IDepthVisualParams`](https://yarp.it/latest/classyarp_1_1dev_1_1IDepthVisualParams.html)
 - [`yarp::dev::IRgbVisualParams`](https://yarp.it/latest/classyarp_1_1dev_1_1IRgbVisualParams.html)
