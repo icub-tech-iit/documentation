@@ -276,8 +276,8 @@ nav:
         - Stereo Calibration: icub_robot_calibration/icub-stereo-calib.md
         - iCub 3 Stator-Rotor auto-calibration: icub_robot_calibration/icub3-stator-rotor-autocalibration.md
       - Calibration Types:
-        - iCub 2.X and R1 Calibration types: icub_r1_icub3_calibration_types/icub_r1_calibration_types.md
-        - iCub 3 Calibration types: icub_r1_icub3_calibration_types/icub3_calibration_types.md
+        - Standard Calibration types: robot_calibration_types/standard_calibration_types.md
+        - iCub 3 Calibration types: robot_calibration_types/icub3_calibration_types.md
       - Robot Configuration:
          - Summary: icub_robot_configuration/icub_robot_configuration_index.md
          - Structure of robot configuration data set: icub_robot_configuration/structure_robot_configuration_data_set/structure_robot_configuration_data_set.md
