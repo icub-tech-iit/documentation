@@ -1,5 +1,5 @@
-# Calibration types available on iCub 2.X and R1 robots
-The aims of this document is to provide expert users with some technical information about `joints` calibration types on `R1` and `iCub` robots based on Ethernet in order to set the desired `zero position` of the robot.
+# Standard Calibration Types
+The aims of this document is to provide expert users with some technical information about `joints` calibration types on our robots (e.g., `iCub`, `ergoCub`, `R1`) that are based on Ethernet, in order to set the desired `zero position` of the robot.
 
 The type of calibration depends on the encoders and on the mechanics of the joints.
 
