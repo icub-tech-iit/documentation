@@ -1,4 +1,4 @@
-# Calibration types available on iCub 3
+# Calibration Types available on iCub 3
 The table below aims to provide expert users with some technical information about calibration types on `iCub 3` robot.
 
 <table>
