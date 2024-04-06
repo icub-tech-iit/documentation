@@ -10,7 +10,7 @@ on:
       initial_distro:
         description: 'The initial SW Distro to process (e.g. 0000.00 will process all distros)'
         required: true
-        default: '2021.11.0'
+        default: '2022.02.0'
 
 concurrency:
   group: update_sw_distros
