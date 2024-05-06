@@ -15,7 +15,7 @@ under the same directory:
 - Goto https://www.microchip.com/mplab/mplab-x-ide and browse down to "Downloads" 
 section and download the latest version of MPLAB® X IDE driver for Windows 
 (currently v5.40).
-- follow the instruction and default options
+- follow the instructions and default options
 
 ## Installing the MPLAB XC Compilers
 
@@ -33,16 +33,16 @@ options in the steps that follow.
 - Download Install the "MPLAB XC16 Compiler Part-Support Patch vX.XX" from the 
 subsection "Latest Part Support Patch Files". This is a priori for supporting new 
 parts, but actually the dsPIC used in our setup, version **33FJ128MC802**, appears 
-in the "supported parts in the update" secttion of the 
+in the "supported parts in the update" section of the 
 [release notes of the patch](https://ww1.microchip.com/downloads/en/DeviceDoc/XC16-v1.50-part-support-release-notes.html).
 - Download Install the "Current Peripheral Libraries" -> "16-bit dsPIC33, PIC24E, 
 PIC24H MCUs: Legacy Peripheral Libraries" from the subsection "Peripheral Libraries 
 (PLIBS)" (latest version of "PIC24/dsPIC Peripheral Libraries v2.00 - Windows" 
-[here](https://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en574967)).
+[here](https://www.microchip.com/SWLibraryWeb/product.aspx?product=PIC24%20MCU%20dsPIC%20Peripheral%20Lib)).
 
 ### Note on the "MPLAB XC16 Compiler vX.XX" compiler
 
-The compiler "MPLAB XC16 Compiler v1.50" alone is missing some dependencies like the include `<pwm12.h>`. If you build the project without the mentioned additonnal patches, you'll get the error:
+The compiler "MPLAB XC16 Compiler v1.50" alone is missing some dependencies like the include `<pwm12.h>`. If you build the project without the mentioned additional patches, you'll get the error:
 ```
 CLEAN SUCCESSFUL (total time: 8ms)
 make -f nbproject/Makefile-default.mk SUBPROJECTS= .build-conf
@@ -64,11 +64,11 @@ In file included from ../src/Faults.c:5:0:
 ../include/PWM.h:10:19: fatal error: pwm12.h: No such file or directory
 compilation terminated.
 ```
-This is a known issue with the latest drivers released after version **v1.24**. The fast workaround in the previous setup was to revert the driver back to version 1.24. That version should be available in https://www.microchip.com/development-tools/pic-and-dspic-downloads-archive, but does not clearly appear in section "MPLAB C Compiler for PIC24 and dsPIC DSCs" and seems to be available only as "Source Archives". The real cause of the issue is actually explained in the [v1.25 release notes](http://ww1.microchip.com/downloads/en/DeviceDoc/XC16-v-1.25%20release%20notes.html):
+This is a known issue with the latest drivers released after version **v1.24**. The fast workaround in the previous setup was to revert the driver back to version 1.24. That version should be available at https://www.microchip.com/development-tools/pic-and-dspic-downloads-archive, but does not clearly appear in the section "MPLAB C Compiler for PIC24 and dsPIC DSCs" and seems to be available only as "Source Archives". The real cause of the issue is actually explained in the [v1.25 release notes](http://ww1.microchip.com/downloads/en/DeviceDoc/XC16-v-1.25%20release%20notes.html):
 ```
 The peripheral libraries are no longer shipped with the compiler package. These may be downloaded separately from the MPLAB XC download page.
 ```
-So, the proper fix is to download the additional Legacy Peripheral Libraries as explained int the previous section.
+So, the proper fix is to download the additional Legacy Peripheral Libraries as explained in the previous section.
 
 ## Running the MPLAB X IDE [WIP]
 
