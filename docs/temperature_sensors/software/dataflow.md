@@ -24,12 +24,24 @@ The `2FOC` performs some checks while reading the temperature from the `I2C` and
 The TDB board sends 3 bytes on the `I2C` bus: the temperature value (2 bytes) and its configuration (1 byte). The `2FOC` verifies mainly the configuration byte.
 
 
-The possible errors currently managed are the following:
+The **possible errors** currently managed are the following:
 
 - `-90` : the `2FOC` cannot read from the `I2C`, meaning that the `ACK` is not received from the `TDB`.
 - `-70` : the reading cannot be done for 10 consecutive seconds. An overheating fault is triggered.
 - `-50` : the TDB loses the given configuration and uses the default one. In this case, the 2FOC restores the desired configuration.
 - `-30` : the `TDB` sets any configuration value different from both the desired and the default one.
+
+
+
+In the **logfile**, the `yarprobotinterface` prints the raw value instead the  degree Celsius. You can use the following table to understand the error. 
+
+| **Degree Celsius**  | **Raw value for PT100**  |  **Raw value for PT1000** |
+|:---:|:---:|:---:|
+|  `-90` | `-1141`  |  `-2729` |
+| `-70`  | `-886`  |  `-4613` |
+|  `-50` | `-631 `  | `-6549`  |
+|  `-30` |  `-378`  |  `-8541` |
+
 
 
 The `2FOC` triggers the `Overheating` error, so the motor is set in Hardware fault, when:
