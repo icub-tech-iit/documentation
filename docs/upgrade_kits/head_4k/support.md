@@ -2,11 +2,11 @@
 
 !!! warning
 
-    This UKIT is still work in progress!
+    This UKIT is still a work in progress!
 
 ## Upgrade Kit
 
-This upgrade kit is meant to update the head with high resolution cameras, bigger FOV lenses, more reliable eyes' tilt mechanism and new computational units.
+This upgrade kit is meant to update the head with high-resolution cameras, bigger FOV lenses, a more reliable eyes' tilt mechanism, and new computational units.
 
 <center> ![](img/1.JPG) </center>
 
@@ -19,8 +19,8 @@ This upgrade kit is meant to update the head with high resolution cameras, bigge
 |  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
 | 1 |    | MKIT_009 |   | Pieces  |  1  |  |
-|  2  | 17018 |		WKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU and COM Express Type 10 (wiring) |
-|  3  | 16519 |		EKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU and COM Express Type 10 (electronics) |
+|  2  | 17018 |		WKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU, and COM Express Type 10 (wiring) |
+|  3  | 16519 |		EKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU, and COM Express Type 10 (electronics) |
 
 ## Content material  MKIT_009
 
@@ -169,7 +169,7 @@ To use the [gaze controller](https://robotology.github.io/robotology-documentati
 
 ## Software instructions
 
-This UKIT includes also an additional [NVIDIA Jetson Xavier NX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) mounted on the top of the head, for handling the [Basler 4K cameras](https://docs.baslerweb.com/cameras) and performing image processing on the onboard GPU.
+This UKIT also includes an additional [NVIDIA Jetson Xavier NX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) mounted on the top of the head, for handling the [Basler 4K cameras](https://docs.baslerweb.com/cameras.html) and performing image processing on the onboard GPU.
 The NVIDIA Jetson has to be configured following [the flash procedure](../../icub_operating_systems/icubos/jetpack.md).
 
 If the image has been [installed from scratch](../../icub_operating_systems/icubos/jetpack.md#flash-a-new-image-from-scratch), an initial configuration is also required, which consists in:
