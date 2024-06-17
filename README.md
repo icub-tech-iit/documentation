@@ -6,7 +6,6 @@ iCub Tech Docs
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 - 🌐 Browse our [online documentation](https://icub-tech-iit.github.io/documentation).
-- ℹ️ You may consider checking out also our [old documentation](http://wiki.icub.eu/wiki/Main_Page), which might contain useful information that we haven't migrated yet.
 - 📝 Importantly, you can contribute to these docs by fixing typos and proposing new additions (see below).
 
 # Contributing
