@@ -1,6 +1,6 @@
 # Calibration type 10 details - AMO Encoder Joint Calibration
 
-This page shows how the calibration procedure used for `iCub 3/ergoCub` joints that mount an AMO encoder at the joint works.
+This section illustrates the details of the calibration procedure used for the `iCub 3/ergoCub` joints that mount an AMO encoder at the slow shaft.
 As already detailed in the [`calibration-10-procedure`](./standard_calibration_types.md/#calibration-10) joints provided with the `AMO` encoder are currently calibrated so that it can be handled as an incremental encoder coupled with a quadrature encoder placed at the motor.
 
 ## Calibration workflow
