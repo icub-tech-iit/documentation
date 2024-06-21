@@ -277,6 +277,7 @@ nav:
         - iCub 3 Stator-Rotor auto-calibration: icub_robot_calibration/icub3-stator-rotor-autocalibration.md
       - Calibration Types:
         - Standard Calibration types: robot_calibration_types/standard_calibration_types.md
+        - AMO Encoder joint calibration type 10 details: robot_calibration_types/amo_encoder_joint_calibration_10_details.md
         - iCub 3 Calibration types: robot_calibration_types/icub3_calibration_types.md
       - Robot Configuration:
          - Summary: icub_robot_configuration/icub_robot_configuration_index.md

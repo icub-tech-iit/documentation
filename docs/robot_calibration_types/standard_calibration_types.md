@@ -140,6 +140,8 @@ This calibration is used for joints with relative encoders, which are calibrated
 
 Regarding iCub 3 and the AMO boards, the AMO magnetic target is subdivided into 64 or 32 sectors. The AMO sensor provides a 14-bit resolution per sector, for a total of 14+6=20 or 14+5=19 bits per revolution resolution, respectively. The `Gearbox_E2J` parameter must be configured with the number of sectors in the corresponding `mechanicals/part-mec.xml` file.
 
+Further details of how the workflow of the whole calibration type 10 is managed are outlined on [this page](./amo_encoder_joint_calibration_10_details.md).
+
 |   |   |
 |---|---|
 |`Calibration type`| 10|
