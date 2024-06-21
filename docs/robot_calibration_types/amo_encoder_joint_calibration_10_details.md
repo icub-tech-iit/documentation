@@ -10,7 +10,7 @@ Complete pipeline for the `calibration type 10` using `AMO encoder` at joint and
     <img  src="../img/calibration-amo-abs-enc.png" width="700">
 </p>
 
-As you can see in the above-reported state machine, after the calibration command is received by the EMS, a timer of 30 seconds gets triggered; afterward, we want untile the motor encoder calibration ends; finally, the calibration procedure 10 commences.
+As you can see in the above-reported state machine, after the calibration command is received by the EMS, a timer of 30 seconds gets triggered; afterward, we wait until the motor encoder calibration ends; finally, the calibration procedure 10 commences.
 
 The procedure basically consists in moving the slow shaft towards one of the hardware limits as defined in the position set within the calibration parameter `calibrationZero`. The value of the PWM used is in turn defined through the parameter `calibration1`. The joint moves until the limit is reached within a time window and within a predefined maximum length, whose values are coded in the firmware.
 
