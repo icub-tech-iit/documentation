@@ -1,19 +1,23 @@
 # The NVIDIA JetPack - Introduction
 
-This guide is intended for developers who want to flash and set up the [Nvidia Jetson Xavier boards](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-series/) (i.e., AXG, NX).
+This guide is intended for developers who want to flash and set up the [Nvidia Jetson boards](https://www.nvidia.com/it-it/autonomous-machines/). These units use a [ConnectTech carrier board](https://connecttech.com/products/), so the preliminary instructions will be focused on that specific hardware. The table below shows _as an example_ the tested setup for each Nvidia board currently in use.
 
-These units use a ConnectTech carrier board ([Quark](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the Xavier NX, [Rogue](https://connecttech.com/product/rogue-carrier-nvidia-jetson-agx-xavier/) for the AGX), so the preliminary instructions will be focused on that specific hardware.
+|Nvidia board|OS|JetPack |ConnectTech carrier board|BSP|
+|:---:|:---:|:---:|:---:|:---:|
+|Xavier AGX|Ubuntu 20.04|5.0.2|[Rogue](https://connecttech.com/product/rogue-carrier-nvidia-jetson-agx-xavier/)| [r35.0.1](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-AGX-Xavier/AGX-35.1.0.pdf)|
+|Xavier NX|Ubuntu 18.04|4.6.2|[Quark](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/)|[r32.7.2](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-Xavier-NX/XAVIER-NX-32.7.2.pdf) |
+|Orin NX|Ubuntu 20.04|5.1.2|[Boson for FRAMOS](https://connecttech.com/product/boson-for-framos-carrier-board-for-nvidia-jetson-xavier-nx/)|[r35.4.1](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-Orin-NX-Orin-Nano/ORIN-NX-NANO-35.4.1_.pdf) |
 
 # Requirements
 
 ## Hardware
 - x86 PC/laptop for downloading Jetpack and flashing the OS
-- USB-C to USB-A (or USB-C to USB-C) cable to connect the PC to the ConnecTech carrier
+- USB-C to USB-A (or USB-C to USB-C) cable to connect the PC to the ConnectTech carrier
 - Power supply cable
 - Bench/System/ATE programmable DC power supply, capable of supplying 20V/2A
-- (optional) Ethernet cable to connect the Xavier to access it with SSH
+- (optional) Ethernet cable to connect the board to access it with SSH
 
-To use the Xavier directly without SSHing into it:
+To use the Jetson board directly without SSHing into it:
 - HDMI cable to connect to an external display
 - USB mouse and keyboard
 
@@ -22,15 +26,14 @@ On the developer's host PC:
 
 - Ubuntu 18.04-20.04 (depending on the version of the JetPack)
 - Nvidia JetPack installed through SDK Manager (instructions below)
-- Xavier [Connecttech BSP](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/) for the `board_type` board (e.g. AGX, NX) and JetPack `jetpack_ver`(e.g 4.4.2, 5.0.2). (Not required if you already have the image ready to flash)
+- [Connecttech BSP](https://connecttech.com/product/) **specific** for the `board_type` board (e.g. Xavier AGX, Orin NX) and JetPack `jetpack_ver` (e.g. 5.0.2, 5.1.2). (Not required if you already have the image ready to flash)
 
 # Instructions
 
 ## Carrier hardware configuration
-Make sure that the switches on the carrier are set like in the picture below, so that the unit can boot manually when pressing the power (PWR) button. DO NOT power on the unit until instructed.
+Each carrier board could be equipped with different switches that should be set at the startup. For example, for the `Rogue` carrier, make sure that the switches on the carrier are set like in the picture below, so that the unit can boot manually when pressing the power (PWR) button. DO NOT power on the unit until instructed.
 
 ![](../img/switches.jpg)
-
 
 ## Hardware connection
 1. Connect the carrier to the power supply through the provided cable, and set the power supply to 16V/2A.
@@ -40,29 +43,29 @@ Make sure that the switches on the carrier are set like in the picture below, so
 
 ![](../img/usbotg.jpg)
 
-
 ## Flash a new image from scratch
 
 If you need to install an new JetPack image from scratch please follow the following steps.
 
+### Jetpack setup on the host 
 
-### Jetpack setup on the host
 1. Download the Nvidia SDK manager from the [official website](https://developer.nvidia.com/embedded/jetpack) by clicking *Download Nvidia SDK Manager*
 2. Run SDKManager and login with developer.nvidia.com credentials, and follow these steps:
    1. Set the following options:
-      - Target Hardware: Jetson Xavier `board_type`
+      - Target Hardware: Jetson `board_type`
       - Target operating system: *Linux Jetpack `jetpack_ver`*.
    2. Check that everything is selected and continue
-   3. The SDKManager will ask the user password to download all the components and it will install them into a local folder on the host (~12Gb of free space required); remember: this is the password of the local Ubuntu host, not the Jetson Xavier.
-   4. After the installation, the SDK Manager will be ready to flash the OS image on the Xavier; **Do not preceed further!** Press SKIP to abort the operation and quit from the SDK Manager
-3. Download the ConnectTech board support package from the [official website](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/): under Downloads click on the BSP you need, it will be downloaded as `.tgz` archive.
-4. At this point the `sdkManager` should have created a folder tree in `~/nvidia` containing all the files needed for the flash. Copy the `.tgz` package downloaded from ConnectTech website into `~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra/`
+   3. The SDKManager will ask the user password to download all the components and it will install them into a local folder on the host (~12Gb of free space required); remember: this is the password of the local Ubuntu host, not the Jetson one.
+   4. After the installation, the SDK Manager will be ready to flash the OS image on the Nvidia board; **Do not preceed further!** Press SKIP to abort the operation and quit from the SDK Manager
+3. Download the ConnectTech board support package from the [official website](https://connecttech.com/product/): under Downloads click on the BSP you need, it will be downloaded as `.tgz` archive.
+4. At this point the `SDKManager` should have created a folder tree in `~/nvidia` containing all the files needed for the flash. Copy the `.tgz` package downloaded from ConnectTech website into `~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra/`
 5. Extract the BSP: `tar -xzf CTI-<*>.tgz`
+6. Now, go into the CTI-L4T directory: `cd ./CTI-L4T`
+7. Run the install script (as root or sudo) to automatically install the BSP files to the correct locations: `sudo ./install.sh`
 
 Before flashing the image, we need first to put the board in recovery mode.
 
-
-### Booting the Xavier in Recovery mode
+### Booting the Nvidia Jetson board in Recovery mode
 
 With the **Nvidia Jetson Xavier AGX**:
 
@@ -72,9 +75,11 @@ With the **Nvidia Jetson Xavier AGX**:
 4. Press the power (PWR) button for at least one second. Wait for several seconds
 5. Release the FR button.
 
-Now the board is programming mode.
+Now the board is in programming mode.
 
 With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
+
+With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset when the fan starts and, after ~2 sec, release the FR button too.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
@@ -86,20 +91,24 @@ The board is in recovery mode if it appears something like this
 
 ![](../img/lsusb.png)
 
-
 ### Flash the image
 
-At this point we are ready to flash, in the host:
+At this point we are ready to flash.
 
-1. Change into the CTI-L4T directory: `cd ./CTI-L4T`
-2. Run the install script (as root or sudo) to automatically install the BSP files to the correct locations: `sudo ./install.sh`
+1. From the previously folder, do `cd ..` to return to the Linux_for_Tegra directory
+2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
 
-[Here](https://connecttech.com/resource-center/kdb373/) you can find the tutorial about the procedure by ConnectTech.
+!!! note
 
+    For the `Jetson Orin NX` board, since it is equipped with the nvme disk, the flashing script to be launched is: `sudo ./cti-nvme-flash.sh cti/orin-nx/boson/base`
+
+!!! tip
+
+    Check out the [ConnectTech tutorial](https://connecttech.com/resource-center/kdb373/) explaining the complete procedure.
 
 ### Verify the installation
 After the reboot process, you should be greeted with the OS configuration wizard.
-After configuring the system, the Xavier should boot normally and be ready to use.
+After configuring the system, the Jetson board should boot normally and be ready to use.
 
 ### Post-flashing operations
 
