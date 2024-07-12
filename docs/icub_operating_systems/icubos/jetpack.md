@@ -99,6 +99,7 @@ At this point we are ready to flash.
 2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
 
 !!! note
+
     For the `Jetson Orin NX` board, since it is equipped with the nvme disk, the flashing script to be launched is: `sudo ./cti-nvme-flash.sh cti/orin-nx/boson/base`
 
 !!! tip
