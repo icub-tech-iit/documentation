@@ -67,19 +67,19 @@ Before flashing the image, we need first to put the board in recovery mode.
 
 ### Booting the Nvidia Jetson board in Recovery mode
 
-- With the **Nvidia Jetson Xavier AGX**:
+With the **Nvidia Jetson Xavier AGX**:
 
-  1. Press the Force Recovery (FR) button on the carrier and keep it pressed
-  2. Turn on the power supply (16V)
-  3. Wait for several seconds, keeping the FR button pressed
-  4. Press the power (PWR) button for at least one second. Wait for several seconds
-  5. Release the FR button.
+1. Press the Force Recovery (FR) button on the carrier and keep it pressed
+2. Turn on the power supply (16V)
+3. Wait for several seconds, keeping the FR button pressed
+4. Press the power (PWR) button for at least one second. Wait for several seconds
+5. Release the FR button.
 
-   Now the board is in programming mode.
+Now the board is in programming mode.
 
-- With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
+With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
-- With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset when the fan starts and, after ~2 sec, release the FR button too.
+With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset when the fan starts and, after ~2 sec, release the FR button too.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
