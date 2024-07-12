@@ -98,8 +98,8 @@ At this point we are ready to flash.
 1. From the previously folder, do `cd ..` to return to the Linux_for_Tegra directory
 2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
 
-> [!Note]  
-> For the `Jetson Orin NX` board, since it is equipped with the nvme disk, the flashing script to be launched is: `sudo ./cti-nvme-flash.sh cti/orin-nx/boson/base`
+!!! note
+    For the `Jetson Orin NX` board, since it is equipped with the nvme disk, the flashing script to be launched is: `sudo ./cti-nvme-flash.sh cti/orin-nx/boson/base`
 
 [Here](https://connecttech.com/resource-center/kdb373/) you can find the tutorial about the complete procedure by ConnectTech.
 
