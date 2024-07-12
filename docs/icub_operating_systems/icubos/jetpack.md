@@ -75,7 +75,7 @@ Before flashing the image, we need first to put the board in recovery mode.
   4. Press the power (PWR) button for at least one second. Wait for several seconds
   5. Release the FR button.
 
-   Now the board is programming mode.
+   Now the board is in programming mode.
 
 - With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
