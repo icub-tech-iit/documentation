@@ -101,7 +101,9 @@ At this point we are ready to flash.
 !!! note
     For the `Jetson Orin NX` board, since it is equipped with the nvme disk, the flashing script to be launched is: `sudo ./cti-nvme-flash.sh cti/orin-nx/boson/base`
 
-[Here](https://connecttech.com/resource-center/kdb373/) you can find the tutorial about the complete procedure by ConnectTech.
+!!! tip
+
+    Check out the [ConnectTech tutorial](https://connecttech.com/resource-center/kdb373/) explaining the complete procedure.
 
 ### Verify the installation
 After the reboot process, you should be greeted with the OS configuration wizard.
