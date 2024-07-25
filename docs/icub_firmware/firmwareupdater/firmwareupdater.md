@@ -2,7 +2,7 @@
 With the `FirmwareUpdater` application it is possible to perform GUI-based FW update on both CAN- and ETH-based robots; the commonly used functionalities are:
 
 - Upload `application` firmware both on `ETH` boards and `CAN` boards
-- Change the `IP addrress` for ethernet based boards
+- Change the `IP address` for ethernet based boards
 - Change the `CAN ID` for the CAN based boards
 - Update the `eLoader` (advanced option)
 - Update the `eUpdater` (advanced option)
