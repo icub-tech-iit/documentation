@@ -21,16 +21,7 @@ This repository is maintained by:
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
-## 🔘 [Gitpod](https://www.gitpod.io)
-First off, sign up for Gitpod using your GitHub credentials. You'll have 50 hours/month of free usage on public and private repositories. Also, remember to visit the [Gitpod Integrations](https://gitpod.io/integrations) to make sure that all GitHub permissions are ticked in.
-
-Then, install the [Gitpod browser extension](https://www.gitpod.io/docs/browser-extension).
-
-| Click to enlarge |
-| :---: |
-| ![](./assets/gitpod.gif) |
-
-## 🔘 [GitHub Codespaces](https://github.com/features/codespaces) (if available)
+## 🔘 [GitHub Codespaces](https://github.com/features/codespaces)
 
 | Click to enlarge |
 | :---: |

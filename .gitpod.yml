@@ -1,5 +1,0 @@
-image:
-  file: .gitpod.Dockerfile
-ports:
-- port: 8000
-  onOpen: notify
