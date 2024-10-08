@@ -5,5 +5,5 @@
 	},
 	"extensions": [],
 	"forwardPorts": [8000],
-	"remoteUser": "coder"
+	"remoteUser": "gitpod"
 }
