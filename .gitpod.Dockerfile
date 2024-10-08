@@ -10,9 +10,9 @@ RUN apt update && \
     apt install -y sudo apt-utils bash-completion wget ruby git magic-wormhole \
                    python3 python3-pip python3-setuptools python3-wheel
 
-RUN pip install mkdocs && \
+RUN pip install --break-system-packages mkdocs && \
     wget https://raw.githubusercontent.com/icub-tech-iit/documentation/master/mkdocs.yml && \
-    pip install $(mkdocs get-deps) && \
+    pip install --break-system-packages $(mkdocs get-deps) && \
     rm mkdocs.yml
 
 RUN gem install yaml
