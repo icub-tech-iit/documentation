@@ -3,7 +3,6 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	"extensions": [],
 	"forwardPorts": [8000],
 	"remoteUser": "gitpod"
 }
