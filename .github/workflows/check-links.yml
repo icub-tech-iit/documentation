@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Dependencies
         run: |
-          pip install --user --break-system-packages git+https://github.com/linkchecker/linkchecker.git
+          pip install --break-system-packages --user git+https://github.com/linkchecker/linkchecker.git
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
           
       - name: Fetch repository name

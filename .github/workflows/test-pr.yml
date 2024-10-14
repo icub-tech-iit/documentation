@@ -14,10 +14,10 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y python3-wheel python3-setuptools
-          pip install --upgrade Jinja2
-          pip install --user mkdocs
-          pip install --user $(mkdocs get-deps)
-          pip install --upgrade pygments
+          pip install --break-system-packages --upgrade Jinja2
+          pip install --break-system-packages --user mkdocs
+          pip install --break-system-packages --user $(mkdocs get-deps)
+          pip install --break-system-packages --upgrade pygments
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
         
       - name: Build Mkdocs
