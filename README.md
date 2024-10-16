@@ -46,7 +46,7 @@ Once installed, just clone this repo, navigate to it and install the required de
 ```console
 git clone https://github.com/icub-tech-iit/documentation.git
 cd documentation
-pip install $(mkdocs get-deps)
+pip install --break-system-packages $(mkdocs get-deps)
 ```
 
 Finally, serve the content:
