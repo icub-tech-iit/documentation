@@ -216,9 +216,8 @@ In order to insert these cables, you need to turn the 2 pulleys and align the te
 <img src='../img/shoulder/ICUB_ELBOW_LEFT.png' width = 80%>
 
 !!! warning
-    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#position001) or Lower Arm [**V2**](remove.md#position002)
-    
 
+    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#1-lower-arm-v1) or Lower Arm [**V2**](remove.md#2-lower-arm-v2)
     **OR** You are helped by **someone else** to hold the Lower Arm (Forearm + Hand).
 
 

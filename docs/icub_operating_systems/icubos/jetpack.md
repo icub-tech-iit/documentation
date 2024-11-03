@@ -228,7 +228,7 @@ sudo -H pip install -U jetson-stats
 ## Create a backup image
 
 For this step you need to have completed the [steps about the sdkManager](#jetpack-setup-on-the-host).
-Make sure that the Xavier was started in [recovery mode](#booting-the-xavier-in-recovery-mode) and it is found with `lsusb`.
+Make sure that the Xavier was started in [recovery mode](#booting-the-nvidia-jetson-board-in-recovery-mode) and it is found with `lsusb`.
 On the host machine go to the `Linux_for_Tegra` folder and run:
 
 ```bash

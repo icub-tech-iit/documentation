@@ -2,7 +2,7 @@
 
 Generally, the data flow related to the whole pipeline of the sensing of the motor temperature is quite simple and a brief summary is proposed here below, whose main purpose is to make the reader aware of how the temperature data is retrieved from the motor resistance thermometer and printed out to a YARP port. 
 
-In brief, as reported in the [introductory section](../general/overview.md#temperature-sensors), most of the `ergoCub` motors are currently provided with a `PT100`, which is a particular resistor able to correlate a value of temperature to a value of resistance in `Ohm`. The resistor is connected to a board called **Temperature Detection Board (TDB)**.
+In brief, as reported in the [introductory section](../general/overview.md#motor-temperature-sensors), most of the `ergoCub` motors are currently provided with a `PT100`, which is a particular resistor able to correlate a value of temperature to a value of resistance in `Ohm`. The resistor is connected to a board called **Temperature Detection Board (TDB)**.
 The TBD reads the `Ohm` value from the `PT100` (or `PT1000` for different types of motors) and streams out the raw data using the `I2C` protocol. This raw data is then received by the `2FOC` board at a frequency of `10 Hz` and, immediately after, handed over to the `EMS` board via the `CAN` bus. The `EMS` stores the temperature values in memory and sends them to `embObjMotionControl` together with all the other motor information.
 Upon reception of the motor temperature, `embObjMotionControl` converts the values from raw to Celsius and checks if the `warningTemperatureLimit` is overcome. In that case, it prints out a warning on the yarprobotinterface log. No other actions are taken.
 
