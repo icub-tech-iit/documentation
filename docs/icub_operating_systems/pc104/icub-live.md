@@ -11,9 +11,9 @@ At any time to determine the version of the image is running on your iCub, the f
 ## Latest version
 The latest version is 7.10 based on [Debian 10 (Buster)](https://www.debian.org/releases/buster/).
 
-!!! warning "`robotology-superbuild` stopped supporting Debian OS"
+!!! warning "`robotology-superbuild` stopped supporting Debian <= 10"
 
-    Please, consider that the last release of `robotology-superbuild` supporting Debian OS is [v2024.08.0](https://github.com/robotology/robotology-superbuild/releases/tag/v2024.08.0).
+    Please, consider that the last release of `robotology-superbuild` supporting Debian <= 10 is [v2024.08.0](https://github.com/robotology/robotology-superbuild/releases/tag/v2024.08.0).
     Check out [🏷️ issue #365](https://github.com/icub-tech-iit/documentation/issues/365) for further details.
 
 ## Versioning
