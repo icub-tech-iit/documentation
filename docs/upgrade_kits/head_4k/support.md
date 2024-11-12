@@ -6,7 +6,7 @@
 
 ## Upgrade Kit
 
-This upgrade kit is meant to update the head with high-resolution cameras, bigger FOV lenses, a more reliable eyes' tilt mechanism, and new computational units.
+This upgrade kit is meant to update the head with new eyes composed by high-resolution cameras, bigger FOV lenses, new GPU, new accomodation for the COM-Express in the backpack, new design for the upper cover of the backpack.  
 
 <center> ![](img/1.JPG) </center>
 
@@ -26,72 +26,32 @@ This upgrade kit is meant to update the head with high-resolution cameras, bigge
 
 <center> ![](img/3.JPG) </center>
 
-Alias | Description | Code | Rev | Qty
--- | -- | -- | -- | --
-V2_5-6--_-_ISO7045_CZ | screw – M2.5 x  6 – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2414 |   | 4
-V2-5--_-_ISO7045_CZ | screw – M 2 x 5 – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2429 |   | 5
-V2-6--_-_ISO7045_CZ | screw – M 2 x 6  – UNI7687 , DIN7985A , ISO7045 – SS A2 –    pozidriv cross recessed pan head | 2439 |   | 2
-V3-8--_-_U5931_GC | screw – M 3 x 8  – UNI5931 , DIN912  , ISO4762 – SS A2 –   hexagon socket cap head - fully threaded | 2467 |   | 2
-V3-8--_-_U5933_C | screw – M 3 x 8 – UNI5933 , DIN7991  , ISO10642 – SS A2 – hexagon   socket countersunk head | 2468 |   | 1
-D1_6--_-_I4032 | Hexagonal nut - M1.6 - stainless steel A2 - DIN934, ISO4032, UNI5588 | 2522 |   | 4
-V2_5-6--_-_ISO7046-1_CH | screw – M2.5 x 6  – UNI7688 , DIN965A  , ISO7046 – SS A2 –   phillips cross recessed flat head | 2583 |   | 10
-R1-6--_-_U6592 | Washer - flat regular type - M1.8 (1.7x4x0.3) - SS A2 140HV - DIN125 A,   ISO7089, UNI 6592 | 2590 |   | 2
-V1_6-4--_-_I1207_C | screw – M1.6 x 4  – UNI6107 , DIN84A  , ISO1207 – SS A2 –   slotted cheese head | 2593 |   | 8
-V2-4--_-_ISO7046-1_CH | screw – M 2 x 4  – UNI7688 , DIN965A  , ISO7046 – SS A2 –   phillips cross recessed flat head | 2707 |   | 3
-G2-3--_-_U5923_G | Set screw, hex socket, M2,0 x 3,0, stainless steel A2, DIN913, ISO4026,   UNI5923 | 4305 |   | 10
-HELICOIL_M2-5_L2D | HELICOIL Plus M2.5x5mm , stainless steel A2 | 4884 |   | 4
-STANDOFF-HEX-MF-2_5-10_PTFE | Standoff Hex PTFE M/F M2.5 L=10 | 5990 |   | 6
-B3-6--_-_U9200_A | SNAP RIVET UNI 9200-A 3X6 | 6730 |   | 4
-PEM_SMPS_M25 | PEM self-clinging nut - SMPS M2.5 THK MIN 0.64 | 10527 |   | 40
-S1-4--_-_I2338_B | Dowel pin Ø1.0 x 4 stainless steel A2, DIN7, ISO2338B, VSM12771, UNI1707 | 11950 |   | 4
-ICUB3_020_P_121 | V2 tilt gearbox output shaft | 12332 |   | 2
-S2-5--_-_I2338_B | Dowel pin 2.0 (h8) x 5 stainless steel A2, DIN7, ISO2338B, UNI1707 | 12652 |   | 2
-IC_002_G_011 | Box for speaker PUI-Audio AS04004PO-2-R assy | 12928 |   | 1
-IC_002_P_012 | Grid for speaker | 12930 |   | 1
-IC_002_P_016 | Standard head eyes tilt frame | 12932 |   | 1
-IC_011_G_002 | head tilt and motor lips frame assembly | 12934 | A1 | 1
-IGUS_JFM-0507-03 | Iglide J Flange bushing D5x3 | 14068 |   | 2
-PEM_SO-M4-10 | PEM Thru-Holes Standoff M4x10 (Steel) | 14069 |   | 2
-KONTRON_34099-0000-99-0_R2_1 | COMe mini Active Uni Cooler (w/o HSP) | 15626 |   | 1
-M2x06-6LOBE-ISO14583-A2-70 | M2x 6 , ISO14583, 6LOBE socket pan head machine screw, fully threaded,   A2-70 | 15853 |   | 4
-M2x08-6LOBE-ISO14583-A2-70 | M2x 8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded,   A2-70 | 15854 |   | 4
-M4x16-6LOBE-ISO14581-A2-70 | M4x16 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded,   A2-70 | 15862 |   | 2
-M2_5x06-6LOBE-ISO14581-A2-70 | M2.5x 6 , ISO14581, 6LOBE socket countersunk flat head screw, f.   threaded, A2-70 | 15931 |   | 6
-M2_5x04-6LOBE-ISO14583-A2-70 | M2.5x 4 , ISO14583, 6LOBE socket pan head machine screw, fully threaded,   A2-70 | 15991 |   | 8
-M2_5x05-6LOBE-ISO14583-A2-70 | M2.5x 5 , ISO14583, 6LOBE socket pan head machine screw, fully threaded,   A2-70 | 15992 |   | 16
-M2_5x10-6LOBE-ISO14583-A2-70 | M2.5x10 , ISO14583, 6LOBE socket pan head machine screw, fully threaded,   A2-70 | 15995 |   | 8
-M3x08-6LOBE-ISO14583-A2-70 | M3x 8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded,   A2-70 | 16024 |   | 2
-STANDOFF_MF_M2_5-8_BRASS | Standoff - hexagonal - Brass - MF - M2.5 x 8 | 16068 |   | 4
-ECUB_004_R_002 | Fan and heatsink for board ADVANTECH_SOM-7583C7-S8A1 | 16500 |   | 1
-RS_196-5457 | Metric Nitrile 70 ShA O-Rings Ø int. 2.6mm, Ø ext. 5.4mm 1.4mm | 16512 |   | 8
-STANDOFF_MF_M2_5-5_BRASS | Standoff - hexagonal - Brass - MF - M2.5 x 5 | 16517 |   | 8
-IC_031_G_005 | icub, Head main Chassis | 16520 |   | 1
-IC_031_G_006 | icub, rear support for head chassis | 16521 |   | 1
-IC_031_G_007 | icub, Connetch support for head | 16522 |   | 1
-IC_031_P_020 | icub, head , adapter for head covers | 16523 |   | 2
-IC_031_P_028 | icub, head, Support for wiFi module | 16524 |   | 3
-IC_032_G_004 | EXPRESSIVE HEAD MAIN FRAME ASSY | 16525 |   | 1
-IC_032_G_010 | icub, head frame boards assembly | 16526 |   | 1
-IC_032_G_011 | Neuromoprphic eye | 16527 |   | 1
-IC_032_G_012 | V2 eye CCD group | 16528 |   | 1
-IC_032_G_013 | eye pan motor-gerabov assembly | 16529 |   | 1
-IC_032_G_014 | eyes and speaker assembly | 16530 |   | 1
-IC_032_G_015 | eye support main group | 16531 |   | 1
-IC_032_G_016 | Neuromoprphic eye | 16532 |   | 1
-IC_032_G_017 | eye pan motor-gerabov assembly | 16533 |   | 1
-IC_032_G_018 | V2 eye CCD group | 16534 |   | 1
-IC_032_G_019 | eyelid bushing and gear group | 16535 |   | 1
-IC_032_G_020 | eye bulb assembly with helicoil | 16536 |   | 2
-IC_032_G_025 | icub, RFE electronic board Support | 16537 |   | 1
-IC_032_P_010 | Eyelid reinforcement | 16538 |   | 1
-IC_032_P_011 | eyes pan gearbox motor base | 16539 |   | 2
-IC_032_P_012 | V2 eye tilt motor gearbox | 16540 |   | 2
-IC_032_P_013 | Eye CCD mounting plate | 16541 |   | 2
-IC_032_P_015 | lens holder | 16542 |   | 2
-IC_032_P_016 | Inner eye | 16543 |   | 2
-IC_032_P_017 | External ball eye | 16544 |   | 2
-IC_032_P_018 | eyelid upper | 16545 |   | 1
-
+| Alias                         | Description                                                                 | Code  | Rev | Qty |
+|-------------------------------|-----------------------------------------------------------------------------|-------|-----|-----|
+| RMB_UL_255X                    | RMB BEARING UL 255X                                                           | 2344  |   | 4   |
+| V2-12--_-_ISO7045_CZ           | CROSS RECESSED SCREW ISO7045 M2X12 Z                                         | 2423  |     | 2   |
+| V2-6--_-_ISO7045_CZ            | CROSS RECESSED SCREW ISO7045 M2X6 Z                                          | 2439  |     | 4   |
+| V2-10--_-_ISO7046-1_CH         | CROSS RECESSED SCREW ISO7046-1 M2X10 H                                        | 2596  |     | 2   |
+| G2-2--_-_U5923_G               | Set screw, hex socket, M2,0 x 2,0, stainless steel A2, DIN913, ISO4026, UNI5923 | 12766 |     | 4   |
+| M3X06-6LOBE-ISO14581-A2-70     | M3 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 2   |
+| M1_6X04-6LOBE-ISO14583-A4-70   | M1.6 x  4 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A4-70 | 15841 |     | 2   |
+| M2X08-6LOBE-ISO14583-A2-70     | M2 x  8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15854 |     | 4   |
+| M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15993 |     | 4   |
+| M3X06-6LOBE-ISO14583-A2-70     | M3 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 16022 |     | 4   |
+| IC_034_G_007                   | Eye bulb with inserts                                                        | 18375 | 0   | 2   |
+| IC_034_G_025                   | Orin NX support with inserts                                                 | 18384 | 0   | 1   |
+| IC_034_M_020                   | V2 eye tilt brace A                                                          | 18385 | 0   | 1   |
+| IC_034_P_017                   | Eye pan frame with protrusion                                                | 18386 | 0   | 2   |
+| IC_034_P_019                   | Eye CCD mounting plate                                                       | 18387 | 0   | 2   |
+| IC_034_P_020                   | Eye tilt brace A                                                             | 18388 | 0   | 1   |
+| IC_034_P_021                   | Eyelid reinforcement                                                         | 18389 | 0   | 1   |
+| IC_034_P_022                   | Eyelid upper                                                                 | 18390 | 0   | 1   |
+| IC_034_P_023                   | Eye pan frame                                                                 | 18391 | 0   | 2   |
+| IC_034_P_025                   | V2 eye pan rod                                                               | 18392 | 0   | 2   |
+| IC_034_G_029                   | BASE FRAME for boards                                                        | 18400 | 0   | 1   |
+| IC_034_G_030                   | Support for COM with inserts                                                 | 18401 | 0   | 1   |
+| IC_034_G_031                   | Support for connector with inserts                                           | 18402 | 0   | 1   |
+| IC_034_G_034                   | Cover backpack assy                                                          | 18405 | 0   | 1   |
 ## Content material  WKIT_009
 
 |  Code  | BOM |  Alias | Rev |  Qty | Description      |
