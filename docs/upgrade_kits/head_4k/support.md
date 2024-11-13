@@ -119,13 +119,13 @@ T_E =
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
-0 & 0 & 1 & -5.4mm \\
+0 & 0 & 1 & -12.63mm \\
 0 & 0 & 0 & 1 \\
 \end{bmatrix}
 \end{equation}
 $$
 
-To use the [gaze controller](https://robotology.github.io/robotology-documentation/doc/html/group__iKinGazeCtrl.html), it is required the instantiation of `head_version` `"v2.10"`, available since the distro release [2022.11.0](../../sw_versioning_table/2022.11.0.md).
+To use the [gaze controller](https://robotology.github.io/robotology-documentation/doc/html/group__iKinGazeCtrl.html), it is required the instantiation of `head_version` `"v2.10"`, available since the distro release [2024.11.0](../../sw_versioning_table/2024.11.0.md).
 
 ## Software instructions
 
@@ -134,6 +134,6 @@ This UKIT also includes an additional [NVIDIA Jetson Orin NX](https://www.nvidia
 If the image has been [installed from scratch](../../icub_operating_systems/icubos/jetpack.md#flash-a-new-image-from-scratch), an initial configuration is also required, which consists in:
 
 - Set the `icub` as `host` and `icub-head` as `hostname`.
-- Configure the network
+- Configure the network.
 
 For using the images provided by the new `FRAMOS-IMX415` camera over the YARP network, it is needed to compile and install [`yarp-device-argus`](https://github.com/robotology/yarp-device-argus/tree/main?tab=readme-ov-file#2-how-to-use-framos-cameras-as-a-yarp-device).
