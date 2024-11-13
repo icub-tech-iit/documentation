@@ -125,7 +125,7 @@ T_E =
 \end{equation}
 $$
 
-To use the [gaze controller](https://robotology.github.io/robotology-documentation/doc/html/group__iKinGazeCtrl.html), it is required the instantiation of `head_version` `"v2.10"`, available since the distro release [2024.11.0](../../sw_versioning_table/2024.11.0.md).
+To use the [gaze controller](https://robotology.github.io/robotology-documentation/doc/html/group__iKinGazeCtrl.html), it is required the instantiation of `head_version` `"v2.10"`, available since the distro release 2024.11.0.
 
 ## Software instructions
 
