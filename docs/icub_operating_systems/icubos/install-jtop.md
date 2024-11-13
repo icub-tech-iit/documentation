@@ -1,4 +1,4 @@
-## Install jtop (OPTIONAL)
+# Install jtop (OPTIONAL)
 
 `jtop` (a.k.a [jetson-stats](https://github.com/rbonghi/jetson_stats)) is a package for monitoring and control your NVIDIA Jetson boards.
 

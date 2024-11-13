@@ -1,4 +1,4 @@
-## Install `librealsense` with Cuda support (OPTIONAL)
+# Install `librealsense` with Cuda support (OPTIONAL)
 
 `librealsense` is a cross-platform library provided by Intel that can be used to take advantage of the features of the Intel Realsense cameras.
 After installing the [cuda libraries](./install-cuda-libraries.md), we can make the Realsense camera use also the gpu resources for better performances, enabling the cuda support.

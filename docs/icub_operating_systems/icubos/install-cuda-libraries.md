@@ -1,4 +1,4 @@
-## Install the CUDA libraries (OPTIONAL)
+# Install the CUDA libraries (OPTIONAL)
 
 Usually the Jetpack flashing procedure takes care of installing the Cuda toolkit and libraries. If running the command `nvcc --version` returns `Command not found`, then you need to install them manually though `apt`.
 

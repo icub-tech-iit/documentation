@@ -1,4 +1,4 @@
-## Install the latest CMake version (MANDATORY only for Ubuntu 18.04)
+# Install the latest CMake version (MANDATORY only for Ubuntu 18.04)
 The latest Robotology superbuild version requires CMake >= 3.12, but Ubuntu 18.04 only provides CMake 3.10, so it needs to be upgraded.
 
 To download the latest version, first remove CMake with:

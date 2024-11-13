@@ -79,7 +79,7 @@ Now the board is in programming mode.
 
 With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
-With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset when the fan starts and, after ~2 sec, release the FR button too.
+With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset and, after ~2 sec, release the FR button too. The fan should starts.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
@@ -94,6 +94,10 @@ The board is in recovery mode if it appears something like this
 ### Flash the image
 
 At this point we are ready to flash.
+
+!!! warning
+
+    If you want to configure your `Jetson Orin NX` to be used with `FRAMOS-IMX415` cameras, please refer to the [specific procedure](./setup-framos-imx415.md) from here on out.
 
 1. From the previously folder, do `cd ..` to return to the Linux_for_Tegra directory
 2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
@@ -136,6 +140,7 @@ After that, you can follow the guides listed above to install optional packages:
 - [Install librealsense](./install-librealsense.md)
 - [Install jtop](./install-jtop.md)
 - [Install CMake (for Ubuntu 18.04)](./install-cmake.md)
+- [Setup Orin NX for FRAMOS-IMX415](./setup-framos-imx415.md)
 
 ## Create a backup image
 
