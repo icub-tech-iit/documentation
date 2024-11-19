@@ -79,7 +79,7 @@ Now the board is in programming mode.
 
 With a **Nvidia Jetson Xavier NX**, instead, keep the button RST/RECOVERY pressed for several seconds and then, when released, the board will be in recovery mode.
 
-With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset when the fan starts and, after ~2 sec, release the FR button too.
+With the **Nvidia Jetson Orin NX**, the procedure is quite the same. The recovery mode could be achieved by pressing the Force Recovery and the Reset buttons simultaneously, then release the reset and, after ~2 sec, release the FR button too. The fan should starts.
 
 In order to check that the board went in recovery mode, run on a terminal in the host
 
@@ -94,6 +94,10 @@ The board is in recovery mode if it appears something like this
 ### Flash the image
 
 At this point we are ready to flash.
+
+!!! warning
+
+    If you want to configure your `Jetson Orin NX` to be used with `FRAMOS-IMX415` cameras, please refer to the [specific procedure](./setup-framos-imx415.md) from hereinafter.
 
 1. From the previously folder, do `cd ..` to return to the Linux_for_Tegra directory
 2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
@@ -130,121 +134,12 @@ sudo apt install -f
 sudo apt update && sudo apt upgrade
 ```
 
-#### Install the Cuda libraries (OPTIONAL)
+# Post-flashing operations
 
-Usually the Jetpack flashing procedure takes care of installing the Cuda toolkit and libraries. If running the command `nvcc --version` returns `Command not found`, then you need to install them manually though `apt`.
+After successfully flashing your NVIDIA board by following the dedicated procedure, it is optional to perform a series of post-flashing operations to ensure the system is configured correctly and ready for use. The following steps will help finalize the setup.
 
-For example **Jetpack 4.5.1**, which uses **Cuda 10.2** do:
-
-```bash
-sudo apt install cuda-libraries-dev-10-1 cuda-nvcc-10-2
-```
-
-Then, within the `.bashrc`:
-
-```bash
-export CUDA_HOME=/usr/local/cuda-10.2
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-10.2/lib64:/usr/local/cuda-10.2/extras/CUPTI/lib64
-export PATH=$PATH:$CUDA_HOME/bin
-```
-
-#### Install the latest CMake version (MANDATORY only for Ubuntu 18.04)
-The latest Robotology superbuild version requires CMake >= 3.12, but Ubuntu 18.04 only provides CMake 3.10, so it needs to be upgraded.
-
-To download the latest version, first remove CMake with:
-
-```bash
-sudo apt purge --auto-remove cmake
-```
-
-Get a copy of the signing key:
-
-```bash
-wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | gpg --dearmor - | sudo tee /etc/apt/trusted.gpg.d/kitware.gpg >/dev/null
-```
-
-Add the repository:
-
-```bash
-sudo apt-add-repository "deb https://apt.kitware.com/ubuntu/ $(lsb_release -cs) main"
-```
-
-Update the repo index and install CMake:
-
-```bash
-sudo apt update
-sudo apt install cmake
-```
-
-#### Install `librealsense` with Cuda support (OPTIONAL)
-
-`librealsense` is a cross-platform library provided by Intel that can be used to take advantage of the features of the Intel Realsense cameras.
-After installing the [cuda libraries](#install-the-cuda-libraries-optional), we can make the Realsense camera use also the gpu resources for better performances, enabling the cuda support.
-
-In a terminal, clone the official repo with:
-
-```bash
-git clone https://github.com/IntelRealSense/librealsense.git
-```
-
-Install the librealsense required development packages:
-
-```bash
-sudo apt install libssl-dev freeglut3-dev libusb-1.0-0-dev pkg-config libgtk-3-dev unzip -y
-```
-
-Install the `udev` rules (the librealsense kernel patching procedure does not work with recent Jetpack versions):
-
-```bash
-sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
-sudo udevadm control --reload-rules && sudo udevadm trigger
-```
-
-Now you are ready to compile librealsense with Cuda support:
-
-```bash
-cd librealsense
-mkdir build && cd build
-cmake ../ -DFORCE_LIBUVC=BOOL:ON -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_CUDA=BOOL:ON -DBUILD_EXAMPLE=BOOL:OFF
-make -j2
-sudo make install
-```
-
-For more information, refer to the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md) provided in the repository.
-
-
-#### Install jtop (OPTIONAL)
-
-`jtop` (a.k.a [jetson-stats](https://github.com/rbonghi/jetson_stats)) is a package for monitoring and control your NVIDIA Jetson boards.
-
-![](../img/jtop.gif)
-
-For installing it:
-
-```bash
-sudo -H pip install -U jetson-stats
-```
-
-## Create a backup image
-
-For this step you need to have completed the [steps about the sdkManager](#jetpack-setup-on-the-host).
-Make sure that the Xavier was started in [recovery mode](#booting-the-nvidia-jetson-board-in-recovery-mode) and it is found with `lsusb`.
-On the host machine go to the `Linux_for_Tegra` folder and run:
-
-```bash
-cd ~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra
-sudo ./flash.sh -r -k APP -G backup.img <board_identifier> mmcblk0p1
-```
-
-For example for flashing the NVIDIA Jetson Xavier NX, `board_identifier` is `jetson-xavier-nx-devkit-emmc`.
-
-## Flashing a backup image
-
-For this step you need to have completed the [steps about the sdkManager](#jetpack-setup-on-the-host) and also have successfully backed up a Jetpack image following [these steps](#create-a-backup-image).
-
-```bash
-cd ~/nvidia/nvidia_sdk/JetPack_<jetpack_ver>_Linux_<board_type>/Linux_for_Tegra
-sudo mv bootloader/system.img* . #this save old image
-sudo mv backup.img.raw bootloader/system.img #rename new image
-sudo ./flash.sh -r jetson-xavier-nx-devkit-emmc mmcblk0p1
-```
+- [Install CUDA libraries](./install-cuda-libraries.md)
+- [Install librealsense](./install-librealsense.md)
+- [Install jtop](./install-jtop.md)
+- [Install CMake (only for Ubuntu 20.04)](./install-cmake.md)
+- [Setup Orin NX for FRAMOS-IMX415 (only for `iCub head v2.10`)](./setup-framos-imx415.md)

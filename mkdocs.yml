@@ -214,6 +214,11 @@ nav:
         - Network: ergocub_operating_systems/network.md
         - ergocub-head:
           - Jetpack installation: icub_operating_systems/icubos/jetpack.md
+          - Post-flashing operations:
+            - Install CUDA libraries : icub_operating_systems/icubos/install-cuda-libraries.md
+            - Install librealsense: icub_operating_systems/icubos/install-librealsense.md
+            - Install jtop: icub_operating_systems/icubos/install-jtop.md
+            - Install CMake (only for Ubuntu 20.04): icub_operating_systems/icubos/install-cmake.md
         - ergocub-torso:
           - Installation from scratch: ergocub_operating_systems/ergocub_torso/install_from_scratch.md
       - The OS for the iCub environment:
@@ -245,6 +250,12 @@ nav:
         - OS images download: icub_operating_systems/download.md
         - iCub Setup startup procedure: icub_operating_systems/startup-procedure.md
         - NVIDIA JetPack installation: icub_operating_systems/icubos/jetpack.md
+        - Post-flashing operations:
+          - Install CUDA libraries : icub_operating_systems/icubos/install-cuda-libraries.md
+          - Install librealsense: icub_operating_systems/icubos/install-librealsense.md
+          - Install jtop: icub_operating_systems/icubos/install-jtop.md
+          - Install CMake (only for Ubuntu 20.04): icub_operating_systems/icubos/install-cmake.md
+          - Setup for FRAMOS-IMX415 (only for iCub head v2.10): icub_operating_systems/icubos/setup-framos-imx415.md
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
