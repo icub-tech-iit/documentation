@@ -97,7 +97,7 @@ At this point we are ready to flash.
 
 !!! warning
 
-    If you want to configure your `Jetson Orin NX` to be used with `FRAMOS-IMX415` cameras, please refer to the [specific procedure](./setup-framos-imx415.md) from here on out.
+    If you want to configure your `Jetson Orin NX` to be used with `FRAMOS-IMX415` cameras, please refer to the [specific procedure](./setup-framos-imx415.md) from hereinafter.
 
 1. From the previously folder, do `cd ..` to return to the Linux_for_Tegra directory
 2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
