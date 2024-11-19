@@ -1,4 +1,4 @@
-# Install `librealsense` with Cuda support (OPTIONAL)
+# Install `librealsense` with Cuda support
 
 !!! info
 
