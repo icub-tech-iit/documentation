@@ -1,5 +1,9 @@
 # Install `librealsense` with Cuda support (OPTIONAL)
 
+!!! info
+
+    This procedure should be performed after the [JetPack installation](./jetpack.md) has been completed. 
+
 `librealsense` is a cross-platform library provided by Intel that can be used to take advantage of the features of the Intel Realsense cameras.
 After installing the [cuda libraries](./install-cuda-libraries.md), we can make the Realsense camera use also the gpu resources for better performances, enabling the cuda support.
 

@@ -2,7 +2,9 @@
 
 This guide aims to highlight the correct procedure to configure the setup for using the [`FRAMOS-IMX415`](https://www.framos.com/en/products/fsm-imx415-sensor-module-26361) cameras with the [`Orin NX`](https://www.nvidia.com/it-it/autonomous-machines/embedded-systems/jetson-orin/) from Nvidia + [`Boson for FRAMOS`](https://connecttech.com/product/boson-for-framos-carrier-board-for-nvidia-jetson-xavier-nx/) carrier from ConnectTech.
 
-Be sure that the [Jetpack installation](./jetpack.md) procedure up to the BSP installation on the setup has been completed. At this point we are ready to flash the image.
+!!! info
+
+    Be sure that the [Jetpack installation](./jetpack.md) procedure up to the BSP installation on the setup has been completed. At this point we are ready to flash the image.
 
 ### Flash the image
 
