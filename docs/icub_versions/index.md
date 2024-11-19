@@ -16,7 +16,7 @@
 | v2.6   | v2.5.5 with new face expression (RFE master board) | |
 | v2.7   | v2.6 with high-performance IMU on the waist | |
 | v2.8   | v2.7 with beam-splitter in the eye for hosting event driven and frame based sensors | |
-| v2.9   | **v2.7** with hands mk5 and forearm mk2 | |   
+| v2.9   | _obsolete_ | |   
 | v2.10  | **v2.7** with the 4K FRAMOS-IMX145 cameras, NVidia Orin NX [(UKIT009)](../upgrade_kits/head_4k/support.md) and intel i7 11th on com express type 10 module in the backpack | |   
 
 |Special Version |	Features | Notes |

@@ -134,4 +134,12 @@ sudo apt install -f
 sudo apt update && sudo apt upgrade
 ```
 
-After completing the steps outlined so far, you can proceed with the [post-flashing operations](./post-flashing-operations.md).
+# Post-flashing operations
+
+After successfully flashing your NVIDIA board by following the dedicated procedure, it is optional to perform a series of post-flashing operations to ensure the system is configured correctly and ready for use. The following steps will help finalize the setup.
+
+- [Install CUDA libraries](./install-cuda-libraries.md)
+- [Install librealsense](./install-librealsense.md)
+- [Install jtop](./install-jtop.md)
+- [Install CMake (only for Ubuntu 20.04)](./install-cmake.md)
+- [Setup Orin NX for FRAMOS-IMX415 (only for `iCub head v2.10`)](./setup-framos-imx415.md)

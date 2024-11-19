@@ -1,5 +1,10 @@
-# Install the latest CMake version (MANDATORY only for Ubuntu 18.04)
-The latest Robotology superbuild version requires CMake >= 3.12, but Ubuntu 18.04 only provides CMake 3.10, so it needs to be upgraded.
+# Install the latest CMake version (MANDATORY only for Ubuntu 20.04)
+
+!!! info
+
+    This procedure should be performed after the [JetPack installation](./jetpack.md) has been completed. 
+    
+The latest YARP v3.10.0 requires CMake >= 3.19, but Ubuntu 20.04 only provides CMake 3.16, so it needs to be upgraded.
 
 To download the latest version, first remove CMake with:
 
