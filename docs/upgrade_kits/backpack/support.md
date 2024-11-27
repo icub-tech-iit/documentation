@@ -41,7 +41,7 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/4.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/17018_0.0.0_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
+
 
 ## Content material  EKIT_010 
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
