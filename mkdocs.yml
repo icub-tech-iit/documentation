@@ -142,6 +142,7 @@ nav:
         - KIT_007 Ankle for climbing stairs: upgrade_kits/ankle_for_stairs/support.md
         - KIT_008 RealSense Holder: upgrade_kits/realsense_holder/support.md
         - KIT_009 iCub Head with 4K Cameras: upgrade_kits/head_4k/support.md
+        - KIT_010 iCub Backpack with COM-Express: upgrade_kits/backpack/support.md
       - iCub Kinematics:
         - Summary: icub_kinematics/index.md
         - iCub Joints: icub_kinematics/icub-joints/icub-joints.md

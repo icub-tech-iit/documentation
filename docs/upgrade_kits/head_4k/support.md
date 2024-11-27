@@ -33,7 +33,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | V2-6--_-_ISO7045_CZ            | CROSS RECESSED SCREW ISO7045 M2X6 Z                                          | 2439  |     | 4   |
 | V2-10--_-_ISO7046-1_CH         | CROSS RECESSED SCREW ISO7046-1 M2X10 H                                        | 2596  |     | 2   |
 | G2-2--_-_U5923_G               | Set screw, hex socket, M2,0 x 2,0, stainless steel A2, DIN913, ISO4026, UNI5923 | 12766 |     | 4   |
-| M3X06-6LOBE-ISO14581-A2-70     | M3 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 2   |
+| M3X06-6LOBE-ISO14581-A2-70     | M3 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 6   |
 | M1_6X04-6LOBE-ISO14583-A4-70   | M1.6 x  4 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A4-70 | 15841 |     | 2   |
 | M2X08-6LOBE-ISO14583-A2-70     | M2 x  8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15854 |     | 4   |
 | M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15993 |     | 4   |
