@@ -6,7 +6,7 @@
 ## Upgrade Kit
 
 This upgrade kit is meant to update the iCub backpack with new accomodation for the COM-Express and new design for its upper cover.
-<center> ![](img/1.JPG) </center>
+<center> ![](img/iCubBackpack.jpg) </center>
 
 | | |
 | :---: | :---: |
@@ -22,7 +22,7 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 
 ## Content material  MKIT_010
 
-<center> ![](img/3.JPG) </center>
+<center> ![](img/COMExpressBackpack.jpg) </center>
 
 | Alias                         | Description                                                                 | Code  | Rev | Qty |
 |-------------------------------|-----------------------------------------------------------------------------|-------|-----|-----|
