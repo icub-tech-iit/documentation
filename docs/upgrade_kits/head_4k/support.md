@@ -6,9 +6,9 @@
 
 ## Upgrade Kit
 
-This upgrade kit is meant to update the head with new eyes composed by high-resolution cameras, bigger FOV lenses, new GPU, new accomodation for the COM-Express in the backpack, new design for the upper cover of the backpack.  
+This upgrade kit is meant to update the head with new eyes composed by high-resolution cameras, bigger FOV lenses, new GPU, new accomodation for the COM-Express in the backpack, new design for the upper cover of the backpack.
 
-<center> ![](img/1.JPG) </center>
+<center> ![](img/iCubHead4K_Backpack.jpg) </center>
 
 | | |
 | :---: | :---: |
@@ -18,25 +18,29 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 |  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
-| 1 |    | MKIT_009 |   | Pieces  |  1  |  |
+| 1 |  18476  | MKIT_009 |   | Pieces  |  1  |  |
 |  2  | 17018 |		WKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU, and COM Express Type 10 (wiring) |
 |  3  | 16519 |		EKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU, and COM Express Type 10 (electronics) |
 
 ## Content material  MKIT_009
 
-<center> ![](img/3.JPG) </center>
+<center> ![](img/Head4k_parts.jpg) </center>
 
 | Alias                         | Description                                                                 | Code  | Rev | Qty |
 |-------------------------------|-----------------------------------------------------------------------------|-------|-----|-----|
-| RMB_UL_255X                    | RMB BEARING UL 255X                                                           | 2344  |   | 4   |
-| V2-12--_-_ISO7045_CZ           | CROSS RECESSED SCREW ISO7045 M2X12 Z                                         | 2423  |     | 2   |
-| V2-6--_-_ISO7045_CZ            | CROSS RECESSED SCREW ISO7045 M2X6 Z                                          | 2439  |     | 4   |
-| V2-10--_-_ISO7046-1_CH         | CROSS RECESSED SCREW ISO7046-1 M2X10 H                                        | 2596  |     | 2   |
+| RMB_UL_255X                    | RMB BEARING UL 255X                                                           | 2344  |   | 6  |
+|S1_5-6--_-_I2338_B                  | Dowel pin Ø1.5 x 6 stainless steel A2, DIN7, ISO2338B, VSM12771, UNI1707    | 2354  |   | 10  |
+|MYONIC_SHIM_PS_2-5_4_THK_0-1    | Myonic Precision Shim PS Ø3x4 mm thickness 0,10 mm | 2698 |   | 8   |
+|MYONIC_SHIM_PS_5_7_THK_0- 15    | Myonic Precision Shim PS Ø5x7 mm thickness 0,15 mm | 2701 |   | 10  |
+| RC_IIT_023_P_027               | Eyelid motor encoder support                                                   | 5831 | A5 | 1 |
+| RC_IIT_023_P_058               | Eyes tilt rod                                                            | 5848 | A2 | 1 |
 | G2-2--_-_U5923_G               | Set screw, hex socket, M2,0 x 2,0, stainless steel A2, DIN913, ISO4026, UNI5923 | 12766 |     | 4   |
-| M3X06-6LOBE-ISO14581-A2-70     | M3 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 2   |
+| M3x06-6LOBE-ISO14581-A2-70 | M3x 6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 6   |
 | M1_6X04-6LOBE-ISO14583-A4-70   | M1.6 x  4 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A4-70 | 15841 |     | 2   |
 | M2X08-6LOBE-ISO14583-A2-70     | M2 x  8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15854 |     | 4   |
-| M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15993 |     | 4   |
+| M2_5X06-6LOBE-ISO14581-A2-70   | M2.5 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2- |15931 |     | 4  |
+| M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15993 |     | 8   |
+| M2_5X08-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15994 |     | 6   |
 | M3X06-6LOBE-ISO14583-A2-70     | M3 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 16022 |     | 4   |
 | IC_034_G_007                   | Eye bulb with inserts                                                        | 18375 | 0   | 2   |
 | IC_034_G_025                   | Orin NX support with inserts                                                 | 18384 | 0   | 1   |
@@ -52,6 +56,8 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | IC_034_G_030                   | Support for COM with inserts                                                 | 18401 | 0   | 1   |
 | IC_034_G_031                   | Support for connector with inserts                                           | 18402 | 0   | 1   |
 | IC_034_G_034                   | Cover backpack assy                                                          | 18405 | 0   | 1   |
+| IC_034_P_034                   | V2 head eyes tilt frame                                                         | 18475 | 0   | 1   |
+
 ## Content material  WKIT_009
 
 |  Code  | BOM |  Alias | Rev |  Qty | Description      |
@@ -79,9 +85,9 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/4.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/17018_0.0.0_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
+| [![](img/Head4k_wiring.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/17018_0.0.0_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
 
-## Content material  EKIT_009 
+## Content material  EKIT_009
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
 | 1 |PUIAUDIO_AS04004PO-2-R_SPKR|      |   Miniature speaker, 4R, 82dBA,200Hz, 3W,          | 12035 |
@@ -102,7 +108,7 @@ Draft Logic schematic
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/2.JPG)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/16519_0.1_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
+| [![](img/Head4k_logic_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/16519_0.1_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
 
 ## Assembly instruction
 
@@ -115,7 +121,7 @@ Due to mechanical design constraints, the kinematics of the upgraded head underw
 
 $$
 \begin{equation}
-T_E = 
+T_E =
 \begin{bmatrix}
 1 & 0 & 0 & 0 \\
 0 & 1 & 0 & 0 \\
