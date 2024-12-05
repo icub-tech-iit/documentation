@@ -54,33 +54,6 @@ Also install (optional, but very useful) the following packages:
 
 Enable the **non-free** and **contrib** sources, by editing the file `/etc/apt/sources.list`
 
-## iCub software repository and common packages
-
-!!! warining "in case of icub dedicated server"
-    skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
-
-Configure the iCub software repository, by creating the file `/etc/apt/sources.list.d/icub.list` and add the next line into it and save.
-
--   for a Debian 10 (Buster) machine :
-
-`deb http://www.icub.eu/debian buster contrib/science`
-
--   for a Ubuntu 20.04 LTS (Focal) machine :
-
-`deb http://www.icub.eu/ubuntu focal contrib/science`
-
-Download the packages signature
-
-`sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 57A5ACB6110576A6`
-
-After adding a new source, remember to update the packages list:
-
-`apt-get update`
-
-Install the following packages from icub repository
-
-` icub-common`
-
 ## Network configuration
 
 You have two options:
