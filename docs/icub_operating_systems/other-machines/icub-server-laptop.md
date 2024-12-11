@@ -20,7 +20,7 @@ The above network connection can be configured using the Network Manager GUI wit
 
 ### Cabled (internal) Network parameters
 - **IP Address** : 10.0.0.1
-- **Netmash** : 255.255.255.0
+- **Netmask** : 255.255.255.0
 
 ### Wireless (external) Network parameters
 This configuration depends on your network, but usually it uses **DHCP**
