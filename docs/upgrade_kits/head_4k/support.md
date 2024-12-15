@@ -26,37 +26,37 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 <center> ![](img/Head4k_parts.jpg) </center>
 
-| Alias                         | Description                                                                 | Code  | Rev | Qty |
-|-------------------------------|-----------------------------------------------------------------------------|-------|-----|-----|
-| RMB_UL_255X                    | RMB BEARING UL 255X                                                           | 2344  |   | 6  |
-|S1_5-6--_-_I2338_B                  | Dowel pin Ø1.5 x 6 stainless steel A2, DIN7, ISO2338B, VSM12771, UNI1707    | 2354  |   | 10  |
-|MYONIC_SHIM_PS_2-5_4_THK_0-1    | Myonic Precision Shim PS Ø3x4 mm thickness 0,10 mm | 2698 |   | 8   |
-|MYONIC_SHIM_PS_5_7_THK_0- 15    | Myonic Precision Shim PS Ø5x7 mm thickness 0,15 mm | 2701 |   | 10  |
-| RC_IIT_023_P_027               | Eyelid motor encoder support                                                   | 5831 | A5 | 1 |
-| RC_IIT_023_P_058               | Eyes tilt rod                                                            | 5848 | A2 | 1 |
-| G2-2--_-_U5923_G               | Set screw, hex socket, M2,0 x 2,0, stainless steel A2, DIN913, ISO4026, UNI5923 | 12766 |     | 4   |
-| M3x06-6LOBE-ISO14581-A2-70 | M3x 6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 6   |
+| Alias                          | Description                                                                      | Code  | Rev | Qty |
+|--------------------------------|----------------------------------------------------------------------------------|-------|-----|-----|
+| RMB_UL_255X                    | RMB BEARING UL 255X                                                              | 2344  |     | 6   |
+|S1_5-6--_-_I2338_B              | Dowel pin Ø1.5 x 6 stainless steel A2, DIN7, ISO2338B, VSM12771, UNI1707         | 2354  |     | 10  |
+|MYONIC_SHIM_PS_2-5_4_THK_0-1    | Myonic Precision Shim PS Ø3x4 mm thickness 0,10 mm                               | 2698  |     | 8   |
+|MYONIC_SHIM_PS_5_7_THK_0- 15    | Myonic Precision Shim PS Ø5x7 mm thickness 0,15 mm                               | 2701  |     | 10  |
+| RC_IIT_023_P_027               | Eyelid motor encoder support                                                     | 5831  | A5  | 1   |
+| RC_IIT_023_P_058               | Eyes tilt rod                                                                    | 5848  | A2  | 1   |
+| G2-2--_-_U5923_G               | Set screw, hex socket, M2,0 x 2,0, stainless steel A2, DIN913, ISO4026, UNI5923  | 12766 |     | 4   |
+| M3x06-6LOBE-ISO14581-A2-70     | M3x 6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70   | 15831 |     | 6   |
 | M1_6X04-6LOBE-ISO14583-A4-70   | M1.6 x  4 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A4-70 | 15841 |     | 2   |
-| M2X08-6LOBE-ISO14583-A2-70     | M2 x  8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15854 |     | 4   |
-| M2_5X06-6LOBE-ISO14581-A2-70   | M2.5 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2- |15931 |     | 4  |
-| M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15993 |     | 8   |
-| M2_5X08-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15994 |     | 6   |
-| M3X06-6LOBE-ISO14583-A2-70     | M3 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 16022 |     | 4   |
-| IC_034_G_007                   | Eye bulb with inserts                                                        | 18375 | 0   | 2   |
-| IC_034_G_025                   | Orin NX support with inserts                                                 | 18384 | 0   | 1   |
-| IC_034_M_020                   | V2 eye tilt brace A                                                          | 18385 | 0   | 1   |
-| IC_034_P_017                   | Eye pan frame with protrusion                                                | 18386 | 0   | 2   |
-| IC_034_P_019                   | Eye CCD mounting plate                                                       | 18387 | 0   | 2   |
-| IC_034_P_020                   | Eye tilt brace A                                                             | 18388 | 0   | 1   |
-| IC_034_P_021                   | Eyelid reinforcement                                                         | 18389 | 0   | 1   |
-| IC_034_P_022                   | Eyelid upper                                                                 | 18390 | 0   | 1   |
-| IC_034_P_023                   | Eye pan frame                                                                 | 18391 | 0   | 2   |
-| IC_034_P_025                   | V2 eye pan rod                                                               | 18392 | 0   | 2   |
-| IC_034_G_029                   | BASE FRAME for boards                                                        | 18400 | 0   | 1   |
-| IC_034_G_030                   | Support for COM with inserts                                                 | 18401 | 0   | 1   |
-| IC_034_G_031                   | Support for connector with inserts                                           | 18402 | 0   | 1   |
-| IC_034_G_034                   | Cover backpack assy                                                          | 18405 | 0   | 1   |
-| IC_034_P_034                   | V2 head eyes tilt frame                                                         | 18475 | 0   | 1   |
+| M2X08-6LOBE-ISO14583-A2-70     | M2 x  8 , ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70   | 15854 |     | 4   |
+| M2_5X06-6LOBE-ISO14581-A2-70   | M2.5 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2- | 15931 |     | 4   |
+| M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70  | 15993 |     | 8   |
+| M2_5X08-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70  | 15994 |     | 6   |
+| M3X06-6LOBE-ISO14583-A2-70     | M3 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70    | 16022 |     | 4   |
+| IC_034_G_007                   | Eye bulb with inserts                                                            | 18375 | 0   | 2   |
+| IC_034_G_025                   | Orin NX support with inserts                                                     | 18384 | 0   | 1   |
+| IC_034_M_020                   | V2 eye tilt brace A                                                              | 18385 | 0   | 1   |
+| IC_034_P_017                   | Eye pan frame with protrusion                                                    | 18386 | 0   | 2   |
+| IC_034_P_019                   | Eye CCD mounting plate                                                           | 18387 | 0   | 2   |
+| IC_034_P_020                   | Eye tilt brace A                                                                 | 18388 | 0   | 1   |
+| IC_034_P_021                   | Eyelid reinforcement                                                             | 18389 | 0   | 1   |
+| IC_034_P_022                   | Eyelid upper                                                                     | 18390 | 0   | 1   |
+| IC_034_P_023                   | Eye pan frame                                                                    | 18391 | 0   | 2   |
+| IC_034_P_025                   | V2 eye pan rod                                                                   | 18392 | 0   | 2   |
+| IC_034_G_029                   | BASE FRAME for boards                                                            | 18400 | 0   | 1   |
+| IC_034_G_030                   | Support for COM with inserts                                                     | 18401 | 0   | 1   |
+| IC_034_G_031                   | Support for connector with inserts                                               | 18402 | 0   | 1   |
+| IC_034_G_034                   | Cover backpack assy                                                              | 18405 | 0   | 1   |
+| IC_034_P_034                   | V2 head eyes tilt frame                                                          | 18475 | 0   | 1   |
 
 ## Content material  WKIT_009
 
@@ -131,7 +131,7 @@ T_E =
 \end{equation}
 $$
 
-To use the [gaze controller](https://robotology.github.io/robotology-documentation/doc/html/group__iKinGazeCtrl.html), it is required the instantiation of `head_version` `"v2.10"`, available since the distro release 2024.11.0.
+To use the [gaze controller](https://robotology.github.io/robotology-documentation/doc/html/group__iKinGazeCtrl.html), you must instantiate `head_version` `"v2.10"`, which is available since the distro release [2024.11.0](../../sw_versioning_table/2024.11.0.md).
 
 ## Software instructions
 
