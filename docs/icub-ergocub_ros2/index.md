@@ -49,7 +49,7 @@ For iCub robots, instead, the module can be activated using an `xml` file, for e
 ```
 
 !!! warning
-    Not all iCub configuration files have been modified to support ROS 2. If you didn't find those files within your robot name folder under `robots-configuration`, please don't hesitate to open an issue [here](https://github.com/robotology/robots-configuration/issues).
+    Not all iCub configuration files have been modified to support ROS 2. If you didn't find those files within your robot name folder under `robots-configuration`, please don't hesitate to file an [issue](https://github.com/robotology/robots-configuration/issues).
 
 With this kind of file, the positions of all the joints specified in the `alljoints-mc_remapper` are published on the `/joint_states` ROS 2 topic.
 
