@@ -53,7 +53,7 @@ For iCub robots, instead, the module can be activated using an `xml` file, for e
 
 With this kind of file, the positions of all the joints specified in the `alljoints-mc_remapper` are published on the `/joint_states` ROS 2 topic.
 
-More in particular, this file is meant to be used as part of the same `yarprobotinterface` with which you launch the robot. To include it among the devices that you launch with it, you should modify the `icub_all.xml` (or any file that is launched with your `yarprobotinterface` when you launch the robot) to include the line:
+In particular, this file is meant to be used as part of the same `yarprobotinterface` with which you launch the robot. To include it among the launched devices, you have to modify the `icub_all.xml` (or any file that is launched with your `yarprobotinterface`) to include the line:
 
 ```xml
 <xi:include href="wrappers/motorControl/alljoints-mc_nws_ros2.xml" />
