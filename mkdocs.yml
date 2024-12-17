@@ -301,7 +301,7 @@ nav:
         - Encoders and Joint limits (manual): icub_testing/encoders_manual.md
       - Configure IP on a setup for ETH boards:
         - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md
-      - Using iCub with ROS: icub_ros/index.md
+      - Using iCub or ergoCub with ROS 2: icub-ergocub_ros2/index.md
       - iCub Force Control: icub_force_control/icub-force-control.md
       - Sensor interfaces:
         - Summary: robot_sensors/index.md
