@@ -24,7 +24,7 @@ The NWS/NWC for YARP and ROS 2 are organized into separate wrappers. In this way
 
 #### ergoCub
 
-All ergoCub robots have the configuration files to enable this module under [robots-configuration](https://github.com/robotology/robots-configuration) repository. The way to activate them is to run the yarprobotinterface of the robot with the following option:
+All ergoCub robots have the configuration files to enable this module under [robots-configuration](https://github.com/robotology/robots-configuration) repository. To activate them, run the `yarprobotinterface` with the following option:
 
 ```sh
 yarprobotinterface --enable_tags "(enable_ros2)"
