@@ -61,4 +61,5 @@ In particular, this file is meant to be used as part of the same `yarprobotinter
 
 ## xcub-moveit2
 
-[`xcub-moveit2`](https://github.com/icub-tech-iit/xcub-moveit2) contains ROS 2 packages to control a YARP-based robot (iCub/ergoCub) with MoveIt2 platform. Check it out [here](https://github.com/icub-tech-iit/xcub-moveit2/blob/master/README.md) for more details.
+[`xcub-moveit2`](https://github.com/icub-tech-iit/xcub-moveit2) contains ROS 2 packages to control a YARP-based robot (iCub/ergoCub) with MoveIt2 platform.
+[Check it out](https://github.com/icub-tech-iit/xcub-moveit2/blob/master/README.md) for more details.
