@@ -20,7 +20,7 @@ All the YARP [Network Wrapper Server (NWS) and Network Wrapper Client (NWC)](htt
 
 ### Using `controlBoard_nws_ros2`
 
-The NWS/NWC for YARP and ROS 2 are organized into separate wrappers. In this way, it is possible to attach multiple wrappers to the same device, so a `controlBoard_nws_yarp` for YARP and a `controlBoard_nws_ros2` for ROS 2, and include them to the same configuration file used to launch the yarprobotinterface.
+The NWS/NWC for YARP and ROS 2 are organized into separate wrappers. In this way, it is possible to attach multiple wrappers to the same device (`controlBoard_nws_yarp` for YARP, `controlBoard_nws_ros2` for ROS 2) and include them to the same configuration file used to launch the `yarprobotinterface`.
 
 #### ergoCub
 
