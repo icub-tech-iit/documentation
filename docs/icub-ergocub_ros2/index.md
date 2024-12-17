@@ -10,7 +10,7 @@
 
 All the YARP [Network Wrapper Server (NWS) and Network Wrapper Client (NWC)](https://www.yarp.it/latest//group__nws__and__nwc__architecture.html) devices that use ROS 2 can be found under [`yarp-devices-ros2`](https://github.com/robotology/yarp-devices-ros2) repository.
 
-`yarp-devices-ros2` contains the devices and utilities for YARP-ROS 2 compatibility. The devices are in the form of NWS/NWC that read and/or write information from ROS 2 topics and make them available via the YARP API. Starting from the distro [`v2024.11.1`](../sw_versioning_table/2024.11.1.md), it can be compiled within the robotology-superbuild by enabling the `ROBOTOLOGY_USES_ROS2` CMake option .
+`yarp-devices-ros2` contains the devices and utilities for YARP-ROS 2 compatibility. The devices are in the form of NWS/NWC that read/write information from/to ROS 2 topics and make them available via the YARP API. Starting from the distro [`v2024.11.1`](../sw_versioning_table/2024.11.1.md), the devices can be built with `robotology-superbuild` by enabling the `ROBOTOLOGY_USES_ROS2` CMake option.
 
 ## Publishing `iCub/ergoCub`'s joints state: the `controlBoard_nws_ros2` module
 
