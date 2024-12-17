@@ -16,7 +16,7 @@ All the YARP [Network Wrapper Server (NWS) and Network Wrapper Client (NWC)](htt
 
 ### Modules description
 
-`controlBoard_nws_ros2` is the controlBoard network wrapper server for ROS 2. As per the `controlBoard_nws_yarp`, this device can be used to publish the joint position information on ROS 2 topics instead of YARP ports. The device uses the [yarpDeviceParamParserGenerator](https://yarp.it/latest/group__yarpDeviceParamParserGenerator.html) and [here](https://yarp.it/latest/classControlBoard__nws__ros2__ParamsParser.html) there is the list of the required parameters.
+`controlBoard_nws_ros2` is the controlBoard network wrapper server for ROS 2. As per the `controlBoard_nws_yarp`, this device publishes the joint position information on ROS 2 topics instead of YARP ports. The device uses the [yarpDeviceParamParserGenerator](https://yarp.it/latest/group__yarpDeviceParamParserGenerator.html) with its list of [required parameters](https://yarp.it/latest/classControlBoard__nws__ros2__ParamsParser.html).
 
 ### Using `controlBoard_nws_ros2`
 
