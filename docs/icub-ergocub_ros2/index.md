@@ -1,7 +1,7 @@
 # Using `iCub` and `ergoCub` with ROS 2
 
 !!! note
-    This documentation is dedicated to explain how to control `iCub` and `ergoCub` **real robots** using ROS 2, not the simulated models of those robots.
+    We illustrate in this documentation how to control `iCub` and `ergoCub` **real robots** using ROS 2 (simulation models are not covered).
 
 !!! info
     As the last supported **ROS 1** distribution (ROS Noetic Ninjemys) is reaching its End of Life (EOL) on May 2025, with the distro release [`v2024.11.1`](../sw_versioning_table/2024.11.1.md) ROS 1 support was deprecated.
