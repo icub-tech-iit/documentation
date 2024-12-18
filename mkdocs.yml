@@ -230,6 +230,8 @@ nav:
           - Installation:
             - Installation from pre-built image: icub_operating_systems/icubos/installation-from-image.md
             - Installation from scratch: icub_operating_systems/icubos/installation-from-scratch.md
+            - Installation from scratch-22.04: icub_operating_systems/icubos/installation-from-scratch-22.04.md
+            - Installation from Ansible playbook: icub_operating_systems/icubos/installation-from-ansible-playbook.md
           - Networking: icub_operating_systems/icubos/networking.md
           - Bluetooth: icub_operating_systems/icubos/bluetooth.md
           - User environment: icub_operating_systems/icubos/user-env.md
@@ -241,6 +243,7 @@ nav:
           - Details: icub_operating_systems/pc104/the-icub-live-details.md
         - The OS on other machines (not on robot):
           - Generic iCub environment machines: icub_operating_systems/other-machines/generic-machine.md
+          - Generic iCub environment machines-22.04: icub_operating_systems/other-machines/generic-machine-22.04.md
           - The iCub Server:
             - The iCub Dedicated Server:
               - Summary: icub_operating_systems/other-machines/icub-server-os.md
