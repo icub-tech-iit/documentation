@@ -4,5 +4,5 @@
 		"dockerfile": "Dockerfile"
 	},
 	"forwardPorts": [8000],
-	"remoteUser": "gitpod"
+	"remoteUser": "codespace"
 }
