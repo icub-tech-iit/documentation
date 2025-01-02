@@ -1,6 +1,6 @@
 # Generic iCub environment machines
 
-This page contains instructions on how to prepare a machine to work in the iCub Subnet environment. This is a basic setup, useful as a starting point to prepare any kind of machine of the iCub ecosystem.
+This page contains instructions on how to prepare a machine to work in the iCub Subnet environment. This basic setup is useful as a starting point for preparing any machine in the iCub ecosystem.
 
 ## Operating System
 
@@ -54,7 +54,7 @@ You have two options:
 - Dynamic DHCP IP address
 
 ### Configuration methods
-Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (eg. in Ubuntu 22.04 the tool is [Network Manager](https://help.ubuntu.com/community/NetworkManager) ) or using its cli UI `nmtui` very powerfull and easy to use even when conneted via `ssh`.
+Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (e.g., in Ubuntu 22.04 the tool is [Network Manager](https://ubuntu.com/core/docs/networkmanager)) or its CLI `nmtui`, which is very powerful and easy to use even when connected via `ssh`.
 
 Otherwise, you can configure the network interfaces using the command line configuration files (eg. in Ubuntu 22.04 you have to deal with [NETPLAN](https://netplan.io/) )
 
@@ -66,7 +66,7 @@ Please check that the file `/etc/hosts` looks as follows:
 127.0.1.1       MACHINE_HOSTNAME.icub.local       MACHINE_HOSTNAME
 ```
 
-where **MACHINE_HOSTNAME** is the hostname of you machine, that should match the file `/etc/hostname`
+where **MACHINE_HOSTNAME** is the hostname of your machine, which should match the file `/etc/hostname`
 
 
 ## NTP configuration
@@ -78,11 +78,11 @@ You should configure this machine as an NTP client and then configure the NTP se
 
 You can use several different packages to install an NTP client, but we recommend using `systemd-timesyncd` and removing the package `ntp`, if present.
 
-To configure `timesyncd` the only thing needed is to edit the file `/etc/systemd/timesyncd.conf` adding the line `NTP=10.0.0.1` or your current NTP server IP address.
+To configure `timesyncd` the only thing needed is to edit the file `/etc/systemd/timesyncd.conf` by adding the line `NTP=10.0.0.1` or your current NTP server IP address.
 
-Not mandatory but recommanded add also in the same file the line `FallbackNTP=ntp.ubuntu.com` this will be our backup NTP server.
+Not mandatory but recommended, add also in the same file the line `FallbackNTP=ntp.ubuntu.com` this will be our backup NTP server.
 
-Finally restart `timesyncd`service
+Finally, restart `timesyncd`service
 
 `sudo systemctl restart systemd-timesyncd`
 
@@ -99,7 +99,7 @@ What now you need to do is to customize the installation with your hardware and 
 
 ## Special computers
 
-In case of special machines (such as the cuda workstation or icub laptop) you must follow further steps in order to complete the installation:
+In the case of special machines (such as the CUDA workstation or icub laptop) you must follow further steps in order to complete the installation:
 
 -   [iCub Dedicated Server](icub-server-from-scratch.md)
 -   [iCub Console Server](icub-server-laptop.md)
