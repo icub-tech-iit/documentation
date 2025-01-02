@@ -7,33 +7,33 @@
 `librealsense` is a cross-platform library provided by Intel that can be used to take advantage of the features of the Intel Realsense cameras.
 After installing the [cuda libraries](./install-cuda-libraries.md), we can make the Realsense camera use also the gpu resources for better performances, enabling the cuda support.
 
-In a terminal, clone the official repo with:
+The installation procedure depends on the Jetpack version installed on your board.
 
-```bash
+## Jetpack 5.x.x
+
+On Jetson board flashed with `Jetpack version 5.x.x`, you can follow the instructions to install `librealsense` with [Debian packages](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md#4-install-with-debian-packages).
+
+## Jetpack 6.x.x
+
+For Jetson Orin with `Jetpack version ≥ 6.0.0`, the proper procedure is to install this library [from source using the RSUSB backend](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md#building-from-source-using-rsusb-backend), following the [libuvc_installation.sh](https://github.com/IntelRealSense/librealsense/blob/master/scripts/libuvc_installation.sh) script.
+
+First of all, clone the `librealsense` official repository, and then navigate into the `scripts` folder:
+
+```sh
 git clone https://github.com/IntelRealSense/librealsense.git
+cd librealsense/scripts
 ```
 
-Install the librealsense required development packages:
+For optimal performances, edit the script adding the following CMake options:
 
-```bash
-sudo apt install libssl-dev freeglut3-dev libusb-1.0-0-dev pkg-config libgtk-3-dev unzip -y
+```cmake
+-DFORCE_RSUSB_BACKEND=ON -DBUILD_WITH_CUDA=ON
 ```
 
-Install the `udev` rules (the librealsense kernel patching procedure does not work with recent Jetpack versions):
+In the end, run the script:
 
-```bash
-sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
-sudo udevadm control --reload-rules && sudo udevadm trigger
-```
-
-Now you are ready to compile librealsense with Cuda support:
-
-```bash
-cd librealsense
-mkdir build && cd build
-cmake ../ -DFORCE_LIBUVC=BOOL:ON -DCMAKE_BUILD_TYPE=Release -DBUILD_WITH_CUDA=BOOL:ON -DBUILD_EXAMPLE=BOOL:OFF
-make -j2
-sudo make install
+```sh
+./libuvc_installation.sh
 ```
 
 For more information, refer to the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md) provided in the repository.
