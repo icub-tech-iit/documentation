@@ -28,13 +28,13 @@ How to run:
 - Check the README file for further instructions
 - launch as `sudo` the `start.sh` file
 ```
-git clone https://github.com/icub-tech-iit/iCubOS-playbook.git
+git clone https://github.com/icub-tech-iit/icubos-playbook.git
 
-cd iCubOS-playbook/
+cd icubos-playbook/
 
 sudo ./start.sh
 
 ```
-A reboot is recommended in order to load the Lowlatency kernel instead of the Generic.
+A reboot is recommended in order to load the `Lowlatency` kernel instead of the `Generic`.
 
-Once the installation is completed  follow the [Networking](https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/networking/#external-network-configurations) chapter of the guide to configure the network using netplan or your favourite network manager system.
+Once the installation is completed  follow the [Networking](https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/networking/#external-network-configurations) chapter of the guide to configure the network using netplan or your favorite network manager system.

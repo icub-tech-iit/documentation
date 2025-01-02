@@ -4,7 +4,7 @@ This page contains instructions on how to prepare a machine to work in the iCub 
 
 ## Operating System
 
-You can choose both a Debian or Ubuntu Linux, the currently suggested OS is [Ubuntu 20.04 (Focal Fossa)](http://releases.ubuntu.com/20.04/).
+You can choose both a Debian or Ubuntu Linux, the currently suggested OS is [Ubuntu 22.04 (Jammy Jellyfish)](http://releases.ubuntu.com/22.04/).
 
 ## User account
 
@@ -24,14 +24,6 @@ If you want to change the default password simply execute (*this works only if y
 
 `sudo su - `
 
-### Creation of the iCub user
-
-You need to create the icub user. For nfs (see later) to work this user has to have the uid 1000 and guid 1000. In LINUX starting procedure, is asks to create the first user. By default uid is set at 1000. To make sure it is done do :
-
-```
-id -u icub
-id -g icub
-```
 
 Add the icub user to the sudoers group, as follows
 
@@ -62,9 +54,9 @@ You have two options:
 - Dynamic DHCP IP address
 
 ### Configuration methods
-Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (eg. in Ubuntu 20.04 the tool is [Network Manager](https://help.ubuntu.com/community/NetworkManager) ).
+Usually, if you have a Desktop installed on your machine it's better to use the default desktop network tool (eg. in Ubuntu 22.04 the tool is [Network Manager](https://help.ubuntu.com/community/NetworkManager) ) or using its cli UI `nmtui` very powerfull and easy to use even when conneted via `ssh`.
 
-Otherwise, you can configure the network interfaces using the command line configuration files (eg. in Ubuntu 20.40 you have to deal with [NETPLAN](https://netplan.io/) )
+Otherwise, you can configure the network interfaces using the command line configuration files (eg. in Ubuntu 22.04 you have to deal with [NETPLAN](https://netplan.io/) )
 
 ### the HOSTS file
 Please check that the file `/etc/hosts` looks as follows:
@@ -76,27 +68,6 @@ Please check that the file `/etc/hosts` looks as follows:
 
 where **MACHINE_HOSTNAME** is the hostname of you machine, that should match the file `/etc/hostname`
 
-## Mount remote NFS shares
-
-!!! note
-    Skip this step in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
-
-To mount the remote NFS shares, edit `/etc/fstab`, by adding the following lines
-
-```
-NFS_SERVER_IP:/exports/code /usr/local/src/robot nfs _netdev,auto,bg 0 0
-NFS_SERVER_IP:/exports/local_yarp    /home/icub/.local/share/yarp nfs _netdev,auto,bg 0 0
-```
-and replace **NFS_SERVER_IP** with the appropriate value for your network. As example, in case of a machine in an environment with the icub server the above configuration will be
-
-` 10.0.0.1:/exports/code /usr/local/src/robot nfs soft,retry=1,timeo=60,_netdev,auto,bg 0 0`
-` 10.0.0.1:/exports/local_yarp    /home/icub/.local/share/yarp nfs _netdev,auto,bg 0 0`
-
-Then create the two above mountpoints as follows
-
-` mkdir -p /home/icub/.local/share/yarp`
-
-` mkdir -p /usr/local/src/robot`
 
 ## NTP configuration
 
@@ -105,139 +76,22 @@ Then create the two above mountpoints as follows
 
 You should configure this machine as an NTP client and then configure the NTP service to point to `icub-srv` as an NTP server.
 
-You can use several different packages to install an NTP client, but we recommend using `ntpdate` and removing the package `ntp`, as in the following.
+You can use several different packages to install an NTP client, but we recommend using `systemd-timesyncd` and removing the package `ntp`, if present.
 
-1. Remove `ntp` package if installed
+To configure `timesyncd` the only thing needed is to edit the file `/etc/systemd/timesyncd.conf` adding the line `NTP=10.0.0.1` or your current NTP server IP address.
 
-  `sudo apt purge ntp`
+Not mandatory but recommanded add also in the same file the line `FallbackNTP=ntp.ubuntu.com` this will be our backup NTP server.
 
-2. Install `ntpdate` package
+Finally restart `timesyncd`service
 
-  `sudo apt install ntpdate`
-
-3. edit `ntpdate` configurations
-
-  `sudo vim /etc/default/ntpdate`
-
-  by changing the following lines
-
-`NTPDATE_USE_NTP_CONF=no`
-
-`NTPSERVERS="10.0.0.1 ntp.ubuntu.com"`
-
+`sudo systemctl restart systemd-timesyncd`
 
 ## iCub user environment variables
 
 !!! warning "in case of iCub dedicated server"
     Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
 
-Please see [this section](../icubos/user-env.md)
-
-## iCub bashrc customization
-
-There are several customizations you need to apply to the file `~/.bashrc_iCub`:
-
-- The YARP_ROBOT_NAME - you must insert your robot name, in the    following line and remove comment
-
-`#export YARP_ROBOT_NAME=`
-
-- The build path - the folder name where you object are created by cmake, in the following line
-
-`#export OBJ_SUBDIR="build" `
-
-# _Optional_ - Configure remote desktop
-
-!!! warning "in case of iCub dedicated server"
-    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
-
-If you want to setup a VNC remote desktop, execute from a graphical session the following command
-
-` vino-preferences`
-
-If you get this error _The authentication mechanism requested can not be provided by the computer_ please launch the following command, from a shell terminal
-
-` gsettings set org.gnome.Vino enabled true`
-
-# _Optional_ - Disable the screen power off
-
-!!! warning "in case of iCub dedicated server"
-    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
-
-Using the gnome3 control panel, it is not possible to avoid the system has to be idle for the monitor to be turned off, the maximum time is "1 hour", "never" is not possible. From the command line execute the following commands
-
-`gsettings set org.gnome.settings-daemon.plugins.power sleep-display-ac 0`
-
-`gsettings set org.gnome.settings-daemon.plugins.power sleep-display-battery 0`
-
-`gsettings set org.gnome.desktop.session idle-delay 0`
-
-## _Optional_ - install nVidia video drivers
-
-!!! warning "in case of iCub dedicated server"
-    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
-
-1. Check if you have nVidia hardware
-
-`sudo ubuntu-drivers devices`
-
-and check the command output. In case of nVidia hardware you should see somthing like the following example
-
-```
-== /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0 ==
-
-vendor   : NVIDIA Corporation
-modalias : pci:v000010DEd00000DDAsv000017AAsd000021D1bc03sc00i00
-model    : GF106GLM [Quadro 2000M]
-driver   : xserver-xorg-video-nouveau - distro free builtin
-driver   : nvidia-304-updates - distro non-free
-driver   : nvidia-304 - distro non-free
-driver   : nvidia-331 - distro non-free recommended
-driver   : nvidia-331-updates - distro non-free
-```
-
-The above example is showing that there are several different nVidia driver versions available, you should choose the **recommended** one (the `nvidia-331` in above example )
-
-2. Install the appropriate nVidia driver, as follows (for the example above)
-
-`sudo apt install nvidia-331`
-
-3. Reboot
-
-For further details, please read [this guide](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia)
-
-## _Optional_ - Fix the the .local domains resolution problems
-
-!!! warning "in case of iCub dedicated server"
-    Skip this step in case of [iCub Dedicated Server](icub-server-from-scratch.md)
-
-Edit `/etc/nsswitch` replacing the following line
-
-` hosts:          files mdns4_minimal [NOTFOUND=return] dns mdns4`
-
-with
-
-` hosts:          files dns`
-
-## _Optional_ - how to fix ssh lag on connect
-
-In case of lag in SSH connections, disable DNS lookup on ssh server, edit the file `/etc/ssh/sshd_config` adding the following line
-
-`UseDNS no`
-
-## _Optional_ - how to fix the \"nobody:nobody\" NFS mount issue
-
-!!! warning "in case of iCub server"
-    This skip is valid only for machines were you mount a NFS repository, so you must skip it in case of [iCub Console Server](icub-server-laptop.md) or [iCub Dedicated Server](icub-server-from-scratch.md)
-
-If the NFS mounts shows NOBODY as UID and GUID, this mean that the client and the server are not in the same domain, check the file
-
-` /etc/idmap.conf`
-
-Usually it is derived from the domain name mentioned in
-
-` /etc/resolv.conf`
-
-so both, server and client must match.
+see [_User Environment_](../icubos/user-env.md) chapter
 
 ## Customize the system
 

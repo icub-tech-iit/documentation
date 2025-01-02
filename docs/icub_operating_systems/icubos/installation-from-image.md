@@ -1,5 +1,9 @@
 # The OS on icub-head - Installation from pre-built image
 
+!!! warning
+
+    The instructions for installing a pre-built images are currently outdated. Please, refer to the other modes of installation.
+
 This method uses a pre-built disk image to install the icub-head, this image is a 1:1 copy of a working system: once the image is written on the icub-head disk (**erasing any data currently on the disk!**) you get a working system, with only a few customiztion required.
 If you prefer to install the system from scratch, please check the [_appropriate guide_](installation-from-scratch.md).
 
