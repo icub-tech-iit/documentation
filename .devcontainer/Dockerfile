@@ -24,5 +24,5 @@ RUN useradd -l -u 33333 -G sudo -md /home/codespace -s /bin/bash -p codespace co
 
 EXPOSE 8000
 
-WORKDIR /workspace
+WORKDIR /workspaces
 CMD ["bash"]
