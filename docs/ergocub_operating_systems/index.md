@@ -13,4 +13,4 @@ The following guides will help you properly configure the OS for the specific bo
 - [ergocub-head](../icub_operating_systems/icubos/jetpack.md)
 - [ergocub-torso](ergocub_torso/install_from_scratch.md)
 
-Alternatively, you can download the OS pre-built images [here](../icub_operating_systems/download.md).
+Alternatively, you can download the [OS pre-built images](../icub_operating_systems/download.md).
