@@ -143,3 +143,4 @@ After successfully flashing your NVIDIA board by following the dedicated procedu
 - [Install jtop](./install-jtop.md)
 - [Install CMake (only for Ubuntu 20.04)](./install-cmake.md)
 - [Setup Orin NX for FRAMOS-IMX415 (only for `iCub head v2.10`)](./setup-framos-imx415.md)
+- [Setup ergoCub screen (only for `ergocub-head`)](./setup-ergocub-screen.md)
