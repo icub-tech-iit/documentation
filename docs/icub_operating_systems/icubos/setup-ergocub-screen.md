@@ -1,7 +1,7 @@
 # Setup ergoCub Screen
 
 !!! info
-    This procedure should be performed after the [JetPack installation](./jetpack.md) has been completed.
+    This procedure applies only to `ergocub-head` and must be performed after the [JetPack installation](./jetpack.md) has been completed.
 
 When you start the ergoCub head for the first time, the screen will display a desktop showing the NVIDIA logo. While this is generally fine, it requires the user to manually run the [`ergoCubEmotions`](https://github.com/icub-tech-iit/ergocub-software/tree/master/src/modules/ergoCubEmotions) module. This procedure allows you to hide all bars on the desktop and set the wallpaper to one of the images stored in the [expressions folder](https://github.com/icub-tech-iit/ergocub-software/tree/14599254440686b8a373e1635f046a6821ddee78/src/modules/ergoCubEmotions/expressions/images).
 
