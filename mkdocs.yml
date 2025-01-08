@@ -220,6 +220,7 @@ nav:
             - Install librealsense: icub_operating_systems/icubos/install-librealsense.md
             - Install jtop: icub_operating_systems/icubos/install-jtop.md
             - Install CMake (only for Ubuntu 20.04): icub_operating_systems/icubos/install-cmake.md
+            - Setup ergoCub screen (only for ergocub-head): icub_operating_systems/icubos/setup-ergocub-screen.md
         - ergocub-torso:
           - Installation from scratch: ergocub_operating_systems/ergocub_torso/install_from_scratch.md
       - The OS for the iCub environment:
@@ -258,7 +259,6 @@ nav:
           - Install jtop: icub_operating_systems/icubos/install-jtop.md
           - Install CMake (only for Ubuntu 20.04): icub_operating_systems/icubos/install-cmake.md
           - Setup for FRAMOS-IMX415 (only for iCub head v2.10): icub_operating_systems/icubos/setup-framos-imx415.md
-          - Setup ergoCub screen (only for ergocub-head): icub_operating_systems/icubos/setup-ergocub-screen.md
 
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
