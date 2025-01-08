@@ -216,7 +216,7 @@ nav:
         - ergocub-head:
           - Jetpack installation: icub_operating_systems/icubos/jetpack.md
           - Post-flashing operations:
-            - Install CUDA libraries : icub_operating_systems/icubos/install-cuda-libraries.md
+            - Install CUDA libraries: icub_operating_systems/icubos/install-cuda-libraries.md
             - Install librealsense: icub_operating_systems/icubos/install-librealsense.md
             - Install jtop: icub_operating_systems/icubos/install-jtop.md
             - Install CMake (only for Ubuntu 20.04): icub_operating_systems/icubos/install-cmake.md
@@ -254,12 +254,11 @@ nav:
         - iCub Setup startup procedure: icub_operating_systems/startup-procedure.md
         - NVIDIA JetPack installation: icub_operating_systems/icubos/jetpack.md
         - Post-flashing operations:
-          - Install CUDA libraries : icub_operating_systems/icubos/install-cuda-libraries.md
+          - Install CUDA libraries: icub_operating_systems/icubos/install-cuda-libraries.md
           - Install librealsense: icub_operating_systems/icubos/install-librealsense.md
           - Install jtop: icub_operating_systems/icubos/install-jtop.md
           - Install CMake (only for Ubuntu 20.04): icub_operating_systems/icubos/install-cmake.md
           - Setup for FRAMOS-IMX415 (only for iCub head v2.10): icub_operating_systems/icubos/setup-framos-imx415.md
-
       - iCub Setup Multiple Robots:
         - Summary: icub_setup_multiple_robots/index.md
         - How to use two iCub robots in gazebo simulation: icub_setup_multiple_robots/two_robots_simulation.md
@@ -322,3 +321,7 @@ nav:
         - Overview of Temperature Sensors: temperature_sensors/general/overview.md
         - Motor Temperature Data Flow: temperature_sensors/software/dataflow.md
         - Reading Motor Temperature Data: temperature_sensors/software/reading_data.md
+
+    - 💡 Tips and Tricks:
+      - Summary: tips_tricks/index.md
+      - Setup tmux infinite scroll: tips_tricks/tmux/infinite_scroll.md
