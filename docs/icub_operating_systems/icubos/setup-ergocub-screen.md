@@ -9,7 +9,7 @@ When you start the ergoCub head for the first time, the screen will display a de
 
 ## Hide the Ubuntu Bar
 
-This guide is based on instructions from [here](https://askubuntu.com/questions/1264686/is-there-a-way-to-hide-ubuntu-dock-and-top-bar-using-terminal). 
+This guide is based on these [instructions](https://askubuntu.com/questions/1264686/is-there-a-way-to-hide-ubuntu-dock-and-top-bar-using-terminal). 
 
 1. Create a script in the `ergocub-head` home directory:
 
