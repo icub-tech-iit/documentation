@@ -11,8 +11,9 @@
 | v1.7   | This version is characterized by a slight difference in the [kinematics of the wrist](../icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md). | |
 | v2.0   | This version has: <p> 1. Incremental encoders (optical) directly mounted on the motors (fast side of the reduction gear). <br> 2. Completely redesigned fore-arm and hands assemblies. <br> Completely redesigned head assembly for higher performances (stronger neck motors, zero-backlash eye movement) <br> 3. Mounts complete set of sensitive skin.
 | v2.3   | This version is a v2.0 + talking-Head (it's now obsolete, head with motors for lips and jaw) | |
+| v2.4   | This version replaces v2.3, is a v2.5 upperbody only with intel i7 11th on com express type 10 module in the backpack [(UKIT010)](../upgrade_kits/backpack/support.md) + talking-Head (it's now obsolete, head with motors for lips and jaw) | |
 | v2.5   | This version has: <p>  1. Hands v2.0 <br> 2. Stronger legs (with the possibility to mount series elastic elements on the knee and on the ankle) <br>   | 
-| v2.5.5 | This version is a v2.5 + a backpack for batteries | | 
+| v2.5.5 | This version is a v2.5 + a backpack for batteries | |
 | v2.6   | v2.5.5 with new face expression (RFE master board) | |
 | v2.7   | v2.6 with high-performance IMU on the waist | |
 | v2.8   | v2.7 with beam-splitter in the eye for hosting event driven and frame based sensors | |
