@@ -84,7 +84,7 @@ where:
 
 ### Table of typical temperature values
 
-In order to help the user to understand the raw values of the temperatures when read in the `yarprobotinterface` logs we have decided to provide this table with a good range of temperatures. 
+Look up this table containing a good range of temperatures to better interpret the raw temperature values reported within the `yarprobotinterface` logs. 
 In particular, our robots can mount either PT100 or PT1000 temperature sensors, thus find below the correlation between raw and Celsius values for both sensors:
 
 
