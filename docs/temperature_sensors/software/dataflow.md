@@ -36,11 +36,11 @@ The **possible errors** currently managed are the following:
 In the **logfile**, the `yarprobotinterface` prints the raw value instead the  degree Celsius. You can use the following table to understand the error. 
 
 | **Degree Celsius**  | **Raw value for PT100**  |  **Raw value for PT1000** |
-|:---:|:---:|:---:|
-|  `-90` | `-1141`  |  `-2729` |
-| `-70`  | `-886`  |  `-4613` |
-|  `-50` | `-631 `  | `-6549`  |
-|  `-30` |  `-378`  |  `-8541` |
+|:-----:|:-------:|:-------:|
+| `-90` | `-1141` | `-8541` |
+| `-70` | `-886`  | `-6549` |
+| `-50` | `-631 ` | `-4613` |
+| `-30` | `-378`  | `-2729` |
 
 
 
