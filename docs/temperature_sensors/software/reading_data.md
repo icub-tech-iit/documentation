@@ -85,7 +85,7 @@ where:
 ### Table of typical temperature values
 
 In order to help the user to understand the raw values of the temperatures when read in the `yarprobotinterface` logs we have decided to provide this table with a good range of temperatures. 
-Since now in the robot the motors can mount either temperature sensor PT100 or PT1000 we show the correlation between raw and Celsius values for both of them:
+In particular, our robots can mount either PT100 or PT1000 temperature sensors, thus find below the correlation between raw and Celsius values for both sensors:
 
 
 | Temperature PT100 [Celsius] | Temperature PT100 [Raw] |Temperature PT1000 [Celsius] | Temperature PT1000 [Raw] |
