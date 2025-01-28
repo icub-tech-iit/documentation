@@ -20,6 +20,14 @@ Unless specified otherwise, angles reported in the next sections follow the conv
 - $q_1$ is the variable angle of the first phalanx.
 - $q_2$ is the variable angle of the second phalanx.
 
+!!! note "Joint angle feedback"
+
+    The joint encoder is mounted in position $P_0$, hence we can measure the angle $q_0$ that in turn is used to close the control loop.
+
+    !!! note "Motor encoder feedback"
+
+        A quadrature encoder is mounted on the motor shaft, which is currently used only to handle the tendon wrapping.         
+
 ## Coupling Laws
 
 Considering the following quantities:
