@@ -22,7 +22,7 @@ Unless specified otherwise, angles reported in the next sections follow the conv
 
 !!! note "Joint angle feedback"
 
-    The joint encoder is mounted in position $P_0$, hence we can measure the angle $q_0$ that in turn is used to close the control loop.
+    The joint encoder is mounted in position $P_0$, hence we can measure the angle $q_1$ that in turn is used to close the control loop.
 
     !!! note "Motor encoder feedback"
 
