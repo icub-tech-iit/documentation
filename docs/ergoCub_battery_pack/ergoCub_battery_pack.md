@@ -153,10 +153,8 @@ If this step did not work, make sure the `Battery pack` is charged and error-fre
 ### Robot switched on, powered by battery pack
 
 In this situation, the robot is correctly functioning and powered by the `Battery pack`. If you wish to change power supply you still have two possible scenarios:
-
-1) Switch the robot off, disconnect the `Battery pack`. in this case you are in the first situation described if you want to restart with a new charged `Battery pack`. If, on the other hand, you want to power the robot via the external power supply, connect the Blue cable, switch on the power supply, and switch the robot on again by pressing P and then M buttons.
-
-2) If you do not want to interrupt the robot's functionality, you can perform a ‘`hot swap`’. You again have two options, continue with an external power supply or use a new `Battery pack`. Follow the steps for this procedure:
+1. Switch the robot off, disconnect the `Battery pack`. in this case you are in the first situation described if you want to restart with a new charged `Battery pack`. If, on the other hand, you want to power the robot via the external power supply, connect the Blue cable, switch on the power supply, and switch the robot on again by pressing P and then M buttons.
+2. If you do not want to interrupt the robot's functionality, you can perform a ‘`hot swap`’. You again have two options, continue with an external power supply or use a new `Battery pack`. Follow the steps for this procedure:
 
 !!! note
 
