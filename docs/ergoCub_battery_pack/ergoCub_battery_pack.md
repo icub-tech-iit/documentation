@@ -27,7 +27,7 @@ The adopted solution is designed to power and supply the `ergocubSN002`. This pr
     | cell architecture         | 10S 2P |
     | cell technology           | Li-Ion 3,7V NCM, 21700 |
 
-the `Battery Pack` is designed for use with the `BMS_IIT1A-11S-50APK_PCA`. Therefore, do not separate the board from the `Battery Pack`. The functionality of this board keeps the `Battery Pack` safe and supervised during charging and discharging. Controls are implemented for:
+The `Battery Pack` is designed for use with the `BMS_IIT1A-11S-50APK_PCA`. Therefore, do not separate the board from the `Battery Pack` as it guarantees that the `Battery Pack` operates safely and under control during charging and discharging. Controls are implemented for:
 
 - Overvoltage
 - Undervoltage
