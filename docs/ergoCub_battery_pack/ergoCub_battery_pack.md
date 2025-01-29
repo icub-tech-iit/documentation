@@ -83,8 +83,7 @@ To proceed correctly, follow these steps:
 - Insert the `Battery pack` into the appropriate slot in the charging station.
 - Now switch on the charger, so that if necessary the charging phase will start directly.
 
-After doing this, the charger will perform a few tests and start charging. You can tell that the system is working properly when the ‘charging’ 
-status LED is lit. When charging is complete, the charger will finish charging. This step corresponds to the ‘full’ status.
+After that, the charger will perform a few tests and start charging. You can figure out that the system is working properly when the ‘charging’ status LED is lit. When charging is complete, the charger will finish charging. This step corresponds to the ‘full’ status.
 
 <center>
   <figure>
