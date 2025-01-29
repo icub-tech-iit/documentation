@@ -4,7 +4,7 @@
 
 This documentation page describes the new ergoCub `Battery Pack`. Thereby, you will find here information on its features and how to use it.
 
-The adopted solution is designed to power and supply the `ergocubSN002`. This project is also strictly related to the use of the `BMS` specifically designed for this `Battery Pack`. From the user perspective, consider the `Battery Pack` and the `BMS` board as a single device designed for `ergocubSN002`.
+The adopted solution is designed to power and supply the `ergocub`. This project is also strictly related to the use of the `BMS` specifically designed for this `Battery Pack`. From the user perspective, consider the `Battery Pack` and the `BMS` board as a single device designed for `ergocub`.
 
 ## General description
 
@@ -37,7 +37,7 @@ The `Battery Pack` is designed for use with the `BMS_IIT1A-11S-50APK_PCA`. There
 - Cell voltage unbalance
 - General BMS operation alarms
 
-
+Check whether these errors are present in the screen located on the robot's chest.
 The normal operation of the `Battery Pack` is that, in the absence of the above alarms, it is ready to supply current with the power contacts closed. 
 
 !!! warning
@@ -103,7 +103,7 @@ If the charging process is successful, you can use the battery pack on the robot
 ## Using the battery pack on the robot
 
 
-the `Battery pack` is designed for agile use on the robot. The idea was to create a `plug-and-play` system. In the correct condition of use, the battery will be inserted on the back of the `ergocub S/N002` in the dedicated compartment and, similar to using an external power supply, the robot is ready to use. Conditions other than this scenario may refer to failures or special situations. Read this chapter to learn more.
+the `Battery pack` is designed for agile use on the robot. The idea was to create a `plug-and-play` system. In the correct condition of use, the battery will be inserted on the back of the `ergocub` in the dedicated compartment and, similar to using an external power supply, the robot is ready to use. Conditions other than this scenario may refer to failures or special situations. Read this chapter to learn more.
 
 ### Robot switched off, without external power supply
 
@@ -143,7 +143,7 @@ In this situation you have the robot switched on and working properly. The power
 - Check from the display on the front that the `Battery pack` is charged and free of allarms.
 - Switch off the external power supply and disconnect the blue external power cable from the robot.
 
-If these steps are successful, you will have achieved a hot swap without service interruption. Now place the `Battery pack` in the cabinet or charger.
+If these steps are successful, you will have achieved a hot swap without service interruption.
 
 If this step did not work, make sure the `Battery pack` is charged and error-free. Check with the person in charge that no faults are present.
 
