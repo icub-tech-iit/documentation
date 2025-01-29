@@ -138,7 +138,7 @@ In this situation you have the robot switched on and working properly. The power
 
 2) You want to make a ‘`hot swap`’ without interrupting the robot's functionality. In this case follow the steps listed here:
 
-!!! NOTE
+!!! note
 
     Pay attention to these steps, you might suddenly switch off the robot and damage it.
 
