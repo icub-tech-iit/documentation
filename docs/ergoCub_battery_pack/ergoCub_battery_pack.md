@@ -160,7 +160,7 @@ In this situation, the robot is correctly functioning and powered by the `Batter
 
 2) If you do not want to interrupt the robot's functionality, you can perform a ‘`hot swap`’. You again have two options, continue with an external power supply or use a new `Battery pack`. Follow the steps for this procedure:
 
-!!! NOTE
+!!! note
 
     Pay attention to these steps, you might suddenly switch off the robot and damage it.
 
