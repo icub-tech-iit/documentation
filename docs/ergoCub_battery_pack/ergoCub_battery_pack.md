@@ -97,7 +97,7 @@ status LED is lit. When charging is complete, the charger will finish charging. 
 If this step or anything else did not work properly, you will get the ‘error’ LED. In this case make sure that the `Battery pack` and charger 
 are working. If the error persists, report it to the responsible person and put the `Battery pack` back in the cabinet.
 
-If the charging process is successful, you can use the battery pack on the robot. Follow the next chapter for this part.
+If the charging process is successful, you can use the battery pack on the robot. Follow the next section for this part.
 
 
 
