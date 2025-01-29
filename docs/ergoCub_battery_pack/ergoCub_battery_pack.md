@@ -21,7 +21,7 @@ The adopted solution is designed to power and supply the `ergocubSN002`. This pr
     |:---:|:---|
     | weight                    | 1.5 Kg |
     | certifications            | UN 38.3 |
-    | Nominal voltage           | 37 VDC |
+    | nominal voltage           | 37 VDC |
     | capacity                  | 8000 mAh |
     | temperature range of use  | -20°C min/60°C Max |
     | cell architecture         | 10S 2P |
