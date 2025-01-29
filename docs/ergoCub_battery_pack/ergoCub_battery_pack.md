@@ -60,7 +60,7 @@ Stowe it in robot arena in the cabinet shown in this image:
   </figure>
 </center>
 
-!!! NOTE
+!!! note
 
     The `Battery pack`, with no connections, is to be considered as switched off (sleep mode) but ready to supply power when plugged into the robot. 
 
