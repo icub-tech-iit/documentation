@@ -42,7 +42,7 @@ The normal operation of the `Battery Pack` is that, in the absence of the above 
 
 !!! warning
 
-    Pay absolute attention to the power contacts, the `Battery Pack` exposes the contacts so that they can be inserted into the robot. 
+    Pay absolute attention to the power contacts: the `Battery Pack` exposes the contacts so that they can be inserted into the robot. 
     Any violation or improper use can cause serious injury to those involved and severely damage the hardware.
 
 
