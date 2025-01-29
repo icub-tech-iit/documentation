@@ -40,7 +40,7 @@ The `Battery Pack` is designed for use with the `BMS_IIT1A-11S-50APK_PCA`. There
 
 The normal operation of the `Battery Pack` is that, in the absence of the above alarms, it is ready to supply current with the power contacts closed. 
 
-!!! WARNING
+!!! warning
 
     Pay absolute attention to the power contacts, the `Battery Pack` exposes the contacts so that they can be inserted into the robot. 
     Any violation or improper use can cause serious injury to those involved and severely damage the hardware.
