@@ -52,7 +52,7 @@ If there are alarms, contact the persons in charge.
 
 The `Battery Pack` must always be stored in the battery container when not in use for safety reasons. Do not leave the battery pack elsewhere or on the robot.
 
-Storage in robot arena in the cabinet shown in this image:
+Stowe it in robot arena in the cabinet shown in this image:
 
 <center>
   <figure>
