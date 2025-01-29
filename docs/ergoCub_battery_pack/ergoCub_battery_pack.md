@@ -133,10 +133,8 @@ Cases other than this could result in battery failure or anomaly. Disconnect the
 ### Robot switched on, with external power supply
 
 In this situation you have the robot switched on and working properly. The power source is external via the blue power cable. If you wish to switch to battery power you have two options:
-
-1) Switch the robot off, disconnect the Blue cable. In this case you are in the situation described above.
-
-2) You want to make a ‘`hot swap`’ without interrupting the robot's functionality. In this case follow the steps listed here:
+1. Switch the robot off, disconnect the Blue cable. In this case, you are in the situation described above.
+2. You want to make a ‘`hot swap`’ without interrupting the robot's functionality. In this case, follow the steps listed here:
 
 !!! note
 
