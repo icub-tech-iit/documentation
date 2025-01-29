@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This page describes the new ErgoCub `Battery Pack`, you will find information on its features and how to use it. This solution is designed to power and supply the `ergocub S/N002`. This project is also strictly related to the use of the `BMS` specifically designed for this `Battery Pack`. From the robot user point of view, consider the `Battery Pack` and the `BMS` board as a single device designed for `ergocub S/N002`.
+This documentation page describes the new ergoCub `Battery Pack`. Thereby, you will find here information on its features and how to use it.
+
+The adopted solution is designed to power and supply the `ergocubSN002`. This project is also strictly related to the use of the `BMS` specifically designed for this `Battery Pack`. From the user perspective, consider the `Battery Pack` and the `BMS` board as a single device designed for `ergocubSN002`.
 
 ## General description
 
