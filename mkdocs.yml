@@ -160,6 +160,9 @@ nav:
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
       - ergoCub 1: 
+        - Battery Pack:
+          - Summary: ergoCub_battery_pack/index.md
+          - Ergocub Battery Pack: ergoCub_battery_pack/ergoCub_battery_pack.md
         - ergoCub 1 joint specs: ergoCub1/ergoCub1-joints.md
         - ergoCub 1 wiring:
           - Summary: ergoCub1_wiring/index.md
