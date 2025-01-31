@@ -144,3 +144,8 @@ After successfully flashing your NVIDIA board by following the dedicated procedu
 - [Install CMake (only for Ubuntu 20.04)](./install-cmake.md)
 - [Setup Orin NX for FRAMOS-IMX415 (only for `iCub head v2.10`)](./setup-framos-imx415.md)
 - [Setup ergoCub screen (only for `ergocub-head`)](./setup-ergocub-screen.md)
+
+Moreover, if you are configuring a machine that is part of an iCub or ergoCub robot or it's used to simulate or communicate with them, you would need to install the software depending on the operating system. You can follow the [**robotology-superbuild installation guide**](../../sw_installation/index.md).
+
+!!! warning
+    If the machine you are working with CPU/GPU that relies on **JetPack 5.x** (e.g. the Jetson Xavier AGX board) that is **Ubuntu 20.04** based, please be aware that YARP officially drop the support for Ubuntu 20.04 with apt dependencies, so that with standard installation methods (sources and binaries) YARP cannot be installed anymore. For this reason, the only way to continue to use iCub/ergoCub software on these machines is to install the [**robotology-superbuild with conda dependencies**](../../sw_installation/conda_binaries.md).
