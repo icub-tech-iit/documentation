@@ -170,6 +170,7 @@ nav:
           - ergoCub 1.0: ergoCub1_wiring/ergoCub1_0.md
           - ergoCub 1.1: ergoCub1_wiring/ergoCub1_1.md
           - ergoCub 1.2: ergoCub1_wiring/ergoCub1_2.md
+          - ergoCub 1.3: ergoCub1_wiring/ergoCub1_3.md
       - iCub CPU boards: icub_cpu_boards/icub_cpu_boards.md
       - Hands:
         - Summary: hands/index.md
