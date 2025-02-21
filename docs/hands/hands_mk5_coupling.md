@@ -8,7 +8,7 @@ Below, a sketch of the finger kinematics is reported:
   <img  src=    "../img/finger-scheme-1_mod.png"
         width=  "">
   <img  src=    "../img/finger-scheme-2_mod.png"
-        width=  "">
+        width=  "600">
 </p>
 <p align="center">
   <sub>Hand Mk5 leverism</sub>
