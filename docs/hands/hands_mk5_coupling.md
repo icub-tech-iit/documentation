@@ -76,10 +76,7 @@ $$q_{1} = \tan^{- 1}\left( \frac{A_{y}(q_{0}) - P_{0y}}{A_{x}(q_{0}) - P_{0x}} \
 Let us move on to explore the relation between the motor pulling the tendon and $q_0$. Both the tendon ends are clamped to bushings that describe circular arcs; one bushing is centered in $D$ and its trajectory is an arc centered in $C$ whereas the other is centered in $F$ and its trajectory is an arc centered in $E$.
 
 <p align="center">
-  <img  src=    "../img/finger-motor-pulley.png"
-        width=  "">
-  <img  src=    "../img/finger-motor-pulley.png"
-        width=  "">
+  <img  src=    "../img/finger-motor-pulley.png">
 </p>
 
 <p align="center">
