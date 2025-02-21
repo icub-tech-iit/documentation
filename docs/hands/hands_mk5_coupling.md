@@ -73,6 +73,27 @@ The relationship between **$q_{0}$** and **$q_{1}$** is:
 
 $$q_{1} = \tan^{- 1}\left( \frac{A_{y}(q_{0}) - P_{0y}}{A_{x}(q_{0}) - P_{0x}} \right) + \cos^{- 1}{\left( \frac{s^{2} - t^{2} + a^{2}(q_{0})}{2sa(q_{0})} \right) - q_{1bias} - \pi}.$$
 
+Let us move on to explore the relation between the motor pulling the tendon and $q_0$. Both the tendon ends are clamped to bushings that describe circular arcs; one bushing is centered in $D$ and its trajectory is an arc centered in $C$ whereas the other is centered in $F$ and its trajectory is an arc centered in $E$.
+
+<p align="center">
+  <img  src=    "../img/finger-motor-pulley.png"
+        width=  "">
+  <img  src=    "../img/finger-motor-pulley.png"
+        width=  "">
+</p>
+
+<p align="center">
+  <sub>Finger motor pulley (forearm)</sub>
+</p>
+
+Be $q_{mot}$ the variable angle of the motor pulley and assuming the steel wire to be inextensible, the arc lengths described by the two trajectories shall be equal, i.e.:
+
+$$r_{mot} \cdot q_{mot} = r \cdot q_0$$
+
+Hence we get
+
+$$q_0 = \frac{r_{mot}}{r} \cdot q_{mot} $$
+
 ## Mk5.1 coupling variables
 
 The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.1**.
@@ -104,7 +125,7 @@ The following table describes the coupling variables of the finger mechanisms in
 | $t$         | mm  | 14.5      | 14.5      | 14.5       | 14.5     | 14.5      | Length of the connecting rod   $A-B$                                               |
 | $f$         | mm  | 5.5       | 5.5       | 5.5        | 5.5      | 5.5       | Length of the connecting rod   $A-C$                                               |
 | $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
-
+| $r_{mot}$   | mm  | 5         | 5         | 5          | 5        | 5         | Distance between the axis of the bushing and the rotational axis of the finger motor |
 
 
 ## Mk5.0 coupling variables
