@@ -12,3 +12,5 @@
 #### [:computer:{.blink} Documentation resources on the `iCub Software`](icub_sw.md)
 
 #### [:globe_with_meridians:{.blink} The main `iCub Website`](https://icub.iit.it/)
+
+#### [:bulb:{.blink} Tips & Tricks](./tips_tricks/index.md)
