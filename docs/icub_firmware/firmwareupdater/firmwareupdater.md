@@ -443,6 +443,32 @@ example : FirmwareUpdater -g -e ETH -i eth1 -t 10.0.1.1 -c 1 -n 13 -u
     **All the example are running on a setup with an `EMS4` board with `IP=10.0.1.1` and a `STRAIN2` board attached to it in the `CAN1` line with `ID=13`**
 
 
+## Troubleshooting
+
+### Loss of Application Firmware
+The application update of several ETH boards launched simultaneously may sometimes give rise to errors that can lead to the loss of the application firmware.
+This may happen either by using the GUI or via CLI by relying on scripted operations. 
+
+Two error conditions are given:
+
+1. The board stays in `eUpdater`.
+2. The board "_disappears_", meaning it is no longer displayed in the `FirmwareUpdater` as it does not complete the bootloader part – which takes about 5÷10 seconds – and so it is not in either `eApplication` or `eUpdater`.
+
+Here's below the steps to recover the board in both cases:
+
+1. For Case 1:
+    - Start `FirmwareUpdater -a`.
+    - Reload the application firmware.
+    - Select the board and click on [`Set Def Boot eApplication`](#set-default-boot-process-eupdater) and soon afterwards on [`Force ETH Application`](#force-eth-application).
+2. For Case 2:
+     - Start `FirmwareUpdater -a`.
+     - Power-cycle the motors.
+     - Run the `discover` of the ETH boards within 5÷10 seconds from the boot. You will see all the ETH boards in `eUpdater`, including those that disappeared.
+     - Apply the steps above for Case 1 to reload the application firmware.
+ 
+!!! note
+    A similar procedure applies to `CAN` boards.
+
 ## Useful Resources
 Below a list of useful links:
 
