@@ -462,7 +462,7 @@ Here's below the steps to recover the board in both cases:
     - Select the board and click on [`Set Def Boot eApplication`](#set-default-boot-process-eupdater) and soon afterwards on [`Force ETH Application`](#force-eth-application).
 2. For Case 2:
      - Power-cycle the motors.
-     - Run the `discover` of the ETH boards within 5÷10 seconds from the boot. You will see all the ETH boards in `eUpdater`, including those that were disappeared.
+     - Run the `discover` of the ETH boards within 5÷10 seconds from the boot. You will see all the ETH boards in `eUpdater`, including those that disappeared.
      - Apply the steps above for Case 1 to reload the application firmware.
  
 !!! note
