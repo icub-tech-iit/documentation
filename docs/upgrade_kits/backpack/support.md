@@ -16,7 +16,7 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 
 |  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
-| 1 | 17831   | MKIT_010 |   | Pieces  |  1  |  |
+| 1 | 17831   | MKIT_010 |   | Pieces  |  1  |  iCub backpack update |
 |  2  |  |		WKIT_010	 |	 	| Pieces	| 1	| iCub2.x, COM Express Type 10 (wiring) |
 |  3  |  |		EKIT_010	 |	 	| Pieces	| 1	| iCub2.x, COM Express Type 10 (electronics) |
 
@@ -28,10 +28,11 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 |-------------------------------|-----------------------------------------------------------------------------|-------|-----|-----|
 | M3X06-6LOBE-ISO14581-A2-70     | M3 x  6 , ISO14581, 6LOBE socket countersunk flat head screw, f. threaded, A2-70 | 15831 |     | 6   |
 | M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70 | 15993 |     | 4   |
-| IC_034_G_029                   | BASE FRAME for boards                                                        | 18400 | 0   | 1   |
-| IC_034_G_030                   | Support for COM with inserts                                                 | 18401 | 0   | 1   |
+| IC_034_G_029                   | BASE FRAME for boards                                                        | 18400 | A1   | 1   |
+| IC_034_G_030                   | Support for COM with inserts                                                 | 18401 | A1   | 1   |
 | IC_034_G_031                   | Support for connector with inserts                                           | 18402 | 0   | 1   |
 | IC_034_G_034                   | Cover backpack assy                                                          | 18405 | 0   | 1   |
+| RC_IIT_025_P_130               | Hinge for backpack                                                           | 13615 | A3  | 1   |
 
 ## Content material  WKIT_010
 
