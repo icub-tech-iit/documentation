@@ -131,8 +131,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Speed Reducer        | Planetary Gearhead, Faulhaber 22 GPT, Reduction 196:1 (integrated with motor) |
 | Transmission         | Belt drive (2:1)                                                              |
 | Joint Encoder        | AEA board with MA730 (absolute angle encoder)                                 |
-| Range of Motion (HW) | -62/+52 (degrees)                                                             |
-| Range of Motion (SW) | -60/+50 (degrees)                                                             |
+| Range of Motion (HW) | -20/+30 (degrees)                                                             |
+| Range of Motion (SW) | -20/+30 (degrees)                                                             |
 
 !!! note 
     all wrist joints are coupled into a co-axial spherical parallel mechanism
@@ -146,8 +146,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Speed Reducer        | Planetary Gearhead, Faulhaber 22 GPT, Reduction 196:1 (integrated with motor) |
 | Transmission         | Belt drive (2:1)                                                              |
 | Joint Encoder        | AEA board with MA730 (absolute angle encoder)                                 |
-| Range of Motion (HW) | -32/+32 (degrees)                                                             |
-| Range of Motion (SW) | -30/+30 (degrees)                                                             |
+| Range of Motion (HW) | -20/+20 (degrees)                                                             |
+| Range of Motion (SW) | -20/+20 (degrees)                                                             |
 
 !!! note 
     all wrist joints are coupled into a co-axial spherical parallel mechanism
@@ -188,8 +188,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Speed Reducer        | Spur Gearhead, Reduction 324:1 (integrated with motor) |
 | Transmission         | Linkages (variable reduction)                          |
 | Joint Encoder        | FAP board with finger absolute position sensor         |
-| Range of Motion (HW) | +6/+20 (degrees)                                       |
-| Range of Motion (SW) | +7/+18 (degrees)                                       | 
+| Range of Motion (HW) | +0/+15 (degrees)                                       |
+| Range of Motion (SW) | +0/+15 (degrees)                                       | 
 
 ### Joint 10 - index finger open & close 
 
