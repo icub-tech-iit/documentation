@@ -188,8 +188,8 @@ The technical specifications of the electro-mechanical components for the joints
 | Speed Reducer        | Spur Gearhead, Reduction 324:1 (integrated with motor) |
 | Transmission         | Linkages (variable reduction)                          |
 | Joint Encoder        | FAP board with finger absolute position sensor         |
-| Range of Motion (HW) | +6/+20 (degrees)                                       |
-| Range of Motion (SW) | +7/+18 (degrees)                                       | 
+| Range of Motion (HW) | +0/+15 (degrees)                                       |
+| Range of Motion (SW) | +0/+15 (degrees)                                       | 
 
 ### Joint 10 - index finger open & close 
 
