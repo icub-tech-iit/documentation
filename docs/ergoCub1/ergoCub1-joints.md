@@ -286,7 +286,7 @@ The technical specifications of the electro-mechanical components for the joints
 | Transmission         | Belt drive (1:1)                                                                                                   | 
 | Speed Reducer        | Harmonic Drive CSD-20-160-2UH, Reduction 160:1                                                                     |
 | Joint Encoder        | AMO board with iC-MU (absolute magnetic off-axis encoder) + Magnetic wheel (PWB_103839), 64/63 pole pairs, OD 50.7 |
-| Range of Motion (HW) | -35/+111 (degrees)                                                                                                 |
+| Range of Motion (HW) | -20/+111 (degrees)                                                                                                 |
 | Range of Motion (SW) | -15/+108 (degrees)                                                                                                 |
 
 ### Joint 2 - hip yaw
