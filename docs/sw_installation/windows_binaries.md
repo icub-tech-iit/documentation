@@ -14,7 +14,7 @@ Keep the following checkbox ticked if you want the installer to update the envir
 
 
 ##  Getting MS C++ Redistributable
-Unless you already have the Microsoft Visual Studio installed on your machine, make sure that you have at least the [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) installed in your system. In particular, you can install the [64-bit version](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+Unless you already have the Microsoft Visual Studio installed on your machine, make sure that you have at least the [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) installed in your system. In particular, you can install the [64-bit version](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 
 ## Check your installation
