@@ -24,9 +24,9 @@ Unless specified otherwise, angles reported in the next sections follow the conv
 
     The joint encoder is mounted in position $P_0$, hence we can measure the angle $q_1$ that in turn is used to close the control loop.
 
-    !!! note "Motor encoder feedback"
+!!! note "Motor encoder feedback"
 
-        A quadrature encoder is mounted on the motor shaft, which is currently used only to handle the tendon wrapping.         
+    A quadrature encoder is mounted on the motor shaft, which is currently used only to handle the tendon wrapping.         
 
 ## Coupling Laws
 
