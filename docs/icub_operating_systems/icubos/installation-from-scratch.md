@@ -73,7 +73,7 @@ sudo systemctl disable gdm
 
 ### SSH configuration
 
-1. Configure passwordless ssh: see this [link](https://askubuntu.com/questions/46930/how-can-i-set-up-password-less-ssh-login)
+1. Configure passwordless ssh: peruse these [instructions](https://askubuntu.com/a/46935).
 2. Disable reverse DNS lookup in SSH server: add the following line to the file `/etc/ssh/sshd_config`
   ```
   UseDNS no
