@@ -114,7 +114,7 @@ that refers to pc104 or 10.0.0.2 and login again.
 
 This must be done from each machine you want to connect to the PC104.
 
-*See also [this link](http://askubuntu.com/questions/9800/remote-host-identification-has-changed-warning-when-connecting-over-ssh)*
+*Check also [this resource](https://askubuntu.com/a/9804).*
 
 ## I used the live USB first on a computer, then when I plugged it into the PC104 it does not work anymore
 Probably the PC104 booted correctly, but the network is not reachable (you can check it by connecting a VGA cable to the PC104 inside iCub's head).
