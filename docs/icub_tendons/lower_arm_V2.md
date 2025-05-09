@@ -65,9 +65,10 @@ Here is the table to locate all the distal joints on a forearm (**left** in this
 
 
 !!! danger "WATCH OUT"
-    FOR the **Right forearm** : the motor positions are "mirrored" respect to the **left** ones.
-    
-The **arrow** represents the sense of rotation to close the finger. It is important, after the cabling, to verify that the finger closes when the motor is rotated according to the respective arrow. You can rotate the motor with a flat screwdriver to do so.
+    For the **Right forearm** : the motor positions are "mirrored" respect to the **left** ones.
+
+!!! warning "Motor Rotations and Fingers Movements"
+   The **arrow** represents the sense of rotation to close the finger. It is important, after the cabling, to verify that the finger closes when the motor is rotated according to the respective arrow. You can rotate the motor with a flat screwdriver to do so.
 
 
 | RIGHT FOREARM                                           | LEFT FOREARM                                            |
