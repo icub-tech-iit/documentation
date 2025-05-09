@@ -55,21 +55,18 @@ The first question to answer will be "Where are those cables located?"
 
 Here is the table to locate all the distal joints on a forearm (**left** in this case)
 
-
-
 | LOCATION | JOINT  | POSITION |
 | ---- | ----- | --|
 | <img src ="../img/lowerArm/index_middle_V2.png" height=auto width=600> | Index and Middle | they are located **ATOP** the forearm when it <u>lies</u> palm face **DOWN** |
 | <img src ="../img/lowerArm/TH_R&P_V2.png" height=auto width=600> | Thumb distal **AND** Ring and Pinkie | They are located **ATOP** when the forearm <u>lies</u> palm face **UP** |
 
-
-
 !!! danger "WATCH OUT"
+
     For the **Right forearm** : the motor positions are "mirrored" respect to the **left** ones.
 
 !!! warning "Motor Rotations and Fingers Movements"
-   The **arrow** represents the sense of rotation to close the finger. It is important, after the cabling, to verify that the finger closes when the motor is rotated according to the respective arrow. You can rotate the motor with a flat screwdriver to do so.
 
+    The **arrow** represents the sense of rotation to close the finger. It is important, after the cabling, to verify that the finger closes when the motor is rotated according to the respective arrow. You can rotate the motor with a flat screwdriver to do so.
 
 | RIGHT FOREARM                                           | LEFT FOREARM                                            |
 | ------------------------------------------------------- | ------------------------------------------------------- |
@@ -117,6 +114,7 @@ The minimum requirement to start re-cabling distal joints is:
 
 
 !!! danger "WATCH OUT"
+
     FOR the **Right** forearm : the motor positions are "mirrored" respect to the **Left** ones.
 
 #### 			<u>			INDEX or MIDDLE:</u>
@@ -136,14 +134,14 @@ The minimum requirement to start re-cabling distal joints is:
 | **YOU ARE DONE!!! CONGRATULATIONS!!!** | Please close the fingertip and its nail and put back in place the lateral bar |
 
 
-
 !!! danger "WATCH OUT"
-    FOR the **Right** forearm : the motor positions are "mirrored" respect to the **Left** ones.
 
+    FOR the **Right** forearm : the motor positions are "mirrored" respect to the **Left** ones.
 
 #### 			<u>			RING AND PINKIE:</u>
 
 !!!note
+
     Those fingers need to be done **together** in order to make sure that both cables close simultaneously.
 
 | WHERE      | step by step guide   |
@@ -159,6 +157,7 @@ The minimum requirement to start re-cabling distal joints is:
  
 
 !!!tip
+
     The insertion of the cables into their holes, passing through the pulleys, is tricky. If you are struggling, cut the cable extremity with a **45 deg angle**, so it will be easier for it to get in position.
 
 ## 3	Proximal Joints
@@ -170,15 +169,11 @@ The minimum requirement to start re-cabling distal joints is:
 | <img src ="../img/lowerArm/L_4RM_Prox_Pos.png" height=auto width=800> | <img src ="../img/lowerArm/R_4RM_Prox_Pos.png" height=auto width=800> |
 | <img src ="../img/lowerArm/L4RM-ElbowView.png" height=auto width=300> | <img src ="../img/lowerArm/R4RM-ElbowView.png" height=auto width=300> |
 
-
-
 If you ever realize that one of the following cable is broken bear in mind:
 
 !!!tip
+
     The start of the wiring for each proximal is identical (wiring around the motor pulley). The index and middle proximal joints are cabled exactly the same way, just the thumb is a bit trickier.
-
-
-
 
 ### 				3.2	WIRING
 
@@ -200,16 +195,13 @@ The minimum requirement to start re-cabling the proximal joints is:
 | <img src ="../img/lowerArm/wiring_prox_pulley3.png" width=400> <img src ="../img/lowerArm/wiring_prox_pulley.png" width=400>  <img src ="../img/lowerArm/wiring_prox_pulley2.png" width=400><br> <img src ="../img/lowerArm/hold_cable.png" width=400> | Respect the only one rule: 2 full turns around the pulley for the hole close to the ball bearing (blue cable) and 1 full turn for the part that will go into the hole the closest from the motor (red cable). <br><br> In order to keep the cable in position after the turns, you can push it with a screwdriver like shown in this last picture |
 
 
-
 !!!tip
+
     YOU may need to glue the cable at the tip (2cm long) on both sides. With a plier make 2 times 90 degree angles on the cable at about 3-4mm from one another, in order to create a hook. Extract the cable once it passes between the thread and the neck of the frame. <img src ="../img/lowerArm/hook.png" width=600>
 
-
-
 !!!tip
+
     When inserting the cable in the pulley, make sure that the pulley holes are in phase with the frame holes. In other words, the pulley threads need to be aligned with the 2 holes in the frame. 
-
-
 
 | LOCATION   | step by step guide      |
 | --- | --- |
@@ -225,4 +217,5 @@ The minimum requirement to start re-cabling the proximal joints is:
 |  | **FINISHED!!!** |
 
 !!! danger
-     **PLEASE DO NOT USE GLUE ON THE FINAL KNOT**
+
+     PLEASE DO NOT USE GLUE ON THE FINAL KNOT
