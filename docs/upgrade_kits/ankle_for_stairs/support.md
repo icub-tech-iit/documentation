@@ -39,13 +39,13 @@ We are going to replace iCub feet plates in order to increase the step length an
 
 - At this point we are going to separate cover and foot plate removing these screws
 
-    | <center> ![imagine view](img/cover.jpg) </center> |
+    | ![](img/cover.jpg) |
     | :-----------------------------------------------: |
     |       how to separate foot plate from cover       |
 
 - Now we can follow the procedure back mounting the cover on the new foot plate
 
-    | <center> ![imagine view](img/new_foot.jpg) </center> |
+    | ![](img/new_foot.jpg) |
     | :--------------------------------------------------: |
     |                  the new foot plate                  |
 

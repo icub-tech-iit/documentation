@@ -8,7 +8,9 @@
 
 This upgrade kit is meant to update the head with new eyes composed by high-resolution cameras, bigger FOV lenses, new GPU, new accomodation for the COM-Express in the backpack, new design for the upper cover of the backpack.
 
-<center> ![](img/iCubHead4K_Backpack.jpg) </center>
+<figure markdown="span">
+    ![](img/iCubHead4K_Backpack.jpg)
+</figure>
 
 | | |
 | :---: | :---: |
@@ -24,7 +26,9 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 ## Content material  MKIT_009
 
-<center> ![](img/Head4k_parts.jpg) </center>
+<figure markdown="span">
+    ![](img/Head4k_parts.jpg)
+</figure>
 
 | Alias                          | Description                                                                      | Code  | Rev | Qty |
 |--------------------------------|----------------------------------------------------------------------------------|-------|-----|-----|

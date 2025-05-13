@@ -40,20 +40,20 @@ Here are the instructions for replacing the left pulley.
 - First of all you need to remove tendons from the neck. [Neck's tendons replacement](../../icub_tendons/neck.md)
 - Remove the green highlighted assembly loosening the screws indicated by arrows
 
-    | <center> ![imagine view](img/belt_ass.PNG) </center> |
+    | ![](img/belt_ass.PNG) |
     | :-----------------------------------------------------------: |
     |  tbd |
 
 - Untight the screw shown in left picture to extract the whole motor assembly shown on the right.
 
-    | <center> ![imagine view](img/mot_ass.PNG) </center> |  <center> ![imagine view](img/mot_ass_alone.PNG) </center> |
+    | ![](img/mot_ass.PNG) | ![](img/mot_ass_alone.PNG) |
     | :----: | :----: |
     | The whole neck | The motor assembly |
 
 - Gently remove pulley's assembly as on left picture and remove the flex spline from the pulley untightening the screw shown on rigth.
 
 
-    | <center> ![imagine view](img/pulley_ass.PNG) </center> |  <center> ![imagine view](img/flex.PNG) </center> |
+    | ![](img/pulley_ass.PNG) | ![](img/flex.PNG) |
     | :----: | :----: |
     | pulley assembly |  the screw to remove    |
 

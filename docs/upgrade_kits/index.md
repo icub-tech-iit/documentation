@@ -23,3 +23,7 @@
 
 ### 🔘 KIT_009 iCub Upgrade Kit: Head with 4K Cameras
 [iCub new head UpKit](./head_4k/support.md)
+
+### 🔘 KIT_010 iCub Backpack with COM-Express
+[iCub Backpack UpKit](./backpack/support.md)
+
