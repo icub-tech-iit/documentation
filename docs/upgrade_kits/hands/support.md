@@ -28,18 +28,30 @@ First of all you need to know that you will be in a situation where you will hav
 Once this is done the first piece to be mounted will be the rc_IIT_011_g_016 or the rc_IIT_011_g_017 (right or left hand) as shown in the video. All this because you will find yourself in the condition in which you will have to pass the piece between the cables (tendons) that move the thumb.
 **This explanation is the same for both hands**
 
-<center> ![imagine view](gif/SUPPORT_RIGHT_TOP.gif) </center>
+<figure markdown="span">
+    ![](gif/SUPPORT_RIGHT_TOP.gif)
+</figure>
 
 ##Exploding: 
 Reference Right hand
 
-<center> ![imagine view](img/esploso3.JPG) ![imagine view](img/esploso4.JPG)  </center>
+<figure markdown="span">
+    ![](img/esploso3.JPG)
+</figure>
+
+<figure markdown="span">
+    ![](img/esploso4.JPG)
+</figure>
 
 Assemble upgrade support Mais and FTC 
 
-<center> ![imagine view](img/Montaggio1.JPG) </center>
+<figure markdown="span">
+    ![](img/Montaggio1.JPG)
+</figure>
 
-<center> ![imagine view](img/Montaggio2.JPG) </center>
+<figure markdown="span">
+    ![](img/Montaggio2.JPG)
+</figure>
 
 ##Assembly sequence##
 <div width="100%">

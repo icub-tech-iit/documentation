@@ -6,7 +6,10 @@
 ## Upgrade Kit
 
 This upgrade kit is meant to update the iCub backpack with new accomodation for the COM-Express and new design for its upper cover.
-<center> ![](img/iCubBackpack.jpg) </center>
+
+<figure markdown="span">
+    ![](img/iCubBackpack.jpg)
+</figure>
 
 | | |
 | :---: | :---: |
@@ -22,7 +25,9 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 
 ## Content material  MKIT_010
 
-<center> ![](img/COMExpressBackpack.jpg) </center>
+<figure markdown="span">
+    ![](img/COMExpressBackpack.jpg)
+</figure>
 
 | Alias                         | Description                                                                 | Code  | Rev | Qty |
 |-------------------------------|-----------------------------------------------------------------------------|-------|-----|-----|
@@ -43,7 +48,6 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 | 🔘 Click to download the PDF |
 | :---: |
 
-
 ## Content material  EKIT_010
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
@@ -54,7 +58,8 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 
 Draft Logic schematic
 
-|
+| 🔘 Click to download the PDF |
+| :-------------------------: |
 
 ## Assembly instruction
 

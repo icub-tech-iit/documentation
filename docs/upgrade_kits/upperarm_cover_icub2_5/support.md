@@ -39,6 +39,7 @@
 |   1     |    10273 	 |     	 | 	iCub 2.5, subassembly - Left Upperarm Skin Harness, wiring materials |10273 |
 
 !!! note "note"
+
     [link to harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14767%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(wiring%20parts)) 
 
 ## Content material  EKIT_004 
@@ -48,37 +49,53 @@
 |  1 |   13476     |        | 	iCubSkin 2.5, Left Upper Arm Skin, RUGGED Electronic boards  |    13476  |
 
 !!! note "note"
+
     [link to logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14768%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(electronics))
 
 ## Historical review:
 In previous revisions of the covers, the mini cards were organized in the shape of hexagons. This largely caused the skin patch PCB to flex and break, because the patches took the high curvature of the cover (see image).
 
-<center> ![imagine view](img/12.PNG) </center>
+<figure markdown="span">
+    ![](img/12.PNG)
+</figure>
 
 To solve this problem, we reduced the number of PCBs by arranging a strip with 5 PCBs (skin patch) on the flat surface of the cover. (see image)
 
-<center> ![imagine view](img/10.PNG) </center>
-
+<figure markdown="span">
+    ![](img/10.PNG)
+</figure>
 
 ## Assembly instruction.
 
 First of all, it must be said that the electronic part of the upper arm covers is already supplied, that is, the MTB4 cards and the hexagon shape (skin) are mounted, glued and connected together.
 Before starting assembly, check the orientation of the covers.<br>
 
-<center> ![imagine view](img/8.PNG) </center>
+<figure markdown="span">
+    ![](img/8.PNG)
+</figure>
 
 **Assembly sequence** :<br>
 
 *Perform the assembly sequence as shown in the image, keep in mind that the sequence is the same for both upper arms (Right and left)*<br>
 
 - First step push the cover (RC_IIT_017_P_023) inwards so as to align the attachment holes, both positions (TOP and BOTTOM), as can be seen in the image.
--<center> ![imagine view](img/2.PNG) </center>
+ 
+<figure markdown="span">
+    ![](img/2.PNG)
+</figure>
 
 - Second and third step, fix the cover using the respective screws as shown in the image. This applies to both positions TOP and BOTTOM.
 
-<center> ![imagine view](img/3.PNG) </center>
+<figure markdown="span">
+    ![](img/3.PNG)
+</figure>
 
 - Fourth step, close the covers of the upper arm by pushing the Lover cover inwards in order to align the attachment holes. After that fix the covers with the respective lives as shown in the pictures.  This applies to both positions TOP and BOTTOM.
 
-<center> ![imagine view](img/4.PNG) </center>
-<center> ![imagine view](img/5.PNG) </center>
+<figure markdown="span">
+    ![](img/4.PNG)
+</figure>
+
+<figure markdown="span">
+    ![](img/5.PNG)
+</figure>

@@ -19,11 +19,26 @@
 ## Assembly instructions
 
 Make sure the 4 capacitors (front and back) are accessible (has a view). For the removal and subsequent reassembly of the parts that obstruct (backpack unit), refer to the specific manual .<br>
-<center> ![imagine view](img/8.JPG) </center>
-<center> ![imagine view](img/9.JPG) </center>
+
+<figure markdown="span">
+    ![](img/8.JPG)
+</figure>
+
+<figure markdown="span">
+    ![imagine view](img/9.JPG)
+</figure>
      
 **Assembly sequence** :<br>
 *Perform the assembly sequence as indicated in the image, keep in mind that the sequence is the same for all 4 support (Front and rear).*<br>
-<center> ![imagine view](img/13.JPG) </center>
 
-<center> ![imagine view](img/16.JPG) ![imagine view](img/17.JPG)  </center>
+<figure markdown="span">
+    ![](img/13.JPG)
+</figure>
+
+<figure markdown="span">
+    ![](img/16.JPG)
+</figure>
+
+<figure markdown="span">
+    ![](img/17.JPG)
+</figure>

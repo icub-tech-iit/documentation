@@ -28,7 +28,7 @@ We are going to replace parts in the eyes tilt assembly, there are some prelimin
 * we need to unplug and remove the whole boards' frame.
 
 
-    | <center> ![imagine view](img/no_cover.JPG) </center> | <center> ![imagine view](img/no_frame.JPG) </center> |
+    | ![](img/no_cover.JPG) | ![](img/no_frame.JPG) |
     | :--------------------------------------------------: | :--------------------------------------------------: |
     |                    without covers                    |                without boards' frame                 |
 
@@ -38,27 +38,27 @@ We are going to replace parts in the eyes tilt assembly, there are some prelimin
 
     We are going to replace the 4 parts here in picture.
     
-| <center> ![](img/4thng.JPG) </center> |
+| ![](img/4thng.JPG) |
 | :-----------------------------------------------------------: |
 |  Brackets unmounting |
     
     
   We need to remove eye's assembly from the head unlocking two cross recessed screws
 
-| <center> ![imagine view](img/remove.JPG) </center> | <center> ![imagine view](img/eye_group.JPG) </center> |
+| ![](img/remove.JPG) | ![](img/eye_group.JPG) |
 | :--------------------------------------------------: | :--------------------------------------------------: |
 |                    the screws to remove                   |                eye's group                 |
 
 Unmount the groupand replace the old case with the new one
 
-| <center> ![imagine view](img/OLD.JPG) </center> | <center> ![imagine view](img/new.JPG) </center> |
+| ![](img/OLD.JPG) | ![](img/new.JPG) |
 | :--------------------------------------------------: | :--------------------------------------------------: |
 |                    old one                   |                new one                 |
 
 
 While mounting the motoreducer group checl if it moves at the correct amount of current, if not try to slightly release these screws
 
- | <center> ![imagine view](img/screws.JPG) </center> |
+ | ![](img/screws.JPG) |
  | :-----------------------------------------------------------: |
  |  motoreducer group |
 
@@ -67,7 +67,7 @@ Releasing the grub screws (blue arrows) we can remove the pins (yellow arrows) a
 - First of all you need to remove tendons from the neck, 
 - Remove the green highlighted assembly loosening the screws indicated by arrows
 
-| <center>  ![imagine view](img/brackets.JPG) </center> |
+| ![](img/brackets.JPG) |
 | :-----------------------------------------------------------: |
 |  Brackets unmounting |
 
