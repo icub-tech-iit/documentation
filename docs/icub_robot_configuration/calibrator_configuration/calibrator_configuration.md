@@ -42,6 +42,5 @@ Find below a list of related traits to keep in mind:
 !!! danger
 
     `skipRecalibration` is a feature thought to be used by expert users, and it must be used with caution. In particular, in the unlikely event that a joint won't calibrate during the first `yarprobotinterface` run, if this feature is enabled, the same joint will keep calibrating during the subsequent runs. Thus, collisions may occur among joints in idle and the joint calibrating.
-    Therefore, when this feature is enabled, it is assumed that one is fully aware of how the joints move during the calibration, the calibration order of the subparts and which might be possible collisions if the case described at `point d` takes place.
     Moreover, since at the restart all joints are set to `IDLE`, one should keep this in mind if the robot is started with a certain configuration that necessitate to have the joints controlled. 
     Then, after the robot starts in `IDLE`, one can move all the joint in `POSITION` or other control mode and use it normally.
