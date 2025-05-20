@@ -159,7 +159,7 @@ nav:
         - iCub FW Kinematics IMU: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-imu.md
       - iCub 3:
         - iCub 3 joints specs: icub3/icub3-joints.md
-      - ergoCub 1: 
+      - ergoCub 1:
         - The ergoCub Versions Table: ergocub_versions/index.md
         - Battery Pack:
           - Summary: ergoCub_battery_pack/index.md
@@ -193,6 +193,8 @@ nav:
         - Physical Sensors: tactile_sensors/hardware/physical_sensors.md
       - Power push buttons: robot_power/robot_power_button.md
       - Custom components: custom_components/custom_components.md
+      - Neck :
+        - Neck mk3: neck/neck_mk3.md
 
     - 💻 iCub SW:
       - Summary: icub_sw.md
