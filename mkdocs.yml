@@ -194,7 +194,7 @@ nav:
       - Power push buttons: robot_power/robot_power_button.md
       - Custom components: custom_components/custom_components.md
       - Neck :
-        - Neck mk3: neck/neck_mk3.md
+        - Neck MK3: neck/neck_mk3.md
 
     - 💻 iCub SW:
       - Summary: icub_sw.md
