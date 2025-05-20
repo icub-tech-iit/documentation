@@ -35,7 +35,7 @@ Find below a list of related traits to keep in mind:
     1. The very first time when control board devices are launched through the `yarprobotinterface`, the calibration procedure runs normally, irrespective of the parameter value.
     2. Subsequently, if `yarprobotinterface` gets restarted while keeping the boards powered on, then the whole robot will skip the calibration procedure on all joints, which will be set to `IDLE`.
     3. Since the group and the parameter are not mandatory for running the robot, one can omit defining the group inside the `general.xml` file and the software will set it to `false` by default; therefore, the robot subparts will calibrate each time the devices are restarted, as it normally happens.
-    4. If some joints won't calibrate at the first start of the robot they won't skip the calibration procedure on the following runs for just those joints. Thus they will normally calibrate while all the others will be set to `IDLE`
+    4. If some joints won't calibrate at the first start of the robot, they won't skip the calibration procedure on the following runs. Thus, those joints will normally calibrate while all the others will be set to `IDLE`.
     5. If the parameter is set to `true` but the boards are restarted, the first time the robot devices are run the calibration procedure will execute normally.
     6. As defined above, since the parameter is configured using an `extern-name`, its value can be overwritten when running the `yarprobotinterface` without modifying the configuration files.
 
