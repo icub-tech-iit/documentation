@@ -29,7 +29,7 @@ Notice how the parameter can be defined with the property `extern-name`, meaning
   yarprobotinterface --skipRecalibration true
 ```
 
-Regarding the specifics of this parameter it can be described as follows:
+Find below a list of related traits to keep in mind:
 
 - `skipRecalibration`, it can be set to `true` or `false` (default value). If set to `true` the robot will **skip** the calibration procedure when the `yarprobotinterface` is restarted while the boards are not switched off. Regarding this feature it is necessary to add some notes:
     1. The first time that the control board devices are started through the `yarprobotinterface` the calibration procedure runs normally, independently of having set the parameter to `true` or `false`
