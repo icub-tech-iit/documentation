@@ -14,7 +14,7 @@ When the user shuts down Yarprobotinterface, the calibrator moves all joints to 
 
 ## Maintenance features
 
-Relatively to the calibration procedure, users might configure an optional group in the `general.xml` file. Specifically the group has name `MAINTENANCE` and it currently holds just the `skipRecalibration` parameter.
+Relatively to the calibration procedure, users might configure an optional group in the `general.xml` file. Specifically, the group is termed `MAINTENANCE` and contains at the moment just the `skipRecalibration` parameter.
 In order to enable it, you should add the following group in general:
 
 ```xml
