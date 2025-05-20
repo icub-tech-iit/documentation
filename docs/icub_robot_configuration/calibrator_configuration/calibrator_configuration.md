@@ -23,7 +23,7 @@ To enable it, add the following within `general.xml`:
 </group>
 ```
 
-As you can observe, the parameter can be defined with `extern-name`. This means that you can overwrite its value when running the `yarprobotinterface` command as:
+Notice how the parameter can be defined with the property `extern-name`, meaning that you can overwrite its value when running the `yarprobotinterface` command:
 
 ```sh
   yarprobotinterface --skipRecalibration true
