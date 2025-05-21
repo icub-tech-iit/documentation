@@ -68,6 +68,7 @@ The differences between the neck designed for iCub and the one for ergoCub conce
 |    PITCH       |   -45; +22   |
 |       ROLL      |    -50; +50   |
 |       YAW      |    -45; +45   |
+
 ### iCub
 
 | Joint | Range of movement (deg) |
