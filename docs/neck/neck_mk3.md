@@ -55,8 +55,8 @@ The differences between the neck designed for iCub and the one for ergoCub conce
 
 
 <figure markdown="span">
-     ![](img/link_yaw.png)
-  </figure>
+    ![](img/link_yaw.png)
+</figure>
 
 
 ## Range of movement
