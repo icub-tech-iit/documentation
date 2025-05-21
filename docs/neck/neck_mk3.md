@@ -23,12 +23,12 @@ Neck MK3 follows a 'SERIAL' configuration of joints in this order from bottom to
 
 The selected motors for the joints are:
 
-- `FAULHABER_3216W024BXTH` for pitch and roll
+- [`FAULHABER_3216W024BXTH`](https://www.faulhaber.com/fileadmin/Import/Media/EN_3216_BXTH_DFF.pdf) for pitch and roll
 <figure markdown="span">
     ![](img/faulhaber_3216W024BTXH_spec.png)
-  </figure>
+</figure>
 
-- `[FAULHABER_2214S024BXTH](https://www.faulhaber.com/fileadmin/Import/Media/EN_2214_BXTH_DFF.pdf)` for yaw
+- [`FAULHABER_2214S024BXTH`](https://www.faulhaber.com/fileadmin/Import/Media/EN_2214_BXTH_DFF.pdf) for yaw
 <figure markdown="span">
     ![](img/faulhaber_2214S024BXTH_spec.png)
 </figure>
