@@ -30,10 +30,10 @@ The selected motors for the joints are:
   </figure>
 
 
-- `FAULHABER_2214S024BXTH` for yaw
+- `[FAULHABER_2214S024BXTH](https://www.faulhaber.com/fileadmin/Import/Media/EN_2214_BXTH_DFF.pdf)` for yaw
 <figure markdown="span">
     ![](img/faulhaber_2214S024BXTH_spec.png)
-  </figure>
+</figure>
 
 
 Compared to the previous neck version, the MK3 neck designed for ergoCub has an overall height that is 10 mm greater, measured from the pitch joint axis as in figure.
