@@ -8,9 +8,10 @@ It is possible to find the epic that encompasses the entire development here: ht
 The adopted solution was designed and developed to address the issues related to the use of tendons in the previous version of the neck. This mechanism, in fact, is not only compact but also does not require the use of tendons.
 
 The neck is compatible with both the ergoCub and iCub heads, with only minimal differences in the assembly.
+
 <figure markdown="span">
     ![](img/ecub_icub_head.png)
-  </figure>
+</figure>
 
 ## General description
 
