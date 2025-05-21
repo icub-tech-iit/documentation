@@ -42,7 +42,7 @@ Compared to the previous neck version, the MK3 neck designed for ergoCub is 10 m
   </figure>
 
 
-The differences between the neck designed for iCub and the one for ergoCub concern only two parts:
+The differences between the neck designed for iCub and the one for ergoCub are concerned with only two parts:
 
 | Alias in ergoCub | Alias in iCub | Description  |   Images      |
 |----------------------|--------|---------------|------------|
