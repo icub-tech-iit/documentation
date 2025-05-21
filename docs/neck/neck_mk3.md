@@ -36,7 +36,7 @@ The selected motors for the joints are:
 </figure>
 
 
-Compared to the previous neck version, the MK3 neck designed for ergoCub has an overall height that is 10 mm greater, measured from the pitch joint axis as in figure.
+Compared to the previous neck version, the MK3 neck designed for ergoCub is 10 mm higher, when measured from the pitch joint axis as in the figure below:
 <figure markdown="span">
     ![](img/quote_diff.png)
   </figure>
