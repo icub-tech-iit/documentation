@@ -37,9 +37,10 @@ The selected motors for the joints are:
 
 
 Compared to the previous neck version, the MK3 neck designed for ergoCub is 10 mm higher, when measured from the pitch joint axis as in the figure below:
+
 <figure markdown="span">
     ![](img/quote_diff.png)
-  </figure>
+</figure>
 
 
 The differences between the neck designed for iCub and the one for ergoCub are concerned with only two parts:
