@@ -9,13 +9,13 @@ The adopted solution was designed and developed to address the issues related to
 
 The neck is compatible with both the ergoCub and iCub heads, with only minimal differences in the assembly.
 <figure markdown="span">
-    <img src="../img/ecub_icub_head.png"/>
+    ![](img/ecub_icub_head.png)
   </figure>
 
 ## General description
 
 <figure markdown="span">
-    <img src="../img/ecub_neck.png"/>
+    ![](img/ecub_neck.png)
   </figure>
 
 
@@ -25,23 +25,23 @@ The selected motors for the joints are:
 
 - `FAULHABER_3216W024BXTH` for pitch and roll
 <figure markdown="span">
-    <img src="../img/faulhaber_3216W024BTXH_spec.png"/>
+    ![](img/faulhaber_3216W024BTXH_spec.png)
   </figure>
 
 
 - `FAULHABER_2214S024BXTH` for yaw
 <figure markdown="span">
-    <img src="../img/faulhaber_2214S024BXTH_spec.png"/>
+    ![](img/faulhaber_2214S024BXTH_spec.png)
   </figure>
 
 
 Compared to the previous neck version, the MK3 neck designed for ergoCub has an overall height that is 10 mm greater, measured from the pitch joint axis as in figure.
 <figure markdown="span">
-    <img src="../img/quote_diff.png"/>
+    ![](img/quote_diff.png)
   </figure>
 
 
-The differences between the neck designed for iCub and the one for ErgoCub concern only two parts:
+The differences between the neck designed for iCub and the one for ergoCub concern only two parts:
 
 | Alias in ergoCub | Alias in iCub | Description  |   Images      |
 |----------------------|--------|---------------|------------|
@@ -49,12 +49,12 @@ The differences between the neck designed for iCub and the one for ErgoCub conce
 |       IC_033_P_041       |    IC_034_P_033    | This part differs between the necks designed for ErgoCub and iCub in several aspects, including the overall height (the ErgoCub version is 10 mm taller) and the shape. In fact, in the version designed for iCub, it was necessary to carve out a space to allow the head frame to pass during yaw movement, which would otherwise cause interference  |  Figure B
 
 <figure markdown="span">
-    <img src="../img/link_roll.png"/>
+    ![](img/link_roll.png)
   </figure>
 
 
 <figure markdown="span">
-    <img src="../img/link_yaw.png"/>
+     ![](img/link_yaw.png)
   </figure>
 
 
@@ -67,7 +67,6 @@ The differences between the neck designed for iCub and the one for ErgoCub conce
 |    PITCH       |   -45; +22   |
 |       ROLL      |    -50; +50   |
 |       YAW      |    -45; +45   |
-
 ### iCub
 
 | Joint | Range of movement (deg) |
