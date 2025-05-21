@@ -2,10 +2,10 @@
 
 ## Introduction
 
-This documentation page describes the new ergoCub/iCub `Neck MK3`. Thereby, you will find here information on its features.
-It is possible to find the epic that encompasses the entire development here: https://github.com/icub-tech-iit/study-icub-headedge/issues/5
+This documentation page describes the new ergoCub/iCub `Neck MK3`.
+The development of the project has been carried out in https://github.com/icub-tech-iit/study-icub-headedge.
 
-The adopted solution was designed and developed to address the issues related to the use of tendons in the previous version of the neck. This mechanism, in fact, is not only compact but also does not require the use of tendons.
+The MK3 solution sports a compact tendonless serial kinematics mechanism that was designed precisely to circumvent the issues observed with the tendons employed in the MK2 prototype.
 
 The neck is compatible with both the ergoCub and iCub heads, with only minimal differences in the assembly.
 
@@ -19,7 +19,6 @@ The neck is compatible with both the ergoCub and iCub heads, with only minimal d
     ![](img/ecub_neck.png)
 </figure>
 
-
 Neck MK3 follows a 'SERIAL' configuration of joints in this order from bottom to top: `pitch`, `roll`, `yaw`. The interfaces with the head and the chest have been adapted to match the previous ones.
 
 The selected motors for the joints are:
@@ -29,19 +28,16 @@ The selected motors for the joints are:
     ![](img/faulhaber_3216W024BTXH_spec.png)
   </figure>
 
-
 - `[FAULHABER_2214S024BXTH](https://www.faulhaber.com/fileadmin/Import/Media/EN_2214_BXTH_DFF.pdf)` for yaw
 <figure markdown="span">
     ![](img/faulhaber_2214S024BXTH_spec.png)
 </figure>
-
 
 Compared to the previous neck version, the MK3 neck designed for ergoCub is 10 mm higher, when measured from the pitch joint axis as in the figure below:
 
 <figure markdown="span">
     ![](img/quote_diff.png)
 </figure>
-
 
 The differences between the neck designed for iCub and the one for ergoCub are concerned with only two parts:
 
@@ -54,13 +50,11 @@ The differences between the neck designed for iCub and the one for ergoCub are c
     ![](img/link_roll.png)
 </figure>
 
-
 <figure markdown="span">
     ![](img/link_yaw.png)
 </figure>
 
-
-## Range of movement
+## Range of Motion
 
 ### ergoCub
 
