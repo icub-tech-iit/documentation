@@ -17,7 +17,7 @@ The neck is compatible with both the ergoCub and iCub heads, with only minimal d
 
 <figure markdown="span">
     ![](img/ecub_neck.png)
-  </figure>
+</figure>
 
 
 Neck MK3 follows a 'SERIAL' configuration of joints in this order from bottom to top: `pitch`, `roll`, `yaw`. The interfaces with the head and the chest have been adapted to match the previous ones.
