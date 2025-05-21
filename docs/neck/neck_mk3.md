@@ -58,7 +58,7 @@ The differences between the neck designed for iCub and the one for ergoCub are c
 
 ### ergoCub
 
-| Joint | Range of movement (deg)
+| Joint | degrees |
 |----------------------|------|
 |    PITCH       |   -45; +22   |
 |       ROLL      |    -50; +50   |
@@ -66,7 +66,7 @@ The differences between the neck designed for iCub and the one for ergoCub are c
 
 ### iCub
 
-| Joint | Range of movement (deg) |
+| Joint | degrees |
 |----------------------|------|
 |    PITCH       |   -30; +22   |
 |       ROLL     |    -50; +50  |
