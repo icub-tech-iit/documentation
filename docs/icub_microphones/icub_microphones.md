@@ -21,7 +21,11 @@ If you rely on [`robotology-superbuild`](https://github.com/robotology/robotolog
  Recording and playback is supported in yarp via `libportaudio`, which wraps on the top of the linux device drivers.
  These yarp devices are [`portaudioPlayer`](http://www.yarp.it/git-master/classPortAudioPlayerDeviceDriver.html) and [`portaudioRecorder`](http://www.yarp.it/git-master/classPortAudioRecorderDeviceDriver.html), we need to enable them from ccmake when we compile yarp on the laptop (the option is avilable only if libportaudio needs to be installed). On icub, these devices are already enabled by default.
  
- Then, yarp has two network wrappers to send received audio data to/from the network. These devices are [`AudioPlayerWrapper`](http://www.yarp.it/git-master/classAudioPlayerWrapper.html) and [`AudioRecorderWrapper`](http://www.yarp.it/git-master/classAudioRecorderWrapper.html) . Again, we need to check our yarp ccmake configuration to enable and compile them.
+ Then, yarp has two network wrappers to send received audio data to/from the network. These devices are [`AudioPlayerWrapper`](http://www.yarp.it/git-master/classAudioPlayerWrapper.html) and `AudioRecorderWrapper`. Again, we need to check our yarp ccmake configuration to enable and compile them.
+
+!!! warning "Deprecation Notice"
+
+    From YARP-3.9.0, `AudioRecorderWrapper` has been deprecated in favor of the NWS/NWC network wrappers.
  
  We can record audio from a microphone and stream it over the network with the command:
  
