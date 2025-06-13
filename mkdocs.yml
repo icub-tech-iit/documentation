@@ -279,7 +279,7 @@ nav:
           - Installing MPLAB: icub_firmware/fw_toolchain/installing_mplab.md
         - Firmware Documentation: icub_firmware/firmware/firmware.md
         - FirmwareUpdater Walkthrough: icub_firmware/firmwareupdater/firmwareupdater.md
-        - Automatic Firmware Update Runbook: icub_firmware/Automatic_Firmware_Update_Runbook/Automatic_Firmware_Update_Runbook.md
+        - Automatic Firmware Update Runbook: icub_firmware/automatic_firmware_update_runbook/automatic_firmware_update_runbook.md
         - Associated Firmware: icub_firmware/associated-firmware/associated-firmware.md
         - Old Tools:
           - CanLoader: icub_firmware/canLoader/canLoader.md

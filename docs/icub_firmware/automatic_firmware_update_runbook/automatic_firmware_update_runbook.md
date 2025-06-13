@@ -95,9 +95,9 @@ You can also find scripts for specific parts and actions, such as:
 
 Use the script that matches the action and part you want to operate on.
 
-### IMPORTANT SIDENOTES : 
+### IMPORTANT SIDENOTES
 
-- **Always use the provided scripts unless you have a special need. Try to double check the details**
+- **Always use the provided scripts unless you have a special need. If modifications are necessary, ensure you thoroughly understand the implications and double-check all parameters.**
 - **Do not edit scripts unless you understand the options.**
 - **Check logs in the `../logs/` directory after running a script.**
 
@@ -109,7 +109,7 @@ Use the script that matches the action and part you want to operate on.
 
 If you need more control or want to understand the underlying process, you can use the `manageFWrobot.py` script directly.
 
-## Prerequisites
+### Prerequisites
 
 - Ensure you have a working Python 3 environment.
 - Make sure the robot is powered on and connected to the network.
