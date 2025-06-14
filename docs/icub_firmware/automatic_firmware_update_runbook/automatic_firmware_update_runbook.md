@@ -2,7 +2,7 @@
 
 This guide explains how to perform an automatic firmware update for iCub robots using the `manageFWrobot.py` script, which is located in `robotology-superbuild/src/icub-firmware-build/scripts/`.
 
-# 1. Automated Firmware Update (AFU) Using Provided Scripts
+## 1. Automated Firmware Update (AFU) Using Provided Scripts
 
 The recommended way to perform a firmware update is to use the provided bash scripts in the `scripts` directory. These scripts simplify the process by automatically selecting the correct configuration files and options for your robot.
 
@@ -95,17 +95,17 @@ You can also find scripts for specific parts and actions, such as:
 
 Use the script that matches the action and part you want to operate on.
 
-### IMPORTANT SIDENOTES
+!!! warning "Sidenotes"
 
-- **Always use the provided scripts unless you have a special need. If modifications are necessary, ensure you thoroughly understand the implications and double-check all parameters.**
-- **Do not edit scripts unless you understand the options.**
-- **Check logs in the `../logs/` directory after running a script.**
+    - **Always use the provided scripts unless you have a special need. If modifications are necessary, ensure you thoroughly understand the implications and double-check all parameters.**
+    - **Do not edit scripts unless you understand the options.**
+    - **Check logs in the `../logs/` directory after running a script.**
 
 > For advanced customization, see the [Step-by-Step Procedure](#step-by-step-procedure) below.
 
 ---
 
-# 2. Automatic Firmware Update (AFU) by launching the manageFWrobot.py
+## 2. Automatic Firmware Update (AFU) by launching the manageFWrobot.py
 
 If you need more control or want to understand the underlying process, you can use the `manageFWrobot.py` script directly.
 
@@ -115,7 +115,7 @@ If you need more control or want to understand the underlying process, you can u
 - Make sure the robot is powered on and connected to the network.
 - You have the correct network and firmware info XML files for your robot.
 
-## Step-by-Step Procedure
+### Step-by-Step Procedure
 
 ### 2.1 Prepare the XML Files
 
@@ -124,7 +124,9 @@ If you need more control or want to understand the underlying process, you can u
 - **Firmware info XML file (`-f`)**: Lists firmware versions and file paths (e.g., `firmware.info.xml`).  
   Location: `robotology-superbuild/src/icub-firmware-build/info/`
 
-> **Note:** Always verify that the firmware info file contains the correct versions and paths for your update.
+!!! note
+
+    Always verify that the firmware info file contains the correct versions and paths for your update.
 
 ### 2.2 Navigate to the Scripts Directory
 
@@ -142,11 +144,11 @@ The general command structure is:
 ./manageFWrobot.py -n <network_file.xml> -f <firmware_info.xml> -p <part> -b <board_type> -a <action>
 ```
 
-#### Example
+!!! example
 
-```bash
-./manageFWrobot.py -n network.iCubGenova02.xml -f ../info/firmware.info.xml -p left_leg -b foc -a update
-```
+    ```bash
+    ./manageFWrobot.py -n network.iCubGenova02.xml -f ../info/firmware.info.xml -p left_leg -b foc -a update
+    ```
 
 #### Option Definitions
 
@@ -163,7 +165,9 @@ The general command structure is:
 - `-xb` : (Optional) Exclude a specific board type from the operation.
 - `-v` : (Optional) Set verbosity level (0-3).
 
-> **Tip:** Prefer using the `update` action over `program` to avoid unnecessary reprogramming. The `update` action checks versions and only updates when needed.
+!!! tip
+  
+    Favor the `update` action over `program` to avoid unnecessary reprogramming. The `update` action checks versions and only updates when needed.
 
 ### Monitor the Output
 
