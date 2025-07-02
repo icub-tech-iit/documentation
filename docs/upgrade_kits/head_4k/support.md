@@ -20,7 +20,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 |  #  |     Code   |   Alias  |  Rev | UM |  Qty  |  Description |
 |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
-| 1 |  18476  | MKIT_009 |   | Pieces  |  1  | iCub eyes Mk4 |
+| 1 |  18476  | MKIT_009 | A2  | Pieces  |  1  | iCub eyes Mk4 |
 |  2  | 17018 |		WKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU, and COM Express Type 10 (wiring) |
 |  3  | 16519 |		EKIT_009	 |	 	| Pieces	| 1	| iCub2.x, Basler cameras, GPU, and COM Express Type 10 (electronics) |
 
@@ -46,11 +46,12 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | M2_5X06-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70  | 15993 |     | 8   |
 | M2_5X08-6LOBE-ISO14583-A2-70   | M2_5 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70  | 15994 |     | 6   |
 | M3X06-6LOBE-ISO14583-A2-70     | M3 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70    | 16022 |     | 4   |
-| IC_034_G_007                   | Eye bulb with inserts                                                            | 18375 | A1  | 2   |
+| M2X06-6LOBE-ISO14583-A2-70     | M2 x  6, ISO14583, 6LOBE socket pan head machine screw, fully threaded, A2-70    | 15853 |     | 8   |
+| IC_034_G_007                   | Eye bulb with inserts                                                            | 18375 | A2  | 2   |
 | IC_034_G_025                   | Orin NX support with inserts                                                     | 18384 | A1  | 1   |
 | IC_034_M_020                   | V2 eye tilt brace A                                                              | 18385 | A1  | 1   |
 | IC_034_P_017                   | Eye pan frame with protrusion                                                    | 18386 | 0   | 2   |
-| IC_034_P_039                   | Eye CCD mounting plate                                                           | 18581 | 0   | 2   |
+| IC_034_P_039                   | Eye CCD mounting plate                                                           | 18581 | A1   | 2   |
 | IC_034_P_020                   | Eye tilt brace A                                                                 | 18388 | A1  | 1   |
 | IC_034_P_021                   | Eyelid reinforcement                                                             | 18389 | 0   | 1   |
 | IC_034_P_022                   | Eyelid upper                                                                     | 18390 | A1  | 1   |
@@ -61,7 +62,6 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | IC_034_G_031                   | Support for connector with inserts                                               | 18402 | 0   | 1   |
 | IC_034_G_034                   | Cover backpack assy                                                              | 18405 | 0   | 1   |
 | IC_034_P_034                   | V2 head eyes tilt frame                                                          | 18475 | 0   | 1   |
-| IC_034_P_036                   | eye iris                                                                         | 18479 | A1  | 2   |
 | RC_IIT_025_P_130               | Hinge for backpack                                                               | 13615 | A3  | 1   |
 
 ## Content material  WKIT_009
