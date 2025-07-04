@@ -157,7 +157,7 @@ Further details of how the workflow of the whole calibration type 10 is managed 
     On AMO-based robots (e.g., iCub 3, ergoCub), the AMO sensors can be completely disabled to favor the use of the quadrature encoders only by changing the value of the `amo` parameter to `none` within the `hardware/motorControl/*service.html` files.
 
 ### Calibration 12
-This calibration is used for joint with absolute encoder, it is the newest version of calibration 3 and it simplifies the calibration procedure for the user; in fact the user needs only to write in calibration1 parameter the raw value read when jont is in 0.0 position and the firmware calculates the correct offset.
+This calibration is used for joint with absolute encoder, it is the newest version of calibration 3 and it simplifies the calibration procedure for the user; in fact the user needs only to write in calibration1 parameter the raw value read when joint is in 0.0 position and the firmware calculates the correct offset.
 
 |   |   |
 |---|---|
