@@ -114,7 +114,7 @@ Draft Logic schematic
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/Head4k_logic_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/16519_0.1_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
+| [![](img/Head4k_logic_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/16519_0.1_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
 
 ## Assembly instruction
 
