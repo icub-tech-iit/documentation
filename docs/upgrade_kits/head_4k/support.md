@@ -91,7 +91,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/Head4k_harness_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/17018_0.0.1_Harness_WKIT_009_Cameras%20updrade%20kit.pdf) |
+| [![](img/Head4k_harness_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/17018_0.0.1_Harness_WKIT_009_Cameras%20upgrade%20kit.pdf) |
 
 ## Content material  EKIT_009
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
