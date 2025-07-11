@@ -141,11 +141,11 @@ To use the [gaze controller](https://robotology.github.io/robotology-documentati
 
 ## Software instructions
 
-This UKIT also includes an additional [NVIDIA Jetson Orin NX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) mounted on the top of the head, for handling the [FRAMOS-IMX415 cameras](https://www.framos.com/en/products/fsm-imx415-sensor-module-26361) and performing image processing on the onboard GPU. The Orin NX has to be configured following [the flash procedure](../../icub_operating_systems/icubos/jetpack.md) and then the guide to [configure the FRAMOS-IMX415](../../icub_operating_systems/icubos/setup-framos-imx415.md).
+This UKIT also includes an additional [NVIDIA Jetson Orin NX](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-xavier-nx/) mounted on the top of the head, for handling the [FRAMOS-IMX 678 cameras](https://framos.com/products/modules/fsmgo-modules/fsmgo-with-imx678-sensor-and-110-hfov-lens-27361) and performing image processing on the onboard GPU. The Orin NX has to be configured following [the flash procedure](../../icub_operating_systems/icubos/jetpack.md) and then the guide to [configure the FRAMOS-IMX678](../../icub_operating_systems/icubos/setup-framos-imx678.md).
 
 If the image has been [installed from scratch](../../icub_operating_systems/icubos/jetpack.md#flash-a-new-image-from-scratch), an initial configuration is also required, which consists in:
 
 - Set the `icub` as `host` and `icub-head` as `hostname`.
 - Configure the network.
 
-For using the images provided by the new `FRAMOS-IMX415` camera over the YARP network, it is needed to compile and install [`yarp-device-argus`](https://github.com/robotology/yarp-device-argus/tree/main?tab=readme-ov-file#2-how-to-use-framos-cameras-as-a-yarp-device).
+For using the images provided by the new `FRAMOS-IMX678` camera over the YARP network, it is needed to compile and install [`yarp-device-argus`](https://github.com/robotology/yarp-device-argus/tree/main?tab=readme-ov-file#2-how-to-use-framos-cameras-as-a-yarp-device).
