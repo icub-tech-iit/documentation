@@ -73,6 +73,7 @@ sudo ./install.sh
 As soon as the installation procedure has finished, please power off the Orin NX. Then plug-in your cameras to the `CAM1` and `CAM2` connectors, and finally power on the board again.
 
 !!! warning  
+
     During the flashing procedure, the profile `fsm-imx678-2cam` has been selected, which means that two cameras could be used with this configuration. For this reason, only `CAM1` and `CAM2` connectors are enabled to read the data from the FRAMOS-IMX678, while CAM3 and CAM4 are not. Please, be sure that they are properly connected.
 
 Check if the cameras are detected running `ls /dev/video*` from the command line.
