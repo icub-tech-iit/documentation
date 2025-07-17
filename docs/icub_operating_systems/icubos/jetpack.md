@@ -6,7 +6,7 @@ This guide is intended for developers who want to flash and set up the [Nvidia J
 |:---:|:---:|:---:|:---:|:---:|
 |Xavier AGX|Ubuntu 20.04|5.0.2|[Rogue](https://connecttech.com/product/rogue-carrier-nvidia-jetson-agx-xavier/)| [r35.0.1](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-AGX-Xavier/AGX-35.1.0.pdf)|
 |Xavier NX|Ubuntu 18.04|4.6.2|[Quark](https://connecttech.com/product/quark-carrier-nvidia-jetson-xavier-nx/)|[r32.7.2](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-Xavier-NX/XAVIER-NX-32.7.2.pdf) |
-|Orin NX|Ubuntu 20.04|5.1.2|[Boson for FRAMOS](https://connecttech.com/product/boson-for-framos-carrier-board-for-nvidia-jetson-orin-nx/)|[r35.4.1](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-Orin-NX-Orin-Nano/ORIN-NX-NANO-35.4.1_.pdf) |
+|Orin NX|Ubuntu 22.04|6.2|[Boson for FRAMOS](https://connecttech.com/product/boson-for-framos-carrier-board-for-nvidia-jetson-orin-nx/)|[r36.4.3](https://connecttech.com/ftp/Drivers/L4T-Release-Notes/Jetson-Orin-NX-Orin-Nano/ORIN-NX-NANO-36.4.3.pdf) |
 
 # Requirements
 
@@ -97,7 +97,7 @@ At this point we are ready to flash.
 
 !!! warning
 
-    If you want to configure your `Jetson Orin NX` to be used with `FRAMOS-IMX415` cameras, please refer to the [specific procedure](./setup-framos-imx415.md) from hereinafter.
+    If you want to configure your `Jetson Orin NX` to be used with `FRAMOS-IMX678` cameras, please refer to the [specific procedure](./setup-framos-imx678.md) from hereinafter.
 
 1. From the previously folder, do `cd ..` to return to the Linux_for_Tegra directory
 2. Flash the image by running `sudo ./cti-flash.sh` script (otherwise you can use the manual flashing procedure).
@@ -142,7 +142,7 @@ After successfully flashing your NVIDIA board by following the dedicated procedu
 - [Install librealsense](./install-librealsense.md)
 - [Install jtop](./install-jtop.md)
 - [Install CMake (only for Ubuntu 20.04)](./install-cmake.md)
-- [Setup Orin NX for FRAMOS-IMX415 (only for `iCub head v2.10`)](./setup-framos-imx415.md)
+- [Setup Orin NX for FRAMOS-IMX678 (only for `iCub head v2.10`)](./setup-framos-imx678.md)
 - [Setup ergoCub screen (only for `ergocub-head`)](./setup-ergocub-screen.md)
 
 Moreover, if you are configuring a machine that is part of an iCub or ergoCub robot or it's used to simulate or communicate with them, you would need to install the software depending on the operating system. You can follow the [**robotology-superbuild installation guide**](../../sw_installation/index.md).
