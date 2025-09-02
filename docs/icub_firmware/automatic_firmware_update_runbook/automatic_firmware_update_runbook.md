@@ -150,6 +150,14 @@ The general command structure is:
     ./manageFWrobot.py -n network.iCubGenova02.xml -f ../info/firmware.info.xml -p left_leg -b foc -a update
     ```
 
+#### Example with Parallel Updates
+
+For faster firmware updates when multiple CAN boards of the same type are present on the same Ethernet connection:
+
+```bash
+./manageFWrobot.py -n network.iCubGenova02.xml -f ../info/firmware.info.xml -p left_leg -b foc -a update --parallel
+```
+
 #### Option Definitions
 
 - `-n` : Path to the network XML file describing the robot's boards.
@@ -164,10 +172,13 @@ The general command structure is:
   - `program` : Force firmware programming regardless of current version.
 - `-xb` : (Optional) Exclude a specific board type from the operation.
 - `-v` : (Optional) Set verbosity level (0-3).
+- `--parallel` : (Optional) Enable parallel updating of CAN boards of the same type under the same Ethernet connection. This can significantly speed up the firmware update process when multiple boards of the same type are present on the same network segment.
 
 !!! tip
   
     Favor the `update` action over `program` to avoid unnecessary reprogramming. The `update` action checks versions and only updates when needed.
+
+> **Note:** The `--parallel` option is particularly useful when updating multiple boards of the same type (e.g., multiple FOC boards) that are connected to the same Ethernet interface, as it allows simultaneous firmware updates instead of sequential processing.
 
 ### Monitor the Output
 
