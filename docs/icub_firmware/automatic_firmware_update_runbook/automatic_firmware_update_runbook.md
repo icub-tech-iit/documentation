@@ -172,7 +172,7 @@ For faster firmware updates when multiple CAN boards of the same type are presen
   - `program` : Force firmware programming regardless of current version.
 - `-xb` : (Optional) Exclude a specific board type from the operation.
 - `-v` : (Optional) Set verbosity level (0-3).
-- `--parallel` : (Optional) Enable parallel updating of similar CAN boards under the same Ethernet connection. This can significantly speed up the firmware update process when multiple boards of the same type are present on the same network segment.
+- `--parallel` : (Optional) Enable parallel updating of CAN boards of the same type under the same Ethernet connection. This can significantly speed up the firmware update process when multiple boards of the same type are present on the same network segment.
 
 !!! tip
   
