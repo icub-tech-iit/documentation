@@ -152,7 +152,7 @@ The general command structure is:
 
 #### Example with Parallel Updates
 
-For faster firmware updates when multiple similar can boards are present on the same Ethernet connection:
+For faster firmware updates when multiple CAN boards of the same type are present on the same Ethernet connection:
 
 ```bash
 ./manageFWrobot.py -n network.iCubGenova02.xml -f ../info/firmware.info.xml -p left_leg -b foc -a update --parallel
