@@ -8,7 +8,7 @@ The latest version is based on Ubuntu Server 24.04.x
 Please check that the BIOS configuration allows booting from a USB drive.
 
 ## Create the USB installer
-The first step is downloading the **official Ubuntu 20.04 LTS Server install media** from the [release page](https://releases.ubuntu.com/noble/). Search for `ubuntu-24.04.x-live-server-amd64.iso`.
+The first step is downloading the **official Ubuntu 24.04 LTS Server install media** from the [release page](https://releases.ubuntu.com/noble/). Search for `ubuntu-24.04.x-live-server-amd64.iso`.
 
 Then please create the USB installer using a USB memory and a tool like [Balena Etcher](https://www.balena.io/etcher/).
 
