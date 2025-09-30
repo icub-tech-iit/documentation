@@ -27,7 +27,7 @@ The TDB board sends 3 bytes on the `I2C` bus: the temperature value (2 bytes) an
 The **possible errors** currently managed are the following:
 
 - `-90` : the `2FOC` cannot read from the `I2C`, meaning that the `ACK` is not received from the `TDB`.
-- `-70` : the reading cannot be done for 10 consecutive seconds. An overheating fault is triggered.
+- `-70` : the reading cannot be done for 10 consecutive seconds, meaning that the `TDB` can be configured but there are `I2C` communication problems between `2FOC` abd `TDB`
 - `-50` : the TDB loses the given configuration and uses the default one. In this case, the 2FOC restores the desired configuration.
 - `-30` : the `TDB` sets any configuration value different from both the desired and the default one.
 
@@ -44,9 +44,12 @@ In the **logfile**, the `yarprobotinterface` prints the raw value instead the  d
 
 
 
-The `2FOC` triggers the `Overheating` error, so the motor is set in Hardware fault, when:
+The `2FOC` triggers the `Overheating Error`, so the motor is set in Hardware fault, when:
 
-1. it cannot read from the I2C bus longer than 10 seconds
-2. it reads a temperature value beyond the `hardwareTemperatureLimits` longer than 10 seconds.
+- it reads a temperature value beyond the `hardwareTemperatureLimits` longer than 10 seconds.
+
+Instead, the `2FOC` triggers the `I2C Communication Error`, so the motor is set in Hardware fault when:
+
+- it cannot communicate over the `I2C bus` for more than 10 (no data is transmitted even though the `TDB` is correctly configured).
 
 The `embObjMotionControl` converts the received raw values to Celsius degrees and checks that the result is not beyond the `warningTemperatureLimit`, otherwise it prints a warning log until the temperature drops. 
