@@ -217,7 +217,7 @@ python3 manageFWrobot.py --help
   ```
   For example:
   ```
-  /usr/local/src/robot/robotology-superbuild/build/install/share/ICUBcontrib/robots/ergoCubSN002
+  /usr/local/src/robot/robotology-superbuild/build/install/share/ICUBcontrib/robots/iCubGenova11
   ```
   Inspect the robot folder there to find the effective network XML used by that robot and troubleshoot discrepancies.
 
