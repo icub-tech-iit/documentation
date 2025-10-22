@@ -2,9 +2,14 @@
 
 This guide explains how to perform an automatic firmware update for iCub robots using the `manageFWrobot.py` script, which is located in `robotology-superbuild/src/icub-firmware-build/scripts/`.
 
+!!! warning "Preliminary checks"
+
+  **Before running the updater, read the Preliminary checks section below for required pre-checks, common failure modes, and recovery steps. Following those checks will avoid most problems and make the update process smoother.**
+
 ## 1. Automated Firmware Update (AFU) Using Provided Scripts
 
-The recommended way to perform a firmware update is to use the provided bash scripts in the `scripts` directory. These scripts simplify the process by automatically selecting the correct configuration files and options for your robot.
+The recommended way to perform a firmware update is to use the provided bash scripts in the `scripts` directory. These scripts simplify the process by automatically selecting the correct configuration files and options for your robot. 
+ 
 
 ### 1.1 Navigate to the Scripts Directory
 
@@ -109,11 +114,6 @@ Use the script that matches the action and part you want to operate on.
 
 If you need more control or want to understand the underlying process, you can use the `manageFWrobot.py` script directly.
 
-### Prerequisites
-
-- Ensure you have a working Python 3 environment.
-- Make sure the robot is powered on and connected to the network.
-- You have the correct network and firmware info XML files for your robot.
 
 ### Step-by-Step Procedure
 
@@ -193,16 +193,56 @@ To see all available options and their descriptions, run:
 python3 manageFWrobot.py --help
 ```
 
+
+## Prerequisites
+
+- Ensure you have a working Python 3 environment.
+- Make sure the robot is powered on and connected to the network.
+- You have the correct network file, check network file [troubleshooting](#troubleshooting) for more information and firmware info XML files for your robot. 
+- Ensure the network and firmware info XML files are correct: the updater reads the network XML at runtime (via `yarp resource --from network.$YARP_ROBOT_NAME.xml`) and uses the firmware info XML to determine firmware versions and file paths — these XMLs control which boards are detected and which firmware will be applied during an automatic update.
+- Run the automatic updater (manageFWrobot.py and the provided FirmwareUpdater.script.*.sh scripts) from a standalone terminal (e.g., gnome-terminal, terminator, xterm). Avoid running them from IDE integrated terminals such as Visual Studio Code's built-in terminal: those environments can alter environment variables or library paths and may cause Qt platform/plugin errors (for example, "This application failed to start because no Qt platform plugin could be initialized"). 
+
 ## Troubleshooting
 
-- Ensure all XML files are correct and accessible.
-- Check network connectivity to the robot.
 - Use higher verbosity (`-v 2` or `-v 3`) for more detailed logs.
 
-## References
+- The network XML used by the automated scripts is a runtime YARP resource. The scripts resolve it with:
+  ```bash
+  yarp resource --from network.$YARP_ROBOT_NAME.xml
+  ```
 
-- [FirmwareUpdater Online Documentation](https://icub-tech-iit.github.io/documentation/icub_firmware/firmwareupdater/firmwareupdater/?h=firm#change-can-id)
-- [FirmwareUpdater Full Details (GitHub)](https://github.com/robotology/icub-firmware-build/blob/master/docs/FirmwareUpdater.readme.fulldetails.txt)
+- If the FirmwareUpdater scripts (for example `FirmwareUpdater.script.update.*.sh`) do not reflect recent changes of the network files or the automatic updater is not updating boards as expected, check the installed robot-specific files under the build/install tree. The installed robots and their network files are commonly found at:
+  ```
+  /usr/local/src/robot/robotology-superbuild/build/install/share/ICUBcontrib/robots/
+  ```
+  For example:
+  ```
+  /usr/local/src/robot/robotology-superbuild/build/install/share/ICUBcontrib/robots/ergoCubSN002
+  ```
+  Inspect the robot folder there to find the effective network XML used by that robot and troubleshoot discrepancies.
+
+- Wiring vs. network-file consistency
+  - The network XML is a representation of the physical board network architecture. IP addresses, CAN bus IDs and board assignments declared in the network file must match the real electronic wiring and vice versa.
+  - If you change wiring (IP, CAN addresses, or connector routing) update the network XML to match exactly. If you edit the network XML, verify the physical wiring matches the file before running the updater.
+  - Quick checks:
+    ```bash
+    # show resolved network resource(s) used at runtime
+    yarp resource --from network.$YARP_ROBOT_NAME.xml | sed 's/"//g'
+
+    # inspect the resolved network file
+    less "$(yarp resource --from network.$YARP_ROBOT_NAME.xml | sed 's/"//g' | head -n1)"
+
+    # list installed robot folders (where deployed network files live)
+    ls -l /usr/local/src/robot/robotology-superbuild/build/install/share/ICUBcontrib/robots/
+    ```
+  - If you find mismatches between wiring and network file, correct either the wiring or the network XML so they are coherent before attempting firmware updates.
+
+- Electronic wiring / schematic reference
+  - Wiring diagrams and electronic-schematics link: <https://github.com/icub-tech-iit/electronics-wiring-public>
+
+- More troubleshooting and documentation:
+  - FirmwareUpdater online docs (troubleshooting & CAN id info): https://icub-tech-iit.github.io/documentation/icub_firmware/firmwareupdater/firmwareupdater/?h=firm#change-can-id
+  - FirmwareUpdater full details (GitHub): https://github.com/robotology/icub-firmware-build/blob/master/docs/FirmwareUpdater.readme.fulldetails.txt
 
 ---
 
