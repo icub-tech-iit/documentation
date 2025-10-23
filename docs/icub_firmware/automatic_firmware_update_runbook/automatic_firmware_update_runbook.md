@@ -4,7 +4,7 @@ This guide explains how to perform an automatic firmware update for iCub robots 
 
 !!! warning "Preliminary checks"
 
-  **Before running the updater, read the Preliminary checks section below for required pre-checks, common failure modes, and recovery steps. Following those checks will avoid most problems and make the update process smoother.**
+    **Before running the updater, read the Preliminary checks section below for required pre-checks, common failure modes, and recovery steps. Following those checks will avoid most problems and make the update process smoother.**
 
 ## 1. Automated Firmware Update (AFU) Using Provided Scripts
 
@@ -18,6 +18,10 @@ Open a terminal and change directory to:
 ```bash
 cd /path/to/robotology-superbuild/src/icub-firmware-build/scripts
 ```
+
+!!! tip "Recommended script"
+
+    **Use ./FirmwareUpdater.script.update.all.sh to update all boards. It runs in "update" mode (it only programs a board when the firmware actually needs updating) and the scripts perform CAN-board programming in parallel where possible to speed up the process.**
 
 ### 1.2 Update a Specific Body Part
 
