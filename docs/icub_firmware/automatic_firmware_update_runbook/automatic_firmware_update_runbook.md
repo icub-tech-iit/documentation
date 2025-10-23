@@ -2,9 +2,9 @@
 
 This guide explains how to perform an automatic firmware update for iCub robots using the `manageFWrobot.py` script, which is located in `robotology-superbuild/src/icub-firmware-build/scripts/`.
 
-!!! warning "Preliminary checks"
+!!! warning "Prerequisites"
 
-    **Before running the updater, read the Preliminary checks section below for required pre-checks, common failure modes, and recovery steps. Following those checks will avoid most problems and make the update process smoother.**
+    **Before running the updater, read the Prerequisites section below for required pre-checks, common failure modes, and recovery steps. Following those checks will avoid most problems and make the update process smoother.**
 
 ## 1. Automated Firmware Update (AFU) Using Provided Scripts
 
