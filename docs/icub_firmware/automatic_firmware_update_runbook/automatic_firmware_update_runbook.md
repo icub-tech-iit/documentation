@@ -202,7 +202,7 @@ python3 manageFWrobot.py --help
 
 - Ensure you have a working Python 3 environment.
 - Make sure the robot is powered on and connected to the network.
-- You have the correct network file, check network file [troubleshooting](#troubleshooting) for more information and firmware info XML files for your robot. 
+- You have the correct network and firmware info XML files for your robot. See the [troubleshooting](#troubleshooting) section for more information on the network file.
 - Ensure the network and firmware info XML files are correct: the updater reads the network XML at runtime (via `yarp resource --from network.$YARP_ROBOT_NAME.xml`) and uses the firmware info XML to determine firmware versions and file paths — these XMLs control which boards are detected and which firmware will be applied during an automatic update.
 - Run the automatic updater (manageFWrobot.py and the provided FirmwareUpdater.script.*.sh scripts) from a standalone terminal (e.g., gnome-terminal, terminator, xterm). Avoid running them from IDE integrated terminals such as Visual Studio Code's built-in terminal: those environments can alter environment variables or library paths and may cause Qt platform/plugin errors (for example, "This application failed to start because no Qt platform plugin could be initialized"). 
 
