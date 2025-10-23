@@ -245,8 +245,8 @@ python3 manageFWrobot.py --help
   - Wiring diagrams and electronic-schematics link: <https://github.com/icub-tech-iit/electronics-wiring-public>
 
 - More troubleshooting and documentation:
-  - FirmwareUpdater online docs (troubleshooting & CAN id info): https://icub-tech-iit.github.io/documentation/icub_firmware/firmwareupdater/firmwareupdater/?h=firm#change-can-id
-  - FirmwareUpdater full details (GitHub): https://github.com/robotology/icub-firmware-build/blob/master/docs/FirmwareUpdater.readme.fulldetails.txt
+  - [FirmwareUpdater online docs (troubleshooting & CAN id info)](https://icub-tech-iit.github.io/documentation/icub_firmware/firmwareupdater/firmwareupdater/?h=firm#change-can-id)
+  - [FirmwareUpdater full details (GitHub)](https://github.com/robotology/icub-firmware-build/blob/master/docs/FirmwareUpdater.readme.fulldetails.txt)
 
 ---
 
