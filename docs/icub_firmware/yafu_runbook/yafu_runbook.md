@@ -86,8 +86,8 @@ Notes:
 - The `YAFU` binary sends UDP packets from the host using the host's source IP and ephemeral source port (or the interface forced by `LOCAL_IP`). Targets reply to that source socket. Running the binary directly behaves the same network-wise as the scripts. But this is single target not parallel or multi target approach
 
 - `discover()`  -> `discover`
-- `jump2updater()` -> `jump2updater` (request maintenance)
-- `def2run_application()` -> `def2run_application` (set application mode)
+- `jump2updater()` -> `maintenance` (request maintenance)
+- `def2run_application()` -> `application` (set application mode)
 - `restart()` -> `restart`
 - `blink()` -> `blink`
 
