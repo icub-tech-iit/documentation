@@ -69,7 +69,7 @@ Examples
 - Single IP:
 ```sh
 ./program.sh 10.0.1.1
-./restart.sh 10.0.1.2
+./restart.sh 10.0.1.1
 ```
 - Multiple IPs:
 ```sh
