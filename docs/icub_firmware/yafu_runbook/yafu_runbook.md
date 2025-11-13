@@ -122,8 +122,8 @@ chmod +x ./YAFU
   - Check cabling, IP, host firewall
 - NETWORK_XML seems wrong:
   ```sh
-  yarp resource --from "network.$YARP_ROBOT_NAME.xml" | sed 's/"//g'
-  less "$(yarp resource --from "network.$YARP_ROBOT_NAME.xml" | sed 's/\"//g' | head -n1)"
+  yarp resource --from "network.$YARP_ROBOT_NAME.xml" | grep '^\".*$' | sed 's/"//g'
+  less "$(yarp resource --from "network.$YARP_ROBOT_NAME.xml" | grep '^\".*$' | sed 's/\"//g' | head -n1)"
   ls -l /usr/local/.../ICUBcontrib/robots/
   ```
   - If mismatched, set `NETWORK_XML` or fix the installed robot folder or `YARP_ROBOT_NAME`.
