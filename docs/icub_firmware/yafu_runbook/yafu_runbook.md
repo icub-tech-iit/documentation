@@ -5,13 +5,13 @@ This runbook describes two ways to update Ethernet boards with YAFU:
 - Method A — Parallel orchestrator (recommended for fleets): run `parallel.sh` which discovers IPs from a network XML and performs a 3‑phase update (prepare → program → restart) in parallel.
 - Method B — Stepwise control: use `program.sh` to prepare and program explicit IPs, then `restart.sh` to bring them back to application mode. 
 
-!!! Note: 
+!!! note 
 
     Method B is a forced, user-driven workflow — it does not perform automatic firmware-version pre‑checks across targets. Use this when you need explicit control or to recover a single board. You may target one or multiple IP addresses; the scripts will act on the provided list.
 
 All logs are written per‑IP under tools/YAFU/logs with dots replaced by underscores (e.g. 10_0_1_2.log).
 
-!!! Prerequisites
+!!! important "Prerequisites"
 
     - Built executable: ../robotology-superbuild/build/src/ICUB/bin/YAFU (executable).
     - firmware.info.xml available and correct (see code or repo path).
@@ -21,7 +21,7 @@ All logs are written per‑IP under tools/YAFU/logs with dots replaced by unders
 
 ## Runtime network XML resolution
 
-!!! caution 
+!!! caution
   
     `parallel.sh` resolves the network XML at runtime using YARP and the current robot name:
     ```sh
@@ -152,7 +152,7 @@ ls -l ../robotology-superbuild/build/install/share/ICUBcontrib/robots/
 ## Logs and escalation
 - Per‑IP logs: tools/YAFU/logs/*.log — include these plus the firmware.info.xml board entry when asking for help.
 
-!!! Low-key:
+!!! tip "Low-key"
 
     YAFU sends UDP messages from the host using the host's source IP and source port (or the interface forced by `LOCAL_IP`). Targets reply back to that source IP:port. The FirmwareUpdater GUI uses the well-known target port `3333` (each target IP is addressed on its configured destination port), so the GUI and YAFU operate on different directions/ports and do not conflict.
 
