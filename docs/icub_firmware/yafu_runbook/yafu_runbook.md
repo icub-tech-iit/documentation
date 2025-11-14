@@ -2,28 +2,28 @@
 
 This runbook describes two ways to update Ethernet boards with YAFU:
 
-- Method A — Parallel orchestrator (recommended for fleets): run `parallel.sh` which discovers IPs from a network XML and performs a 3‑phase update (prepare → program → restart) in parallel.
-- Method B — Stepwise control: use `program.sh` to prepare and program explicit IPs, then `restart.sh` to bring them back to application mode. 
+- Method A — Parallel orchestrator (recommended for fleets): run `yafu_parallel.sh` which discovers IPs from a network XML and performs a 3‑phase update (prepare → program → restart) in parallel.
+- Method B — Stepwise control: use `yafu_program.sh` to prepare and program explicit IPs, then `yafu_restart.sh` to bring them back to application mode. 
 
 !!! note 
 
     Method B is a forced, user-driven workflow — it does not perform automatic firmware-version pre‑checks across targets. Use this when you need explicit control or to recover a single board. You may target one or multiple IP addresses; the scripts will act on the provided list.
 
-All logs are written per‑IP under tools/YAFU/logs with dots replaced by underscores (e.g. 10_0_1_2.log).
+All logs are written per‑IP under tools/yafu/logs with dots replaced by underscores (e.g. 10_0_1_2.log).
 
 !!! important "Prerequisites"
 
-    - Built executable: ../robotology-superbuild/build/src/ICUB/bin/YAFU (executable).
+    - Built executable: ../robotology-superbuild/build/src/ICUB/bin/yafu (executable).  The scripts (yafu_*.sh) invoke this YAFU executable from the bin folder.
     - firmware.info.xml available and correct (see code or repo path).
     - Host can reach targets on UDP port 3333.
-    - tools/YAFU/logs is writable.
+    - tools/yafu/logs is writable.
 
 
 ## Runtime network XML resolution
 
 !!! caution
   
-    `parallel.sh` resolves the network XML at runtime using YARP and the current robot name:
+    `yafu_parallel.sh` resolves the network XML at runtime using YARP and the current robot name:
     ```sh
     NETWORK_XML="$(yarp resource --from "network.$YARP_ROBOT_NAME.xml" | grep '^\".*$' | sed 's/\"//g')"
     ```
@@ -43,9 +43,9 @@ What it does
 
 Quick usage
 ```sh
-cd ../robotology-superbuild/src/ICUB/src/tools/YAFU
-chmod +x parallel.sh
-./parallel.sh
+cd ../robotology-superbuild/src/ICUB/src/tools/yafu
+chmod +x yafu_parallel.sh
+./yafu_parallel.sh
 ```
 
 Exit codes (summary)
@@ -56,34 +56,34 @@ Exit codes (summary)
 
 ## Method B — Controlled per‑IP flow (program.sh + restart.sh)
 What it does
-- Operator supplies IPs. `program.sh` puts each IP into maintenance if needed and programs it. `restart.sh` runs def2run + RESTART for given IPs.
+- Operator supplies IPs. `yafu_program.sh` puts each IP into maintenance if needed and programs it. `yafu_restart.sh` runs def2run + RESTART for given IPs.
 
 Typical workflow
 ```sh
-cd ../robotology-superbuild/src/ICUB/src/tools/YAFU
-chmod +x program.sh restart.sh
-./program.sh 10.0.1.2 10.0.1.3
-./restart.sh 10.0.1.2 10.0.1.3
+cd ../robotology-superbuild/src/ICUB/src/tools/yafu
+chmod +x yafu_program.sh yafu_restart.sh
+./yafu_program.sh 10.0.1.2 10.0.1.3
+./yafu_restart.sh 10.0.1.2 10.0.1.3
 ```
 Examples
 - Single IP:
 ```sh
-./program.sh 10.0.1.1
-./restart.sh 10.0.1.1
+./yafu_program.sh 10.0.1.1
+./yafu_restart.sh 10.0.1.1
 ```
 - Multiple IPs:
 ```sh
-./program.sh 10.0.1.1 10.0.1.2 10.0.1.3
-./restart.sh 10.0.1.1 10.0.1.2 10.0.1.3
+./yafu_program.sh 10.0.1.1 10.0.1.2 10.0.1.3
+./yafu_restart.sh 10.0.1.1 10.0.1.2 10.0.1.3
 ```
 
 ## Extra perk — use the YAFU binary directly (no shell script)
 
-If you prefer to run single commands without the shell orchestrator scripts, you can invoke the `YAFU` executable directly from the `bin` folder. These commands map to the small helpers implemented in the code:
+If you prefer to run single commands without the shell orchestrator scripts, you can invoke the `yafu` executable directly from the `bin` folder. These commands map to the small helpers implemented in the code:
 
 Notes:
 
-- The `YAFU` binary sends UDP packets from the host using the host's source IP and ephemeral source port (or the interface forced by `LOCAL_IP`). Targets reply to that source socket. Running the binary directly behaves the same network-wise as the scripts. But this is single target not parallel or multi target approach
+- The `yafu` binary sends UDP packets from the host using the host's source IP and ephemeral source port (or the interface forced by `LOCAL_IP`). Targets reply to that source socket. Running the binary directly behaves the same network-wise as the scripts. But this is single target not parallel or multi target approach
 
 - `discover()`  -> `discover`
 - `jump2updater()` -> `maintenance` (request maintenance)
@@ -95,22 +95,22 @@ Example (run from the repository root or change path as needed):
 
 ```sh
 cd ../robotology-superbuild/build/src/ICUB/bin/
-chmod +x ./YAFU
+chmod +x ./yafu
 
 # Get full information about a board (DISCOVER):
-./YAFU discover 10.0.1.2
+./yafu discover 10.0.1.2
 
 # Put a board in maintenance (request jumper to updater):
-./YAFU maintenance 10.0.1.2
+./yafu maintenance 10.0.1.2
 
 # Put a board back to application mode (def2run):
-./YAFU application 10.0.1.2
+./yafu application 10.0.1.2
 
 # Restart the board (RESTART):
-./YAFU restart 10.0.1.2
+./yafu restart 10.0.1.2
 
 # Blink the board LED (BLINK):
-./YAFU blink 10.0.1.2
+./yafu blink 10.0.1.2
 ```
 
 
@@ -122,7 +122,7 @@ chmod +x ./YAFU
   - Check cabling, IP, host firewall
 - NETWORK_XML seems wrong:
   ```sh
-  yarp resource --from "network.$YARP_ROBOT_NAME.xml" | grep '^\".*$' | sed 's/"//g'
+  yarp resource --from "network.$YARP_ROBOT_NAME.xml" | grep '^\".*$' | sed 's/\"//g'
   less "$(yarp resource --from "network.$YARP_ROBOT_NAME.xml" | grep '^\".*$' | sed 's/\"//g' | head -n1)"
   ls -l /usr/local/.../ICUBcontrib/robots/
   ```
@@ -150,7 +150,7 @@ ls -l ../robotology-superbuild/build/install/share/ICUBcontrib/robots/
   https://github.com/icub-tech-iit/electronics-wiring-public
 
 ## Logs and escalation
-- Per‑IP logs: tools/YAFU/logs/*.log — include these plus the firmware.info.xml board entry when asking for help.
+- Per‑IP logs: tools/yafu/logs/*.log — include these plus the firmware.info.xml board entry when asking for help.
 
 !!! tip "Low-key"
 
