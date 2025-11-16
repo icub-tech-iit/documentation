@@ -113,10 +113,6 @@ chmod +x ./yafu
 ./yafu blink 10.0.1.2
 ```
 
-
-
-
-
 ## Troubleshooting (concise)
 - No DISCOVER replies:
   - Check cabling, IP, host firewall
