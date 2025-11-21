@@ -6,8 +6,8 @@ The hands MK5.1 have tactile sensors mounted both in the fingertips (finger sens
 ## Palm skin
 
 The palm skin consists of:
-- a dedicated plastic holder with slots for teh electronics
-- an electronics board from the well-established iCub skin electronics
+- a dedicated plastic holder with slots for the electronics
+- an electronics board from the well-established iCub skin electronics, wingst code **19079.D**
 - a textile made skin covering the electronics for force to electrical signal transduction
 
 The palm skin is connected to the **MMA board (rev. B)** together with the fingertip 
@@ -17,18 +17,26 @@ for soldering on the pads of the triangle. The connection scheme is represented
 here below:
 
 <p align="center">
-    <img  src=    "../img/connection_triangle.jpg"
+    <img  src=    "../img/palm_connection_scheme.png"
           width=  "750">
 </p>
 <p align="center">
     <sub>Fig.1 – Triangle connection scheme.</sub>
 </p>
 
+The patch shapes are the same for left and right hands, only they are rotated 120 degrees in clockwise or counterclockwise direction to accomodate on the support. 
 
+The sensorized palm is then installed on the hand by:
+- passing the cable through the dedicated slot in the metal shell
+- clamping the conductive black fixture between the plastic and the metal shell to insure the ground connection
+- fix the palm from the inner side with 3 screws
+- connect the cable to the MMA board in the dedicated connector.  
+
+Then the skin patch can be activated in the `yarprobotinterface` configuration files. 
 The signals are natively routed to the correct streams (i.e. ports) by setting the 
-correct `skintype = 3` option in the configuration files
+correct `skintype = 3` option in the configuration files. The wrappers need to include all signals from 60 to 119 to contain the palm data.
 
-Te
+ 
 ## Finger sensors
 Tactile sensors are deployed on the fingertip. 
 The fingertip comprises a 3DMID piece with the patterned taxels and a conventional PCB (the **FT3D**) reading the capacitances and hosting an IMU. 
