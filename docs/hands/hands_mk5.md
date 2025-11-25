@@ -33,7 +33,7 @@
 |              |        | l_middle_dist | ROT  | l_hand_middle_1 | l_hand_middle_2 | 0°             | 103.1°         |            |            | M2 in fig. |
 |              |        | l_ring_prox   | ROT  | l_hand_palm     | l_hand_ring_1   | 0°             | 90°            |            |            | R1 in fig. |
 |              |        | l_ring_dist   | ROT  | l_hand_ring_1   | l_hand_ring_2   | 0°             | 103.1°         |            |            | R2 in fig. |
-|              |        | l_pinkie_prox | ROT  | l_hand_palm     | l_hand_pinkie_1 | 0°             | 90°            |            |            | P1 in fig. |X
+|              |        | l_pinkie_prox | ROT  | l_hand_palm     | l_hand_pinkie_1 | 0°             | 90°            |            |            | P1 in fig. |
 |              |        | l_pinkie_dist | ROT  | l_hand_pinkie_1 | l_hand_pinkie_2 | 0°             | 98.7°          |            |            | P2 in fig. |
 
 <p align="center">
