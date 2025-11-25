@@ -40,7 +40,7 @@
   <img  src=    "../img/hand-mk5.1-joints.png"
         title=  "hand-mk5.1-joints.png"
         width=  "750">
-</p>X
+</p>
 <p align="center">
   <sub>Hand Mk5.1 joints</sub>
 </p>
