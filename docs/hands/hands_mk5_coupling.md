@@ -117,8 +117,8 @@ The following table describes the coupling variables of the finger mechanisms in
 | $q_{1max}$  | deg | 98        | 98        | 98         | 98       | 98        | Max value of $q_1$, same as above                                                  |
 | $q_{2max}$  | deg | 199.77    | 196.35    | 196.35     | 196.35   | 199.77    | Max value of $q_2$, same as above                                                  |
 |             |     |           |           |            |          |           |                                                                                    |
-| $q_{1rest}$ | deg | 3.63      | 5.75      | 5.75       | 5.75     | 3.63      | Rest value for $q_1$                                                               |
-| $q_{2rest}$ | deg | 3.63      | 5.75      | 5.75       | 5.75     | 3.63      | Rest value for $q_2$                                                               |
+| $q_{1rest}$ | deg | 3.63      | 5.75      | 5.75       | 5.75     | 5.71*     | Rest value for $q_1$ (* read note 3)                                               |
+| $q_{2rest}$ | deg | 3.63      | 5.75      | 5.75       | 5.75     | 8.49*     | Rest value for $q_2$ (* read note 3)                                               |
 |             |     |           |           |            |          |           |                                                                                    |
 | $k$         | mm  | 34.30     | 39.4      | 39.4       | 39.4     | 34.30     | Connecting rod length, $\|L_1-L_0\|$                                               |
 | $d$         | mm  | 35.03     | 40.03     | 40.03      | 40.03    | 35.03     | Distance between the two   joints,   $P_1$ and $P_0$                               |
@@ -133,6 +133,8 @@ The following table describes the coupling variables of the finger mechanisms in
 > **Note 1:** Version Mk5.2 has shifted the hard stop of the rest position to the last moving phalanx. As a consequence, $q_1$ is non-zero when the hand is at rest. Parameters were measured considering the following, physically compenetrating position to stay consistent with the reference system adopted until now. The new rest positions for all the fingers have been stored inside $q_{1rest}$, $q_{2rest}$ (see table).
 
 > **Note 2:** As a consequence of Note 1, $q_{2bias}$ is now better generalised as the angle between $L_1-P_1$ and the horizontal of the second phalanx. This new definition still works with older versions. See image to have a more intuitive notion.
+
+> **Note 3:** Although the pinky is mechanically identical to the thumb, its rest value depends on the ring which is mechanically coupled to.
 
 <p align="center">
   <img  src=    "../img/mk5_2-zero.png"

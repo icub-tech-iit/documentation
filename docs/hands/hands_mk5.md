@@ -14,8 +14,8 @@
 |              |        | l_middle_dist | ROT  | l_hand_middle_1 | l_hand_middle_2 | 0°             | 98.35°         |            |            | M2 in fig. |
 |              |        | l_ring_prox   | ROT  | l_hand_palm     | l_hand_ring_1   | 5.75°          | 98°            |            |            | R1 in fig. |
 |              |        | l_ring_dist   | ROT  | l_hand_ring_1   | l_hand_ring_2   | 0°             | 98.35°         |            |            | R2 in fig. |
-|              |        | l_pinkie_prox | ROT  | l_hand_palm     | l_hand_pinkie_1 | 3.63°          | 98°            |            |            | P1 in fig. |
-|              |        | l_pinkie_dist | ROT  | l_hand_pinkie_1 | l_hand_pinkie_2 | 0°             | 101.78°        |            |            | P2 in fig. |
+|              |        | l_pinkie_prox | ROT  | l_hand_palm     | l_hand_pinkie_1 | 5.71°          | 98°            |            |            | P1 in fig. |
+|              |        | l_pinkie_dist | ROT  | l_hand_pinkie_1 | l_hand_pinkie_2 | 2.78°          | 101.78°        |            |            | P2 in fig. |
 
 > **Note:** Refer to Mk5.1 image.
 
