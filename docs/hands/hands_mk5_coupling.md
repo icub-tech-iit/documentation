@@ -205,12 +205,6 @@ The following table describes the coupling variables of the finger mechanisms in
 | $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
 | $r_{mot}$   | mm  | 5         | 5         | 5          | 5        | 5         | Distance between the axis of the bushing and the rotational axis of the finger motor |
 
-> **Note 1:** From version Mk5.2 on, the hard stop of the rest position has been shifted to the last moving phalanx. As a consequence, $q_1$ is non-zero when the hand is at rest. Parameters were measured considering the following, physically compenetrating position to stay consistent with the reference system adopted until now. The new rest positions for all the fingers have been stored inside $q_{1rest}$, $q_{2rest}$ (see table).
-
-> **Note 2:** As a consequence of Note 1, $q_{2bias}$ is now better generalised as the angle between $L_1-P_1$ and the horizontal of the second phalanx. This new definition still works with older versions. See image to have a more intuitive notion.
-
-> **Note 3:** Although the pinky is mechanically identical to the thumb, its rest value depends on the ring which is mechanically coupled to.
-
 ## Mk5.1 coupling variables
 
 The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.1**.
