@@ -245,14 +245,14 @@ The schematic of the MMA is shown below.
 
 ### Tactile sensors
 <p align="center">
-    <img  src=    "img/fingertips_connection.png"
+    <img  src=    "../img/fingertips_connection.png"
           width=  "750">
 </p>
 <p align="center">
     <sub>Fig.11 – Skin connections. </sub>
 </p>
 
-The tactile sensors are connected to the MMA as in Fig. 11. 
+The tactile sensors are connected to the MMA as in Fig. 11. Both fingertips and palm tactile sensors have a 5-pin SUR connector. Each connector on the MMA is dedie
 
 ### Encoder connection
 The encoders are connected as reported in the table above and in the schematic snapshot in Fig. 12.
