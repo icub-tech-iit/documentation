@@ -165,7 +165,7 @@ The following table describes the coupling variables of the finger mechanisms in
 
 
 
-# Older versions
+## Older versions
 
 ## Mk5.2 coupling variables
 
