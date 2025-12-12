@@ -17,7 +17,7 @@ for soldering on the pads of the triangle. The connection scheme is represented
 here below:
 
 <p align="center">
-    <img  src=    "../img/palm_connection_scheme.png"
+    <img  src=    "../img/palm_mount.png"
           width=  "800">
 </p>
 <p align="center">
