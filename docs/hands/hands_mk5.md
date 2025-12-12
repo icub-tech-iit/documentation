@@ -30,7 +30,7 @@
 
 ## Older versions
 
-## Mk5.2
+### Mk5.2
 
 | Joint number | Motors | Identifier    | Type | Parent link     | Child link      | HW lower limit | HW upper limit | SW low. l. | SW upp. l. | Notes      |
 |--------------|--------|---------------|------|-----------------|-----------------|----------------|----------------|------------|------------|------------|
@@ -58,7 +58,7 @@
   <sub>Hand Mk5.2 joints</sub>
 </p>
 
-## Mk5.1
+### Mk5.1
 
 | Joint number | Motors | Identifier    | Type | Parent link     | Child link      | HW lower limit | HW upper limit | SW low. l. | SW upp. l. | Notes      |
 |--------------|--------|---------------|------|-----------------|-----------------|----------------|----------------|------------|------------|------------|
@@ -84,7 +84,7 @@
   <sub>Hand Mk5.1 joints</sub>
 </p>
 
-## Mk5.0
+### Mk5.0
 
 | Joint number | Motors | Identifier    | Type | Parent link     | Child link      | HW lower limit | HW upper limit | SW low. l. | SW upp. l. | Notes      |
 |--------------|--------|---------------|------|-----------------|-----------------|----------------|----------------|------------|------------|------------|

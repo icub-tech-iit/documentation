@@ -163,11 +163,9 @@ The following table describes the coupling variables of the finger mechanisms in
   <sub>Generalised definition for q2bias</sub>
 </p>
 
-
-
 ## Older versions
 
-## Mk5.2 coupling variables
+### Mk5.2 coupling variables
 
 The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.2**.
 
@@ -205,7 +203,7 @@ The following table describes the coupling variables of the finger mechanisms in
 | $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
 | $r_{mot}$   | mm  | 5         | 5         | 5          | 5        | 5         | Distance between the axis of the bushing and the rotational axis of the finger motor |
 
-## Mk5.1 coupling variables
+### Mk5.1 coupling variables
 
 The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.1**.
 
@@ -238,8 +236,7 @@ The following table describes the coupling variables of the finger mechanisms in
 | $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
 | $r_{mot}$   | mm  | 5         | 5         | 5          | 5        | 5         | Distance between the axis of the bushing and the rotational axis of the finger motor |
 
-
-## Mk5.0 coupling variables
+### Mk5.0 coupling variables
 
 The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.0**.
 
