@@ -18,10 +18,10 @@ here below:
 
 <p align="center">
     <img  src=    "../img/palm_connection_scheme.png"
-          width=  "750">
+          width=  "800">
 </p>
 <p align="center">
-    <sub>Fig.1 – Triangle connection scheme.</sub>
+    <sub>Fig.1 – Left: Triangle connection scheme; Right: palm mount fixtures.</sub>
 </p>
 
 The patch shapes are the same for left and right hands, only they are rotated 120 degrees in clockwise or counterclockwise direction to accomodate on the support. 
@@ -36,7 +36,17 @@ Then the skin patch can be activated in the `yarprobotinterface` configuration f
 The signals are natively routed to the correct streams (i.e. ports) by setting the 
 correct `skintype = 3` option in the configuration files. The wrappers need to include all signals from 60 to 119 to contain the palm data.
 
- 
+### Mounting the palm skin
+
+The palm skin is a standalone component, mounted with 3 screws M2 on the metal structure of the palm.
+The sequence of operations is, taking fig. 1 as a reference:
+1. unmount the hand covers and access the interior of the hand
+2. pass the integrated cable **1** in the slot on the palm
+3. fix the screws **2** on the back of the palm, taking care that the small lip **3** is clamped between the plastic and the metal 
+4. connect the cable **1** to the **palm** connector on the MMA
+5. the palm is now ready to be used
+
+
 ## Finger sensors
 Tactile sensors are deployed on the fingertip. 
 The fingertip comprises a 3DMID piece with the patterned taxels and a conventional PCB (the **FT3D**) reading the capacitances and hosting an IMU. 
