@@ -92,9 +92,9 @@ Hence we get
 
 $$q_0 = \frac{r_{mot}}{r} \cdot q_{mot} $$
 
-## Mk5.2 coupling variables
+## Mk5.3 coupling variables
 
-The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.2**.
+The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.3**.
 
 | Name        | UoM |           |           | Values     |          |           | Description                                                                        |
 |-------------|-----|-----------|-----------|------------|----------|-----------|------------------------------------------------------------------------------------|
@@ -130,7 +130,7 @@ The following table describes the coupling variables of the finger mechanisms in
 | $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
 | $r_{mot}$   | mm  | 5         | 5         | 5          | 5        | 5         | Distance between the axis of the bushing and the rotational axis of the finger motor |
 
-> **Note 1:** Version Mk5.2 has shifted the hard stop of the rest position to the last moving phalanx. As a consequence, $q_1$ is non-zero when the hand is at rest. Parameters were measured considering the following, physically compenetrating position to stay consistent with the reference system adopted until now. The new rest positions for all the fingers have been stored inside $q_{1rest}$, $q_{2rest}$ (see table).
+> **Note 1:** From version Mk5.2 on, the hard stop of the rest position has been shifted to the last moving phalanx. As a consequence, $q_1$ is non-zero when the hand is at rest. Parameters were measured considering the following, physically compenetrating position to stay consistent with the reference system adopted until now. The new rest positions for all the fingers have been stored inside $q_{1rest}$, $q_{2rest}$ (see table).
 
 > **Note 2:** As a consequence of Note 1, $q_{2bias}$ is now better generalised as the angle between $L_1-P_1$ and the horizontal of the second phalanx. This new definition still works with older versions. See image to have a more intuitive notion.
 
@@ -162,6 +162,48 @@ The following table describes the coupling variables of the finger mechanisms in
 <p align="center">
   <sub>Generalised definition for q2bias</sub>
 </p>
+
+
+
+## Older versions
+
+## Mk5.2 coupling variables
+
+The following table describes the coupling variables of the finger mechanisms in the **hand Mk5.2**.
+
+| Name        | UoM |           |           | Values     |          |           | Description                                                                        |
+|-------------|-----|-----------|-----------|------------|----------|-----------|------------------------------------------------------------------------------------|
+|             |     | **THUMB** | **INDEX** | **MIDDLE** | **RING** | **PINKY** |                                                                                    |
+| $L_{0x}$    | mm  | -5        | -5        | -5         | -5       | -5        | $x$ coordinate of the first end of   the leverism                                  |
+| $L_{0y}$    | mm  | 4         | 4         | 4          | 4        | 4         | $y$ coordinate of the the first end   of the leverism                              |
+| $L_{1x}$    | mm  | 29.09     | 34.18     | 34.18      | 34.18    | 29.09     | $x$ coordinate of the second end of   the leverism                                 |
+| $L_{1y}$    | mm  | 0.24      | -0.2      | -0.2       | -0.2     | 0.24      | $y$ coordinate of the second end of   the leverism                                 |
+| $P_{0x}$    | mm  | 0         | 0         | 0          | 0        | 0         | $x$ coordinate of the axis of the joint between ground and the first phalanx (origin)  |
+| $P_{0y}$    | mm  | 0         | 0         | 0          | 0        | 0         | $y$ coordinate of the axis of the joint between ground and the first phalanx (origin)  |
+| $P_{1x}(0)$ | mm  | 35        | 40        | 40         | 40       | 35        | $x$ coordinate of the axis of the   joint between the first and the second phalanx |
+| $P_{1y}(0)$ | mm  | 1.5       | 1.5       | 1.5        | 1.5      | 1.5       | $y$ coordinate of the axis of the   joint between the first and the second phalanx |
+|             |     |           |           |            |          |           |                                                                                    |
+| $q_{0off}$  | deg | -97.54    | -97.54    | -97.54     | -97.54   | -97.54    | Angle of $A-C$ when the finger is in the theoretical zero position (read note 1)   |
+| $q_{2bias}$ | deg | -162.27   | -156.18   | -156.18    | -156.18  | -162.27   | Angle between $L_1-P_1$ and the horizontal of the second phalanx (read note 2)     |
+| $q_{1off}$  | deg | 2.45      | 2.15      | 2.15       | 2.15     | 2.45      | Angle of $P_1-P_0$  when the finger is in the theoretical zero position            |
+| $q_{1bias}$ | deg | -90       | -90       | -90        | -90      | -90       | Angle of $B-P_0$  when the finger is in the theoretical zero position              |
+|             |     |           |           |            |          |           |                                                                                    |
+| $q_{0max}$  | deg | -6.42     | -6.42     | -6.42      | -6.42    | -6.42     | Max value of $q_0$, i.e. when the   finger is fully closed                         |
+| $q_{1max}$  | deg | 90        | 90        | 90         | 90       | 90        | Max value of $q_1$, same as above                                                  |
+| $q_{2max}$  | deg | 182.10    | 178.82    | 178.82     | 178.82   | 182.10    | Max value of $q_2$, same as above                                                  |
+|             |     |           |           |            |          |           |                                                                                    |
+| $q_{1rest}$ | deg | 3.63      | 5.75      | 5.75       | 5.75     | 5.71*     | Rest value for $q_1$ (* read note 3)                                               |
+| $q_{2rest}$ | deg | 3.63      | 5.75      | 5.75       | 5.75     | 8.49*     | Rest value for $q_2$ (* read note 3)                                               |
+|             |     |           |           |            |          |           |                                                                                    |
+| $k$         | mm  | 34.30     | 39.4      | 39.4       | 39.4     | 34.30     | Connecting rod length, $\|L_1-L_0\|$                                               |
+| $d$         | mm  | 35.03     | 40.03     | 40.03      | 40.03    | 35.03     | Distance between the two   joints,   $P_1$ and $P_0$                               |
+| $l$         | mm  | 6.04      | 6.07      | 6.07       | 6.07     | 6.04      | Distance between $L_1$ and   $P_1$                                                 |
+| $b$         | mm  | 6.4       | 6.4       | 6.4        | 6.4      | 6.4       | Distance between $L_0$ and   $P_0$                                                 |
+| $s$         | mm  | 5.5       | 5.5       | 5.5        | 5.5      | 5.5       | Distance between joint $B$ of   the   connecting rod $A-B$ and joint   $P_0$       |
+| $t$         | mm  | 14.5      | 14.5      | 14.5       | 14.5     | 14.5      | Length of the connecting rod   $A-B$                                               |
+| $f$         | mm  | 5.5       | 5.5       | 5.5        | 5.5      | 5.5       | Length of the connecting rod   $A-C$                                               |
+| $r$         | mm  | 8.5       | 8.5       | 8.5        | 8.5      | 8.5       | Length of the connecting rod   $D-C$                                               |
+| $r_{mot}$   | mm  | 5         | 5         | 5          | 5        | 5         | Distance between the axis of the bushing and the rotational axis of the finger motor |
 
 ## Mk5.1 coupling variables
 

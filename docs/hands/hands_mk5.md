@@ -1,6 +1,6 @@
 # Hand Mk5 joints Specs
 
-## Mk5.2
+## Mk5.3
 
 | Joint number | Motors | Identifier    | Type | Parent link     | Child link      | HW lower limit | HW upper limit | SW low. l. | SW upp. l. | Notes      |
 |--------------|--------|---------------|------|-----------------|-----------------|----------------|----------------|------------|------------|------------|
@@ -17,7 +17,46 @@
 |              |        | l_pinkie_prox | ROT  | l_hand_palm     | l_hand_pinkie_1 | 5.71°          | 98°            |            |            | P1 in fig. |
 |              |        | l_pinkie_dist | ROT  | l_hand_pinkie_1 | l_hand_pinkie_2 | 2.78°          | 101.78°        |            |            | P2 in fig. |
 
-> **Note:** Refer to Mk5.1 image.
+[//]: # (Same scheme as Mk5.1.)
+
+<p align="center">
+  <img  src=    "../img/hand-mk5.1-joints.png"
+        title=  "hand-mk5.1-joints.png"
+        width=  "750">
+</p>
+<p align="center">
+  <sub>Hand Mk5.3 joints</sub>
+</p>
+
+## Older versions
+
+## Mk5.2
+
+| Joint number | Motors | Identifier    | Type | Parent link     | Child link      | HW lower limit | HW upper limit | SW low. l. | SW upp. l. | Notes      |
+|--------------|--------|---------------|------|-----------------|-----------------|----------------|----------------|------------|------------|------------|
+|              |        | l_thumb_add   | ROT  | l_hand_palm     | l_hand_thumb_1  | 0°             | 100°           |            |            | T1 in fig. |
+|              |        | l_thumb_prox  | ROT  | l_hand_thumb_1  | l_hand_thumb_2  | 3.63°          | 90°            |            |            | T2 in fig. |
+|              |        | l_thumb_dist  | ROT  | l_hand_thumb_2  | l_hand_thumb_3  | 0°             | 92.10°         |            |            | T3 in fig. |
+|              |        | l_index_add   | ROT  | l_hand_palm     | l_hand_index_1  | 0°             | 15°            |            |            | I1 in fig. |
+|              |        | l_index_prox  | ROT  | l_hand_index_1  | l_hand_index_2  | 5.75°          | 90°            |            |            | I2 in fig. |
+|              |        | l_index_dist  | ROT  | l_hand_index_2  | l_hand_index_3  | 0°             | 88.82°         |            |            | I3 in fig. |
+|              |        | l_middle_prox | ROT  | l_hand_palm     | l_hand_middle_1 | 5.75°          | 90°            |            |            | M1 in fig. |
+|              |        | l_middle_dist | ROT  | l_hand_middle_1 | l_hand_middle_2 | 0°             | 88.82°         |            |            | M2 in fig. |
+|              |        | l_ring_prox   | ROT  | l_hand_palm     | l_hand_ring_1   | 5.75°          | 90°            |            |            | R1 in fig. |
+|              |        | l_ring_dist   | ROT  | l_hand_ring_1   | l_hand_ring_2   | 0°             | 88.82°         |            |            | R2 in fig. |
+|              |        | l_pinkie_prox | ROT  | l_hand_palm     | l_hand_pinkie_1 | 5.71°          | 90°            |            |            | P1 in fig. |
+|              |        | l_pinkie_dist | ROT  | l_hand_pinkie_1 | l_hand_pinkie_2 | 2.78°          | 92.10°         |            |            | P2 in fig. |
+
+[//]: # (Same scheme as Mk5.1.)
+
+<p align="center">
+  <img  src=    "../img/hand-mk5.1-joints.png"
+        title=  "hand-mk5.1-joints.png"
+        width=  "750">
+</p>
+<p align="center">
+  <sub>Hand Mk5.2 joints</sub>
+</p>
 
 ## Mk5.1
 
