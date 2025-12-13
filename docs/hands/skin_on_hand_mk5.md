@@ -24,7 +24,7 @@ here below:
     <sub>Fig.1 – Left: Triangle connection scheme; Right: palm mount fixtures.</sub>
 </p>
 
-The patch shapes are the same for left and right hands, only they are rotated 120 degrees in clockwise or counterclockwise direction to accomodate on the support. 
+The patch shapes are the same for left and right hands, only they are rotated 120 degrees in clockwise or counterclockwise direction to accommodate on the support. 
 
 The sensorized palm is then installed on the hand by:
 - passing the cable through the dedicated slot in the metal shell
