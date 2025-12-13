@@ -28,7 +28,7 @@ The patch shapes are the same for left and right hands, only they are rotated 12
 
 The sensorized palm is then installed on the hand by:
 - passing the cable through the dedicated slot in the metal shell
-- clamping the conductive black fixture between the plastic and the metal shell to insure the ground connection
+- clamping the conductive black fixture between the plastic and the metal shell to ensure the ground connection
 - fix the palm from the inner side with 3 screws
 - connect the cable to the MMA board in the dedicated connector.  
 
