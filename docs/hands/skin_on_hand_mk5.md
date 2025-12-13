@@ -64,7 +64,7 @@ The taxel mapping is represented in Fig. 2.
 ### FT3D board configuration - rev. 2 
 The AD7147 hosted on the FT3D has configurable **I2C address**  to allow for multiple devices. 
 
-The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 3 by simply soldering 
+The configuration is made through the jumpers **AD0** and **AD1** reported in Fig. 3 by simply soldering 
 the desired connection on the dedicated jumper. Also **R1** is to be removed in this revision. 
 Depending on the connection (see below) the **IMU** also needs to be removed.
 <p align="center">
