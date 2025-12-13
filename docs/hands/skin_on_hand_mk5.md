@@ -18,7 +18,7 @@ here below:
 
 <p align="center">
     <img  src=    "../img/palm_mount.png"
-          width=  "800">
+          width=  "1200">
 </p>
 <p align="center">
     <sub>Fig.1 – Left: Triangle connection scheme; Right: palm mount fixtures.</sub>
