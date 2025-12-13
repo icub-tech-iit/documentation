@@ -30,7 +30,7 @@ The sensorized palm is then installed on the hand by:
 - passing the cable through the dedicated slot in the metal shell
 - clamping the conductive black fixture between the plastic and the metal shell to ensure the ground connection
 - fix the palm from the inner side with 3 screws
-- connect the cable to the MMA board in the dedicated connector.  
+- connect the cable to the MMA board in the dedicated connector.
 
 Then the skin patch can be activated in the `yarprobotinterface` configuration files. 
 The signals are natively routed to the correct streams (i.e. ports) by setting the 
