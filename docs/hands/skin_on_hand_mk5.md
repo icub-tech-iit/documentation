@@ -7,7 +7,7 @@ The hands MK5.1 have tactile sensors mounted both in the fingertips (finger sens
 
 The palm skin consists of:
 - a dedicated plastic holder with slots for the electronics
-- an electronics board from the well-established iCub skin electronics, wingst code **19079.D**
+- an electronics board from the well-established iCub skin electronics, WINGST code **19079.D**
 - a textile made skin covering the electronics for force to electrical signal transduction
 
 The palm skin is connected to the **MMA board (rev. B)** together with the fingertip 
