@@ -77,7 +77,7 @@ Depending on the connection (see below) the **IMU** also needs to be removed.
 
 Since the **IMU** is not equipped with similar configurable address pins, we need to remove all the IMUs from unwanted boards before the installation. This will be fixed in rev. 3 of the FT3D.
 
-The complete configuration set is as follow:
+The complete configuration set is as follows:
 
 
 
