@@ -1,23 +1,70 @@
-## Hand Sensors
+# Hand Sensors
 
-### Finger sensors
+The hands MK5.1 have tactile sensors mounted both in the fingertips (finger sensors)
+ and in the palm. 
+
+## Palm skin
+
+The palm skin consists of:
+- a dedicated plastic holder with slots for the electronics
+- an electronics board from the well-established iCub skin electronics, WINGST code **19079.D**
+- a textile made skin covering the electronics for force to electrical signal transduction
+
+The palm skin is connected to the **MMA board (rev. B)** together with the fingertip 
+skin.
+A JST SUR 5 pin cable is needed for this. One side of the cable has free conductors 
+for soldering on the pads of the triangle. The connection scheme is represented 
+here below:
+
+<p align="center">
+    <img  src=    "../img/palm_mount.png"
+          width=  "1200">
+</p>
+<p align="center">
+    <sub>Fig.1 – Left: Triangle connection scheme; Right: palm mount fixtures.</sub>
+</p>
+
+The patch shapes are the same for left and right hands, only they are rotated 120 degrees in clockwise or counterclockwise direction to accommodate on the support. 
+
+The sensorized palm is then installed on the hand by:
+- passing the cable through the dedicated slot in the metal shell
+- clamping the conductive black fixture between the plastic and the metal shell to ensure the ground connection
+- fix the palm from the inner side with 3 screws
+- connect the cable to the MMA board in the dedicated connector.
+
+Then the skin patch can be activated in the `yarprobotinterface` configuration files. 
+The signals are natively routed to the correct streams (i.e. ports) by setting the 
+correct `skintype = 3` option in the configuration files. The wrappers need to include all signals from 60 to 119 to contain the palm data.
+
+### Mounting the palm skin
+
+The palm skin is a standalone component, mounted with 3 screws M2 on the metal structure of the palm.
+The sequence of operations is, taking fig. 1 as a reference:
+1. unmount the hand covers and access the interior of the hand
+2. pass the integrated cable **1** in the slot on the palm
+3. fix the screws **2** on the back of the palm, taking care that the small lip **3** is clamped between the plastic and the metal 
+4. connect the cable **1** to the **palm** connector on the MMA
+5. the palm is now ready to be used
+
+
+## Finger sensors
 Tactile sensors are deployed on the fingertip. 
 The fingertip comprises a 3DMID piece with the patterned taxels and a conventional PCB (the **FT3D**) reading the capacitances and hosting an IMU. 
 
-The taxel mapping is represented in Fig. 1.
+The taxel mapping is represented in Fig. 2.
 
 <p align="center">
     <img  src=    "../img/taxel_map.jpg"
           width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.1 – Taxel mapping.</sub>
+    <sub>Fig.2 – Taxel mapping.</sub>
 </p>
 
 ### FT3D board configuration - rev. 2 
 The AD7147 hosted on the FT3D has configurable **I2C address**  to allow for multiple devices. 
 
-The congfiguration is made through the jumpers **AD0** and **AD1** reported in Fig. 2 by simply soldering 
+The configuration is made through the jumpers **AD0** and **AD1** reported in Fig. 3 by simply soldering 
 the desired connection on the dedicated jumper. Also **R1** is to be removed in this revision. 
 Depending on the connection (see below) the **IMU** also needs to be removed.
 <p align="center">
@@ -25,12 +72,14 @@ Depending on the connection (see below) the **IMU** also needs to be removed.
           width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.2 – Address configuration: the board represented has Address bits (AD0, AD1) = (0, 0).</sub>
+    <sub>Fig.3 – Address configuration: the board represented has Address bits (AD0, AD1) = (0, 0).</sub>
 </p>
 
 Since the **IMU** is not equipped with similar configurable address pins, we need to remove all the IMUs from unwanted boards before the installation. This will be fixed in rev. 3 of the FT3D.
 
-The complete configuration set is as follow:
+The complete configuration set is as follows:
+
+
 
 #### ergoCub SN000
 
@@ -62,8 +111,10 @@ No customization of the boards is needed. They are purchased with the correct ju
 
 
 I2C dataline is decided at the MMA level through the connector assignment. 
-The MTB to be mounted should be equipped with a **dedicated firmware** to enable the use of **PIN 7** 
-in the connector as an additional I2C line (SDA_4).
+To enable the use of **PIN 7** in the connector as an additional I2C line (SDA_4), 
+- the **MTB4** needs a **firmware version greater than 1.24**;
+- the **MTB4C** needs a **firmware version greater than 2.3**. 
+
 
 ### Mounting the 3DMID 
 
@@ -91,7 +142,7 @@ Plus:
           width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.3 – Some material needed to mount the fingertips.</sub>
+    <sub>Fig.4 – Some material needed to mount the fingertips.</sub>
 </p>
 
 [^1]: See [link](https://www.chipquik.com/store/product_info.php?products_id=630003) or buy from usual suppliers of electronics goods.
@@ -103,7 +154,7 @@ Plus:
           width=  "500">
 </p>
 <p align="center">
-    <sub>Fig.4 - fixing the 3DMID to the soldering support.</sub>
+    <sub>Fig.5 - fixing the 3DMID to the soldering support.</sub>
 </p>
 
 - Fix the 3DMID to the soldering support with **1.6x6mm** screw.
@@ -114,7 +165,7 @@ Plus:
           width=  "500">
 </p>
 <p align="center">
-    <sub>Fig.5 – soldering support plugged into the base.</sub>
+    <sub>Fig.6 – soldering support plugged into the base.</sub>
 </p>
 
 - Set the soldering iron to 250 C, apply flux and pre-tin the pads on the 3DMID.
@@ -129,7 +180,7 @@ Plus:
           width=  "500">
 </p>
 <p align="center">
-    <sub>Fig.6 – soldered FT3DB on the 3DMID shell.</sub>
+    <sub>Fig.7 – soldered FT3DB on the 3DMID shell.</sub>
 </p>
 
 At this point the device is ready for testing, just connect it to the MMA with the dedicated cable. 
@@ -142,7 +193,7 @@ To fully mount the fingertip, proceed with the next steps:
           width=  "500">
 </p>
 <p align="center">
-    <sub>Fig.7 – adjusted rubber fingertip on 3DMID shell.</sub>
+    <sub>Fig.8 – adjusted rubber fingertip on 3DMID shell.</sub>
 </p>
 
 - Test the fingertip in this condition.
@@ -152,7 +203,7 @@ To fully mount the fingertip, proceed with the next steps:
           width=  "500">
 </p>
 <p align="center">
-    <sub>Fig.8 – 3DMID fingertips with and without the rubber cap.</sub>
+    <sub>Fig.9 – 3DMID fingertips with and without the rubber cap.</sub>
 </p>
 
 - To mount on the finger distal phalanx (fig. 9):
@@ -167,7 +218,7 @@ At this point, the assembly should look sturdy and precisely fit, in addition yo
           width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.9 – 3DMID fingertip insertion procedure, left: connection, center: insertion of the device,  right: 3DMID device inserted into the distal phalanx.</sub>
+    <sub>Fig.10 – 3DMID fingertip insertion procedure, left: connection, center: insertion of the device,  right: 3DMID device inserted into the distal phalanx.</sub>
 </p>
 
 ### Encoders
@@ -188,9 +239,9 @@ Details are summarized in the table below:
 
 | connector | description | sensor | 
 |--|--|--|
-|**J1** | Molex 8-Pin | conventional MTB |
-|**J2** | Molex 8-Pin | MTB-FAP  |
-|**J3** | Molex 8-Pin | MTB-FAP  |
+|**J1** | Molex 8-Pin | MTB for the skin|
+|**J2** | Molex 8-Pin | MTB for the 1st set of FAPs |
+|**J3** | Molex 8-Pin | MTB for the 2nd set of FAPs |
 | J10-J15 | JST SURS  | fingertips and palm - corresponding to **J1** |
 | J20-J23 | JST XRS | encoders - corresponding to **J2** |
 | J30-J33 | JST XRS | encoders - corresponding to **J3** |
@@ -199,7 +250,6 @@ The encoders are connected with the following logic:
 - Finger position encoders are to be routed to one MTB-FAP.
 - Adduction encoders are to be routed to the other MTB-FAP.
 
-The connection of the MTB-FAP can be made allowing for the simplest layout **and reported here and in the wiring scheme**.
 
 The schematic of the MMA is shown below.
 
@@ -209,20 +259,20 @@ The schematic of the MMA is shown below.
           width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.3 – Skin connections. The fingers belonging to the same Data Line can be swapped.</sub>
+    <sub>Fig.11 – Skin connections. </sub>
 </p>
 
-The tactile sensors are connected to the MMA as in Fig. 3. The fingers (index, middle, ring) can be swapped to account for easier cabling, with no effect in mapping of the signals. Also, Thumb and Pink can be swapped the similarly.
+The tactile sensors are connected to the MMA as in Fig. 11. Both fingertips and palm tactile sensors have a 5-pin SUR connector. Each connector on the MMA is dedicated to a specific finger or the palm.
 
 ### Encoder connection
-The encoders are connected as reported in the table above and in the schematic snapshot in Fig. 4.
+The encoders are connected as reported in the table above and in the schematic snapshot in Fig. 12.
 
 <p align="center">
     <img  src=    "../img/encoders_connection.png"
           width=  "750">
 </p>
 <p align="center">
-    <sub>Fig.4 – FAPs connections. The FAP mapping should be reported in the configuration files for proper working of the joints.</sub>
+    <sub>Fig.12 – FAPs connections. The FAP mapping should be reported in the configuration files for proper working of the joints.</sub>
 </p>
 
 ## Software items
@@ -241,18 +291,18 @@ services and signal visualization, the mapping of the signals is reported in the
 | Middle | 1 | 12-23  | 
 | Ring   | 2 | 24-35  | 
 | Pink   | 5 | 60-71  | 
-| Palm   | TBD |TBD |  
+| Palm   | NA |NA |  
 
 #### ergoCub with MMA rev.B
 
 | Finger | board nr. | Taxel Index |
 |-- |--|--|
 | Thumb  | 0 | 0-11  | 
-| Index  | 4 | 48-59 |
-| Middle | 8 | 96-107 |
-| Ring   | 12 | 144-155 |
-| Pink   | 16 | 192-203 |
-| Palm   | TBD | TBD |
+| Index  | 1 | 12-23 |
+| Middle | 2 | 24-35 |
+| Ring   | 3 | 36-47 |
+| Pink   | 4 | 48-59 |
+| Palm   | 5,6,7,9 |  60-95, 108-119 |
 
 ### AD7147 configuration
 The values for the mk2 fingertip are reported here, to be implemented in **.xml files** with the proper labeling:
