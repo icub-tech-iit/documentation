@@ -103,7 +103,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | 2 | 13570 | | Flexible WIFI Antenna 2.4-5GHz, 34.90*9mm, 200mm cable, MHF4 connector | 13570 |
 | 1 | 15014 | | Interface Module, Pmod™ AMP2, SSM2377 Filterless High Efficiency Mono 2.5 W Class-D Audio Amplifier |  15014  |
 | 1 | PUIAUDIO_AS04004PO-2-R_SPKR | | Miniature speaker, 4R, 82dBA,200Hz, 3W | 12035 |
-| 1 | ED-LENS-M12-180250-08 | | Camera Lenses 8MP 2.5mm Ultra Wide Angel Lens | 16487 |
+| 1 | ED-LENS-M12-180250-08 | | Camera Lenses 8MP 2.5mm Ultra Wide Angle Lens | 16487 |
 | 2 | FRAMOS-FMA-FC-150/60-V1A | | Ribbon Cables / IDC Cables Flex Cable 150 mm for FRAMOS Sensor Modules (FSM) and adapters (FSA, FPA) with MIPI CSI-2, Molex 60 Pin connector. Compatible with FSM, FSA-FTx/A, FPA-4.A. | 18250 |
 | 1 | 18711 | | SMART CABLE, USB-2X3.5MM JACK, 7.87 | 18711 |
 | 2 | FSM-IMX678-AAQR1 | | FRAMOS Sensor module IMX678 |  18712  |
