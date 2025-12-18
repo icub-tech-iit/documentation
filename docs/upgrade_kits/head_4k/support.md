@@ -107,7 +107,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | 2 | FRAMOS-FMA-FC-150/60-V1A | | Ribbon Cables / IDC Cables Flex Cable 150 mm for FRAMOS Sensor Modules (FSM) and adapters (FSA, FPA) with MIPI CSI-2, Molex 60 Pin connector. Compatible with FSM, FSA-FTx/A, FPA-4.A. | 18250 |
 | 1 | 18711 | | SMART CABLE, USB-2X3.5MM JACK, 7.87 | 18711 |
 | 2 | FSM-IMX678-AAQR1 | | FRAMOS Sensor module IMX678 |  18712  |
-| 1 | ED-LENS-M12-180250-08 | | Camera Lenses 8MP 2.5mm Ultra Wide Angel Lens | 18563 |
+| 1 | ED-LENS-M12-180250-08 | | Camera Lenses 8MP 2.5mm Ultra Wide Angle Lens | 18563 |
 | 2 | FRAMOS-FMA-FC-150/60-V1A | | Ribbon Cables / IDC Cables Flex Cable 150 mm for FRAMOS Sensor Modules (FSM) and adapters (FSA, FPA) with MIPI CSI-2, Molex 60 Pin connector. Compatible with FSM, FSA-FTx/A, FPA-4.A |  18250  |
 
 Draft Logic schematic
