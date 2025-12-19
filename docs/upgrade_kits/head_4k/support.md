@@ -83,7 +83,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | 72 |   | 72 |   |  0,2000 | Teflon insulated cable, 1 pole,   AWG26, 600V, red, UL E20042 |
 | 73 |   | 73 |   |  0,1500 | Teflon insulated cable, 1 pole, AWG26, 600V, orange, UL E20042 |
 | 863 |   | 863 |   | 1,000 | Flying connector, jack, 1 contact, male, Straight, w to panel, mating L: NN mm, diam int. 3.6mm, diam. ext. 9mm |
-| 7142 |   | amphenol-fci_10073599-008LF |   | 10,000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
+| 7142 |   | AMPHENOL-FCI_10073599-008LF |   | 10,000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 | 7143 |   | AMPHENOL-FCI_10073599-010LF |   | 20,000 | Housing, MiniTek, 10 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 
 
