@@ -64,7 +64,7 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 | 1 | CONNECTTECH_CCG020 | | Carrier Board for COM-Express Type10, Connecttech CCG020 | 15301 |
 | 1 | ADVANTECH_SOM-7583C7-S8A1 | | COM-Express Type10, Advantech SOM i7-1185G7E 16GB DDR4, 64GB SSD | 16252 |
 | 1 | CKG035 | | CableKit for Carrier Board COM-Express Type10, CCG020 | 15785 |
-| 1 | ADVANTECH_SOM-7583C7-S8A1 | | COM-Express Type10, Advantech SOM i7-1185G7E 16GB DDR4, 64GB SSD | 16253 |
+| 1 | ADVANTECH_1970004886N001 | | Advantech Corporation Semi-Cooler for Mini Module | 16253 |
 | 1 | MTi-300-AHRS-2A8G4-DK | | Inertial sensor MTi-300-AHRS-2A8G4-DK | 14302 |
 
 Draft Logic schematic
