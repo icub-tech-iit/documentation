@@ -66,25 +66,25 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 ## Content material  WKIT_009
 
-|  Code  | BOM |  Alias | Rev |  Qty | Description      |
+|  Code  | BOM |  Alias | Rev |  Qty | Description |
 |:-----:|:---:|:--------------:|:---:|--------:|:------------------:|
-| 12070 |     | 12070                       |     |  1,2000 | FTP-LAN cable, Small Diameter AWG28, CAT6                 |
-| 1379 |     | 1379                       |     |  1,0000 | USB cable, USB A to USB B, L: 1mt                                           |
-| 13824 |     | 13824           |     |  2,0000 | Flying connector, RJ45, 8 contacts, 1 row, male, Straight, w to w, lock, key, for 28 - 30 AWG |
-| 4158 |     | 4158                       |     |  1,2000 | PVC insulated cable, 1 pole, 0.5mmq, AWG20, 500V, yellow                                                          |
-| 4225 |     | 4225 |     |  0,2000 | Teflon insulated cable, 1 pole, AWG26, 600V, blue, UL E20042   |
-| 4411   |     | 4411                         |     |  1,2000 | PVC insulated cable, 1 pole, 0.5mmq, AWG20, 500V, black                                           |
-| 518  |     | 518                        |     |  0,2000 | PVC insulated cable, 1 pole, 0.1mmq, AWG27, 150V, black                                          |
-| 520  |     | 520                        |     |  0,2000 | PVC insulated cable, 1 pole, 0.1mmq, AWG27, 150V, yellow                                           |
-| 54  |     | 54                        |     |  2,0000 | Connector hood, RJ45, rubber, blue                                            |
-| 6276   |     | 6276                         |     |  4,0000 | Crimp terminal, Minifit Jr, female contacts, AWG18-24                                                |
-| 6277   |     | 6277                         |     |  1,000 | Housing, Minifit Jr, 4 contacts, 2 rows, male, p.4.2mm, Straight, w to w, no lock, key, 13A                  |
-| 68    |     | 68                          |     |  0,2500 | Teflon insulated cable, 1 pole,   AWG26, 600V, black, UL E20042                                      |
-| 72    |     | 72                          |     |  0,2000 | Teflon insulated cable, 1 pole,   AWG26, 600V, red, UL E20042                                        |
-| 73    |     | 73                          |     |  0,1500 | Teflon insulated cable, 1 pole, AWG26, 600V, orange, UL E20042                                     |
-| 863  |     | 863                        |     | 1,000 | Flying connector, jack, 1 contact, male, Straight, w to panel, mating L: NN mm, diam int. 3.6mm, diam. ext. 9mm                    |
-| 7142  |     | amphenol-fci_10073599-008LF |     |  10,000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A   |
-| 7143  |     | AMPHENOL-FCI_10073599-010LF |     |  20,000 | Housing, MiniTek, 10 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A  |
+| 12070 |   | 12070 |   |  1,2000 | FTP-LAN cable, Small Diameter AWG28, CAT6 |
+| 1379 |   | 1379 |   |  1,0000 | USB cable, USB A to USB B, L: 1mt |
+| 13824 |   | 13824 |   |  2,0000 | Flying connector, RJ45, 8 contacts, 1 row, male, Straight, w to w, lock, key, for 28 - 30 AWG |
+| 4158 |   | 4158 |   |  1,2000 | PVC insulated cable, 1 pole, 0.5mmq, AWG20, 500V, yellow |
+| 4225 |   | 4225 |   |  0,2000 | Teflon insulated cable, 1 pole, AWG26, 600V, blue, UL E20042 |
+| 4411 |   | 4411 |   |  1,2000 | PVC insulated cable, 1 pole, 0.5mmq, AWG20, 500V, black |
+| 518 |   | 518 |   |  0,2000 | PVC insulated cable, 1 pole, 0.1mmq, AWG27, 150V, black |
+| 520 |   | 520 |   |  0,2000 | PVC insulated cable, 1 pole, 0.1mmq, AWG27, 150V, yellow |
+| 54 |   | 54 |   |  2,0000 | Connector hood, RJ45, rubber, blue |
+| 6276 |   | 6276 |   |  4,0000 | Crimp terminal, Minifit Jr, female contacts, AWG18-24 |
+| 6277 |   | 6277 |   |  1,000 | Housing, Minifit Jr, 4 contacts, 2 rows, male, p.4.2mm, Straight, w to w, no lock, key, 13A |
+| 68 |   | 68 |   |  0,2500 | Teflon insulated cable, 1 pole,   AWG26, 600V, black, UL E20042 |
+| 72 |   | 72 |   |  0,2000 | Teflon insulated cable, 1 pole,   AWG26, 600V, red, UL E20042 |
+| 73 |   | 73 |   |  0,1500 | Teflon insulated cable, 1 pole, AWG26, 600V, orange, UL E20042 |
+| 863 |   | 863 |   | 1,000 | Flying connector, jack, 1 contact, male, Straight, w to panel, mating L: NN mm, diam int. 3.6mm, diam. ext. 9mm |
+| 7142 |   | amphenol-fci_10073599-008LF |   | 10,000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
+| 7143 |   | AMPHENOL-FCI_10073599-010LF |   | 20,000 | Housing, MiniTek, 10 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 
 
 | 🔘 Click to download the PDF |
@@ -94,21 +94,20 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 ## Content material  EKIT_009
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
 |   :---: |    :-----------:      |     :---: |   :---:   |   :---:   |
-| 1 |5128|      |   SoundMan High quality Stereo Omnidirectional microphones, -46 dB, 10V, 2o….2o ooo Hz +/- 3dB          | 5128 |
-| 1 | CONNECTTECH_NGX020 |      | Boson Carrier board for NVIDIA® Jetson Nano™ and ORIN NX Module, 9-36V input | 18413 |
-| 2 | CONNECTTECH_XHG325 | | NVIDIA Jetson ORIN NX Aluminum Active Heatsink with 36mm Fan for with Long Cable | 17680 |
-| 1 | SILICONPOWER_SP512GBP34A60M28 | | Hard disk M.2 SSD 2280, 512GB, PCIe 3.0 x4 / NVMe | 17567 |
-| 1 | 16433 | | Intel AX210, Mini PCI-e WiFi 6E, 2x2 AC + BT 5.2, M.2 2230 key E | 16433 |
-| 1 | CONNECTTECH_900-13767-0000-000 | | NVIDIA Jetson ORIN NX, 69.6mm x 45mm 260-pin SO-DIMM connector, 16 GB LPDDR4, WITHOUT eMMC | 17679 |
-| 2 | 13570 | | Flexible WIFI Antenna 2.4-5GHz, 34.90*9mm, 200mm cable, MHF4 connector | 13570 |
-| 1 | 15014 | | Interface Module, Pmod™ AMP2, SSM2377 Filterless High Efficiency Mono 2.5 W Class-D Audio Amplifier |  15014  |
-| 1 | PUIAUDIO_AS04004PO-2-R_SPKR | | Miniature speaker, 4R, 82dBA,200Hz, 3W | 12035 |
-| 1 | ED-LENS-M12-180250-08 | | Camera Lenses 8MP 2.5mm Ultra Wide Angle Lens | 16487 |
-| 2 | FRAMOS-FMA-FC-150/60-V1A | | Ribbon Cables / IDC Cables Flex Cable 150 mm for FRAMOS Sensor Modules (FSM) and adapters (FSA, FPA) with MIPI CSI-2, Molex 60 Pin connector. Compatible with FSM, FSA-FTx/A, FPA-4.A. | 18250 |
-| 1 | 18711 | | SMART CABLE, USB-2X3.5MM JACK, 7.87 | 18711 |
-| 2 | FSM-IMX678-AAQR1 | | FRAMOS Sensor module IMX678 |  18712  |
-| 1 | ED-LENS-M12-180250-08 | | Camera Lenses 8MP 2.5mm Ultra Wide Angle Lens | 18563 |
-| 2 | FRAMOS-FMA-FC-150/60-V1A | | Ribbon Cables / IDC Cables Flex Cable 150 mm for FRAMOS Sensor Modules (FSM) and adapters (FSA, FPA) with MIPI CSI-2, Molex 60 Pin connector. Compatible with FSM, FSA-FTx/A, FPA-4.A |  18250  |
+| 1 | 5128 |  | SoundMan High quality Stereo Omnidirectional microphones, -46 dB, 10V, 2o….2o ooo Hz +/- 3dB | 5128 |
+| 1 | CONNECTTECH_NGX020 |  | Boson Carrier board for NVIDIA® Jetson Nano™ and ORIN NX Module, 9-36V input | 18413 |
+| 2 | CONNECTTECH_XHG325 |  | NVIDIA Jetson ORIN NX Aluminum Active Heatsink with 36mm Fan for with Long Cable | 17680 |
+| 1 | SILICONPOWER_SP512GBP34A60M28 |  | Hard disk M.2 SSD 2280, 512GB, PCIe 3.0 x4 / NVMe | 17567 |
+| 1 | 16433 |  | Intel AX210, Mini PCI-e WiFi 6E, 2x2 AC + BT 5.2, M.2 2230 key E | 16433 |
+| 1 | CONNECTTECH_900-13767-0000-000 |  | NVIDIA Jetson ORIN NX, 69.6mm x 45mm 260-pin SO-DIMM connector, 16 GB LPDDR4, WITHOUT eMMC | 17679 |
+| 2 | 13570 |  | Flexible WIFI Antenna 2.4-5GHz, 34.90*9mm, 200mm cable, MHF4 connector | 13570 |
+| 1 | 15014 |  | Interface Module, Pmod™ AMP2, SSM2377 Filterless High Efficiency Mono 2.5 W Class-D Audio Amplifier |  15014  |
+| 1 | PUIAUDIO_AS04004PO-2-R_SPKR |  | Miniature speaker, 4R, 82dBA,200Hz, 3W | 12035 |
+| 1 | 16487 |  | NVIDIA JETSON XAVIER NX, 69.6mm x 45mm 260-pin SO-DIMM connector, 8 GB LPDDR4, 16GB eMMC | 16487 |
+| 2 | FRAMOS-FMA-FC-150/60-V1A |  | Ribbon Cables / IDC Cables Flex Cable 150 mm for FRAMOS Sensor Modules (FSM) and adapters (FSA, FPA) with MIPI CSI-2, Molex 60 Pin connector. Compatible with FSM, FSA-FTx/A, FPA-4.A. | 18250 |
+| 1 | 18711 |  | SMART CABLE, USB-2X3.5MM JACK, 7.87 | 18711 |
+| 2 | FSM-IMX678-AAQR1 |  | FRAMOS Sensor module IMX678 | 18712 |
+| 1 | ED-LENS-M12-180250-08 |  | Camera Lenses 8MP 2.5mm Ultra Wide Angle Lens | 18563 |
 
 Draft Logic schematic
 
