@@ -81,7 +81,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 | 4411 |   | 4411 |   |  1,2000 | PVC insulated cable, 1 pole, 0.5mmq, AWG20, 500V, black |
 | 6276 |   | 6276 |   |  4,0000 | Crimp terminal, Minifit Jr, female contacts, AWG18-24 |
 | 6277 |   | 6277 |   |  1,0000 | Housing, Minifit Jr, 4 contacts, 2 rows, male, p.4.2mm, Straight, w to w, no lock, key, 13A |
-| 7142 |   | amphenol-fci_10073599-008LF |   | 10,0000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
+| 7142 |   | AMPHENOL-FCI_10073599-008LF |   | 10,0000 | Housing, MiniTek, 8 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 | 7143 |   | AMPHENOL-FCI_10073599-010LF |   | 20,0000 | Housing, MiniTek, 10 contacts, 2   row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 | 12070 |   | 12070 |   |  1,2000 | FTP-LAN cable, Small Diameter AWG28, CAT6 |
 | 13824 |   | 13824 |   |  2,0000 | Flying connector, RJ45, 8 contacts, 1 row, male, Straight, w to w, lock, key, for 28 - 30 AWG |
