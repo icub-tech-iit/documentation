@@ -51,7 +51,7 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 | 68 |  | 68 |  | 0,6000 | Teflon insulated cable, 1 pole, AWG26, 600V, black, UL E20042 |
 | 70 |  | 70 |  | 0,6000 | Teflon insulated cable, 1 pole, AWG26, 600V, yellow, UL E20042 |
 | 7141 |  | 7141 |  | 23,0000 | Crimp terminal, FCI MiniTek, female contact, AWG26-30 |
-| 7142 |  | amphenol-fci_10073599-008LF |  | 1,0000 | Housing, MiniTek, 8 contacts, 2 row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
+| 7142 |  | AMPHENOL-FCI_10073599-008LF |  | 1,0000 | Housing, MiniTek, 8 contacts, 2 row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 | 7143 |  | AMPHENOL-FCI_10073599-010LF |  | 3,0000 | Housing, MiniTek, 10 contacts, 2 row, female, p.2mm, Straight, w to w / w to b, nolock, nokey, 2A |
 
 | 🔘 Click to download the PDF |
