@@ -35,7 +35,7 @@ jobs:
 
       - name: Build Zensical
         run: |
-          zensical build
+          zensical build --clean
 
       - name: Create and prepare gh-pages anew
         run: |
