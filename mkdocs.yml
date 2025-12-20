@@ -121,14 +121,14 @@ nav:
             - Building Phase:
               - How-to Cable and Needed Parts V1: icub_tendons/hand_cabling_V1.md
             - Repair Phase:
-              - Disconnection V1: icub_tendons/remove.md
+              - Disconnection V1: icub_tendons/remove_V1.md
               - Lower Arm V1: icub_tendons/lower_arm_V1.md
               - Wrist and Hand Cabling V1: icub_tendons/wrist_hand_cabling_V1.md
           - Version 2:
             - Building Phase:
               - How-to Cable and Needed Parts V2: icub_tendons/hand_cabling_V2.md
             - Repair Phase:
-              - Disconnection V2: icub_tendons/remove.md
+              - Disconnection V2: icub_tendons/remove_V2.md
               - Lower Arm V2: icub_tendons/lower_arm_V2.md
               - Wrist and Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
         - Waist, Leg and Ankle: icub_tendons/waist_legs.md
