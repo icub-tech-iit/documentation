@@ -34,7 +34,7 @@ When forking the repository, remember to copy out all the branches. Then, work o
 Follow the steps below where you have to correctly fill up the signature `your-fork`:
 - Browse to https://github.com/your-fork/documentation/actions and enable the actions if they got disabled.
 - Browse to https://github.com/your-fork/documentation/actions/workflows/gh-pages.yml and click on the <kbd>Run workflow</kbd> button.
-- Browse to https://github.com/your-fork/documentation/settings/pages, select <kbd>Deploy from a branch</kbd> button and then the `gh-pages` branch and wait until the GitHub Pages link becomes green to click on!
+- Browse to https://github.com/your-fork/documentation/settings/pages, select <kbd>Deploy from a branch</kbd> button and then the couple `gh-pages` branch and `/root`; finally, wait until the GitHub Pages link becomes green to click on!
 
 # 🔽 Local Workflow
 
