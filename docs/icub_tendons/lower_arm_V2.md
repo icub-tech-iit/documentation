@@ -30,7 +30,7 @@ The answer is as follow:
 | **distal joint** (Thumb, Index, Middle, Ring or Pinkie)      | **NOT** necessary |
 | **every other joint** (all proximal, fingers abduction and Thumb oppose ) | **MANDATORY**     |
 
-Please refer to this following [**link**](remove.md#2-lower-arm-v2) to get know HOWTO disconnect the Lower Arm V2.
+Please refer to this following [**link**](remove_V2.md) to get know HOWTO disconnect the Lower Arm V2.
 
 ## 2	Distal Joints
 

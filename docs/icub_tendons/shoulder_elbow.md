@@ -217,7 +217,7 @@ In order to insert these cables, you need to turn the 2 pulleys and align the te
 
 !!! warning
 
-    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#1-lower-arm-v1) or Lower Arm [**V2**](remove.md#2-lower-arm-v2)
+    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove_V1.md) or Lower Arm [**V2**](remove_V2.md)
     **OR** You are helped by **someone else** to hold the Lower Arm (Forearm + Hand).
 
 
@@ -390,7 +390,7 @@ Una volta cablato   il cavo, nel passaggio del cavo attorno alla puleggia piccol
 <img src='../img/shoulder/ICUB_ELBOW_RIGHT.png' width = 80%>
 
 !!! warning
-    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove.md#1-lower-arm-v1) or Lower Arm [**V2**](remove.md#2-lower-arm-v2)
+    **EITHER** you remove the Lower Arm by Following the instructions for Lower Arm [**V1**](remove_V1.md) or Lower Arm [**V2**](remove_V2.md)
     
     **OR** You are helped by **someone else** to hold the Lower Arm.
 
