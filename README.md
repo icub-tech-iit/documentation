@@ -40,18 +40,14 @@ Follow the steps below where you have to correctly fill up the signature `your-f
 
 ## 💻 Install the environment yourself
 If you prefer to work on the documentation on your own computer without using Cloud IDEs as described in the previous section,
-you need to install [**`mkdocs`**](https://www.mkdocs.org/) first.
+you need to install [**`zensical`**](https://zensical.org/) first.
 
-Once installed, just clone this repo, navigate to it and install the required dependencies:
+Once installed, just clone this repo, navigate to it and serve the content:
 ```console
 git clone https://github.com/icub-tech-iit/documentation.git
 cd documentation
-pip install --break-system-packages $(mkdocs get-deps)
-```
-
-Finally, serve the content:
-```console
-mkdocs serve
+pip install zensical
+zensical serve
 ```
 
 ## 📦 Rely on package managers
@@ -61,19 +57,18 @@ In the next sections, we will describe in detail how to install the required dep
 You can use the [conda-forge](https://conda-forge.org/) distribution to install the required dependencies on Linux, macOS or Windows.
 First of all you need a conda distribution, for example [Miniforge3](https://github.com/conda-forge/miniforge).
 
-If you already have a conda distribution, just create a new [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (for example called `mkdocs-env`) and install in it the require dependencies:
+If you already have a conda distribution, just create a new [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (for example called `zensical-env`) and install in it the required dependencies:
 ```console
 git clone https://github.com/icub-tech-iit/documentation.git
 cd documentation
-conda create -n mkdocs-env
-conda activate mkdocs-env
-conda install --channel conda-forge mkdocs
-conda install --channel conda-forge $(mkdocs get-deps)
+conda create -n zensical-env
+conda activate zensical-env
+pip install zensical
 ```
 
-After the installation, whenever you need to test the website just activate the `mkdocs-env` environment and call `mkdocs serve` in the `documentation` directory:
+After the installation, whenever you need to test the website just activate the `zensical-env` environment and call `zensical serve` in the `documentation` directory:
 ```console
 cd documentation
-conda activate mkdocs-env
-mkdocs serve
+conda activate zensical-env
+zensical serve
 ```
