@@ -46,7 +46,6 @@ Once installed, just clone this repo, navigate to it and serve the content:
 ```console
 git clone https://github.com/icub-tech-iit/documentation.git
 cd documentation
-pip install --break-system-packages zensical
 zensical serve
 ```
 
@@ -63,7 +62,7 @@ git clone https://github.com/icub-tech-iit/documentation.git
 cd documentation
 conda create -n zensical-env
 conda activate zensical-env
-pip install --break-system-packages zensical
+conda install --channel conda-forge zensical
 ```
 
 After the installation, whenever you need to test the website just activate the `zensical-env` environment and call `zensical serve` in the `documentation` directory:
