@@ -23,10 +23,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y python3-wheel python3-setuptools
-          pip install --break-system-packages --upgrade Jinja2
-          pip install --break-system-packages --user mkdocs
-          pip install --break-system-packages --user $(mkdocs get-deps)
-          pip install --break-system-packages --upgrade pygments
+          pip install --break-system-packages --user zensical
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
         
       - name: Configure Git
@@ -36,9 +33,9 @@ jobs:
           git config --global user.email "actions@github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-      - name: Build Mkdocs
+      - name: Build Zensical
         run: |
-          mkdocs build
+          zensical build --clean
 
       - name: Create and prepare gh-pages anew
         run: |

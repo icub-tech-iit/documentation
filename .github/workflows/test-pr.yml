@@ -14,15 +14,12 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y python3-wheel python3-setuptools
-          pip install --break-system-packages --upgrade Jinja2
-          pip install --break-system-packages --user mkdocs
-          pip install --break-system-packages --user $(mkdocs get-deps)
-          pip install --break-system-packages --upgrade pygments
+          pip install --break-system-packages --user zensical
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
         
-      - name: Build Mkdocs
+      - name: Build Zensical
         run: |
-          mkdocs build --strict > log 2>&1
+          zensical build --clean --strict > log 2>&1
 
       - name: Print Log
         if: always()
