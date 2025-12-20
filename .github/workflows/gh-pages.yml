@@ -23,8 +23,9 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y python3-wheel python3-setuptools
-          pip install --break-system-packages --user zensical pymdown-extensions
-          pip install --break-system-packages --upgrade pygments
+          pip install --break-system-packages --user zensical
+          # pip install --break-system-packages --user zensical pymdown-extensions
+          # pip install --break-system-packages --upgrade pygments
           echo "${HOME}/.local/bin" >> ${GITHUB_PATH}
         
       - name: Configure Git
