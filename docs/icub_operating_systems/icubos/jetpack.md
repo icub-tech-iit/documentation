@@ -143,7 +143,7 @@ After successfully flashing your NVIDIA board by following the dedicated procedu
 - [Install jtop](./install-jtop.md)
 - [Install CMake (only for Ubuntu 20.04)](./install-cmake.md)
 - [Setup Orin NX for FRAMOS-IMX678 (only for `iCub head v2.10`)](./setup-framos-imx678.md)
-- [Setup ergoCub screen (only for `ergocub-head`)](./setup-ergocub-screen.md)
+- [Setup ergoCub screen (only for `ergocub-head`)](../../ergocub_operating_systems/ergocub_head/setup_ergocub_screen.md)
 
 Moreover, if you are configuring a machine that is part of an iCub or ergoCub robot or it's used to simulate or communicate with them, you would need to install the software depending on the operating system. You can follow the [**robotology-superbuild installation guide**](../../sw_installation/index.md).
 

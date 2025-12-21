@@ -10,14 +10,7 @@ These machines are nodes of the [ergoCub network](network.md).
 
 The following guides will help you properly configure the OS for the specific board.
 
-- ergocub-head
-  - [Jetpack installation](../icub_operating_systems/icubos/jetpack.md)
-  - Post-flashing operations
-    - [Install CUDA libraries](../icub_operating_systems/icubos/install-cuda-libraries.md)
-    - [Install librealsense](../icub_operating_systems/icubos/install-librealsense.md)
-    - [Install jtop](../icub_operating_systems/icubos/install-jtop.md)
-    - [Install CMake (only for Ubuntu 20.04)](../icub_operating_systems/icubos/install-cmake.md)
-    - [Setup ergoCub screen](../icub_operating_systems/icubos/setup-ergocub-screen.md)
+- [ergocub-head](ergocub_head/index.md)
 - [ergocub-torso](ergocub_torso/install_from_scratch.md)
 
 Alternatively, you can download the [OS pre-built images](../icub_operating_systems/download.md).
