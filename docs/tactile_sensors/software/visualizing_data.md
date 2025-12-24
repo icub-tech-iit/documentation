@@ -1,4 +1,4 @@
-## Visualizing Tactile Data
+# Visualizing Tactile Data
 There exist two ways to visualize tactile data:
 
 1. [**`iCubSkinGui`**](https://robotology.github.io/robotology-documentation/doc/html/group__icub__iCubSkinGui.html)

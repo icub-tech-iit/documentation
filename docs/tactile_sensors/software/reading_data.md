@@ -1,4 +1,4 @@
-## Reading Raw Tactile Data
+# Reading Raw Tactile Data
 Each sensor outputs an integer value in `[0 255]`: the lower the value, the higher the pressure.
 The output value with zero pressure may vary with the version of the firmware, but it is typically `235`.
 
@@ -16,7 +16,7 @@ Taking a look at the number of ports (i.e. 7) and the number of patches (i.e. 18
 
 Given that each patch is composed by at most 16 triangles, each containing 12 sensors, each patch can have at most 192 sensors. Hence, each port outputs 192 values for each patch. However, since some patches do not contain 16 triangles (e.g. hand, upper forearm, top upper arm), some of the port output values are always zero – see this [section](#reading-compensated-tactile-data).
 
-## Reading Compensated Tactile Data
+# Reading Compensated Tactile Data
 For most applications, raw sensor data need some filtering before being used.
 
 The software module [**`skinManager`**](https://robotology.github.io/robotology-documentation/doc/html/group__icub__skinManager.html) takes care of:
@@ -61,12 +61,12 @@ With the exception of the palm and finger data, the skin is composed of triangul
     We referred to the "_positions_" on the port starting from `1`. However, if you use `taxelIDs` from the `skinDynLin` library, positions start from `0`.
     Example: taxel ID 10 would be the 11th on the port. This is also used in the `skin_events` output – see this [section](#reading-high-level-contact-data).
 
-## Taxels Coordinates
+# Taxels Coordinates
 For every skin part, the coordinates of every taxel in local link reference frames can be retrieved from [**`icub-main/app/skinGui/conf/positions`**](https://github.com/robotology/icub-main/tree/master/app/skinGui/conf/positions).
 
 The first three columns are x,y,z coordinates. The default output rate is `50` Hz.
 
-## Reading High Level Contact Data
+# Reading High Level Contact Data
 The software module [**`skinManager`**](https://robotology.github.io/robotology-documentation/doc/html/group__icub__skinManager.html) provides a high-level representation of the tactile data, under the form of a [**`skinContactList`**](https://robotology.github.io/robotology-documentation/doc/html/classiCub_1_1skinDynLib_1_1skinContactList.html). A `skinContactList` is a list of [**`skinContact`**](https://robotology.github.io/robotology-documentation/doc/html/classiCub_1_1skinDynLib_1_1skinContact.html). Note that in case multiple tactile sensors are activated by a contact, the `skinManager` groups them together into a unique `skinContact`.
 
 The port on which the skinContactList is written is:

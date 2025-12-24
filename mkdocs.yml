@@ -189,7 +189,7 @@ nav:
           - Overview of the Wrist Mk2: wrists/wrist_mk2.md
           - The Mathematics of the Spherical Joint: wrists/wrist_mk2_math.md
       - Necks:
-        - Neck MK3: neck/neck_mk3.md
+        - Neck MK3: necks/neck_mk3.md
     - Robot Sensors:
       - F/T Sensors:
         - ft_sensors/index.md

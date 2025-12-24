@@ -1,6 +1,6 @@
-## Tactile Data Flow
+# Tactile Data Flow
 
-### Main Flow of Information
+## Main Flow of Information
 This picture below depicts the flow of the tactile data, starting from the [physical sensors](../hardware/physical_sensors.md) and moving up to the user applications and the GUIs.
 
 <p align="center">
@@ -19,7 +19,7 @@ The [**`iCubSkinGui`**](https://robotology.github.io/robotology-documentation/do
 
 Also, the `skinManager` has its own GUI, which allows the user to adjust the filtering parameters, to switch the visualization from continuous to binary (i.e., contact/noncontact), and to monitor the sensor state.
 
-### Applications
+## Applications
 The picture below illustrates a scheme of a possible application that uses the tactile data.
 
 <p align="center">

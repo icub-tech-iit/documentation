@@ -30,17 +30,18 @@ Here you can find informations about iCub's kinematics.
 ## [iCub 3](./icub3/icub3-joints.md)
 Here are described the elctrical and mechanical specifications for each joint.
 
-## [Hands](./hands/index.md)
-Here's reported info about the hands installed on the robots.
+## Robot Parts
+Here's reported info about the parts and their versions installed on the robot:
 
-## [Wrist](./wrists/index.md)
-Here's reported info about the wrists installed on the robots.
+- [**Hands**](./hands/hands_mk5.md)
+- [**Wrists**](./wrists/wrist_mk2.md)
+- [**Necks**](./necks/neck_mk3.md)
 
-## [F/T Sensors](./ft_sensors/index.md)
-Here's reported info about `F/T sensors`.
+## Robot Sensors
+Here's reported info about the parts and their versions installed on the robot:
 
-## [Tactile Sensors](./tactile_sensors/hardware/physical_sensors.md)
-Here's reported info about `Tactile sensors`.
+- [**F/T Sensors**](./ft_sensors/index.md)
+- [**Tactile Sensors**](./tactile_sensors/hardware/physical_sensors.md)
 
 ## [Power push buttons](./robot_power/robot_power_button.md)
 Here's reported info about `power push buttons`.

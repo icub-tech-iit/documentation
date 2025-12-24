@@ -1,4 +1,4 @@
-## Physical Sensors
+# Tactile Physical Sensors
 The tactile sensor network of iCub is organized into patches. A patch is a set of tactile sensors that are physically connected one to the other and that are read by the same microcontroller. In particular, 18 patches are mounted on the robot:
 - 1 in each hand
 - 2 in each forearm
