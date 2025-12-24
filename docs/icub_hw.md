@@ -1,7 +1,7 @@
 # :gear:{.blink} iCub HW Documentation
 First draft of iCub HW documentation.
 
-### Main HW Repositories
+## Main HW Repositories
 - [Mechanical CAD Libraries](https://github.com/icub-tech-iit/cad-libraries)
 - [Mechanical CAD](https://github.com/icub-tech-iit/cad-mechanics-public)
 - [Electronics Boards](https://github.com/icub-tech-iit/electronics-boards-public)

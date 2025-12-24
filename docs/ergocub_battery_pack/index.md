@@ -1,7 +1,6 @@
-## ErgoCub Battery Pack
+# ErgoCub Battery Pack
 
 We collect here information regarding the new `Battery Pack` for `ergocub S/N002`
-
 
 - [Introduction](./ergoCub_battery_pack.md#introduction)
 - [General description](./ergoCub_battery_pack.md#general-description)

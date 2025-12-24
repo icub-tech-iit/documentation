@@ -1,29 +1,29 @@
-## Upgrade Kits
+# Introduction
 
-### 🔘 KIT_002 iCub Upgrade Kit: torso capacitors 
-[iCub Torso Capacitors UpKit](./torso_capacitors/support.md) describes how to perform an upgrade to iCub so that the capacitors placed in its back don't get loose.
+### 🔧 [KIT_002 Torso Capacitors](./torso_capacitors/support.md) 
+Describes how to perform an upgrade to iCub so that the capacitors placed in its back don't get loose.
 
-### 🔘 KIT_003 iCub Upgrade Kit: hand
-[iCub Hands Support UpKit](./hands/support.md) describes how to perform an upgrade to the hands of iCub. The upgrade consists of replacing the supports of the mais board and on a new cover.
+### 🔧 [KIT_003 Hands Support](./hands/support.md)
+Describes how to perform an upgrade to the hands of iCub. The upgrade consists of replacing the supports of the mais board and on a new cover.
 
-### 🔘 KIT_004 iCub Upgrade Kit: upper arm covers
-[iCub upper arm cover UpKit](./upperarm_cover_icub2_5/support.md) describes how to perform an upgrade to iCub so that the upper arm covers can be mounted.
+### 🔧 [KIT_004 Upper Arm Covers](./upperarm_cover_icub2_5/support.md)
+Describes how to perform an upgrade to iCub so that the upper arm covers can be mounted.
 
-### 🔘 KIT_005 iCub Upgrade Kit: eyes support 
-[iCub Eyes Support UpKit](./eyes/support.md) describes how to perform an upgrade to iCub so that the supports of the eyes make them more stable.
+### 🔧 [KIT_005 Eyes Support](./eyes/support.md)
+Describes how to perform an upgrade to iCub so that the supports of the eyes make them more stable.
 
-### 🔘 KIT_006 iCub Upgrade Kit: differential neck pulley 
-[iCub Differential Neck Pulley UpKit](./differential_neck_pulley/support.md) describes how to perform an upgrade of the neck of iCub so that the tendon does not easily slip away.
+### 🔧 [KIT_006 Differential Neck Pulley](./differential_neck_pulley/support.md)
+Describes how to perform an upgrade of the neck of iCub so that the tendon does not easily slip away.
 
-### 🔘 KIT_007 iCub Upgrade Kit: ankle for climbing stairs
-[iCub ankle for climbing stairs UpKit](./ankle_for_stairs/support.md) describes how to perform an upgrade on the feet in order to  increase the step length and climb some stairs.
+### 🔧 [KIT_007 Ankle for Climbing Stairs](./ankle_for_stairs/support.md)
+Describes how to perform an upgrade on the feet in order to  increase the step length and climb some stairs.
 
-### 🔘 KIT_008 iCub Upgrade Kit: RealSense holder
-[iCub RealSense holder UpKit](./realsense_holder/support.md) describes how to perform an upgrade on the head in order to add a RealSense camera holder in order to help 3D perception during manipulation tasks.
+### 🔧 [KIT_008 RealSense Holder](./realsense_holder/support.md)
+Describes how to perform an upgrade on the head in order to add a RealSense camera holder in order to help 3D perception during manipulation tasks.
 
-### 🔘 KIT_009 iCub Upgrade Kit: Head with 4K Cameras
-[iCub new head UpKit](./head_4k/support.md)
+### 🔧 [KIT_009 Head with 4K Cameras](./head_4k/support.md)
+Describes how to perform an upgrade on the head of iCub by replacing the standard cameras with 4K cameras to improve visual perception.
 
-### 🔘 KIT_010 iCub Backpack with COM-Express
-[iCub Backpack UpKit](./backpack/support.md)
+### 🔧 [KIT_010 iCub Backpack with COM-Express](./backpack/support.md)
+Describes how to perform an upgrade on iCub by adding a backpack with a COM-Express computer to improve its computational power.
 

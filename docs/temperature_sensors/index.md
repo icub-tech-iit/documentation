@@ -1,4 +1,4 @@
-## Motor temperature Sensors
+# Motor temperature Sensors
 We collect here information regarding the temperature sensors of the `ergoCub` motors.
 
 - [Overview of motor temperature sensor](./general/overview.md)

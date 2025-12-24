@@ -1,4 +1,4 @@
-## Tactile Sensors
+# Tactile Sensors
 We collect here information regarding the tactile sensors of iCub.
 
 - [Physical Sensors](./hardware/physical_sensors.md)

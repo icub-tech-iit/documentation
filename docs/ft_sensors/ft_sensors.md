@@ -1,4 +1,5 @@
 # F/T Sensors
+
 The F/T sensor (6-dof) has also been specially designed to fit the iCub. However, the size of the sensor has been made compatible with an existing commercial product. On the other hand, the signal conditioning electronics has been made to fit the sensor itself, consequently reducing the space required. The F/T sensor is based on a classical [Wheatstone bridge](http://en.wikipedia.org/wiki/Wheatstone_bridge) design employing 12 semiconductor strain gauges arranged in a 6 half-bridges configuration.
 
 <center>
