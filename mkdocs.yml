@@ -110,93 +110,94 @@ nav:
 
   - iCub HW:
     - icub_hw.md
-    - The iCub Versions Table:
-      - iCub Versions Table: icub_versions/index.md
-    - The iCub Wiring:
-      - icub_wiring/index.md
-      - iCub 1.x: icub_wiring/icub1_x.md
-      - iCub 2.x: icub_wiring/icub2_x.md
-      - iCub 3.x: icub_wiring/icub3_x.md
-    - The iCub Tendons manual:
-      - icub_tendons/index.md
-      - Neck: icub_tendons/neck.md
-      - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
-      - Lower Arm:
-        - Definition: icub_tendons/lower_arm.md
-        - Version 1:
-          - Building Phase:
-            - How-to Cable and Needed Parts V1: icub_tendons/hand_cabling_V1.md
-          - Repair Phase:
-            - Disconnection V1: icub_tendons/remove_V1.md
-            - Lower Arm V1: icub_tendons/lower_arm_V1.md
-            - Wrist and Hand Cabling V1: icub_tendons/wrist_hand_cabling_V1.md
-        - Version 2:
-          - Building Phase:
-            - How-to Cable and Needed Parts V2: icub_tendons/hand_cabling_V2.md
-          - Repair Phase:
-            - Disconnection V2: icub_tendons/remove_V2.md
-            - Lower Arm V2: icub_tendons/lower_arm_V2.md
-            - Wrist and Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
-      - Waist, Leg and Ankle: icub_tendons/waist_legs.md
-    - The iCub Upgrade Kits:
-      - upgrade_kits/index.md
-      - KIT_002 Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
-      - KIT_003 Hands Support: upgrade_kits/hands/support.md
-      - KIT_004 Update upper arm covers : upgrade_kits/upperarm_cover_icub2_5/support.md
-      - KIT_005 Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
-      - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
-      - KIT_007 Ankle for climbing stairs: upgrade_kits/ankle_for_stairs/support.md
-      - KIT_008 RealSense Holder: upgrade_kits/realsense_holder/support.md
-      - KIT_009 iCub Head with 4K Cameras: upgrade_kits/head_4k/support.md
-      - KIT_010 iCub Backpack with COM-EXPRESS: upgrade_kits/backpack/support.md
-    - iCub Kinematics:
-      - icub_kinematics/index.md
-      - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
-      - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
-      - Range of Motion of the iCub Shoulders: icub_kinematics/icub-shoulders-range-of-motion/icub-shoulders-range-of-motion.md
-      - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md
-      - iCub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md
-      - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
-      - iCub FW Kinematics:
-        - icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md
-        - iCub FW Kinematics Arms: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md
-        - iCub FW Kinematics Fingers: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md
-        - iCub FW Kinematics Head: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md
-        - iCub FW Kinematics Legs: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md
-        - iCub FW Kinematics IMU: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-imu.md
+    - iCub:
+      - The iCub Versions Table:
+        - iCub Versions Table: icub_versions/index.md
+      - The iCub Wiring:
+        - icub_wiring/index.md
+        - iCub 1.x: icub_wiring/icub1_x.md
+        - iCub 2.x: icub_wiring/icub2_x.md
+        - iCub 3.x: icub_wiring/icub3_x.md
+      - The iCub Tendons manual:
+        - icub_tendons/index.md
+        - Neck: icub_tendons/neck.md
+        - Shoulder and Elbow: icub_tendons/shoulder_elbow.md
+        - Lower Arm:
+          - Definition: icub_tendons/lower_arm.md
+          - Version 1:
+            - Building Phase:
+              - How-to Cable and Needed Parts V1: icub_tendons/hand_cabling_V1.md
+            - Repair Phase:
+              - Disconnection V1: icub_tendons/remove_V1.md
+              - Lower Arm V1: icub_tendons/lower_arm_V1.md
+              - Wrist and Hand Cabling V1: icub_tendons/wrist_hand_cabling_V1.md
+          - Version 2:
+            - Building Phase:
+              - How-to Cable and Needed Parts V2: icub_tendons/hand_cabling_V2.md
+            - Repair Phase:
+              - Disconnection V2: icub_tendons/remove_V2.md
+              - Lower Arm V2: icub_tendons/lower_arm_V2.md
+              - Wrist and Hand Cabling V2: icub_tendons/wrist_hand_cabling_V2.md
+        - Waist, Leg and Ankle: icub_tendons/waist_legs.md
+      - iCub CPU Boards: icub_cpu_boards/icub_cpu_boards.md
+      - The iCub Upgrade Kits:
+        - upgrade_kits/index.md
+        - KIT_002 Update of torso capacitors: upgrade_kits/torso_capacitors/support.md
+        - KIT_003 Hands Support: upgrade_kits/hands/support.md
+        - KIT_004 Update upper arm covers : upgrade_kits/upperarm_cover_icub2_5/support.md
+        - KIT_005 Eyes Motor Replacement Support: upgrade_kits/eyes/support.md
+        - KIT_006 Update of differential neck pulley: upgrade_kits/differential_neck_pulley/support.md
+        - KIT_007 Ankle for climbing stairs: upgrade_kits/ankle_for_stairs/support.md
+        - KIT_008 RealSense Holder: upgrade_kits/realsense_holder/support.md
+        - KIT_009 iCub Head with 4K Cameras: upgrade_kits/head_4k/support.md
+        - KIT_010 iCub Backpack with COM-EXPRESS: upgrade_kits/backpack/support.md
+      - iCub Kinematics:
+        - icub_kinematics/index.md
+        - iCub Joints: icub_kinematics/icub-joints/icub-joints.md
+        - iCub Joints Limits: icub_kinematics/icub-joints-limits/icub-joints-limits.md
+        - Range of Motion of the iCub Shoulders: icub_kinematics/icub-shoulders-range-of-motion/icub-shoulders-range-of-motion.md
+        - Robot Configuration: icub_kinematics/icub-robot-configuration/icub-robot-configuration.md
+        - iCub Model naming conventions: icub_kinematics/icub-model-naming-conventions/icub-model-naming-conventions.md
+        - Vergence, Version and Disparity: icub_kinematics/icub-vergence-version/icub-vergence-version.md
+        - iCub FW Kinematics:
+          - icub_kinematics/icub-forward-kinematics/icub-forward-kinematics.md
+          - iCub FW Kinematics Arms: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-arms.md
+          - iCub FW Kinematics Fingers: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-fingers.md
+          - iCub FW Kinematics Head: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-head.md
+          - iCub FW Kinematics Legs: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-legs.md
+          - iCub FW Kinematics IMU: icub_kinematics/icub-forward-kinematics/icub-forward-kinematics-imu.md
     - iCub 3:
-      - iCub 3 joints specs: icub3/icub3-joints.md
+      - iCub 3 Joints Specs: icub3/icub3-joints.md
     - ergoCub 1:
       - The ergoCub Versions Table: ergocub_versions/index.md
-      - Battery Pack:
-        - ergoCub_battery_pack/index.md
-        - Ergocub Battery Pack: ergocub_battery_pack/ergocub_battery_pack.md
-      - ergoCub 1 joint specs: ergocub1/ergocub1-joints.md
-      - ergoCub 1 wiring:
+      - ergoCub 1 Battery Pack: ergocub_battery_pack/ergocub_battery_pack.md
+      - ergoCub 1 Joint Specs: ergocub1/ergocub1-joints.md
+      - ergoCub 1 Wiring:
         - ergocub1_wiring/index.md
         - ergoCub 1.0: ergocub1_wiring/ergocub1_0.md
         - ergoCub 1.1: ergocub1_wiring/ergocub1_1.md
         - ergoCub 1.2: ergocub1_wiring/ergocub1_2.md
         - ergoCub 1.3: ergocub1_wiring/ergocub1_3.md
-    - iCub CPU boards: icub_cpu_boards/icub_cpu_boards.md
-    - Hands:
-      - Hands MK5:
-        - Overview: hands/hands_mk5.md
-        - Coupling laws: hands/hands_mk5_coupling.md
-        - Skin and MMA board: hands/skin_on_hand_mk5.md
-    - Wrists:
-      - Wrist MK2:
-        - Overview of the Wrist Mk2: wrists/wrist_mk2.md
-        - The Mathematics of the Spherical Joint: wrists/wrist_mk2_math.md
-    - Neck:
-      - Neck MK3: neck/neck_mk3.md
-    - F/T Sensors:
-      - ft_sensors/index.md
-      - F/T Sensors Generalities: ft_sensors/ft_sensors.md
-      - F/T Onboard IMU: ft_sensors/ft_onboard_imu.md
-      - Study on change of frame for accelerometer measurements: ft_sensors/change_of_frame_accelerometer.md
-    - Tactile Sensors:
-      - Physical Sensors: tactile_sensors/hardware/physical_sensors.md
+    - Robot Parts:
+      - Hands:
+        - Hands MK5:
+          - Overview: hands/hands_mk5.md
+          - Coupling laws: hands/hands_mk5_coupling.md
+          - Skin and MMA board: hands/skin_on_hand_mk5.md
+      - Wrists:
+        - Wrist MK2:
+          - Overview of the Wrist Mk2: wrists/wrist_mk2.md
+          - The Mathematics of the Spherical Joint: wrists/wrist_mk2_math.md
+      - Necks:
+        - Neck MK3: neck/neck_mk3.md
+    - Robot Sensors:
+      - F/T Sensors:
+        - ft_sensors/index.md
+        - F/T Sensors Generalities: ft_sensors/ft_sensors.md
+        - F/T Onboard IMU: ft_sensors/ft_onboard_imu.md
+        - Study on change of frame for accelerometer measurements: ft_sensors/change_of_frame_accelerometer.md
+      - Tactile Sensors:
+        - Physical Sensors: tactile_sensors/hardware/physical_sensors.md
     - Power push buttons: robot_power/robot_power_button.md
     - Custom components: custom_components/custom_components.md
 
@@ -310,22 +311,23 @@ nav:
       - Configure IP on a setup for ETH boards: configure_static_ip/configure-static-ip.md
     - Using iCub or ergoCub with ROS 2: icub-ergocub_ros2/index.md
     - iCub Force Control: icub_force_control/icub-force-control.md
-    - Sensor interfaces:
-      - robot_sensors/index.md
-      - YARP network wrapper servers convention: robot_sensors/yarp_nws_convention.md
-      - Sensors mounted on iCub 2.7: robot_sensors/icub2.7_sensors.md
-      - Sensors mounted on iCub 3: robot_sensors/icub3_sensors.md
-      - Sensors mounted on ergoCub: robot_sensors/ergocub_sensors.md
-    - Tactile Sensors:
-      - tactile_sensors/index.md
-      - Reading Tactile Data: tactile_sensors/software/reading_data.md
-      - Visualizing Tactile Data: tactile_sensors/software/visualizing_data.md
-      - Tactile Data Flow: tactile_sensors/software/dataflow.md
-    - Motor Temperature Sensors:
-      - temperature_sensors/index.md
-      - Overview of Temperature Sensors: temperature_sensors/general/overview.md
-      - Motor Temperature Data Flow: temperature_sensors/software/dataflow.md
-      - Reading Motor Temperature Data: temperature_sensors/software/reading_data.md
+    - Sensing:
+      - Sensor interfaces:
+        - robot_sensors/index.md
+        - YARP network wrapper servers convention: robot_sensors/yarp_nws_convention.md
+        - Sensors mounted on iCub 2.7: robot_sensors/icub2.7_sensors.md
+        - Sensors mounted on iCub 3: robot_sensors/icub3_sensors.md
+        - Sensors mounted on ergoCub: robot_sensors/ergocub_sensors.md
+      - Tactile Sensors:
+        - tactile_sensors/index.md
+        - Reading Tactile Data: tactile_sensors/software/reading_data.md
+        - Visualizing Tactile Data: tactile_sensors/software/visualizing_data.md
+        - Tactile Data Flow: tactile_sensors/software/dataflow.md
+      - Motor Temperature Sensors:
+        - temperature_sensors/index.md
+        - Overview of Temperature Sensors: temperature_sensors/general/overview.md
+        - Motor Temperature Data Flow: temperature_sensors/software/dataflow.md
+        - Reading Motor Temperature Data: temperature_sensors/software/reading_data.md
 
   - Tips and Tricks:
     - tips_tricks/index.md

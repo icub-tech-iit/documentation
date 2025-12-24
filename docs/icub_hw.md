@@ -21,6 +21,9 @@ The design of our robot evolves in time. We have been asking ourselves how to pr
 
 An [upgrade kit](./upgrade_kits/index.md) is a plastic bag with mechanical parts, hardware boards, screws, wires, tendons and whatever it is required to perform a physical upgrade of the robots, including the instructions.
 
+## [iCub CPU boards](./icub_cpu_boards/icub_cpu_boards.md)
+Here's reported info about CPU boards installed on iCub.
+
 ## [iCub Kinematics](./icub_kinematics/index.md)
 Here you can find informations about iCub's kinematics.
 
@@ -33,11 +36,11 @@ Here's reported info about the hands installed on the robots.
 ## [Wrist](./wrists/index.md)
 Here's reported info about the wrists installed on the robots.
 
-## [iCub CPU boards](./icub_cpu_boards/icub_cpu_boards.md)
-Here's reported info about CPU boards installed on iCub.
-
 ## [F/T Sensors](./ft_sensors/index.md)
 Here's reported info about `F/T sensors`.
+
+## [Tactile Sensors](./tactile_sensors/hardware/physical_sensors.md)
+Here's reported info about `Tactile sensors`.
 
 ## [Power push buttons](./robot_power/robot_power_button.md)
 Here's reported info about `power push buttons`.

@@ -1,4 +1,4 @@
-# CPU boards
+# CPU Boards
 The table below reports all CPU boards installed on the robots.
 
 | Internal name    |   | Vendor Model            | Vendor         | Description                                                                                              | Board Form factor   | Robot version              | CPU                       | RAM       | HardDisk            | OTHER / BIOS  |

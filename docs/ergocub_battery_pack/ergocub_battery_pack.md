@@ -1,5 +1,16 @@
 # ErgoCub Battery Pack
 
+We collect here information regarding the new `Battery Pack` for `ergoCub S/N002`
+
+- [Introduction](./ergocub_battery_pack.md#introduction)
+- [General description](./ergocub_battery_pack.md#general-description)
+- [Storing the battery pack](./ergocub_battery_pack.md#storing-the-battery-pack)
+- [Charging the battery pack](./ergocub_battery_pack.md#charging-the-battery-pack)
+- [Using the battery pack on the robot](./ergocub_battery_pack.md#using-the-battery-pack-on-the-robot)
+    - [Robot switched off, without external power supply](./ergocub_battery_pack.md#robot-switched-off-without-external-power-supply)
+    - [Robot switched on, with external power supply](./ergocub_battery_pack.md#robot-switched-on-with-external-power-supply)
+    - [Robot switched on, powered by battery pack](./ergocub_battery_pack.md#robot-switched-on-powered-by-battery-pack)
+
 ## Introduction
 
 This documentation page describes the new ergoCub `Battery Pack`. Thereby, you will find here information on its features and how to use it.
