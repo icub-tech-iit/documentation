@@ -11,16 +11,16 @@ The installation procedure depends on the Jetpack version installed on your boar
 
 ## Jetpack 5.x.x
 
-On Jetson board flashed with `Jetpack version 5.x.x`, you can follow the instructions to install `librealsense` with [Debian packages](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md#4-install-with-debian-packages).
+On Jetson board flashed with `Jetpack version 5.x.x`, you can follow the instructions to install `librealsense` with [Debian packages](https://github.com/realsenseai/librealsense/blob/master/doc/installation_jetson.md#4-install-with-debian-packages).
 
 ## Jetpack 6.x.x
 
-For Jetson Orin with `Jetpack version ≥ 6.0.0`, the proper procedure is to install this library [from source using the RSUSB backend](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md#building-from-source-using-rsusb-backend), following the [libuvc_installation.sh](https://github.com/IntelRealSense/librealsense/blob/master/scripts/libuvc_installation.sh) script.
+For Jetson Orin with `Jetpack version ≥ 6.0.0`, the proper procedure is to install this library [from source using the RSUSB backend](https://github.com/realsenseai/librealsense/blob/master/doc/installation_jetson.md#building-from-source-using-rsusb-backend), following the [libuvc_installation.sh](https://github.com/realsenseai/librealsense/blob/master/scripts/libuvc_installation.sh) script.
 
 First of all, clone the `librealsense` official repository, and then navigate into the `scripts` folder:
 
 ```sh
-git clone https://github.com/IntelRealSense/librealsense.git
+git clone https://github.com/realsenseai/librealsense.git
 cd librealsense/scripts
 ```
 
@@ -36,4 +36,4 @@ In the end, run the script:
 ./libuvc_installation.sh
 ```
 
-For more information, refer to the [official documentation](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation_jetson.md) provided in the repository.
+For more information, refer to the [official documentation](https://github.com/realsenseai/librealsense/blob/master/doc/installation_jetson.md) provided in the repository.
