@@ -21,6 +21,8 @@ This repository is maintained by:
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/icub-tech-iit/documentation)
+
 ## 🔘 [GitHub Codespaces](https://github.com/features/codespaces)
 
 | Click to enlarge |
