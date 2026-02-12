@@ -10,7 +10,7 @@ RUN apt update && \
     apt install -y sudo apt-utils bash-completion wget ruby git magic-wormhole \
                    python3 python3-pip python3-setuptools python3-wheel
 
-RUN pip install --break-system-packages zensical
+RUN pip install --break-system-packages mkdocs-autorefs zensical
 
 RUN gem install yaml
 

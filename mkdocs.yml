@@ -69,6 +69,8 @@ extra_javascript:
 plugins:
   - search
   - tags
+  - autorefs:
+      resolve_closest: true
 
 markdown_extensions:
   - admonition
