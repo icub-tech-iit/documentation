@@ -8,7 +8,7 @@ software modules.
 
 ## Prepare your system
 **Warning: if your iCub robot is not currently using the robotology-superbuild, do not attempt to migrate it
-without coordinating with the iCub support.  For any doubt, please open an issue at https://github.com/robotology/icub-tech-support.**
+without coordinating with the iCub support.  For any doubt, please open an issue at https://github.com/robotology/mesh-support.**
 
 This page only covers the software installation on the icub-head. To prepare the operating system for the icub-head system,
 please refer to Section on [iCub Operating Systems](../icub_operating_systems/index.md).

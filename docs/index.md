@@ -1,4 +1,4 @@
-# Welcome to the iCub Tech Documentation
+# Welcome to the MESH Documentation
 
 #### [:one:{.blink} `First Launch` with the humanoid robot iCub](./icub_starter_kits/first_steps.md)
 

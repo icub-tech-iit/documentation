@@ -59,5 +59,5 @@ If you mount the `KIT_007` on your iCub, the kinematics of the leg limb will cha
 
 In particular, if you rely on URDF models present in https://github.com/robotology/icub-models, make sure that your iCub model is correctly updated to include the changes of `KIT_007`.
 
-If you do not know if your iCub model is present in https://github.com/robotology/icub-models or if it is updated, feel free to open an issue on https://github.com/robotology/icub-tech-support to ask about it. 
+If you do not know if your iCub model is present in https://github.com/robotology/icub-models or if it is updated, feel free to open an issue on https://github.com/robotology/mesh-support to ask about it. 
 

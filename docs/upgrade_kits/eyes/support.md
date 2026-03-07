@@ -72,4 +72,4 @@ Releasing the grub screws (blue arrows) we can remove the pins (yellow arrows) a
 |  Brackets unmounting |
 
 Mount the head back following the instruction in reverse
-Do not hesitate to contact [iCub support](https://github.com/robotology/icub-tech-support) for any doubt.
+Do not hesitate to contact [iCub support](https://github.com/robotology/mesh-support) for any doubt.
