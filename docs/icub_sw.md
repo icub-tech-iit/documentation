@@ -6,7 +6,7 @@
 - [`The OS for the ergoCub environment`](./ergocub_operating_systems/index.md)
 - [`The YARP Documentation`](https://yarp.it/latest/)
 - [`The iCub Software Documentation`](https://robotology.github.io/robotology-documentation/doc/html/index.html)
-- [`The ergoCub Software Documentation`](https://icub-tech-iit.github.io/ergocub-software/)
+- [`The ergoCub Software Documentation`](https://mesh-iit.github.io/ergocub-software/)
 - [`How to set up multiple iCubs on the same network`](./icub_setup_multiple_robots/index.md)
 - [`iCub Firmware`](./icub_firmware/index.md)
 - [`iCub Microphones`](./icub_microphones/icub_microphones.md)

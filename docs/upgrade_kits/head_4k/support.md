@@ -89,7 +89,7 @@ This upgrade kit is meant to update the head with new eyes composed by high-reso
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/Head4k_harness_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/17018_0.0.1_Harness_WKIT_009_Cameras%20upgrade%20kit.pdf) |
+| [![](img/Head4k_harness_schematic.jpg)](https://github.com/mesh-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/17018_0.0.1_Harness_WKIT_009_Cameras%20upgrade%20kit.pdf) |
 
 ## Content material  EKIT_009
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
@@ -113,12 +113,12 @@ Draft Logic schematic
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/Head4k_logic_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/16519_0.4_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
+| [![](img/Head4k_logic_schematic.jpg)](https://github.com/mesh-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_009/pdf/16519_0.4_Logic_EKIT_009_Cameras%20upgrade%20kit.pdf) |
 
 ## Assembly instruction
 
 ### Assembly sequence
-This upgrade kit is a radical change in the head. For the assembly sequence, refer to the repository  https://github.com/icub-tech-iit/cad-mechanics-public
+This upgrade kit is a radical change in the head. For the assembly sequence, refer to the repository  https://github.com/mesh-iit/cad-mechanics-public
 
 ## Kinematics
 

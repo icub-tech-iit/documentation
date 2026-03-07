@@ -20,7 +20,7 @@ By the networking point of view, the iCub setup is based on the following compon
 - `icub-head` : the PC inside the robot's head
 - `other machines` : all  other PCs you can add to the setup, where you can run your software (in this case `icub-laptop` and `icub-cuda`)
 
-See also https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/networking/
+See also https://mesh-iit.github.io/documentation/icub_operating_systems/icubos/networking/
 
 ## Network connections
 

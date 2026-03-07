@@ -20,7 +20,7 @@ Please, note that the installation procedure can be slightly different in each r
 
 Once the basic OS has been installed it is time to download and launch our playbook:
 
-The Playbook covers the steps decribed in [iCubOS installation from scratch](https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/installation-from-scratch/), [iCub user enviroment](https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/user-env/) and [further tasks](https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/further-tasks/).
+The Playbook covers the steps decribed in [iCubOS installation from scratch](https://mesh-iit.github.io/documentation/icub_operating_systems/icubos/installation-from-scratch/), [iCub user enviroment](https://mesh-iit.github.io/documentation/icub_operating_systems/icubos/user-env/) and [further tasks](https://mesh-iit.github.io/documentation/icub_operating_systems/icubos/further-tasks/).
 
 How to run:
 
@@ -28,7 +28,7 @@ How to run:
 - Check the README file for further instructions
 - launch as `sudo` the `start.sh` file
 ```
-git clone https://github.com/icub-tech-iit/icubos-playbook.git
+git clone https://github.com/mesh-iit/icubos-playbook.git
 
 cd icubos-playbook/
 
@@ -37,4 +37,4 @@ sudo ./start.sh
 ```
 A reboot is recommended in order to load the `Lowlatency` kernel instead of the `Generic`.
 
-Once the installation is completed  follow the [Networking](https://icub-tech-iit.github.io/documentation/icub_operating_systems/icubos/networking/#external-network-configurations) chapter of the guide to configure the network using netplan or your favorite network manager system.
+Once the installation is completed  follow the [Networking](https://mesh-iit.github.io/documentation/icub_operating_systems/icubos/networking/#external-network-configurations) chapter of the guide to configure the network using netplan or your favorite network manager system.

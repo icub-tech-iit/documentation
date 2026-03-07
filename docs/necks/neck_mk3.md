@@ -3,7 +3,7 @@
 ## Introduction
 
 This documentation page describes the new ergoCub/iCub `Neck MK3`.
-The development of the project has been carried out in https://github.com/icub-tech-iit/study-icub-headedge.
+The development of the project has been carried out in https://github.com/mesh-iit/study-icub-headedge.
 
 The MK3 solution sports a compact tendonless serial kinematics mechanism that was designed precisely to circumvent the issues observed with the tendons employed in the MK2 prototype.
 

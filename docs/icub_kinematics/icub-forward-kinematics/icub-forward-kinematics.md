@@ -50,9 +50,9 @@ The roto-translation which converts a point in one of these reference frames to 
 | Inertia sensor V2 | -&gt; | Root            | **T\_RoIs**                   | [ iCub Inertial Sensor Forward Kinematics V2](./icub-forward-kinematics-imu.md#v2)         | [ICubFwdKinNewV2.zip][ICubFwdKinNewV2]     |
 
 
-[ICubFwdKinNew]: https://github.com/icub-tech-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNew.zip
-[ICubFwdKinNewV2]: https://github.com/icub-tech-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNewV2.zip
-[ICubFwdKinNewV2.5]: https://github.com/icub-tech-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNewV2.5.zip
+[ICubFwdKinNew]: https://github.com/mesh-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNew.zip
+[ICubFwdKinNewV2]: https://github.com/mesh-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNewV2.zip
+[ICubFwdKinNewV2.5]: https://github.com/mesh-iit/documentation/raw/master/docs/icub_kinematics/icub-forward-kinematics/assets/ICubFwdKinNewV2.5.zip
 
 Each of these matrices is constructed with two steps. The first consists in a rigid roto-translation from the points in the root reference frame to points in the 0th reference frame as defined by the Denavit-Hartenberg convention. The second step corresponds to the Denavit-Hartenberg description of the forward kinematic, i.e. the roto-translation from the 0th reference frame to the nth reference frame being n the number of degrees of freedom.
 

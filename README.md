@@ -1,11 +1,11 @@
 MESH Docs
 =========
 
-[![GitHub Pages](https://github.com/icub-tech-iit/documentation/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/icub-tech-iit/documentation/actions/workflows/gh-pages.yml)
-[![Check Links](https://github.com/icub-tech-iit/documentation/actions/workflows/check-links.yml/badge.svg)](https://github.com/icub-tech-iit/documentation/actions/workflows/check-links.yml)
+[![GitHub Pages](https://github.com/mesh-iit/documentation/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/mesh-iit/documentation/actions/workflows/gh-pages.yml)
+[![Check Links](https://github.com/mesh-iit/documentation/actions/workflows/check-links.yml/badge.svg)](https://github.com/mesh-iit/documentation/actions/workflows/check-links.yml)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-- 🌐 Browse our [online documentation](https://icub-tech-iit.github.io/documentation).
+- 🌐 Browse our [online documentation](https://mesh-iit.github.io/documentation).
 - 📝 Importantly, you can contribute to these docs by fixing typos and proposing new additions (see below).
 
 # Contributing
@@ -21,7 +21,7 @@ This repository is maintained by:
 # ☁ Cloud Workflow
 You can leverage on the following Cloud IDE's to quickly get a testing platform where to try out how the documentation is rendered.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/icub-tech-iit/documentation)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mesh-iit/documentation)
 
 ## 🔘 [GitHub Codespaces](https://github.com/features/codespaces)
 
@@ -49,7 +49,7 @@ you need to install [**`zensical`**](https://zensical.org/) first.
 
 Once installed, just clone this repo, navigate to it and serve the content:
 ```console
-git clone https://github.com/icub-tech-iit/documentation.git
+git clone https://github.com/mesh-iit/documentation.git
 cd documentation
 zensical serve
 ```
@@ -63,7 +63,7 @@ First of all you need a conda distribution, for example [Miniforge3](https://git
 
 If you already have a conda distribution, just create a new [environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (for example called `zensical-env`) and install in it the required dependencies:
 ```console
-git clone https://github.com/icub-tech-iit/documentation.git
+git clone https://github.com/mesh-iit/documentation.git
 cd documentation
 conda create -n zensical-env
 conda activate zensical-env

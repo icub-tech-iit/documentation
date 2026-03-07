@@ -40,7 +40,7 @@
 
 !!! note "note"
 
-    [link to harness schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14767%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(wiring%20parts)) 
+    [link to harness schematics](https://github.com/mesh-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14767%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(wiring%20parts)) 
 
 ## Content material  EKIT_004 
 |  Pieces |     Alias    |    REV    |  Description       |  Code Wgst |
@@ -50,7 +50,7 @@
 
 !!! note "note"
 
-    [link to logic schematics](https://github.com/icub-tech-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14768%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(electronics))
+    [link to logic schematics](https://github.com/mesh-iit/electronics-wiring-public/tree/master/icub-upgrade-kits/kit_004/14768%20-%20iCub%20Upperarms%20fix%20skin%20breaking%20(electronics))
 
 ## Historical review:
 In previous revisions of the covers, the mini cards were organized in the shape of hexagons. This largely caused the skin patch PCB to flex and break, because the patches took the high curvature of the cover (see image).

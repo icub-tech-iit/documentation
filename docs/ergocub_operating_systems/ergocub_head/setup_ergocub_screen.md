@@ -4,7 +4,7 @@
 
     This procedure applies only to `ergocub-head` and must be performed after the [JetPack installation](../../icub_operating_systems/icubos/jetpack.md) has been completed.
 
-When you start the ergoCub head for the first time, the screen will display a desktop showing the NVIDIA logo. While this is generally fine, it requires the user to manually run the [`ergoCubEmotions`](https://github.com/icub-tech-iit/ergocub-software/tree/master/src/modules/ergoCubEmotions) module. This procedure allows you to hide all bars on the desktop and set the wallpaper to one of the images stored in the [expressions folder](https://github.com/icub-tech-iit/ergocub-software/tree/14599254440686b8a373e1635f046a6821ddee78/src/modules/ergoCubEmotions/expressions/images).
+When you start the ergoCub head for the first time, the screen will display a desktop showing the NVIDIA logo. While this is generally fine, it requires the user to manually run the [`ergoCubEmotions`](https://github.com/mesh-iit/ergocub-software/tree/master/src/modules/ergoCubEmotions) module. This procedure allows you to hide all bars on the desktop and set the wallpaper to one of the images stored in the [expressions folder](https://github.com/mesh-iit/ergocub-software/tree/14599254440686b8a373e1635f046a6821ddee78/src/modules/ergoCubEmotions/expressions/images).
 
 ---
 
@@ -45,7 +45,7 @@ This guide is based on these [instructions](https://askubuntu.com/a/1264692).
     gsettings set org.gnome.desktop.background picture-uri <uri-of-the-wallpaper>
     ```
 
-2. If [ergocub-software](https://github.com/icub-tech-iit/ergocub-software) is installed via the robotology-superbuild, you can use this command:
+2. If [ergocub-software](https://github.com/mesh-iit/ergocub-software) is installed via the robotology-superbuild, you can use this command:
 
     ```bash
     gsettings set org.gnome.desktop.background picture-uri file:///usr/local/src/robot/robotology-superbuild/src/ergocub-software/src/modules/ergoCubEmotions/expressions/images/exp_img_1.png

@@ -143,7 +143,7 @@ less "$(yarp resource --from "network.$YARP_ROBOT_NAME.xml" | sed 's/\"//g' | he
 ls -l ../robotology-superbuild/build/install/share/ICUBcontrib/robots/
 ```
 - Keep wiring diagrams and the exact network XML used for the run together for traceability:
-  https://github.com/icub-tech-iit/electronics-wiring-public
+  https://github.com/mesh-iit/electronics-wiring-public
 
 ## Logs and escalation
 - Per‑IP logs: tools/yafu/logs/*.log — include these plus the firmware.info.xml board entry when asking for help.

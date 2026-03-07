@@ -474,6 +474,6 @@ Below a list of useful links:
 
 - Firmware [binaries docs](https://github.com/robotology/icub-firmware-build/tree/master/docs)
 - Firmware [binaries](https://github.com/robotology/icub-firmware-build)
-- Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
+- Low-level [boards programming](https://mesh-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
 
 

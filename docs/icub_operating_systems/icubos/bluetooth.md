@@ -97,10 +97,10 @@ The connections made via ``rfcomm`` get reset when shutting down. In order to ha
 
 ### Connect to the BCB board automatically
 
-The connections made via ``rfcomm`` get reset when shutting down. In order to have them working at startup, create a system service as follows. First create the file ``bt-battery.service`` in the folder ``/etc/systemd/system/`` as [here](https://github.com/icub-tech-iit/icub-os-files/blob/master/scripts/bt-battery.service)
+The connections made via ``rfcomm`` get reset when shutting down. In order to have them working at startup, create a system service as follows. First create the file ``bt-battery.service`` in the folder ``/etc/systemd/system/`` as [here](https://github.com/mesh-iit/icub-os-files/blob/master/scripts/bt-battery.service)
 
 This service runs once the ``bt-battery_connect.sh`` script at startup after running the ``bluetooth`` service.
-You can find the script [here](https://github.com/icub-tech-iit/icub-os-files/blob/master/scripts/bt-battery_connect.sh), and it needs to be saved in the ``/etc/rc.iCub.d`` system folder.
+You can find the script [here](https://github.com/mesh-iit/icub-os-files/blob/master/scripts/bt-battery_connect.sh), and it needs to be saved in the ``/etc/rc.iCub.d`` system folder.
 ⚠️ You need to change _RNBT_ADDRESS_ with the address you noted, keeping the ``"``.
 
 The scripts first tries to connect using ``rfcomm connect``. If it works (hence ``rfcomm connect`` is still alive), releases the connection. Then it tries running ``rfcomm bind`` and ``stty`` checking the outputs in case of errors. If there is any error, it tries again at most 10 times.

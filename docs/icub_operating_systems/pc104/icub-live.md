@@ -14,7 +14,7 @@ The latest version is 7.10 based on [Debian 10 (Buster)](https://www.debian.org/
 !!! warning "`robotology-superbuild` stopped supporting Debian <= 10"
 
     Please, consider that the last release of `robotology-superbuild` supporting Debian <= 10 is [v2024.08.0](https://github.com/robotology/robotology-superbuild/releases/tag/v2024.08.0).
-    Check out [🏷️ issue #365](https://github.com/icub-tech-iit/documentation/issues/365) for further details.
+    Check out [🏷️ issue #365](https://github.com/mesh-iit/documentation/issues/365) for further details.
 
 ## Versioning
 - 1.x This is an Etch'n'half based distribution, built on a Debian LIVE system.

@@ -5,7 +5,7 @@ site_description: Documentation resources for the iCub & R1 robots
 site_author: MESH
 copyright: BSD 3-Clause License
 
-repo_name: icub-tech-iit/documentation
+repo_name: mesh-iit/documentation
 repo_url: https://github.com/mesh-iit/documentation
 
 theme:
@@ -88,7 +88,7 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.keys
   - pymdownx.magiclink:
-      user: icub-tech-iit
+      user: mesh-iit
       repo: documentation
       repo_url_shortener: true
       repo_url_shorthand: true

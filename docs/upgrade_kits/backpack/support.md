@@ -56,7 +56,7 @@ This upgrade kit is meant to update the iCub backpack with new accomodation for 
 
 | 🔘 Click to download the PDF |
 | :---: |
-| [![](img/Backpack_harness_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_010/pdf/17918_0.0.1_Harness_WKIT_010_Backpack%20upgrade%20kit.pdf) |
+| [![](img/Backpack_harness_schematic.jpg)](https://github.com/mesh-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_010/pdf/17918_0.0.1_Harness_WKIT_010_Backpack%20upgrade%20kit.pdf) |
 
 ## Content material  EKIT_010
 |  Pieces |     Alias    |    Rev    |  Description       |  Code Wgst |
@@ -71,7 +71,7 @@ Draft Logic schematic
 
 | 🔘 Click to download the PDF |
 | :-------------------------: |
-| [![](img/Backpack_logic_schematic.jpg)](https://github.com/icub-tech-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_010/pdf/18723_0.1_Logic_EKIT_010_Backpack%20upgrade%20kit.pdf) |
+| [![](img/Backpack_logic_schematic.jpg)](https://github.com/mesh-iit/electronics-wiring-public/blob/master/icub-upgrade-kits/kit_010/pdf/18723_0.1_Logic_EKIT_010_Backpack%20upgrade%20kit.pdf) |
 
 ## Assembly instruction
 

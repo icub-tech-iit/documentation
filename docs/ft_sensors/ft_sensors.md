@@ -49,7 +49,7 @@ Table 2: typical values after sensor calibration
 
 ### Creo CAD model
 ---
-The CAD model of FTSens is available in the hardware [repository](https://github.com/icub-tech-iit/cad-mechanics-public/tree/master/projects/common/ic_008_ft45_M4) of the `icub-tech-iit` organization on `GitHub`.
+The CAD model of FTSens is available in the hardware [repository](https://github.com/mesh-iit/cad-mechanics-public/tree/master/projects/common/ic_008_ft45_M4) of the `mesh-iit` organization on `GitHub`.
 
 In particular, the FT sensor assembly name is `ic_008_a_001.asm.1`.
 
@@ -61,7 +61,7 @@ For more info on how to flash the firmware and the calibration matrix on a FT se
 ---
 There are three versions of the electronic board of the iCub's FT sensor: STRAIN (also known as STRAIN1), STRAIN1.5 or STRAIN2. All these electronic boards sample the analog strain gauges voltages, and expose the measurements over a CAN interface.
 
-Low-level documentation and materials about the `STRAIN2` board are available [here](https://github.com/icub-tech-iit/electronics-boards-public/tree/master/sensor-boards/strain2).
+Low-level documentation and materials about the `STRAIN2` board are available [here](https://github.com/mesh-iit/electronics-boards-public/tree/master/sensor-boards/strain2).
 
 Firmware source code:
 
@@ -129,7 +129,7 @@ Firmware source code:
 </ol>
 
 
-For further details on the assembly refer to the component drawing in the repository [folder](https://github.com/icub-tech-iit/cad-mechanics-public/tree/master/projects/common/ic_005_ft58).
+For further details on the assembly refer to the component drawing in the repository [folder](https://github.com/mesh-iit/cad-mechanics-public/tree/master/projects/common/ic_005_ft58).
 The drawing code is depends on the sensor to be assebled (refer to the table in the above section for the code).
 
 The top interface is fixed with 6 M4x10 UNI 5931 counterbore hex. screws (cod. V4-10--_-_U5931_GC).

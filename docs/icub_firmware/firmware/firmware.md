@@ -48,7 +48,7 @@ You can view some of this information with:
 ## Useful Resources
 Below a list of useful links:
 
-- Low-level [boards programming](https://icub-tech-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
+- Low-level [boards programming](https://mesh-iit.github.io/procedures/tp-boards-programming/) (using degugger/programmer)
 - Firmware [sources](https://github.com/robotology/icub-firmware)
 - Firmware [binaries](https://github.com/robotology/icub-firmware-build)
 - `FirmwareUpdater` [doc](../firmwareupdater/firmwareupdater.md) 

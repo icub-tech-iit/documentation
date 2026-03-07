@@ -242,10 +242,10 @@ python3 manageFWrobot.py --help
   - If you find mismatches between wiring and network file, correct either the wiring or the network XML so they are coherent before attempting firmware updates.
 
 - Electronic wiring / schematic reference
-  - Wiring diagrams and electronic-schematics link: <https://github.com/icub-tech-iit/electronics-wiring-public>
+  - Wiring diagrams and electronic-schematics link: <https://github.com/mesh-iit/electronics-wiring-public>
 
 - More troubleshooting and documentation:
-  - [FirmwareUpdater online docs (troubleshooting & CAN id info)](https://icub-tech-iit.github.io/documentation/icub_firmware/firmwareupdater/firmwareupdater/?h=firm#change-can-id)
+  - [FirmwareUpdater online docs (troubleshooting & CAN id info)](https://mesh-iit.github.io/documentation/icub_firmware/firmwareupdater/firmwareupdater/?h=firm#change-can-id)
   - [FirmwareUpdater full details (GitHub)](https://github.com/robotology/icub-firmware-build/blob/master/docs/FirmwareUpdater.readme.fulldetails.txt)
 
 ---

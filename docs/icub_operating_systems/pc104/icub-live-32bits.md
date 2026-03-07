@@ -1,6 +1,6 @@
 # Building a 32 bits version of iCub LIVE
 
-Since the first versions of the PC-10 boards are ony 32 bits, the prebuilt images for versions above 4.x cannot be used to upgrade the OS. An alternative solution is to build a slightly modified version of the image, using the scripts from [this repo](https://github.com/icub-tech-iit/icub-os-files).
+Since the first versions of the PC-10 boards are ony 32 bits, the prebuilt images for versions above 4.x cannot be used to upgrade the OS. An alternative solution is to build a slightly modified version of the image, using the scripts from [this repo](https://github.com/mesh-iit/icub-os-files).
 
 Here are the steps to follow to build an iCub LIVE image based on Debian Buster (7.10):
 - Get a Debian environment
@@ -25,14 +25,14 @@ To set up your VM:
 Once this is done, you have a working Debian environment. We can now build the iCub LIVE image
 
 ## Clone the icus-os-files repository
-The image we want to create is based on Debian LIVE build. However, a number of iCub-specific modifications are then applied. To make the process easier, everything is scripted and the code is available [here](https://github.com/icub-tech-iit/icub-os-files). To get ready to build the image:
+The image we want to create is based on Debian LIVE build. However, a number of iCub-specific modifications are then applied. To make the process easier, everything is scripted and the code is available [here](https://github.com/mesh-iit/icub-os-files). To get ready to build the image:
 
 - Open a terminal in your Debian environment
 - Install git: `sudo apt install git`
-- Clone the repository: `git clone https://github.com/icub-tech-iit/icub-os-files.git`
+- Clone the repository: `git clone https://github.com/mesh-iit/icub-os-files.git`
 - Go to the folder containing our scripts: `cd icub-os-files/scripts/icub-live`
 - Make the scripts executable: `chmod u+x ./*.sh`
-- Adapt the files for a 32 bits architecture based on the changes pointed out from within [this PR](https://github.com/icub-tech-iit/icub-os-files/pull/4). To this end, you may cherry-pick the commit.
+- Adapt the files for a 32 bits architecture based on the changes pointed out from within [this PR](https://github.com/mesh-iit/icub-os-files/pull/4). To this end, you may cherry-pick the commit.
 
 ## Build and flash the image
 From there, you can follow the procedure described at the bottom of [the iCub LIVE details page](./the-icub-live-details.md). In short:
