@@ -1,12 +1,12 @@
 # Project information
-site_name: iCub Tech Docs
-site_url: https://icub-tech-iit.github.io/documentation
+site_name: MESH Docs
+site_url: https://mesh-iit.github.io/documentation
 site_description: Documentation resources for the iCub & R1 robots
-site_author: iCub Tech
+site_author: MESH
 copyright: BSD 3-Clause License
 
 repo_name: icub-tech-iit/documentation
-repo_url: https://github.com/icub-tech-iit/documentation
+repo_url: https://github.com/mesh-iit/documentation
 
 theme:
   name: material

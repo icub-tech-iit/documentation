@@ -1,5 +1,5 @@
-iCub Tech Docs
-==============
+MESH Docs
+=========
 
 [![GitHub Pages](https://github.com/icub-tech-iit/documentation/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/icub-tech-iit/documentation/actions/workflows/gh-pages.yml)
 [![Check Links](https://github.com/icub-tech-iit/documentation/actions/workflows/check-links.yml/badge.svg)](https://github.com/icub-tech-iit/documentation/actions/workflows/check-links.yml)

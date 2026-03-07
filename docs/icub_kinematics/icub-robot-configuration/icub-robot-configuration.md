@@ -190,7 +190,7 @@ The calibrator in the startup phase launches the calibration procedure: after a 
 
 When the user shuts down [yarprobotinterface](https://yarp.it/latest/group__yarprobotinterface.html), the calibrator moves all joints to the park position, that is the position specified in “positionHome” parameter using “velocityHome”.
 
-## Note for robots in iCub Tech (IIT Genoa, Italy)
+## Note for robots in MESH (IIT Genoa, Italy)
 ---
 Usually the robots in iCub Facility run developing software, that is, they use the same software modules, but on the development branch instead of the stable one (master).
 

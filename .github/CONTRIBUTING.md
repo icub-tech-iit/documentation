@@ -1,5 +1,5 @@
-Contributing to iCub Tech Docs                                             {#contributing}
-==============================
+Contributing to MESH Docs                                             {#contributing}
+=========================
 
 We accept contributions via [forks and pull-requests](https://guides.github.com/activities/forking).
 
